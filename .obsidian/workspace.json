@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/raw/card_289.md",
+                "file": "algorithm/大概要分配什么dp之类的.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "card_289"
+              "title": "大概要分配什么dp之类的"
             }
           }
         ],
@@ -227,8 +227,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a423589f04cf5227",
+  "active": "fd0f0f4f57f41807",
   "lastOpenFiles": [
+    "Algorithm.txt",
+    "algorithm/raw",
+    "algorithm/raw/card_289.md",
     "algorithm/raw/size_t_就是加强版int（在遍历数组时）.md",
     "algorithm/大概要分配什么dp之类的.md",
     "algorithm/raw/lambda表达式.md",
@@ -253,10 +256,7 @@
     "algorithm/raw/card_8811.md",
     "algorithm/raw/card_8772.md",
     "algorithm/raw/card_8687.md",
-    "algorithm/raw/card_8644.md",
-    "algorithm/raw/card_8618.md",
     "convert_anki.py",
-    "Algorithm.txt",
     "algorithm/raw",
     "algorithm/新建文件夹",
     "Algorithm.apkg",
