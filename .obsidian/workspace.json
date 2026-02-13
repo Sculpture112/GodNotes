@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开始.md",
+                "file": "algorithm/raw/```_1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "开始"
+              "title": "```_1"
             }
           },
           {
@@ -62,8 +62,7 @@
               "title": "未命名"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -226,8 +225,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a423589f04cf5227",
+  "active": "e6a3417ae5704d9a",
   "lastOpenFiles": [
+    "algorithm/raw/![paste-e3758799b7c374bcb4c0cbeeffd51dcb7f1e8ce3.j.md",
+    "algorithm/raw/![paste-1385f99f605dfec59c3e02d568141736d7572843.j.md",
+    "algorithm/raw/![paste-8b4cde99bdd1b415bd6f27cccecfaeae3cf90a44.j.md",
+    "algorithm/raw/![image.png](1765614214752-ae72c3b7-08a0-4f17-87a9.md",
+    "algorithm/raw/```.md",
+    "algorithm/raw/![paste-65156a764891ac43352bfa7884aa3ec0733e686c.j.md",
+    "algorithm/raw/```_5.md",
+    "algorithm/raw/```_7.md",
+    "algorithm/raw/024快速选择算法.md",
+    "开始.md",
+    "未命名.md",
     "未命名.base",
     "algorithm/raw/2_2.md",
     "algorithm/raw/🗑️_1.md",
@@ -244,16 +254,6 @@
     "algorithm/raw/ @param k int整型.md",
     "algorithm/raw/ [0, l-1] 是有效区：i位置放着 i+1.md",
     "algorithm/raw/ [还债_进窗].md",
-    "algorithm/大概要分配什么dp之类的.md",
-    "algorithm/raw/P2089_烤鸡_题目背景猪猪_Hanke_得到了一只鸡。_题目描述猪猪_Hanke_特别喜欢吃烤.md",
-    "algorithm/raw/P2241_统计方形（数据加强版）_题目背景1997年普及组第一题_题目描述有一个_$n_time.md",
-    "algorithm/raw/![paste-301dda931404f2cf0b12061b8c02155bb3026710.j.md",
-    "algorithm/raw/P1068_[NOIP_2009_普及组]_分数线划定_题目描述世博会志愿者的选拔工作正在_A_市.md",
-    "algorithm/raw/P1116_车厢重组_题目描述在一个旧式的火车站旁边有一座桥，其桥面可以绕河中心的桥墩水平旋转。一.md",
-    "algorithm/raw/P1781_宇宙总统_题目描述地球历公元_6036_年，全宇宙准备竞选一个最贤能的人当总统，共有.md",
-    "algorithm/raw/P1093_[NOIP_2007_普及组]_奖学金_题目背景NOIP2007_普及组_T1_题目描.md",
-    "algorithm/raw/![paste-65156a764891ac43352bfa7884aa3ec0733e686c.j.md",
-    "algorithm/raw/P1923_【深基9.例4】求第_k_小的数_题目描述输入_$n$_个数字_$a_i$，输出这些数.md",
     "Algorithm.txt",
     "algorithm/raw",
     "convert_anki.py",
