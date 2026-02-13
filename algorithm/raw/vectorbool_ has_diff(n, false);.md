@@ -1,1 +1,0 @@
-vectorbool> has_diff(n, false);

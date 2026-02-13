@@ -1,1 +1,0 @@
-vectorint> corpFlightBookings(vectorvectorint>>& bookings, int n) {

@@ -1,1 +1,0 @@
-slow = nums[slow];

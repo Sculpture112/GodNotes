@@ -1,1 +1,0 @@
-void remove(int num) { set[num >> 5] &= ~(1 31)); } // 使用取反掩码保护其他位置

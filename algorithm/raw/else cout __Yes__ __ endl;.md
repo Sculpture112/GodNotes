@@ -1,1 +1,0 @@
-else cout ""Yes"" << endl;

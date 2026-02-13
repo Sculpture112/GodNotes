@@ -1,1 +1,0 @@
-point AP=point(P.x-A.x,P.y-A.y);

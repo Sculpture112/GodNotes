@@ -1,1 +1,0 @@
-vector points(n);

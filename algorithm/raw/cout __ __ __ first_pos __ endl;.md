@@ -1,1 +1,0 @@
-cout "" "" << first_pos << endl;

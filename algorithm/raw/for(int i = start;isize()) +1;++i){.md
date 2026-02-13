@@ -1,1 +1,0 @@
-for(int i = start;isize()) +1;++i){

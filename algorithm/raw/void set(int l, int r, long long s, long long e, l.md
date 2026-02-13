@@ -1,1 +1,0 @@
-void set(int l, int r, long long s, long long e, long long d) {

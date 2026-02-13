@@ -1,1 +1,0 @@
-stackint> in, out;

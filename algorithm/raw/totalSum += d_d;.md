@@ -1,1 +1,0 @@
-totalSum += d*d;

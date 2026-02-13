@@ -1,1 +1,0 @@
-abs(g3 - other.g3)5 &&

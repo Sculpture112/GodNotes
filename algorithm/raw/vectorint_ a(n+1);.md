@@ -1,1 +1,0 @@
-vectorint> a(n+1);

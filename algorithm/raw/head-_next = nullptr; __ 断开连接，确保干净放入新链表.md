@@ -1,1 +1,0 @@
-head->next = nullptr; // 断开连接，确保干净放入新链表

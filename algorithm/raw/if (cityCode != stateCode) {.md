@@ -1,1 +1,0 @@
-if (cityCode != stateCode) {

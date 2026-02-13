@@ -1,1 +1,0 @@
-+ (h2 == nullptr ? 0 : h2->val)

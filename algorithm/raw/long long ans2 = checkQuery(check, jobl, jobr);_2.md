@@ -1,1 +1,0 @@
-long long ans2 = checkQuery(check, jobl, jobr);

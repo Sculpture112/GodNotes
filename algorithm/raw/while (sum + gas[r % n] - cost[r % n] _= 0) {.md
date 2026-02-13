@@ -1,1 +1,0 @@
-while (sum + gas[r % n] - cost[r % n] >= 0) {

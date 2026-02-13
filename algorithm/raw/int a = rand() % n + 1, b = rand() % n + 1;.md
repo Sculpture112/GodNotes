@@ -1,1 +1,0 @@
-int a = rand() % n + 1, b = rand() % n + 1;

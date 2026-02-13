@@ -1,1 +1,0 @@
-int target = n - 4;

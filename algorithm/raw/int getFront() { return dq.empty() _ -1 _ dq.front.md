@@ -1,1 +1,0 @@
-int getFront() { return dq.empty() ? -1 : dq.front(); }

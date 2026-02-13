@@ -1,1 +1,0 @@
-return (1 1)) + f(cur->left, level + 1, h);

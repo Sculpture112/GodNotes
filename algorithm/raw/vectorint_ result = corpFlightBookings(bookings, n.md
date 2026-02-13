@@ -1,1 +1,0 @@
-vectorint> result = corpFlightBookings(bookings, n);

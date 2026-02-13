@@ -1,1 +1,0 @@
-if (l->val != r->val) {

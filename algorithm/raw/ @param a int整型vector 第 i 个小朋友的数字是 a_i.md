@@ -1,1 +1,0 @@
-* @param a int整型vector 第 i 个小朋友的数字是 a_i

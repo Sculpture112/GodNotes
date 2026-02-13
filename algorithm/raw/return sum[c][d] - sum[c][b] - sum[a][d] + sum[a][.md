@@ -1,1 +1,0 @@
-return sum[c][d] - sum[c][b] - sum[a][d] + sum[a][b];

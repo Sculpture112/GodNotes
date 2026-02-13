@@ -1,1 +1,0 @@
-return (a 0 ^ b 0) ? neg(ans) : ans;

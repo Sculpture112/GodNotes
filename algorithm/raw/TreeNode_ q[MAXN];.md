@@ -1,1 +1,0 @@
-TreeNode* q[MAXN];

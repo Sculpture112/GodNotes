@@ -1,1 +1,0 @@
-while (carry > 0) {

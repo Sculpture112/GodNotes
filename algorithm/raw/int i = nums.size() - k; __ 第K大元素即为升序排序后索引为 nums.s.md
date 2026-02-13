@@ -1,1 +1,0 @@
-int i = nums.size() - k; // 第K大元素即为升序排序后索引为 nums.size()-k 的数

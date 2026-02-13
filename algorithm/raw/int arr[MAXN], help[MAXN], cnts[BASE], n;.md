@@ -1,1 +1,0 @@
-int arr[MAXN], help[MAXN], cnts[BASE], n;

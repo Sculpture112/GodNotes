@@ -1,1 +1,0 @@
-string s2 = ""pwwkew"";

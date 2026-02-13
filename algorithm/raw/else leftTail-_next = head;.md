@@ -1,1 +1,0 @@
-else leftTail->next = head;

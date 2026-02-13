@@ -1,1 +1,0 @@
-pos = body.find(target, pos + 1);

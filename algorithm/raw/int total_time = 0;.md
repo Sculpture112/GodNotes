@@ -1,1 +1,0 @@
-int total_time = 0;

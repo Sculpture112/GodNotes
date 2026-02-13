@@ -1,1 +1,0 @@
-help[i++] = arr[a] <= arr[b] ? arr[a++] : arr[b++];

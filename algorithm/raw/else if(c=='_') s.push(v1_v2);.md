@@ -1,1 +1,0 @@
-else if(c=='*') s.push(v1*v2);

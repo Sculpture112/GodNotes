@@ -1,1 +1,0 @@
-ListNode* leftTail = nullptr;

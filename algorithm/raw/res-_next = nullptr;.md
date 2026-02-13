@@ -1,1 +1,0 @@
-res->next = nullptr;

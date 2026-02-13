@@ -1,1 +1,0 @@
-dfs(index +1, current_s,current_b,chosen_cnt);

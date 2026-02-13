@@ -1,1 +1,0 @@
-if (R > mid) update(rt 1 | 1, mid + 1, r, L, R, k);

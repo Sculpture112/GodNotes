@@ -1,1 +1,0 @@
-if (pre->cnt != cur->cnt - 1) {

@@ -1,1 +1,0 @@
-if (r - l + 1 < minLen) {

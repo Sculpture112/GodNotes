@@ -1,1 +1,0 @@
-bool all() { return ones == sz; } // 1的数量等于总大小

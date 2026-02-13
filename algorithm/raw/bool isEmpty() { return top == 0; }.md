@@ -1,1 +1,0 @@
-bool isEmpty() { return top == 0; }

@@ -1,1 +1,0 @@
-lazy(i, jobv, r - l + 1);

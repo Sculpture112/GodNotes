@@ -1,1 +1,0 @@
-fast = nums[nums[fast]];

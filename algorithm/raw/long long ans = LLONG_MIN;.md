@@ -1,1 +1,0 @@
-long long ans = LLONG_MIN;

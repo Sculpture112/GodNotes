@@ -1,1 +1,0 @@
-point center(ox, oy);

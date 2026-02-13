@@ -1,1 +1,0 @@
-int min_paint = 1e9;

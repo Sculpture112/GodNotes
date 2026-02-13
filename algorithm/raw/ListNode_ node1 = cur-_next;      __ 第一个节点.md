@@ -1,1 +1,0 @@
-ListNode* node1 = cur->next;      // 第一个节点

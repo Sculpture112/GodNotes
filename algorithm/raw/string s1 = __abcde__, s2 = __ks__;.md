@@ -1,1 +1,0 @@
-string s1 = ""abcde"", s2 = ""ks"";

@@ -1,1 +1,0 @@
-cur->next = new ListNode(val);

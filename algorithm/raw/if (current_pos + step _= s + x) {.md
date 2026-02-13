@@ -1,1 +1,0 @@
-if (current_pos + step <= s + x) {

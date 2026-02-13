@@ -1,1 +1,0 @@
-return compute(numbers, ops);

@@ -1,1 +1,0 @@
-printf(""表达式 %s 的计算结果为: %d\n"", exp.c_str(), calculate(exp));

@@ -1,1 +1,0 @@
-static const int MAXN = 1002;

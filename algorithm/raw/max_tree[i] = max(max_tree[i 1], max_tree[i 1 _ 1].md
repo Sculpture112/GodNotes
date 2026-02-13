@@ -1,1 +1,0 @@
-max_tree[i] = max(max_tree[i 1], max_tree[i 1 | 1]);

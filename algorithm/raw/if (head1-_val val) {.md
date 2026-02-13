@@ -1,1 +1,0 @@
-if (head1->val val) {

@@ -1,1 +1,0 @@
-scanf(""%d"",&a2); spc  = getchar(); scanf(""%d"",&b2);

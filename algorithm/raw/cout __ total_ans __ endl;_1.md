@@ -1,1 +1,0 @@
-cout << total_ans << endl;

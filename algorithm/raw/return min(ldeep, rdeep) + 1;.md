@@ -1,1 +1,0 @@
-return min(ldeep, rdeep) + 1;

@@ -1,1 +1,0 @@
-if(c!= other.c){

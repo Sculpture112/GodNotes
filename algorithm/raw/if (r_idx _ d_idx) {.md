@@ -1,1 +1,0 @@
-if (r_idx < d_idx) {

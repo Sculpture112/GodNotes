@@ -1,1 +1,0 @@
-struct ListNode { int val; ListNode *next; }; // 链表节点定义

@@ -1,1 +1,0 @@
-fast = fast->next->next;

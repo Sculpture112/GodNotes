@@ -1,1 +1,0 @@
-bool check(int a, int b, int c) {

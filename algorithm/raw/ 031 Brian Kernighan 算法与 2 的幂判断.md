@@ -1,1 +1,0 @@
-// 031 Brian Kernighan 算法与 2 的幂判断

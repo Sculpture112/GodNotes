@@ -1,1 +1,0 @@
-while (!s.empty() && s.top() == poped[idx]) {

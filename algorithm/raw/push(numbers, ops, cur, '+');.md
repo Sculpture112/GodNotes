@@ -1,1 +1,0 @@
-push(numbers, ops, cur, '+');

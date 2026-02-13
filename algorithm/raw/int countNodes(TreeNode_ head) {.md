@@ -1,1 +1,0 @@
-int countNodes(TreeNode* head) {

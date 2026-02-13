@@ -1,1 +1,0 @@
-start = lastEnd->next;

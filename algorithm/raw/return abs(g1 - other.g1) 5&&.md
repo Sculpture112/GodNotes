@@ -1,1 +1,0 @@
-return abs(g1 - other.g1) 5&&

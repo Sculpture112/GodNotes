@@ -1,1 +1,0 @@
-if (L R) return tree[rt];

@@ -1,1 +1,0 @@
-used[digit] = 1;

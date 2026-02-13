@@ -1,1 +1,0 @@
-long long ans1 = query(jobl, jobr, 1, n, 1);

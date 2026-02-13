@@ -1,1 +1,0 @@
-class Code02_LowestCommonAncestorBinarySearch {

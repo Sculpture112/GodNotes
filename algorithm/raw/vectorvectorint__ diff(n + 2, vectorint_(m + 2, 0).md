@@ -1,1 +1,0 @@
-vectorvectorint>> diff(n + 2, vectorint>(m + 2, 0));

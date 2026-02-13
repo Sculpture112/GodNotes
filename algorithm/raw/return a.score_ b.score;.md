@@ -1,1 +1,0 @@
-return a.score> b.score;

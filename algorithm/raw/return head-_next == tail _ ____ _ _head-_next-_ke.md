@@ -1,1 +1,0 @@
-return head->next == tail ? """" : *head->next->keys.begin();

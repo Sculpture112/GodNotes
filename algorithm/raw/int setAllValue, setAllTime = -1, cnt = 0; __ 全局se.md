@@ -1,1 +1,0 @@
-int setAllValue, setAllTime = -1, cnt = 0; // 全局setAll值、全局时间、当前时间计数

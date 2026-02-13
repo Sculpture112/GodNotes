@@ -1,1 +1,0 @@
-if (c == 'E') return 2;

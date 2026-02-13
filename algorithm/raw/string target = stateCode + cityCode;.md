@@ -1,1 +1,0 @@
-string target = stateCode + cityCode;

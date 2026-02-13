@@ -1,1 +1,0 @@
-int n, max_len = 0;

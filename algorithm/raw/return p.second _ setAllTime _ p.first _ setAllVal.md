@@ -1,1 +1,0 @@
-return p.second > setAllTime ? p.first : setAllValue;

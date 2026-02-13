@@ -1,1 +1,0 @@
-if (digit == 0 || used[digit]) return false; // 不能有0，不能重复

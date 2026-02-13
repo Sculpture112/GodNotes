@@ -1,1 +1,0 @@
-if (counts.count(target)) {

@@ -1,1 +1,0 @@
-build(rt 1, l, mid);

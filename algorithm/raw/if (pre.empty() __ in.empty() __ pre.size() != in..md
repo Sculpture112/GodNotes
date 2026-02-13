@@ -1,1 +1,0 @@
-if (pre.empty() || in.empty() || pre.size() != in.size()) {

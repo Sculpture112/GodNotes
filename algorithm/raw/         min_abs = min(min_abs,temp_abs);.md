@@ -1,1 +1,0 @@
-//         min_abs = min(min_abs,temp_abs);

@@ -1,1 +1,0 @@
-arr.pop_back(); map.erase(val);         // 物理删除末尾，删除哈希记录

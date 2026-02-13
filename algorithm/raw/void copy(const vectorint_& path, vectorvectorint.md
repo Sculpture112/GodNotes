@@ -1,1 +1,0 @@
-void copy(const vectorint>& path, vectorvectorint>>& ans) {

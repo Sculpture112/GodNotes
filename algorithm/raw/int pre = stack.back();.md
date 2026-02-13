@@ -1,1 +1,0 @@
-int pre = stack.back();

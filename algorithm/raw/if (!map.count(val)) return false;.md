@@ -1,1 +1,0 @@
-if (!map.count(val)) return false;

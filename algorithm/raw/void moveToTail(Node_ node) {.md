@@ -1,1 +1,0 @@
-void moveToTail(Node* node) {

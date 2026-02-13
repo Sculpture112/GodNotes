@@ -1,1 +1,0 @@
-pre->next = nullptr; // 断开前半部分

@@ -1,1 +1,0 @@
-int y = (b 0) ? neg(b) : b;

@@ -1,1 +1,0 @@
-while (a->next) { a = a->next; diff++; }

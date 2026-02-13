@@ -1,1 +1,0 @@
-void checkUpdate(vectorlong long>& check, int jobl, int jobr, long long jobv) {

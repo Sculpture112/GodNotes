@@ -1,1 +1,0 @@
-class Code03_WidthOfBinaryTree1 {

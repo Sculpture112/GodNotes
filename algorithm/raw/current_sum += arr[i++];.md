@@ -1,1 +1,0 @@
-current_sum += arr[i++];

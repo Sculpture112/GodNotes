@@ -1,1 +1,0 @@
-return f(str, 0);

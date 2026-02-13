@@ -1,1 +1,0 @@
-int n;long long b;

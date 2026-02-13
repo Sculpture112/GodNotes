@@ -1,1 +1,0 @@
-total += cost[num % 10];

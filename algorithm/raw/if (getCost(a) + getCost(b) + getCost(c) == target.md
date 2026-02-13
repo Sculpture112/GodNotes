@@ -1,1 +1,0 @@
-if (getCost(a) + getCost(b) + getCost(c) == target) {

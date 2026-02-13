@@ -1,1 +1,0 @@
-for (int num : nums) eor ^= num;

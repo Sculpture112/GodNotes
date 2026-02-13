@@ -1,1 +1,0 @@
-if (p3 == 2) reverse(res.begin(), res.end());

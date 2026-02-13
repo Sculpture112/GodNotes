@@ -1,1 +1,0 @@
-Bucket *nxt = cur->next;

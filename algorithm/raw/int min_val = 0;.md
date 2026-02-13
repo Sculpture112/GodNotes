@@ -1,1 +1,0 @@
-int min_val = 0;

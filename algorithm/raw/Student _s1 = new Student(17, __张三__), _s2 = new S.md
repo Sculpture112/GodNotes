@@ -1,1 +1,0 @@
-Student *s1 = new Student(17, ""张三""), *s2 = new Student(17, ""张三"");

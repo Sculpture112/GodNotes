@@ -1,1 +1,0 @@
-int topNum = numbers.back();

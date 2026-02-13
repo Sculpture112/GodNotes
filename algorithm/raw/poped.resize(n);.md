@@ -1,1 +1,0 @@
-poped.resize(n);

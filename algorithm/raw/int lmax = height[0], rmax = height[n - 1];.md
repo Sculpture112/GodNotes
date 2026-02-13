@@ -1,1 +1,0 @@
-int lmax = height[0], rmax = height[n - 1];

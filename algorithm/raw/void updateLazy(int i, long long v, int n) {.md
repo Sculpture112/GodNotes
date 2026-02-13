@@ -1,1 +1,0 @@
-void updateLazy(int i, long long v, int n) {

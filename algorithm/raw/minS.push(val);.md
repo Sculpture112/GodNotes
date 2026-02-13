@@ -1,1 +1,0 @@
-minS.push(val);

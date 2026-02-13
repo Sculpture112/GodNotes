@@ -1,1 +1,0 @@
-int ans = div(add(a, offset), b);

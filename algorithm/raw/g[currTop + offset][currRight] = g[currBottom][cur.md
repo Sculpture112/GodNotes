@@ -1,1 +1,0 @@
-g[currTop + offset][currRight] = g[currBottom][currRight - offset]; // 右下 填到 右上

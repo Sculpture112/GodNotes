@@ -1,1 +1,0 @@
-return a.votes.length() > b.votes.length();

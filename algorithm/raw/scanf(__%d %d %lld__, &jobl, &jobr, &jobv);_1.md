@@ -1,1 +1,0 @@
-scanf(""%d %d %lld"", &jobl, &jobr, &jobv);

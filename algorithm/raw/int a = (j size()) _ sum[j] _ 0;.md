@@ -1,1 +1,0 @@
-int a = (j size()) ? sum[j] : 0;

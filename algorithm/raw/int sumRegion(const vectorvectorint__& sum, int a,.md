@@ -1,1 +1,0 @@
-int sumRegion(const vectorvectorint>>& sum, int a, int b, int c, int d) {

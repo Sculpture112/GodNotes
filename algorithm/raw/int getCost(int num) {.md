@@ -1,1 +1,0 @@
-int getCost(int num) {

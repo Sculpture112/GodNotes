@@ -1,1 +1,0 @@
-for (int r = i + 1; r <= j; ++r)

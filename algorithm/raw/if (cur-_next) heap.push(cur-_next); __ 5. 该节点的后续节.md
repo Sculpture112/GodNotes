@@ -1,1 +1,0 @@
-if (cur->next) heap.push(cur->next); // 5. 该节点的后续节点入堆

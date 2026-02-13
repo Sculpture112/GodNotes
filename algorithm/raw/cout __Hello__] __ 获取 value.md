@@ -1,1 +1,0 @@
-cout ""Hello""] // 获取 value

@@ -1,1 +1,0 @@
-cout << name[cur] << endl;

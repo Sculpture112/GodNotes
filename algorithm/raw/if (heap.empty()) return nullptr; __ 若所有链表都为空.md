@@ -1,1 +1,0 @@
-if (heap.empty()) return nullptr; // 若所有链表都为空

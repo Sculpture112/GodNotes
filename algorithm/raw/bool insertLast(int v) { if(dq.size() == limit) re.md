@@ -1,1 +1,0 @@
-bool insertLast(int v) { if(dq.size() == limit) return false; dq.push_back(v); return true; }

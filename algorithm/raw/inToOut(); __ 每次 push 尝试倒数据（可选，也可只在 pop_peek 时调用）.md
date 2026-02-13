@@ -1,1 +1,0 @@
-inToOut(); // 每次 push 尝试倒数据（可选，也可只在 pop/peek 时调用）

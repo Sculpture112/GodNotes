@@ -1,1 +1,0 @@
-int data[MAXN];  // 数据栈数组

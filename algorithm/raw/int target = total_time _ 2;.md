@@ -1,1 +1,0 @@
-int target = total_time / 2;

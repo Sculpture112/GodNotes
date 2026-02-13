@@ -1,1 +1,0 @@
-while (arr[i] > arr[(i - 1) / 2]) { swap(arr[i], arr[(i - 1) / 2]); i = (i - 1) / 2; }

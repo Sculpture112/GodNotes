@@ -1,1 +1,0 @@
-string cur = vals[cnt++];

@@ -1,1 +1,0 @@
-if (!(getline(cin, s[i]))) return;

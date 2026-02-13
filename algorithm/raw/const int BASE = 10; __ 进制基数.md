@@ -1,1 +1,0 @@
-const int BASE = 10; // 进制基数

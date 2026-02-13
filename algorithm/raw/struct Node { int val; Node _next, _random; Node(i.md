@@ -1,1 +1,0 @@
-struct Node { int val; Node *next, *random; Node(int v) : val(v), next(nullptr), random(nullptr) {} };

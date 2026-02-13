@@ -1,1 +1,0 @@
-g[currBottom - offset][currLeft] = temp;                             // 暂存的左上 填到 左下

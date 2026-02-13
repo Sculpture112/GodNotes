@@ -1,1 +1,0 @@
-string t = ""ABC"";

@@ -1,1 +1,0 @@
-swap(nums, i, j);

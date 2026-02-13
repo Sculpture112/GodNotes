@@ -1,1 +1,0 @@
-sum += gas[r % n] - cost[r % n];

@@ -1,1 +1,0 @@
-printf(""%lld\n"", query(1, 1, n, x, y));

@@ -1,1 +1,0 @@
-else { scanf(""%d"", &a); setAll(a); }

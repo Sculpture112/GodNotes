@@ -1,1 +1,0 @@
-int cnt_boy = 0;

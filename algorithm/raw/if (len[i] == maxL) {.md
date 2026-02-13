@@ -1,1 +1,0 @@
-if (len[i] == maxL) {

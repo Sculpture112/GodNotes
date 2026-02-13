@@ -1,1 +1,0 @@
-return map[key]->v;

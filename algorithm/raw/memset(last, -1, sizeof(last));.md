@@ -1,1 +1,0 @@
-memset(last, -1, sizeof(last));

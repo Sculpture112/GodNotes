@@ -1,1 +1,0 @@
-fact.push_back(carry % 10);

@@ -1,1 +1,0 @@
-if (dataMap.find(k) == dataMap.end()) return -1; // 不存在返回-1

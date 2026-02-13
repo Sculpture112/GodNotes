@@ -1,1 +1,0 @@
-while(!s.empty() && s.top() > affter_max[i+1]){

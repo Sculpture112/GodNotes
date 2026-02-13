@@ -1,1 +1,0 @@
-if (--valueTimes[ans] == 0) valueTimes.erase(ans); // 更新元素总频率

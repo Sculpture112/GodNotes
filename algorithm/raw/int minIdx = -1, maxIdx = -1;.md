@@ -1,1 +1,0 @@
-int minIdx = -1, maxIdx = -1;

@@ -1,1 +1,0 @@
-while (head != nullptr) {

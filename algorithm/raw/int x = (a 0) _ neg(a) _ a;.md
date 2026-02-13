@@ -1,1 +1,0 @@
-int x = (a 0) ? neg(a) : a;

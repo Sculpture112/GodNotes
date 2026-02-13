@@ -1,1 +1,0 @@
-} else if (arr[i] < x) {

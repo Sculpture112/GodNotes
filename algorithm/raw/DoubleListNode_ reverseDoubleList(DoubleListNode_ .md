@@ -1,1 +1,0 @@
-DoubleListNode* reverseDoubleList(DoubleListNode* head) {

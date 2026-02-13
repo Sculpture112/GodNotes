@@ -1,1 +1,0 @@
-sort(people.begin(), people.end());

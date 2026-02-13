@@ -1,1 +1,0 @@
-scanf(""%lld"", &arr[i]);

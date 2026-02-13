@@ -1,1 +1,0 @@
-stack.push_back(pre*num);

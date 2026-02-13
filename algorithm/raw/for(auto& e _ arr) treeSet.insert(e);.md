@@ -1,1 +1,0 @@
-for(auto& e : arr) treeSet.insert(e);

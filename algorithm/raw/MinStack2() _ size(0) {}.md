@@ -1,1 +1,0 @@
-MinStack2() : size(0) {}

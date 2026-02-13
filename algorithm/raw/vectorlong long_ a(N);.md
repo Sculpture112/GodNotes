@@ -1,1 +1,0 @@
-vectorlong long> a(N);

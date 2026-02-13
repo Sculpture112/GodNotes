@@ -1,1 +1,0 @@
-colSum[j][i] = colSum[j][i - 1] + isObstacle;

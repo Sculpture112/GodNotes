@@ -1,1 +1,0 @@
-coutid "" ""score<<endl;

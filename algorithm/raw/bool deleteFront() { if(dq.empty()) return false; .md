@@ -1,1 +1,0 @@
-bool deleteFront() { if(dq.empty()) return false; dq.pop_front(); return true; }

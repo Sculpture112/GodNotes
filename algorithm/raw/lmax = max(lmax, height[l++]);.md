@@ -1,1 +1,0 @@
-lmax = max(lmax, height[l++]);

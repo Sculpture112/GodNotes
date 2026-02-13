@@ -1,1 +1,0 @@
-int top() { return q.front(); }

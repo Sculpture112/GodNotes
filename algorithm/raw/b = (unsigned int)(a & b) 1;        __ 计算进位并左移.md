@@ -1,1 +1,0 @@
-b = (unsigned int)(a & b) 1;        // 计算进位并左移

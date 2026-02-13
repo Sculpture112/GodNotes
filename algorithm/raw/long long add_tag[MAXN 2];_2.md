@@ -1,1 +1,0 @@
-long long add_tag[MAXN 2];

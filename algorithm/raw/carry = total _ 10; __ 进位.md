@@ -1,1 +1,0 @@
-carry = total / 10; // 进位

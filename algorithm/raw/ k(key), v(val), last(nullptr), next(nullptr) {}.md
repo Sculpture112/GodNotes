@@ -1,1 +1,0 @@
-: k(key), v(val), last(nullptr), next(nullptr) {}

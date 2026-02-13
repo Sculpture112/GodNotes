@@ -1,1 +1,0 @@
-cout << cnt_girl << endl;

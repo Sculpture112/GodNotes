@@ -1,1 +1,0 @@
-long long d = (e - s) / (r - l == 0 ? 1 : (r - l));

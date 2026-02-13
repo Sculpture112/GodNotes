@@ -1,1 +1,0 @@
-bool isValidBST2(TreeNode* head) {

@@ -1,1 +1,0 @@
-bool cmp(const point& a,const point& b){

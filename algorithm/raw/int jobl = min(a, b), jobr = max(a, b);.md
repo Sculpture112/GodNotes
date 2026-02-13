@@ -1,1 +1,0 @@
-int jobl = min(a, b), jobr = max(a, b);

@@ -1,1 +1,0 @@
-int getMin() { return minArr[size - 1]; }

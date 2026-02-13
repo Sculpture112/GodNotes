@@ -1,1 +1,0 @@
-if(s.find('.') != string::npos){

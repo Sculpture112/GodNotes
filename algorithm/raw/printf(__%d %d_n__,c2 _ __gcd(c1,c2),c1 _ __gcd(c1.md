@@ -1,1 +1,0 @@
-printf(""%d %d\n"",c2 / __gcd(c1,c2),c1 / __gcd(c1,c2));

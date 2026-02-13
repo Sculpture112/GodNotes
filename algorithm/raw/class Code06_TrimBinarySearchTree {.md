@@ -1,1 +1,0 @@
-class Code06_TrimBinarySearchTree {

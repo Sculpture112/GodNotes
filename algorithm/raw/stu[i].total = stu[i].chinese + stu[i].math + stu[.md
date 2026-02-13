@@ -1,1 +1,0 @@
-stu[i].total = stu[i].chinese + stu[i].math + stu[i].english;

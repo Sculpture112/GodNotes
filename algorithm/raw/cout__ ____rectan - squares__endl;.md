@@ -1,1 +1,0 @@
-cout"" ""<<rectan - squares<<endl;

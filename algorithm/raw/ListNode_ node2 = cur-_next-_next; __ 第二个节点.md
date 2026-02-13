@@ -1,1 +1,0 @@
-ListNode* node2 = cur->next->next; // 第二个节点

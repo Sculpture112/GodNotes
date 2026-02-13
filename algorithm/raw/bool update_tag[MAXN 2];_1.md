@@ -1,1 +1,0 @@
-bool update_tag[MAXN 2];

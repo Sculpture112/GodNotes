@@ -1,1 +1,0 @@
-totaldis += getdis(points[i],points[i+1]);

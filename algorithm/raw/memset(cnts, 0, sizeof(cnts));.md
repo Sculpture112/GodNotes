@@ -1,1 +1,0 @@
-memset(cnts, 0, sizeof(cnts));

@@ -1,1 +1,0 @@
-int seats = book[2];

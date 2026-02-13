@@ -1,1 +1,0 @@
-// 利用 Brian Kernighan 算法不断抹掉 right 最右侧的 1(效率极高）

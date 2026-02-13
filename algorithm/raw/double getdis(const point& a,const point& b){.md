@@ -1,1 +1,0 @@
-double getdis(const point& a,const point& b){

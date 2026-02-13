@@ -1,1 +1,0 @@
-return add(~n, 1);

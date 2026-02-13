@@ -1,1 +1,0 @@
-vectorvectorchar>> grid(R + 1, vectorchar>(C + 1));

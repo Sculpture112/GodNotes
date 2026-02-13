@@ -1,1 +1,0 @@
-for (int x : subset) printf(""%d "", x);

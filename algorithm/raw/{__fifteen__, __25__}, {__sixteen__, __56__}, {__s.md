@@ -1,1 +1,0 @@
-{""fifteen"", ""25""}, {""sixteen"", ""56""}, {""seventeen"", ""89""}, {""eighteen"", ""24""},

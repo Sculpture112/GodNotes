@@ -1,1 +1,0 @@
-if (p1 == 2 && islower(temp)) temp = toupper(temp); // 转大写

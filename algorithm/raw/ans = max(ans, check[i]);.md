@@ -1,1 +1,0 @@
-ans = max(ans, check[i]);

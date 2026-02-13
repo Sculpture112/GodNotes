@@ -1,1 +1,0 @@
-ListNode* cur = dummy;

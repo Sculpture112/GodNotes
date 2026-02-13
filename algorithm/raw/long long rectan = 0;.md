@@ -1,1 +1,0 @@
-long long rectan = 0;

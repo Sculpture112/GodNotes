@@ -1,1 +1,0 @@
-string predictPartyVictory(string s) {

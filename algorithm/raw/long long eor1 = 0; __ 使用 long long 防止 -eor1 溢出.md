@@ -1,1 +1,0 @@
-long long eor1 = 0; // 使用 long long 防止 -eor1 溢出

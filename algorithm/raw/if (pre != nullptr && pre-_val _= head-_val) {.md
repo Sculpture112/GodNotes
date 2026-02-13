@@ -1,1 +1,0 @@
-if (pre != nullptr && pre->val >= head->val) {

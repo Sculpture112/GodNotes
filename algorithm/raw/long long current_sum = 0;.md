@@ -1,1 +1,0 @@
-long long current_sum = 0;

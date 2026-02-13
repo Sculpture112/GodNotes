@@ -1,1 +1,0 @@
-if (!has_diff[i]) {

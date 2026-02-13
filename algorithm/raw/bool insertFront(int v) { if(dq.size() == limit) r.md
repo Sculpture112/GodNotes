@@ -1,1 +1,0 @@
-bool insertFront(int v) { if(dq.size() == limit) return false; dq.push_front(v); return true; }

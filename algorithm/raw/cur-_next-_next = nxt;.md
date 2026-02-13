@@ -1,1 +1,0 @@
-cur->next->next = nxt;

@@ -1,1 +1,0 @@
-char topOp = ops.back();

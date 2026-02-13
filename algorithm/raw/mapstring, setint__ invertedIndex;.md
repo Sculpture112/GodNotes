@@ -1,1 +1,0 @@
-mapstring, setint>> invertedIndex;

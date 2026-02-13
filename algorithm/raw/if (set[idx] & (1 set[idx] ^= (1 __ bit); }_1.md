@@ -1,1 +1,0 @@
-if (set[idx] & (1 set[idx] ^= (1 << bit); }

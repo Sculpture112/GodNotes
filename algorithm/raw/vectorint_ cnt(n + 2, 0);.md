@@ -1,1 +1,0 @@
-vectorint> cnt(n + 2, 0);

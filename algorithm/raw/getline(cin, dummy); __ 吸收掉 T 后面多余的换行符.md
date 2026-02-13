@@ -1,1 +1,0 @@
-getline(cin, dummy); // 吸收掉 T 后面多余的换行符

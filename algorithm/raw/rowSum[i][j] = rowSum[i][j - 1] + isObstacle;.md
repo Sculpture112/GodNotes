@@ -1,1 +1,0 @@
-rowSum[i][j] = rowSum[i][j - 1] + isObstacle;

@@ -1,1 +1,0 @@
-for (int i = jobl; i <= jobr; i++) check[i] += jobv;

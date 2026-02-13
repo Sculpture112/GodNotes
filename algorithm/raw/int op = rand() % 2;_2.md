@@ -1,1 +1,0 @@
-int op = rand() % 2;

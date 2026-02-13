@@ -1,1 +1,0 @@
-int level = levels[cur];

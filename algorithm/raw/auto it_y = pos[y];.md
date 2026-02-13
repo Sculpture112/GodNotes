@@ -1,1 +1,0 @@
-auto it_y = pos[y];

@@ -1,1 +1,0 @@
-double totaldis = 0.0;

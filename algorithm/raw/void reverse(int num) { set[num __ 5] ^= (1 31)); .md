@@ -1,1 +1,0 @@
-void reverse(int num) { set[num >> 5] ^= (1 31)); }

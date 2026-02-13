@@ -1,1 +1,0 @@
-for (char &c : text) c = tolower(c);

@@ -1,1 +1,0 @@
-size_t first = s.find_first_not_of('0');

@@ -1,1 +1,0 @@
-numbers.back() = topNumber / cur;

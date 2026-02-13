@@ -1,1 +1,0 @@
-long long max_tree[MAXN 2];

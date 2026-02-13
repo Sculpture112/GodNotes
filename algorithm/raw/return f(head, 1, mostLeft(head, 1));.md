@@ -1,1 +1,0 @@
-return f(head, 1, mostLeft(head, 1));

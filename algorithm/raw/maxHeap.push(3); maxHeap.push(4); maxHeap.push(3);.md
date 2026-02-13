@@ -1,1 +1,0 @@
-maxHeap.push(3); maxHeap.push(4); maxHeap.push(3);

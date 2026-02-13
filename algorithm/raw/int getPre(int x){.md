@@ -1,1 +1,0 @@
-int getPre(int x){

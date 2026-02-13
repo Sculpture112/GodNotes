@@ -1,1 +1,0 @@
-int choiceA = a[i% na];

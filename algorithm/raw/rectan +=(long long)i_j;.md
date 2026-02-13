@@ -1,1 +1,0 @@
-rectan +=(long long)i*j;

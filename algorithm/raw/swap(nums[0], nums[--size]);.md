@@ -1,1 +1,0 @@
-swap(nums[0], nums[--size]);

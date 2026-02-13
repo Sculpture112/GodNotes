@@ -1,1 +1,0 @@
-min_sum = min(min_sum,current_sum);

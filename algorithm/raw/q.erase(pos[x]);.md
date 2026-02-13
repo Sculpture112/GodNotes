@@ -1,1 +1,0 @@
-q.erase(pos[x]);

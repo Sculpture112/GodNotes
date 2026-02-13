@@ -1,1 +1,0 @@
-cout ""计算结果: "" calculate(exp) << endl;

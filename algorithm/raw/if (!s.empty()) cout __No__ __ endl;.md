@@ -1,1 +1,0 @@
-if (!s.empty()) cout ""No"" << endl;

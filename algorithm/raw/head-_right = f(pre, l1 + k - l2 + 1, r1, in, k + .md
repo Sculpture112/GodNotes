@@ -1,1 +1,0 @@
-head->right = f(pre, l1 + k - l2 + 1, r1, in, k + 1, r2, map);

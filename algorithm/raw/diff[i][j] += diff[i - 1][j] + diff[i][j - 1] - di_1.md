@@ -1,1 +1,0 @@
-diff[i][j] += diff[i - 1][j] + diff[i][j - 1] - diff[i - 1][j - 1];

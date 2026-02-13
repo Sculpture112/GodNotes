@@ -1,1 +1,0 @@
-for(int i:stack) result +=i;

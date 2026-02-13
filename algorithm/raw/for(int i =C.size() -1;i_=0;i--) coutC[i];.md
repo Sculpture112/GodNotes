@@ -1,1 +1,0 @@
-for(int i =C.size() -1;i>=0;i--) coutC[i];

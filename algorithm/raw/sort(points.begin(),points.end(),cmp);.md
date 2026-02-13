@@ -1,1 +1,0 @@
-sort(points.begin(),points.end(),cmp);

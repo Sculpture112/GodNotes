@@ -1,1 +1,0 @@
-if (L query(rt 1, l, mid, L, R);

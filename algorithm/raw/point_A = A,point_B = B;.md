@@ -1,1 +1,0 @@
-point_A = A,point_B = B;

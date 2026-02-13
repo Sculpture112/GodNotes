@@ -1,1 +1,0 @@
-pre->next = (head1 != nullptr) ? head1 : head2;

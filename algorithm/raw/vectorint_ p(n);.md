@@ -1,1 +1,0 @@
-vectorint> p(n);

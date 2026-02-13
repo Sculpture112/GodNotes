@@ -1,1 +1,0 @@
-printf(""%lld\n"", st.query(l, r, 1, n, 1));

@@ -1,1 +1,0 @@
-if (!(cin >> s >> x)) return 0;

@@ -1,1 +1,0 @@
-MyCircularQueue(int k) : q(k), l(0), r(0), size(0), limit(k) {}

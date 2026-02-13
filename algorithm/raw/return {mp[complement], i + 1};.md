@@ -1,1 +1,0 @@
-return {mp[complement], i + 1};

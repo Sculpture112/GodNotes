@@ -1,1 +1,0 @@
-n += max(yes, no);

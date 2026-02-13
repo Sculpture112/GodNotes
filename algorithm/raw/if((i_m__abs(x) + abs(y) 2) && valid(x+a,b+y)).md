@@ -1,1 +1,0 @@
-if((i>m||abs(x) + abs(y) 2) && valid(x+a,b+y))

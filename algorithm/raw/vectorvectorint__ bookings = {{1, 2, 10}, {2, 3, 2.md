@@ -1,1 +1,0 @@
-vectorvectorint>> bookings = {{1, 2, 10}, {2, 3, 20}, {2, 5, 25}};

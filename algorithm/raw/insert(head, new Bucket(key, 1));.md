@@ -1,1 +1,0 @@
-insert(head, new Bucket(key, 1));

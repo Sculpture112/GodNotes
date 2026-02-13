@@ -1,1 +1,0 @@
-int widthOfBinaryTree(TreeNode* root) {

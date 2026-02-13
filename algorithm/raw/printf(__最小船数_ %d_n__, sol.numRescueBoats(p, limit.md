@@ -1,1 +1,0 @@
-printf(""最小船数: %d\n"", sol.numRescueBoats(p, limit));

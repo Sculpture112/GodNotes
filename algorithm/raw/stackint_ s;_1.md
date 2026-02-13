@@ -1,1 +1,0 @@
-stackint> s;

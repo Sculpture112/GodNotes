@@ -1,1 +1,0 @@
-if(isdigit(c)){

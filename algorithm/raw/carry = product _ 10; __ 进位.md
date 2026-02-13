@@ -1,1 +1,0 @@
-carry = product / 10; // 进位

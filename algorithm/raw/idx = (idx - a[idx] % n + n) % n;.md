@@ -1,1 +1,0 @@
-idx = (idx - a[idx] % n + n) % n;

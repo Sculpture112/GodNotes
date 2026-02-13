@@ -1,1 +1,0 @@
-for (int k = 0; k < p2; k++) res += temp;

@@ -1,1 +1,0 @@
-cout ""set size: "" // 结果为 2

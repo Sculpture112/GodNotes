@@ -1,1 +1,0 @@
-int maxTotal =-1;

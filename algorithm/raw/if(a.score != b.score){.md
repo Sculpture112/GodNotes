@@ -1,1 +1,0 @@
-if(a.score != b.score){

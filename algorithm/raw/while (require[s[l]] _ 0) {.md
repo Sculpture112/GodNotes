@@ -1,1 +1,0 @@
-while (require[s[l]] > 0) {

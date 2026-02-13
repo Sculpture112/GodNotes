@@ -1,1 +1,0 @@
-for (const string& s : result) {

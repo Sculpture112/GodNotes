@@ -1,1 +1,0 @@
-static ListNode* addTwoNumbers(ListNode* h1, ListNode* h2) {

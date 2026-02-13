@@ -1,1 +1,0 @@
-total_time += t[j];

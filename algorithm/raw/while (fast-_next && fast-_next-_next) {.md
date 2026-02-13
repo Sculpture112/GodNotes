@@ -1,1 +1,0 @@
-while (fast->next && fast->next->next) {

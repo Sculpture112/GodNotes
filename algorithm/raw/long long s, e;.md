@@ -1,1 +1,0 @@
-long long s, e;

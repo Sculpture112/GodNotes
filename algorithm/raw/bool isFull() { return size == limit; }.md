@@ -1,1 +1,0 @@
-bool isFull() { return size == limit; }

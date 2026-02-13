@@ -1,1 +1,0 @@
-if(path.size() == r){

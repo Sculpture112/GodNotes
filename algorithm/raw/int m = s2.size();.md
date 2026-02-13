@@ -1,1 +1,0 @@
-int m = s2.size();

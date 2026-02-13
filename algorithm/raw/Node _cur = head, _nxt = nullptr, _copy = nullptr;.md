@@ -1,1 +1,0 @@
-Node *cur = head, *nxt = nullptr, *copy = nullptr;

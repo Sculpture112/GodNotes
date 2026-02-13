@@ -1,1 +1,0 @@
-printf(""接到的雨水总量: %d\n"", sol.trap(h));

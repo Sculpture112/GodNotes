@@ -1,1 +1,0 @@
-C.push_back(t%10);

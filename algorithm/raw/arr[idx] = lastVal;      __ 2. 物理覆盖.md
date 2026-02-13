@@ -1,1 +1,0 @@
-arr[idx] = lastVal;      // 2. 物理覆盖

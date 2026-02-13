@@ -1,1 +1,0 @@
-long long jobv = rand() % (v * 2) - v;

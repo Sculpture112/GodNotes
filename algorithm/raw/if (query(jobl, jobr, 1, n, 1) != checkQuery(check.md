@@ -1,1 +1,0 @@
-if (query(jobl, jobr, 1, n, 1) != checkQuery(check, jobl, jobr)) {

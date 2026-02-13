@@ -1,1 +1,0 @@
-unsigned char c = (unsigned char)str[r];

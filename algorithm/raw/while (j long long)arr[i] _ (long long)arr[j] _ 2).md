@@ -1,1 +1,0 @@
-while (j long long)arr[i] > (long long)arr[j] * 2) {

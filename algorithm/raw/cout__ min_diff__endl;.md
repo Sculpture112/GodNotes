@@ -1,1 +1,0 @@
-cout<< min_diff<<endl;

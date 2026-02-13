@@ -1,1 +1,0 @@
-return s.substr(0,last+1);

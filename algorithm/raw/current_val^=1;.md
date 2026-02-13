@@ -1,1 +1,0 @@
-current_val^=1;

@@ -1,1 +1,0 @@
-int areaLeft = y - r;

@@ -1,1 +1,0 @@
-if (x == 2) return true;          // 2 是唯一的偶素数

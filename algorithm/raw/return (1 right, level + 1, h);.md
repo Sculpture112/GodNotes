@@ -1,1 +1,0 @@
-return (1 right, level + 1, h);

@@ -1,1 +1,0 @@
-if (rowSum[i][j] - rowSum[i][j - K] == 0) total++;

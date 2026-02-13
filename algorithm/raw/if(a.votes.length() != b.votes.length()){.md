@@ -1,1 +1,0 @@
-if(a.votes.length() != b.votes.length()){

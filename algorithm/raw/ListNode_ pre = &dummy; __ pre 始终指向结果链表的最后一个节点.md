@@ -1,1 +1,0 @@
-ListNode* pre = &dummy; // pre 始终指向结果链表的最后一个节点

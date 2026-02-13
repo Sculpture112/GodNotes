@@ -1,1 +1,0 @@
-vectorint>& topStack = cntValues[topTimes];

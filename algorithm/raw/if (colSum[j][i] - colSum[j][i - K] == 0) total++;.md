@@ -1,1 +1,0 @@
-if (colSum[j][i] - colSum[j][i - K] == 0) total++;

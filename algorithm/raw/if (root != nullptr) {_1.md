@@ -1,1 +1,0 @@
-if (root != nullptr) {

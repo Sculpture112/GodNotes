@@ -1,1 +1,0 @@
-long long ways_to_pick_two_sides = cnt[i] * (cnt[i] - 1) / 2 % MOD;

@@ -1,1 +1,0 @@
-min_val = min({(long long)head->val, lmin, rmin});

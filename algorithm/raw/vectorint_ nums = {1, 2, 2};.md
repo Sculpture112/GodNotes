@@ -1,1 +1,0 @@
-vectorint> nums = {1, 2, 2};

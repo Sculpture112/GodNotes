@@ -1,1 +1,0 @@
-cnt[last + 1] -= seats;

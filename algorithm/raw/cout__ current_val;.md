@@ -1,1 +1,0 @@
-cout<< current_val;

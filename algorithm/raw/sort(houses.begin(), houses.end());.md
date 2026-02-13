@@ -1,1 +1,0 @@
-sort(houses.begin(), houses.end());

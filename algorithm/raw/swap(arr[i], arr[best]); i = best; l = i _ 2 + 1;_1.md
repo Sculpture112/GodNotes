@@ -1,1 +1,0 @@
-swap(arr[i], arr[best]); i = best; l = i * 2 + 1;

@@ -1,1 +1,0 @@
-rightTail = head;

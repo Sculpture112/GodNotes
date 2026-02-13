@@ -1,1 +1,0 @@
-if (isPrime(p) && isPrime(num - p)) {

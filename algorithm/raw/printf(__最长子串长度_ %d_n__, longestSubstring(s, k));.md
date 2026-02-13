@@ -1,1 +1,0 @@
-printf(""最长子串长度: %d\n"", longestSubstring(s, k));

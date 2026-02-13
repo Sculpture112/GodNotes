@@ -1,1 +1,0 @@
-size_t pos = res.find_first_not_of('0');

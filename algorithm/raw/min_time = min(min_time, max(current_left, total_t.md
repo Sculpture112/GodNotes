@@ -1,1 +1,0 @@
-min_time = min(min_time, max(current_left, total_time - current_left));

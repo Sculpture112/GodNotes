@@ -1,1 +1,0 @@
-bool best(const vectorint>& houses, const vectorint>& heaters, int i, int j) {

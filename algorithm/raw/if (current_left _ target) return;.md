@@ -1,1 +1,0 @@
-if (current_left > target) return;

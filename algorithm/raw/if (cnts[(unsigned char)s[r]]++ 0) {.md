@@ -1,1 +1,0 @@
-if (cnts[(unsigned char)s[r]]++ 0) {

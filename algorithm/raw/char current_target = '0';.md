@@ -1,1 +1,0 @@
-char current_target = '0';

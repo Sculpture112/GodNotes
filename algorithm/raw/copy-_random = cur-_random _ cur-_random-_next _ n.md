@@ -1,1 +1,0 @@
-copy->random = cur->random ? cur->random->next : nullptr;因为next才是copy要指的地方，问号前面那个结点是条件

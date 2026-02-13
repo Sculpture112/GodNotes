@@ -1,1 +1,0 @@
-map[val].erase(idx);     // 4. 抹除待删位

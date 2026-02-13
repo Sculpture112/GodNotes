@@ -1,1 +1,0 @@
-while(n!=1 && seen.find(n) == seen.end()){

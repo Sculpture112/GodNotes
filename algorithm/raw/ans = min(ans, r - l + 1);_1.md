@@ -1,1 +1,0 @@
-ans = min(ans, r - l + 1);

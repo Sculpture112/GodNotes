@@ -1,1 +1,0 @@
-cnts[(unsigned char)s[l++]]--;

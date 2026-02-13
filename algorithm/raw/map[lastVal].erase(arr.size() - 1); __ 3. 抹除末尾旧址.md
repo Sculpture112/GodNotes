@@ -1,1 +1,0 @@
-map[lastVal].erase(arr.size() - 1); // 3. 抹除末尾旧址

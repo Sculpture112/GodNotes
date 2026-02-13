@@ -1,1 +1,0 @@
-(leaf && (h->left != nullptr || h->right != nullptr))) {

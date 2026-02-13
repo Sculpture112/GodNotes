@@ -1,1 +1,0 @@
-int timeRequiredToBuy(vectorint>& tickets, int k) {

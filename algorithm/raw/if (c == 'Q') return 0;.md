@@ -1,1 +1,0 @@
-if (c == 'Q') return 0;

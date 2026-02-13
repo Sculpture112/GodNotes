@@ -1,1 +1,0 @@
-head = stack[--r];

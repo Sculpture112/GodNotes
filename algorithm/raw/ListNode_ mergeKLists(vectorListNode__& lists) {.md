@@ -1,1 +1,0 @@
-ListNode* mergeKLists(vectorListNode*>& lists) {

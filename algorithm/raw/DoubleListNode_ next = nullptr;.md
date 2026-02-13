@@ -1,1 +1,0 @@
-DoubleListNode* next = nullptr;

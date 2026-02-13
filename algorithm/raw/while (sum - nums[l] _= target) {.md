@@ -1,1 +1,0 @@
-while (sum - nums[l] >= target) {

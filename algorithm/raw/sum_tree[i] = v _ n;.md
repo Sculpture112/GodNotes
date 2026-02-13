@@ -1,1 +1,0 @@
-sum_tree[i] = v * n;

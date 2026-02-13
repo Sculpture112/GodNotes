@@ -1,1 +1,0 @@
-char left = s[i - 1], right = s[i + 1];

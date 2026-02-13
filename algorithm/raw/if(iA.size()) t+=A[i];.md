@@ -1,1 +1,0 @@
-if(iA.size()) t+=A[i];

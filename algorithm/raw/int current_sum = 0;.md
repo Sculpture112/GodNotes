@@ -1,1 +1,0 @@
-int current_sum = 0;

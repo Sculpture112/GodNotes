@@ -1,1 +1,0 @@
-for (int num = 4; num N; num += 2) {

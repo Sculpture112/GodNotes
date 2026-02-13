@@ -1,1 +1,0 @@
-vectorStudent> stu(n);

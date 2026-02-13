@@ -1,1 +1,0 @@
-coutsetprecision(3)<<totaldis<<endl;

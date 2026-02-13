@@ -1,1 +1,0 @@
-if (a.company != b.company) return a.company < b.company;

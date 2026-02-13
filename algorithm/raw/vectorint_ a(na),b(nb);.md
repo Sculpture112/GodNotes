@@ -1,1 +1,0 @@
-vectorint> a(na),b(nb);

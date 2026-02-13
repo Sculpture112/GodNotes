@@ -1,1 +1,0 @@
-long long v1 = s.top();s.pop();

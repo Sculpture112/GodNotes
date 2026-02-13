@@ -1,1 +1,0 @@
-ans = max(ans, (int)(iq[r - 1] - iq[l] + 1));

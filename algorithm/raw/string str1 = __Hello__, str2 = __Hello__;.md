@@ -1,1 +1,0 @@
-string str1 = ""Hello"", str2 = ""Hello"";

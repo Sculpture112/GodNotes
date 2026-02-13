@@ -1,1 +1,0 @@
-void dfs1(int step, int current_left, int subject_size) {

@@ -1,1 +1,0 @@
-cin>> points[i].x >> points[i].y>>points[i].z;

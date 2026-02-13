@@ -1,1 +1,0 @@
-cout // C++ string 的 == 直接比较值，返回 1 (true)

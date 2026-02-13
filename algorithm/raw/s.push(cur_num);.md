@@ -1,1 +1,0 @@
-s.push(cur_num);

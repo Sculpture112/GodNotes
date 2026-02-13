@@ -1,1 +1,0 @@
-int n,m,k,a,b,ans;

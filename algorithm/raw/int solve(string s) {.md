@@ -1,1 +1,0 @@
-int solve(string s) {

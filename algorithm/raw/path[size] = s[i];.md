@@ -1,1 +1,0 @@
-path[size] = s[i];

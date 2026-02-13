@@ -1,1 +1,0 @@
-map[val].insert(arr.size()); arr.push_back(val);

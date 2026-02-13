@@ -1,1 +1,0 @@
-// reverse == false, 左 -> 右， l....r-1, 收集size个

@@ -1,1 +1,0 @@
-vectorstring> flag(n);

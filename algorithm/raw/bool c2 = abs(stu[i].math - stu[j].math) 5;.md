@@ -1,1 +1,0 @@
-bool c2 = abs(stu[i].math - stu[j].math) 5;

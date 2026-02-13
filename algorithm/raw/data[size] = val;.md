@@ -1,1 +1,0 @@
-data[size] = val;

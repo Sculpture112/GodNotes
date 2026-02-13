@@ -1,1 +1,0 @@
-sort(v.begin(),v.end(),comparevotes);

@@ -1,1 +1,0 @@
-long long checkQuery(vectorlong long>& check, int jobl, int jobr) {

@@ -1,1 +1,0 @@
-if((!isdigit(c) && c != ' ') || index == s.length() -1){

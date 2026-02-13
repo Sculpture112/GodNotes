@@ -1,1 +1,0 @@
-if (best == i) break; // 父亲大则停止

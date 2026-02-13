@@ -1,1 +1,0 @@
-coutrev(s,0)<<endl;

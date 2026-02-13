@@ -1,1 +1,0 @@
-vectorstring> result = generatePermutation2(test);

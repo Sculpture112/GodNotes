@@ -1,1 +1,0 @@
-for (auto it = q.begin(); it != q.end(); ++it) {

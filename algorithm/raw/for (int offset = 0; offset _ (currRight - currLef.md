@@ -1,1 +1,0 @@
-for (int offset = 0; offset < (currRight - currLeft); offset++) {

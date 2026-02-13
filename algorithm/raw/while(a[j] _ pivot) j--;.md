@@ -1,1 +1,0 @@
-while(a[j] > pivot) j--;

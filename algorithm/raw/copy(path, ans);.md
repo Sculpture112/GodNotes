@@ -1,1 +1,0 @@
-copy(path, ans);

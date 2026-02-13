@@ -1,1 +1,0 @@
-vectorint> A,B,C;

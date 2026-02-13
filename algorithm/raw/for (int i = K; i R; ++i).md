@@ -1,1 +1,0 @@
-for (int i = K; i R; ++i)

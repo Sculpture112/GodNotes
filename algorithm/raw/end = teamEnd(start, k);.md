@@ -1,1 +1,0 @@
-end = teamEnd(start, k);

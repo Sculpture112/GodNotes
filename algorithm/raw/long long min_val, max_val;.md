@@ -1,1 +1,0 @@
-long long min_val, max_val;

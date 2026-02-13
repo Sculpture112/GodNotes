@@ -1,1 +1,0 @@
-vectorchar> path(str.length());

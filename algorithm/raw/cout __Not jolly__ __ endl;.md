@@ -1,1 +1,0 @@
-cout ""Not jolly"" << endl;

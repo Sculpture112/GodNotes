@@ -1,1 +1,0 @@
-cur->left = generate(nodes[index++]);写成函数判断空节点

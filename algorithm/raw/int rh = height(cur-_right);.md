@@ -1,1 +1,0 @@
-int rh = height(cur->right);

@@ -1,1 +1,0 @@
-dfs(i+1,count +1,sum+a[i]);

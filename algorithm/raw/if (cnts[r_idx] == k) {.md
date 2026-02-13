@@ -1,1 +1,0 @@
-if (cnts[r_idx] == k) {

@@ -1,1 +1,0 @@
-cout ""最小覆盖子串: "" minWindow(s, t) << endl;

@@ -1,1 +1,0 @@
-if(!(cin>>n)) return 0;

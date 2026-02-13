@@ -1,1 +1,0 @@
-string s = ""3[a2[c]]""; // a cc a cc a cc -> accaccacc

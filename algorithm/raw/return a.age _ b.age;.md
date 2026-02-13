@@ -1,1 +1,0 @@
-return a.age > b.age;

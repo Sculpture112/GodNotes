@@ -1,1 +1,2 @@
-![paste-8b4cde99bdd1b415bd6f27cccecfaeae3cf90a44.jpg](paste-8b4cde99bdd1b415bd6f27cccecfaeae3cf90a44.jpg)set和multiset不能用地址直接减，必须要索引
+![paste-8b4cde99bdd1b415bd6f27cccecfaeae3cf90a44.jpg](paste-8b4cde99bdd1b415bd6f27cccecfaeae3cf90a44.jpg)
+set和multiset不能用地址直接减，必须要索引

@@ -1,1 +1,0 @@
-bool rok = isValidBST2(head->right);

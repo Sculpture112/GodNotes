@@ -1,1 +1,0 @@
-if (step > subject_size) {

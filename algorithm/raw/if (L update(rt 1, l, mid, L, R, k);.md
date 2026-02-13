@@ -1,1 +1,0 @@
-if (L update(rt 1, l, mid, L, R, k);

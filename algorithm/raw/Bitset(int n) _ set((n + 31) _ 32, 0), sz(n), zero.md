@@ -1,1 +1,0 @@
-Bitset(int n) : set((n + 31) / 32, 0), sz(n), zeros(n), ones(0), rev(false) {}

@@ -1,1 +1,0 @@
-int min_sum = current_sum;

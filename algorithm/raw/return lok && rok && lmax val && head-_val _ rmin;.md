@@ -1,1 +1,0 @@
-return lok && rok && lmax val && head->val < rmin;

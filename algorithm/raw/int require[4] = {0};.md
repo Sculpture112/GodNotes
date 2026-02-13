@@ -1,1 +1,0 @@
-int require[4] = {0};

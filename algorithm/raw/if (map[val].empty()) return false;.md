@@ -1,1 +1,0 @@
-if (map[val].empty()) return false;

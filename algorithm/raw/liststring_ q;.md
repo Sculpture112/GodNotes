@@ -1,1 +1,0 @@
-liststring> q;

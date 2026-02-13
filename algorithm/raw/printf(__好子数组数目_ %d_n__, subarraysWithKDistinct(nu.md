@@ -1,1 +1,0 @@
-printf(""好子数组数目: %d\n"", subarraysWithKDistinct(nums, k));

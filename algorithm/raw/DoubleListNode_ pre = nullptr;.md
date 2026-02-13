@@ -1,1 +1,0 @@
-DoubleListNode* pre = nullptr;

@@ -1,1 +1,0 @@
-minIdx = i;

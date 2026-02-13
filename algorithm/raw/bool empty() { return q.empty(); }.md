@@ -1,1 +1,0 @@
-bool empty() { return q.empty(); }

@@ -1,1 +1,0 @@
-if (!h1 || !h2) return nullptr;

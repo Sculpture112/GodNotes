@@ -1,1 +1,0 @@
-total_ans += min_time;

@@ -1,1 +1,0 @@
-return max(yes, no);

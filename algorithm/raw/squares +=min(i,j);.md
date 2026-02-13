@@ -1,1 +1,0 @@
-squares +=min(i,j);

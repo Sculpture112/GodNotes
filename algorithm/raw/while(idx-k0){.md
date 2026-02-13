@@ -1,1 +1,0 @@
-while(idx-k0){

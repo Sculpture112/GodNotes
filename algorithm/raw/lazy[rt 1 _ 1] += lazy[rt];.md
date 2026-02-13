@@ -1,1 +1,0 @@
-lazy[rt 1 | 1] += lazy[rt];

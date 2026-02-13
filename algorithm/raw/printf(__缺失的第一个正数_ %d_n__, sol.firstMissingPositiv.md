@@ -1,1 +1,0 @@
-printf(""缺失的第一个正数: %d\n"", sol.firstMissingPositive(nums));

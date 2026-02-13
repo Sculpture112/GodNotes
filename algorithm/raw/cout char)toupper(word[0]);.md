@@ -1,1 +1,0 @@
-cout char)toupper(word[0]);

@@ -1,1 +1,0 @@
-best = arr[best] > arr[i] ? best : i; // 孩子与父亲比

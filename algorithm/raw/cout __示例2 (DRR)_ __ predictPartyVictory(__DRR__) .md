@@ -1,1 +1,0 @@
-cout ""示例2 (DRR): "" predictPartyVictory(""DRR"") // 输出: Red

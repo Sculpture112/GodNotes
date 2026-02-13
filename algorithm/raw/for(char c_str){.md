@@ -1,1 +1,0 @@
-for(char c:str){

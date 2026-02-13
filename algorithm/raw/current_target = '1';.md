@@ -1,1 +1,0 @@
-current_target = '1';

@@ -1,1 +1,0 @@
-long long max_val = 0;

@@ -1,1 +1,0 @@
-visited.insert(nums[j]);

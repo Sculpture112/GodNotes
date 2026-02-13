@@ -1,1 +1,0 @@
-return smallSum(l, m) + smallSum(m + 1, r) + merge(l, m, r);

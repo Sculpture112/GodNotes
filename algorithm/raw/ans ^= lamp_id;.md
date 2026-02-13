@@ -1,1 +1,0 @@
-ans ^= lamp_id;

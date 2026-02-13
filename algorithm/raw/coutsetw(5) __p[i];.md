@@ -1,1 +1,0 @@
-coutsetw(5) <<p[i];

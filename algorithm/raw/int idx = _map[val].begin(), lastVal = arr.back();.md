@@ -1,1 +1,0 @@
-int idx = *map[val].begin(), lastVal = arr.back(); // 取出待删位和末尾值

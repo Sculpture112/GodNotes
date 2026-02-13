@@ -1,1 +1,0 @@
-xor_sum ^= arr[i];

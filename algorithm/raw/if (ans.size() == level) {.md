@@ -1,1 +1,0 @@
-if (ans.size() == level) {

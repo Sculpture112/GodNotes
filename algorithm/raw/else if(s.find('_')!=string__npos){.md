@@ -1,1 +1,0 @@
-else if(s.find('/')!=string::npos){

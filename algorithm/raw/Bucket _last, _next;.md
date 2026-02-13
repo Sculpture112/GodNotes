@@ -1,1 +1,0 @@
-Bucket *last, *next;

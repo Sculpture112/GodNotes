@@ -1,1 +1,0 @@
-cout "" "" << max_val << endl;

@@ -1,1 +1,0 @@
-heapify(nums, 0, size);

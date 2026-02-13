@@ -1,1 +1,0 @@
-vectorint> s(n+1,0);

@@ -1,1 +1,0 @@
-for (int x : result) printf(""%d "", x);

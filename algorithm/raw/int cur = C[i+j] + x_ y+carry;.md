@@ -1,1 +1,0 @@
-int cur = C[i+j] + x* y+carry;

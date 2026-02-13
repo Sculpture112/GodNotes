@@ -1,1 +1,0 @@
-topTimes = max(topTimes, curTimes); // 更新最高频率

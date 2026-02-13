@@ -1,1 +1,0 @@
-} else if (arr[l]  r || arr[arr[l] - 1] == arr[l]) {

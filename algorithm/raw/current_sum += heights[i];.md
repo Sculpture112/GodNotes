@@ -1,1 +1,0 @@
-current_sum += heights[i];

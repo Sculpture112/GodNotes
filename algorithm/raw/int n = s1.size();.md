@@ -1,1 +1,0 @@
-int n = s1.size();

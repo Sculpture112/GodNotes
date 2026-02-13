@@ -1,1 +1,0 @@
-: head(nullptr), tail(nullptr), cap(capacity) {}

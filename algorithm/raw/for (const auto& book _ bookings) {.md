@@ -1,1 +1,0 @@
-for (const auto& book : bookings) {

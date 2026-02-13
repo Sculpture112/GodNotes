@@ -1,1 +1,0 @@
-int actual_count = 0;

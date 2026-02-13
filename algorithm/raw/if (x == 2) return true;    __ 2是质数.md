@@ -1,1 +1,0 @@
-if (x == 2) return true;    // 2是质数

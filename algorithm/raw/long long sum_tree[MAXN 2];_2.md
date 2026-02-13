@@ -1,1 +1,0 @@
-long long sum_tree[MAXN 2];

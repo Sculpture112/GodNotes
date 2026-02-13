@@ -1,1 +1,0 @@
-int lastIndex = (r == 0) ? limit - 1 : r - 1;

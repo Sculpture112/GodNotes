@@ -1,1 +1,0 @@
-minHeap.push(3); minHeap.push(4); minHeap.push(3);

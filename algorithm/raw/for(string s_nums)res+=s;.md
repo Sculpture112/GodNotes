@@ -1,1 +1,0 @@
-for(string s:nums)res+=s;

@@ -1,1 +1,0 @@
-partition(nums, l, r, nums[l + rand() % (r - l + 1)]);

@@ -1,1 +1,0 @@
-if (matrix.empty() || matrix[0].empty()) return;

@@ -1,1 +1,0 @@
-f1(str, 0, path, set);

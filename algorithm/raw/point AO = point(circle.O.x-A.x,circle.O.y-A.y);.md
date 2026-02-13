@@ -1,1 +1,0 @@
-point AO = point(circle.O.x-A.x,circle.O.y-A.y);

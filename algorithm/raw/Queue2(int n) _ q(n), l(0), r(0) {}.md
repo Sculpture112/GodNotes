@@ -1,1 +1,0 @@
-Queue2(int n) : q(n), l(0), r(0) {}

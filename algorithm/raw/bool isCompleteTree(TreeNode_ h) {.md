@@ -1,1 +1,0 @@
-bool isCompleteTree(TreeNode* h) {

@@ -1,1 +1,0 @@
-ListNode *pre = nullptr, *cur = s, *nxt = nullptr;

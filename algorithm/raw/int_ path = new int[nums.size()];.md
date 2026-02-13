@@ -1,1 +1,0 @@
-int* path = new int[nums.size()];

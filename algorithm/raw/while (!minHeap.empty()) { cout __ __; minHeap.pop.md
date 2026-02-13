@@ -1,1 +1,0 @@
-while (!minHeap.empty()) { cout "" ""; minHeap.pop(); }

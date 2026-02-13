@@ -1,1 +1,0 @@
-for (int num : list) printf(""%d "", num);

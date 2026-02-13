@@ -1,1 +1,0 @@
-max_val = max(max_val, arr[i]);

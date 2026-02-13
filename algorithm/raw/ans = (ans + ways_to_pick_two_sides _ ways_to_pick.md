@@ -1,1 +1,0 @@
-ans = (ans + ways_to_pick_two_sides * ways_to_pick_third_side % MOD) % MOD;

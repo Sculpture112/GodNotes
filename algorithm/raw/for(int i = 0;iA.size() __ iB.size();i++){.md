@@ -1,1 +1,0 @@
-for(int i = 0;iA.size() || iB.size();i++){

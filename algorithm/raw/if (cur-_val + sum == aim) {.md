@@ -1,1 +1,0 @@
-if (cur->val + sum == aim) {

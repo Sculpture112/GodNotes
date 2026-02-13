@@ -1,1 +1,0 @@
-if (nxt->cnt != cur->cnt + 1) {

@@ -1,1 +1,0 @@
-static ListNode* mergeTwoLists(ListNode* head1, ListNode* head2) {

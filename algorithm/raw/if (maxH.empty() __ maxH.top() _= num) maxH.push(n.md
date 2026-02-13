@@ -1,1 +1,0 @@
-if (maxH.empty() || maxH.top() >= num) maxH.push(num);

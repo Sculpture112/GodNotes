@@ -1,1 +1,0 @@
-point(double A,double B){

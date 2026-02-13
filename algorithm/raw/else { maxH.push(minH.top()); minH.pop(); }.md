@@ -1,1 +1,0 @@
-else { maxH.push(minH.top()); minH.pop(); }

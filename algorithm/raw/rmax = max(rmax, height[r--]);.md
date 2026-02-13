@@ -1,1 +1,0 @@
-rmax = max(rmax, height[r--]);

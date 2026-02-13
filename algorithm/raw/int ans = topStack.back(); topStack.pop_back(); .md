@@ -1,1 +1,0 @@
-int ans = topStack.back(); topStack.pop_back(); // 弹出最高频层末尾元素

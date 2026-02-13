@@ -1,1 +1,0 @@
-cur.push_back(path[j]);

@@ -1,1 +1,0 @@
-while (cur->next != nullptr && cur->next->next != nullptr) {

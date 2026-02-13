@@ -1,1 +1,0 @@
-vectorvectorint>> rowSum(R + 1, vectorint>(C + 1, 0));

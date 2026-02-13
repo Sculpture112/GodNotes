@@ -1,1 +1,0 @@
-int l_idx = (unsigned char)s[l];

@@ -1,1 +1,0 @@
-if (b == INT_MIN) return 0;

@@ -1,1 +1,0 @@
-int r_idx = (unsigned char)s[r];

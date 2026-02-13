@@ -1,1 +1,0 @@
-void flip() { rev = !rev; swap(ones, zeros); }

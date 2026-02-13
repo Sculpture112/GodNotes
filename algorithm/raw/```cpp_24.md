@@ -1,3 +1,0 @@
-```cpp
-```
-class Solution {

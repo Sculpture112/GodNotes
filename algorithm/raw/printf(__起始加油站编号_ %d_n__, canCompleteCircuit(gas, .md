@@ -1,1 +1,0 @@
-printf(""起始加油站编号: %d\n"", canCompleteCircuit(gas, cost));

@@ -1,1 +1,0 @@
-return {eor2, (int)(eor1 ^ eor2)}; // 两个结果分别为 eor2 和 a ^ b ^ eor2

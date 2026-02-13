@@ -1,1 +1,0 @@
-printf(""结果: %s\n"", decodeString(s).c_str());

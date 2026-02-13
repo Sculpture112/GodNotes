@@ -1,1 +1,0 @@
-dark.push(i);

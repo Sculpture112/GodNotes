@@ -1,1 +1,0 @@
-// 使用高效的 scanf 处理输入，对标 Java 的 StreamTokenizer

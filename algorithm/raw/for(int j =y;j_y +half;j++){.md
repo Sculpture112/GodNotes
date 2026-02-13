@@ -1,1 +1,0 @@
-for(int j =y;j<y +half;j++){

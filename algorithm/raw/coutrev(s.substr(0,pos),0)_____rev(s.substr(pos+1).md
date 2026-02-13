@@ -1,1 +1,0 @@
-coutrev(s.substr(0,pos),0)""/""rev(s.substr(pos+1),0)<<endl;

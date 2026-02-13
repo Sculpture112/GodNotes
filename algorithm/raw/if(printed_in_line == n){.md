@@ -1,1 +1,0 @@
-if(printed_in_line == n){

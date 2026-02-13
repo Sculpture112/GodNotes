@@ -1,1 +1,0 @@
-f2(s, i + 1, path, size + 1, res);

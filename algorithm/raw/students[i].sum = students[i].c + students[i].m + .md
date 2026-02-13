@@ -1,1 +1,0 @@
-students[i].sum = students[i].c + students[i].m + students[i].e;

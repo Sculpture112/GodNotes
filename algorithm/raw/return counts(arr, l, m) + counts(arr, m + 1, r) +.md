@@ -1,1 +1,0 @@
-return counts(arr, l, m) + counts(arr, m + 1, r) + merge(arr, l, m, r);

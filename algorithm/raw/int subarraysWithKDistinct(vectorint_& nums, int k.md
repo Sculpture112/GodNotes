@@ -1,1 +1,0 @@
-int subarraysWithKDistinct(vectorint>& nums, int k) {

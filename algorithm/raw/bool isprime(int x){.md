@@ -1,1 +1,0 @@
-bool isprime(int x){

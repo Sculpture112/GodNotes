@@ -1,1 +1,0 @@
-pre->next = nullptr;

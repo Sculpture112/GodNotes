@@ -1,1 +1,0 @@
-ListNode *start = head, *end = teamEnd(start, k);

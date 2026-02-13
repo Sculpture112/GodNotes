@@ -1,1 +1,0 @@
-sort(nums.begin(), nums.end());

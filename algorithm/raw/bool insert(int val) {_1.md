@@ -1,1 +1,0 @@
-bool insert(int val) {

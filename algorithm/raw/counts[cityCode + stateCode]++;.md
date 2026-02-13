@@ -1,1 +1,0 @@
-counts[cityCode + stateCode]++;

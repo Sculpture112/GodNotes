@@ -1,1 +1,0 @@
-string total_bits = """";

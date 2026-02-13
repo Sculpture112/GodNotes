@@ -1,1 +1,0 @@
-return trimBST(cur->left, low, high);

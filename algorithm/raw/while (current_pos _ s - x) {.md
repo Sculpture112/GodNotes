@@ -1,1 +1,0 @@
-while (current_pos < s - x) {

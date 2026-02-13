@@ -1,1 +1,0 @@
-if (x 1) return false;   // 1及以下不是质数

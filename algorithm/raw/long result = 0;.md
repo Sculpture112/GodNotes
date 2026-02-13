@@ -1,1 +1,0 @@
-long result = 0;

@@ -1,1 +1,0 @@
-TreeNode* head = new TreeNode(pre[l1]);

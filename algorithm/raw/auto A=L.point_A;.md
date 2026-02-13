@@ -1,1 +1,0 @@
-auto A=L.point_A;

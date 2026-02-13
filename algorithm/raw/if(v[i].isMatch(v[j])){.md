@@ -1,1 +1,0 @@
-if(v[i].isMatch(v[j])){

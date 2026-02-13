@@ -1,1 +1,0 @@
-head->next->keys.insert(key);

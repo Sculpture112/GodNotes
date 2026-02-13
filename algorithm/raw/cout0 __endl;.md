@@ -1,1 +1,0 @@
-cout0 <<endl;

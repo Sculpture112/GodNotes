@@ -1,1 +1,0 @@
-if (!balance || cur == nullptr) {

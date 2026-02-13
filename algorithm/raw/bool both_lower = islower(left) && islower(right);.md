@@ -1,1 +1,0 @@
-bool both_lower = islower(left) && islower(right);

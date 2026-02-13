@@ -1,1 +1,0 @@
-ListNode *getIntersectionNode(ListNode *h1, ListNode *h2) {

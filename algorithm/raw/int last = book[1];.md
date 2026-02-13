@@ -1,1 +1,0 @@
-int last = book[1];

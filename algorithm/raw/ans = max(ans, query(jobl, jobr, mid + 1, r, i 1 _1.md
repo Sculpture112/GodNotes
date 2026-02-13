@@ -1,1 +1,0 @@
-ans = max(ans, query(jobl, jobr, mid + 1, r, i 1 | 1));

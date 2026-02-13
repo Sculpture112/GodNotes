@@ -1,1 +1,0 @@
-Employee(int c, int a) : company(c), age(a) {}
