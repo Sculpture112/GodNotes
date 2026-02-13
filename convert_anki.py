@@ -6,9 +6,7 @@ def html_to_markdown(html_content):
     # Decode HTML entities first
     html_content = html.unescape(html_content)
 
-    # Convert code blocks: <pre>...</pre> to ```
-...
-```
+    # Convert code blocks: <pre>...</pre> to ```\n...\n```
     # This needs to be done before stripping other tags
     def replace_code_block(match):
         # Extract content within <pre> or <code> tags, handling nested structures
@@ -36,12 +34,15 @@ def html_to_markdown(html_content):
         alt = match.group('alt') if match.group('alt') else os.path.basename(src)
         return f"![{alt}]({src})"
 
-    # FIX START
-    # Removed backslashes from inside the character class [^"']
-    html_content = re.sub(r'<img[^>]*src=["\'](?P<src>[^"']+)["\'][^>]*alt=["\'](?P<alt>[^"']*)["\'][^>]*>', replace_img, html_content, flags=re.IGNORECASE)
-    html_content = re.sub(r'<img[^>]*alt=["\'](?P<alt>[^"']*)["\'][^>]*src=["\'](?P<src>[^"']+)["\'][^>]*>', replace_img, html_content, flags=re.IGNORECASE)
-    html_content = re.sub(r'<img[^>]*src=["\'](?P<src>[^"']+)["\'][^>]*>', replace_img, html_content, flags=re.IGNORECASE)
-    # FIX END
+    # Handle double-quoted attributes
+    html_content = re.sub(r'<img[^>]*src="(?P<src>[^"]+)"[^>]*alt="(?P<alt>[^"]*)"[^>]*>', replace_img, html_content, flags=re.IGNORECASE)
+    html_content = re.sub(r'<img[^>]*alt="(?P<alt>[^"]*)"[^>]*src="(?P<src>[^"]+)"[^>]*>', replace_img, html_content, flags=re.IGNORECASE)
+    html_content = re.sub(r'<img[^>]*src="(?P<src>[^"]+)"[^>]*>', replace_img, html_content, flags=re.IGNORECASE)
+
+    # Handle single-quoted attributes
+    html_content = re.sub(r"<img[^>]*src='(?P<src>[^']+)'[^>]*alt='(?P<alt>[^']*)'[^>]*>", replace_img, html_content, flags=re.IGNORECASE)
+    html_content = re.sub(r"<img[^>]*alt='(?P<alt>[^']*)'[^>]*src='(?P<src>[^']+)'[^>]*>", replace_img, html_content, flags=re.IGNORECASE)
+    html_content = re.sub(r"<img[^>]*src='(?P<src>[^']+)'[^>]*>", replace_img, html_content, flags=re.IGNORECASE)
 
 
     # Remove remaining HTML tags, but keep content
