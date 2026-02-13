@@ -1,4 +1,3 @@
-
 import re
 import os
 import html
@@ -25,9 +24,7 @@ def html_to_markdown(html_content):
         content = re.sub(r'</code>', '', content) # remove closing code
         # Attempt to infer language from preceding comments or context if available
         # For now, just use a generic code block.
-        return f"```cpp
-{content.strip()}
-```" # Assuming cpp based on observed data
+        return "```cpp\n" + content.strip() + "\n```" # Assuming cpp based on observed data
 
     html_content = re.sub(r'<pre[^>]*>(.*?)</pre>', replace_code_block, html_content, flags=re.DOTALL | re.IGNORECASE)
     html_content = re.sub(r'<code[^>]*>(.*?)</code>', replace_code_block, html_content, flags=re.DOTALL | re.IGNORECASE)
@@ -39,24 +36,25 @@ def html_to_markdown(html_content):
         alt = match.group('alt') if match.group('alt') else os.path.basename(src)
         return f"![{alt}]({src})"
 
-    html_content = re.sub(r'<img[^>]*src=["'](?P<src>[^"']+)["'][^>]*alt=["'](?P<alt>[^"']*)["'][^>]*>', replace_img, html_content, flags=re.IGNORECASE)
-    html_content = re.sub(r'<img[^>]*alt=["'](?P<alt>[^"']*)["'][^>]*src=["'](?P<src>[^"']+)["'][^>]*>', replace_img, html_content, flags=re.IGNORECASE)
-    html_content = re.sub(r'<img[^>]*src=["'](?P<src>[^"']+)["'][^>]*>', replace_img, html_content, flags=re.IGNORECASE)
+    # FIX START
+    # Removed backslashes from inside the character class [^"']
+    html_content = re.sub(r'<img[^>]*src=["\'](?P<src>[^"']+)["\'][^>]*alt=["\'](?P<alt>[^"']*)["\'][^>]*>', replace_img, html_content, flags=re.IGNORECASE)
+    html_content = re.sub(r'<img[^>]*alt=["\'](?P<alt>[^"']*)["\'][^>]*src=["\'](?P<src>[^"']+)["\'][^>]*>', replace_img, html_content, flags=re.IGNORECASE)
+    html_content = re.sub(r'<img[^>]*src=["\'](?P<src>[^"']+)["\'][^>]*>', replace_img, html_content, flags=re.IGNORECASE)
+    # FIX END
 
 
     # Remove remaining HTML tags, but keep content
     html_content = re.sub(r'<[^>]+>', '', html_content)
 
     # Replace multiple newlines with single ones, and strip leading/trailing whitespace
-    html_content = re.sub(r'[
-]+', '
-', html_content).strip()
+    html_content = re.sub(r'[\r\n]+', '\n', html_content).strip()
 
     return html_content
 
 def sanitize_filename(text):
     # Remove invalid characters for filenames
-    s = re.sub(r'[\/:*?"<>| ]', '_', text)
+    s = re.sub(r'[\\/:*?"<>| ]', '_', text)
     # Trim to a reasonable length
     return s[:50].strip('_')
 
@@ -78,7 +76,7 @@ def process_anki_file(input_file, output_dir):
         lines = lines[start_index:]
 
     for i, line in enumerate(lines):
-        parts = line.strip().split('	')
+        parts = line.strip().split('\t')
         if len(parts) > 1:
             # Assuming the second part is the primary content
             html_content = parts[1]
@@ -89,12 +87,9 @@ def process_anki_file(input_file, output_dir):
     for markdown_content, original_index in card_data:
         # Generate filename from the first meaningful part of the markdown content
         # Take the first line or first few words
-        first_line = markdown_content.split('
-')[0].strip()
+        first_line = markdown_content.split('\n')[0].strip()
         if not first_line: # If first line is empty, try second line etc.
-            first_line = markdown_content.split('
-')[1].strip() if len(markdown_content.split('
-')) > 1 else f"card_{original_index}"
+            first_line = markdown_content.split('\n')[1].strip() if len(markdown_content.split('\n')) > 1 else f"card_{original_index}"
 
         base_filename = sanitize_filename(first_line)
         if not base_filename: # Fallback if sanitization results in empty string
@@ -116,4 +111,3 @@ if __name__ == "__main__":
     input_anki_file = "Algorithm.txt"
     output_markdown_dir = "algorithm/raw"
     process_anki_file(input_anki_file, output_markdown_dir)
-
