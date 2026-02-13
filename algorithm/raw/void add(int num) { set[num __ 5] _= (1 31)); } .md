@@ -1,0 +1,1 @@
+void add(int num) { set[num >> 5] |= (1 31)); } // num/32 可写为 num>>5

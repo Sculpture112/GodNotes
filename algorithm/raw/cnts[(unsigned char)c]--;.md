@@ -1,0 +1,1 @@
+cnts[(unsigned char)c]--;

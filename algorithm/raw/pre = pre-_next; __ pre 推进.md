@@ -1,0 +1,1 @@
+pre = pre->next; // pre 推进

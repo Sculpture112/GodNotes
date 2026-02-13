@@ -1,0 +1,1 @@
+while (!maxHeap.empty()) { cout "" ""; maxHeap.pop(); }

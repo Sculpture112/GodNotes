@@ -1,0 +1,1 @@
+ll tree[MAXN 2], lazy[MAXN 2], a[MAXN];

@@ -1,0 +1,1 @@
+return abs(heaters[j] - houses[i]) abs(heaters[j + 1] - houses[i]);

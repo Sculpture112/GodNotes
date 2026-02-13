@@ -1,0 +1,1 @@
+while (--k > 0 && s) s = s.next;

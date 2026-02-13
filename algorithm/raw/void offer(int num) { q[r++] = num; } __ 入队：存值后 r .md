@@ -1,0 +1,1 @@
+void offer(int num) { q[r++] = num; } // 入队：存值后 r 右移

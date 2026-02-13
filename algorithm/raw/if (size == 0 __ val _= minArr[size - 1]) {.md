@@ -1,0 +1,1 @@
+if (size == 0 || val <= minArr[size - 1]) {

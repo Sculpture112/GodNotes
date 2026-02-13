@@ -1,0 +1,1 @@
+long long change_tag[MAXN 2];

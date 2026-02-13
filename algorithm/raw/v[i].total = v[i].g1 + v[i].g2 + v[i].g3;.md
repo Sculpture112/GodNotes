@@ -1,0 +1,1 @@
+v[i].total = v[i].g1 + v[i].g2 + v[i].g3;

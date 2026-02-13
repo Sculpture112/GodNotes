@@ -1,0 +1,1 @@
+size_t pos = body.find(target);

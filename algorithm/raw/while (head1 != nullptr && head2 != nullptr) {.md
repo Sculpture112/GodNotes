@@ -1,0 +1,1 @@
+while (head1 != nullptr && head2 != nullptr) {

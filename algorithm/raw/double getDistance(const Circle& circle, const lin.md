@@ -1,0 +1,1 @@
+double getDistance(const Circle& circle, const line& l) {

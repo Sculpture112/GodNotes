@@ -1,0 +1,1 @@
+if (!head || !head->next) return true;1 -> 2 -> 3 <- 2 <- 1 核心

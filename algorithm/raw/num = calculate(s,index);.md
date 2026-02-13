@@ -1,0 +1,1 @@
+num = calculate(s,index);

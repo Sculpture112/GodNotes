@@ -1,0 +1,1 @@
+return numsOfMostKinds(nums, k) - numsOfMostKinds(nums, k - 1);

@@ -1,0 +1,1 @@
+int minL = *min_element(len, len + 4);

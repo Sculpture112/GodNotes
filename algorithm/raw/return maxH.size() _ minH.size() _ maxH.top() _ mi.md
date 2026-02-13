@@ -1,0 +1,1 @@
+return maxH.size() > minH.size() ? maxH.top() : minH.top();

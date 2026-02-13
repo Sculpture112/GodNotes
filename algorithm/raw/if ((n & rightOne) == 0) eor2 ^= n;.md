@@ -1,0 +1,1 @@
+if ((n & rightOne) == 0) eor2 ^= n;

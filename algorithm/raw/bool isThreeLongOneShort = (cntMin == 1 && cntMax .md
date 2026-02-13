@@ -1,0 +1,1 @@
+bool isThreeLongOneShort = (cntMin == 1 && cntMax != 1);

@@ -1,0 +1,1 @@
+else cout<<res[i][j];

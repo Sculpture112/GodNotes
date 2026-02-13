@@ -1,0 +1,1 @@
+cin >> stu[i].chinese >> stu[i].math >> stu[i].english;

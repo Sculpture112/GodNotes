@@ -1,0 +1,1 @@
+int cutoff_score = a[line_index].score;

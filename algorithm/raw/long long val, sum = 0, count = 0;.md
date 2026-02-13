@@ -1,0 +1,1 @@
+long long val, sum = 0, count = 0;

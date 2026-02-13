@@ -1,0 +1,1 @@
+int choiceB = b[i% nb];

@@ -1,0 +1,1 @@
+long long rmin = min_val;

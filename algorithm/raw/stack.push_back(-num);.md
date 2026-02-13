@@ -1,0 +1,1 @@
+stack.push_back(-num);

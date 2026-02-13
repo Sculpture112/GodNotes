@@ -1,0 +1,1 @@
+auto dist=[&](point a,point b)->double{

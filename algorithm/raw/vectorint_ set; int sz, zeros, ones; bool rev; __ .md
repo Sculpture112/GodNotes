@@ -1,0 +1,1 @@
+vectorint> set; int sz, zeros, ones; bool rev; // 数组、总大小、0计数、1计数、翻转标志

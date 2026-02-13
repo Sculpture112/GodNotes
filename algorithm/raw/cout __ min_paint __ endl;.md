@@ -1,0 +1,1 @@
+cout << min_paint << endl;

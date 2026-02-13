@@ -1,0 +1,1 @@
+if(iB.size()) t+=B[i];

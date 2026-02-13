@@ -1,0 +1,1 @@
+Bucket(string s, int c) : cnt(c), last(nullptr), next(nullptr) {

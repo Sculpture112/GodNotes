@@ -1,0 +1,1 @@
+next = head->next;  // 1. 记录

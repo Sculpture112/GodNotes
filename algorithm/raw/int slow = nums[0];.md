@@ -1,0 +1,1 @@
+int slow = nums[0];

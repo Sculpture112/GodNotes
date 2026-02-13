@@ -1,0 +1,1 @@
+f(root->left, res);

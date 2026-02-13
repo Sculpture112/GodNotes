@@ -1,0 +1,1 @@
+else swap(arr[i], arr[last--]); // 大于x，换到右边

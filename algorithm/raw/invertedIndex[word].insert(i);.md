@@ -1,0 +1,1 @@
+invertedIndex[word].insert(i);

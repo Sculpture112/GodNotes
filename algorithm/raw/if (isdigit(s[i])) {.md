@@ -1,0 +1,1 @@
+if (isdigit(s[i])) {

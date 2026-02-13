@@ -1,0 +1,1 @@
+int fast = nums[nums[0]];

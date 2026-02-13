@@ -1,0 +1,1 @@
+int idx = map[val], lastVal = arr.back();

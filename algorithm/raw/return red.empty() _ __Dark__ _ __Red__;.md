@@ -1,0 +1,1 @@
+return red.empty() ? ""Dark"" : ""Red"";

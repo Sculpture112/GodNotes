@@ -1,0 +1,1 @@
+if (cur->left == nullptr && cur->right == nullptr) {

@@ -1,0 +1,1 @@
+bool visited[10];

@@ -1,0 +1,1 @@
+delete[] path; // 释放内存

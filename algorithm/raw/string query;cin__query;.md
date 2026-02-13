@@ -1,0 +1,1 @@
+string query;cin>>query;

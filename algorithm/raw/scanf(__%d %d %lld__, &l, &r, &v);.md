@@ -1,0 +1,1 @@
+scanf(""%d %d %lld"", &l, &r, &v);

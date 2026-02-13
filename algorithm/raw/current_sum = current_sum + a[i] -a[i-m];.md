@@ -1,0 +1,1 @@
+current_sum = current_sum + a[i] -a[i-m];

@@ -1,0 +1,1 @@
+TreeNode* root = generate(nodes[index++]);

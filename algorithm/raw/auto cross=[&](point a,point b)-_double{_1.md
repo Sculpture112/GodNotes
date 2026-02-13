@@ -1,0 +1,1 @@
+auto cross=[&](point a,point b)->double{

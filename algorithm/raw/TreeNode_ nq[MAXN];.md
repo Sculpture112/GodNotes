@@ -1,0 +1,1 @@
+TreeNode* nq[MAXN];

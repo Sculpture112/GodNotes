@@ -1,0 +1,1 @@
+if (x 2) return false;          // 0 和 1 都不是素数

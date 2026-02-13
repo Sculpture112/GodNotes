@@ -1,0 +1,1 @@
+bool operatorconst student& other) const{

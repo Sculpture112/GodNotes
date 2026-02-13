@@ -1,0 +1,1 @@
+int first_pos = pos; // 此时的pos正好对应原text中单词的起始位置

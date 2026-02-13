@@ -1,0 +1,1 @@
+cout << cnt_boy << endl;

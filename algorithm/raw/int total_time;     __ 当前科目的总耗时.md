@@ -1,0 +1,1 @@
+int total_time;     // 当前科目的总耗时

@@ -1,0 +1,1 @@
+if (cnts[l_idx] == k) {

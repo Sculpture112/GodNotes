@@ -1,0 +1,1 @@
+cin>>v[i].name>>v[i].g1>>v[i].g2>>v[i].g3;

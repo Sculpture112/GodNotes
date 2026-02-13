@@ -1,0 +1,1 @@
+for (int i = 30; i >= 0; i = minus(i, 1)) {

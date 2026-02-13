@@ -1,0 +1,1 @@
+cur->right = generate(nodes[index++]);

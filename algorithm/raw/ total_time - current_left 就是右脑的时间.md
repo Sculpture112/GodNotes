@@ -1,0 +1,1 @@
+// total_time - current_left 就是右脑的时间

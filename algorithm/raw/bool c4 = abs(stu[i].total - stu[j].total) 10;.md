@@ -1,0 +1,1 @@
+bool c4 = abs(stu[i].total - stu[j].total) 10;

@@ -1,0 +1,1 @@
+bool isValidBST1(TreeNode* head) {

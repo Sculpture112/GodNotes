@@ -1,0 +1,1 @@
+total_pairs += count * counts[target];

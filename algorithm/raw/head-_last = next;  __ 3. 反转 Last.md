@@ -1,0 +1,1 @@
+head->last = next;  // 3. 反转 Last

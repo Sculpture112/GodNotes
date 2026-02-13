@@ -1,0 +1,1 @@
+while (j size() && nums[i] == nums[j]) {

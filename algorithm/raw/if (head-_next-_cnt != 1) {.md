@@ -1,0 +1,1 @@
+if (head->next->cnt != 1) {

@@ -1,0 +1,1 @@
+for (int i = n - 1; i >= 0; i--) heapify(i, n); // O(N) 建堆

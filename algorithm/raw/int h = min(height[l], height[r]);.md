@@ -1,0 +1,1 @@
+int h = min(height[l], height[r]);

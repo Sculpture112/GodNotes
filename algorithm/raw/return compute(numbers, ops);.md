@@ -1,0 +1,1 @@
+return compute(numbers, ops);

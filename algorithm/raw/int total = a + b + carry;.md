@@ -1,0 +1,1 @@
+int total = a + b + carry;

@@ -1,0 +1,1 @@
+if (rightHead == nullptr) rightHead = head;

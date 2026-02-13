@@ -1,0 +1,1 @@
+pre->next = cur; pre = cur; // 4. 将其连在结果链表末尾

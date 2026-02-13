@@ -1,0 +1,1 @@
+memset(cnts, 0, sizeof(int) * (arr.size() + 1));

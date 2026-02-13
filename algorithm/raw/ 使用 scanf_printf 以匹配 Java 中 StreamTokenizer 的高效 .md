@@ -1,0 +1,1 @@
+// 使用 scanf/printf 以匹配 Java 中 StreamTokenizer 的高效 IO

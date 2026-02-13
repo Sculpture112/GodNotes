@@ -1,0 +1,1 @@
+if (abs((int)maxH.size() - (int)minH.size()) == 2) {

@@ -1,0 +1,1 @@
+stackint> minS; // 存最小值的栈（与 data 高度同步）

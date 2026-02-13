@@ -1,0 +1,1 @@
+if (numbers.empty() || (ops.back() == '+' || ops.back() == '-')) {

@@ -1,0 +1,1 @@
+nums.push_back(dict[word]);

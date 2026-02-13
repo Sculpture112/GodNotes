@@ -1,0 +1,1 @@
+for (int offset = 1; bits > 0; offset *= BASE, bits--) {

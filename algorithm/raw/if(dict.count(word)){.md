@@ -1,0 +1,1 @@
+if(dict.count(word)){

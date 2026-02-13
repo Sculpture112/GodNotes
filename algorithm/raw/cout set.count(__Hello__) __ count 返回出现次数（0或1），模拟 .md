@@ -1,0 +1,1 @@
+cout set.count(""Hello"") // count 返回出现次数（0或1），模拟 contains

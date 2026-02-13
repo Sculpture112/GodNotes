@@ -1,0 +1,1 @@
+if (pre->next) heap.push(pre->next); // 谁弹出，谁的下一个节点就入堆补位

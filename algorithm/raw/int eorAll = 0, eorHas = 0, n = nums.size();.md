@@ -1,0 +1,1 @@
+int eorAll = 0, eorHas = 0, n = nums.size();

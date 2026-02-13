@@ -1,0 +1,1 @@
+fact[j] = product % 10; // 当前位

@@ -1,0 +1,1 @@
+max_val = max({(long long)head->val, lmax, rmax});

@@ -1,0 +1,1 @@
+int temp = g[currTop][currLeft + offset]; // 暂存左上

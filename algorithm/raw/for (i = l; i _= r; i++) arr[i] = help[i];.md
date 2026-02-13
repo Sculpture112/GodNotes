@@ -1,0 +1,1 @@
+for (i = l; i <= r; i++) arr[i] = help[i];

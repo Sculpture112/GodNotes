@@ -1,0 +1,1 @@
+void update(int rt, int l, int r, int L, int R, ll k) {

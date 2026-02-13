@@ -1,0 +1,1 @@
+bool contains(int num) { return (set[num >> 5] >> (num & 31)) & 1; }

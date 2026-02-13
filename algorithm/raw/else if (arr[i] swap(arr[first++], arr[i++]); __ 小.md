@@ -1,0 +1,1 @@
+else if (arr[i] swap(arr[first++], arr[i++]); // 小于x，换到左边

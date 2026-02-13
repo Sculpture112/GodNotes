@@ -1,0 +1,1 @@
+max_left = max(max_left, current_left);

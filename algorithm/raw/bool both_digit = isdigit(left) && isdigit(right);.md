@@ -1,0 +1,1 @@
+bool both_digit = isdigit(left) && isdigit(right);

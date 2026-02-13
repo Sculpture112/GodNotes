@@ -1,0 +1,1 @@
+bool lok = isValidBST2(head->left);

@@ -1,0 +1,1 @@
+tree[rt] = tree[rt 1] + tree[rt 1 | 1];

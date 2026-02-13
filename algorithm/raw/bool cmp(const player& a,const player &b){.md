@@ -1,0 +1,1 @@
+bool cmp(const player& a,const player &b){

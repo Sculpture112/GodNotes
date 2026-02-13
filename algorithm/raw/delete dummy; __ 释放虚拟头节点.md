@@ -1,0 +1,1 @@
+delete dummy; // 释放虚拟头节点

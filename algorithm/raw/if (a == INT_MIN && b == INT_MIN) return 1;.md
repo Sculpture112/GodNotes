@@ -1,0 +1,1 @@
+if (a == INT_MIN && b == INT_MIN) return 1;

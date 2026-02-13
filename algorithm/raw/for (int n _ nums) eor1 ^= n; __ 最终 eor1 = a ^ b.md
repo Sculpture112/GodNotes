@@ -1,0 +1,1 @@
+for (int n : nums) eor1 ^= n; // 最终 eor1 = a ^ b

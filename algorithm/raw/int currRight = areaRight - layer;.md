@@ -1,0 +1,1 @@
+int currRight = areaRight - layer;

@@ -1,0 +1,1 @@
+arr[i] = (long long)(rand() % v);

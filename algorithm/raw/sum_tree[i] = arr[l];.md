@@ -1,0 +1,1 @@
+sum_tree[i] = arr[l];

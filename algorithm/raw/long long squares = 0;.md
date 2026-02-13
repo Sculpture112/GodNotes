@@ -1,0 +1,1 @@
+long long squares = 0;

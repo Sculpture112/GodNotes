@@ -1,0 +1,1 @@
+return add(a, neg(b));

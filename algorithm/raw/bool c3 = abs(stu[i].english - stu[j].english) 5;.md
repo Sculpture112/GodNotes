@@ -1,0 +1,1 @@
+bool c3 = abs(stu[i].english - stu[j].english) 5;

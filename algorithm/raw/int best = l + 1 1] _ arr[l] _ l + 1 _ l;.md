@@ -1,0 +1,1 @@
+int best = l + 1 1] > arr[l] ? l + 1 : l;

@@ -1,0 +1,1 @@
+for (int r = j + 1; r < n; ++r)

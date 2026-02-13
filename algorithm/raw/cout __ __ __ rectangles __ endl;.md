@@ -1,0 +1,1 @@
+cout "" "" << rectangles << endl;

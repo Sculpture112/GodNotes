@@ -1,0 +1,1 @@
+int a, s; cin >> a >> s;

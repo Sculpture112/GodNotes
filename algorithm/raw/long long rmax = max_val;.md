@@ -1,0 +1,1 @@
+long long rmax = max_val;

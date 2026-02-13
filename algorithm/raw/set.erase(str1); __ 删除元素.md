@@ -1,0 +1,1 @@
+set.erase(str1); // 删除元素

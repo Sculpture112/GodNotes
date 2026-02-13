@@ -1,0 +1,1 @@
+if (scanf(""%d %d"", &n, &m) != EOF) {

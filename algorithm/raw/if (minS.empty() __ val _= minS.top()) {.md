@@ -1,0 +1,1 @@
+if (minS.empty() || val <= minS.top()) {

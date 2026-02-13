@@ -1,0 +1,1 @@
+else minH.push(num);

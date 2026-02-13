@@ -1,0 +1,1 @@
+int r_idx = red.front();

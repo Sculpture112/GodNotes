@@ -1,0 +1,1 @@
+vectorint> affter_max(n+2,0);

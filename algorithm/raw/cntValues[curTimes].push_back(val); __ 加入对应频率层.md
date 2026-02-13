@@ -1,0 +1,1 @@
+cntValues[curTimes].push_back(val); // 加入对应频率层

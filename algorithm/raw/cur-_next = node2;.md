@@ -1,0 +1,1 @@
+cur->next = node2;

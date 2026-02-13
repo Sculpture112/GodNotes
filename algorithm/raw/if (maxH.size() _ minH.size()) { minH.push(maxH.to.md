@@ -1,0 +1,1 @@
+if (maxH.size() > minH.size()) { minH.push(maxH.top()); maxH.pop(); }

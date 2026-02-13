@@ -1,0 +1,1 @@
+if (c == current_target) {

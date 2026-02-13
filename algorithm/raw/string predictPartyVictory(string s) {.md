@@ -1,0 +1,1 @@
+string predictPartyVictory(string s) {

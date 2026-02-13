@@ -1,0 +1,1 @@
+int x = arr[l + rand() % (r - l + 1)];

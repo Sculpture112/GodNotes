@@ -1,0 +1,1 @@
+string cityCode = cityName.substr(0, 2);

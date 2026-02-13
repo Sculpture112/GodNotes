@@ -1,0 +1,1 @@
+min_val = min(min_val, arr[i]);

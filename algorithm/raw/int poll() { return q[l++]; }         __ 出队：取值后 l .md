@@ -1,0 +1,1 @@
+int poll() { return q[l++]; }         // 出队：取值后 l 右移

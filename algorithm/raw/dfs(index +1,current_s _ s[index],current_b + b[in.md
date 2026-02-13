@@ -1,0 +1,1 @@
+dfs(index +1,current_s * s[index],current_b + b[index] ,chosen_cnt +1);

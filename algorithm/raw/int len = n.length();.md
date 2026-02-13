@@ -1,0 +1,1 @@
+int len = n.length();

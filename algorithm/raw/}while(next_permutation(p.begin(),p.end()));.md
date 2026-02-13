@@ -1,0 +1,1 @@
+}while(next_permutation(p.begin(),p.end()));

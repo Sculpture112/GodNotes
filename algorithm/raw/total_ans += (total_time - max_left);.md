@@ -1,0 +1,1 @@
+total_ans += (total_time - max_left);

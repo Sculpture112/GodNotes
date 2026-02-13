@@ -1,0 +1,1 @@
+long long cur_num =0;

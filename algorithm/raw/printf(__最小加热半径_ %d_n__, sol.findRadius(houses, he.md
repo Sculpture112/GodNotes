@@ -1,0 +1,1 @@
+printf(""最小加热半径: %d\n"", sol.findRadius(houses, heaters));

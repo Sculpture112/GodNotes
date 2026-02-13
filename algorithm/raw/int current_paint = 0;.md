@@ -1,0 +1,1 @@
+int current_paint = 0;

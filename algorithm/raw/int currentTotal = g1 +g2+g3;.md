@@ -1,0 +1,1 @@
+int currentTotal = g1 +g2+g3;

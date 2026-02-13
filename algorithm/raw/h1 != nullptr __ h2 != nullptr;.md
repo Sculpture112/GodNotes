@@ -1,0 +1,1 @@
+h1 != nullptr || h2 != nullptr;

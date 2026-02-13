@@ -1,0 +1,1 @@
+double current_pos = 0; // 小鱼当前的总路程

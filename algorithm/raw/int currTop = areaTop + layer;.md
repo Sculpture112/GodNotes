@@ -1,0 +1,1 @@
+int currTop = areaTop + layer;

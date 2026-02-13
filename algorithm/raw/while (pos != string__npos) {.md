@@ -1,0 +1,1 @@
+while (pos != string::npos) {

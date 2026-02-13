@@ -1,0 +1,1 @@
+string rev(string s,int mode){

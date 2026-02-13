@@ -1,0 +1,1 @@
+if (maxH.size() == minH.size()) return (maxH.top() + minH.top()) / 2.0;

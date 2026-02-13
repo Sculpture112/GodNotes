@@ -1,0 +1,1 @@
+nq[r] = node->left;

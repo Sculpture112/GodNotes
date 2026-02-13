@@ -1,0 +1,1 @@
+else rightTail->next = head;

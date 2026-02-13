@@ -1,0 +1,1 @@
+for (auto h : lists) if (h) heap.push(h); // 1. 所有链表的头节点入堆

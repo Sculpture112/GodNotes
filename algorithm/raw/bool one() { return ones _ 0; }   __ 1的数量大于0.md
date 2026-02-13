@@ -1,0 +1,1 @@
+bool one() { return ones > 0; }   // 1的数量大于0

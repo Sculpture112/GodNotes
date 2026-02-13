@@ -1,0 +1,1 @@
+h2 = (h2 == nullptr ? nullptr : h2->next)) {

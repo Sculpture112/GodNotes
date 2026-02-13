@@ -1,0 +1,1 @@
+while (!red.empty() && !dark.empty()) {

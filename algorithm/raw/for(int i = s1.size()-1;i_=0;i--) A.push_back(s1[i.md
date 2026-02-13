@@ -1,0 +1,1 @@
+for(int i = s1.size()-1;i>=0;i--) A.push_back(s1[i] - '0');

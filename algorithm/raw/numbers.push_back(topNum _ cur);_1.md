@@ -1,0 +1,1 @@
+numbers.push_back(topNum / cur);

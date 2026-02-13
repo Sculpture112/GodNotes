@@ -1,0 +1,1 @@
+if (mostLeft(cur->right, level + 1) == h) {

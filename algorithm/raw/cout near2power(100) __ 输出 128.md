@@ -1,0 +1,1 @@
+cout near2power(100) // 输出 128

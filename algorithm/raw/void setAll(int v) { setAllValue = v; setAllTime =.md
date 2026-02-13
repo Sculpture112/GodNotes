@@ -1,0 +1,1 @@
+void setAll(int v) { setAllValue = v; setAllTime = cnt++; } // 更新全局值，更新全局时间

@@ -1,0 +1,1 @@
+long long smallSum(int l, int r) {

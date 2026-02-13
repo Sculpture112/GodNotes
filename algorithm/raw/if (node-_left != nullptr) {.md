@@ -1,0 +1,1 @@
+if (node->left != nullptr) {

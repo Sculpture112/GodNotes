@@ -1,0 +1,1 @@
+head->right = g(vals, cnt);

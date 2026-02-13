@@ -1,0 +1,1 @@
+dequeint> dq; int limit; // 底层容器与容量上限

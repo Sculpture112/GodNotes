@@ -1,0 +1,1 @@
+while (a <= m) help[i++] = arr[a++];

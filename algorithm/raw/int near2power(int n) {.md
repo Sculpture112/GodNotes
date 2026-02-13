@@ -1,0 +1,1 @@
+int near2power(int n) {

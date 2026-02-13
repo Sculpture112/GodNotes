@@ -1,0 +1,1 @@
+cout char)('A' + maxIdx) << endl;

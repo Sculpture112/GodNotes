@@ -1,0 +1,1 @@
+while (cnts[(unsigned char)s[l]] > 0) {

@@ -1,0 +1,1 @@
+bool isEmpty() { return l == r; }

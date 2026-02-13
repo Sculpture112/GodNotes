@@ -1,0 +1,1 @@
+int idx = i >> 5, bit = i & 31;

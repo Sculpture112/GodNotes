@@ -1,0 +1,1 @@
+return abs(cross(AB,AP)/(dist(A,B)));

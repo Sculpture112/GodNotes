@@ -1,0 +1,1 @@
+int sum = (l == r) ? people[l] : people[l] + people[r];

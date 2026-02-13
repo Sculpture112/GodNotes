@@ -1,0 +1,1 @@
+int areaRight = y + r;

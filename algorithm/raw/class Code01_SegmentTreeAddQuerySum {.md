@@ -1,0 +1,1 @@
+class Code01_SegmentTreeAddQuerySum {

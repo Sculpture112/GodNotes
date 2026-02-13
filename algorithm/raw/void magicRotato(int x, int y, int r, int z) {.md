@@ -1,0 +1,1 @@
+void magicRotato(int x, int y, int r, int z) {

@@ -1,0 +1,1 @@
+h1 = (h1 == nullptr ? nullptr : h1->next),

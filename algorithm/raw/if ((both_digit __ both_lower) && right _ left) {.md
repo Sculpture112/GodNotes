@@ -1,0 +1,1 @@
+if ((both_digit || both_lower) && right > left) {

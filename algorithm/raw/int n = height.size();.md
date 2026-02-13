@@ -1,0 +1,1 @@
+int n = height.size();

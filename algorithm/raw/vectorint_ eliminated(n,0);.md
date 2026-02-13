@@ -1,0 +1,1 @@
+vectorint> eliminated(n,0);

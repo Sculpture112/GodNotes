@@ -1,0 +1,1 @@
+push(numbers, ops, (int)cur, s[i++]);

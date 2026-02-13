@@ -1,0 +1,1 @@
+best = arr[best] > arr[i] ? best : i;

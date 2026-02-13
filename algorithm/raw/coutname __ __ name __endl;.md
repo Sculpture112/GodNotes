@@ -1,0 +1,1 @@
+coutname "" "" name <<endl;

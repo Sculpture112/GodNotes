@@ -1,0 +1,1 @@
+for (int i = 0; i ""%d%c"", arr[i] + min_val, i == n - 1 ? '\n' : ' ');

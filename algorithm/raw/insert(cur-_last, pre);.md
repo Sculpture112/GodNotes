@@ -1,0 +1,1 @@
+insert(cur->last, pre);

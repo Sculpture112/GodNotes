@@ -1,0 +1,1 @@
+int Front() { return size == 0 ? -1 : q[l]; }

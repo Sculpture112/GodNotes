@@ -1,0 +1,1 @@
+while (max_val > 0) { bits++; max_val /= BASE; }

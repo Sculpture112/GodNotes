@@ -1,0 +1,1 @@
+if (current_target == '0') {

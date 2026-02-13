@@ -1,0 +1,1 @@
+long long sum[MAXN 2];

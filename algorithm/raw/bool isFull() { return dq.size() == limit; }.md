@@ -1,0 +1,1 @@
+bool isFull() { return dq.size() == limit; }

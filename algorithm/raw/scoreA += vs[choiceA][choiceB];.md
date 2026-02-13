@@ -1,0 +1,1 @@
+scoreA += vs[choiceA][choiceB];

@@ -1,0 +1,1 @@
+Node *head; // 头部节点，表示最久未访问 (Least Recently Used)

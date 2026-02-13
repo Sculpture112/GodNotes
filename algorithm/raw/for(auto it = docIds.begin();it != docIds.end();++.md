@@ -1,0 +1,1 @@
+for(auto it = docIds.begin();it != docIds.end();++it){

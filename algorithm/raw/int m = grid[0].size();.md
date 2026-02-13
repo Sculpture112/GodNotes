@@ -1,0 +1,1 @@
+int m = grid[0].size();

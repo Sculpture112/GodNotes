@@ -1,0 +1,1 @@
+cur->keys.erase(key);

@@ -1,0 +1,1 @@
+if(chosen_cnt> 0){

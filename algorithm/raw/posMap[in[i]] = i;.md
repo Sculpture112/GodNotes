@@ -1,0 +1,1 @@
+posMap[in[i]] = i;

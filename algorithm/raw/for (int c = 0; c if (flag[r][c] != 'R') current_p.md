@@ -1,0 +1,1 @@
+for (int c = 0; c if (flag[r][c] != 'R') current_paint++;

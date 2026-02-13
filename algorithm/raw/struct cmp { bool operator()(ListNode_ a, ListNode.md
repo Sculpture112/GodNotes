@@ -1,0 +1,1 @@
+struct cmp { bool operator()(ListNode* a, ListNode* b) { return a->val > b->val; } };小根堆比较器

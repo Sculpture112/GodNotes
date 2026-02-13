@@ -1,0 +1,1 @@
+lastEnd = start; // 更新上一组结尾

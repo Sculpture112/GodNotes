@@ -1,0 +1,1 @@
+idx=(idx-k+a.size())%a.size();

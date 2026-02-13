@@ -1,0 +1,1 @@
+int currLeft = areaLeft + layer;

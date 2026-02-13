@@ -1,0 +1,1 @@
+cout balancedString(""QQQW"") << endl;

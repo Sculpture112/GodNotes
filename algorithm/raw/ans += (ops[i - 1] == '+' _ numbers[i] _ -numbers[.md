@@ -1,0 +1,1 @@
+ans += (ops[i - 1] == '+' ? numbers[i] : -numbers[i]);

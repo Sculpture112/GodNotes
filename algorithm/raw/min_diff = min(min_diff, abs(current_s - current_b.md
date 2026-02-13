@@ -1,0 +1,1 @@
+min_diff = min(min_diff, abs(current_s - current_b));

@@ -1,0 +1,1 @@
+Node* ans = head->next;

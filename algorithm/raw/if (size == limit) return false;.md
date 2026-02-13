@@ -1,0 +1,1 @@
+if (size == limit) return false;

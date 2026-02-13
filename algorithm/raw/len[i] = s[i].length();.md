@@ -1,0 +1,1 @@
+len[i] = s[i].length();

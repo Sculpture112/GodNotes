@@ -1,0 +1,1 @@
+ldeep = minDepth(root->left);

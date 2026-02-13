@@ -1,0 +1,1 @@
+unordered_mapint, vectorint>> cntValues; // 频率 -> 该频率下的元素栈

@@ -1,0 +1,1 @@
+path[size++] = nums[i]; // 每选一个，size 增加

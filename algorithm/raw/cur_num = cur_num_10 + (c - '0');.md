@@ -1,0 +1,1 @@
+cur_num = cur_num*10 + (c - '0');

@@ -1,0 +1,1 @@
+cur->next->last = pos;

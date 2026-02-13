@@ -1,0 +1,1 @@
+affter_max[i] = max(affter_max[i+1],a[i]);

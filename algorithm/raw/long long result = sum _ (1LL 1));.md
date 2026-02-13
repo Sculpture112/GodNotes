@@ -1,0 +1,1 @@
+long long result = sum * (1LL 1));

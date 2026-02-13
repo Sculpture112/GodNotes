@@ -1,0 +1,1 @@
+sum.resize(max_len, 0);

@@ -1,0 +1,1 @@
+if (face[cur] == a)

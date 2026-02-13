@@ -1,0 +1,1 @@
+void push(int num) { s[top++] = num; } // 压栈：先存再移

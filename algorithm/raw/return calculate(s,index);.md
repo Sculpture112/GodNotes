@@ -1,0 +1,1 @@
+return calculate(s,index);

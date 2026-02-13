@@ -1,0 +1,1 @@
+long long change[MAXN 2];

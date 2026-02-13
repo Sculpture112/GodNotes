@@ -1,0 +1,1 @@
+res.insert(string(path.begin(), path.begin() + size));

@@ -1,0 +1,1 @@
+map[lastVal].insert(idx); // 1. 末尾值的新家

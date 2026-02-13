@@ -1,0 +1,1 @@
+if (visited.find(nums[j]) == visited.end()) {

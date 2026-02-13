@@ -1,0 +1,1 @@
+nxt = new Bucket(key, cur->cnt + 1);

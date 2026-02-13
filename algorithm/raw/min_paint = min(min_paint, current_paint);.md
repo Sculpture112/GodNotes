@@ -1,0 +1,1 @@
+min_paint = min(min_paint, current_paint);

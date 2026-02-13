@@ -1,0 +1,1 @@
+ListNode* res = dummy->next;

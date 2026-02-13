@@ -1,0 +1,1 @@
+bool deleteLast() { if(dq.empty()) return false; dq.pop_back(); return true; }

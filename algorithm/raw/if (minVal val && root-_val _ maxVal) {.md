@@ -1,0 +1,1 @@
+if (minVal val && root->val < maxVal) {

@@ -1,0 +1,1 @@
+auto B=L.point_B;

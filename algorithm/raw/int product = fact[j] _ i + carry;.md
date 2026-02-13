@@ -1,0 +1,1 @@
+int product = fact[j] * i + carry;

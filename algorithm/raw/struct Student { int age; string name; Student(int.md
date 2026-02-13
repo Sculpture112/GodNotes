@@ -1,0 +1,1 @@
+struct Student { int age; string name; Student(int a, string b) : age(a), name(b) {} };

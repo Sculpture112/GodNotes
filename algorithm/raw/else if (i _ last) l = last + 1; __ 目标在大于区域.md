@@ -1,0 +1,1 @@
+else if (i > last) l = last + 1; // 目标在大于区域

@@ -1,0 +1,1 @@
+if ((h->left == nullptr && h->right != nullptr) ||

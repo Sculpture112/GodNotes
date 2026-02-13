@@ -1,0 +1,1 @@
+ListNode* teamEnd(ListNode* s, int k) {

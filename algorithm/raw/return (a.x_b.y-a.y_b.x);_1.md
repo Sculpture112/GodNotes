@@ -1,0 +1,1 @@
+return (a.x*b.y-a.y*b.x);

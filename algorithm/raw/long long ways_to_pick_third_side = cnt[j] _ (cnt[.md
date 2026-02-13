@@ -1,0 +1,1 @@
+long long ways_to_pick_third_side = cnt[j] * (cnt[j] - 1) / 2 % MOD;

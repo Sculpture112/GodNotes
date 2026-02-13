@@ -1,0 +1,1 @@
+cout setprecision(6) << result << endl;

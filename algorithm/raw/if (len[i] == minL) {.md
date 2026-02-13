@@ -1,0 +1,1 @@
+if (len[i] == minL) {

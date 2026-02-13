@@ -1,0 +1,1 @@
+l = max(l, last[c] + 1);

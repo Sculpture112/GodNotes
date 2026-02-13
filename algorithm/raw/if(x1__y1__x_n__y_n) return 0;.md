@@ -1,0 +1,1 @@
+if(x1||y1||x>n||y>n) return 0;

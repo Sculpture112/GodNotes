@@ -1,0 +1,1 @@
+int jobl = min(a, b);

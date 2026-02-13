@@ -1,0 +1,1 @@
+vectorstring> generatePermutation2(string str) {

@@ -1,0 +1,1 @@
+for (int c = a + ans, d = b + ans, k = ans + 1; c < n && d < m; c++, d++, k++) {

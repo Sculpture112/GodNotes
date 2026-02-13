@@ -1,0 +1,1 @@
+levels[cur->left] = level + 1;

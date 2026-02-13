@@ -1,0 +1,1 @@
+int getRandom() { return arr[rand() % arr.size()]; }

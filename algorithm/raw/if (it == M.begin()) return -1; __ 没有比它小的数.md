@@ -1,0 +1,1 @@
+if (it == M.begin()) return -1; // 没有比它小的数

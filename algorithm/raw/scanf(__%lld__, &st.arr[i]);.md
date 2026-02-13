@@ -1,0 +1,1 @@
+scanf(""%lld"", &st.arr[i]);

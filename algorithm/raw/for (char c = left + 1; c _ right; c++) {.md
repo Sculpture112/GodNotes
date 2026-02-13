@@ -1,0 +1,1 @@
+for (char c = left + 1; c < right; c++) {

@@ -1,0 +1,1 @@
+minArr[size] = minArr[size - 1];

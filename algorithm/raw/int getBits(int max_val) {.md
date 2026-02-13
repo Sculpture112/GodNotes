@@ -1,0 +1,1 @@
+int getBits(int max_val) {

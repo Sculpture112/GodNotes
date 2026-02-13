@@ -1,0 +1,1 @@
+q_arr[r++] = cur->left;

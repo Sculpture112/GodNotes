@@ -1,0 +1,1 @@
+node1->next = node2->next;

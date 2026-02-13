@@ -1,0 +1,1 @@
+ListNode* leftTail = nullptr;

@@ -1,0 +1,1 @@
+int lamp_id = floor(j * a);

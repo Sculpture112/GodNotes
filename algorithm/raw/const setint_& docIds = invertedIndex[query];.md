@@ -1,0 +1,1 @@
+const setint>& docIds = invertedIndex[query];

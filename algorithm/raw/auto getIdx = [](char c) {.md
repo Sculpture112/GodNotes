@@ -1,0 +1,1 @@
+auto getIdx = [](char c) {

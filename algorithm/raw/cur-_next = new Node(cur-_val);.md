@@ -1,0 +1,1 @@
+cur->next = new Node(cur->val);

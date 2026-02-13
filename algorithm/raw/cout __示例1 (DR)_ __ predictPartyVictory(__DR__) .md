@@ -1,0 +1,1 @@
+cout ""示例1 (DR): "" predictPartyVictory(""DR"") // 输出: Dark

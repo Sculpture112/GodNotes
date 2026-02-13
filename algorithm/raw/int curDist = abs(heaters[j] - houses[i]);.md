@@ -1,0 +1,1 @@
+int curDist = abs(heaters[j] - houses[i]);

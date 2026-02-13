@@ -1,0 +1,1 @@
+copy->next = nxt ? nxt->next : nullptr; // 克隆链表连接

@@ -1,0 +1,1 @@
+else return nums[i]; // 目标就在等于区域，直接返回

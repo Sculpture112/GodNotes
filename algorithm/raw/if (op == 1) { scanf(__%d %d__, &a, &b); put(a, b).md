@@ -1,0 +1,1 @@
+if (op == 1) { scanf(""%d %d"", &a, &b); put(a, b); }

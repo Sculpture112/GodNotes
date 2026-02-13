@@ -1,0 +1,1 @@
+cout<<model[num][i];

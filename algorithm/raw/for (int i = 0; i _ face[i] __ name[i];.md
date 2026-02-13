@@ -1,0 +1,1 @@
+for (int i = 0; i > face[i] >> name[i];

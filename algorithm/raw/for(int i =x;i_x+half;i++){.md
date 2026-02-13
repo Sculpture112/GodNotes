@@ -1,0 +1,1 @@
+for(int i =x;i<x+half;i++){

@@ -1,0 +1,1 @@
+int b = (j size()) ? fact[j] : 0;

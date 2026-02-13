@@ -1,0 +1,1 @@
+point AB = point(B.x-A.x,B.y-A.y);

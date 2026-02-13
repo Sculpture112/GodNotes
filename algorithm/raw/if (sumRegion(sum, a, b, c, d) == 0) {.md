@@ -1,0 +1,1 @@
+if (sumRegion(sum, a, b, c, d) == 0) {

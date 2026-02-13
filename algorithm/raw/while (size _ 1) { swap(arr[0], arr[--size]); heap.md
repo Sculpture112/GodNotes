@@ -1,0 +1,1 @@
+while (size > 1) { swap(arr[0], arr[--size]); heapify(0, size); } // 交换并调整

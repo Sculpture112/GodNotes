@@ -1,0 +1,1 @@
+if(a[i].score>= cutoff_score){

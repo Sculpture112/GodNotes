@@ -1,0 +1,1 @@
+if (!end) return head; // 剩余部分不足k个，停止翻转

@@ -1,0 +1,1 @@
+bool res = map[val].empty();

@@ -1,0 +1,1 @@
+double result = getDistance(circle, l);

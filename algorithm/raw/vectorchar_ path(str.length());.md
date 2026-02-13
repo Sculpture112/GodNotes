@@ -1,0 +1,1 @@
+vectorchar> path(str.length());

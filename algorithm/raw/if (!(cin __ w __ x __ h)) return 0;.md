@@ -1,0 +1,1 @@
+if (!(cin >> w >> x >> h)) return 0;

@@ -1,0 +1,1 @@
+int minVal = min(p->val, q->val);

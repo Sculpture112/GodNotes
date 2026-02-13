@@ -1,0 +1,1 @@
+int scoreA = 0,scoreB = 0;

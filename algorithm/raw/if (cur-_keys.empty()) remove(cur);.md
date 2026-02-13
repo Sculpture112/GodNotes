@@ -1,0 +1,1 @@
+if (cur->keys.empty()) remove(cur);

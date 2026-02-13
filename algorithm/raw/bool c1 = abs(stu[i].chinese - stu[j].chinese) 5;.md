@@ -1,0 +1,1 @@
+bool c1 = abs(stu[i].chinese - stu[j].chinese) 5;

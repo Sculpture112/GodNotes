@@ -1,0 +1,1 @@
+ans += current_sum; // 当前右组元素 j 贡献的小和

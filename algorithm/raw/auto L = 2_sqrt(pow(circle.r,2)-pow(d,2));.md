@@ -1,0 +1,1 @@
+auto L = 2*sqrt(pow(circle.r,2)-pow(d,2));

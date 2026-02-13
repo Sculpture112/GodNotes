@@ -1,0 +1,1 @@
+map.erase(old->k);

@@ -1,0 +1,1 @@
+if (topStack.empty()) cntValues.erase(topTimes--); // 该层空了，最高频率下降

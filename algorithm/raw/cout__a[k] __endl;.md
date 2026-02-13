@@ -1,0 +1,1 @@
+cout<<a[k] <<endl;

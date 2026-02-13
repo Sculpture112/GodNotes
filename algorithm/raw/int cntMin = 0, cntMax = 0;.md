@@ -1,0 +1,1 @@
+int cntMin = 0, cntMax = 0;

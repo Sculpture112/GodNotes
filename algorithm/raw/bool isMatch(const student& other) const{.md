@@ -1,0 +1,1 @@
+bool isMatch(const student& other) const{

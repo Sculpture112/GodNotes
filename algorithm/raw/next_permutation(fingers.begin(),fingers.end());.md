@@ -1,0 +1,1 @@
+next_permutation(fingers.begin(),fingers.end());

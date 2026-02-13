@@ -1,0 +1,1 @@
+long long min_diff =2e9;

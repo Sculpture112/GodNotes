@@ -1,0 +1,1 @@
+if (root->left == nullptr && root->right == nullptr) {

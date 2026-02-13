@@ -1,0 +1,1 @@
+static const int MAXN = 8001; // 根据题目数据范围设定

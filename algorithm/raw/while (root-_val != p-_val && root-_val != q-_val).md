@@ -1,0 +1,1 @@
+while (root->val != p->val && root->val != q->val) {这里如果root等于p，直接就返回root了

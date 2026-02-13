@@ -1,0 +1,1 @@
+dummy->next = head;

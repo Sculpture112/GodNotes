@@ -1,0 +1,1 @@
+ListNode* dummy = new ListNode(0);

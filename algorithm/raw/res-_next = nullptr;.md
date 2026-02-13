@@ -1,0 +1,1 @@
+res->next = nullptr;

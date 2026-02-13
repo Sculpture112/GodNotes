@@ -1,0 +1,1 @@
+int peek() { return s[top - 1]; }      // 查看栈顶：需回退一格

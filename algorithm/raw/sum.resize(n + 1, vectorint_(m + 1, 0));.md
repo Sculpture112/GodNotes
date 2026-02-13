@@ -1,0 +1,1 @@
+sum.resize(n + 1, vectorint>(m + 1, 0));

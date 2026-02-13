@@ -1,0 +1,1 @@
+int l, r, size, limit; // l:头, r:尾(下个空位), limit:容量

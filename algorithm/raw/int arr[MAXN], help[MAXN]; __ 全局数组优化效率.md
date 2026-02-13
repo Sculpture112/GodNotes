@@ -1,0 +1,1 @@
+int arr[MAXN], help[MAXN]; // 全局数组优化效率

@@ -1,0 +1,1 @@
+int pivot = a[(l+r) /2];

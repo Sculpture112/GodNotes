@@ -1,0 +1,1 @@
+Stack2(int n) : s(n), top(0) {}

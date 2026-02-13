@@ -1,0 +1,1 @@
+int min_sum = s[m] -s[0];

@@ -1,0 +1,1 @@
+long long query(int jobl, int jobr, int l, int r, int i) {

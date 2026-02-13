@@ -1,0 +1,1 @@
+int head() { return q[l]; }           // 查看队头

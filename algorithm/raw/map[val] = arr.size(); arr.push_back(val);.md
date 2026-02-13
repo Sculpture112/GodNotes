@@ -1,0 +1,1 @@
+map[val] = arr.size(); arr.push_back(val);

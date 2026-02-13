@@ -1,0 +1,1 @@
+if (cnt[j] == 0 || cnt[k] == 0) continue;

@@ -1,0 +1,1 @@
+ListNode* leftHead = nullptr;

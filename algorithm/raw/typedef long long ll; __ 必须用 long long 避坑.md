@@ -1,0 +1,1 @@
+typedef long long ll; // 必须用 long long 避坑

@@ -1,0 +1,1 @@
+int pop() { return s[--top]; }         // 弹栈：先移再取

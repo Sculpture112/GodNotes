@@ -1,0 +1,1 @@
+dark.push(d_idx + n);

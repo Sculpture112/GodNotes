@@ -1,0 +1,1 @@
+if (!(cin >> n >> m)) return;

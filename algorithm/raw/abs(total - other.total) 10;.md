@@ -1,0 +1,1 @@
+abs(total - other.total) 10;

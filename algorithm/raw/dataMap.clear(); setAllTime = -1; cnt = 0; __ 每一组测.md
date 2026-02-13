@@ -1,0 +1,1 @@
+dataMap.clear(); setAllTime = -1; cnt = 0; // 每一组测试数据前重置

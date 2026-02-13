@@ -1,0 +1,1 @@
+printf(""%lld\n"", query(jobl, jobr, 1, n, 1));

@@ -1,0 +1,1 @@
+if(word.back() =='.') word.pop_back();

@@ -1,0 +1,1 @@
+int company, age;

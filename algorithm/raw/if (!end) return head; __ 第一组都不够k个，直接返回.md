@@ -1,0 +1,1 @@
+if (!end) return head; // 第一组都不够k个，直接返回

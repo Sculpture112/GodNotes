@@ -1,0 +1,1 @@
+sum_tree[i] = sum_tree[i 1] + sum_tree[i 1 | 1];

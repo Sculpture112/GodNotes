@@ -1,0 +1,1 @@
+if(first == string::npos) return ""0"";

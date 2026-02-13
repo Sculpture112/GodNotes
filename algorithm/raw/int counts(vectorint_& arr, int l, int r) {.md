@@ -1,0 +1,1 @@
+int counts(vectorint>& arr, int l, int r) {

@@ -1,0 +1,1 @@
+bool comparevotes(const candidate& a,const candidate& b){

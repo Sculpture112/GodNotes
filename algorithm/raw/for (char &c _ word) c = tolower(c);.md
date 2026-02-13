@@ -1,0 +1,1 @@
+for (char &c : word) c = tolower(c);

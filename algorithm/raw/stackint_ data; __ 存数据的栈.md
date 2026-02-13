@@ -1,0 +1,1 @@
+stackint> data; // 存数据的栈

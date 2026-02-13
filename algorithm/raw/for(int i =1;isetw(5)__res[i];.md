@@ -1,0 +1,1 @@
+for(int i =1;isetw(5)<<res[i];

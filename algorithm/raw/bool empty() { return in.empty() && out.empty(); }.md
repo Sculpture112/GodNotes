@@ -1,0 +1,1 @@
+bool empty() { return in.empty() && out.empty(); }

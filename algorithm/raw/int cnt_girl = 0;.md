@@ -1,0 +1,1 @@
+int cnt_girl = 0;

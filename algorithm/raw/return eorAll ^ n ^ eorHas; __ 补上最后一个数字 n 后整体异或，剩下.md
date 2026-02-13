@@ -1,0 +1,1 @@
+return eorAll ^ n ^ eorHas; // 补上最后一个数字 n 后整体异或，剩下的即为缺失值

@@ -1,0 +1,1 @@
+head2 = head2->next; // 移动 head2

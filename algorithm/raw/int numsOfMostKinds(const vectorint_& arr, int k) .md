@@ -1,0 +1,1 @@
+int numsOfMostKinds(const vectorint>& arr, int k) {

@@ -1,0 +1,1 @@
+g[currTop + offset][currRight] = temp;                                // 暂存的左上 填到 右上

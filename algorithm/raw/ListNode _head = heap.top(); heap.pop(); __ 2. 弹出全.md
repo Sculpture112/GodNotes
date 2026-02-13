@@ -1,0 +1,1 @@
+ListNode *head = heap.top(); heap.pop(); // 2. 弹出全局最小作为合并后的头

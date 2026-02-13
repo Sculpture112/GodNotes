@@ -1,0 +1,1 @@
+total_time += min(tickets[i],target_tickets -1);

@@ -1,0 +1,1 @@
+minS.push(minS.top());

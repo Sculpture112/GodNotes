@@ -1,0 +1,1 @@
+return a.age // 返回 true 表示 a 优先级高

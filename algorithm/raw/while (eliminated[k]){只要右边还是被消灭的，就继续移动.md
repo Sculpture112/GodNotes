@@ -1,0 +1,1 @@
+while (eliminated[k]){只要右边还是被消灭的，就继续移动

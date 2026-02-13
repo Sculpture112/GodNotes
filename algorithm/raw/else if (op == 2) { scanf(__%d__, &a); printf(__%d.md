@@ -1,0 +1,1 @@
+else if (op == 2) { scanf(""%d"", &a); printf(""%d\n"", get(a)); }

@@ -1,0 +1,1 @@
+string get(int cnt, string str) {

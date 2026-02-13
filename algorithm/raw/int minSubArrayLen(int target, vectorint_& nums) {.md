@@ -1,0 +1,1 @@
+int minSubArrayLen(int target, vectorint>& nums) {

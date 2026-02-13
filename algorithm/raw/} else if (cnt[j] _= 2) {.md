@@ -1,0 +1,1 @@
+} else if (cnt[j] >= 2) {

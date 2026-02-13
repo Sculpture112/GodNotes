@@ -1,0 +1,1 @@
+coutrev(s.substr(0,s.size()-1),0)""%""<<endl;

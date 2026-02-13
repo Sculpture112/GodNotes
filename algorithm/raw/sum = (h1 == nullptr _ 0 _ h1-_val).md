@@ -1,0 +1,1 @@
+sum = (h1 == nullptr ? 0 : h1->val)

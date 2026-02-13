@@ -1,0 +1,1 @@
+int debt = t.length();

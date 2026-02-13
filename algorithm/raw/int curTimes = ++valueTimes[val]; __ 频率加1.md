@@ -1,0 +1,1 @@
+int curTimes = ++valueTimes[val]; // 频率加1

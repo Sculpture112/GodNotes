@@ -1,0 +1,1 @@
+if (height[l] <= height[r]) {

@@ -1,0 +1,1 @@
+swap(arr[first++], arr[i++]); // 发配到左边，i 前进

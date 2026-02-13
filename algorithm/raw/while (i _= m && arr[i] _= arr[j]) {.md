@@ -1,0 +1,1 @@
+while (i <= m && arr[i] <= arr[j]) {

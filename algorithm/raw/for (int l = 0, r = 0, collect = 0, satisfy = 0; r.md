@@ -1,0 +1,1 @@
+for (int l = 0, r = 0, collect = 0, satisfy = 0; r < n; r++) {

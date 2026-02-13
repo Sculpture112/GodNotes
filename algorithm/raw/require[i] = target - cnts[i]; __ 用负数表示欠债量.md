@@ -1,0 +1,1 @@
+require[i] = target - cnts[i]; // 用负数表示欠债量

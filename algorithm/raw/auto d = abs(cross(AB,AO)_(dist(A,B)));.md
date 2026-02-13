@@ -1,0 +1,1 @@
+auto d = abs(cross(AB,AO)/(dist(A,B)));

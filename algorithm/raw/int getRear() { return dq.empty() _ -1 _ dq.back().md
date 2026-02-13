@@ -1,0 +1,1 @@
+int getRear() { return dq.empty() ? -1 : dq.back(); }

@@ -1,0 +1,1 @@
+void update(int jobl, int jobr, long long jobv, int l, int r, int i) {

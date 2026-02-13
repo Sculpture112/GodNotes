@@ -1,0 +1,1 @@
+int minArr[MAXN]; // 最小值栈数组（与 data 下标同步）

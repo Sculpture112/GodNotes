@@ -1,0 +1,1 @@
+current_pos = current_pos + step;

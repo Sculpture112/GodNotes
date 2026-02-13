@@ -1,0 +1,1 @@
+if (leftHead == nullptr) return rightHead;

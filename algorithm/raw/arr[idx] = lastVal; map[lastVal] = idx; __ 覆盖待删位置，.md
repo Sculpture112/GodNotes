@@ -1,0 +1,1 @@
+arr[idx] = lastVal; map[lastVal] = idx; // 覆盖待删位置，更新末尾值下标

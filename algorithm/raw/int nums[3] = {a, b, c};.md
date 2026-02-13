@@ -1,0 +1,1 @@
+int nums[3] = {a, b, c};

@@ -1,0 +1,1 @@
+size_t last = s.find_last_not_of('0');

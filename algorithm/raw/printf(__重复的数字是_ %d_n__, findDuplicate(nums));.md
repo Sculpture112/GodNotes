@@ -1,0 +1,1 @@
+printf(""重复的数字是: %d\n"", findDuplicate(nums));

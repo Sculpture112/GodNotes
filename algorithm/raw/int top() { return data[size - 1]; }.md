@@ -1,0 +1,1 @@
+int top() { return data[size - 1]; }

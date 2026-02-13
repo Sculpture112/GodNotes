@@ -1,0 +1,1 @@
+cur = (cur - s % n + n) % n;

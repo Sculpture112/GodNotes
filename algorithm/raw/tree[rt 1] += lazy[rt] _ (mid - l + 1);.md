@@ -1,0 +1,1 @@
+tree[rt 1] += lazy[rt] * (mid - l + 1);

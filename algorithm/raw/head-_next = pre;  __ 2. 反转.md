@@ -1,0 +1,1 @@
+head->next = pre;  // 2. 反转

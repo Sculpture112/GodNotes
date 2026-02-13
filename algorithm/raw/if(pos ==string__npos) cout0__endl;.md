@@ -1,0 +1,1 @@
+if(pos ==string::npos) cout0<<endl;

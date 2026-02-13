@@ -1,0 +1,1 @@
+if (tail == node) return;

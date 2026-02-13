@@ -1,0 +1,1 @@
+if (c == 'W') return 1;

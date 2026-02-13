@@ -1,0 +1,1 @@
+void put(int k, int v) { dataMap[k] = {v, cnt++}; } // 正常放入，赋予当前时间戳

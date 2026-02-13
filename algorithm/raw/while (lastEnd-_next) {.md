@@ -1,0 +1,1 @@
+while (lastEnd->next) {

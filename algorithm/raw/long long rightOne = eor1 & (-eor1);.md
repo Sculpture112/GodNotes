@@ -1,0 +1,1 @@
+long long rightOne = eor1 & (-eor1);

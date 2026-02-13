@@ -1,0 +1,1 @@
+cin>>a[i].id>>a[i].score;

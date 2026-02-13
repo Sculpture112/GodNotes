@@ -1,0 +1,1 @@
+coutsetw(3) <<x;

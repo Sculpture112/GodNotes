@@ -1,0 +1,1 @@
+cin>>students[i].c>>students[i].m>>students[i].e;

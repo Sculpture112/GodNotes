@@ -1,0 +1,1 @@
+ans = max(ans, h * (r - l));

@@ -1,0 +1,1 @@
+pre = new Bucket(key, cur->cnt - 1);

@@ -1,0 +1,1 @@
+pos[s] = prev(q.end());

@@ -1,0 +1,1 @@
+int currBottom = areaBottom - layer;

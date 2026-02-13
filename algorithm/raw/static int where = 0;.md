@@ -1,0 +1,1 @@
+static int where = 0;

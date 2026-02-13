@@ -1,0 +1,1 @@
+max_val = LLONG_MIN;

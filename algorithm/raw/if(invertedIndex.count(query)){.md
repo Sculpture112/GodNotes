@@ -1,0 +1,1 @@
+if(invertedIndex.count(query)){
