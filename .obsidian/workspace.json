@@ -53,10 +53,13 @@
             "id": "a423589f04cf5227",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "bases",
+              "state": {
+                "file": "未命名.base",
+                "viewName": "表格"
+              },
+              "icon": "lucide-table",
+              "title": "未命名"
             }
           }
         ],
@@ -225,6 +228,14 @@
   },
   "active": "a423589f04cf5227",
   "lastOpenFiles": [
+    "未命名.base",
+    "algorithm/raw/2_2.md",
+    "algorithm/raw/🗑️_1.md",
+    "algorithm/raw/026_比较器与自定义排序.md",
+    "algorithm/raw/3 4复制输出：1.md",
+    "algorithm/raw/}_519.md",
+    "algorithm/raw/ 1. 排序是双指针的前提.md",
+    "algorithm/raw/ 1. 邮票放置判定主逻辑 (possibleToStamp).md",
     "algorithm/raw/ 2. 懒信息的下发_4.md",
     "algorithm/raw/ 1. 二叉树节点结构定义 (TreeNode Struct)_13.md",
     "algorithm/raw/ 1. 读取原始数组.md",
@@ -243,14 +254,6 @@
     "algorithm/raw/P1093_[NOIP_2007_普及组]_奖学金_题目背景NOIP2007_普及组_T1_题目描.md",
     "algorithm/raw/![paste-65156a764891ac43352bfa7884aa3ec0733e686c.j.md",
     "algorithm/raw/P1923_【深基9.例4】求第_k_小的数_题目描述输入_$n$_个数字_$a_i$，输出这些数.md",
-    "algorithm/raw/P1603_斯诺登的密码_题目背景根据斯诺登事件出的一道水题_数据已经修正_By_absi2011.md",
-    "algorithm/raw/P1553_数字反转（升级版）_题目背景_以下为原题面，仅供参考_给定一个数，请将该数各个位上数字.md",
-    "algorithm/raw/P1308_[NOIP_2011_普及组]_统计单词数_题目描述一般的文本编辑器都有查找单词的功能.md",
-    "algorithm/raw/038_Code07.md",
-    "algorithm/raw/038_Code04_有重复项数组的去重全排列.md",
-    "algorithm/raw/038_Code03_没有重复项数字的全排列.md",
-    "algorithm/raw/038_Code02_含有重复元素数组的所有不重复组合.md",
-    "algorithm/raw/include_iostream_1.md",
     "Algorithm.txt",
     "algorithm/raw",
     "convert_anki.py",
@@ -259,7 +262,6 @@
     "Algorithm.apkg",
     "1.colpkg",
     "集合-2026-02-13@23-09-22.colpkg",
-    "未命名.base",
     "algorithm"
   ]
 }
