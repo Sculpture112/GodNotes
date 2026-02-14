@@ -13,22 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开始.md",
+                "file": "Vim.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "开始"
+              "title": "Vim"
             }
           },
           {
             "id": "158291d5a3ae724a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Vim.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Vim"
             }
           },
           {
@@ -226,7 +230,7 @@
   "lastOpenFiles": [
     "未命名 2.md",
     "未命名.md",
-    "开始.md",
+    "Vim.md",
     "未命名 1.md",
     "未命名.base",
     "algorithm/raw/```.md",
