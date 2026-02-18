@@ -197,6 +197,7 @@
   },
   "active": "a969baf602674ef5",
   "lastOpenFiles": [
+    "algorithm/raw/clean_project.py",
     "algorithm/raw/按奇偶排序数组II.md",
     "algorithm/raw/二叉树最近公共祖先.md",
     "algorithm/raw/线段树区间修改查询模板.md",
@@ -222,7 +223,6 @@
     "algorithm/raw/P2676_B.md",
     "algorithm/raw/P2670_扫雷游戏.md",
     "algorithm/raw/P2241_题目背景1997年普及组第一题.md",
-    "algorithm/raw/P2089_得到了一只鸡。.md",
     "未命名 1.base",
     "未命名 2.base",
     "未命名 3.base",
