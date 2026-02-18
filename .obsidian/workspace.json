@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "df0c57ffa59f5a30",
+        "id": "1e064d8bcdfc6760",
         "type": "tabs",
         "children": [
           {
-            "id": "a969baf602674ef5",
+            "id": "af49154d4ce135f7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algorithm/raw/034 返回两个无环链表相交的第一个节点.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "034 返回两个无环链表相交的第一个节点"
+              "title": "新标签页"
             }
           }
         ]
@@ -60,22 +56,9 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
-          },
-          {
-            "id": "c5c48cdb69739820",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -195,34 +178,34 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a969baf602674ef5",
+  "active": "af49154d4ce135f7",
   "lastOpenFiles": [
-    "algorithm/raw/034 返回两个无环链表相交的第一个节点.md",
+    "未命名.md",
+    "algorithm/raw/```cpp_161.md",
+    "algorithm/raw/```cpp_167.md",
     "algorithm/raw/030 只出现一次的数字 III (找两种奇数次.md",
+    "algorithm/raw/034 判断链表是否是回文结构.md",
+    "algorithm/raw/034 每k个节点一组翻转链表.md",
+    "algorithm/raw/034 复制带随机指针的链表.md",
+    "algorithm/raw/034 返回两个无环链表相交的第一个节点.md",
+    "algorithm/raw/032_设计位图（支持O(1)翻转）.md",
+    "algorithm/raw/031 Brian Kernighan 算法与.md",
     "algorithm/raw/026 哈希表与哈希集合的基本用法.md",
     "algorithm/raw/1. 确定魔法影响的整块区域的四个极端边界.md",
+    "algorithm/raw/```cpp_159.md",
+    "algorithm/raw/```cpp_130.md",
+    "algorithm/raw/```cpp_115.md",
+    "algorithm/raw/```cpp_113.md",
     "algorithm/raw/```cpp_111.md",
+    "algorithm/raw/```cpp_81.md",
+    "algorithm/raw/```cpp_41.md",
+    "algorithm/raw/```cpp_38.md",
+    "algorithm/raw/```cpp_13.md",
+    "algorithm/raw/```cpp_9.md",
+    "algorithm/raw/```cpp_3.md",
     "algorithm/raw/```cpp_82.md",
     "algorithm/raw/```cpp_12.md",
     "algorithm/raw/049 Code04 加油站.md",
-    "algorithm/raw/P1116 车厢重组 题目描述在一个旧式的火车站旁边.md",
-    "algorithm/raw/P1098 [NOIP 2007 提高组] 字符串的.md",
-    "algorithm/raw/P1093 [NOIP 2007 普及组] 奖学金.md",
-    "algorithm/raw/P1068 [NOIP 2009 普及组] 分数线划.md",
-    "algorithm/raw/P1036 [NOIP 2002 普及组] 选数 题.md",
-    "algorithm/raw/https www.nowcoder.com share j.md",
-    "algorithm/raw/Farmer John 有若干头奶牛。为了训练奶牛们的智力，.md",
-    "algorithm/raw/64 位输出请用 printf( %lld )_2.md",
-    "algorithm/raw/110 Code06 线段树同时支持范围重置、范.md",
-    "algorithm/raw/110 Code05 线段树同时支持范围重置、范.md",
-    "algorithm/raw/110 Code04 线段树支持范围重置、范围查.md",
-    "algorithm/raw/110 Code03 线段树支持范围增加、范围查.md",
-    "algorithm/raw/049 Code07 至少有 K 个重复字符的最.md",
-    "algorithm/raw/049 Code01 累加和大于等于 targe.md",
-    "algorithm/raw/039 Code01 含有嵌套的表达式求值_2.md",
-    "algorithm/raw/038 Code02 含有重复元素数组的所有不重.md",
-    "algorithm/raw/038 Code01 字符串的全部子序列（去重版.md",
-    "algorithm/raw/035 插入、删除和获取随机元素 O(1) 允许.md",
     "algorithm/raw/clean_project.py",
     "未命名 1.base",
     "未命名 2.base",
