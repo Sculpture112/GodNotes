@@ -1,4 +1,3 @@
-```cpp
 给定长度为 nn 的字符串 ss，其字符 si∈{R,D}si​∈{R,D} 表示第 ii 位参议员的阵营。其中 R 代表红帮，D 代表黑帮。参议员按照索引 11 到 nn 的顺序循环行动。若剩余有行动权的参议员均属于同一阵营，则该阵营获胜并结束流程；否则，当前参议员可选择：1.1.​ 弹劾一名仍可行动的参议员，使其在后续轮次中失去行动权。2.2.​ （仅当剩余参议员同阵营时）直接宣布胜利。你需要实现一个函数，求出所有参议员均采用最优策略时，最终获胜的阵营的名称。函数接受的参数为一个字符串 ss，长度 nn (1≦n≦104)(1≦n≦104)，且 si∈{R,D}si​∈{R,D}。函数的返回值为一个字符串 `Red` 或 `Dark`，分别表示红帮或黑帮获胜。示例1输入："DR"
 ```
 复制
@@ -34,9 +33,12 @@
 ```
 
 ```cpp
-#include <iostream>
-#include <string>
-#include <queue>
+
+# include <iostream>
+
+# include <string>
+
+# include <queue>
 
 using namespace std;
 
@@ -86,4 +88,3 @@ int main() {
     cout << "示例2 (DRR): " << sol.predictPartyVictory("DRR") << endl;  // 输出: Red
     return 0;
 }
-```

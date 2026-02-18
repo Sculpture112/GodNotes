@@ -1,4 +1,3 @@
-```cpp
 // 归并排序求翻转对（LeetCode 493）
 ```
 
@@ -51,4 +50,3 @@ int counts(vector<int>& arr, int l, int r) {
     int m = l + ((r - l) >> 1);
     return counts(arr, l, m) + counts(arr, m + 1, r) + merge(arr, l, m, r);
 }
-```

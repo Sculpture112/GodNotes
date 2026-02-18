@@ -1,6 +1,6 @@
-```cpp
 // 031 Brian Kernighan 算法与 2 的幂判断
-#include <iostream>
+
+# include <iostream>
 
 class Solution {
 public:
@@ -17,4 +17,3 @@ n & -n 的功能是“只提取最右侧的 1”。
 ```cpp
 }
 };
-```

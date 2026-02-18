@@ -1,6 +1,7 @@
-```cpp
 // 循环双端队列（STL deque 代理版）
-#include <deque>
+
+# include <deque>
+
 using namespace std;
 
 class MyCircularDeque {
@@ -34,4 +35,3 @@ public:
 };
 
 🗑️
-```

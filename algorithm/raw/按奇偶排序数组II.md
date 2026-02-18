@@ -1,4 +1,3 @@
-```cpp
 package class050;
 
 // 按奇偶排序数组II
@@ -31,4 +30,3 @@ public class Code01_SortArrayByParityII {
 	}
 
 }
-```

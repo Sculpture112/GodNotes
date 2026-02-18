@@ -1,12 +1,14 @@
-```cpp
 // 049 Code01 累加和大于等于 target 的最短子数组长度
 // 测试链接 : https://leetcode.cn/problems/minimum-size-subarray-sum/
 // 核心：滑动窗口。利用数组全是正数带来的单调性。
 
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <climits>
+# include <iostream>
+
+# include <vector>
+
+# include <algorithm>
+
+# include <climits>
 
 using namespace std;
 
@@ -37,4 +39,3 @@ int main() {
     printf("最小子数组长度: %d\n", minSubArrayLen(target, nums));
     return 0;
 }
-```
