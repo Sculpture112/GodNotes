@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "8c0096f25d81ba8b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-02-18 14.50.38.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-02-18 14.50.38.excalidraw"
+            }
+          },
+          {
             "id": "d49ec9b868b431a9",
             "type": "leaf",
             "state": {
@@ -63,7 +75,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -223,14 +235,17 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "158291d5a3ae724a",
+  "active": "8c0096f25d81ba8b",
   "lastOpenFiles": [
+    "Vim.md",
+    "Excalidraw/Drawing 2026-02-18 14.50.38.excalidraw.md",
+    "Excalidraw",
     "未命名 2.md",
     "未命名.md",
-    "Vim.md",
     "未命名 1.md",
     "未命名.base",
     "algorithm/raw/```.md",
@@ -254,7 +269,6 @@
     "algorithm/raw/ 1. 二叉树节点结构定义 (TreeNode Struct)_13.md",
     "algorithm/raw/ 1. 读取原始数组.md",
     "algorithm/raw/ 1. 创建哨兵节点 (Dummy Node).md",
-    "algorithm/raw/ @param target int整型.md",
     "Algorithm.txt",
     "algorithm/raw",
     "convert_anki.py",
@@ -262,7 +276,6 @@
     "algorithm/新建文件夹",
     "Algorithm.apkg",
     "1.colpkg",
-    "集合-2026-02-13@23-09-22.colpkg",
-    "algorithm"
+    "集合-2026-02-13@23-09-22.colpkg"
   ]
 }
