@@ -11,10 +11,14 @@
             "id": "af49154d4ce135f7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "algorithm/raw/026 比较器与自定义排序.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "026 比较器与自定义排序"
             }
           }
         ]
@@ -56,9 +60,22 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "dda19682fefdf810",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -169,9 +186,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
+      "cmdr:重新加载 Obsidian（不保存当前编辑内容）": false,
       "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-git:Open Git source control": false,
@@ -180,32 +196,32 @@
   },
   "active": "af49154d4ce135f7",
   "lastOpenFiles": [
+    "algorithm/raw/025 堆结构和堆排序（填函数版）.md",
+    "algorithm/raw/025 堆结构和堆排序.md",
+    "algorithm/raw/024快速选择算法.md",
+    "algorithm/raw/1. 确定魔法影响的整块区域的四个极端边界.md",
+    "algorithm/raw/1. 从原位置移除.md",
+    "algorithm/raw/1. 创建虚拟头节点，简化头部的交换逻辑.md",
+    "algorithm/raw/P5461 赦免战俘 题目背景借助反作弊系统，一些在.md",
+    "algorithm/raw/P3799 小 Y 拼木棒 题目背景上道题中，小 Y.md",
+    "algorithm/raw/P3654 First Step (ファーストステッ.md",
+    "algorithm/raw/P2670 [NOIP 2015 普及组] 扫雷游戏.md",
+    "algorithm/raw/液晶屏上，每个阿拉伯数字都是可以显示成 3×5 的点阵的（其.md",
+    "algorithm/raw/给定一个整数序列 a=[a1,a2,…,an]a=[a1​,.md",
+    "algorithm/raw/高精度阶乘求和.md",
+    "algorithm/raw/高精度计算.md",
+    "algorithm/raw/给定 NN 名学生及其信息，包含：.md",
+    "algorithm/raw/110 线段树支持范围增加、范围查询.md",
+    "algorithm/raw/048 二维差分模版(洛谷).md",
+    "algorithm/raw/036 二叉树先序序列化和反序列化.md",
+    "algorithm/raw/034 返回两个无环链表相交的第一个节点.md",
+    "Excalidraw/Drawing 2026-02-18 14.50.38.excalidraw.md",
     "未命名.md",
     "algorithm/raw/```cpp_161.md",
     "algorithm/raw/```cpp_167.md",
     "algorithm/raw/030 只出现一次的数字 III (找两种奇数次.md",
     "algorithm/raw/034 判断链表是否是回文结构.md",
     "algorithm/raw/034 每k个节点一组翻转链表.md",
-    "algorithm/raw/034 复制带随机指针的链表.md",
-    "algorithm/raw/034 返回两个无环链表相交的第一个节点.md",
-    "algorithm/raw/032_设计位图（支持O(1)翻转）.md",
-    "algorithm/raw/031 Brian Kernighan 算法与.md",
-    "algorithm/raw/026 哈希表与哈希集合的基本用法.md",
-    "algorithm/raw/1. 确定魔法影响的整块区域的四个极端边界.md",
-    "algorithm/raw/```cpp_159.md",
-    "algorithm/raw/```cpp_130.md",
-    "algorithm/raw/```cpp_115.md",
-    "algorithm/raw/```cpp_113.md",
-    "algorithm/raw/```cpp_111.md",
-    "algorithm/raw/```cpp_81.md",
-    "algorithm/raw/```cpp_41.md",
-    "algorithm/raw/```cpp_38.md",
-    "algorithm/raw/```cpp_13.md",
-    "algorithm/raw/```cpp_9.md",
-    "algorithm/raw/```cpp_3.md",
-    "algorithm/raw/```cpp_82.md",
-    "algorithm/raw/```cpp_12.md",
-    "algorithm/raw/049 Code04 加油站.md",
     "algorithm/raw/clean_project.py",
     "未命名 1.base",
     "未命名 2.base",
