@@ -161,29 +161,39 @@
               "icon": "lucide-list",
               "title": "未命名 的大纲"
             }
+          },
+          {
+            "id": "cc4fc91dd9bb1e6d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c5c48cdb69739820",
+  "active": "a969baf602674ef5",
   "lastOpenFiles": [
+    "algorithm/raw/去除树.md",
+    "algorithm/raw/![image.png](1765614214752-ae72c3b7-08a0-4f17-87a9.md",
     "未命名 1.base",
     "未命名 2.base",
     "未命名 3.base",
@@ -199,7 +209,6 @@
     "algorithm/raw/![paste-e3758799b7c374bcb4c0cbeeffd51dcb7f1e8ce3.j.md",
     "algorithm/raw/![paste-1385f99f605dfec59c3e02d568141736d7572843.j.md",
     "algorithm/raw/![paste-8b4cde99bdd1b415bd6f27cccecfaeae3cf90a44.j.md",
-    "algorithm/raw/![image.png](1765614214752-ae72c3b7-08a0-4f17-87a9.md",
     "algorithm/raw/![paste-65156a764891ac43352bfa7884aa3ec0733e686c.j.md",
     "algorithm/raw/```_5.md",
     "algorithm/raw/```_7.md",
