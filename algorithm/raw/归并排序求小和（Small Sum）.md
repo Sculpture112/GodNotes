@@ -1,3 +1,4 @@
+```cpp
 // 归并排序求小和（Small Sum）
 const int MAXN = 100001;
 int arr[MAXN], help[MAXN]; // 全局数组优化效率
@@ -38,3 +39,4 @@ long long smallSum(int l, int r) {
     // 结果 = 左内部小和 + 右内部小和 + 跨左右产生的小和
     return smallSum(l, m) + smallSum(m + 1, r) + merge(l, m, r);
 }
+```

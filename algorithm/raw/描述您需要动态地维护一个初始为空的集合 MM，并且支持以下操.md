@@ -1,3 +1,5 @@
+```cpp
+
 ```
 
 ```cpp
@@ -47,9 +49,7 @@ NO
 ```
 
 ```cpp
-
-# include<bits/stdc++.h>
-
+#include<bits/stdc++.h>
 using namespace std;
 
 set<int> M;
@@ -83,3 +83,4 @@ int getBack(int x){
 }
 
 // main 函数保持不变即可运行
+```

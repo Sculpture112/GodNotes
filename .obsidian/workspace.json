@@ -1,41 +1,97 @@
 {
   "main": {
-    "id": "5218a37e48a08daf",
+    "id": "4f2d0ed80c433cd4",
     "type": "split",
     "children": [
       {
-        "id": "1e064d8bcdfc6760",
+        "id": "e165ae70de619334",
         "type": "tabs",
         "children": [
           {
-            "id": "af49154d4ce135f7",
+            "id": "d47465c8e5d76c9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/raw/030 找到缺失的数字.md",
+                "file": "备赛.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "030 找到缺失的数字"
+              "title": "备赛"
+            }
+          },
+          {
+            "id": "a4ce6dfba7753277",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "备赛.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "备赛"
+            }
+          },
+          {
+            "id": "a68425de677676d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "备赛.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "备赛"
+            }
+          },
+          {
+            "id": "b5403a0500d5fdda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5699e1ea78d77509",
+    "id": "bca8a90c58f0a856",
     "type": "split",
     "children": [
       {
-        "id": "6a8e78a1eab50d2f",
+        "id": "f3304df02652149d",
         "type": "tabs",
         "children": [
           {
-            "id": "d2b9bb7f0760832b",
+            "id": "cfe53dc0a0ca4ce4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "47b137b2f0765088",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -52,7 +108,7 @@
             }
           },
           {
-            "id": "635014e359ac2ffb",
+            "id": "a1480283a1118a10",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -60,42 +116,28 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
-          },
-          {
-            "id": "dda19682fefdf810",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "31b07abe7485ba4c",
+    "id": "4768838af22391f0",
     "type": "split",
     "children": [
       {
-        "id": "e4ba5e66eeb6d3eb",
+        "id": "488df1141ede07bb",
         "type": "tabs",
         "children": [
           {
-            "id": "a3ba40d1d7a54034",
+            "id": "9fb366fcb1ed874f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,25 +147,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "未命名 的反向链接列表"
+              "title": "conflict-files-obsidian-git 的反向链接列表"
             }
           },
           {
-            "id": "ab1d00ab36f88224",
+            "id": "725b5ec42a983c36",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "未命名 的出链列表"
+              "title": "conflict-files-obsidian-git 的出链列表"
             }
           },
           {
-            "id": "b7ad1867d39997df",
+            "id": "29516dc26cab5def",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -138,7 +180,7 @@
             }
           },
           {
-            "id": "698045b93eb61441",
+            "id": "03e0a9879c728e20",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -152,85 +194,49 @@
             }
           },
           {
-            "id": "de675f639babb203",
+            "id": "3c8e75295af62bce",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.md",
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
-            }
-          },
-          {
-            "id": "cc4fc91dd9bb1e6d",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "conflict-files-obsidian-git 的大纲"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "cmdr:重新加载 Obsidian（不保存当前编辑内容）": false,
       "graph:查看关系图谱": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-git:Open Git source control": false,
+      "cmdr:重新加载 Obsidian（不保存当前编辑内容）": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "af49154d4ce135f7",
+  "active": "b5403a0500d5fdda",
   "lastOpenFiles": [
-    "algorithm/raw/028 基数排序.md",
-    "algorithm/raw/027 合并K个有序链表.md",
-    "algorithm/raw/026 比较器与自定义排序.md",
-    "algorithm/raw/025 堆结构和堆排序（填函数版）.md",
-    "algorithm/raw/025 堆结构和堆排序.md",
-    "algorithm/raw/024快速选择算法.md",
-    "algorithm/raw/1. 确定魔法影响的整块区域的四个极端边界.md",
-    "algorithm/raw/1. 从原位置移除.md",
-    "algorithm/raw/1. 创建虚拟头节点，简化头部的交换逻辑.md",
-    "algorithm/raw/optimize_md.py",
-    "algorithm/raw/P5461 赦免战俘 题目背景借助反作弊系统，一些在.md",
-    "algorithm/raw/P3799 小 Y 拼木棒 题目背景上道题中，小 Y.md",
-    "algorithm/raw/P3654 First Step (ファーストステッ.md",
-    "algorithm/raw/P2670 [NOIP 2015 普及组] 扫雷游戏.md",
-    "algorithm/raw/液晶屏上，每个阿拉伯数字都是可以显示成 3×5 的点阵的（其.md",
-    "algorithm/raw/给定一个整数序列 a=[a1,a2,…,an]a=[a1​,.md",
-    "algorithm/raw/高精度阶乘求和.md",
-    "algorithm/raw/高精度计算.md",
-    "algorithm/raw/给定 NN 名学生及其信息，包含：.md",
-    "algorithm/raw/110 线段树支持范围增加、范围查询.md",
-    "algorithm/raw/048 二维差分模版(洛谷).md",
-    "algorithm/raw/036 二叉树先序序列化和反序列化.md",
+    "备赛.md",
+    "conflict-files-obsidian-git.md",
+    "algorithm/raw/035 最大频率栈.md",
+    "algorithm/raw/036 二叉树的锯齿形层序遍历.md",
+    "algorithm/raw/036 验证完全二叉树.md",
     "algorithm/raw/034 返回两个无环链表相交的第一个节点.md",
-    "Excalidraw/Drawing 2026-02-18 14.50.38.excalidraw.md",
-    "未命名.md",
-    "algorithm/raw/```cpp_161.md",
-    "algorithm/raw/```cpp_167.md",
-    "algorithm/raw/clean_project.py",
-    "未命名 1.base",
-    "未命名 2.base",
-    "未命名 3.base",
-    "未命名.base",
-    "Excalidraw",
-    "Algorithm.txt",
-    "algorithm/raw",
-    "convert_anki.py"
+    "algorithm/raw/031 判断一个整数是不是3的幂.md",
+    "algorithm/raw/031 Brian Kernighan 算法与.md",
+    "algorithm/raw/026 哈希表与哈希集合的基本用法.md",
+    "algorithm/raw/024快速选择算法.md",
+    "algorithm/raw/1. 创建虚拟头节点，简化头部的交换逻辑.md"
   ]
 }

@@ -1,9 +1,7 @@
+```cpp
 // 035 带 setAll 功能的哈希表
-
-# include <cstdio>
-
-# include <unordered_map>
-
+#include <cstdio>
+#include <unordered_map>
 using namespace std;
 
 // 存储结构：first为值，second为时间戳
@@ -34,3 +32,4 @@ int main() {
     }
     return 0;
 }
+```

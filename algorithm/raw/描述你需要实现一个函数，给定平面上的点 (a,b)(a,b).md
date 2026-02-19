@@ -1,3 +1,5 @@
+```cpp
+
 ```
 
 ```cpp
@@ -33,3 +35,4 @@ double getDistance(point P, line L){
     };
     return abs(cross(AB,AP)/(dist(A,B)));
 }
+```

@@ -1,3 +1,4 @@
+```cpp
 给定整数序列 a1,a2,…,aNa1​,a2​,…,aN​ 和常数 CC，统计序列中有多少有序数对 (i,j)(i,j) 满足 1≦i,j≦N1≦i,j≦N 且 ai−aj=Cai​−aj​=C。输入描述：第一行输入两个整数 N,C (1≦N≦2×105, 0≦C<230)N,C (1≦N≦2×105, 0≦C<230)；第二行输入 NN 个整数 a1,a2,…,aN (0≦ai<230)a1​,a2​,…,aN​ (0≦ai​<230)。输出描述：输出一个整数，表示满足条件的有序数对数量。示例1输入：5 2
 1 3 3 4 5
 ```
@@ -15,12 +16,9 @@
 ```
 
 ```cpp
-
-# include <iostream>
-
-# include <vector>
-
-# include <map>
+#include <iostream>
+#include <vector>
+#include <map>
 
 using namespace std;
 
@@ -60,3 +58,4 @@ int main() {
 
     return 0;
 }
+```

@@ -1,3 +1,4 @@
+```cpp
 这个更好          int stopAtWho(vector<int>& a, int m) {
     int n = a.size();
     int idx = 0;
@@ -72,3 +73,5 @@ public:
 ```
 
 ```cpp
+
+```

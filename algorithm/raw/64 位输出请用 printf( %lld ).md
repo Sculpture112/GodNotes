@@ -1,9 +1,9 @@
+```cpp
+
 ```
 
 ```cpp
-
-# include <bits/stdc++.h>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
@@ -27,3 +27,4 @@ int main() {
 
 }
 // 64 位输出请用 printf("%lld")
+```

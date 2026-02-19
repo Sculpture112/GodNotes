@@ -1,3 +1,4 @@
+```cpp
 我有一个长度为 l 的字符串，最开始时，这个字符串由 l 个句号（.）组成。我在这个字符串中，将多次把 boy 或者 girl 两单词，依次贴到这个字符串中。后贴上单词，会覆盖之前贴上的单词，或者覆盖句号。最终，每个单词至少有一个字符没有被覆盖。请问，一共贴有几个 boy 几个 girl？输入格式一行被反复贴有 boy 和 girl 两单词的字符串。输出格式两行，两个整数。第一行为 boy 的个数，第二行为 girl 的个数。输入输出样例输入 #1复制......boyogirlyy......girl.......
 ```
 
@@ -13,10 +14,8 @@
 数据保证，3≤l≤255，字符串仅仅包含如下字符：.bgilory。
 
 ```cpp
-
-# include <iostream>
-
-# include <string>
+#include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -56,3 +55,4 @@ int main() {
 
     return 0;
 }
+```
