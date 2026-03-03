@@ -11,12 +11,14 @@
             "id": "a68425de677676d3",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-02-18 14.50.38.excalidraw.md"
+                "file": "备赛.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-02-18 14.50.38.excalidraw"
+              "icon": "lucide-file",
+              "title": "备赛"
             }
           }
         ]
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "备赛.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "conflict-files-obsidian-git 的反向链接列表"
+              "title": "备赛 的反向链接列表"
             }
           },
           {
@@ -167,8 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,8 +181,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a68425de677676d3",
+  "active": "9fb366fcb1ed874f",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-02-18 14.50.38.excalidraw.md",
     "备赛.md",
     "Vim.md",
     "algorithm/raw/025 堆结构和堆排序.md",
