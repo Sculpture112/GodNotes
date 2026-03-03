@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "备赛.md",
+                "file": "备赛/备赛.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "蜜蜂路径.md",
+                "file": "备赛/蜜蜂路径.md",
                 "mode": "source",
                 "source": false
               },
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "蜜蜂路径.md",
+                "file": "备赛/蜜蜂路径.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "蜜蜂路径.md",
+                "file": "备赛/蜜蜂路径.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
@@ -209,8 +209,9 @@
   },
   "active": "35cc40aac29b72cd",
   "lastOpenFiles": [
-    "备赛.md",
-    "蜜蜂路径.md",
+    "备赛/备赛.md",
+    "备赛/蜜蜂路径.md",
+    "备赛",
     "Excalidraw/Drawing 2026-02-18 14.50.38.excalidraw.md",
     "Vim.md",
     "algorithm/raw/025 堆结构和堆排序.md",
