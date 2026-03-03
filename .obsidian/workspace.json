@@ -138,7 +138,7 @@
               "type": "outgoing-link",
               "state": {
                 "file": "备赛/备赛.md",
-                "linksCollapsed": true,
+                "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
@@ -206,7 +206,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a68425de677676d3",
+  "active": "725b5ec42a983c36",
   "lastOpenFiles": [
     "备赛/蜜蜂路径.md",
     "备赛/备赛.md",
