@@ -45,8 +45,7 @@
               "title": "蜜蜂路径"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "备赛/蜜蜂路径.md",
+                "file": "备赛/备赛.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "蜜蜂路径 的反向链接列表"
+              "title": "备赛 的反向链接列表"
             }
           },
           {
@@ -138,12 +137,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "备赛/蜜蜂路径.md",
+                "file": "备赛/备赛.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "蜜蜂路径 的出链列表"
+              "title": "备赛 的出链列表"
             }
           },
           {
@@ -207,10 +206,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "35cc40aac29b72cd",
+  "active": "a68425de677676d3",
   "lastOpenFiles": [
-    "备赛/备赛.md",
     "备赛/蜜蜂路径.md",
+    "备赛/备赛.md",
     "备赛",
     "Excalidraw/Drawing 2026-02-18 14.50.38.excalidraw.md",
     "Vim.md",
