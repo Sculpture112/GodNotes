@@ -1,0 +1,32 @@
+# include<bits/stdc++.h>
+
+```cpp
+#include<bits/stdc++.h>
+
+using namespace std;
+int main(){
+    int n,k,m;
+    cin>>n>>k>>m;
+    vector<int> eliminated(n,0);
+    int count =n;
+
+    while(count>1){
+        for(int i=1;i<=m-1;i++){
+            k = (k+1)%n;
+            
+            
+// 指针向右循环移动
+            while (eliminated[k]){
+// 只要右边还是被消灭的，就继续移动
+                k = (k+1)%n;
+            }
+        }
+        eliminated[k] = 1;
+        count--;
+        while(eliminated[k]){
+            k = (k+1) %n;
+        }
+    }
+    cout<<k;
+}
+```

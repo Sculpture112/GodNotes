@@ -1,0 +1,50 @@
+# include <bits/stdc++.h>
+
+```cpp
+# P2241 统计方形（数据加强版）## 题目背景1997年普及组第一题## 题目描述有一个 $n \times m$ 方格的棋盘，求其方格包含多少正方形、长方形（不包含正方形）。## 输入格式一行，两个正整数 $n,m$（$n \leq 5000,m \leq 5000$）。## 输出格式一行，两个正整数，分别表示方格包含多少正方形、长方形（不包含正方形）。## 输入输出样例 #1### 输入 #1```2 3```### 输出 #1```8 10```
+
+#include <bits/stdc++.h>
+using namespace std;
+#define int long long
+// const int N = ;
+void solve2(){
+    long long n, m;
+    if (!(cin >> n >> m)) return;
+
+    long long totalRects = (n * (n + 1) / 2) * (m * (m + 1) / 2);
+    long long squares = 0;
+
+    // 枚举正方形的边长 i
+    for (int i = 1; i <= min(n, m); ++i) {
+        squares += (n - i + 1) * (m - i + 1);
+    }
+
+    long long rectangles = totalRects - squares;
+
+    cout << squares << " " << rectangles << endl;
+}
+
+void solve()
+{
+    int n,m;
+    cin>>n>>m;
+    long long squares = 0;
+    long long rectan = 0;
+
+    for(int i =1;i<=n;i++){
+        for(int j =1;j<=m;j++){
+            squares +=min(i,j);
+            rectan +=(long long)i*j;
+        }
+    }
+
+    cout<< squares <<" "<<rectan - squares<<endl;
+
+}
+signed main()
+{
+    ios::sync_with_stdio(false), cin.tie(0), cout.tie(0);
+    solve();
+    return 0;
+}
+```

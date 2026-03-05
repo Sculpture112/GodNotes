@@ -1,0 +1,41 @@
+# include <bits/stdc++.h>
+
+```cpp
+# P1923 【深基9.例4】求第 k 小的数## 题目描述输入 $n$ 个数字 $a_i$，输出这些数字中第 $k$ 小的数。最小的数是第 $0$ 小。请尽量不要使用 `nth_element` 来写本题，因为本题的重点在于练习分治算法。## 输入格式第一行有两个整数，分别表示 $n$ 和 $k$。第二行有 $n$ 个整数，第 $i$ 个数表示 $a_i$。## 输出格式一个整数，表示第 $k$ 小的数。## 输入输出样例 #1### 输入 #1```5 14 3 2 1 5```### 输出 #1```2```## 说明/提示对于 $100\%$ 的数据，$1\le a_i<{10}^9$，$1 \le n < 5\times 10^6$，且 $n$ 为奇数。
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int a[5000005];
+
+void quick_select(int l,int r,int k){
+    if(l>=r) return;
+    int i =l,j = r;
+    int pivot = a[(l+r) /2];
+
+    while(i<=j){
+        while(a[i] < pivot) i++;
+        while(a[j] > pivot) j--;
+        if(i<=j){
+            swap(a[i],a[j]);
+            i++;j--;
+        }
+    }
+    if(k<=j) quick_select(l,j,k);
+    else if(i<=k) quick_select(i,r,k);
+}
+
+int main(){
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int n,k;
+    cin>>n>>k;
+    for(int i = 0;i<n;i++) cin>>a[i];
+
+    quick_select(0,n-1,k);
+
+    cout<<a[k] <<endl;
+    return 0;
+}
+```
