@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/raw/灯泡的异或.md",
+                "file": "algorithm/raw/P2670 [NOIP 2015 普及组] 扫雷游戏.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "灯泡的异或"
+              "title": "P2670 [NOIP 2015 普及组] 扫雷游戏"
             }
           }
         ],
@@ -199,6 +199,26 @@
   },
   "active": "3781e05c8b740544",
   "lastOpenFiles": [
+    "algorithm/raw/typedef long long ll; 必须用 long.md",
+    "algorithm/raw/P1923 【深基9.例4】求第 k 小的数 题目描.md",
+    "algorithm/raw/直线与圆交点间距牛客题霸牛客网.md",
+    "algorithm/raw/最小栈（双栈同步法）.md",
+    "algorithm/raw/小鱼最近被要求参加一个数字游戏，要求它把看到的一串数字 ai.md",
+    "algorithm/raw/数组模拟队列（双指针法）.md",
+    "algorithm/raw/给定长度为 nn 的入栈序列pushedpushed 和长度.md",
+    "algorithm/raw/高精度阶乘求和.md",
+    "algorithm/raw/048 利用二维前缀和信息迅速得到二维区域和.md",
+    "algorithm/raw/039 Code01 含有嵌套的表达式求值_2.md",
+    "algorithm/raw/048 边框为1的最大正方形.md",
+    "algorithm/raw/037 搜索二叉树上寻找两个节点的最近公共祖先.md",
+    "algorithm/raw/036 求完全二叉树的节点个数.md",
+    "algorithm/raw/034 判断链表是否是回文结构.md",
+    "algorithm/raw/035 插入、删除和获取随机元素 O(1).md",
+    "algorithm/raw/030 只出现一次的数字.md",
+    "algorithm/raw/026 哈希表与哈希集合的基本用法.md",
+    "algorithm/raw/026 有序表与优先级队列.md",
+    "algorithm/raw/024快速选择算法.md",
+    "algorithm/raw/灯泡的异或.md",
     "algorithm/raw/乘法中有补码溢出，非常难.md",
     "algorithm/raw/代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法.md",
     "Task/算法复习.md",
@@ -206,24 +226,6 @@
     "Task",
     "Excalidraw/Drawing 2026-03-04 15.46.50.excalidraw.md",
     "Excalidraw/未命名.md",
-    "Excalidraw/Drawing 2026-02-18 14.50.38.excalidraw.md",
-    "备赛/备赛.md",
-    "备赛/蜜蜂路径.md",
-    "algorithm/raw/110 线段树支持范围增加、范围查询.md",
-    "Vim.md",
-    "algorithm/大概要分配什么dp之类的.md",
-    "备赛",
-    "algorithm/raw/025 堆结构和堆排序.md",
-    "algorithm/raw/1. 从原位置移除.md",
-    "conflict-files-obsidian-git.md",
-    "algorithm/raw/035 最大频率栈.md",
-    "algorithm/raw/036 二叉树的锯齿形层序遍历.md",
-    "algorithm/raw/036 验证完全二叉树.md",
-    "algorithm/raw/034 返回两个无环链表相交的第一个节点.md",
-    "algorithm/raw/031 判断一个整数是不是3的幂.md",
-    "algorithm/raw/031 Brian Kernighan 算法与.md",
-    "algorithm/raw/026 哈希表与哈希集合的基本用法.md",
-    "algorithm/raw/024快速选择算法.md",
-    "algorithm/raw/1. 创建虚拟头节点，简化头部的交换逻辑.md"
+    "备赛"
   ]
 }
