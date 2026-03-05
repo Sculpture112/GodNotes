@@ -1,0 +1,34 @@
+# TODO: 计算点P到直线L的距离
+
+> 
+
+> 描述你需要实现一个函数，给定平面上的点 (a,b)(a,b)，以及一条由另外两个点 (x1,y1)(x1​,y1​) 和 (x2,y2)(x2​,y2​) 确定的直线 LL，求点 (a,b)(a,b) 到直线 LL 的距离。输入描述：共 22 行。第一行是两个空格隔开的整数 a,ba,b。第二行是四个空格隔开的整数 x1,y1,x2,y2x1​,y1​,x2​,y2​。输出描述：共一行，一个实数，表示点 (a,b)(a,b) 到直线 LL 的距离，保留两位小数。示例1输入：0 0
+> -1 1 1 1
+复制
+
+输出：
+> 1.00
+复制
+
+备注：
+
+ 1≤a,b,x1,y1,x2,y2<2311≤a,b,x1​,y1​,x2​,y2​<231。在几何学中，如果我们有两个向量 U 和 V，它们之间的夹角为 theta，那么以它们为邻边的平行四边形面积公式是：
+
+面积 = |U| * |V| * sin(theta)
+
+```cpp
+double getDistance(point P, line L){
+    // TODO: 计算点P到直线L的距离
+    auto A=L.point_A;
+    auto B=L.point_B;
+    point AB=point(B.x-A.x,B.y-A.y);
+    point AP=point(P.x-A.x,P.y-A.y);
+    auto dist=[&](point a, point b)->double{
+        return sqrt(pow(a.x-b.x,2)+pow(a.y-b.y,2));
+    };
+    auto cross=[&](point a,point b)->double{
+        return (a.x*b.y-a.y*b.x); 
+    };
+    return abs(cross(AB,AP)/(dist(A,B)));
+}
+```

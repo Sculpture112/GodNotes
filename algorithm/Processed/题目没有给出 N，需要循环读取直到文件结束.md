@@ -1,0 +1,31 @@
+# 题目没有给出 N，需要循环读取直到文件结束
+
+
+
+```cpp
+// # P2415 集合求和## 题目描述给定一个集合 $s$（集合元素数量 $\le 30$），求出此集合所有子集元素之和。## 输入格式集合中的元素（元素 $\le 1000$）## 输出格式$s$ 所有子集元素之和。## 输入输出样例 #1### 输入 #1```2 3```### 输出 #1```10```## 说明/提示**【样例解释】**子集为：$\varnothing, \{ 2 \}, \{ 3 \}, \{ 2, 3 \}$，和为 $2 + 3 + 2 + 3 = 10$。----**【数据范围】**对于 $100 \%$ 的数据，$1 \le \lvert s \rvert \le 30$，$1 \le s_i \le 1000$，$s$ 所有子集元素之和 $\le {10}^{18}$。
+#include <iostream>
+#include <vector>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    long long val, sum = 0, count = 0;
+    // 题目没有给出 N，需要循环读取直到文件结束
+    while (cin >> val) {
+        sum += val;
+        count++;
+    }
+
+    // 使用位运算 1LL << (count - 1) 代替 pow，效率更高且避免精度问题
+    // 注意题目要求结果可能达到 10^18，必须用 long long
+    long long result = sum * (1LL << (count - 1));
+
+    // 特殊情况处理：如果集合为空，和为 0
+    if (count == 0) cout << 0 << endl;
+    else cout << result << endl;
+
+    return 0;
+}
+```

@@ -16,7 +16,7 @@ long long merge(int l, int m, int r) {
         // i 指针不回退：arr[j] 增大，满足条件的 arr[i] 范围只会向右扩大
         while (i <= m && arr[i] <= arr[j]) {
             current_sum += arr[i++];
-        }注意上面的current_cum为此时j元素左边的总和，下面为ans的j元素是加上了上一个元素的总和，所以i指针不用回退，意思就是下一个j元素加上了上一个j元素的的总和，并且还要再加上它移动i指针产生的新总和
+        // }注意上面的current_cum为此时j元素左边的总和，下面为ans的j元素是加上了上一个元素的总和，所以i指针不用回退，意思就是下一个j元素加上了上一个j元素的的总和，并且还要再加上它移动i指针产生的新总和
         ans += current_sum; // 当前右组元素 j 贡献的小和
     }
 
