@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "备赛/备赛.md",
+                "file": "BFS/巨大苹果.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "备赛"
+              "title": "巨大苹果"
             }
           }
         ],
@@ -199,6 +199,9 @@
   },
   "active": "3147aa9b747c3df6",
   "lastOpenFiles": [
+    "备赛/备赛.md",
+    "BFS/巨大苹果.md",
+    "BFS",
     "1.md",
     "Vim.md",
     "学校.md",
@@ -223,8 +226,6 @@
     "algorithm/Processed/读取实数 s 和 x.md",
     "algorithm/Processed/最小栈（静态数组实现版）.md",
     "algorithm/Processed/读入位移次数和字符串.md",
-    "algorithm/Processed/数组模拟队列（双指针法）.md",
-    "algorithm/Processed/描述您需要动态地维护一个初始为空的集合 MM，并且支持以下操.md",
     "algorithm/Processed",
     "process_algorithm_files_v2.js",
     "process_algorithm_files.js",
