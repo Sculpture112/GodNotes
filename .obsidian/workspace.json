@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vim.md",
+                "file": "备赛/备赛.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vim"
+              "title": "备赛"
             }
           }
         ],
@@ -199,9 +199,9 @@
   },
   "active": "3147aa9b747c3df6",
   "lastOpenFiles": [
-    "学校.md",
     "1.md",
     "Vim.md",
+    "学校.md",
     "algorithm/Processed/039 Code02 含有嵌套的字符串解码.md",
     "algorithm/Processed/048 二维差分模版(洛谷).md",
     "algorithm/Processed/110 Code06 线段树同时支持范围重置、范围增加、范围查询最大值.md",
