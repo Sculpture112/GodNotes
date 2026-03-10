@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.md",
+                "file": "学校.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1"
+              "title": "学校"
             }
           }
         ],
@@ -197,10 +197,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "cfe53dc0a0ca4ce4",
+  "active": "3147aa9b747c3df6",
   "lastOpenFiles": [
-    "algorithm/Processed/039 Code02 含有嵌套的字符串解码.md",
     "1.md",
+    "学校.md",
+    "Vim.md",
+    "algorithm/Processed/039 Code02 含有嵌套的字符串解码.md",
     "algorithm/Processed/048 二维差分模版(洛谷).md",
     "algorithm/Processed/110 Code06 线段树同时支持范围重置、范围增加、范围查询最大值.md",
     "algorithm/Processed/欢乐跳.md",
@@ -215,7 +217,6 @@
     "algorithm/Processed/Farmer John 有若干头奶牛。为了训练奶牛们的智力，.md",
     "algorithm/Processed/legalExp.md",
     "algorithm/Processed/1. 读取行列大小.md",
-    "学校.md",
     "algorithm/Processed/读取操作次数.md",
     "algorithm/Processed/液晶屏上，每个阿拉伯数字都是可以显示成 3×5 的点阵的（其.md",
     "algorithm/Processed/栈的贪心排序.md",
@@ -224,7 +225,6 @@
     "algorithm/Processed/读入位移次数和字符串.md",
     "algorithm/Processed/数组模拟队列（双指针法）.md",
     "algorithm/Processed/描述您需要动态地维护一个初始为空的集合 MM，并且支持以下操.md",
-    "algorithm/Processed/按奇偶排序数组II.md",
     "algorithm/Processed",
     "process_algorithm_files_v2.js",
     "process_algorithm_files.js",
