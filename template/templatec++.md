@@ -1,7 +1,6 @@
 ---
 platform: []
 status:
-  - "[已AC]、[待补题] 或 [需重刷]"
 solve_date: []
 ---
 
