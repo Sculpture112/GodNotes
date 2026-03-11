@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templatec++.md",
+                "file": "母题/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "templatec++"
+              "title": "未命名"
             }
           },
           {
@@ -263,10 +263,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "8fdbf18af9263ffd",
+  "active": "cfe53dc0a0ca4ce4",
   "lastOpenFiles": [
+    "template",
     "母题/060 Code02 喧闹和富有.md",
-    "templatec++.md",
+    "母题/未命名.md",
+    "template/templatec++.md",
     "备赛/蜜蜂路径.md",
     "备赛/未命名.md",
     "母题/060 Code01 最大食物链计数.md",
@@ -293,8 +295,6 @@
     "algorithm/Processed/归并排序求小和（Small Sum）.md",
     "algorithm/Processed/普通二叉树上寻找两个节点的最近公共祖先.md",
     "algorithm/Processed/数组模拟栈（单指针法）.md",
-    "algorithm/Processed/现代数学的著名证明之一是 Georg Cantor 证明了有.md",
-    "algorithm/Processed/循环队列（Size 变量解耦空满判断）.md",
     "algorithm/Processed",
     "process_algorithm_files_v2.js",
     "process_algorithm_files.js",
