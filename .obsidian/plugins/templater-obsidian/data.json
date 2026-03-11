@@ -30,7 +30,7 @@
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
     "template/templatec++.md",
-    ""
+    "template/templatem.md"
   ],
   "startup_templates": [
     ""
