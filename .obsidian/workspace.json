@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "template/templatec++.md",
+                "file": "Task/算法复习.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "templatec++"
+              "title": "算法复习"
             }
           },
           {
@@ -266,13 +266,15 @@
   },
   "active": "8fdbf18af9263ffd",
   "lastOpenFiles": [
+    "母题/060 Code04 参加会议的最多员工数.md",
+    "母题/060 Code01 最大食物链计数.md",
     "母题/060 Code03 并行课程 III.md",
-    "template",
     "母题/060 Code02 喧闹和富有.md",
     "template/templatec++.md",
+    "template/templatem.md",
+    "template",
     "备赛/蜜蜂路径.md",
     "备赛/未命名.md",
-    "母题/060 Code01 最大食物链计数.md",
     "母题",
     "算法名/拓扑排序.md",
     "例题/巨大苹果.md",
@@ -295,7 +297,6 @@
     "algorithm/Processed/欢乐跳.md",
     "algorithm/Processed/归并排序求小和（Small Sum）.md",
     "algorithm/Processed/普通二叉树上寻找两个节点的最近公共祖先.md",
-    "algorithm/Processed/数组模拟栈（单指针法）.md",
     "algorithm/Processed",
     "process_algorithm_files_v2.js",
     "process_algorithm_files.js",
