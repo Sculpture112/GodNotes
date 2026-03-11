@@ -1,1 +1,10 @@
-{}
+{
+  "templater-obsidian:template/templatec++.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ]
+}
