@@ -1,7 +1,7 @@
 ---
-# 题目元数据 (Obsidian Properties)
-platform: [] 
-status: [] 
+platform: []
+status:
+  - "[已AC]、[待补题] 或 [需重刷]"
 solve_date: []
 ---
 
@@ -30,6 +30,6 @@ solve_date: []
 * **复杂度:** 时间 $O()$ ，空间 $O()$
 * **核心 C++ 实现:**
 ```cpp
-// 填入解法一代码
-```c++
+
+
 ```
