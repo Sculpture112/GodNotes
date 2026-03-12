@@ -1,0 +1,29 @@
+/* 1. 设置所有节点的默认基础大小 */
+.juggl-node {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+/* 2. 这里的 scale 是 Juggl 核心引擎自动计算的 */
+/* 我们通过 transform 让它变得更明显 */
+.juggl-node[style*="scale"] {
+    /* 放大那些被计算出有更高权重的节点 */
+    transform: scale(1.6) !important; 
+}
+
+/* 3. 手动定义“核心”节点的超大尺寸 */
+/* 针对你算法体系里的关键标签 */
+.juggl-node[data-tag~="母题"] {
+    width: 65px !important;
+    height: 65px !important;
+    background-color: #ff4757 !important; /* 给母题一个显眼的红色 */
+    z-index: 100; /* 确保它在大图里显示在最上层 */
+}
+
+/* 4. 针对已解决的题目缩小一点，降低视觉噪音 */
+.juggl-node[data-tag~="done"] {
+    width: 20px !important;
+    height: 20px !important;
+    opacity: 0.6;
+}
+/* For a full overview of styling options, see https://js.cytoscape.org/#style */
