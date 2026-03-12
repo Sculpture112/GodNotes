@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/059 Code04 火星词典.md",
-                "mode": "preview",
+                "file": "学校.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "059 Code04 火星词典"
+              "title": "学校"
             }
           }
         ]
@@ -185,8 +185,8 @@
   },
   "active": "4e3208af61bc2a75",
   "lastOpenFiles": [
-    "母题/059 Code03 字典序最小的拓扑排序.md",
     "母题/059 Code04 火星词典.md",
+    "母题/059 Code03 字典序最小的拓扑排序.md",
     "母题/059 Code02 拓扑排序 (课程表 II).md",
     "母题/059 Code02 拓扑排序 (链式前向星版).md",
     "母题/059 Code02 拓扑排序 (牛客版).md",
