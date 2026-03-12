@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/052 Code06 单调栈（洛谷模板题）.md",
+                "file": "Task/算法复习.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "052 Code06 单调栈（洛谷模板题）"
+              "title": "算法复习"
             }
           }
         ]
@@ -207,8 +207,9 @@
   },
   "active": "c02ceb7ce2821698",
   "lastOpenFiles": [
-    "母题/052 Code05 最大矩形.md",
+    "学校.md",
     "母题/052 Code06 单调栈（洛谷模板题）.md",
+    "母题/052 Code05 最大矩形.md",
     "母题/052 Code04 柱状图中最大的矩形.md",
     "母题/052 Code03 子数组的最小值之和.md",
     "母题/052 Code01 单调栈求左右最近且小.md",
@@ -232,7 +233,6 @@
     "母题/059 Code01 图的三种建立方式.md",
     "杂物/独立AC.md",
     "杂物/需重刷.md",
-    "杂物/已AC.md",
     "杂物",
     "template",
     "母题",
