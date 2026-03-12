@@ -31,19 +31,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cfe53dc0a0ca4ce4",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
-            }
-          },
-          {
             "id": "47b137b2f0765088",
             "type": "leaf",
             "state": {
@@ -68,6 +55,19 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "书签"
+            }
+          },
+          {
+            "id": "c31c5bd99dc4b701",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           }
         ]
@@ -170,16 +170,16 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:查看关系图谱": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-git:Open Git source control": false,
       "cmdr:重新加载 Obsidian（不保存当前编辑内容）": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "graph:查看关系图谱": false
     }
   },
-  "active": "4e3208af61bc2a75",
+  "active": "47b137b2f0765088",
   "lastOpenFiles": [
     "母题/060 Code02 喧闹和富有.md",
     "母题/060 Code03 并行课程 III.md",
