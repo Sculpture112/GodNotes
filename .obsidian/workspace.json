@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/053 Code04 统计全1子矩形的数量.md",
+                "file": "1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "053 Code04 统计全1子矩形的数量"
+              "title": "1"
             }
           }
         ],
@@ -236,9 +236,11 @@
   },
   "active": "12c07441368c17f7",
   "lastOpenFiles": [
-    "母题/053 Code03 大鱼吃小鱼问题.md",
-    "母题/053 Code04 统计全1子矩形的数量.md",
+    "Pasted image 20260315200136.png",
+    "Pasted image 20260315200128.png",
     "备赛/提示词.md",
+    "母题/053 Code04 统计全1子矩形的数量.md",
+    "母题/053 Code03 大鱼吃小鱼问题.md",
     "1.md",
     "学校.md",
     "idea/未命名.md",
@@ -262,7 +264,6 @@
     "Vim.md",
     "template/templatem.md",
     "template/templatec++.md",
-    "Excalidraw/未命名.md",
     "杂物",
     "template",
     "母题",
