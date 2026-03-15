@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "备赛/未命名.md",
+                "file": "母题/未命名.md",
                 "mode": "source",
                 "source": false
               },
@@ -236,6 +236,8 @@
   },
   "active": "12c07441368c17f7",
   "lastOpenFiles": [
+    "备赛/提示词.md",
+    "母题/未命名.md",
     "1.md",
     "学校.md",
     "idea/未命名.md",
@@ -261,8 +263,6 @@
     "template/templatec++.md",
     "Excalidraw/未命名.md",
     "Excalidraw/Drawing 2026-03-04 15.46.50.excalidraw.md",
-    "母题/052 Code05 最大矩形.md",
-    "母题/052 Code04 柱状图中最大的矩形.md",
     "杂物",
     "template",
     "母题",
