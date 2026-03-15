@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "053 Code01 最大宽度坡"
             }
+          },
+          {
+            "id": "12c07441368c17f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "备赛/未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -220,10 +234,14 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "9224fbbad88fe694",
+  "active": "12c07441368c17f7",
   "lastOpenFiles": [
-    "母题/052 Code06 单调栈（洛谷模板题）.md",
+    "1.md",
+    "学校.md",
+    "idea/未命名.md",
+    "母题/053 Code02 去除重复字母保证剩余字符串的字典序最小.md",
     "母题/053 Code01 最大宽度坡.md",
+    "母题/052 Code06 单调栈（洛谷模板题）.md",
     "备赛/备赛.md",
     "Task/算法复习.md",
     "母题/052 Code01 单调栈求左右最近且小.md",
@@ -234,13 +252,10 @@
     "母题/060 Code02 喧闹和富有.md",
     "母题/059 Code04 火星词典.md",
     "母题/060 Code01 最大食物链计数.md",
-    "idea/未命名.md",
-    "学校.md",
     "idea",
     "母题/059 Code05 戳印序列.md",
     "母题/059 Code03 字典序最小的拓扑排序.md",
     "母题/059 Code02 拓扑排序 (牛客版).md",
-    "1.md",
     "Vim.md",
     "template/templatem.md",
     "template/templatec++.md",
@@ -248,7 +263,6 @@
     "Excalidraw/Drawing 2026-03-04 15.46.50.excalidraw.md",
     "母题/052 Code05 最大矩形.md",
     "母题/052 Code04 柱状图中最大的矩形.md",
-    "算法名/二分查找.md",
     "杂物",
     "template",
     "母题",
