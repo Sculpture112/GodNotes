@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/052 Code03 子数组的最小值之和.md",
+                "file": "母题/052 Code04 柱状图中最大的矩形.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "052 Code03 子数组的最小值之和"
+              "title": "052 Code04 柱状图中最大的矩形"
             }
           },
           {
@@ -250,9 +250,9 @@
   },
   "active": "a2cb56d5e4403e31",
   "lastOpenFiles": [
+    "母题/052 Code03 子数组的最小值之和.md",
     "1.md",
     "母题/053 Code01 最大宽度坡.md",
-    "母题/052 Code03 子数组的最小值之和.md",
     "母题/052 Code06 单调栈（洛谷模板题）.md",
     "母题/052 Code01 单调栈求左右最近且小.md",
     "母题/052 Code02 每日温度.md",
