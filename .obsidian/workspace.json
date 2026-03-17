@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "idea/未命名.md",
+                "file": "学校.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "学校"
             }
           }
         ],
@@ -250,9 +250,13 @@
   },
   "active": "9224fbbad88fe694",
   "lastOpenFiles": [
+    "Pasted image 20260315200531.png",
+    "Task/算法复习.md",
+    "idea/未命名.md",
+    "template/templatec++.md",
     "学校.md",
-    "Vim.md",
     "1.md",
+    "Vim.md",
     "备赛/备赛.md",
     "母题/053 Code01 最大宽度坡.md",
     "母题/052 Code06 单调栈（洛谷模板题）.md",
@@ -267,22 +271,17 @@
     "算法名/单调栈.md",
     "母题/059 Code04 火星词典.md",
     "杂物/需重刷.md",
-    "template/templatec++.md",
     "母题/059 Code03 字典序最小的拓扑排序.md",
     "母题/060 Code01 最大食物链计数.md",
     "Pasted image 20260315200552.png",
     "Pasted image 20260315200545.png",
     "Pasted image 20260315200537.png",
-    "Pasted image 20260315200531.png",
     "Pasted image 20260315200524.png",
     "Pasted image 20260315200136.png",
     "Pasted image 20260315200128.png",
     "备赛/提示词.md",
-    "idea/未命名.md",
-    "Task/算法复习.md",
     "母题/060 Code04 参加会议的最多员工数.md",
     "母题/060 Code03 并行课程 III.md",
-    "母题/060 Code02 喧闹和富有.md",
     "idea",
     "杂物",
     "template",
