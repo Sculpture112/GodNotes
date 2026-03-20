@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/053 Code04 统计全1子矩形的数量.md",
+                "file": "算法名/单调栈.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "053 Code04 统计全1子矩形的数量"
+              "title": "单调栈"
             }
           }
         ]
@@ -79,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4768838af22391f0",
@@ -208,6 +217,7 @@
   },
   "active": "1bb64344dcd184df",
   "lastOpenFiles": [
+    "母题/053 Code04 统计全1子矩形的数量.md",
     "母题/053 Code03 大鱼吃小鱼问题.md",
     "母题/053 Code02 去除重复字母保证剩余字符串的字典序最小.md",
     "母题/053 Code01 最大宽度坡.md",
@@ -230,7 +240,6 @@
     "杂物/思路转换.md",
     "母题/059 Code04 火星词典.md",
     "母题/059 Code02 拓扑排序 (牛客版).md",
-    "母题/053 Code04 统计全1子矩形的数量.md",
     "母题/054 Code03 接取落水的最小花盆.md",
     "母题/054 Code02 绝对差不超过限制的最长连续子数组.md",
     "母题/054 Code01 滑动窗口最大值（单调队列经典用法模版）.md",
