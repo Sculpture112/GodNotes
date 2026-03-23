@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5,
-    "collapsed": true
+    "width": 408.5
   },
   "right": {
     "id": "4768838af22391f0",
@@ -206,8 +205,12 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "1bb64344dcd184df",
+  "active": "c31c5bd99dc4b701",
   "lastOpenFiles": [
+    "算法名/滑动窗口扩展.md",
+    "母题/055 Code01 和至少为K的最短子数组.md",
+    "算法名/双端队列.md",
+    "未命名.md",
     "母题/054 Code03 接取落水的最小花盆.md",
     "母题/054 Code02 绝对差不超过限制的最长连续子数组.md",
     "母题/054 Code01 滑动窗口最大值（单调队列经典用法模版）.md",
@@ -222,7 +225,6 @@
     "算法名/单调栈.md",
     "母题/055 Code03 你可以安排的最多任务数目.md",
     "母题/055 Code02 满足不等式的最大值.md",
-    "母题/055 Code01 和至少为K的最短子数组.md",
     "算法名/ac2.md",
     "母题/052 Code01 单调栈求左右最近且小.md",
     "例题/单调栈.md",
@@ -232,9 +234,6 @@
     "template/templatec++.md",
     "例题/P1577 切绳子.md",
     "算法名/二分答案法.md",
-    "Task/算法复习.md",
-    "算法名/单调队列.md",
-    "杂物/思路转换.md",
     "Pasted image 20260315200531.png",
     "Pasted image 20260315200552.png",
     "Pasted image 20260315200545.png",
