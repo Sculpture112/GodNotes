@@ -35,8 +35,7 @@
               "title": "备赛"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,10 +219,10 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "774ef849d348cee5",
+  "active": "5b9ba2186037316f",
   "lastOpenFiles": [
-    "母题/055 Code03 你可以安排的最多任务数目.md",
     "备赛/备赛.md",
+    "母题/055 Code03 你可以安排的最多任务数目.md",
     "母题/055 Code02 满足不等式的最大值.md",
     "template/templatec++.md",
     "代办/未命名.md",
