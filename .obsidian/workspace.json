@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "母题/056 Code02 并查集模版(洛谷).md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 405.5,
+    "collapsed": true
   },
   "right": {
     "id": "4768838af22391f0",
