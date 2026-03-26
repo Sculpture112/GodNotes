@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/056 Code04 相似字符串组.md",
+                "file": "母题/058 Code04 打砖块.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "056 Code04 相似字符串组"
+              "title": "058 Code04 打砖块"
             }
           },
           {
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 405.5,
+    "collapsed": true
   },
   "right": {
     "id": "4768838af22391f0",
@@ -221,9 +222,9 @@
   },
   "active": "5b9ba2186037316f",
   "lastOpenFiles": [
+    "母题/056 Code04 相似字符串组.md",
     "母题/056 Code03 情侣牵手.md",
     "母题/056 Code02 并查集模版(洛谷).md",
-    "母题/056 Code04 相似字符串组.md",
     "母题/056 Code05 岛屿数量.md",
     "母题/058 Code01 岛屿数量.md",
     "母题/058 Code03 最大人工岛.md",
