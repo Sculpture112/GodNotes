@@ -10,15 +10,17 @@
           {
             "id": "5b9ba2186037316f",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/058 Code04 打砖块.md",
+                "file": "母题/056 Code04 相似字符串组.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "058 Code04 打砖块"
+              "title": "056 Code04 相似字符串组"
             }
           },
           {
@@ -49,8 +51,7 @@
               "title": "备赛"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学校.md",
+                "file": "母题/056 Code04 相似字符串组.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "学校 的反向链接列表"
+              "title": "056 Code04 相似字符串组 的反向链接列表"
             }
           },
           {
@@ -219,8 +220,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,13 +234,16 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "dacb19039b9599eb",
+  "active": "5b9ba2186037316f",
   "lastOpenFiles": [
-    "母题/058 Code04 打砖块.md",
+    "杂物/需重刷.md",
     "母题/056 Code04 相似字符串组.md",
+    "备赛/备赛.md",
     "母题/056 Code03 情侣牵手.md",
-    "母题/056 Code02 并查集模版(洛谷).md",
     "母题/056 Code05 岛屿数量.md",
+    "母题/058 Code04 打砖块.md",
+    "学校.md",
+    "母题/056 Code02 并查集模版(洛谷).md",
     "母题/058 Code01 岛屿数量.md",
     "母题/058 Code03 最大人工岛.md",
     "母题/058 Code02 被围绕的区域.md",
@@ -250,7 +253,6 @@
     "母题/055 Code03 你可以安排的最多任务数目.md",
     "算法名/平衡树.md",
     "算法名/贪心算法.md",
-    "备赛/备赛.md",
     "母题/055 Code02 满足不等式的最大值.md",
     "template/templatec++.md",
     "代办/未命名.md",
@@ -261,8 +263,6 @@
     "备赛/提示词.md",
     "算法名/滑动窗口扩展.md",
     "算法名/双端队列.md",
-    "未命名.md",
-    "母题/054 Code03 接取落水的最小花盆.md",
     "Pasted image 20260315200128.png",
     "Pasted image 20260315200531.png",
     "Pasted image 20260315200552.png",
