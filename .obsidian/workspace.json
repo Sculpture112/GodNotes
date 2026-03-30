@@ -58,7 +58,7 @@
               "type": "markdown",
               "state": {
                 "file": "母题/021 Code01 归并排序.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,7 +124,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 405.5,
+    "collapsed": true
   },
   "right": {
     "id": "4768838af22391f0",
@@ -250,14 +251,14 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c72cb500153b7197",
+  "active": "774ef849d348cee5",
   "lastOpenFiles": [
+    "母题/021 Code01 归并排序.md",
     "母题/023 Code02 随机快速排序.md",
     "母题/023 Code01 随机快速排序.md",
     "母题/022 Code02 翻转对数量.md",
     "母题/022 Code01 小和问题.md",
     "母题/021 Code02 归并排序.md",
-    "母题/021 Code01 归并排序.md",
     "母题/057 Code01 移除最多的同行或同列石头.md",
     "母题/056 Code05 岛屿数量.md",
     "学校.md",
