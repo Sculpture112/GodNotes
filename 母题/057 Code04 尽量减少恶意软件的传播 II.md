@@ -1,6 +1,6 @@
 # []
 
-> **原题链接:** ()
+> **原题链接:** (https://leetcode.cn/problems/minimize-malware-spread-ii/)
 
 **涉及知识点:** [[]], [[]]，[[需重刷]]
 
