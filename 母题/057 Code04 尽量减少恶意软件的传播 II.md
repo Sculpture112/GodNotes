@@ -2,7 +2,7 @@
 
 > **原题链接:** (https://leetcode.cn/problems/minimize-malware-spread-ii/)
 
-**涉及知识点:** [[]], [[]]，[[需重刷]]
+**涉及知识点:** [[已AC]], [[并查集]]，[[需重刷]],
 
 
 ```cpp
