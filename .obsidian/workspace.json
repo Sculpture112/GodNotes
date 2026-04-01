@@ -22,22 +22,6 @@
             }
           },
           {
-            "id": "c044ae1c1982e4dc",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "母题/056 Code05 岛屿数量.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "056 Code05 岛屿数量"
-            }
-          },
-          {
             "id": "dacb19039b9599eb",
             "type": "leaf",
             "state": {
@@ -249,17 +233,17 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c044ae1c1982e4dc",
+  "active": "c72cb500153b7197",
   "lastOpenFiles": [
+    "母题/057 Code03 好路径的数目.md",
+    "母题/057 Code04 尽量减少恶意软件的传播 II.md",
+    "母题/056 Code05 岛屿数量.md",
     "学校.md",
     "Vim.md",
     "未命名.md",
     "1.md",
-    "母题/057 Code04 尽量减少恶意软件的传播 II.md",
-    "母题/057 Code03 好路径的数目.md",
     "母题/057 Code02 找出知晓秘密的所有专家.md",
     "母题/057 Code01 移除最多的同行或同列石头.md",
-    "母题/056 Code05 岛屿数量.md",
     "母题/056 Code04 相似字符串组.md",
     "母题/058 Code01 岛屿数量.md",
     "母题/058 Code02 被围绕的区域.md",
