@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/058 Code04 打砖块.md",
+                "file": "母题/061 Code01 Kruskal算法模版 & 最小生成树(洛谷).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "058 Code04 打砖块"
+              "title": "061 Code01 Kruskal算法模版 & 最小生成树(洛谷)"
             }
           },
           {
@@ -235,15 +235,18 @@
   },
   "active": "661d77236ad4bd5d",
   "lastOpenFiles": [
+    "母题/060 Code04 参加会议的最多员工数.md",
+    "母题/060 Code03 并行课程 III.md",
+    "母题/059 Code01 图的三种建立方式.md",
+    "母题/058 Code04 打砖块.md",
+    "算法名/时光倒流.md",
     "母题/058 Code03 最大人工岛.md",
     "母题/057 Code04 尽量减少恶意软件的传播 II.md",
     "母题/058 Code01 岛屿数量.md",
-    "母题/058 Code04 打砖块.md",
     "算法名/DFS.md",
     "母题/058 Code02 被围绕的区域.md",
     "母题/059 Code02 拓扑排序 (牛客版).md",
     "母题/059 Code04 火星词典.md",
-    "母题/060 Code03 并行课程 III.md",
     "母题/060 Code02 喧闹和富有.md",
     "母题/060 Code01 最大食物链计数.md",
     "母题/061 Code03 水资源分配优化.md",
@@ -254,14 +257,11 @@
     "杂物/需重刷.md",
     "母题/057 Code03 好路径的数目.md",
     "母题/059 Code02 拓扑排序 (链式前向星版).md",
-    "母题/060 Code04 参加会议的最多员工数.md",
     "母题/061 Code05 繁忙的都市.md",
     "母题/061 Code04 检查边长度限制的路径是否存在.md",
     "母题/061 Code02 Prim算法优化（静态空间实现）.md",
     "母题/061 Code02 Prim算法模版（动态空间实现）.md",
     "母题/061 Code01 Kruskal算法模版 & 最小生成树(洛谷).md",
-    "母题/056 Code05 岛屿数量.md",
-    "学校.md",
     "Pasted image 20260315200552.png",
     "Pasted image 20260315200545.png",
     "代办",
