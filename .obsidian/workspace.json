@@ -49,7 +49,8 @@
               "title": "备赛"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -233,8 +234,9 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "661d77236ad4bd5d",
+  "active": "dacb19039b9599eb",
   "lastOpenFiles": [
+    "母题/023 Code01 随机快速排序.md",
     "母题/022 Code02 翻转对数量.md",
     "母题/022 Code01 小和问题.md",
     "母题/021 Code02 归并排序.md",
@@ -260,7 +262,6 @@
     "母题/062 Code01 地图分析.md",
     "算法名/时光倒流.md",
     "母题/058 Code03 最大人工岛.md",
-    "母题/057 Code04 尽量减少恶意软件的传播 II.md",
     "Java",
     "Pasted image 20260315200552.png",
     "Pasted image 20260315200545.png",
