@@ -6,15 +6,12 @@
 
 
 ```cpp
-// 061 Code01 Kruskal算法模版 & 最小生成树(洛谷)
-
+// 061 Code01 Kruskal算法模版（洛谷）
+// 静态空间实现
 // 测试链接 : https://www.luogu.com.cn/problem/P3366
-// 核心思路：贪心 + 并查集。
-// 1. 把所有边按照权重从小到大排序。
-// 2. 从权重最小的边开始遍历，利用并查集判断这条边的两个端点是否已经在同一个连通块中。
-// 3. 如果不在同一个连通块，说明这条边不会构成环，将其加入最小生成树，并合并这两个端点。
-// 4. 当成功加入 N-1 条边时，最小生成树构建完成。
-// 时间复杂度 O(M log M)，空间复杂度 O(N + M)
+// 请同学们务必参考如下代码中关于输入、输出的处理
+// 这是输入输出处理效率很高的写法
+// C++ 提交时直接全部复制提交即可通过
 
 #include <iostream>
 #include <vector>
@@ -22,23 +19,14 @@
 
 using namespace std;
 
-inline bool read(int &x) {
-    x = 0; int f = 1;
-    char ch = getchar();
-    while (ch < '0' || ch > '9') {
-        if (ch == EOF) return false;
-        if (ch == '-') f = -1;
-        ch = getchar();
-    }
-    while (ch >= '0' && ch <= '9') {
-        x = x * 10 + ch - '0';
-        ch = getchar();
-    }
-    x *= f;
-    return true;
-}
+// 时间复杂度 O(m * log m) + O(n + m)
 
-// 定义边结构体，并重载小于号以便排序
+const int MAXN = 5005;
+const int MAXM = 200005;
+
+int father[MAXN];
+
+// C++ 竞赛中推荐使用 struct 来表示边并重载小于号，以便于排序
 struct Edge {
     int u, v, w;
     bool operator<(const Edge& other) const {
@@ -46,57 +34,70 @@ struct Edge {
     }
 };
 
-class KruskalSolution {
-private:
-    vector<int> father;
+Edge edges[MAXM];
+int n, m;
 
-    int find(int i) {
-        if (i != father[i]) {
-            father[i] = find(father[i]); // 路径压缩
-        }
-        return father[i];
+void build() {
+    for (int i = 1; i <= n; i++) {
+        father[i] = i;
     }
+}
 
-    bool unite(int x, int y) {
-        int fx = find(x);
-        int fy = find(y);
-        if (fx != fy) {
-            father[fx] = fy;
-            return true;
-        }
+int find(int i) {
+    if (i != father[i]) {
+        father[i] = find(father[i]);
+    }
+    return father[i];
+}
+
+// union 是 C++ 的保留关键字，这里改名为 unionSet
+// 如果 x 和 y 本来就是一个集合，返回 false
+// 如果 x 和 y 不是一个集合，合并之后返回 true
+bool unionSet(int x, int y) {
+    int fx = find(x);
+    int fy = find(y);
+    if (fx != fy) {
+        father[fx] = fy;
+        return true;
+    } else {
         return false;
     }
+}
 
-public:
-    void solve(int n, int m, vector<Edge>& edges) {
-        father.resize(n + 1);
-        for (int i = 1; i <= n; i++) {
-            father[i] = i;
+int main() {
+    // C++ 的快速 I/O 模板，能够极大提升读写效率
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    // 等同于 Java 中的 while (in.nextToken() != StreamTokenizer.TT_EOF)
+    while (cin >> n >> m) {
+        build();
+        for (int i = 0; i < m; i++) {
+            cin >> edges[i].u >> edges[i].v >> edges[i].w;
         }
-
-        // 1. 按权重从小到大排序
-        sort(edges.begin(), edges.end());
-
+        
+        // 按照权值升序排序，利用了我们在 struct 中重载的 < 运算符
+        sort(edges, edges + m);
+        
         int ans = 0;
         int edgeCnt = 0;
         
-        // 2. 遍历边，尝试合并
-        for (const auto& edge : edges) {
-            if (unite(edge.u, edge.v)) {
+        for (int i = 0; i < m; i++) {
+            if (unionSet(edges[i].u, edges[i].v)) {
                 edgeCnt++;
-                ans += edge.w;
-                // 优化：找齐 n-1 条边就可以提前退出了
-                if (edgeCnt == n - 1) break; 
+                ans += edges[i].w;
             }
         }
-
+        
         if (edgeCnt == n - 1) {
-            printf("%d\n", ans);
+            cout << ans << "\n";
         } else {
-            printf("orz\n");
+            cout << "orz\n";
         }
     }
-};
+    
+    return 0;
+	}
 ```
 
 ---
