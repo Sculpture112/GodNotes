@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/061 Code01 Kruskal算法模版 & 最小生成树(洛谷).md",
+                "file": "母题/061 Code02 Prim算法模版（动态空间实现）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "061 Code01 Kruskal算法模版 & 最小生成树(洛谷)"
+              "title": "061 Code02 Prim算法模版（动态空间实现）"
             }
           },
           {
@@ -236,8 +236,12 @@
   },
   "active": "dacb19039b9599eb",
   "lastOpenFiles": [
-    "母题/060 Code04 参加会议的最多员工数.md",
+    "母题/023 Code01 随机快速排序.md",
+    "母题/022 Code02 翻转对数量.md",
+    "母题/061 Code02 Prim算法模版（动态空间实现）.md",
     "母题/061 Code01 Kruskal算法模版 & 最小生成树(洛谷).md",
+    "算法名/最小生成树.md",
+    "母题/060 Code04 参加会议的最多员工数.md",
     "母题/060 Code03 并行课程 III.md",
     "母题/059 Code01 图的三种建立方式.md",
     "母题/058 Code04 打砖块.md",
@@ -245,12 +249,9 @@
     "母题/059 Code04 火星词典.md",
     "母题/060 Code01 最大食物链计数.md",
     "学校.md",
-    "母题/023 Code01 随机快速排序.md",
-    "母题/022 Code02 翻转对数量.md",
     "母题/022 Code01 小和问题.md",
     "母题/021 Code02 归并排序.md",
     "母题/021 Code01 归并排序.md",
-    "母题/061 Code02 Prim算法模版（动态空间实现）.md",
     "母题/062 Code06 单词接龙 II.md",
     "母题/060 Code02 喧闹和富有.md",
     "母题/059 Code03 字典序最小的拓扑排序.md",
@@ -261,7 +262,6 @@
     "母题/062 Code03 到达角落需要移除障碍物的最小数目.md",
     "母题/062 Code02 贴纸拼词.md",
     "母题/062 Code01 地图分析.md",
-    "算法名/时光倒流.md",
     "Java",
     "Pasted image 20260315200552.png",
     "Pasted image 20260315200545.png",
