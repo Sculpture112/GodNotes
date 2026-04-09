@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -234,8 +234,9 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "dacb19039b9599eb",
+  "active": "774ef849d348cee5",
   "lastOpenFiles": [
+    "母题/061 Code04 检查边长度限制的路径是否存在.md",
     "母题/061 Code03 水资源分配优化.md",
     "母题/061 Code02 Prim算法优化（静态空间实现）.md",
     "母题/061 Code02 Prim算法模版（动态空间实现）.md",
@@ -261,7 +262,6 @@
     "母题/059 Code02 拓扑排序 (链式前向星版).md",
     "母题/059 Code02 拓扑排序 (课程表 II).md",
     "母题/062 Code05 二维接雨水.md",
-    "母题/062 Code04 使网格图至少有一条有效路径的最小代价.md",
     "Java",
     "Pasted image 20260315200552.png",
     "Pasted image 20260315200545.png",
