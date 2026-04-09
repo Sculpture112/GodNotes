@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/061 Code02 Prim算法模版（动态空间实现）.md",
+                "file": "idea/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "061 Code02 Prim算法模版（动态空间实现）"
+              "title": "未命名"
             }
           },
           {
@@ -236,9 +236,9 @@
   },
   "active": "dacb19039b9599eb",
   "lastOpenFiles": [
+    "母题/061 Code02 Prim算法模版（动态空间实现）.md",
     "母题/023 Code01 随机快速排序.md",
     "母题/022 Code02 翻转对数量.md",
-    "母题/061 Code02 Prim算法模版（动态空间实现）.md",
     "母题/061 Code01 Kruskal算法模版 & 最小生成树(洛谷).md",
     "算法名/最小生成树.md",
     "母题/060 Code04 参加会议的最多员工数.md",
