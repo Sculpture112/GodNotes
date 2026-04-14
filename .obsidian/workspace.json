@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/066 Code02 最低票价.md",
+                "file": "母题/063 Code01 单词接龙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "066 Code02 最低票价"
+              "title": "063 Code01 单词接龙"
             }
           },
           {
@@ -249,6 +249,7 @@
   },
   "active": "f4da8477171970e8",
   "lastOpenFiles": [
+    "母题/066 Code02 最低票价.md",
     "母题/066 Code03 解码方法.md",
     "母题/066 Code05 丑数 II.md",
     "母题/063 Code01 单词接龙.md",
@@ -257,7 +258,6 @@
     "母题/066 Code07 环绕字符串中唯一的子字符串.md",
     "母题/066 Code06 最长有效括号.md",
     "母题/066 Code04 解码方法 II.md",
-    "母题/066 Code02 最低票价.md",
     "母题/066 Code01 斐波那契数.md",
     "母题/065 Code04 Bellman-Ford + SPFA优化模版（洛谷）.md",
     "母题/065 Code03 Bellman-Ford算法应用（不是模版）.md",
