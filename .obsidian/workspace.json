@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/064 Code01 Dijkstra算法模版（Leetcode）.md",
+                "file": "母题/064 Code02 最小体力消耗路径.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "064 Code01 Dijkstra算法模版（Leetcode）"
+              "title": "064 Code02 最小体力消耗路径"
             }
           },
           {
@@ -264,6 +264,7 @@
   },
   "active": "a751dd8d2597dc00",
   "lastOpenFiles": [
+    "母题/064 Code01 Dijkstra算法模版（Leetcode）.md",
     "母题/064 Code01 Dijkstra算法模版（洛谷）.md",
     "template/templatec++.md",
     "算法名/反向索引堆.md",
@@ -275,7 +276,6 @@
     "母题/066 Code06 最长有效括号.md",
     "母题/066 Code04 解码方法 II.md",
     "母题/063 Code02 牛牛的背包问题 & 世界冰球锦标赛.md",
-    "母题/064 Code01 Dijkstra算法模版（Leetcode）.md",
     "母题/064 Code05 电动车游城市.md",
     "母题/065 Code02 Floyd算法模版（洛谷）.md",
     "母题/065 Code04 Bellman-Ford + SPFA优化模版（洛谷）.md",
