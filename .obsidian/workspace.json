@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/064 Code02 最小体力消耗路径.md",
+                "file": "母题/064 Code03 水位上升的泳池中游泳.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "064 Code02 最小体力消耗路径"
+              "title": "064 Code03 水位上升的泳池中游泳"
             }
           },
           {
@@ -264,9 +264,10 @@
   },
   "active": "a751dd8d2597dc00",
   "lastOpenFiles": [
+    "母题/064 Code02 最小体力消耗路径.md",
+    "母题/064 Code03 水位上升的泳池中游泳.md",
     "template/templatec++.md",
     "算法名/最小堆.md",
-    "母题/064 Code02 最小体力消耗路径.md",
     "1.md",
     "母题/064 Code01 Dijkstra算法模版（Leetcode）.md",
     "母题/064 Code01 Dijkstra算法模版（洛谷）.md",
@@ -289,7 +290,6 @@
     "算法名/逆序对.md",
     "母题/021 Code02 归并排序.md",
     "母题/021 Code01 归并排序.md",
-    "算法名/折半搜索.md",
     "错本",
     "Java",
     "Pasted image 20260315200552.png",
