@@ -91,8 +91,7 @@
               "title": "1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -276,19 +275,19 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "a751dd8d2597dc00",
+  "active": "f4da8477171970e8",
   "lastOpenFiles": [
-    "母题/064 Code04 获取所有钥匙的最短路径.md",
     "母题/064 Code05 电动车游城市.md",
+    "1.md",
+    "备赛/备赛.md",
+    "母题/064 Code04 获取所有钥匙的最短路径.md",
     "template/templatec++.md",
     "算法名/多维状态.md",
     "算法名/状态压缩.md",
-    "1.md",
     "母题/064 Code03 水位上升的泳池中游泳.md",
     "算法名/优先堆.md",
     "母题/064 Code02 最小体力消耗路径.md",
     "学校.md",
-    "备赛/备赛.md",
     "算法名/最小堆.md",
     "母题/064 Code01 Dijkstra算法模版（Leetcode）.md",
     "母题/064 Code01 Dijkstra算法模版（洛谷）.md",
