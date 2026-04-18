@@ -78,19 +78,8 @@
               "icon": "lucide-file",
               "title": "1"
             }
-          },
-          {
-            "id": "a4d22c27464a36b0",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -274,15 +263,16 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "a4d22c27464a36b0",
+  "active": "f4da8477171970e8",
   "lastOpenFiles": [
-    "杂物/需重刷.md",
+    "母题/064 Code06 飞行路线（自己手撸的堆）.md",
     "1.md",
+    "算法名/Dijkstra.md",
+    "杂物/需重刷.md",
     "862. 和至少为K的最短子数组.md",
     "备赛/备赛.md",
     "母题/055 Code03 你可以安排的最多任务数目.md",
     "1. 将“求最值”转化为“二分判定”：答案具有单调性，能完成 $m$ 个必定能完成 $m-1$ 个。 2. 局部最优解构建全局最优：选定 $m$ 后，剥离出“最简单的 $m$ 个任务”和“最强的 $m$ 个工人”。3. 贪心博弈分配：不吃药就挑最简单的保底，吃药就挑战能力范围内最难的，榨干药丸价值。.md",
-    "母题/064 Code06 飞行路线（自己手撸的堆）.md",
     "学校.md",
     "杂物/已AC.md",
     "template/templatec++.md",
@@ -301,7 +291,6 @@
     "算法名/堆排序.md",
     "母题/024 Code01 无序数组中第K大的元素.md",
     "算法名/快速选择排序.md",
-    "母题/023 Code02 随机快速排序.md",
     "错本",
     "Java",
     "Pasted image 20260315200552.png",
