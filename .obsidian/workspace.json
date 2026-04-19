@@ -22,31 +22,17 @@
             }
           },
           {
-            "id": "467a711c79fac2dd",
+            "id": "6d9c0988c8aeefac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/066 Code01 斐波那契数.md",
+                "file": "母题/066 Code02 最低票价.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "066 Code01 斐波那契数"
-            }
-          },
-          {
-            "id": "beb7ad97c07a7350",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "母题/067 Code04 最长回文子序列.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "067 Code04 最长回文子序列"
+              "title": "066 Code02 最低票价"
             }
           },
           {
@@ -150,8 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5,
-    "collapsed": true
+    "width": 405.5
   },
   "right": {
     "id": "4768838af22391f0",
@@ -277,17 +262,25 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "467a711c79fac2dd",
+  "active": "6d9c0988c8aeefac",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-04-19 16.04.22.excalidraw.md",
+    "母题/067 Code03 最长公共子序列.md",
+    "母题/066 Code08 不同的子序列 II.md",
+    "母题/066 Code04 解码方法 II.md",
+    "母题/066 Code07 环绕字符串中唯一的子字符串.md",
+    "母题/066 Code02 最低票价.md",
+    "母题/026 Code01 HashSet 和 HashMap 的基础使用.md",
+    "学校.md",
     "母题/066 Code01 斐波那契数.md",
-    "Excalidraw/Drawing 2026-04-19 15.59.40.excalidraw.md",
+    "算法名/一维DP.md",
+    "1.md",
     "母题/067 Code04 最长回文子序列.md",
+    "Excalidraw/Drawing 2026-04-19 16.04.22.excalidraw.md",
+    "Excalidraw/Drawing 2026-04-19 15.59.40.excalidraw.md",
     "Excalidraw/Drawing 2026-03-04 15.46.50.excalidraw.md",
     "母题/065 Code04 Bellman-Ford + SPFA优化模版（洛谷）.md",
     "算法名/负环.md",
     "算法名/SPFA.md",
-    "1.md",
     "备赛/备赛.md",
     "母题/065 Code03 Bellman-Ford算法应用（不是模版）.md",
     "算法名/单源最短路径.md",
@@ -297,14 +290,6 @@
     "母题/052 Code05 最大矩形.md",
     "母题/065 Code02 Floyd算法模版（洛谷）.md",
     "母题/067 Code05 节点数为n高度不大于m的二叉树个数.md",
-    "母题/067 Code02 单词搜索（无法改成动态规划）.md",
-    "母题/067 Code01 最小路径和.md",
-    "母题/067 Code06 矩阵中的最长递增路径.md",
-    "母题/066 Code02 最低票价.md",
-    "母题/067 Code03 最长公共子序列.md",
-    "母题/066 Code08 不同的子序列 II.md",
-    "算法名/多源最短路径.md",
-    "学校.md",
     "错本",
     "Java",
     "Pasted image 20260315200552.png",
