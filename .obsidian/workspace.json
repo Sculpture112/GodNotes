@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/066 Code02 最低票价.md",
-                "mode": "preview",
+                "file": "母题/066 Code03 解码方法.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "066 Code02 最低票价"
+              "title": "066 Code03 解码方法"
             }
           },
           {
@@ -264,8 +264,10 @@
   },
   "active": "aba45f2dea6908ea",
   "lastOpenFiles": [
-    "1.md",
     "母题/066 Code02 最低票价.md",
+    "学校.md",
+    "算法名/DP三件套.md",
+    "1.md",
     "母题/066 Code01 斐波那契数.md",
     "母题/066 Code04 解码方法 II.md",
     "母题/067 Code04 最长回文子序列.md",
@@ -279,7 +281,6 @@
     "母题/066 Code08 不同的子序列 II.md",
     "母题/066 Code07 环绕字符串中唯一的子字符串.md",
     "母题/026 Code01 HashSet 和 HashMap 的基础使用.md",
-    "学校.md",
     "算法名/一维DP.md",
     "Excalidraw/Drawing 2026-04-19 16.04.22.excalidraw.md",
     "Excalidraw/Drawing 2026-04-19 15.59.40.excalidraw.md",
@@ -289,7 +290,6 @@
     "算法名/SPFA.md",
     "备赛/备赛.md",
     "母题/065 Code03 Bellman-Ford算法应用（不是模版）.md",
-    "算法名/单源最短路径.md",
     "错本",
     "Java",
     "Pasted image 20260315200552.png",
