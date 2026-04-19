@@ -36,6 +36,76 @@
             }
           },
           {
+            "id": "57ef005beb5a6337",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "母题/068 Code01 不同的子序列.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "068 Code01 不同的子序列"
+            }
+          },
+          {
+            "id": "4ce0f5dc5d8ab7ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "母题/068 Code02 编辑距离.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "068 Code02 编辑距离"
+            }
+          },
+          {
+            "id": "f6c33d19faf9bbd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "母题/068 Code03 交错字符串.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "068 Code03 交错字符串"
+            }
+          },
+          {
+            "id": "afbbaa788c803193",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "母题/068 Code04 有效涂色问题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "068 Code04 有效涂色问题"
+            }
+          },
+          {
+            "id": "aba45f2dea6908ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "母题/068 Code01 不同的子序列.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "068 Code01 不同的子序列"
+            }
+          },
+          {
             "id": "d53dba3f6976cd80",
             "type": "leaf",
             "state": {
@@ -78,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -262,19 +332,24 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "6d9c0988c8aeefac",
+  "active": "aba45f2dea6908ea",
   "lastOpenFiles": [
+    "母题/067 Code04 最长回文子序列.md",
+    "母题/068 Code05 删除至少几个字符可以变成另一个字符串的子串.md",
+    "母题/068 Code04 有效涂色问题.md",
+    "母题/068 Code03 交错字符串.md",
+    "母题/068 Code02 编辑距离.md",
+    "母题/068 Code01 不同的子序列.md",
+    "母题/066 Code02 最低票价.md",
     "母题/067 Code03 最长公共子序列.md",
     "母题/066 Code08 不同的子序列 II.md",
     "母题/066 Code04 解码方法 II.md",
     "母题/066 Code07 环绕字符串中唯一的子字符串.md",
-    "母题/066 Code02 最低票价.md",
     "母题/026 Code01 HashSet 和 HashMap 的基础使用.md",
     "学校.md",
     "母题/066 Code01 斐波那契数.md",
     "算法名/一维DP.md",
     "1.md",
-    "母题/067 Code04 最长回文子序列.md",
     "Excalidraw/Drawing 2026-04-19 16.04.22.excalidraw.md",
     "Excalidraw/Drawing 2026-04-19 15.59.40.excalidraw.md",
     "Excalidraw/Drawing 2026-03-04 15.46.50.excalidraw.md",
@@ -285,11 +360,6 @@
     "母题/065 Code03 Bellman-Ford算法应用（不是模版）.md",
     "算法名/单源最短路径.md",
     "算法名/Bellman-Ford.md",
-    "杂物/二次AC.md",
-    "母题/052 Code02 每日温度.md",
-    "母题/052 Code05 最大矩形.md",
-    "母题/065 Code02 Floyd算法模版（洛谷）.md",
-    "母题/067 Code05 节点数为n高度不大于m的二叉树个数.md",
     "错本",
     "Java",
     "Pasted image 20260315200552.png",
