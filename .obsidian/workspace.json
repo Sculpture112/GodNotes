@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/066 Code03 解码方法.md",
+                "file": "母题/066 Code04 解码方法 II.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "066 Code03 解码方法"
+              "title": "066 Code04 解码方法 II"
             }
           },
           {
@@ -264,8 +264,8 @@
   },
   "active": "aba45f2dea6908ea",
   "lastOpenFiles": [
-    "母题/066 Code02 最低票价.md",
     "母题/066 Code03 解码方法.md",
+    "母题/066 Code02 最低票价.md",
     "母题/066 Code04 解码方法 II.md",
     "母题/066 Code05 丑数 II.md",
     "母题/068 Code03 交错字符串.md",
