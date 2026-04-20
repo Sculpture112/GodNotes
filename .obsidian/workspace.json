@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/066 Code07 环绕字符串中唯一的子字符串.md",
+                "file": "母题/068 Code04 有效涂色问题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "066 Code07 环绕字符串中唯一的子字符串"
+              "title": "068 Code04 有效涂色问题"
             }
           },
           {
@@ -264,6 +264,7 @@
   },
   "active": "aba45f2dea6908ea",
   "lastOpenFiles": [
+    "母题/066 Code07 环绕字符串中唯一的子字符串.md",
     "母题/066 Code06 最长有效括号.md",
     "1.md",
     "母题/066 Code05 丑数 II.md",
@@ -284,7 +285,6 @@
     "母题/068 Code04 有效涂色问题.md",
     "母题/067 Code03 最长公共子序列.md",
     "母题/066 Code08 不同的子序列 II.md",
-    "母题/066 Code07 环绕字符串中唯一的子字符串.md",
     "母题/026 Code01 HashSet 和 HashMap 的基础使用.md",
     "算法名/一维DP.md",
     "Excalidraw/Drawing 2026-04-19 16.04.22.excalidraw.md",
