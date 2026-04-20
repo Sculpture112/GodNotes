@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "母题/066 Code06 最长有效括号.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -262,10 +262,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "867961120521f81c",
+  "active": "aba45f2dea6908ea",
   "lastOpenFiles": [
-    "母题/066 Code06 最长有效括号.md",
     "1.md",
+    "母题/066 Code06 最长有效括号.md",
     "母题/066 Code05 丑数 II.md",
     "学校.md",
     "算法名/多指针.md",
