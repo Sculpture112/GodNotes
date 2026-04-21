@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -262,10 +262,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aba45f2dea6908ea",
+  "active": "867961120521f81c",
   "lastOpenFiles": [
-    "母题/066 Code06 最长有效括号.md",
+    "备赛/备赛.md",
+    "学校.md",
     "母题/066 Code07 环绕字符串中唯一的子字符串.md",
+    "母题/066 Code06 最长有效括号.md",
     "母题/066 Code08 不同的子序列 II.md",
     "母题/067 Code01 最小路径和.md",
     "母题/067 Code02 单词搜索（无法改成动态规划）.md",
@@ -277,7 +279,6 @@
     "母题/068 Code04 有效涂色问题.md",
     "1.md",
     "母题/066 Code05 丑数 II.md",
-    "学校.md",
     "算法名/多指针.md",
     "母题/066 Code04 解码方法 II.md",
     "算法名/分类讨论.md",
@@ -289,7 +290,6 @@
     "母题/067 Code06 矩阵中的最长递增路径.md",
     "母题/026 Code01 HashSet 和 HashMap 的基础使用.md",
     "算法名/一维DP.md",
-    "Excalidraw/Drawing 2026-04-19 16.04.22.excalidraw.md",
     "错本",
     "Java",
     "Pasted image 20260315200552.png",
