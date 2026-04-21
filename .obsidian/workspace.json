@@ -64,6 +64,20 @@
             }
           },
           {
+            "id": "f892c790ebf288f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "母题/069 Code03 骑士在棋盘上的概率.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "069 Code03 骑士在棋盘上的概率"
+            }
+          },
+          {
             "id": "d53dba3f6976cd80",
             "type": "leaf",
             "state": {
@@ -120,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -304,10 +318,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "323c93f4d97a346b",
+  "active": "f892c790ebf288f9",
   "lastOpenFiles": [
-    "母题/069 Code01 一和零(多维费用背包).md",
     "母题/069 Code02 盈利计划(多维费用背包).md",
+    "母题/069 Code03 骑士在棋盘上的概率.md",
+    "母题/069 Code01 一和零(多维费用背包).md",
     "母题/068 Code05 删除至少几个字符可以变成另一个字符串的子串.md",
     "母题/066 Code07 环绕字符串中唯一的子字符串.md",
     "Vim.md",
@@ -332,7 +347,6 @@
     "算法名/分类讨论.md",
     "母题/066 Code03 解码方法.md",
     "母题/066 Code02 最低票价.md",
-    "母题/068 Code02 编辑距离.md",
     "错本",
     "Java",
     "Pasted image 20260315200552.png",
