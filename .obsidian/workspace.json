@@ -27,12 +27,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/066 Code07 环绕字符串中唯一的子字符串.md",
+                "file": "母题/068 Code05 删除至少几个字符可以变成另一个字符串的子串.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "066 Code07 环绕字符串中唯一的子字符串"
+              "title": "068 Code05 删除至少几个字符可以变成另一个字符串的子串"
+            }
+          },
+          {
+            "id": "24606e3324746186",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "母题/069 Code01 一和零(多维费用背包).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "069 Code01 一和零(多维费用背包)"
+            }
+          },
+          {
+            "id": "323c93f4d97a346b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "母题/069 Code02 盈利计划(多维费用背包).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "069 Code02 盈利计划(多维费用背包)"
             }
           },
           {
@@ -92,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -276,15 +304,19 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "d78355488a64cce2",
+  "active": "323c93f4d97a346b",
   "lastOpenFiles": [
+    "母题/069 Code01 一和零(多维费用背包).md",
+    "母题/069 Code02 盈利计划(多维费用背包).md",
+    "母题/068 Code05 删除至少几个字符可以变成另一个字符串的子串.md",
+    "母题/066 Code07 环绕字符串中唯一的子字符串.md",
+    "Vim.md",
     "1.md",
     "1. 将“求最值”转化为“二分判定”：答案具有单调性，能完成 $m$ 个必定能完成 $m-1$ 个。 2. 局部最优解构建全局最优：选定 $m$ 后，剥离出“最简单的 $m$ 个任务”和“最强的 $m$ 个工人”。3. 贪心博弈分配：不吃药就挑最简单的保底，吃药就挑战能力范围内最难的，榨干药丸价值。.md",
     "学校.md",
     "Pasted image 20260315200128.png",
     "862. 和至少为K的最短子数组.md",
     "备赛/备赛.md",
-    "母题/066 Code07 环绕字符串中唯一的子字符串.md",
     "母题/066 Code06 最长有效括号.md",
     "母题/066 Code08 不同的子序列 II.md",
     "母题/067 Code01 最小路径和.md",
@@ -293,7 +325,6 @@
     "母题/067 Code04 最长回文子序列.md",
     "母题/068 Code01 不同的子序列.md",
     "母题/068 Code03 交错字符串.md",
-    "母题/068 Code05 删除至少几个字符可以变成另一个字符串的子串.md",
     "母题/068 Code04 有效涂色问题.md",
     "母题/066 Code05 丑数 II.md",
     "算法名/多指针.md",
@@ -302,8 +333,6 @@
     "母题/066 Code03 解码方法.md",
     "母题/066 Code02 最低票价.md",
     "母题/068 Code02 编辑距离.md",
-    "算法名/DP三件套.md",
-    "母题/066 Code01 斐波那契数.md",
     "错本",
     "Java",
     "Pasted image 20260315200552.png",
