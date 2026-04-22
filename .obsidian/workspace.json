@@ -27,110 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/068 Code05 删除至少几个字符可以变成另一个字符串的子串.md",
+                "file": "母题/066 Code07 环绕字符串中唯一的子字符串.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "068 Code05 删除至少几个字符可以变成另一个字符串的子串"
-            }
-          },
-          {
-            "id": "24606e3324746186",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "母题/069 Code01 一和零(多维费用背包).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "069 Code01 一和零(多维费用背包)"
-            }
-          },
-          {
-            "id": "323c93f4d97a346b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "母题/069 Code02 盈利计划(多维费用背包).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "069 Code02 盈利计划(多维费用背包)"
-            }
-          },
-          {
-            "id": "f892c790ebf288f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "母题/069 Code03 骑士在棋盘上的概率.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "069 Code03 骑士在棋盘上的概率"
-            }
-          },
-          {
-            "id": "2da607c6cca29bfd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "母题/069 Code04 矩阵中和能被 K 整除的路径.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "069 Code04 矩阵中和能被 K 整除的路径"
-            }
-          },
-          {
-            "id": "823ed9793e35012b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MYSQL/1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1"
-            }
-          },
-          {
-            "id": "d53dba3f6976cd80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "学校.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "学校"
-            }
-          },
-          {
-            "id": "774ef849d348cee5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "备赛/备赛.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "备赛"
+              "title": "066 Code07 环绕字符串中唯一的子字符串"
             }
           },
           {
@@ -148,21 +50,21 @@
             }
           },
           {
-            "id": "d78355488a64cce2",
+            "id": "823ed9793e35012b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vim.md",
+                "file": "MYSQL/1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vim"
+              "title": "1"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -346,8 +248,26 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "823ed9793e35012b",
+  "active": "aba45f2dea6908ea",
   "lastOpenFiles": [
+    "1.md",
+    "MYSQL/1.md",
+    "母题/066 Code07 环绕字符串中唯一的子字符串.md",
+    "母题/066 Code08 不同的子序列 II.md",
+    "母题/066 Code06 最长有效括号.md",
+    "母题/067 Code01 最小路径和.md",
+    "母题/067 Code02 单词搜索（无法改成动态规划）.md",
+    "母题/067 Code04 最长回文子序列.md",
+    "母题/067 Code05 节点数为n高度不大于m的二叉树个数.md",
+    "母题/068 Code01 不同的子序列.md",
+    "母题/068 Code05 删除至少几个字符可以变成另一个字符串的子串.md",
+    "母题/069 Code01 一和零(多维费用背包).md",
+    "母题/069 Code04 矩阵中和能被 K 整除的路径.md",
+    "母题/069 Code03 骑士在棋盘上的概率.md",
+    "母题/069 Code02 盈利计划(多维费用背包).md",
+    "学校.md",
+    "备赛/备赛.md",
+    "Vim.md",
     "Pasted image 20260422152035.png",
     "Pasted image 20260422151554.png",
     "Pasted image 20260422151108.png",
@@ -358,29 +278,11 @@
     "Pasted image 20260422145807.png",
     "Pasted image 20260422145734.png",
     "Pasted image 20260422145448.png",
-    "Pasted image 20260422145329.png",
     "母题/069 Code05 扰乱字符串.md",
-    "MYSQL/1.md",
     "MYSQL",
-    "母题/069 Code04 矩阵中和能被 K 整除的路径.md",
-    "母题/069 Code03 骑士在棋盘上的概率.md",
-    "母题/069 Code02 盈利计划(多维费用背包).md",
-    "母题/069 Code01 一和零(多维费用背包).md",
-    "母题/068 Code05 删除至少几个字符可以变成另一个字符串的子串.md",
-    "母题/066 Code07 环绕字符串中唯一的子字符串.md",
-    "Vim.md",
-    "1.md",
     "1. 将“求最值”转化为“二分判定”：答案具有单调性，能完成 $m$ 个必定能完成 $m-1$ 个。 2. 局部最优解构建全局最优：选定 $m$ 后，剥离出“最简单的 $m$ 个任务”和“最强的 $m$ 个工人”。3. 贪心博弈分配：不吃药就挑最简单的保底，吃药就挑战能力范围内最难的，榨干药丸价值。.md",
-    "学校.md",
     "862. 和至少为K的最短子数组.md",
-    "备赛/备赛.md",
-    "母题/066 Code06 最长有效括号.md",
-    "母题/066 Code08 不同的子序列 II.md",
-    "母题/067 Code01 最小路径和.md",
-    "母题/067 Code02 单词搜索（无法改成动态规划）.md",
     "母题/067 Code03 最长公共子序列.md",
-    "母题/067 Code04 最长回文子序列.md",
-    "母题/068 Code01 不同的子序列.md",
     "母题/068 Code03 交错字符串.md",
     "母题/068 Code04 有效涂色问题.md",
     "母题/066 Code05 丑数 II.md",
