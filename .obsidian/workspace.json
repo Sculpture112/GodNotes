@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MYSQL/1.md",
+                "file": "Java/Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1"
+              "title": "Java"
             }
           }
         ],
@@ -264,6 +264,8 @@
   },
   "active": "823ed9793e35012b",
   "lastOpenFiles": [
+    "Pasted image 20260423161122.png",
+    "MYSQL/1.md",
     "Pasted image 20260423093720.png",
     "Pasted image 20260423093643.png",
     "Pasted image 20260423093422.png",
@@ -274,13 +276,11 @@
     "Pasted image 20260423085914.png",
     "Pasted image 20260423085751.png",
     "Pasted image 20260423085527.png",
-    "Pasted image 20260423085222.png",
     "1.md",
     "母题/067 Code02 单词搜索（无法改成动态规划）.md",
     "母题/067 Code01 最小路径和.md",
     "算法名/二维DP.md",
     "杂物/已AC.md",
-    "MYSQL/1.md",
     "母题/066 Code08 不同的子序列 II.md",
     "母题/026 Code01 HashSet 和 HashMap 的基础使用.md",
     "母题/066 Code07 环绕字符串中唯一的子字符串.md",
