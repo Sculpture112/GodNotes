@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -262,10 +262,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "867961120521f81c",
+  "active": "aba45f2dea6908ea",
   "lastOpenFiles": [
-    "母题/067 Code03 最长公共子序列.md",
     "1.md",
+    "母题/067 Code03 最长公共子序列.md",
     "母题/067 Code02 单词搜索（无法改成动态规划）.md",
     "母题/069 Code05 扰乱字符串.md",
     "Java/Java.md",
