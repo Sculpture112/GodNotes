@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -262,8 +262,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "823ed9793e35012b",
+  "active": "867961120521f81c",
   "lastOpenFiles": [
+    "母题/069 Code05 扰乱字符串.md",
+    "母题/067 Code02 单词搜索（无法改成动态规划）.md",
+    "1.md",
+    "Java/Java.md",
     "Pasted image 20260423170732.png",
     "Pasted image 20260423170219.png",
     "Pasted image 20260423164913.png",
@@ -275,9 +279,6 @@
     "Pasted image 20260423161122.png",
     "MYSQL/1.md",
     "Pasted image 20260423093720.png",
-    "Pasted image 20260423093643.png",
-    "1.md",
-    "母题/067 Code02 单词搜索（无法改成动态规划）.md",
     "母题/067 Code01 最小路径和.md",
     "算法名/二维DP.md",
     "杂物/已AC.md",
@@ -297,7 +298,6 @@
     "母题/069 Code02 盈利计划(多维费用背包).md",
     "备赛/备赛.md",
     "Vim.md",
-    "母题/069 Code05 扰乱字符串.md",
     "MYSQL",
     "1. 将“求最值”转化为“二分判定”：答案具有单调性，能完成 $m$ 个必定能完成 $m-1$ 个。 2. 局部最优解构建全局最优：选定 $m$ 后，剥离出“最简单的 $m$ 个任务”和“最强的 $m$ 个工人”。3. 贪心博弈分配：不吃药就挑最简单的保底，吃药就挑战能力范围内最难的，榨干药丸价值。.md",
     "862. 和至少为K的最短子数组.md",
