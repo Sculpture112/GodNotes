@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/067 Code02 单词搜索（无法改成动态规划）.md",
+                "file": "母题/067 Code03 最长公共子序列.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "067 Code02 单词搜索（无法改成动态规划）"
+              "title": "067 Code03 最长公共子序列"
             }
           },
           {
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -262,11 +262,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "867961120521f81c",
+  "active": "aba45f2dea6908ea",
   "lastOpenFiles": [
-    "母题/069 Code05 扰乱字符串.md",
     "母题/067 Code02 单词搜索（无法改成动态规划）.md",
+    "母题/067 Code03 最长公共子序列.md",
     "1.md",
+    "母题/069 Code05 扰乱字符串.md",
     "Java/Java.md",
     "Pasted image 20260423170732.png",
     "Pasted image 20260423170219.png",
@@ -300,7 +301,6 @@
     "Vim.md",
     "MYSQL",
     "1. 将“求最值”转化为“二分判定”：答案具有单调性，能完成 $m$ 个必定能完成 $m-1$ 个。 2. 局部最优解构建全局最优：选定 $m$ 后，剥离出“最简单的 $m$ 个任务”和“最强的 $m$ 个工人”。3. 贪心博弈分配：不吃药就挑最简单的保底，吃药就挑战能力范围内最难的，榨干药丸价值。.md",
-    "862. 和至少为K的最短子数组.md",
     "错本",
     "Java",
     "代办",
