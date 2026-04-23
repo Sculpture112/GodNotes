@@ -25,3 +25,4 @@
 
 ![[Pasted image 20260423170732.png]]
 
+[第4章-数组-06-数组的动态初始化_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1TJxCzSEEZ?spm_id_from=333.788.player.switch&vd_source=d73b69d231b0a0908c553f1bf14e36e6&p=61)
