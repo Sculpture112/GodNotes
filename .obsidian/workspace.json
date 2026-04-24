@@ -262,10 +262,49 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
+  "floating": {
+    "id": "e40c990e42d84a41",
+    "type": "floating",
+    "children": [
+      {
+        "id": "524035e48a3f81b7",
+        "type": "window",
+        "children": [
+          {
+            "id": "0d6a16be02c4f0e4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "eba65bc5c82bfa8a",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Drawing 2026-04-24 15.28.57.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "Drawing 2026-04-24 15.28.57.excalidraw"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 640,
+        "y": 162,
+        "width": 1258,
+        "height": 872,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "aba45f2dea6908ea",
   "lastOpenFiles": [
-    "母题/067 Code04 最长回文子序列.md",
     "1.md",
+    "Excalidraw/Drawing 2026-04-24 15.28.57.excalidraw.md",
+    "母题/067 Code05 节点数为n高度不大于m的二叉树个数.md",
+    "母题/067 Code04 最长回文子序列.md",
     "算法名/区间DP.md",
     "学校.md",
     "Java/Java.md",
@@ -291,7 +330,6 @@
     "母题/066 Code07 环绕字符串中唯一的子字符串.md",
     "算法名/字符串处理.md",
     "母题/066 Code06 最长有效括号.md",
-    "母题/067 Code05 节点数为n高度不大于m的二叉树个数.md",
     "母题/068 Code01 不同的子序列.md",
     "母题/068 Code05 删除至少几个字符可以变成另一个字符串的子串.md",
     "母题/069 Code01 一和零(多维费用背包).md",
@@ -299,7 +337,6 @@
     "母题/069 Code03 骑士在棋盘上的概率.md",
     "母题/069 Code02 盈利计划(多维费用背包).md",
     "备赛/备赛.md",
-    "Vim.md",
     "MYSQL",
     "错本",
     "Java",
