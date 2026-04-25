@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/067 Code05 节点数为n高度不大于m的二叉树个数.md",
-                "mode": "preview",
+                "file": "母题/067 Code06 矩阵中的最长递增路径.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "067 Code05 节点数为n高度不大于m的二叉树个数"
+              "title": "067 Code06 矩阵中的最长递增路径"
             }
           },
           {
@@ -264,8 +264,8 @@
   },
   "active": "aba45f2dea6908ea",
   "lastOpenFiles": [
-    "母题/067 Code06 矩阵中的最长递增路径.md",
     "母题/067 Code05 节点数为n高度不大于m的二叉树个数.md",
+    "母题/067 Code06 矩阵中的最长递增路径.md",
     "学校.md",
     "1.md",
     "Excalidraw/Drawing 2026-04-24 15.28.57.excalidraw.md",
