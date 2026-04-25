@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/067 Code06 矩阵中的最长递增路径.md",
-                "mode": "source",
+                "file": "母题/068 Code01 不同的子序列.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "067 Code06 矩阵中的最长递增路径"
+              "title": "068 Code01 不同的子序列"
             }
           },
           {
@@ -264,8 +264,9 @@
   },
   "active": "aba45f2dea6908ea",
   "lastOpenFiles": [
-    "母题/067 Code05 节点数为n高度不大于m的二叉树个数.md",
     "母题/067 Code06 矩阵中的最长递增路径.md",
+    "母题/068 Code01 不同的子序列.md",
+    "母题/067 Code05 节点数为n高度不大于m的二叉树个数.md",
     "学校.md",
     "1.md",
     "Excalidraw/Drawing 2026-04-24 15.28.57.excalidraw.md",
@@ -294,7 +295,6 @@
     "母题/066 Code07 环绕字符串中唯一的子字符串.md",
     "算法名/字符串处理.md",
     "母题/066 Code06 最长有效括号.md",
-    "母题/068 Code01 不同的子序列.md",
     "母题/068 Code05 删除至少几个字符可以变成另一个字符串的子串.md",
     "母题/069 Code01 一和零(多维费用背包).md",
     "母题/069 Code04 矩阵中和能被 K 整除的路径.md",
