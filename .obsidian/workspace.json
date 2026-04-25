@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/067 Code05 节点数为n高度不大于m的二叉树个数.md",
+                "file": "母题/067 Code06 矩阵中的最长递增路径.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "067 Code05 节点数为n高度不大于m的二叉树个数"
+              "title": "067 Code06 矩阵中的最长递增路径"
             }
           },
           {
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,7 +136,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5
+    "width": 355.5
   },
   "right": {
     "id": "4768838af22391f0",
@@ -262,14 +262,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "fef72a0a8aaf422b",
+  "active": "aba45f2dea6908ea",
   "lastOpenFiles": [
-    "1.md",
     "母题/067 Code05 节点数为n高度不大于m的二叉树个数.md",
+    "学校.md",
+    "1.md",
     "Excalidraw/Drawing 2026-04-24 15.28.57.excalidraw.md",
     "母题/067 Code04 最长回文子序列.md",
     "算法名/区间DP.md",
-    "学校.md",
     "Java/Java.md",
     "Pasted image 20260424085417.png",
     "Pasted image 20260424085153.png",
