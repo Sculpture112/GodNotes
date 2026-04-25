@@ -262,48 +262,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "floating": {
-    "id": "e40c990e42d84a41",
-    "type": "floating",
-    "children": [
-      {
-        "id": "524035e48a3f81b7",
-        "type": "window",
-        "children": [
-          {
-            "id": "0d6a16be02c4f0e4",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "eba65bc5c82bfa8a",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Drawing 2026-04-24 15.28.57.excalidraw.md"
-                  },
-                  "icon": "excalidraw-icon",
-                  "title": "Drawing 2026-04-24 15.28.57.excalidraw"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 640,
-        "y": 162,
-        "width": 1258,
-        "height": 872,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "aba45f2dea6908ea",
   "lastOpenFiles": [
-    "1.md",
     "Excalidraw/Drawing 2026-04-24 15.28.57.excalidraw.md",
     "母题/067 Code05 节点数为n高度不大于m的二叉树个数.md",
+    "1.md",
     "母题/067 Code04 最长回文子序列.md",
     "算法名/区间DP.md",
     "学校.md",
