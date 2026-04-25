@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "母题/068 Code01 不同的子序列.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -264,11 +264,11 @@
   },
   "active": "aba45f2dea6908ea",
   "lastOpenFiles": [
-    "母题/067 Code06 矩阵中的最长递增路径.md",
+    "1.md",
     "母题/068 Code01 不同的子序列.md",
+    "母题/067 Code06 矩阵中的最长递增路径.md",
     "母题/067 Code05 节点数为n高度不大于m的二叉树个数.md",
     "学校.md",
-    "1.md",
     "Excalidraw/Drawing 2026-04-24 15.28.57.excalidraw.md",
     "母题/067 Code04 最长回文子序列.md",
     "算法名/区间DP.md",
