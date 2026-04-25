@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -262,11 +262,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aba45f2dea6908ea",
+  "active": "fef72a0a8aaf422b",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-04-24 15.28.57.excalidraw.md",
-    "母题/067 Code05 节点数为n高度不大于m的二叉树个数.md",
     "1.md",
+    "母题/067 Code05 节点数为n高度不大于m的二叉树个数.md",
+    "Excalidraw/Drawing 2026-04-24 15.28.57.excalidraw.md",
     "母题/067 Code04 最长回文子序列.md",
     "算法名/区间DP.md",
     "学校.md",
