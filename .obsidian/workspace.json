@@ -81,14 +81,12 @@
             "id": "0a93210618aa25f4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "母题/068 Code02 编辑距离.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2026-04-24 15.28.57.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "068 Code02 编辑距离"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-04-24 15.28.57.excalidraw"
             }
           },
           {
@@ -292,8 +290,15 @@
   },
   "active": "0a93210618aa25f4",
   "lastOpenFiles": [
-    "母题/068 Code03 交错字符串.md",
+    "母题/057 Code02 找出知晓秘密的所有专家.md",
+    "母题/056 Code03 情侣牵手.md",
+    "母题/054 Code01 滑动窗口最大值（单调队列经典用法模版）.md",
+    "母题/053 Code03 大鱼吃小鱼问题.md",
+    "母题/052 Code06 单调栈（洛谷模板题）.md",
+    "母题/052 Code05 最大矩形.md",
+    "母题/052 Code02 每日温度.md",
     "母题/068 Code02 编辑距离.md",
+    "母题/068 Code03 交错字符串.md",
     "母题/068 Code01 不同的子序列.md",
     "母题/067 Code06 矩阵中的最长递增路径.md",
     "母题/067 Code05 节点数为n高度不大于m的二叉树个数.md",
@@ -311,23 +316,16 @@
     "Excalidraw/Drawing 2026-04-24 15.28.57.excalidraw.md",
     "母题/067 Code04 最长回文子序列.md",
     "算法名/区间DP.md",
-    "Java/Java.md",
     "Pasted image 20260424085417.png",
     "Pasted image 20260424085153.png",
     "Pasted image 20260424084745.png",
     "Pasted image 20260424084542.png",
     "Pasted image 20260424084234.png",
-    "母题/067 Code03 最长公共子序列.md",
-    "母题/067 Code02 单词搜索（无法改成动态规划）.md",
-    "母题/069 Code05 扰乱字符串.md",
     "Pasted image 20260423170732.png",
     "Pasted image 20260423170219.png",
     "Pasted image 20260423164913.png",
     "Pasted image 20260423163715.png",
     "Pasted image 20260423162529.png",
-    "MYSQL/1.md",
-    "母题/067 Code01 最小路径和.md",
-    "算法名/二维DP.md",
     "MYSQL",
     "错本",
     "Java",
