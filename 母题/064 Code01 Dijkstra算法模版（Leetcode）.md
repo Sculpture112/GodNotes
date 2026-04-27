@@ -61,7 +61,7 @@ public:
     int networkDelayTime1(vector<vector<int>>& times, int n, int s) {
         vector<vector<pair<int, int>>> graph(n + 1);
         for (const auto& edge : times) {
-            graph[edge[0]].push_back({edge[1], edge[2]});
+            graph[edge[0]].push_back({edge[1], edge[2]});//建图
         }
         
         vector<int> distance(n + 1, INT_MAX);
