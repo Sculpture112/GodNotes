@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -276,13 +276,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aba45f2dea6908ea",
+  "active": "867961120521f81c",
   "lastOpenFiles": [
+    "母题/069 Code01 一和零(多维费用背包).md",
+    "1.md",
     "母题/068 Code05 删除至少几个字符可以变成另一个字符串的子串.md",
     "母题/068 Code04 有效涂色问题.md",
     "学校.md",
     "母题/068 Code03 交错字符串.md",
-    "1.md",
     "母题/068 Code02 编辑距离.md",
     "母题/026 Code01 HashSet 和 HashMap 的基础使用.md",
     "母题/070 Code02 数组中不能选相邻元素的最大累加和.md",
@@ -303,7 +304,6 @@
     "母题/052 Code06 单调栈（洛谷模板题）.md",
     "母题/052 Code05 最大矩形.md",
     "母题/052 Code02 每日温度.md",
-    "母题/068 Code01 不同的子序列.md",
     "Pasted image 20260424085417.png",
     "Pasted image 20260424085153.png",
     "Pasted image 20260424084745.png",
