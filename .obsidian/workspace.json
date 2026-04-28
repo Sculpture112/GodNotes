@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/068 Code03 交错字符串.md",
+                "file": "母题/068 Code04 有效涂色问题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "068 Code03 交错字符串"
+              "title": "068 Code04 有效涂色问题"
             }
           },
           {
@@ -278,8 +278,8 @@
   },
   "active": "aba45f2dea6908ea",
   "lastOpenFiles": [
-    "1.md",
     "母题/068 Code03 交错字符串.md",
+    "1.md",
     "学校.md",
     "母题/068 Code02 编辑距离.md",
     "母题/068 Code04 有效涂色问题.md",
