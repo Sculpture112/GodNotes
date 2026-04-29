@@ -49,13 +49,49 @@ int main() {
 
 ---
 
+解法2
+```c++
+#include <bits/stdc++.h>
+using namespace std;
 
+void solve() {
+    int t;
+    cin >> t;
+    while (t--) {
+        int n;
+        cin >> n;
+        string s;
+        cin >> s;
 
-**前置母题/相似题目:** [[]]
-**时空限制瓶颈:** []
+        int total_ones = 0;   // 记录总共的 1
+        int max_len = 0;      // 记录最长连续 1 的长度
+        int current_len = 0;  // 当前连续 1 的长度
 
----
+        for (char c : s) {
+            if (c == '1') {
+                total_ones++;
+                current_len++;
+                max_len = max(max_len, current_len);
+            } else {
+                current_len = 0; // 遇到 0，连续状态中断，长度清零
+            }
+        }
 
+        // 根据最大连续长度决定能省多少步
+        if (max_len >= 3) {
+            cout << total_ones - 2 << "\n";
+        } else if (max_len == 2) {
+            cout << total_ones - 1 << "\n";
+        } else {
+            cout << total_ones << "\n";
+        }
+    }
+}
 
-## 破题切入点 (思维闪念)
-[]
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(0), cout.tie(0);
+    solve();
+    return 0;
+}
+```
