@@ -150,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5
+    "width": 355.5,
+    "collapsed": true
   },
   "right": {
     "id": "4768838af22391f0",
@@ -278,6 +279,7 @@
   },
   "active": "7a76e389913e8a61",
   "lastOpenFiles": [
+    "image/Pasted image 20260429151543.png",
     "image/Pasted image 20260429145857.png",
     "image/Pasted image 20260429145718.png",
     "image/Pasted image 20260429144014.png",
@@ -288,7 +290,6 @@
     "image/Pasted image 20260429143204.png",
     "image/Pasted image 20260429142714.png",
     "image/Pasted image 20260429142452.png",
-    "image/Pasted image 20260429142135.png",
     "Java/Java.md",
     "学校.md",
     "未命名 1.md",
