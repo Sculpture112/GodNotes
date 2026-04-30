@@ -148,8 +148,8 @@
               "type": "juggl_view",
               "state": {},
               "pinned": true,
-              "icon": "lucide-file",
-              "title": "Juggl"
+              "icon": "lucide-ghost",
+              "title": "juggl_view"
             }
           }
         ]
