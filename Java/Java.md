@@ -41,3 +41,12 @@ random
 
 
 ![[Pasted image 20260424085417.png]]
+
+
+
+![[Pasted image 20260430093301.png]]
+
+![[Pasted image 20260430093243.png]]
+
+
+
