@@ -22,31 +22,17 @@
             }
           },
           {
-            "id": "aba45f2dea6908ea",
+            "id": "53a6a6bfe4c967d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/070 Code06 子矩阵最大累加和问题.md",
+                "file": "母题/071 Code01 乘积最大子数组.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "070 Code06 子矩阵最大累加和问题"
-            }
-          },
-          {
-            "id": "f472fe35743257ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "例题/T593474 01变换.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "T593474 01变换"
+              "title": "071 Code01 乘积最大子数组"
             }
           },
           {
@@ -61,34 +47,6 @@
               },
               "icon": "lucide-file",
               "title": "1"
-            }
-          },
-          {
-            "id": "ff8f4d1b249036e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "母题/071 Code01 乘积最大子数组.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "071 Code01 乘积最大子数组"
-            }
-          },
-          {
-            "id": "53a6a6bfe4c967d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "母题/071 Code01 乘积最大子数组.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "071 Code01 乘积最大子数组"
             }
           },
           {
@@ -120,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -306,6 +264,10 @@
   },
   "active": "53a6a6bfe4c967d2",
   "lastOpenFiles": [
+    "MYSQL/1.md",
+    "学校.md",
+    "母题/071 Code01 乘积最大子数组.md",
+    "1.md",
     "母题/070 Code06 子矩阵最大累加和问题.md",
     "母题/071 Code03 魔法卷轴.md",
     "母题/071 Code02 子序列累加和必须被7整除的最大累加和.md",
@@ -313,11 +275,9 @@
     "母题/071 Code05 可以翻转1次的情况下子数组最大累加和.md",
     "母题/071 Code04 三个无重叠子数组的最大和.md",
     "071 Code02 子序列累加和必须被7整除的最大累加和.md",
-    "母题/071 Code01 乘积最大子数组.md",
     "Java/Java.md",
     "image/Pasted image 20260430093301.png",
     "image/Pasted image 20260430093243.png",
-    "1.md",
     "例题/T594366 逃离石楠花大学.md",
     "杂物/待补题.md",
     "例题/Tactical Game.md",
@@ -332,8 +292,6 @@
     "母题/070 Code03 环形数组的子数组最大累加和.md",
     "母题/070 Code02 数组中不能选相邻元素的最大累加和.md",
     "母题/070 Code01 子数组最大累加和.md",
-    "母题/053 Code04 统计全1子矩形的数量.md",
-    "母题/052 Code05 最大矩形.md",
     "image/Pasted image 20260429152857.png",
     "image/Pasted image 20260429152508.png",
     "image/Pasted image 20260429152327.png",
