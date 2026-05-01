@@ -27,12 +27,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/071 Code02 子序列累加和必须被7整除的最大累加和.md",
+                "file": "母题/066 Code01 斐波那契数.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "071 Code02 子序列累加和必须被7整除的最大累加和"
+              "title": "066 Code01 斐波那契数"
             }
           },
           {
@@ -264,12 +274,13 @@
   },
   "active": "53a6a6bfe4c967d2",
   "lastOpenFiles": [
+    "算法名/一维DP.md",
+    "母题/071 Code02 子序列累加和必须被7整除的最大累加和.md",
     "母题/071 Code01 乘积最大子数组.md",
     "母题/071 Code06 删掉1个数字后长度为k的子数组最大累加和.md",
     "母题/071 Code05 可以翻转1次的情况下子数组最大累加和.md",
     "母题/071 Code04 三个无重叠子数组的最大和.md",
     "母题/071 Code03 魔法卷轴.md",
-    "母题/071 Code02 子序列累加和必须被7整除的最大累加和.md",
     "MYSQL/1.md",
     "学校.md",
     "1.md",
@@ -291,7 +302,6 @@
     "母题/070 Code04 环形数组中不能选相邻元素的最大累加和.md",
     "母题/070 Code03 环形数组的子数组最大累加和.md",
     "母题/070 Code02 数组中不能选相邻元素的最大累加和.md",
-    "母题/070 Code01 子数组最大累加和.md",
     "image/Pasted image 20260429152857.png",
     "image/Pasted image 20260429152508.png",
     "image/Pasted image 20260429152327.png",
