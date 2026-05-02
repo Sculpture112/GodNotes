@@ -90,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -274,13 +274,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "54a95d71b30fd773",
+  "active": "02dfd3cba709298e",
   "lastOpenFiles": [
-    "template/templatec++.md",
+    "学校.md",
+    "1.md",
     "template/templatem.md",
+    "template/templatec++.md",
     "未命名 2.md",
     "母题/071 Code05 可以翻转1次的情况下子数组最大累加和.md",
-    "1.md",
     "母题/071 Code04 三个无重叠子数组的最大和.md",
     "算法名/前缀和.md",
     "母题/071 Code06 删掉1个数字后长度为k的子数组最大累加和.md",
@@ -291,7 +292,6 @@
     "MYSQL/1.md",
     "Excalidraw/Drawing 2026-04-24 15.28.57.excalidraw.md",
     "备赛/备赛.md",
-    "学校.md",
     "母题/070 Code06 子矩阵最大累加和问题.md",
     "母题/066 Code01 斐波那契数.md",
     "算法名/一维DP.md",
