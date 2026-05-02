@@ -8,5 +8,6 @@
   "templater-obsidian",
   "obsidian-hover-editor",
   "juggl",
-  "horizontal-blocks"
+  "horizontal-blocks",
+  "codeblock-customizer"
 ]
