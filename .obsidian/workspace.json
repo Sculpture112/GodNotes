@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/071 Code04 三个无重叠子数组的最大和.md",
+                "file": "template/templatec++.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "071 Code04 三个无重叠子数组的最大和"
+              "title": "templatec++"
             }
           },
           {
@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -260,14 +260,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "867961120521f81c",
+  "active": "02dfd3cba709298e",
   "lastOpenFiles": [
     "母题/071 Code04 三个无重叠子数组的最大和.md",
+    "1.md",
     "母题/071 Code06 删掉1个数字后长度为k的子数组最大累加和.md",
     "母题/071 Code05 可以翻转1次的情况下子数组最大累加和.md",
     "母题/071 Code03 魔法卷轴.md",
     "母题/071 Code02 子序列累加和必须被7整除的最大累加和.md",
-    "1.md",
     "母题/026 Code01 HashSet 和 HashMap 的基础使用.md",
     "母题/071 Code01 乘积最大子数组.md",
     "MYSQL/1.md",
