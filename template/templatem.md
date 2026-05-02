@@ -1,5 +1,1 @@
-### 知识点
-[[]],[[]]
-```cpp
-
-```
+[[<% tp.date.now("YYYYMMDDHHmmss") %>]]
