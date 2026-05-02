@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "template/templatec++.md",
+                "file": "母题/071 Code04 三个无重叠子数组的最大和.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "templatec++"
+              "title": "071 Code04 三个无重叠子数组的最大和"
             }
           },
           {
@@ -262,8 +262,11 @@
   },
   "active": "02dfd3cba709298e",
   "lastOpenFiles": [
-    "母题/071 Code04 三个无重叠子数组的最大和.md",
     "1.md",
+    "算法名/前缀和.md",
+    "母题/071 Code04 三个无重叠子数组的最大和.md",
+    "template/templatec++.md",
+    "template/templatem.md",
     "母题/071 Code06 删掉1个数字后长度为k的子数组最大累加和.md",
     "母题/071 Code05 可以翻转1次的情况下子数组最大累加和.md",
     "母题/071 Code03 魔法卷轴.md",
@@ -287,9 +290,6 @@
     "算法名/字符串.md",
     "例题/T593474 01变换.md",
     "算法名/双指针.md",
-    "算法名/前缀异或和.md",
-    "算法名/异或.md",
-    "算法名/Kadane.md",
     "image/Pasted image 20260429152857.png",
     "image/Pasted image 20260429152508.png",
     "image/Pasted image 20260429152327.png",
