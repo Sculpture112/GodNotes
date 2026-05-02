@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/047 Code02 等差数列差分.md",
+                "file": "母题/047 Code03 落水后求每个位置的水位高度.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "047 Code02 等差数列差分"
+              "title": "047 Code03 落水后求每个位置的水位高度"
             }
           },
           {
@@ -276,8 +276,9 @@
   },
   "active": "62d5d07bb1e819c2",
   "lastOpenFiles": [
-    "母题/047 Code01 航班预订统计.md",
     "母题/047 Code02 等差数列差分.md",
+    "母题/047 Code03 落水后求每个位置的水位高度.md",
+    "母题/047 Code01 航班预订统计.md",
     "未命名 3.md",
     "母题/052 Code02 每日温度.md",
     "母题/071 Code06 删掉1个数字后长度为k的子数组最大累加和.md",
@@ -301,7 +302,6 @@
     "Excalidraw/Drawing 2026-04-24 15.28.57.excalidraw.md",
     "备赛/备赛.md",
     "母题/070 Code06 子矩阵最大累加和问题.md",
-    "母题/066 Code01 斐波那契数.md",
     "image/Pasted image 20260430093301.png",
     "image/Pasted image 20260430093243.png",
     "image/Pasted image 20260429152857.png",
