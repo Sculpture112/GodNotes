@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "母题/065 Code02 Floyd算法模版（洛谷）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "065 Code02 Floyd算法模版（洛谷）"
             }
           },
           {
@@ -77,6 +77,26 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "e8209d4bdd54ce62",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e95a9fe4676404f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -260,34 +280,34 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "62d5d07bb1e819c2",
+  "active": "7e95a9fe4676404f",
   "lastOpenFiles": [
-    "20260502160806.md",
-    "备赛/备赛.md",
-    "母题/051 Code07 刀砍毒杀怪兽问题.md",
-    "母题/051 Code06 完成旅途的最少时间.md",
-    "母题/051 Code06 计算等位时间.md",
-    "母题/051 Code05 同时运行N台电脑的最长时间.md",
-    "母题/051 Code04 找出第K小的数对距离.md",
-    "母题/051 Code03 机器人跳跃问题.md",
-    "母题/051 Code02 分割数组的最大值(画匠问题).md",
-    "母题/051 Code01 爱吃香蕉的珂珂.md",
-    "母题/050 Code07 缺失的第一个正数.md",
-    "母题/050 Code06 供暖器.md",
-    "母题/050 Code05 盛最多水的容器.md",
-    "母题/050 Code04 救生艇.md",
-    "母题/050 Code03 接雨水.md",
-    "母题/050 Code02 寻找重复数.md",
-    "母题/050 Code01 按奇偶排序数组II.md",
-    "母题/049 Code07 至少有K个重复字符的最长子串.md",
-    "母题/049 Code06 K个不同整数的子数组.md",
-    "母题/049 Code05 替换子串得到平衡字符串.md",
-    "母题/049 Code04 加油站.md",
-    "母题/049 Code03 最小覆盖子串.md",
-    "母题/049 Code02 无重复字符的最长子串.md",
-    "母题/049 Code01 累加和大于等于target的最短子数组长度.md",
-    "母题/048 Code05 最强祝福力场.md",
-    "母题/048 Code04 用邮票贴满网格图.md",
+    "母题/065 Code02 Floyd算法模版（洛谷）.md",
+    "母题/065 Code01 Astar算法模版（对数器验证）.md",
+    "母题/064 Code06 飞行路线（语言提供的堆）.md",
+    "母题/058 Code04 打砖块.md",
+    "母题/058 Code02 被围绕的区域.md",
+    "母题/059 Code01 图的三种建立方式.md",
+    "母题/058 Code01 岛屿数量.md",
+    "母题/057 Code04 尽量减少恶意软件的传播 II.md",
+    "母题/062 Code01 地图分析.md",
+    "母题/061 Code05 繁忙的都市.md",
+    "母题/061 Code01 Kruskal算法模版 & 最小生成树(洛谷).md",
+    "母题/060 Code04 参加会议的最多员工数.md",
+    "母题/060 Code03 并行课程 III.md",
+    "母题/060 Code02 喧闹和富有.md",
+    "母题/060 Code01 最大食物链计数.md",
+    "母题/057 Code03 好路径的数目.md",
+    "母题/057 Code01 移除最多的同行或同列石头.md",
+    "母题/056 Code05 岛屿数量.md",
+    "母题/056 Code01 并查集模版(牛客).md",
+    "母题/056 Code04 相似字符串组.md",
+    "母题/055 Code03 你可以安排的最多任务数目.md",
+    "母题/054 Code02 绝对差不超过限制的最长连续子数组.md",
+    "母题/052 Code01 单调栈求左右最近且小.md",
+    "未命名.md",
+    "母题/056 Code02 并查集模版(洛谷).md",
+    "1.md",
     "image/Pasted image 20260430093301.png",
     "image/Pasted image 20260430093243.png",
     "image/Pasted image 20260429152857.png",
