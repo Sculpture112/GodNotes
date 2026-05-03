@@ -28,23 +28,11 @@
               "type": "markdown",
               "state": {
                 "file": "母题/047 Code02 等差数列差分.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "047 Code02 等差数列差分"
-            }
-          },
-          {
-            "id": "86fc4bc2d907017e",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-04-24 15.28.57.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-04-24 15.28.57.excalidraw"
             }
           },
           {
@@ -74,21 +62,9 @@
               "icon": "lucide-file",
               "title": "学校"
             }
-          },
-          {
-            "id": "bf33dedffbb99c86",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-04-24 15.28.57.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-04-24 15.28.57.excalidraw"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -272,12 +248,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "86fc4bc2d907017e",
+  "active": "a677e79537c5b7fb",
   "lastOpenFiles": [
+    "1.md",
+    "学校.md",
+    "Excalidraw/Drawing 2026-04-24 15.28.57.excalidraw.md",
     "image/Pasted Image 20260503144156_157.png",
     "母题/047 Code02 等差数列差分.md",
     "image/Pasted image 20260503143013.png",
-    "1.md",
     "母题/047 Code01 航班预订统计.md",
     "算法名/差分.md",
     "母题/026 Code03 比较器的使用.md",
@@ -300,7 +278,6 @@
     "母题/057 Code03 好路径的数目.md",
     "母题/057 Code01 移除最多的同行或同列石头.md",
     "母题/056 Code05 岛屿数量.md",
-    "母题/056 Code01 并查集模版(牛客).md",
     "image/Pasted image 20260430093301.png",
     "image/Pasted image 20260430093243.png",
     "image/Pasted image 20260429152857.png",
@@ -309,7 +286,6 @@
     "image/Pasted image 20260429152049.png",
     "image/Pasted image 20260429151847.png",
     "image/Pasted image 20260429151543.png",
-    "image/Pasted image 20260429145857.png",
     "image",
     "MYSQL",
     "错本",
