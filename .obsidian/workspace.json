@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "86fc4bc2d907017e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-04-24 15.28.57.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-04-24 15.28.57.excalidraw"
+            }
+          },
+          {
             "id": "867961120521f81c",
             "type": "leaf",
             "state": {
@@ -76,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -260,8 +272,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a677e79537c5b7fb",
+  "active": "86fc4bc2d907017e",
   "lastOpenFiles": [
+    "image/Pasted Image 20260503144156_157.png",
+    "母题/047 Code02 等差数列差分.md",
     "image/Pasted image 20260503143013.png",
     "1.md",
     "母题/047 Code01 航班预订统计.md",
@@ -287,7 +301,6 @@
     "母题/057 Code01 移除最多的同行或同列石头.md",
     "母题/056 Code05 岛屿数量.md",
     "母题/056 Code01 并查集模版(牛客).md",
-    "母题/056 Code04 相似字符串组.md",
     "image/Pasted image 20260430093301.png",
     "image/Pasted image 20260430093243.png",
     "image/Pasted image 20260429152857.png",
@@ -297,7 +310,6 @@
     "image/Pasted image 20260429151847.png",
     "image/Pasted image 20260429151543.png",
     "image/Pasted image 20260429145857.png",
-    "image/Pasted image 20260429145718.png",
     "image",
     "MYSQL",
     "错本",
