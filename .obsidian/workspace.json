@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "62d5d07bb1e819c2",
+            "id": "a677e79537c5b7fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/065 Code02 Floyd算法模版（洛谷）.md",
-                "mode": "source",
+                "file": "母题/047 Code02 等差数列差分.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "065 Code02 Floyd算法模版（洛谷）"
+              "title": "047 Code02 等差数列差分"
             }
           },
           {
@@ -77,26 +77,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "e8209d4bdd54ce62",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7e95a9fe4676404f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "未命名"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -280,9 +260,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7e95a9fe4676404f",
+  "active": "a677e79537c5b7fb",
   "lastOpenFiles": [
+    "1.md",
+    "母题/047 Code01 航班预订统计.md",
+    "算法名/差分.md",
+    "母题/026 Code03 比较器的使用.md",
     "母题/065 Code02 Floyd算法模版（洛谷）.md",
+    "未命名.md",
     "母题/065 Code01 Astar算法模版（对数器验证）.md",
     "母题/064 Code06 飞行路线（语言提供的堆）.md",
     "母题/058 Code04 打砖块.md",
@@ -303,11 +288,6 @@
     "母题/056 Code01 并查集模版(牛客).md",
     "母题/056 Code04 相似字符串组.md",
     "母题/055 Code03 你可以安排的最多任务数目.md",
-    "母题/054 Code02 绝对差不超过限制的最长连续子数组.md",
-    "母题/052 Code01 单调栈求左右最近且小.md",
-    "未命名.md",
-    "母题/056 Code02 并查集模版(洛谷).md",
-    "1.md",
     "image/Pasted image 20260430093301.png",
     "image/Pasted image 20260430093243.png",
     "image/Pasted image 20260429152857.png",
