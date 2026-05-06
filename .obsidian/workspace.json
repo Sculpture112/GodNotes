@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "母题/049 Code03 最小覆盖子串.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -276,14 +276,15 @@
   },
   "active": "839b00a064388773",
   "lastOpenFiles": [
+    "母题/026 Code01 HashSet 和 HashMap 的基础使用.md",
+    "母题/049 Code03 最小覆盖子串.md",
+    "1.md",
     "MYSQL/1.md",
     "image/Pasted image 20260506152752.png",
     "image/Pasted image 20260506152441.png",
     "image/Pasted image 20260506152235.png",
-    "母题/049 Code03 最小覆盖子串.md",
     "母题/049 Code02 无重复字符的最长子串.md",
     "母题/049 Code01 累加和大于等于target的最短子数组长度.md",
-    "1.md",
     "算法名/滑动窗口.md",
     "母题/048 Code05 最强祝福力场.md",
     "母题/048 Code04 用邮票贴满网格图.md",
