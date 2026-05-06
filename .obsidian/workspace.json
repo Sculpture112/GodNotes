@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "母题/049 Code03 最小覆盖子串.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -90,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -274,8 +274,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "839b00a064388773",
+  "active": "eea04bb8f8d88285",
   "lastOpenFiles": [
+    "image/Pasted image 20260506152235.png",
+    "母题/049 Code03 最小覆盖子串.md",
     "母题/049 Code02 无重复字符的最长子串.md",
     "母题/049 Code01 累加和大于等于target的最短子数组长度.md",
     "1.md",
@@ -307,8 +309,6 @@
     "算法名/差分.md",
     "母题/065 Code02 Floyd算法模版（洛谷）.md",
     "未命名.md",
-    "母题/065 Code01 Astar算法模版（对数器验证）.md",
-    "母题/064 Code06 飞行路线（语言提供的堆）.md",
     "image/Pasted image 20260430093301.png",
     "image/Pasted image 20260430093243.png",
     "image/Pasted image 20260429152857.png",
