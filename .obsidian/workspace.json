@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/048 Code04 用邮票贴满网格图.md",
+                "file": "母题/048 Code05 最强祝福力场.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "048 Code04 用邮票贴满网格图"
+              "title": "048 Code05 最强祝福力场"
             }
           },
           {
@@ -90,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -274,14 +274,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "cc937d48ddbf6177",
+  "active": "839b00a064388773",
   "lastOpenFiles": [
+    "母题/048 Code04 用邮票贴满网格图.md",
     "1.md",
+    "ac.md",
+    "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
     "MYSQL/1.md",
     "image/Pasted image 20260506143524.png",
     "image/Pasted image 20260506143508.png",
-    "母题/048 Code04 用邮票贴满网格图.md",
-    "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
     "文明6.md",
     "image/Pasted image 20260505185909.png",
     "image/Pasted image 20260505185856.png",
