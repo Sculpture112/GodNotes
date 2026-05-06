@@ -90,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -274,14 +274,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "eea04bb8f8d88285",
+  "active": "cc937d48ddbf6177",
   "lastOpenFiles": [
+    "1.md",
+    "MYSQL/1.md",
     "image/Pasted image 20260506143524.png",
     "image/Pasted image 20260506143508.png",
-    "1.md",
     "母题/048 Code04 用邮票贴满网格图.md",
     "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
-    "MYSQL/1.md",
     "文明6.md",
     "image/Pasted image 20260505185909.png",
     "image/Pasted image 20260505185856.png",
@@ -311,7 +311,6 @@
     "image/Pasted image 20260430093301.png",
     "image/Pasted image 20260430093243.png",
     "image/Pasted image 20260429152857.png",
-    "image/Pasted image 20260429152508.png",
     "image",
     "MYSQL",
     "错本",
