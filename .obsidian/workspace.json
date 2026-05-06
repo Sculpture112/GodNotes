@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/049 Code02 无重复字符的最长子串.md",
+                "file": "母题/049 Code03 最小覆盖子串.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "049 Code02 无重复字符的最长子串"
+              "title": "049 Code03 最小覆盖子串"
             }
           },
           {
@@ -276,6 +276,7 @@
   },
   "active": "839b00a064388773",
   "lastOpenFiles": [
+    "母题/049 Code02 无重复字符的最长子串.md",
     "母题/049 Code01 累加和大于等于target的最短子数组长度.md",
     "1.md",
     "算法名/滑动窗口.md",
@@ -308,7 +309,6 @@
     "未命名.md",
     "母题/065 Code01 Astar算法模版（对数器验证）.md",
     "母题/064 Code06 飞行路线（语言提供的堆）.md",
-    "母题/058 Code04 打砖块.md",
     "image/Pasted image 20260430093301.png",
     "image/Pasted image 20260430093243.png",
     "image/Pasted image 20260429152857.png",
