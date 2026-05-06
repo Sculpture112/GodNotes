@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/049 Code05 替换子串得到平衡字符串.md",
+                "file": "例题/P1147 连续正整数和.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "049 Code05 替换子串得到平衡字符串"
+              "title": "P1147 连续正整数和"
             }
           },
           {
@@ -276,6 +276,8 @@
   },
   "active": "839b00a064388773",
   "lastOpenFiles": [
+    "母题/049 Code05 替换子串得到平衡字符串.md",
+    "例题/P1147 连续正整数和.md",
     "母题/049 Code04 加油站.md",
     "母题/049 Code03 最小覆盖子串.md",
     "母题/026 Code01 HashSet 和 HashMap 的基础使用.md",
@@ -310,8 +312,6 @@
     "母题/026 Code03 比较器的使用.md",
     "image/Pasted Image 20260503144156_157.png",
     "image/Pasted image 20260503143013.png",
-    "算法名/差分.md",
-    "母题/065 Code02 Floyd算法模版（洛谷）.md",
     "image",
     "MYSQL",
     "错本",
