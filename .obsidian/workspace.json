@@ -90,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -274,8 +274,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "eea04bb8f8d88285",
+  "active": "839b00a064388773",
   "lastOpenFiles": [
+    "MYSQL/1.md",
     "image/Pasted image 20260506152752.png",
     "image/Pasted image 20260506152441.png",
     "image/Pasted image 20260506152235.png",
@@ -288,7 +289,6 @@
     "母题/048 Code04 用邮票贴满网格图.md",
     "ac.md",
     "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
-    "MYSQL/1.md",
     "image/Pasted image 20260506143524.png",
     "image/Pasted image 20260506143508.png",
     "文明6.md",
@@ -311,7 +311,6 @@
     "算法名/差分.md",
     "母题/065 Code02 Floyd算法模版（洛谷）.md",
     "未命名.md",
-    "image/Pasted image 20260430093301.png",
     "image",
     "MYSQL",
     "错本",
