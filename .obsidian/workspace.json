@@ -41,22 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/073 Code06 非负数组前 k 个最小的子序列累加和.md",
+                "file": "母题/073 Code05 有依赖的背包(模版)未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "073 Code06 非负数组前 k 个最小的子序列累加和"
-            }
-          },
-          {
-            "id": "0458866fcaad007e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "title": "073 Code05 有依赖的背包(模版)未命名"
             }
           },
           {
@@ -100,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -284,10 +274,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0458866fcaad007e",
+  "active": "743f62020e3da66d",
   "lastOpenFiles": [
+    "母题/073 Code07 找出数组的第 K 大和.md",
     "母题/073 Code06 非负数组前 k 个最小的子序列累加和.md",
-    "母题/073 Code05 有依赖的背包(模版).md",
+    "1.md",
+    "母题/073 Code05 有依赖的背包(模版)未命名.md",
     "母题/073 Code04 最后一块石头的重量 II.md",
     "母题/073 Code03 目标和.md",
     "母题/073 Code02 夏季特惠.md",
@@ -309,9 +301,7 @@
     "母题/050 Code01 按奇偶排序数组II.md",
     "母题/049 Code05 替换子串得到平衡字符串.md",
     "母题/052 Code05 最大矩形.md",
-    "1.md",
     "算法名/欠债表模型.md",
-    "例题/P1147 连续正整数和.md",
     "image/Pasted image 20260506152752.png",
     "image/Pasted image 20260506152441.png",
     "image/Pasted image 20260506152235.png",
