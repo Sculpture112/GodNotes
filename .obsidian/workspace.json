@@ -90,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -274,8 +274,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "839b00a064388773",
+  "active": "eea04bb8f8d88285",
   "lastOpenFiles": [
+    "母题/071 Code06 删掉1个数字后长度为k的子数组最大累加和.md",
     "母题/071 Code05 可以翻转1次的情况下子数组最大累加和.md",
     "母题/049 Code07 至少有K个重复字符的最长子串.md",
     "母题/049 Code06 K个不同整数的子数组.md",
@@ -308,7 +309,6 @@
     "母题/048 Code03 二维差分模版(洛谷).md",
     "母题/048 Code02 边框为1的最大正方形.md",
     "母题/048 Code01 二维前缀和.md",
-    "母题/047 Code03 落水后求每个位置的水位高度.md",
     "image/Pasted image 20260503150834.png",
     "image/Pasted Image 20260503144156_157.png",
     "image/Pasted image 20260503143013.png",
