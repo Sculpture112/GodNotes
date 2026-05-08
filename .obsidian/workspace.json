@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "母题/072 Code01 最长递增子序列和最长不下降子序列.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -262,10 +262,10 @@
   },
   "active": "839b00a064388773",
   "lastOpenFiles": [
-    "母题/071 Code06 删掉1个数字后长度为k的子数组最大累加和.md",
     "1.md",
-    "算法名/优先队列.md",
     "母题/072 Code01 最长递增子序列和最长不下降子序列.md",
+    "母题/071 Code06 删掉1个数字后长度为k的子数组最大累加和.md",
+    "算法名/优先队列.md",
     "母题/071 Code05 可以翻转1次的情况下子数组最大累加和.md",
     "母题/072 Code02 俄罗斯套娃信封问题.md",
     "母题/072 Code03 使数组K递增的最少操作次数.md",
