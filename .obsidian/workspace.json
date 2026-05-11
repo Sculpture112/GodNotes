@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/073 Code05 有依赖的背包(模版).md",
+                "file": "母题/073 Code06 非负数组前 k 个最小的子序列累加和.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "073 Code05 有依赖的背包(模版)"
+              "title": "073 Code06 非负数组前 k 个最小的子序列累加和"
             }
           },
           {
@@ -248,7 +248,9 @@
   },
   "active": "839b00a064388773",
   "lastOpenFiles": [
+    "母题/073 Code05 有依赖的背包(模版).md",
     "母题/073 Code04 最后一块石头的重量 II.md",
+    "母题/073 Code06 非负数组前 k 个最小的子序列累加和.md",
     "母题/073 Code03 目标和.md",
     "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
     "算法名/数学.md",
@@ -272,8 +274,6 @@
     "母题/049 Code04 加油站.md",
     "母题/049 Code03 最小覆盖子串.md",
     "母题/049 Code02 无重复字符的最长子串.md",
-    "母题/049 Code01 累加和大于等于target的最短子数组长度.md",
-    "母题/048 Code05 最强祝福力场.md",
     "image/Pasted image 20260506152752.png",
     "image/Pasted image 20260506152441.png",
     "image/Pasted image 20260506152235.png",
