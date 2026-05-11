@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -246,20 +246,21 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "fef72a0a8aaf422b",
+  "active": "839b00a064388773",
   "lastOpenFiles": [
-    "母题/073 Code06 非负数组前 k 个最小的子序列累加和.md",
     "母题/073 Code05 有依赖的背包(模版).md",
+    "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
+    "算法名/分组背包.md",
+    "母题/073 Code06 非负数组前 k 个最小的子序列累加和.md",
+    "学校.md",
     "母题/073 Code04 最后一块石头的重量 II.md",
     "母题/073 Code03 目标和.md",
-    "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
     "算法名/数学.md",
     "母题/073 Code02 夏季特惠.md",
     "母题/073 Code01 01背包(模版).md",
     "母题/050 Code01 按奇偶排序数组II.md",
     "母题/049 Code07 至少有K个重复字符的最长子串.md",
     "文明6.md",
-    "学校.md",
     "未命名.md",
     "未命名 1.md",
     "未命名 2.md",
@@ -273,7 +274,6 @@
     "母题/049 Code05 替换子串得到平衡字符串.md",
     "母题/049 Code04 加油站.md",
     "母题/049 Code03 最小覆盖子串.md",
-    "母题/049 Code02 无重复字符的最长子串.md",
     "image/Pasted image 20260506152752.png",
     "image/Pasted image 20260506152441.png",
     "image/Pasted image 20260506152235.png",
