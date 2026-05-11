@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -246,11 +246,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "839b00a064388773",
+  "active": "fef72a0a8aaf422b",
   "lastOpenFiles": [
+    "母题/073 Code06 非负数组前 k 个最小的子序列累加和.md",
     "母题/073 Code05 有依赖的背包(模版).md",
     "母题/073 Code04 最后一块石头的重量 II.md",
-    "母题/073 Code06 非负数组前 k 个最小的子序列累加和.md",
     "母题/073 Code03 目标和.md",
     "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
     "算法名/数学.md",
