@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/073 Code06 非负数组前 k 个最小的子序列累加和.md",
+                "file": "母题/073 Code07 找出数组的第 K 大和.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "073 Code06 非负数组前 k 个最小的子序列累加和"
+              "title": "073 Code07 找出数组的第 K 大和"
             }
           },
           {
@@ -248,10 +248,10 @@
   },
   "active": "839b00a064388773",
   "lastOpenFiles": [
+    "母题/073 Code06 非负数组前 k 个最小的子序列累加和.md",
     "母题/073 Code05 有依赖的背包(模版).md",
     "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
     "算法名/分组背包.md",
-    "母题/073 Code06 非负数组前 k 个最小的子序列累加和.md",
     "学校.md",
     "母题/073 Code04 最后一块石头的重量 II.md",
     "母题/073 Code03 目标和.md",
