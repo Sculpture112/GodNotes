@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/075 Code03 观赏樱花.md",
+                "file": "母题/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "075 Code03 观赏樱花"
+              "title": "未命名"
             }
           },
           {
@@ -248,8 +248,11 @@
   },
   "active": "839b00a064388773",
   "lastOpenFiles": [
-    "母题/075 Code02 多重背包通过二进制分组转化成 01 背包 (模版).md",
+    "母题/075 Code05 混合背包 + 多重背包窗口优化.md",
+    "母题/未命名.md",
+    "母题/072 Code04 多重背包单调队列优化.md",
     "母题/075 Code03 观赏樱花.md",
+    "母题/075 Code02 多重背包通过二进制分组转化成 01 背包 (模版).md",
     "母题/075 Code01 多重背包不进行枚举优化.md",
     "母题/074 Code06 购买足量干草的最小花费.md",
     "母题/074 Code05 通配符匹配.md",
@@ -271,9 +274,6 @@
     "母题/050 Code01 按奇偶排序数组II.md",
     "母题/049 Code07 至少有K个重复字符的最长子串.md",
     "文明6.md",
-    "未命名.md",
-    "未命名 1.md",
-    "未命名 2.md",
     "image/Pasted image 20260506152752.png",
     "image/Pasted image 20260506152441.png",
     "image/Pasted image 20260506152235.png",
