@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/074 Code01 分组背包(模版).md",
+                "file": "母题/074 Code02 从栈中取出 K 个硬币的最大面值和.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "074 Code01 分组背包(模版)"
+              "title": "074 Code02 从栈中取出 K 个硬币的最大面值和"
             }
           },
           {
@@ -248,10 +248,11 @@
   },
   "active": "839b00a064388773",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
-    "算法名/分组背包.md",
     "母题/074 Code01 分组背包(模版).md",
     "母题/073 Code07 找出数组的第 K 大和.md",
+    "母题/074 Code02 从栈中取出 K 个硬币的最大面值和.md",
+    "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
+    "算法名/分组背包.md",
     "母题/073 Code06 非负数组前 k 个最小的子序列累加和.md",
     "母题/073 Code05 有依赖的背包(模版).md",
     "母题/073 Code04 最后一块石头的重量 II.md",
@@ -266,7 +267,6 @@
     "母题/074 Code05 通配符匹配.md",
     "母题/074 Code04 正则表达式匹配.md",
     "母题/074 Code03 完全背包(模版).md",
-    "母题/074 Code02 从栈中取出 K 个硬币的最大面值和.md",
     "学校.md",
     "算法名/数学.md",
     "母题/073 Code02 夏季特惠.md",
