@@ -67,12 +67,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "拷贝.md",
+                "file": "例题/CF2227E It All Went Sideways.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "拷贝"
+              "title": "CF2227E It All Went Sideways"
             }
           }
         ],
@@ -262,8 +262,9 @@
   },
   "active": "d892bf781a442da9",
   "lastOpenFiles": [
-    "母题/074 Code06 购买足量干草的最小花费.md",
     "拷贝.md",
+    "例题/CF2227E It All Went Sideways.md",
+    "母题/074 Code06 购买足量干草的最小花费.md",
     "母题/074 Code05 通配符匹配.md",
     "母题/074 Code04 正则表达式匹配.md",
     "备赛/未命名 1.md",
@@ -287,7 +288,6 @@
     "862. 和至少为K的最短子数组.md",
     "母题/075 Code05 混合背包 + 多重背包窗口优化.md",
     "母题/074 Code03 完全背包(模版).md",
-    "母题/074 Code02 从栈中取出 K 个硬币的最大面值和.md",
     "image/Pasted image 20260506152752.png",
     "image/Pasted image 20260506152441.png",
     "image/Pasted image 20260506152235.png",
