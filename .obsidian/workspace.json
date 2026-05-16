@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/075 Code02 多重背包通过二进制分组转化成 01 背包 (模版).md",
-                "mode": "preview",
+                "file": "母题/075 Code03 观赏樱花.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "075 Code02 多重背包通过二进制分组转化成 01 背包 (模版)"
+              "title": "075 Code03 观赏樱花"
             }
           },
           {
@@ -248,8 +248,11 @@
   },
   "active": "839b00a064388773",
   "lastOpenFiles": [
-    "母题/073 Code01 01背包(模版).md",
     "母题/075 Code02 多重背包通过二进制分组转化成 01 背包 (模版).md",
+    "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
+    "算法名/二进制分组.md",
+    "算法名/多重背包.md",
+    "母题/073 Code01 01背包(模版).md",
     "母题/075 Code01 多重背包不进行枚举优化.md",
     "母题/074 Code06 购买足量干草的最小花费.md",
     "母题/074 Code05 通配符匹配.md",
@@ -260,7 +263,6 @@
     "拷贝.md",
     "母题/074 Code04 正则表达式匹配.md",
     "备赛/未命名 1.md",
-    "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
     "备赛/备赛.md",
     "算法名/快速选择排序.md",
     "算法名/路径压缩.md",
@@ -272,8 +274,6 @@
     "文明6.md",
     "学校.md",
     "20260502160806.md",
-    "20260503150524.md",
-    "未命名.md",
     "image/Pasted image 20260506152752.png",
     "image/Pasted image 20260506152441.png",
     "image/Pasted image 20260506152235.png",
