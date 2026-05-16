@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/075 Code02 多重背包通过二进制分组转化成 01 背包 (模版).md",
+                "file": "母题/073 Code01 01背包(模版).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "075 Code02 多重背包通过二进制分组转化成 01 背包 (模版)"
+              "title": "073 Code01 01背包(模版)"
             }
           },
           {
@@ -246,13 +246,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5b8f9b1d45b17e83",
+  "active": "839b00a064388773",
   "lastOpenFiles": [
     "母题/075 Code02 多重背包通过二进制分组转化成 01 背包 (模版).md",
-    "母题/075 Code03 观赏樱花.md",
     "母题/075 Code01 多重背包不进行枚举优化.md",
     "母题/074 Code06 购买足量干草的最小花费.md",
     "母题/074 Code05 通配符匹配.md",
+    "母题/075 Code03 观赏樱花.md",
     "母题/074 Code03 完全背包(模版).md",
     "母题/074 Code01 分组背包(模版).md",
     "例题/CF2227E It All Went Sideways.md",
