@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/075 Code04 多重背包单调队列优化.md",
+                "file": "母题/075 Code05 混合背包 + 多重背包窗口优化.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "075 Code04 多重背包单调队列优化"
+              "title": "075 Code05 混合背包 + 多重背包窗口优化"
             }
           },
           {
@@ -248,6 +248,7 @@
   },
   "active": "839b00a064388773",
   "lastOpenFiles": [
+    "母题/075 Code04 多重背包单调队列优化.md",
     "母题/075 Code03 观赏樱花.md",
     "母题/075 Code02 多重背包通过二进制分组转化成 01 背包 (模版).md",
     "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
@@ -269,7 +270,6 @@
     "算法名/SPFA.md",
     "算法名/Kruskal算法.md",
     "算法名/威佐夫博弈.md",
-    "母题/075 Code04 多重背包单调队列优化.md",
     "Vim.md",
     "文明6.md",
     "学校.md",
