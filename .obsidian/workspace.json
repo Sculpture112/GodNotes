@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/075 Code05 混合背包 + 多重背包窗口优化.md",
+                "file": "母题/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "075 Code05 混合背包 + 多重背包窗口优化"
+              "title": "未命名"
             }
           }
         ],
@@ -222,9 +222,10 @@
   },
   "active": "fef72a0a8aaf422b",
   "lastOpenFiles": [
-    "母题/075 Code03 观赏樱花.md",
     "母题/075 Code05 混合背包 + 多重背包窗口优化.md",
+    "母题/未命名.md",
     "母题/075 Code04 多重背包单调队列优化.md",
+    "母题/075 Code03 观赏樱花.md",
     "母题/075 Code02 多重背包通过二进制分组转化成 01 背包 (模版).md",
     "母题/075 Code01 多重背包不进行枚举优化.md",
     "母题/074 Code06 购买足量干草的最小花费.md",
@@ -247,7 +248,6 @@
     "备赛/备赛.md",
     "算法名/快速选择排序.md",
     "算法名/路径压缩.md",
-    "算法名/SPFA.md",
     "image/Pasted image 20260506152752.png",
     "image/Pasted image 20260506152441.png",
     "image/Pasted image 20260506152235.png",
