@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/牛客周赛 Round 144C.md",
+                "file": "例题/骗你的，其实我是小红.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "牛客周赛 Round 144C"
+              "title": "骗你的，其实我是小红"
             }
           },
           {
@@ -236,9 +236,12 @@
   },
   "active": "839b00a064388773",
   "lastOpenFiles": [
+    "学校.md",
+    "算法名/异或和.md",
+    "例题/骗你的，其实我是小红.md",
+    "例题/牛客周赛 Round 144C.md",
     "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
     "算法名/高精度.md",
-    "例题/牛客周赛 Round 144C.md",
     "母题/075 Code03 观赏樱花.md",
     "母题/075 Code04 多重背包单调队列优化.md",
     "母题/075 Code05 混合背包 + 多重背包窗口优化.md",
@@ -259,9 +262,6 @@
     "算法名/快速选择排序.md",
     "算法名/路径压缩.md",
     "算法名/SPFA.md",
-    "算法名/Kruskal算法.md",
-    "算法名/威佐夫博弈.md",
-    "Vim.md",
     "image/Pasted image 20260506152752.png",
     "image/Pasted image 20260506152441.png",
     "image/Pasted image 20260506152235.png",
