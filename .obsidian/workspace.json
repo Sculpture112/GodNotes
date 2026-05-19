@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/B. Digit String.md",
+                "file": "未命名 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "B. Digit String"
+              "title": "未命名 3"
             }
           }
         ],
@@ -222,8 +222,8 @@
   },
   "active": "fef72a0a8aaf422b",
   "lastOpenFiles": [
-    "算法名/状态机dp.md",
     "例题/B. Digit String.md",
+    "算法名/状态机dp.md",
     "算法名/前后缀.md",
     "算法名/枚举分割点.md",
     "母题/076 Code01 让字符串成为回文串的最少插入次数.md",
