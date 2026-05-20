@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/076 Code03 多边形三角剖分的最低得分.md",
+                "file": "母题/076 Code04 切棍子的最小成本.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "076 Code03 多边形三角剖分的最低得分"
+              "title": "076 Code04 切棍子的最小成本"
             }
           }
         ],
@@ -222,9 +222,9 @@
   },
   "active": "fef72a0a8aaf422b",
   "lastOpenFiles": [
+    "母题/076 Code03 多边形三角剖分的最低得分.md",
     "母题/076 Code04 切棍子的最小成本.md",
     "例题/C. Arrange the Numbers in a Circle.md",
-    "母题/076 Code03 多边形三角剖分的最低得分.md",
     "母题/076 Code02 预测赢家.md",
     "母题/076 Code01 让字符串成为回文串的最少插入次数.md",
     "母题/075 Code05 混合背包 + 多重背包窗口优化.md",
