@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/076 Code04 切棍子的最小成本.md",
+                "file": "母题/076 Code05 戳气球.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "076 Code04 切棍子的最小成本"
+              "title": "076 Code05 戳气球"
             }
           },
           {
@@ -250,6 +250,7 @@
   },
   "active": "4380ce9b83b43c81",
   "lastOpenFiles": [
+    "母题/076 Code04 切棍子的最小成本.md",
     "母题/076 Code01 让字符串成为回文串的最少插入次数.md",
     "母题/077 Code01 完成配对需要的最少字符数量.md",
     "母题/077 Code02 涂色 & 奇怪打印机.md",
@@ -271,7 +272,6 @@
     "src/class194/Code09_StrategyGame2.java",
     "src/class194/Code09_StrategyGame1.java",
     "src/class194/Code08_Tourists2.java",
-    "母题/076 Code04 切棍子的最小成本.md",
     "母题/076 Code03 多边形三角剖分的最低得分.md",
     "母题/076 Code02 预测赢家.md",
     "学校.md",
