@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "template/templatec++.md",
+                "file": "母题/076 Code05 戳气球.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "templatec++"
+              "title": "076 Code05 戳气球"
             }
           },
           {
@@ -250,8 +250,8 @@
   },
   "active": "4380ce9b83b43c81",
   "lastOpenFiles": [
-    "template/templatem.md",
     "template/templatec++.md",
+    "template/templatem.md",
     "母题/076 Code06 布尔运算.md",
     "src/unit/src/unit_1/TypeConvert2.java",
     "src/unit/src/unit_1/my_class.java",
