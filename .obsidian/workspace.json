@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/076 Code05 戳气球.md",
+                "file": "母题/076 Code04 切棍子的最小成本.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "076 Code05 戳气球"
+              "title": "076 Code04 切棍子的最小成本"
             }
           },
           {
@@ -250,15 +250,17 @@
   },
   "active": "4380ce9b83b43c81",
   "lastOpenFiles": [
+    "母题/076 Code01 让字符串成为回文串的最少插入次数.md",
+    "母题/077 Code01 完成配对需要的最少字符数量.md",
+    "母题/077 Code02 涂色 & 奇怪打印机.md",
     "母题/077 Code06 统计不同回文子序列.md",
     "母题/077 Code05 合并石头的最低成本.md",
     "母题/077 Code04 移除盒子.md",
     "母题/077 Code03 合唱队.md",
-    "母题/077 Code02 涂色 & 奇怪打印机.md",
-    "母题/077 Code01 完成配对需要的最少字符数量.md",
+    "母题/076 Code06 布尔运算.md",
+    "母题/076 Code05 戳气球.md",
     "template/templatec++.md",
     "template/templatem.md",
-    "母题/076 Code06 布尔运算.md",
     "src/unit/src/unit_1/TypeConvert2.java",
     "src/unit/src/unit_1/my_class.java",
     "src/unit/src/unit_1",
@@ -270,13 +272,11 @@
     "src/class194/Code09_StrategyGame1.java",
     "src/class194/Code08_Tourists2.java",
     "母题/076 Code04 切棍子的最小成本.md",
-    "母题/076 Code05 戳气球.md",
     "母题/076 Code03 多边形三角剖分的最低得分.md",
     "母题/076 Code02 预测赢家.md",
     "学校.md",
     "未命名 2.md",
     "例题/C. Arrange the Numbers in a Circle.md",
-    "母题/076 Code01 让字符串成为回文串的最少插入次数.md",
     "母题/075 Code05 混合背包 + 多重背包窗口优化.md",
     "母题/075 Code04 多重背包单调队列优化.md",
     "杂物/需重刷.md",
