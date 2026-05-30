@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/077 Code01 完成配对需要的最少字符数量.md",
+                "file": "母题/077 Code02 涂色 & 奇怪打印机.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "077 Code01 完成配对需要的最少字符数量"
+              "title": "077 Code02 涂色 & 奇怪打印机"
             }
           },
           {
@@ -250,8 +250,8 @@
   },
   "active": "4380ce9b83b43c81",
   "lastOpenFiles": [
-    "母题/077 Code02 涂色 & 奇怪打印机.md",
     "母题/077 Code01 完成配对需要的最少字符数量.md",
+    "母题/077 Code02 涂色 & 奇怪打印机.md",
     "母题/076 Code06 布尔运算.md",
     "母题/076 Code03 多边形三角剖分的最低得分.md",
     "母题/077 Code03 合唱队.md",
