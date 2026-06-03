@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MYSQL/1.md",
+                "file": "母题/079 Code02 相邻字符不同的最长路径.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1"
+              "title": "079 Code02 相邻字符不同的最长路径"
             }
           },
           {
@@ -108,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5
+    "width": 425.5
   },
   "right": {
     "id": "4768838af22391f0",
@@ -236,12 +236,17 @@
   },
   "active": "7f60904294ebee3d",
   "lastOpenFiles": [
-    "母题/079 Code05 选课，树上01背包的最优解.md",
-    "母题/079 Code05 选课，树上01背包的普通解法.md",
-    "母题/079 Code04 从树中删除边的最小分数.md",
+    "template/templatec++.md",
+    "template/templatem.md",
     "母题/079 Code03 移除子树后的二叉树高度.md",
     "母题/079 Code02 相邻字符不同的最长路径.md",
     "母题/079 Code01 到达首都的最少油耗.md",
+    "母题/079 Code05 选课，树上01背包的最优解.md",
+    "母题/079 Code04 从树中删除边的最小分数.md",
+    "母题/078 Code07 路径总和 III.md",
+    "母题/078 Code06 监控二叉树.md",
+    "MYSQL/1.md",
+    "母题/079 Code05 选课，树上01背包的普通解法.md",
     "image/Pasted image 20260603152234.png",
     "image/Pasted image 20260603151252.png",
     "image/Pasted image 20260603150808.png",
@@ -253,10 +258,7 @@
     "image/Pasted image 20260603144600.png",
     "image/Pasted image 20260603144458.png",
     "母题/026 Code01 HashSet 和 HashMap 的基础使用.md",
-    "MYSQL/1.md",
     "备赛/备赛.md",
-    "母题/078 Code07 路径总和 III.md",
-    "母题/078 Code06 监控二叉树.md",
     "母题/078 Code01 最大BST子树.md",
     "母题/077 Code06 统计不同回文子序列.md",
     "母题/077 Code05 合并石头的最低成本.md",
@@ -270,8 +272,6 @@
     "母题/078 Code05 没有上司的舞会.md",
     "母题/078 Code04 在二叉树中分配硬币.md",
     "母题/078 Code03 二叉树的直径.md",
-    "母题/078 Code02 二叉搜索子树的最大键值和.md",
-    "学校.md",
     "src/unit/src/unit_1/TypeConvert2.java",
     "src/unit/src/unit_1/my_class.java",
     "src/unit/src/unit_1",
