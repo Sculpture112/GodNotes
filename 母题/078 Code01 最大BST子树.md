@@ -2,7 +2,7 @@
 
 > **原题链接:** (https://leetcode.cn/problems/largest-bst-subtree/)
 
-**涉及知识点:** [[]], [[]]，null,[[]],[[]]
+**涉及知识点:** [[已AC]], [[树上dp]]，null,[[]],[[]]
 
 **核心套路:** 
 
