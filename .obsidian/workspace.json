@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/080 Code04 售货员的难题 - TSP问题（空间优化版）.md",
+                "file": "学校.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "080 Code04 售货员的难题 - TSP问题（空间优化版）"
+              "title": "学校"
             }
           }
         ]
@@ -207,6 +207,9 @@
   },
   "active": "f4da8477171970e8",
   "lastOpenFiles": [
+    "文明6.md",
+    "学校.md",
+    "母题/080 Code04 售货员的难题 - TSP问题（空间优化版）.md",
     "MYSQL/1.md",
     "image/Pasted image 20260610142943.png",
     "image/Pasted image 20260610142828.png",
@@ -220,7 +223,6 @@
     "母题/079 Code01 到达首都的最少油耗.md",
     "母题/078 Code07 路径总和 III.md",
     "母题/080 补题.md",
-    "母题/080 Code04 售货员的难题 - TSP问题（空间优化版）.md",
     "母题/080 Code04 售货员的难题 - TSP问题（普通版）.md",
     "母题/080 Code03 划分为k个相等的子集.md",
     "母题/080 Code02 火柴拼正方形.md",
@@ -236,8 +238,6 @@
     "算法名/树上dp.md",
     "母题/078 Code01 最大BST子树.md",
     "母题/079 Code05 选课，树上01背包的最优解.md",
-    "母题/077 Code06 统计不同回文子序列.md",
-    "母题/077 Code05 合并石头的最低成本.md",
     "image/Pasted image 20260604165416.png",
     "image/Pasted image 20260604163640.png",
     "image/Pasted image 20260604091601.png",
