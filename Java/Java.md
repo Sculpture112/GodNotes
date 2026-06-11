@@ -63,3 +63,6 @@ static
 
 
 ![[Pasted image 20260611165947.png]]
+
+
+![[Pasted image 20260611170400.png]]
