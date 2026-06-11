@@ -53,3 +53,7 @@ random
 ![[Pasted image 20260604165416.png]]
 
 ![[Pasted image 20260611154730.png]]
+
+
+static
+![[Pasted image 20260611160117.png]]
