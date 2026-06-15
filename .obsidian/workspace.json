@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/080 Code01 我能赢吗.md",
+                "file": "学校.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "080 Code01 我能赢吗"
+              "title": "学校"
             }
           }
         ]
@@ -207,6 +207,7 @@
   },
   "active": "f4da8477171970e8",
   "lastOpenFiles": [
+    "母题/080 Code01 我能赢吗.md",
     "母题/079 Code05 选课，树上01背包的最优解.md",
     "Java/Java.md",
     "image/Pasted image 20260611170400.png",
@@ -234,7 +235,6 @@
     "母题/080 补题.md",
     "母题/080 Code03 划分为k个相等的子集.md",
     "母题/080 Code02 火柴拼正方形.md",
-    "母题/080 Code01 我能赢吗.md",
     "母题/078 Code05 没有上司的舞会.md",
     "母题/078 Code04 在二叉树中分配硬币.md",
     "算法名/贡献法.md",
