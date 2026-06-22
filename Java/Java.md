@@ -66,3 +66,39 @@ static
 
 
 ![[Pasted image 20260611170400.png]]
+
+
+```java
+**// 普通类
+class Dog {
+    void eat() {
+        System.out.println("狗在吃东西");
+    }
+}
+
+// 抽象类
+abstract class Animal {
+    abstract void makeSound(); // 抽象方法，没有方法体
+
+    void sleep() {
+        System.out.println("动物在睡觉");
+    }
+}
+
+// 接口
+interface Run {
+    void run();
+}
+
+// 子类继承抽象类，并实现接口
+class Cat extends Animal implements Run {
+    public void makeSound() {
+        System.out.println("猫叫：喵喵");
+    }
+
+    public void run() {
+        System.out.println("猫在跑");
+    }
+}**
+```
+
