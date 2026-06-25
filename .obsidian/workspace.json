@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "选词填空-原题翻译答案讲解.md",
+                "file": "1/选词填空-原题翻译答案讲解.md",
                 "mode": "source",
                 "source": false
               },
@@ -227,8 +227,12 @@
   },
   "active": "f4bb7cbd13e2bb81",
   "lastOpenFiles": [
+    "1/段落匹配-原题翻译答案讲解.md",
+    "1/选词填空-原题翻译答案讲解.md",
+    "1/阅读-原题翻译答案讲解.md",
+    "1",
+    "1/英语期末翻译-原题翻译答案讲解.md",
     "学校.md",
-    "选词填空-原题翻译答案讲解.md",
     "Java/Java.md",
     "母题/081 Code04 分配重复整数.md",
     "20260503150524.md",
@@ -259,10 +263,6 @@
     "母题/079 Code02 相邻字符不同的最长路径.md",
     "母题/079 Code01 到达首都的最少油耗.md",
     "母题/078 Code07 路径总和 III.md",
-    "母题/080 补题.md",
-    "母题/080 Code03 划分为k个相等的子集.md",
-    "母题/080 Code02 火柴拼正方形.md",
-    "母题/078 Code05 没有上司的舞会.md",
     "src/unit/src/unit_1/TypeConvert2.java",
     "src/unit/src/unit_1/my_class.java",
     "src/unit/src/unit_1",
@@ -271,7 +271,6 @@
     "src/class194/Code10_LandPlanning2.java",
     "src/class194/Code10_LandPlanning1.java",
     "src/class194/Code09_StrategyGame2.java",
-    "src/class194/Code09_StrategyGame1.java",
-    "src/class194/Code08_Tourists2.java"
+    "src/class194/Code09_StrategyGame1.java"
   ]
 }
