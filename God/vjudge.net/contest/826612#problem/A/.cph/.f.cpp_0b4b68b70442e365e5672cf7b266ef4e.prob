@@ -1,0 +1,1 @@
+{"name":"Local: f","url":"c:\\Users\\17487\\Desktop\\God\\vjudge.net\\contest\\826612#problem\\A\\f.cpp","tests":[{"id":1782701775171,"input":"2 10 9\n","output":"2^10 mod 9=7\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\17487\\Desktop\\God\\vjudge.net\\contest\\826612#problem\\A\\f.cpp","group":"local","local":true}

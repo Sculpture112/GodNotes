@@ -1,0 +1,1 @@
+{"name":"Local: a","url":"c:\\Users\\17487\\Desktop\\God\\vjudge.net\\contest\\826612#problem\\A\\a.cpp","tests":[{"id":1782697183041,"input":"4 4\n2 7 1 8\n1 2\n2 1 2\n1 1\n2 2 4\n","output":"3\n17\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\17487\\Desktop\\God\\vjudge.net\\contest\\826612#problem\\A\\a.cpp","group":"local","local":true}
