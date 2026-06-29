@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/081 Code03 好子集的数目.md",
+                "file": "母题/080 Code02 火柴拼正方形.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "081 Code03 好子集的数目"
-            }
-          },
-          {
-            "id": "2ea99bebd3774a7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "母题翻译标准.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "母题翻译标准"
+              "title": "080 Code02 火柴拼正方形"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,9 +225,13 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "2ea99bebd3774a7b",
+  "active": "f4bb7cbd13e2bb81",
   "lastOpenFiles": [
+    "母题/080 Code01 我能赢吗.md",
+    "母题/080 Code02 火柴拼正方形.md",
+    "母题/079 Code05 选课，树上01背包的普通解法.md",
     "母题/081 Code03 好子集的数目.md",
+    "母题翻译标准.md",
     "母题/076 Code06 布尔运算.md",
     "母题/081 Code01 每个人戴不同帽子的方案数.md",
     "母题/078 Code03 二叉树的直径.md",
@@ -262,8 +251,6 @@
     "未命名 2.md",
     "未命名 3.md",
     "母题/080 Code03 划分为k个相等的子集.md",
-    "母题/080 Code02 火柴拼正方形.md",
-    "母题/080 Code01 我能赢吗.md",
     "实验室/第一周",
     "实验室",
     "未命名 7",
@@ -275,8 +262,6 @@
     "未命名 1",
     "母题/080 补题.md",
     "母题/079 Code05 选课，树上01背包的最优解.md",
-    "母题/079 Code05 选课，树上01背包的普通解法.md",
-    "学校.md",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
     "1",
