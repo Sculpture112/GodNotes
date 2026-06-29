@@ -83,7 +83,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabeticalReverse",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -240,8 +240,16 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "2ea99bebd3774a7b",
+  "active": "c31c5bd99dc4b701",
   "lastOpenFiles": [
+    "未命名 7",
+    "未命名 6",
+    "未命名 5",
+    "未命名 4",
+    "未命名 3",
+    "未命名 2",
+    "未命名 1",
+    "未命名",
     "母题/080 补题.md",
     "母题/080 Code02 火柴拼正方形.md",
     "母题/080 Code01 我能赢吗.md",
@@ -278,15 +286,7 @@
     "image/Pasted image 20260610142828.png",
     "image/Pasted image 20260610142659.png",
     "母题/079 Code02 相邻字符不同的最长路径.md",
-    "母题/079 Code01 到达首都的最少油耗.md",
     "src/unit/src/unit_1/TypeConvert2.java",
-    "src/unit/src/unit_1/my_class.java",
-    "src/unit/src/unit_1",
-    "src/unit/unit.iml",
-    "src/unit/src",
-    "src/class194/Code10_LandPlanning2.java",
-    "src/class194/Code10_LandPlanning1.java",
-    "src/class194/Code09_StrategyGame2.java",
-    "src/class194/Code09_StrategyGame1.java"
+    "src/unit/src/unit_1/my_class.java"
   ]
 }
