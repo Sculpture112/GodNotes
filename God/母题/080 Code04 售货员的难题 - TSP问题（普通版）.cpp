@@ -22,11 +22,12 @@ int f(int s, int i)
     ans = INF;
     for (int j = 0; j < n; j++)
     {
-        if((s & (1<<j)) !=0)
+        if ((s & (1 << j)) != 0)
         {
-            ans = min(ans,f(s))
+            ans = min(ans, f(s ^ (1 << j), j));
         }
     }
+    return ans;
 }
 
 int solve()
@@ -48,7 +49,7 @@ int main()
         }
     }
 
-    solve();
+    cout<<solve();
 
     return 0;
 }
