@@ -3,7 +3,7 @@
 > **原题链接:** (https://www.luogu.com.cn/problem/P1171)
 
 **涉及知识点:** [[]], [[INF]]，[[补题]],[[]],[[]]
-`const int INF = 0x3f3f3f3f` 就是无限大，不过这个更好
+`const int INF = 0x3f3f3f3f` 就是一个大常数
 它的意思是：
 const int INF = 0x3f3f3f3f;
 定义一个常量整数 INF，值是十六进制的 0x3f3f3f3f，换成十进制大约是：
