@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/080 Code03 划分为k个相等的子集.md",
+                "file": "母题/080 Code04 售货员的难题 - TSP问题（普通版）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "080 Code03 划分为k个相等的子集"
+              "title": "080 Code04 售货员的难题 - TSP问题（普通版）"
             }
           }
         ]
@@ -227,8 +227,9 @@
   },
   "active": "f4bb7cbd13e2bb81",
   "lastOpenFiles": [
-    "算法名/暴力.md",
+    "母题/080 Code04 售货员的难题 - TSP问题（空间优化版）.md",
     "母题/080 Code03 划分为k个相等的子集.md",
+    "算法名/暴力.md",
     "母题/080 Code02 火柴拼正方形.md",
     "God/母题/080 Code04 售货员的难题 - TSP问题（空间优化版）.cpp",
     "God/母题/080 Code04 售货员的难题 - TSP问题（普通版）.cpp",
@@ -262,7 +263,6 @@
     "未命名.md",
     "未命名 2.md",
     "未命名 3.md",
-    "母题/080 081 状压dp补题.md",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
     "image/Pasted image 20260611170400.png",
