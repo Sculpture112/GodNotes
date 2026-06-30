@@ -13,11 +13,13 @@ int f(int s, int i)
     {
         return graph[i][0];
     }
-    int ans & = dp[s][i];
+    int &ans = dp[s][i];
     if (ans != -1)
     {
         return ans;
     }
+
+    for(int i =)
 }
 
 int solve()
