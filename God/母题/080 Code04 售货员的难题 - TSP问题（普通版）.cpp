@@ -19,7 +19,9 @@ int f(int s, int i)
         return ans;
     }
 
-    for(int i =)
+    for (int j = 0; j < n;j++){
+        if(s )
+    }
 }
 
 int solve()
