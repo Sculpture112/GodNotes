@@ -20,9 +20,13 @@ public:
         vector<int> dp(1 << n, 0);
         return f(nums, sum / 4, (1 << n) - 1, 0, 4, dp);
     }
-    bool f(vector<int> &nums, int limit, int status, int cur, int rest, vector<int> dp){
+    bool f(vector<int> &nums, int limit, int status, int cur, int rest, vector<int>& dp){
         if(rest == 0){
             return true;
+        }
+
+        if(dp[status]!=0){
+            return dp[status] == 1;
         }
 
         bool ans = false;
