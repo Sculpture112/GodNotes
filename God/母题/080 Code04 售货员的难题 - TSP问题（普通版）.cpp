@@ -54,7 +54,7 @@ int main()
             cin >> graph[i][j];
         }
     }
-    build();
+    memset(dp, -1, sizeof(dp));
 
     cout<<solve();
 
