@@ -7,22 +7,22 @@ int n;
 int graph[MAXN][MAXN];
 int dp[1 << MAXN][MAXN];
 
-int f(int s,int i){
-    if(s == (1<<n)-1)
+int f(int s, int i)
+{
+    if (s == (1 << n) - 1)
     {
         return graph[i][0];
     }
     int ans & = dp[s][i];
-    if(ans != -1){
+    if (ans != -1)
+    {
         return ans;
     }
-
-
 }
 
 int solve()
 {
-    return f(1,0);
+    return f(1, 0);
 }
 
 int main()
