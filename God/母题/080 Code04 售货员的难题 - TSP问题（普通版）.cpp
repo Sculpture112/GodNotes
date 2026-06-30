@@ -19,8 +19,13 @@ int f(int s, int i)
         return ans;
     }
 
-    for (int j = 0; j < n;j++){
-        if(s )
+    ans = INF;
+    for (int j = 0; j < n; j++)
+    {
+        if((s & (1<<j)) !=0)
+        {
+            ans = min(ans,f(s))
+        }
     }
 }
 
