@@ -28,9 +28,9 @@ int f(int s, int i)
     ans = INF;
     for (int j = 0; j < n; j++)
     {
-        if ((s & (1 << j)) != 0)
+        if ((s & (1 << j)) == 0)
         {
-            ans = min(ans, f(s ^ (1 << j), j));
+            ans = min(ans, graph[i][j] + f(s ^ (1 << j), j));
         }
     }
     return ans;
