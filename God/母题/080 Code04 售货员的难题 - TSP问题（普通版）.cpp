@@ -7,9 +7,9 @@ int n;
 int graph[MAXN][MAXN];
 int dp[1 << MAXN][MAXN];
 void build(){
-    for (int i = 0; i < n;i++){
+    for (int i = 0; i < (1<<n);i++){
         for (int j = 0; j < n;j++){
-            graph[i][j] = -1;
+            dp[i][j] = -1;
         }
     }
 }
@@ -54,7 +54,7 @@ int main()
             cin >> graph[i][j];
         }
     }
-
+    build();
 
     cout<<solve();
 
