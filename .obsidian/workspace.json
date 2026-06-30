@@ -11,10 +11,14 @@
             "id": "f4bb7cbd13e2bb81",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "母题/080 Code04 售货员的难题 - TSP问题（空间优化版）.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "080 Code04 售货员的难题 - TSP问题（空间优化版）"
             }
           }
         ]
@@ -223,10 +227,14 @@
   },
   "active": "f4bb7cbd13e2bb81",
   "lastOpenFiles": [
+    "母题/081 Code01 每个人戴不同帽子的方案数.md",
     "母题/080 Code04 售货员的难题 - TSP问题（普通版）.md",
     "母题/080 Code04 售货员的难题 - TSP问题（空间优化版）.md",
-    "母题/081 Code01 每个人戴不同帽子的方案数.md",
     "母题/080 Code03 划分为k个相等的子集.md",
+    "母题/080 Code01 我能赢吗.md",
+    "母题/081 Code04 分配重复整数.md",
+    "母题/081 Code03 好子集的数目.md",
+    "母题/081 Code02 最优账单平衡.md",
     "算法名/暴力.md",
     "母题/080 Code02 火柴拼正方形.md",
     "God/母题/080 Code04 售货员的难题 - TSP问题（空间优化版）.cpp",
@@ -239,13 +247,10 @@
     "God/母题/081 Code01 每个人戴不同帽子的方案数.cpp",
     "God/母题/a.cpp",
     "God/母题/080 Code01 我能赢吗.cpp",
-    "母题/080 Code01 我能赢吗.md",
     "母题/079 Code05 选课，树上01背包的普通解法.md",
-    "母题/081 Code03 好子集的数目.md",
     "母题翻译标准.md",
     "母题/076 Code06 布尔运算.md",
     "母题/078 Code03 二叉树的直径.md",
-    "母题/081 Code04 分配重复整数.md",
     "template/templatec++.md",
     "Task/算法复习.md",
     "template/templatem.md",
@@ -258,7 +263,6 @@
     "20260503150524.md",
     "拷贝.md",
     "未命名.md",
-    "未命名 2.md",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
     "image/Pasted image 20260611170400.png",
