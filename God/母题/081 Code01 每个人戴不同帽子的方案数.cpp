@@ -45,7 +45,7 @@ public:
         while(cur!=0){
             int rightone = cur & -cur;
             if((s&rightone) == 0){
-                ans += f(hats, m, n, i + 1, s ^ rightone,dp);
+                ans = (ans +f(hats, m, n, i + 1, s ^ rightone,dp))%;
             }
             cur ^= rightone;
         }
