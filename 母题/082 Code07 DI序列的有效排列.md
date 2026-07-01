@@ -1,0 +1,55 @@
+# [082 Code07 DI序列的有效排列]
+
+> **原题链接:** (https://leetcode.cn/problems/valid-permutations-for-di-sequence/)
+
+**涉及知识点:** [[]], [[]]，[[补题]],[[]],[[]]
+
+**核心套路:** 
+
+## 破题切入点 (思维闪念)
+[]
+
+
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+// DI序列的有效排列
+// 给定一个长度为n的字符串s，其中s[i]是:
+// "D"意味着减少，"I"意味着增加
+// 有效排列是对有n+1个在[0,n]范围内的整数的一个排列perm，使得对所有的i：
+// 如果 s[i] == 'D'，那么 perm[i] > perm[i+1]
+// 如果 s[i] == 'I'，那么 perm[i] < perm[i+1]
+// 返回有效排列的perm的数量
+// 因为答案可能很大，答案对 1000000007 取模
+// 测试链接 : https://leetcode.cn/problems/valid-permutations-for-di-sequence/
+class Solution {
+public:
+    int numPermsDISequence(string s) {
+        const int mod = 1000000007;
+        int n = s.size() + 1;
+        vector<vector<int>> dp(n + 1, vector<int>(n + 1, 0));
+        for (int less = 0; less <= n; less++) {
+            dp[n][less] = 1;
+        }
+        for (int i = n - 1; i >= 0; i--) {
+            if (i == 0 || s[i - 1] == 'D') {
+                dp[i][1] = dp[i + 1][0];
+                for (int less = 2; less <= n; less++) {
+                    dp[i][less] = (dp[i][less - 1] + dp[i + 1][less - 1]) % mod;
+                }
+            } else {
+                dp[i][n - i - 1] = dp[i + 1][n - i - 1];
+                for (int less = n - i - 2; less >= 0; less--) {
+                    dp[i][less] = (dp[i][less + 1] + dp[i + 1][less]) % mod;
+                }
+            }
+        }
+        return dp[0][n];
+    }
+};
+```
+
+---
+
