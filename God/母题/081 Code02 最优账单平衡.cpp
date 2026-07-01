@@ -1,15 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void solve() {
-    
-}
+class Solution
+{
+public:
+    int minTransfers(vector<vector<int>> &transactions)
+    {
 
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    solve();
-
-    return 0;
-}
+    }
+};
