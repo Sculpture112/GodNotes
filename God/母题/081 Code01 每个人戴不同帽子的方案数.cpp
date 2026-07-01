@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+const int MOD = 1e9 + 7;
 class Solution
 {
 public:
@@ -45,7 +45,7 @@ public:
         while(cur!=0){
             int rightone = cur & -cur;
             if((s&rightone) == 0){
-                ans = (ans +f(hats, m, n, i + 1, s ^ rightone,dp))%;
+                ans = (ans +f(hats, m, n, i + 1, s ^ rightone,dp))%MOD;
             }
             cur ^= rightone;
         }
