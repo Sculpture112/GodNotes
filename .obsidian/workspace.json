@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/083 Code01 规划兼职工作.md",
+                "file": "母题/082 083变题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "083 Code01 规划兼职工作"
+              "title": "082 083变题"
             }
           }
         ]
@@ -264,9 +264,9 @@
   },
   "active": "96e10d8d20500c1e",
   "lastOpenFiles": [
+    "母题/083 Code01 规划兼职工作.md",
     "母题/082 083变题.md",
     "母题/083 Code02 K个逆序对数组.md",
-    "母题/083 Code01 规划兼职工作.md",
     "母题/082 Code01 买卖股票的最佳时机.md",
     "母题/083 Code04 累加和不大于k的最长子数组.md",
     "母题/083 Code03 自由之路.md",
