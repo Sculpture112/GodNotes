@@ -9,7 +9,7 @@ public:
         sort(nums.begin(), nums.end());
         vector<int> cnt;
 
-        for (int i = 0; i < nums.size(); i++)
+        for (int i = 0; i < nums.size();)
         {
             int j = i + 1;
             while (j < nums.size() && nums[j] == nums[i])
@@ -58,7 +58,7 @@ public:
         int k = cnt[index];
         bool ans = false;
 
-        for (int j = status; j >= 0; j = ((j - 1) & status))
+        for (int j = status; j > 0; j = ((j - 1) & status))
         {
             if (sum[j] <= k && f(cnt, sum, status ^ j, index + 1, n, m, dp))
             {
