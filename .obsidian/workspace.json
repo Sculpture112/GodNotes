@@ -35,8 +35,7 @@
               "title": "080 081"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -277,10 +276,10 @@
       }
     ]
   },
-  "active": "d4d2b322261f5844",
+  "active": "96e10d8d20500c1e",
   "lastOpenFiles": [
-    "算法名/二进制求和.md",
     "例题/080 081.md",
+    "算法名/二进制求和.md",
     "算法名/遍历二进制.md",
     "母题/082 Code07 DI序列的有效排列.md",
     "例题/单调栈.md",
