@@ -34,6 +34,10 @@ int range(int l, int r)
     return sum(r) - sum(l - 1);
 }
 
+void swap(int x){
+    
+}
+
 int main()
 {
     ios::sync_with_stdio(false);
@@ -45,9 +49,12 @@ int main()
         add(i, v);
     }
 
-    for (int i = 1; i <= m; i++)
+    for (int i = 1,a,b,c; i <= m; i++)
     {
-        
+        cin >> a;
+        if(a==1){
+
+        }
     }
 
     return 0;
