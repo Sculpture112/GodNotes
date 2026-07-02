@@ -4,9 +4,19 @@ int n, m;
 const int MAXN = 200001;
 int tree[MAXN];
 
-void add (int i,int v){
-    
+
+int lowbit(int i ){
+    return i & -i;
 }
+
+void add (int i,int v){
+    while(i<=n){
+        tree[i] += v;
+        i += lowbit(i);
+    }
+}
+
+void range(int)
 
 
 int main()
