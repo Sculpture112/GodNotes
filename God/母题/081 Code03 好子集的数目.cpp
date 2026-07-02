@@ -41,6 +41,15 @@ class Solution
 public:
     int numberOfGoodSubsets(vector<int> &nums)
     {
+        int maxv = 30;
+        int limit = 1 << 10;
+        vector<int> cnt(maxv + 1, 0);
+        vector<int> dp(limit, 0);
+
+        for(int num :nums){
+            cnt[num]++;
+        }
+
         
     }
 };
