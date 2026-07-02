@@ -35,7 +35,8 @@ int range(int l, int r)
 }
 
 void swap(int x){
-    
+    add(x, range(x + 1, x + 1) - range(x, x));
+    add(x + 1, range(x, x) - range(x + 1, x + 1));
 }
 
 int main()
@@ -53,7 +54,12 @@ int main()
     {
         cin >> a;
         if(a==1){
-
+            cin >> b;
+            swap(b);
+        }
+        else{
+            cin >> b >> c;
+            cout << range(b, c) << "\n";
         }
     }
 
