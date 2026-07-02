@@ -17,6 +17,7 @@ public:
                 j++;
             }
             cnt.push_back(j - i);
+            i = j;
         }
 
         int n = cnt.size();
@@ -32,7 +33,7 @@ public:
             }
         }
 
-        vector<vector<int>> dp(1 << m, vector<int>(n, -1));
+        vector<vector<int>> dp(1 << m, vector<int>(n, 0));
 
         return f(cnt, sum, (1 << m) - 1, 0, n, m, dp);
     }
