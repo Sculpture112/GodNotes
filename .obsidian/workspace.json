@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/1.md",
+                "file": "例题/080 081.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1"
+              "title": "080 081"
             }
           }
         ],
@@ -279,8 +279,9 @@
   },
   "active": "d4d2b322261f5844",
   "lastOpenFiles": [
-    "母题/080 081状压补题.md",
     "母题/1.md",
+    "例题/080 081.md",
+    "母题/080 081状压补题.md",
     "母题/080 Code02 火柴拼正方形.md",
     "God/母题/080状压1986. 完成任务的最少工作时间段.cpp",
     "母题/080 Code01 我能赢吗.md",
