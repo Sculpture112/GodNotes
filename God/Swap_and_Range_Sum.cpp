@@ -35,8 +35,10 @@ int range(int l, int r)
 }
 
 void swap(int x){
-    add(x, range(x + 1, x + 1) - range(x, x));
-    add(x + 1, range(x, x) - range(x + 1, x + 1));
+    int a = range(x, x);
+    int b = range(x + 1, x + 1);
+    add(x, b - a);
+    add(x + 1, a - b);
 }
 
 int main()
