@@ -7,6 +7,7 @@ public:
     int countArrangement(int n)
     {
         vector<int> dp(1 << n, 0);
+        return f((1 << n) - 1, 1, dp, n);
     }
     int f(int status, int index, vector<int> &dp, int n)
     {
