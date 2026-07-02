@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/080 Code02 火柴拼正方形.md",
+                "file": "母题/080 081 状压dp补题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "080 Code02 火柴拼正方形"
+              "title": "080 081 状压dp补题"
             }
           }
         ],
@@ -279,10 +279,10 @@
   },
   "active": "d4d2b322261f5844",
   "lastOpenFiles": [
-    "God/母题/080状压1986. 完成任务的最少工作时间段.cpp",
     "母题/080 081状压补题.md",
-    "母题/080 Code02 火柴拼正方形.md",
     "母题/080 081 状压dp补题.md",
+    "母题/080 Code02 火柴拼正方形.md",
+    "God/母题/080状压1986. 完成任务的最少工作时间段.cpp",
     "母题/080 Code01 我能赢吗.md",
     "God/母题/080状压526. 优美的排列.cpp",
     "God/母题/080状压",
@@ -314,7 +314,6 @@
     "God/母题/080 Code02 火柴拼正方形.cpp",
     "God/母题/081 Code04 分配重复整数.cpp",
     "God/母题/081 Code03 好子集的数目.cpp",
-    "God/母题/081 Code02 最优账单平衡.cpp",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
     "image/Pasted image 20260611170400.png",
