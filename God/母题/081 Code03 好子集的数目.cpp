@@ -46,10 +46,38 @@ public:
         vector<int> cnt(maxv + 1, 0);
         vector<int> dp(limit, 0);
 
-        for(int num :nums){
+        for (int num : nums)
+        {
             cnt[num]++;
         }
 
-        
+        dp[0] = 1;
+        for (int i = 0; i < cnt[1]; i++)
+        {
+            dp[0] = (dp[0] << 1) % MOD;
+        }
+
+        for (int i = 2; i <= maxv; i++)
+        {
+            int cur = own[i];
+            int times = cnt[i];
+            if (cur != 0 && times != 0)
+            {
+                for (int statu = limit - 1; statu >= 0; statu--)
+                {
+                    if ((statu & cur) == cur)
+                    {
+                        dp[statu] = (dp[statu] + (long long)dp[statu ^ cur] * times) % MOD;
+                    }
+                }
+            }
+        }
+
+        int ans = 0;
+        for (int s = 1; s < limit; s++)
+        {
+            ans = (ans + dp[s]) % MOD;
+        }
+        return ans;
     }
 };
