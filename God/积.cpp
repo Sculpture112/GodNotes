@@ -2,19 +2,22 @@
 using namespace std;
 int t;
 long long ans;
-void bfs(long long sum,int step,vector<int>& arr)
+void bfs(long long sum, int step, vector<int> &arr)
 {
-    if(ans!=0){
+    if (ans != 0)
+    {
         return;
     }
-    if(sum%9 == 0){
+    if (sum % 9 == 0)
+    {
         ans = step;
         return;
     }
     int n = arr.size();
-    for (int i = 0; i < n;i++){
-        bfs(sum / arr[i] * (arr[i] + 1),step+1,arr);
-        if(ans !=0)
+    for (int i = 0; i < n; i++)
+    {
+        bfs(sum / arr[i] * (arr[i] + 1), step + 1, arr);
+        if (ans != 0)
             return;
     }
 }
@@ -37,21 +40,16 @@ int main()
 
             cin >> arr[i];
             sum *= arr[i];
-            cout << sum;
         }
-        if(sum %9==0){
+        if (sum % 9 == 0)
+        {
             cout << 0 << "\n";
             continue;
         }
 
-        
-
         bfs(sum, 0, arr);
         cout << ans << "\n";
     }
-
-    
-
 
     return 0;
 }
