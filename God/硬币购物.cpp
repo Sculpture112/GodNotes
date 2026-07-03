@@ -22,16 +22,19 @@ int main()
         }
         cin >> s;
         // 前i个硬币，凑出块钱j的方法数
-        vector<vector<int>> dp(5, vector<int>(s + 1, 0));
+        vector<vector<long long>> dp(5, vector<long long>(s + 1, 0));
         dp[0][0] = 1;
         for (int i = 1; i <= 4; i++)
         {
             for (int j = 0; j <= s; j++)
             {
                 dp[i][j] = dp[i - 1][j];
-                for (int k = 0; k <= c[i]; k++)
+                for (int k = 1; k <= c[i]; k++)
                 {
-                    dp[i][j] += dp[i - 1][j - k * v[i]];
+                    if (k * v[i] <= j)
+                    {
+                        dp[i][j] += dp[i - 1][j - k * v[i]];
+                    }
                 }
             }
         }
