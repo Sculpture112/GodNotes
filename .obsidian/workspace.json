@@ -270,17 +270,17 @@
         "direction": "vertical",
         "x": 450,
         "y": 118,
-        "width": 1196,
+        "width": 1198,
         "height": 724,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "f88d8caa341ad2a9",
+  "active": "8dd45af87c0c5981",
   "lastOpenFiles": [
-    "算法名/完全背包预处理.md",
     "例题/P1450 [HAOI2008] 硬币购物.md",
+    "算法名/完全背包预处理.md",
     "未命名 2.md",
     "母题/075 Code01 多重背包不进行枚举优化.md",
     "God/_u786c_u5e01_u8d2d_u7269.bin",
