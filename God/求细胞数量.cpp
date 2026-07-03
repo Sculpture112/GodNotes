@@ -7,6 +7,7 @@ int dy[4] = {0, -1, 0, 1};
 
 void dfs(int x, int y, vector<vector<int>> &grid)
 {
+    grid[x]
     for (int i = 0; i < 4; i++)
     {
         int nx = x + dx[i];
@@ -42,7 +43,7 @@ int main()
             if (grid[i][j] != 0)
             {
                 cell++;
-                grid[i][j] = 0;
+                
                 dfs(i, j, grid);
             }
         }
