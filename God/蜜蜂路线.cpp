@@ -1,7 +1,10 @@
 #include <bits/stdc++.h>
+#include <boost/multiprecision/cpp_int.hpp>
 using namespace std;
+using boost::multiprecision::cpp_int;
+
 int m, n;
-long long dp[1001];
+cpp_int dp[1001];
 
 int main()
 {
