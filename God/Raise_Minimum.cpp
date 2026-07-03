@@ -5,7 +5,7 @@ using namespace std;
 using ll = long long;
 using i128 = __int128_t;
 
-bool ok(vector<ll>& A,i128 k,ll x){
+bool ok(vector<ll>& A,ll k,i128 x){
     ll need = 0;
     ll n = A.size();
 
@@ -29,7 +29,7 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     int n;
-    i128 k;
+    ll k;
     cin >> n >> k;
     vector<ll> A(n);
     ll mn = LONG_LONG_MAX;
@@ -40,10 +40,10 @@ int main()
         mn = min(mn, A[i]);
     }
 
-    ll left = mn, right = mn + n * k + 1;
+    i128 left = mn, right = mn + n * k + 1;
 
     while(right - left >1){
-        ll mid = (left - right) / 2 + right;
+        i128 mid = (left - right) / 2 + right;
         if(ok(A,k,mid)){
             left = mid;
         }
@@ -51,7 +51,7 @@ int main()
             right = mid;
         }
     }
-    cout << left;
+    cout << (ll)left;
 
     return 0;
 }
