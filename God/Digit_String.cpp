@@ -22,12 +22,12 @@ int main() {
             }
         }
         int sum2 = 0;
-        int ans = 0;
+        int ans = sum13;
         for(char c:s){
             if(c == '2'){
                 sum2++;
             }
-            else{
+            if(c == '1' || c== '3'){
                 sum13--;
             }
             ans = max(ans, sum2 + sum13);
