@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "075 Code01 多重背包不进行枚举优化"
             }
+          },
+          {
+            "id": "f88d8caa341ad2a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "例题/P1450 [HAOI2008] 硬币购物.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "P1450 [HAOI2008] 硬币购物"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -68,7 +83,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabeticalReverse",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -262,11 +277,14 @@
       }
     ]
   },
-  "active": "96e10d8d20500c1e",
+  "active": "f88d8caa341ad2a9",
   "lastOpenFiles": [
+    "算法名/完全背包预处理.md",
+    "例题/P1450 [HAOI2008] 硬币购物.md",
+    "未命名 2.md",
+    "母题/075 Code01 多重背包不进行枚举优化.md",
     "God/_u786c_u5e01_u8d2d_u7269.bin",
     "母题/075 Code02 多重背包通过二进制分组转化成 01 背包 (模版).md",
-    "母题/075 Code01 多重背包不进行枚举优化.md",
     "母题/074 Code06 购买足量干草的最小花费.md",
     "母题/074 Code05 通配符匹配.md",
     "母题/074 Code04 正则表达式匹配.md",
@@ -288,8 +306,6 @@
     "母题/075 Code04 多重背包单调队列优化.md",
     "母题/075 Code03 观赏樱花.md",
     "母题/076 Code05 戳气球.md",
-    "母题/076 Code04 切棍子的最小成本.md",
-    "母题/077 Code04 移除盒子.md",
     "God/硬币购物.cpp",
     "God/1_D_Country.bin",
     "God/1_D_Country.cpp",
@@ -299,7 +315,6 @@
     "God/Digit_String.cpp",
     "God/母题/098 Code01 _u4e58_u6cd5_u5feb_u901f_u5e42_u6a21_u7248.bin",
     "God/母题/098 Code07 学生出勤记录II.cpp",
-    "God/母题/098 Code06 统计元音字母序列的数目.cpp",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
     "image/Pasted image 20260611170400.png",
