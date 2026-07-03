@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int m, n;
+bool visited[1001];
 int dfs(int x)
 {
     if (x == n)
@@ -8,7 +9,16 @@ int dfs(int x)
         return 1;
     }
 
-    if()
+    if(x-n>=3){
+        return 0;
+    }
+
+    if(visited[x] =false){
+        return 0;
+    }
+
+    for(int)
+
 }
 
 int main()
