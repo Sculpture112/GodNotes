@@ -3,16 +3,20 @@ using namespace std;
 int arr[20005];
 
 int n;
-bool f()
-{
-    if()
-    for (int i = 0; i < n;i++){
-       if(arr[i]!=0 && !f()){
-           return true;
-           break;
+bool find9(){
+
+    for (int i = 0; i < n; i++)
+    {
+        if (arr[i] != 0)
+        {
+            for (int j = i + 1; j < n;j++){
+                if(arr[i][j])
+            }
         }
     }
-
+}
+bool f()
+{
 }
 
 int main()
