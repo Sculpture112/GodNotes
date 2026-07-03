@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/075 Code01 多重背包不进行枚举优化.md",
+                "file": "母题/067 Code02 单词搜索（无法改成动态规划）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "075 Code01 多重背包不进行枚举优化"
-            }
-          },
-          {
-            "id": "f88d8caa341ad2a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "例题/P1443 马的遍历.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "P1443 马的遍历"
+              "title": "067 Code02 单词搜索（无法改成动态规划）"
             }
           },
           {
@@ -49,8 +35,7 @@
               "title": "BFS"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2026-03-04 15.46.50.excalidraw.md",
+                "file": "母题/067 Code02 单词搜索（无法改成动态规划）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,7 +203,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Drawing 2026-03-04 15.46.50.excalidraw 的反向链接列表"
+              "title": "067 Code02 单词搜索（无法改成动态规划） 的反向链接列表"
             }
           }
         ],
@@ -277,10 +262,15 @@
       }
     ]
   },
-  "active": "f4bb7cbd13e2bb81",
+  "active": "96e10d8d20500c1e",
   "lastOpenFiles": [
-    "God/P_1443__u9a6c_u7684_u904d_u5386.bin",
+    "母题/067 Code06 矩阵中的最长递增路径.md",
+    "母题/076 Code02 预测赢家.md",
+    "母题/076 Code01 让字符串成为回文串的最少插入次数.md",
+    "母题/075 Code01 多重背包不进行枚举优化.md",
     "例题/P1443 马的遍历.md",
+    "Excalidraw/Drawing 2026-03-04 15.46.50.excalidraw.md",
+    "God/P_1443__u9a6c_u7684_u904d_u5386.bin",
     "母题/062 Code01 地图分析.md",
     "God/P_1443_马的遍历.cpp",
     "算法名/BFS.md",
@@ -288,13 +278,11 @@
     "母题/062 Code02 贴纸拼词.md",
     "母题/061 Code05 繁忙的都市.md",
     "例题/P1450 [HAOI2008] 硬币购物.md",
-    "Excalidraw/Drawing 2026-03-04 15.46.50.excalidraw.md",
     "God/_u786c_u5e01_u8d2d_u7269.bin",
     "例题/080 081.md",
     "例题/Tactical Game.md",
     "算法名/完全背包预处理.md",
     "未命名 2.md",
-    "母题/075 Code01 多重背包不进行枚举优化.md",
     "母题/075 Code02 多重背包通过二进制分组转化成 01 背包 (模版).md",
     "母题/074 Code06 购买足量干草的最小花费.md",
     "母题/074 Code05 通配符匹配.md",
@@ -305,8 +293,6 @@
     "母题/073 Code06 非负数组前 k 个最小的子序列累加和.md",
     "母题/073 Code04 最后一块石头的重量 II.md",
     "母题/073 Code05 有依赖的背包(模版).md",
-    "母题/073 Code03 目标和.md",
-    "母题/073 Code02 夏季特惠.md",
     "God/硬币购物.cpp",
     "God/1_D_Country.bin",
     "God/1_D_Country.cpp",
@@ -314,7 +300,6 @@
     "God/Raise_Minimum.cpp",
     "God/Digit_String.bin",
     "God/Digit_String.cpp",
-    "God/母题/098 Code01 _u4e58_u6cd5_u5feb_u901f_u5e42_u6a21_u7248.bin",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
     "image/Pasted image 20260611170400.png",
