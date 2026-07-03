@@ -3,10 +3,11 @@
 using namespace std;
 
 using ll = long long;
+using i128 = __int128_t;
 
-bool ok(vector<ll>& A,ll k,ll x){
+bool ok(vector<ll>& A,i128 k,ll x){
     ll need = 0;
-    int n = A.size();
+    ll n = A.size();
 
     for (int idx = 0; idx < n;idx++){
         int i = idx + 1;
@@ -28,7 +29,7 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     int n;
-    ll k;
+    i128 k;
     cin >> n >> k;
     vector<ll> A(n);
     ll mn = LONG_LONG_MAX;
