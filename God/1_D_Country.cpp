@@ -1,15 +1,48 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void solve() {
-    
-}
+using ll = long long;
 
-int main() {
+
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    int n;
+    cin >> n;
 
-    solve();
+    vector<ll> x(n), p(n);
+
+    for (int i = 0; i < n; i++)
+    {
+        cin >> x[i];
+    }
+    for (int i = 0; i < n; i++)
+    {
+        cin >> p[i];
+    }
+
+    vector<ll> prefix(n + 1);
+    prefix[0] = p[0];
+    for (int i = 1; i < n; i++)
+    {
+        prefix[i] = prefix[i - 1] + p[i];
+    }
+
+
+
+    int q;
+    cin >> q;
+    while (q--)
+    {
+        ll l, r;
+        cin >> l >> r;
+        int left = lower_bound(x.begin(), x.end(), l) - x.begin();
+        int right = upper_bound(x.begin(), x.end(), r) - x.begin();
+        cout << prefix[right - 1] - prefix[left - 1] << "\n";
+    }
+
+
 
     return 0;
 }
