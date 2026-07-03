@@ -25,7 +25,11 @@ bool find9()
 }
 bool f()
 {
-    
+
+    if(find9() && !f()){
+        return true;
+    }
+    return false;
 }
 
 int main()
@@ -42,6 +46,7 @@ int main()
         for (int i = 0; i < n; i++)
             cin >> arr[i];
     }
+    cout<<f();
 
     return 0;
 }
