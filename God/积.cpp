@@ -14,6 +14,8 @@ void bfs(long long sum,int step,vector<int>& arr)
     int n = arr.size();
     for (int i = 0; i < n;i++){
         bfs(sum / arr[i] * (arr[i] + 1),step+1,arr);
+        if(ans !=0)
+            return;
     }
 }
 
