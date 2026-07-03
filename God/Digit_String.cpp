@@ -13,6 +13,7 @@ int main() {
 
     while(t--){
         string s;
+        cin >> s;
         int n = s.size();
         int sum13 = 0;
         for(char c:s){
@@ -23,7 +24,7 @@ int main() {
         int sum2 = 0;
         int ans = 0;
         for(char c:s){
-            if(c == 2){
+            if(c == '2'){
                 sum2++;
             }
             else{
@@ -31,7 +32,7 @@ int main() {
             }
             ans = max(ans, sum2 + sum13);
         }
-        cout << ans << "\n";
+        cout << n - ans << "\n";
     }
 
 
