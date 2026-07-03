@@ -23,10 +23,9 @@ int main()
     }
 
     vector<ll> prefix(n + 1);
-    prefix[0] = p[0];
-    for (int i = 1; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
-        prefix[i] = prefix[i - 1] + p[i];
+        prefix[i+1] = prefix[i] + p[i];
     }
 
 
@@ -39,7 +38,7 @@ int main()
         cin >> l >> r;
         int left = lower_bound(x.begin(), x.end(), l) - x.begin();
         int right = upper_bound(x.begin(), x.end(), r) - x.begin();
-        cout << prefix[right - 1] - prefix[left - 1] << "\n";
+        cout << prefix[right] - prefix[left] << "\n";
     }
 
 
