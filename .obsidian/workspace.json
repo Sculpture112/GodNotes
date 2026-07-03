@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/108 Code01 树状数组单点增加、范围查询模版.md",
+                "file": "母题/098 Code01 乘法快速幂模版.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "108 Code01 树状数组单点增加、范围查询模版"
+              "title": "098 Code01 乘法快速幂模版"
             }
           }
         ]
@@ -255,15 +255,20 @@
         "direction": "vertical",
         "x": 450,
         "y": 118,
-        "width": 1195,
-        "height": 722,
+        "width": 1196,
+        "height": 724,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "96e10d8d20500c1e",
+  "active": "5926bb94b65bc171",
   "lastOpenFiles": [
+    "母题/098 Code01 乘法快速幂模版.md",
+    "God/母题/098 Code01 _u4e58_u6cd5_u5feb_u901f_u5e42_u6a21_u7248.bin",
+    "母题/098 Code02 矩阵乘法与矩阵快速幂展示.md",
+    "母题/098 Code03 爬楼梯.md",
+    "母题/108 Code01 树状数组单点增加、范围查询模版.md",
     "God/母题/098 Code07 学生出勤记录II.cpp",
     "God/母题/098 Code06 统计元音字母序列的数目.cpp",
     "God/母题/098 Code05 多米诺和托米诺平铺.cpp",
@@ -276,20 +281,14 @@
     "母题/098 Code06 统计元音字母序列的数目.md",
     "母题/098 Code05 多米诺和托米诺平铺.md",
     "母题/098 Code04 第n个泰波那契数.md",
-    "母题/098 Code03 爬楼梯.md",
     "母题/098 Code02 求斐波那契数列第n项.md",
-    "母题/098 Code02 矩阵乘法与矩阵快速幂展示.md",
-    "母题/098 Code01 乘法快速幂模版.md",
     "God/Swap_and_Range_Sum.bin",
-    "God/Swap_and_Range_Sum.cpp",
-    "God/P_3374__u6a21_u677f__u6811_u72b6_u6570_u7ec4_1.bin",
     "母题/082 083变题.md",
     "母题/108 Code05 二维数组上范围增加、范围查询，使用树状数组的模版(C++).md",
     "母题/108 Code05 二维数组上范围增加、范围查询，使用树状数组的模版(java).md",
     "母题/108 Code04 二维数组上单点增加、范围查询，使用树状数组的模版.md",
     "母题/108 Code03 树状数组范围增加、范围查询模版.md",
     "母题/108 Code02 树状数组范围增加、单点查询模版.md",
-    "母题/108 Code01 树状数组单点增加、范围查询模版.md",
     "母题变式准则.md",
     "母题/083 Code01 规划兼职工作.md",
     "母题/083 Code02 K个逆序对数组.md",

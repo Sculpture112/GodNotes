@@ -1,15 +1,25 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void solve() {
-    
+long long a, b, p;
+
+long long power(){
+    long long ans = 1;
+    while(b>0){
+        if((b&1) == 1){
+            ans = (ans * a)%p;
+        }
+        a = (a * a) % p;
+        b >>= 1;
+    }
+    return ans;
 }
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-
-    solve();
+    cin >> a >> b >> p;
+    cout << a << "^" << b << " mod " << p << "=" << power();
 
     return 0;
 }
