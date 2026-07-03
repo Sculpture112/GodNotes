@@ -49,9 +49,9 @@ int main()
         {
             if (grid[i][j] == '.')
             {
-                grid[j][j] == '#';
+                grid[i][j] = '#';
                 dfs(i, j, 0);
-                grid[j][j] == '.';
+                grid[i][j] = '.';
             }
         }
     }
