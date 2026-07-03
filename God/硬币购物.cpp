@@ -43,7 +43,7 @@ int main()
             for (int i = 0; i < 4; i++)
             {
 
-                if (mask & (1 << i) != 0)
+                if ((mask & (1 << i)) != 0)
                 {
                     rest -= (c[i] + 1) * v[i];
                     cnt++;
