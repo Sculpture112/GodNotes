@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/067 Code02 单词搜索（无法改成动态规划）.md",
+                "file": "例题/G - Count Simple Paths.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "067 Code02 单词搜索（无法改成动态规划）"
+              "title": "G - Count Simple Paths"
             }
           },
           {
@@ -193,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "母题/067 Code02 单词搜索（无法改成动态规划）.md",
+                "file": "例题/G - Count Simple Paths.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +203,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "067 Code02 单词搜索（无法改成动态规划） 的反向链接列表"
+              "title": "G - Count Simple Paths 的反向链接列表"
             }
           }
         ],
@@ -264,6 +264,9 @@
   },
   "active": "96e10d8d20500c1e",
   "lastOpenFiles": [
+    "实验室/第一周/D - 1D Country.md",
+    "例题/G - Count Simple Paths.md",
+    "母题/067 Code02 单词搜索（无法改成动态规划）.md",
     "母题/067 Code06 矩阵中的最长递增路径.md",
     "母题/076 Code02 预测赢家.md",
     "母题/076 Code01 让字符串成为回文串的最少插入次数.md",
@@ -290,9 +293,6 @@
     "母题/074 Code03 完全背包(模版).md",
     "母题/074 Code01 分组背包(模版).md",
     "母题/073 Code07 找出数组的第 K 大和.md",
-    "母题/073 Code06 非负数组前 k 个最小的子序列累加和.md",
-    "母题/073 Code04 最后一块石头的重量 II.md",
-    "母题/073 Code05 有依赖的背包(模版).md",
     "God/硬币购物.cpp",
     "God/1_D_Country.bin",
     "God/1_D_Country.cpp",
