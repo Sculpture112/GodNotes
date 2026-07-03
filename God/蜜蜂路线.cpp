@@ -15,7 +15,7 @@ int dfs(int x)
         return 0;
     }
 
-    if (visited[x] = false)
+    if (visited[x] == true)
     {
         return 0;
     }
@@ -24,7 +24,7 @@ int dfs(int x)
     {
         if (i == 0)
             continue;
-        
+        visited[i] = true;
         ans += dfs(i);
     }
     return ans;
