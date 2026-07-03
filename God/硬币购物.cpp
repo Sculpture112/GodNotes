@@ -23,11 +23,11 @@ int main()
         }
         cin >> s;
         // 前i个硬币，凑出块钱j的方法数
-        vector<vector<int>> dp(4, vector<int>(4, 0));
+        vector<vector<int>> dp(4, vector<int>(s+1, 0));
 
         for (int i = 0; i < 4; i++)
         {
-            for (int j = 0; j < 4; j++)
+            for (int j = 0; j <=s; j++)
             {
                 dp[i][j] = dp[i - 1][j];
                 for (int k = 1; k < c[i];k++){
