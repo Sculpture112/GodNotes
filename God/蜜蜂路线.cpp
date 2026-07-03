@@ -1,41 +1,20 @@
 #include <bits/stdc++.h>
 using namespace std;
 int m, n;
-bool visited[1001];
-int ans = 0;
-int dfs(int x)
-{
-    if (x == n)
-    {
-        return 1;
-    }
-
-    if (x - n >= 3)
-    {
-        return 0;
-    }
-
-    if (visited[x] == true)
-    {
-        return 0;
-    }
-
-    for (int i = -2; i <= 2; i++)
-    {
-        if (i == 0)
-            continue;
-        visited[i] = true;
-        ans += dfs(i);
-    }
-    return ans;
-}
+int dp[1001];
 
 int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cin >> m >> n;
-    cout<<dfs(m);
+    dp[m] = 1;
+
+    for (int i = m + 1; i<=n; i++)
+    {
+        dp[i] = dp[i - 1] + dp[i - 2];
+    }
+    cout << dp[n];
 
     return 0;
 }
