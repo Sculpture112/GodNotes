@@ -34,12 +34,11 @@ int main()
         int s;
         cin >> s;
 
-        int rest = s;
-
         ll ans = 0;
         for (int mask = 0; mask < 16; mask++)
         {
 
+            int rest = s;
             int cnt = 0;
             for (int i = 0; i < 4; i++)
             {
@@ -56,13 +55,16 @@ int main()
                 continue;
             }
 
-            if(cnt %2 ==0){
+            if (cnt % 2 == 0)
+            {
                 ans += f[rest];
             }
-            else{
+            else
+            {
                 ans -= f[rest];
             }
         }
+        cout << ans << "\n";
     }
 
     return 0;
