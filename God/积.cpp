@@ -37,6 +37,7 @@ int main()
 
             cin >> arr[i];
             sum *= arr[i];
+            cout << sum;
         }
         if(sum %9==0){
             cout << 0 << "\n";
