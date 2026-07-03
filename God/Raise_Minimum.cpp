@@ -6,14 +6,14 @@ using ll = long long;
 using i128 = __int128_t;
 
 bool ok(vector<ll>& A,ll k,i128 x){
-    ll need = 0;
+    i128 need = 0;
     ll n = A.size();
 
     for (int idx = 0; idx < n;idx++){
         int i = idx + 1;
 
         if(A[idx] < x){
-            ll diff = x - A[idx];
+            i128 diff = x - A[idx];
             need += (diff + i - 1) / i;
 
             if(need > k){
@@ -32,7 +32,7 @@ int main()
     ll k;
     cin >> n >> k;
     vector<ll> A(n);
-    ll mn = LONG_LONG_MAX;
+    ll mn = LLONG_MAX;
 
     for (int i = 0; i < n; i++)
     {
@@ -40,7 +40,7 @@ int main()
         mn = min(mn, A[i]);
     }
 
-    i128 left = mn, right = mn + n * k + 1;
+    i128 left = mn, right = (i128)mn + (i128)n * k + 1;
 
     while(right - left >1){
         i128 mid = (left - right) / 2 + right;
