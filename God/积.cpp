@@ -2,33 +2,38 @@
 using namespace std;
 int t;
 vector<int> arr;
-void solve() {
-    
+void solve()
+{
 }
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cin >> t;
-    while(t--){
+    while (t--)
+    {
         int n;
         cin >> n;
         arr.resize(n);
         bool haszero = false;
-        for (int i = 0; i < n;i++){
+        for (int i = 0; i < n; i++)
+        {
             cin >> arr[i];
-            if(arr[i] == 0)
+            if (arr[i] == 0)
                 haszero = true;
         }
 
-        if(haszero){
+        if (haszero)
+        {
             cout << 0 << "\n";
             continue;
         }
 
         vector<int> cost;
-        int ans = LLONG_MAX;
-        for (int i = 0; i < n;i++){
+        int ans = INT_MAX;
+        for (int i = 0; i < n; i++)
+        {
             int x = arr[i];
 
             int c3 = (3 - (x % 3)) % 3;
@@ -39,7 +44,11 @@ int main() {
         }
 
         sort(cost.begin(), cost.end());
-        ans = min(ans, cost[0] + cost[1]);
+        if (n >= 2)
+        {
+
+            ans = min(ans, cost[0] + cost[1]);
+        }
         cout << ans << "\n";
     }
 
