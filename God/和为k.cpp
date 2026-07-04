@@ -13,7 +13,7 @@ int main()
     {
         cin >> grid[i];
     }
-    cout << k;
+
     vector<vector<int>> arr(h + 1, vector<int>(w + 1, 0));
     for (int i = 1; i <= h; i++)
     {
@@ -25,8 +25,9 @@ int main()
 
     for (int i = 1; i <= h; i++)
     {
-        for (int j = 1; i <= w; j++)
+        for (int j = 1; j <= w; j++)
         {
+
             arr[i][j] += arr[i - 1][j] + arr[i][j - 1] - arr[i - 1][j - 1];
         }
     }
