@@ -27,7 +27,12 @@ int main() {
             arr[i][j] = arr[i - 1][j] + arr[i][j - 1] - arr[i - 1][j - 1];
         }
     }
-    
+
+    for (int i = 1; i <= h;i++){
+        for (int j = 1; j <= w;j++){
+            if(arr[i][j] - arr[i][])
+        }
+    }
 
         return 0;
 }
