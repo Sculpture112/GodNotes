@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-int h, w, k;
+long long h, w, k;
 vector<string> grid;
 void solve() {
     
@@ -24,7 +24,7 @@ int main() {
 
     for (int i = 1; i <= h;i++){
         for (int j = 1; i <= w;j++){
-            arr[i][j] = arr[i - 1][j] + arr[i][j - 1] - arr[i - 1][j - 1];
+            arr[i][j] += arr[i - 1][j] + arr[i][j - 1] - arr[i - 1][j - 1];
         }
     }
 
