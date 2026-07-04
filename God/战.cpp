@@ -33,8 +33,14 @@ int main() {
                 st.push_back(x);
             }
         }
+
+        if(cnt % 2 == 0){
+            cout << "No" << "\n";
+        }
+        else{
+            cout << "Yes" << "\n";
+        }
     }
-    solve();
 
     return 0;
 }
