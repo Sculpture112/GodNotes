@@ -15,9 +15,11 @@ int main() {
     for (int i = 1; i <= n;i++){
         cin >> cnt[i] >> value[i];
     }
-    vector<vector<int>> dp(n + 1, vector<int>(m + 1, -1));
+    vector<vector<int>> dp(n + 1, vector<int>(m + 1, 0));
+    int sum = 0;
+    for (int i = 1; i <= n;i++){
+        dp[i] = sum + 
+    }
 
-    
-
-    return 0;
+        return 0;
 }
