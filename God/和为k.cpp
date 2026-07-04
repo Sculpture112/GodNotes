@@ -30,7 +30,13 @@ int main() {
 
     for (int i = 1; i <= h;i++){
         for (int j = 1; j <= w;j++){
-            if(arr[i][j] - arr[i][])
+
+            for (int x = i; x >= 1;x--){
+                for (int y = j; y >= 1;y--){
+
+                    if()
+                }
+            }
         }
     }
 
