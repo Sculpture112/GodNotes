@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/082 Code01 买卖股票的最佳时机.md",
+                "file": "牛客/小白月赛/C.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "082 Code01 买卖股票的最佳时机"
+              "title": "C"
             }
           }
         ]
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "母题/082 Code01 买卖股票的最佳时机.md",
+                "file": "牛客/小白月赛/C.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "082 Code01 买卖股票的最佳时机 的反向链接列表"
+              "title": "C 的反向链接列表"
             }
           },
           {
@@ -262,9 +262,12 @@
       }
     ]
   },
-  "active": "7288bf7038c5d5af",
+  "active": "c31c5bd99dc4b701",
   "lastOpenFiles": [
     "母题/082 Code01 买卖股票的最佳时机.md",
+    "牛客/小白月赛/C.md",
+    "牛客/小白月赛",
+    "牛客",
     "God/_u6218.bin",
     "God/战.cpp",
     "God/_u79ef.bin",
@@ -297,8 +300,6 @@
     "母题/083 Code03 自由之路.md",
     "母题/082 Code07 DI序列的有效排列.md",
     "算法名/SPFA.md",
-    "God/_u871c_u8702_u8def_u7ebf.bin",
-    "God/蜜蜂路线.cpp",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
     "image/Pasted image 20260611170400.png",
