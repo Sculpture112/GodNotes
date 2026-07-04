@@ -15,8 +15,9 @@ int main() {
     for (int i = 1; i <= n;i++){
         cin >> cnt[i] >> value[i];
     }
+    vector<vector<int>> dp(n + 1, vector<int>(m + 1, -1));
 
-        solve();
+    
 
     return 0;
 }
