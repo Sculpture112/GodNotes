@@ -8,12 +8,12 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cin >> h >> w >> k;
-    grid.resize(h+1);
+    grid.resize(h);
     for (int i = 0; i < h; i++)
     {
         cin >> grid[i];
     }
-
+    cout << k;
     vector<vector<int>> arr(h + 1, vector<int>(w + 1, 0));
     for (int i = 1; i <= h; i++)
     {
@@ -28,7 +28,6 @@ int main()
         for (int j = 1; i <= w; j++)
         {
             arr[i][j] += arr[i - 1][j] + arr[i][j - 1] - arr[i - 1][j - 1];
-            cout << arr[i][j];
         }
     }
 
