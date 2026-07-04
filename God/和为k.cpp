@@ -8,7 +8,7 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cin >> h >> w >> k;
-    grid.resize(h);
+    grid.resize(h+1);
     for (int i = 0; i < h; i++)
     {
         cin >> grid[i];
