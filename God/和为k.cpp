@@ -28,17 +28,21 @@ int main() {
         }
     }
 
+    long long ans = 0;
     for (int i = 1; i <= h;i++){
         for (int j = 1; j <= w;j++){
 
             for (int x = i; x >= 1;x--){
                 for (int y = j; y >= 1;y--){
 
-                    if()
+                    if(arr[i][j] -arr[i][y-1] -arr[x-1][j] + arr[x-1][y-1] == k){
+                        ans++;
+                    }
                 }
             }
         }
     }
+    cout << ans;
 
-        return 0;
+    return 0;
 }
