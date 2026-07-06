@@ -13,14 +13,15 @@ int main()
     {
         int l, r;
         cin >> l >> r;
-        seg.push_back({l, r});
+        segs.push_back({l, r});
     }
 
     auto check = [&](ll x){
         int lastr = -1;
-
-
-    
+        int cnt = 0;
+        for(auot seg : segs){
+            
+        })
 
 
 
