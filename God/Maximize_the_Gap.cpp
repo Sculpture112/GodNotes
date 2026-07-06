@@ -60,7 +60,7 @@ int main()
             r = mid;
         }
     }
-    cout << mid << "\n";
+    cout << l << "\n";
 
     return 0;
 }
