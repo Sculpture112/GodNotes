@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/070 Code06 子矩阵最大累加和问题.md",
+                "file": "实验室/第一周/D - Count Subgrid Sum = K.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "070 Code06 子矩阵最大累加和问题"
+              "title": "D - Count Subgrid Sum = K"
             }
           }
         ]
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "母题/070 Code06 子矩阵最大累加和问题.md",
+                "file": "实验室/第一周/D - Count Subgrid Sum = K.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "070 Code06 子矩阵最大累加和问题 的反向链接列表"
+              "title": "D - Count Subgrid Sum = K 的反向链接列表"
             }
           },
           {
@@ -227,6 +227,9 @@
   },
   "active": "7288bf7038c5d5af",
   "lastOpenFiles": [
+    "God/Count_Subgrid_Sum_K.cpp",
+    "实验室/第一周/D - Maximize the Gap.md",
+    "母题/070 Code06 子矩阵最大累加和问题.md",
     "母题/070 Code02 数组中不能选相邻元素的最大累加和.md",
     "实验室/第一周/B. Digit String.md",
     "实验室/第一周/C - Raise Minimum.md",
@@ -236,7 +239,6 @@
     "母题/048 Code02 边框为1的最大正方形.md",
     "母题/048 Code01 二维前缀和.md",
     "母题/047 Code02 等差数列差分.md",
-    "实验室/第一周/D - Maximize the Gap.md",
     "God/Maximize_the_Gap.bin",
     "母题/055 Code03 你可以安排的最多任务数目.md",
     "母题/056 Code03 情侣牵手.md",
@@ -261,8 +263,6 @@
     "牛客/小白月赛/D.md",
     "牛客/小白月赛/C.md",
     "母题/082 Code06 买卖股票的最佳时机含冷冻期.md",
-    "母题/076 Code01 让字符串成为回文串的最少插入次数.md",
-    "母题/047 Code03 落水后求每个位置的水位高度.md",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
     "image/Pasted image 20260611170400.png",
