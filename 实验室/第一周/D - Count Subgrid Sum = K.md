@@ -40,7 +40,7 @@ int main() {
     long long ans = 0;
 
     int maxSum = H * W;
-    vector<int> freq(maxSum + 1, 0);
+    vector<int> freq(maxSum + 1, 0);//用数组代替哈希表
 
     for (int top = 0; top < H; top++) {
         vector<int> col(W, 0);
