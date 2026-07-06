@@ -1,15 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void solve() {
-    
-}
+class Solution
+{
+public:
+    int maxProfit(vector<int> &prices)
+    {
+        int ans = 0;
+        int mn = prices[0];
 
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+        for (int i = 0; i < prices.size();i++){
+            mn = min(prices[i], mn);
+            ans = max(ans, prices[i] - mn);
+        }
 
-    solve();
-
-    return 0;
-}
+        return ans;
+    }
+};
