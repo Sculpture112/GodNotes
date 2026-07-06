@@ -34,7 +34,7 @@ int main() {
         return a.first < b.first;
     });
 
-    auto check = [&](ll x) {
+		auto check = [&](ll x) {//[&]lamada捕获外部参数
         int cnt = 0;
         ll lastR = -(1LL << 60);
 
