@@ -33,7 +33,7 @@ public:
 
     int maxProfit(int k, vector<int>& prices) {
         int n = prices.size();
-        if (n == 0 || k == 0) {
+		if (n == 0 || k == 0) {
             return 0;
         }
         if (k >= n / 2) {
