@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/070 Code06 子矩阵最大累加和问题.md",
+                "file": "实验室/第一周/E - Roads and Gates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "070 Code06 子矩阵最大累加和问题"
+              "title": "E - Roads and Gates"
             }
           }
         ]
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "母题/070 Code06 子矩阵最大累加和问题.md",
+                "file": "实验室/第一周/E - Roads and Gates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "070 Code06 子矩阵最大累加和问题 的反向链接列表"
+              "title": "E - Roads and Gates 的反向链接列表"
             }
           },
           {
@@ -227,10 +227,11 @@
   },
   "active": "7288bf7038c5d5af",
   "lastOpenFiles": [
+    "母题/070 Code06 子矩阵最大累加和问题.md",
+    "实验室/第一周/E - Roads and Gates.md",
     "God/面试题 17.24. 最大子矩阵.cpp",
     "实验室/第一周/D - Count Subgrid Sum = K.md",
     "God/Count_Subgrid_Sum_K.bin",
-    "母题/070 Code06 子矩阵最大累加和问题.md",
     "God/Count_Subgrid_Sum_K.cpp",
     "实验室/第一周/D - Maximize the Gap.md",
     "母题/070 Code02 数组中不能选相邻元素的最大累加和.md",
@@ -256,7 +257,6 @@
     "母题/082 Code02 买卖股票的最佳时机 II.md",
     "母题/082 Code01 买卖股票的最佳时机.md",
     "God/母题/082 Code07 DI序列的有效排列.cpp",
-    "God/母题/082 Code06 买卖股票的最佳时机含冷冻期.cpp",
     "学校.md",
     "Excalidraw/Drawing 2026-03-04 15.46.50.excalidraw.md",
     "Atcoder/abc463/D - Maximize the Gap.md",
