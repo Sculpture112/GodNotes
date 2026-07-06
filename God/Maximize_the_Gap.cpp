@@ -36,14 +36,15 @@ int main()
     if (!check(1))
     {
         cout << -1 << "\n";
+        return 0;
     }
 
     ll l = 1, r = 1000000001LL;
-
+    ll mid;
     while (r - l > 1)
     {
 
-        ll mid = (l + r) / 2;
+        mid = (l + r) / 2;
         if (check(mid))
         {
             l = mid;
@@ -52,7 +53,7 @@ int main()
             r = mid;
         }
     }
-    cout<<mid
+    cout << mid << "\n";
 
     return 0;
 }
