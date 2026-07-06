@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define ll long long;
+#define ll long long
 
 int main()
 {
@@ -18,6 +18,9 @@ int main()
 
     auto check = [&](ll x){
         int lastr = -1;
+
+
+
 
     };
     return 0;
