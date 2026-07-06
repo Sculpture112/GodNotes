@@ -33,6 +33,26 @@ int main()
         return false;
     };
 
-    
+    if (!check(1))
+    {
+        cout << -1 << "\n";
+    }
+
+    ll l = 1, r = 1000000001LL;
+
+    while (r - l > 1)
+    {
+
+        ll mid = (l + r) / 2;
+        if (check(mid))
+        {
+            l = mid;
+        }
+        else{
+            r = mid;
+        }
+    }
+    cout<<mid
+
     return 0;
 }
