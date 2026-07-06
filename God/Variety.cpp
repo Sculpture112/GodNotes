@@ -20,11 +20,11 @@ int main()
     sort(gem.rbegin(), gem.rend());
 
     vector<int> cnt(n + 1, 0);
-    vector<int> addable(n);
-    vector<int> removable(n);
+    vector<int> addable;
+    vector<int> removable;
 
     int colors = 0;
-    int ans = 0;
+    long long ans = 0;
     for (int i = 0; i < k; i++)
     {
         auto [v, c] = gem[i];
@@ -45,10 +45,10 @@ int main()
     {
         auto [v, c] = gem[i];
 
-        if (cnt[i] == 0)
+        if (cnt[c] == 0)
         {
             addable.push_back(v);
-            cnt[i] = -1;
+            cnt[c] = -1;
         }
     }
 
