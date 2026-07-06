@@ -39,7 +39,7 @@ public:
         if (k >= n / 2) {
             return free(prices);
         }
-		vector<int> dp(n, 0);
+		vector<int> dp(n, 0);//在i笔交易限制下，第j天获得的最大收益
         for (int i = 1; i <= k; i++) {
             int best = dp[0] - prices[0];
             for (int j = 1; j < n; j++) {
