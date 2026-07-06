@@ -14,6 +14,20 @@ int main()
     {
         cin >> s[i];
     }
+
+    if (h > w)
+    {
+        vector<string> t(w, string(h, '0'));
+        for (int i = 0; i < h; i++)
+        {
+            for (int j = 0; j < w; j++)
+            {
+                t[j][i] = s[i][j];
+            }
+        }
+        s = t;
+        swap(h, w);
+    }
     ll ans = 0;
     vector<int> freq(h * w + 1, 0);
     for (int top = 0; top < h; top++)
