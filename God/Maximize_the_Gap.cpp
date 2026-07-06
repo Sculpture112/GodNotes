@@ -16,6 +16,9 @@ int main()
         segs.push_back({l, r});
     }
 
+    sort(segs.begin(),segs.end(),[](auto a,segs b{
+
+    }))
     auto check = [&](ll x)
     {
         int lastr = -1;
