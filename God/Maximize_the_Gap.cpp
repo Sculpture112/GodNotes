@@ -16,9 +16,12 @@ int main()
         segs.push_back({l, r});
     }
 
-    sort(segs.begin(),segs.end(),[](auto a,segs b{
-
-    }))
+    sort(segs.begin(), segs.end(), [](auto a, auto b)
+         {
+        if(a.second != b.second)
+            return a.second < b.second;
+        return a.first < b.first;
+     });
     auto check = [&](ll x)
     {
         int lastr = -1;
@@ -52,7 +55,8 @@ int main()
         {
             l = mid;
         }
-        else{
+        else
+        {
             r = mid;
         }
     }
