@@ -12,6 +12,14 @@
 
 
 ```cpp
+dfs(i, less) {
+    枚举 perm[i] 能选什么;
+    累加 dfs(i + 1, newLess);
+}
+这份代码的状态来自递归思路：
+从当前状态出发，问后面还能怎么填。
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
