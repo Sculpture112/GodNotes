@@ -49,7 +49,8 @@
               "title": "064 Code02 最小体力消耗路径"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "母题/082 Code07 DI序列的有效排列.md",
+                "file": "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +218,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "082 Code07 DI序列的有效排列 的反向链接列表"
+              "title": "Drawing 2026-05-03 15.05.56.excalidraw 的反向链接列表"
             }
           },
           {
@@ -253,8 +254,47 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "7288bf7038c5d5af",
+  "floating": {
+    "id": "5a459975b1541050",
+    "type": "floating",
+    "children": [
+      {
+        "id": "926dcaba6099e5c1",
+        "type": "window",
+        "children": [
+          {
+            "id": "5d28af873b08d68c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6a3fd64e57d39a84",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "Drawing 2026-05-03 15.05.56.excalidraw"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 480,
+        "y": 66,
+        "width": 1160,
+        "height": 868,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "6a3fd64e57d39a84",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
+    "母题/082 Code07 DI序列的有效排列.md",
     "母题/082 Code06 买卖股票的最佳时机含冷冻期.md",
     "母题/082 Code05 买卖股票的最佳时机含手续费.md",
     "母题/082 Code04 买卖股票的最佳时机 IV.md",
@@ -289,8 +329,6 @@
     "God/Variety.cpp",
     "God/AT_abc_463_c_ABC_463_C_Tallest_at_the_Moment.bin",
     "母题/082 Code03 买卖股票的最佳时机 III.md",
-    "母题/082 Code02 买卖股票的最佳时机 II.md",
-    "母题/082 Code01 买卖股票的最佳时机.md",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
     "image/Pasted image 20260611170400.png",
