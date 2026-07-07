@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实验室/第二周/A - 求阶乘.md",
+                "file": "算法名/二分答案法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A - 求阶乘"
+              "title": "二分答案法"
             }
           }
         ],
@@ -291,9 +291,9 @@
   },
   "active": "7536602e4aacccc4",
   "lastOpenFiles": [
+    "实验室/第二周/A - 求阶乘.md",
     "God/_u6c42_u9636_u4e58.bin",
     "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
-    "实验室/第二周/A - 求阶乘.md",
     "God/求阶乘.cpp",
     "例题/P2437 蜜蜂路线.md",
     "实验室/第二周",
@@ -327,7 +327,6 @@
     "God/Count_Subgrid_Sum_K.cpp",
     "God/Maximize_the_Gap.bin",
     "God/Maximize_the_Gap.cpp",
-    "God/Variety.bin",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
     "image/Pasted image 20260611170400.png",
