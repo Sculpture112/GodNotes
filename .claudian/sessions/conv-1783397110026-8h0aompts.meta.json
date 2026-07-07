@@ -4,6 +4,22 @@
   "title": "在这个文件里面画一个3*3的表格。",
   "titleGenerationStatus": "failed",
   "createdAt": 1783397110026,
-  "updatedAt": 1783397110061,
-  "sessionId": null
+  "updatedAt": 1783397292167,
+  "lastResponseAt": 1783397292167,
+  "sessionId": "019f3ac0-51cd-7ec2-8400-90be39193c15",
+  "providerState": {
+    "threadId": "019f3ac0-51cd-7ec2-8400-90be39193c15",
+    "sessionFilePath": "C:\\Users\\17487\\.codex\\sessions\\2026\\07\\07\\rollout-2026-07-07T12-05-15-019f3ac0-51cd-7ec2-8400-90be39193c15.jsonl",
+    "transcriptRootPath": "C:\\Users\\17487\\.codex\\sessions"
+  },
+  "usage": {
+    "inputTokens": 23119,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 4992,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 23119,
+    "percentage": 9,
+    "model": "gpt-5.5"
+  }
 }
