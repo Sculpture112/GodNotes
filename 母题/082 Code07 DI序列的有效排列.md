@@ -38,6 +38,7 @@ public:
         const int mod = 1000000007;
         int n = s.size() + 1;
         vector<vector<int>> dp(n + 1, vector<int>(n + 1, 0));
+        //这里dp的定义很特别，是从i位置，less个数字开始选，后续有多少个方案，注意是后续而不是前面的方案数
         for (int less = 0; less <= n; less++) {
             dp[n][less] = 1;
         }
