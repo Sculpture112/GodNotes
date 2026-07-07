@@ -32,9 +32,9 @@ int main()
         }
     }
 
-    if (cntzero(l) == k)
+    if (cntzero(r) == k)
     {
-        cout << l;
+        cout << r;
     }
     else
     {
