@@ -4,6 +4,9 @@ using namespace std;
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
+        if(prices.size()<2){
+            return 0;
+        }
         int done1 = max(0, prices[1] - prices[0]);
         int don2 = 0;
         int prepare = max(-prices[0], -prices[1]);
