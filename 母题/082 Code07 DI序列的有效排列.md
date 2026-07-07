@@ -2,7 +2,7 @@
 
 > **原题链接:** (https://leetcode.cn/problems/valid-permutations-for-di-sequence/)
 
-**涉及知识点:** [[]], [[]]，[[补题]],[[]],[[]]
+**涉及知识点:** [[超难]], [[]]，[[补题]],[[]],[[]]
 
 **核心套路:** 
 
