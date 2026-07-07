@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/083 Code04 累加和不大于k的最长子数组.md",
+                "file": "实验室/第一周/C - Tallest at the Moment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "083 Code04 累加和不大于k的最长子数组"
+              "title": "C - Tallest at the Moment"
             }
           }
         ]
@@ -68,7 +68,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabeticalReverse",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -276,6 +276,10 @@
   },
   "active": "2f78b6897dca7343",
   "lastOpenFiles": [
+    "实验室/第一周/F - Total Product is N.md",
+    "实验室/第一周/C - Tallest at the Moment.md",
+    "实验室/第一周/B. Digit String.md",
+    "母题/083 Code04 累加和不大于k的最长子数组.md",
     "image/Pasted image 20260707142236.png",
     "母题/083 Code03 自由之路.md",
     "母题/083 Code01 规划兼职工作.md",
@@ -291,7 +295,6 @@
     "母题/082 Code06 买卖股票的最佳时机含冷冻期.md",
     "母题/082 Code05 买卖股票的最佳时机含手续费.md",
     "母题/082 Code04 买卖股票的最佳时机 IV.md",
-    "实验室/第一周/F - Total Product is N.md",
     "实验室/第一周/E - Roads and Gates.md",
     "God/Roads_and_Gates.bin",
     "母题/064 Code01 Dijkstra算法模版（Leetcode）.md",
@@ -304,9 +307,7 @@
     "God/Count_Subgrid_Sum_K.cpp",
     "实验室/第一周/D - Maximize the Gap.md",
     "母题/070 Code02 数组中不能选相邻元素的最大累加和.md",
-    "实验室/第一周/B. Digit String.md",
     "实验室/第一周/C - Raise Minimum.md",
-    "实验室/第一周/C - Variety.md",
     "God/Maximize_the_Gap.bin",
     "God/Maximize_the_Gap.cpp",
     "God/Variety.bin",
@@ -320,7 +321,6 @@
     "image/Pasted image 20260611160117.png",
     "image/Pasted image 20260611154730.png",
     "image/Pasted image 20260610142943.png",
-    "image/Pasted image 20260610142828.png",
-    "image/Pasted image 20260610142659.png"
+    "image/Pasted image 20260610142828.png"
   ]
 }
