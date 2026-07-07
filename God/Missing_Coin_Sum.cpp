@@ -17,6 +17,7 @@ int main()
         cin >> a[i];
 
     ll ans = 1;
+    sort(a.begin(), a.end());
     for(int x : a){
         if(ans<x){
             break;
