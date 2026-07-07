@@ -2,7 +2,7 @@
 
 > **原题链接:** (https://leetcode.cn/problems/valid-permutations-for-di-sequence/)
 
-**涉及知识点:** [[超难], [[]]，[[补题]],[[]],[[]]
+**涉及知识点:** [[超难]], [[]]，[[补题]],[[]],[[]]
 
 **核心套路:** 
 
@@ -57,6 +57,10 @@ public:
                 for (int less = n - i - 2; less >= 0; less--) {
                     dp[i][less] = (dp[i][less + 1] + dp[i + 1][less]) % mod; //dp[i][less] = dp[i+1][less] + dp[i+1][less+1] + ... + dp[i+1][n-i-2]
                 }
+                
+                //对于 I，dp[i][n-i] 本来就应该是 0，因为没有更大的数可选；
+//所以从 dp[i][n-i-1] 这个最后一个非零候选边界开始赋值，
+//再从 dp[i][n-i-2] 往左递推。
             }
         }
         return dp[0][n];
