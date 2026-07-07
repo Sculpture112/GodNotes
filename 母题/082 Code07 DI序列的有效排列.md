@@ -2,7 +2,7 @@
 
 > **原题链接:** (https://leetcode.cn/problems/valid-permutations-for-di-sequence/)
 
-**涉及知识点:** [[超难]], [[]]，[[补题]],[[]],[[]]
+**涉及知识点:** [[超难], [[]]，[[补题]],[[]],[[]]
 
 **核心套路:** 
 
@@ -45,7 +45,7 @@ public:
         for (int i = n - 1; i >= 0; i--) {
             if (i == 0 || s[i - 1] == 'D') {
                 dp[i][1] = dp[i + 1][0];
-                
+                //dp[i][less] = dp[i+1][0] + ... + dp[i+1][less-1]
                 //dp[i][3] = dp[i+1][0] + dp[i+1][1] + dp[i+1][2]
                 //dp[i][4] = dp[i+1][0] + dp[i+1][1] + dp[i+1][2] + dp[i+1][3]
                 //dp[i][4] 比 dp[i][3] 只多了一项
@@ -55,7 +55,7 @@ public:
             } else {
                 dp[i][n - i - 1] = dp[i + 1][n - i - 1];
                 for (int less = n - i - 2; less >= 0; less--) {
-                    dp[i][less] = (dp[i][less + 1] + dp[i + 1][less]) % mod;
+                    dp[i][less] = (dp[i][less + 1] + dp[i + 1][less]) % mod; //dp[i][less] = dp[i+1][less] + dp[i+1][less+1] + ... + dp[i+1][n-i-2]
                 }
             }
         }
