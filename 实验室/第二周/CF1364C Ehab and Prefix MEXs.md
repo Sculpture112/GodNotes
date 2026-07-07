@@ -23,31 +23,34 @@ int main() {
     cin >> n;
 
     vector<int> a(n), b(n, -1);
-    for (int i = 0; i < n; i++) cin >> a[i];
+    vector<int> appeared(n + 1, 0);
+
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
+        appeared[a[i]] = 1;
+    }
 
     set<int> unused;
-    for (int x = 0; x <= n; x++) unused.insert(x);
+
+    for (int x = 0; x <= n; x++) {
+        if (!appeared[x]) {
+            unused.insert(x);
+        }
+    }
 
     int last = 0;
 
     for (int i = 0; i < n; i++) {
         if (a[i] > last) {
             b[i] = last;
-            unused.erase(last);
             last = a[i];
         }
     }
 
     for (int i = 0; i < n; i++) {
         if (b[i] == -1) {
-            auto it = unused.upper_bound(a[i]);
-            if (it == unused.end()) {
-                cout << -1 << '\n';
-                return 0;
-            }
-
-            b[i] = *it;
-            unused.erase(it);
+            b[i] = *unused.begin();
+            unused.erase(unused.begin());
         }
     }
 
