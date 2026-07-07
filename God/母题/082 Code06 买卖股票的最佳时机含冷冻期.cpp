@@ -1,15 +1,20 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void solve() {
-    
-}
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int done1 = max(0, prices[1] - prices[0]);
+        int don2 = 0;
+        int prepare = max(-prices[0], prices[1]);
 
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+        for (int i = 2; i < prices.size();i++){
+            int curdone = max(done1, prepare + prices[i]);
+            prepare = max(prepare, don2 - prices[i]);
+            don2 = done1;
+            done1 = curdone;
+        }
 
-    solve();
-
-    return 0;
-}
+        return done1;
+    }
+};
