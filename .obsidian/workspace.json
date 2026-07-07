@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实验室/第一周/D - 1D Country.md",
+                "file": "实验室/第一周/C - Tallest at the Moment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "D - 1D Country"
+              "title": "C - Tallest at the Moment"
             }
           }
         ]
@@ -276,9 +276,9 @@
   },
   "active": "a748028239d359c2",
   "lastOpenFiles": [
-    "实验室/第一周/D - Count Subgrid Sum = K.md",
-    "实验室/第一周/D - 1D Country.md",
     "实验室/第一周/C - Variety.md",
+    "实验室/第一周/D - 1D Country.md",
+    "实验室/第一周/D - Count Subgrid Sum = K.md",
     "实验室/第一周/D - Maximize the Gap.md",
     "实验室/第一周/E - Roads and Gates.md",
     "实验室/第一周/G - Count Simple Paths.md",
