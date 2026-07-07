@@ -21,14 +21,14 @@ int main()
 
     ll l = 0, r = k * 5 + 5;
 
-    while (r - l > 1)
+    while (r-l>1)
     {
-        int mid = r + l / 2;
+        ll mid = (r - l) / 2 + l;
         if (cntzero(mid) >= k)
-            l = mid;
+            r = mid;
         else
         {
-            r = mid;
+            l = mid;
         }
     }
 
