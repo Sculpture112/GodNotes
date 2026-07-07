@@ -23,18 +23,18 @@ int main() {
     cin >> n;
 
     vector<int> a(n), b(n, -1);
-    vector<int> appeared(n + 1, 0);
+    vector<int> inA(n + 1, 0);
 
     for (int i = 0; i < n; i++) {
         cin >> a[i];
-        appeared[a[i]] = 1;
+        inA[a[i]] = 1;
     }
 
-    set<int> unused;
+    set<int> canUse;
 
     for (int x = 0; x <= n; x++) {
-        if (!appeared[x]) {
-            unused.insert(x);
+        if (!inA[x]) {
+            canUse.insert(x);
         }
     }
 
@@ -43,14 +43,36 @@ int main() {
     for (int i = 0; i < n; i++) {
         if (a[i] > last) {
             b[i] = last;
+            canUse.erase(last);
             last = a[i];
         }
     }
 
     for (int i = 0; i < n; i++) {
         if (b[i] == -1) {
-            b[i] = *unused.begin();
-            unused.erase(unused.begin());
+            if (canUse.empty()) {
+                cout << -1 << '\n';
+                return 0;
+            }
+
+            b[i] = *canUse.begin();
+            canUse.erase(canUse.begin());
+        }
+    }
+
+    set<int> seen;
+    int mex = 0;
+
+    for (int i = 0; i < n; i++) {
+        seen.insert(b[i]);
+
+        while (seen.count(mex)) {
+            mex++;
+        }
+
+        if (mex != a[i]) {
+            cout << -1 << '\n';
+            return 0;
         }
     }
 
