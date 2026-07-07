@@ -205,13 +205,23 @@
               "icon": "links-going-out",
               "title": "083 Code03 自由之路 的出链列表"
             }
+          },
+          {
+            "id": "d08c9e70261ebb98",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 626.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,7 +232,8 @@
       "cmdr:重新加载 Obsidian（不保存当前编辑内容）": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "templater-obsidian:Templater": false,
-      "juggl:Juggl global graph": false
+      "juggl:Juggl global graph": false,
+      "realclaudian:Open Claudian": false
     }
   },
   "floating": {
@@ -255,8 +266,8 @@
         "direction": "vertical",
         "x": 348,
         "y": 44,
-        "width": 1159,
-        "height": 869,
+        "width": 1160,
+        "height": 870,
         "maximize": false,
         "zoom": 0
       }
