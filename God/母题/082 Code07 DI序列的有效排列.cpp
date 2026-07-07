@@ -20,9 +20,9 @@ public:
             {
                 // dp[i][less] = dp[i+1][0] + dp[i+1][1] ... dp[i+1][less-1]
                 dp[i][1] = dp[i + 1][0];
-                for (int less = 2; less < n; less++)
+                for (int less = 2; less <= n; less++)
                 {
-                    dp[i][less] = dp[i][less - 1] + dp[i + 1][less - 1];
+                    dp[i][less] = (dp[i][less - 1] + dp[i + 1][less - 1])%mod;
                 }
             }
             else
@@ -31,7 +31,7 @@ public:
                 dp[i][n - i - 1] = dp[i + 1][n - i - 1];
                 for (int less = n - i - 2; less >= 0; less--)
                 {
-                    dp[i][less] = dp[i][less + 1] + dp[i + 1][less];
+                    dp[i][less] = (dp[i][less + 1] + dp[i + 1][less]) % mod;
                 }
             }
         }
