@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2f78b6897dca7343",
+            "id": "a748028239d359c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实验室/第一周/F - Total Product is N.md",
+                "file": "例题/牛客周赛 Round 144C.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "F - Total Product is N"
+              "title": "牛客周赛 Round 144C"
+            }
+          },
+          {
+            "id": "7536602e4aacccc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "实验室/第二周/A - 求阶乘.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "A - 求阶乘"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dij",
+                "query": "高精度",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -274,12 +289,16 @@
       }
     ]
   },
-  "active": "2f78b6897dca7343",
+  "active": "7536602e4aacccc4",
   "lastOpenFiles": [
-    "算法名/质因数.md",
-    "实验室/第一周/F - Total Product is N.md",
-    "实验室/第一周/E - Roads and Gates.md",
+    "例题/P2437 蜜蜂路线.md",
+    "实验室/第二周/A - 求阶乘.md",
+    "实验室/第二周",
     "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
+    "例题/牛客周赛 Round 144C.md",
+    "实验室/第一周/F - Total Product is N.md",
+    "算法名/质因数.md",
+    "实验室/第一周/E - Roads and Gates.md",
     "实验室/第一周/D - Maximize the Gap.md",
     "实验室/第一周/D - Count Subgrid Sum = K.md",
     "实验室/第一周/C - Variety.md",
@@ -301,10 +320,7 @@
     "母题/082 Code05 买卖股票的最佳时机含手续费.md",
     "母题/082 Code04 买卖股票的最佳时机 IV.md",
     "God/Roads_and_Gates.bin",
-    "母题/064 Code01 Dijkstra算法模版（Leetcode）.md",
     "God/Roads_and_Gates.cpp",
-    "母题/062 Code05 二维接雨水.md",
-    "母题/070 Code06 子矩阵最大累加和问题.md",
     "God/面试题 17.24. 最大子矩阵.cpp",
     "God/Count_Subgrid_Sum_K.bin",
     "God/Count_Subgrid_Sum_K.cpp",
@@ -312,7 +328,6 @@
     "God/Maximize_the_Gap.cpp",
     "God/Variety.bin",
     "God/Variety.cpp",
-    "God/AT_abc_463_c_ABC_463_C_Tallest_at_the_Moment.bin",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
     "image/Pasted image 20260611170400.png",
