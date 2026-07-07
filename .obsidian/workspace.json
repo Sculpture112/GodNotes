@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/051 Code06 完成旅途的最少时间.md",
+                "file": "母题/083 Code01 规划兼职工作.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "051 Code06 完成旅途的最少时间"
+              "title": "083 Code01 规划兼职工作"
             }
           }
         ]
@@ -276,11 +276,12 @@
   },
   "active": "2f78b6897dca7343",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-07-07 14.06.04.excalidraw.md",
+    "母题/082 Code07 DI序列的有效排列.md",
+    "母题/098 Code02 矩阵乘法与矩阵快速幂展示.md",
     "母题/051 Code06 完成旅途的最少时间.md",
+    "Excalidraw/Drawing 2026-07-07 14.06.04.excalidraw.md",
     "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
     "Excalidraw/Drawing 2026-07-07 12.04.45.excalidraw.md",
-    "母题/082 Code07 DI序列的有效排列.md",
     "母题/083 Code01 规划兼职工作.md",
     "超难], [[.md",
     "母题/064 Code02 最小体力消耗路径.md",
@@ -306,7 +307,6 @@
     "实验室/第一周/C - Variety.md",
     "实验室/第一周/D - 1D Country.md",
     "母题/048 Code02 边框为1的最大正方形.md",
-    "母题/048 Code01 二维前缀和.md",
     "God/Maximize_the_Gap.bin",
     "God/Maximize_the_Gap.cpp",
     "God/Variety.bin",
