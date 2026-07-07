@@ -13,78 +13,62 @@
 
 ```cpp
 #include <bits/stdc++.h>
+
 using namespace std;
 
-using i128 = __int128_t;
 using ll = long long;
+using i128 = __int128_t;
 
-bool ok(const vector<ll>& a, ll K, i128 x) {
+bool ok(vector<ll>& A,ll k,i128 x){
     i128 need = 0;
-    int n = a.size();
+    ll n = A.size();
 
-    for (int idx = 0; idx < n; idx++) {
+    for (int idx = 0; idx < n;idx++){
         int i = idx + 1;
 
-        if ((i128)a[idx] < x) {
-            i128 diff = x - a[idx];
+        if(A[idx] < x){
+            i128 diff = x - A[idx];
             need += (diff + i - 1) / i;
 
-            if (need > K) return false;
+            if(need > k){
+                return false;
+            }
         }
     }
-
-    return need <= K;
+    return need <= k;
 }
 
-void print_i128(i128 x) {
-    if (x == 0) {
-        cout << 0;
-        return;
-    }
-
-    string s;
-    while (x > 0) {
-        s.push_back('0' + x % 10);
-        x /= 10;
-    }
-
-    reverse(s.begin(), s.end());
-    cout << s;
-}
-
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-
-    int N;
-    ll K;
-    cin >> N >> K;
-
-    vector<ll> A(N);
+    int n;
+    ll k;
+    cin >> n >> k;
+    vector<ll> A(n);
     ll mn = LLONG_MAX;
 
-    for (int i = 0; i < N; i++) {
+    for (int i = 0; i < n; i++)
+    {
         cin >> A[i];
         mn = min(mn, A[i]);
     }
 
-    i128 left = mn;
-    i128 right = (i128)mn + (i128)N * K + 1; // 右边界不可行/开区间
+    i128 left = mn, right = (i128)mn + (i128)n * k + 1;
 
-    while (right - left > 1) {
-        i128 mid = (left + right) / 2;
-
-        if (ok(A, K, mid)) {
+    while(right - left >1){
+        i128 mid = (left - right) / 2 + right;
+        if(ok(A,k,mid)){
             left = mid;
-        } else {
+        }
+        else{
             right = mid;
         }
     }
-
-    print_i128(left);
-    cout << '\n';
+    cout << (ll)left;
 
     return 0;
+}
 }
 ```
 
