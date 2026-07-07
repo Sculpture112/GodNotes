@@ -4,49 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "3cffaa0dfaaaf48c",
+        "id": "dfc8c6d62e031964",
         "type": "tabs",
         "children": [
           {
-            "id": "7288bf7038c5d5af",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-05-03 15.05.56.excalidraw"
-            }
-          },
-          {
-            "id": "6848b69876ab1022",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-07-07 12.04.45.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-07-07 12.04.45.excalidraw"
-            }
-          },
-          {
-            "id": "9963fc663b8189fd",
+            "id": "2f78b6897dca7343",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/082 Code07 DI序列的有效排列.md",
+                "file": "母题/051 Code06 完成旅途的最少时间.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "082 Code07 DI序列的有效排列"
+              "title": "051 Code06 完成旅途的最少时间"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -223,12 +198,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "母题/082 Code07 DI序列的有效排列.md",
+                "file": "母题/051 Code06 完成旅途的最少时间.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "082 Code07 DI序列的有效排列 的出链列表"
+              "title": "051 Code06 完成旅途的最少时间 的出链列表"
             }
           },
           {
@@ -246,7 +221,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 519.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -298,12 +274,13 @@
       }
     ]
   },
-  "active": "9963fc663b8189fd",
+  "active": "e040dcd15ba51c56",
   "lastOpenFiles": [
+    "母题/051 Code06 完成旅途的最少时间.md",
     "Excalidraw/Drawing 2026-07-07 12.04.45.excalidraw.md",
     "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
-    "母题/083 Code01 规划兼职工作.md",
     "母题/082 Code07 DI序列的有效排列.md",
+    "母题/083 Code01 规划兼职工作.md",
     "超难], [[.md",
     "母题/064 Code02 最小体力消耗路径.md",
     "母题/064 Code01 Dijkstra算法模版（洛谷）.md",
@@ -331,7 +308,6 @@
     "母题/048 Code01 二维前缀和.md",
     "母题/047 Code02 等差数列差分.md",
     "God/Maximize_the_Gap.bin",
-    "母题/055 Code03 你可以安排的最多任务数目.md",
     "God/Maximize_the_Gap.cpp",
     "God/Variety.bin",
     "God/Variety.cpp",

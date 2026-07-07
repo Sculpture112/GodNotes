@@ -4,8 +4,8 @@
   "title": "在这个文件里面画一个3*3的表格。",
   "titleGenerationStatus": "failed",
   "createdAt": 1783397110026,
-  "updatedAt": 1783397292167,
-  "lastResponseAt": 1783397292167,
+  "updatedAt": 1783397637295,
+  "lastResponseAt": 1783397637295,
   "sessionId": "019f3ac0-51cd-7ec2-8400-90be39193c15",
   "providerState": {
     "threadId": "019f3ac0-51cd-7ec2-8400-90be39193c15",
@@ -13,13 +13,13 @@
     "transcriptRootPath": "C:\\Users\\17487\\.codex\\sessions"
   },
   "usage": {
-    "inputTokens": 23119,
+    "inputTokens": 44520,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 4992,
+    "cacheReadInputTokens": 44416,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 23119,
-    "percentage": 9,
+    "contextTokens": 44520,
+    "percentage": 17,
     "model": "gpt-5.5"
   }
 }
