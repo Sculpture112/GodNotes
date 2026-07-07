@@ -2,25 +2,24 @@
 using namespace std;
 #define ll long long
 ll a, b, k, n, m;
+const int N = 1005;
 const int MOD = 10007;
-ll ckn(ll k, ll n)
+ll C[N][N];
+void init()
 {
-    ll ans = 1;
-    ll chu = 1;
-    for (int i = n; i >= 1; i--, k--)
+    for (int i = 0; i <= 1000; i++)
     {
-        ans *= k;
-        chu *= i;
+        C[i][i] = C[i][0] = 1;
+        for (int j = 1; j < i; j++)
+        {
+            C[i][j] = (C[i - 1][j - 1] + C[i - 1][j]) % MOD;
+        }
     }
-    if (chu != 0)
-        ans /= chu;
-    ans %= MOD;
-    return ans;
 }
-
 ll power(ll a, ll b)
 {
     ll ans = 1;
+    a %= MOD;
     while (b)
     {
         if ((b & 1) != 0)
@@ -36,7 +35,10 @@ ll power(ll a, ll b)
 }
 ll solve()
 {
-    return ckn(k, n) * power(a, n) * power(b, m) % MOD;
+    ll ans = C[k][n];
+    ans = ans * power(a, n) % MOD;
+    ans = ans * power(b, m) % MOD;
+    return ans;
 }
 
 int main()
@@ -44,7 +46,7 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cin >> a >> b >> k >> n >> m;
-
+    init();
     cout << solve();
     return 0;
 }
