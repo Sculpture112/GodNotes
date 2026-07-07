@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/牛客周赛 Round 144C.md",
+                "file": "母题/098 Code01 乘法快速幂模版.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "牛客周赛 Round 144C"
+              "title": "098 Code01 乘法快速幂模版"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "高精度",
+                "query": "快速幂",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "文件列表"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -276,6 +275,8 @@
   },
   "active": "a748028239d359c2",
   "lastOpenFiles": [
+    "例题/牛客周赛 Round 144C.md",
+    "God/计算系数.cpp",
     "算法名/二分答案法.md",
     "实验室/第二周/A - 求阶乘.md",
     "God/_u6c42_u9636_u4e58.bin",
@@ -283,7 +284,6 @@
     "God/求阶乘.cpp",
     "例题/P2437 蜜蜂路线.md",
     "实验室/第二周",
-    "例题/牛客周赛 Round 144C.md",
     "实验室/第一周/F - Total Product is N.md",
     "算法名/质因数.md",
     "实验室/第一周/E - Roads and Gates.md",
@@ -305,14 +305,12 @@
     "母题/064 Code02 最小体力消耗路径.md",
     "母题/064 Code01 Dijkstra算法模版（洛谷）.md",
     "母题/082 Code06 买卖股票的最佳时机含冷冻期.md",
-    "母题/082 Code05 买卖股票的最佳时机含手续费.md",
     "God/Roads_and_Gates.bin",
     "God/Roads_and_Gates.cpp",
     "God/面试题 17.24. 最大子矩阵.cpp",
     "God/Count_Subgrid_Sum_K.bin",
     "God/Count_Subgrid_Sum_K.cpp",
     "God/Maximize_the_Gap.bin",
-    "God/Maximize_the_Gap.cpp",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
     "image/Pasted image 20260611170400.png",
