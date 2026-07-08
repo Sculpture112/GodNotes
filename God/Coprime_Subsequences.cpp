@@ -31,6 +31,7 @@ int main() {
     for (int i = 2; i <= n; i++) {
         pow2[i] = pow2[i - 1] * 2 % MOD;
     }
+    pow2[0] = 1;
 
     vector<ll> f(M+1, 0);
     for (int i = n; i > 0; i--)
