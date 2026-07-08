@@ -18,11 +18,11 @@ int main()
     }
 
     set<int> canUse;
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i <= n; i++)
     {
         if (!inA[i])
         {
-            canUse.insert(inA[i]);
+            canUse.insert(i);
         }
     }
 
@@ -48,11 +48,12 @@ int main()
     int mex = 0;
     for (int i = 0; i < n;i++){
         seen.insert(b[i]);
-        if(seen.count(mex)){
+        while(seen.count(mex)){
             mex++;
         }
         if(mex != a[i]){
             cout << -1 << "\n";
+            return 0;
         }
     }
 
