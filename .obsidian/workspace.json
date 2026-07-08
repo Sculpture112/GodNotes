@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实验室/第二周/H - Multiples of Length.md",
+                "file": "实验室/第二周/I - Coprime Subsequences.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "H - Multiples of Length"
+              "title": "I - Coprime Subsequences"
             }
           }
         ]
@@ -239,8 +239,9 @@
   },
   "active": "a748028239d359c2",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
     "实验室/第二周/H - Multiples of Length.md",
+    "实验室/第二周/I - Coprime Subsequences.md",
+    "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
     "God/Multiples_of_Length.bin",
     "实验室/第二周/G - Prefix Flip (Hard Version).md",
     "God/Multiples_of_Length.cpp",
