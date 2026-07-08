@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实验室/第二周/CF1364C Ehab and Prefix MEXs.md",
+                "file": "备赛/备赛.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CF1364C Ehab and Prefix MEXs"
+              "title": "备赛"
             }
           }
         ]
@@ -265,21 +265,22 @@
           }
         ],
         "direction": "vertical",
-        "x": 184,
-        "y": 2,
+        "x": 298,
+        "y": 7,
         "width": 1164,
-        "height": 874,
+        "height": 875,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "6a3fd64e57d39a84",
+  "active": "a748028239d359c2",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
+    "备赛/备赛.md",
     "实验室/第二周/CF1364C Ehab and Prefix MEXs.md",
     "God/Prefix_Flip_Hard_Version.cpp",
     "God/CF_1364_C_Ehab_and_Prefix_MEXs.bin",
-    "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
     "实验室/第二周/E - A BIT of a Construction.md",
     "God/CF_1364_C_Ehab_and_Prefix_MEXs.cpp",
     "God/A_BIT_of_a_Construction.bin",
