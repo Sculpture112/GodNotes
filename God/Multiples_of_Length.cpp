@@ -36,7 +36,7 @@ int main()
     }
     cout << "\n";
 
-    cout << 2 << " " << n << "\n";
+    cout << 1 << " " << n << "\n";
     for (int i = 1; i < n; i++)
     {
         cout << -a[i] * n << " ";
