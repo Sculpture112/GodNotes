@@ -14,6 +14,22 @@ int main() {
     vector<int> a(n);
     for (int i = 0; i < n;i++)
         cin >> a[i];
-        return 0;
+    if(n == 1){
+        cout << 1 << " " << 1 << "\n";
+        cout << -1 * a[0] << "\n";
+    }
+
+    cout << "1 1\n";
+    cout << 2 << " " << n << "\n";
+    for (int i = 0; i < n; i++) {
+        cout << a[i] * (n - 1) << " ";
+    }
+    cout << "\n";
     
+    for (int i = 0; i < n; i++) {
+        cout << -a[i] * n << " ";
+    }
+    cout << "\n";
+    return 0;
+        
 }
