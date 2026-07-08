@@ -239,6 +239,7 @@
   },
   "active": "a748028239d359c2",
   "lastOpenFiles": [
+    "God/Coprime_Subsequences.bin",
     "God/Coprime_Subsequences.cpp",
     "实验室/第二周/H - Multiples of Length.md",
     "实验室/第二周/I - Coprime Subsequences.md",
@@ -259,7 +260,6 @@
     "实验室/第二周/D - Missing Coin Sum.md",
     "God/A_BIT_of_a_Construction.cpp",
     "God/Missing_Coin_Sum.bin",
-    "God/Missing_Coin_Sum.cpp",
     "算法名/区间覆盖思想.md",
     "算法名/区间覆盖.md",
     "实验室/第一周/C - Tallest at the Moment.md",
