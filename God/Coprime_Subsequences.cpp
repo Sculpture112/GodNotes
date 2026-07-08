@@ -36,9 +36,9 @@ int main() {
     vector<ll> f(M+1, 0);
     for (int i = M; i > 0; i--)
     {
-        f[i] = pow2[cnt[i]] - 1;
+        f[i] = (pow2[cnt[i]] - 1+MOD)%MOD;
         for (int j = 2 * i; j <= M; j+=i) {
-            f[i] = (f[i] - f[j]) % MOD;
+            f[i] = (f[i] - f[j] + MOD) % MOD;
         }
     }
     cout << f[1];
