@@ -237,51 +237,14 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "floating": {
-    "id": "5a459975b1541050",
-    "type": "floating",
-    "children": [
-      {
-        "id": "926dcaba6099e5c1",
-        "type": "window",
-        "children": [
-          {
-            "id": "5d28af873b08d68c",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "6a3fd64e57d39a84",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md"
-                  },
-                  "icon": "excalidraw-icon",
-                  "title": "Drawing 2026-05-03 15.05.56.excalidraw"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 298,
-        "y": 6,
-        "width": 1166,
-        "height": 880,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "a748028239d359c2",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
+    "实验室/第二周/H - Multiples of Length.md",
     "God/Multiples_of_Length.bin",
     "实验室/第二周/G - Prefix Flip (Hard Version).md",
-    "实验室/第二周/H - Multiples of Length.md",
     "God/Multiples_of_Length.cpp",
     "God/Prefix_Flip_Hard_Version.bin",
-    "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
     "备赛/备赛.md",
     "实验室/第二周/CF1364C Ehab and Prefix MEXs.md",
     "God/Prefix_Flip_Hard_Version.cpp",
@@ -308,7 +271,6 @@
     "实验室/第一周/P1450 [HAOI2008] 硬币购物.md",
     "实验室/第一周/P1451 求细胞数量.md",
     "实验室/第一周/J - 蜜蜂路线.md",
-    "God/P_2437_蜜蜂路线.cpp",
     "算法名/容斥原理.md",
     "算法名/混合背包.md",
     "实验室/第一周/C - Raise Minimum.md",
