@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实验室/第二周/I - Coprime Subsequences.md",
+                "file": "实验室/第二周/A - 求阶乘.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "I - Coprime Subsequences"
+              "title": "A - 求阶乘"
             }
           }
         ]
@@ -239,17 +239,18 @@
   },
   "active": "a748028239d359c2",
   "lastOpenFiles": [
+    "实验室/第二周/CF1364C Ehab and Prefix MEXs.md",
+    "实验室/第二周/F - Ehab and Prefix MEXs.md",
+    "实验室/第二周/I - Coprime Subsequences.md",
     "God/Coprime_Subsequences.bin",
     "God/Coprime_Subsequences.cpp",
     "实验室/第二周/H - Multiples of Length.md",
-    "实验室/第二周/I - Coprime Subsequences.md",
     "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
     "God/Multiples_of_Length.bin",
     "实验室/第二周/G - Prefix Flip (Hard Version).md",
     "God/Multiples_of_Length.cpp",
     "God/Prefix_Flip_Hard_Version.bin",
     "备赛/备赛.md",
-    "实验室/第二周/CF1364C Ehab and Prefix MEXs.md",
     "God/Prefix_Flip_Hard_Version.cpp",
     "God/CF_1364_C_Ehab_and_Prefix_MEXs.bin",
     "实验室/第二周/E - A BIT of a Construction.md",
@@ -259,7 +260,6 @@
     "贪心.md",
     "实验室/第二周/D - Missing Coin Sum.md",
     "God/A_BIT_of_a_Construction.cpp",
-    "God/Missing_Coin_Sum.bin",
     "算法名/区间覆盖思想.md",
     "算法名/区间覆盖.md",
     "实验室/第一周/C - Tallest at the Moment.md",
