@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实验室/第二周/I - Coprime Subsequences.md",
+                "file": "牛客/小白月赛/D.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "I - Coprime Subsequences"
+              "title": "D"
             }
           }
         ]
@@ -239,8 +239,11 @@
   },
   "active": "a748028239d359c2",
   "lastOpenFiles": [
-    "算法名/gcd.md",
+    "算法名/栈.md",
+    "牛客/小白月赛/D.md",
+    "牛客/小白月赛/C.md",
     "实验室/第二周/I - Coprime Subsequences.md",
+    "算法名/gcd.md",
     "实验室/第二周/H - Multiples of Length.md",
     "实验室/第二周/G - Prefix Flip (Hard Version).md",
     "实验室/第二周/E - A BIT of a Construction.md",
@@ -272,9 +275,6 @@
     "实验室/第一周/C - Variety.md",
     "实验室/第一周/D - 1D Country.md",
     "实验室/第一周/D - Count Subgrid Sum = K.md",
-    "实验室/第一周/D - Maximize the Gap.md",
-    "实验室/第一周/E - Roads and Gates.md",
-    "实验室/第一周/G - Count Simple Paths.md",
     "image/Pasted image 20260707142236.png",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
