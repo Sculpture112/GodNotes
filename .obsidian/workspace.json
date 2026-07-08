@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "牛客/小白月赛/⑨ 串.md",
+                "file": "实验室/第二周/D - Missing Coin Sum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "⑨ 串"
+              "title": "D - Missing Coin Sum"
             }
           }
         ]
@@ -239,18 +239,19 @@
   },
   "active": "a748028239d359c2",
   "lastOpenFiles": [
+    "实验室/第二周/E - A BIT of a Construction.md",
+    "实验室/第二周/G - Prefix Flip (Hard Version).md",
+    "实验室/第二周/H - Multiples of Length.md",
+    "算法名/gcd.md",
+    "算法名/Kadane.md",
+    "算法名/mex.md",
     "牛客/小白月赛/D.md",
     "牛客/小白月赛/⑨ 串.md",
-    "算法名/栈.md",
     "牛客/小白月赛/C.md",
+    "算法名/栈.md",
     "实验室/第二周/I - Coprime Subsequences.md",
-    "算法名/gcd.md",
-    "实验室/第二周/H - Multiples of Length.md",
-    "实验室/第二周/G - Prefix Flip (Hard Version).md",
-    "实验室/第二周/E - A BIT of a Construction.md",
     "实验室/第二周/D - Missing Coin Sum.md",
     "实验室/第二周/CF1364C Ehab and Prefix MEXs.md",
-    "算法名/mex.md",
     "实验室/第二周/C - Money Buys Less Happiness Now.md",
     "实验室/第二周/B - 计算系数.md",
     "实验室/第二周/A - 求阶乘.md",
@@ -274,7 +275,6 @@
     "算法名/区间覆盖.md",
     "实验室/第一周/C - Tallest at the Moment.md",
     "实验室/第一周/C - Variety.md",
-    "实验室/第一周/D - 1D Country.md",
     "image/Pasted image 20260707142236.png",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
