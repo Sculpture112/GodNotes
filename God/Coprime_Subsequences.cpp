@@ -21,8 +21,8 @@ int main() {
     }
 
     vector<int> cnt(M+1, 0);
-    for (int i = 1; i <= n; i++) {
-        for (int j = i; j <= n;j+=i){
+    for (int i = 1; i <= M; i++) {
+        for (int j = i; j <= M;j+=i){
             cnt[i] += freq[j];
         }
     }
@@ -34,10 +34,10 @@ int main() {
     pow2[0] = 1;
 
     vector<ll> f(M+1, 0);
-    for (int i = n; i > 0; i--)
+    for (int i = M; i > 0; i--)
     {
         f[i] = pow2[cnt[i]] - 1;
-        for (int j = 2 * i; j <= n; j+=i) {
+        for (int j = 2 * i; j <= M; j+=i) {
             f[i] = (f[i] - f[j]) % MOD;
         }
     }
