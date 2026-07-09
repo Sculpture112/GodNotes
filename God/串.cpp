@@ -47,6 +47,7 @@ int main() {
                     ndp[newSum] = min(ndp[newSum], dp[oldSum] + cost[i][r]);
                 }
             }
+            dp = ndp;
         }
 
         int ans = INF;
