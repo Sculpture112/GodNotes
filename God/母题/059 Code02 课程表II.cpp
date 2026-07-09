@@ -8,17 +8,42 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+class Solution
+{
+public:
+    vector<int> findOrder(int numCourses, vector<vector<int>> &prerequisites)
+    {
+        vector<vector<int>> graph(numCourses);
+        vector<int> indegree(numCourses, 0);
 
-}
+        for(auto edge:prerequisites){
+            graph[edge[1]].push_back(edge[0]);
+            indegree[edge[0]]++;
+        }
 
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+        vector<int> queue(numCourses);
+        int l = 0, r = 0;
+        for (int i = 0; i < numCourses; i++)
+        {
+            if(indegree[i] == 0){
+                queue[r++] = i;
+            }
+        }
 
-    int T = 1;
-    // cin >> T;
-    while (T--) solve();
-
-    return 0;
-}
+        int cnt = 0;
+        for (int i : queue)
+        {
+            int cur = queue[l++];
+            cnt++;
+            while (l < r)
+            {
+                for(int next : graph[cur]){
+                    if(--indegree[next] == 0){
+                        queue[r++] = next;
+                    }
+                }
+            }
+        }
+        return cnt == numCourses ? queue : vector<int>();
+    }
+};
