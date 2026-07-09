@@ -21,8 +21,11 @@ int main() {
             suma += a[i];
         }
         int sumb = 0;
+        bool srt = false;
         for (int i = 0; i < n; i++) {
             cin >> b[i];
+            if(b[i]>a[i])
+                srt = true;
             sumb += b[i];
         }
 
@@ -31,9 +34,15 @@ int main() {
             continue;
         }
 
-        
+        int ans = suma - sumb;
+        if(srt)
+        {
+            cout << ans + c << "\n";
+            continue;
+        }
+        cout << ans << "\n";
 
-        
+        // cout << ans << "\n";
     }
     solve();
 
