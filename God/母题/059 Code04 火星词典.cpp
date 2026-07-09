@@ -11,7 +11,7 @@ public:
         {
             for (char c : word)
             {
-                indegree[c - '0'] = 0;
+                indegree[c - 'a'] = 0;
             }
         }
 
@@ -27,8 +27,8 @@ public:
             {
                 if (cur[j] != nxt[j])
                 {
-                    graph[cur[j]].push_back(nxt[j]);
-                    indegree[nxt[j]]++;
+                    graph[cur[j] - 'a'].push_back(nxt[j]-'a');
+                    indegree[nxt[j]-'a']++;
                     break;
                 }
             }
@@ -58,7 +58,7 @@ public:
         while (l < r)
         {
             int cur = queue[l++];
-            ans.push_back(cur + '0');
+            ans.push_back(cur + 'a');
             for (int nxt : graph[cur])
             {
                 if (--indegree[nxt] == 0)
