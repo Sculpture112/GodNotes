@@ -48,7 +48,7 @@ public:
 
                     merge = sz[up] + 1;
 
-                    visited[true] = true;
+                    visited[up] = true;
                     if (!visited[down])
                     {
                         merge += sz[down];
@@ -69,7 +69,7 @@ public:
     }
     void dfs(int n, int m, vector<vector<int>> &grid, int id, int i, int j)
     {
-        if (i < 0 || i == n || j < 0 || j == m)
+        if (i < 0 || i == n || j < 0 || j == m||grid[i][j] != 1)
             return;
 
         grid[i][j] = id;
