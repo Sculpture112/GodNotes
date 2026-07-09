@@ -16,7 +16,8 @@ public:
         vector<vector<int>> graph(numCourses);
         vector<int> indegree(numCourses, 0);
 
-        for(auto edge:prerequisites){
+        for (auto edge : prerequisites)
+        {
             graph[edge[1]].push_back(edge[0]);
             indegree[edge[0]]++;
         }
@@ -25,22 +26,22 @@ public:
         int l = 0, r = 0;
         for (int i = 0; i < numCourses; i++)
         {
-            if(indegree[i] == 0){
+            if (indegree[i] == 0)
+            {
                 queue[r++] = i;
             }
         }
 
         int cnt = 0;
-        for (int i : queue)
+        while (l < r)
         {
             int cur = queue[l++];
             cnt++;
-            while (l < r)
+            for (int next : graph[cur])
             {
-                for(int next : graph[cur]){
-                    if(--indegree[next] == 0){
-                        queue[r++] = next;
-                    }
+                if (--indegree[next] == 0)
+                {
+                    queue[r++] = next;
                 }
             }
         }
