@@ -18,7 +18,7 @@ void solve()
     int l = 0, r = 0;
     vector<int> queue(n, 0);
 
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i <= n; i++)
     {
         if (indegree[i] == 0)
         {
@@ -38,6 +38,11 @@ void solve()
                 queue[r++] = nxt;
             }
         }
+    }
+
+    if(cnt != n){
+        cout << -1;
+        return;
     }
 
     for (int i = 0; i < n - 1; i++)
