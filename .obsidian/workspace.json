@@ -68,7 +68,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabeticalReverse",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -239,6 +239,12 @@
   },
   "active": "c255f87f29432aa9",
   "lastOpenFiles": [
+    "母题/061 Code05 繁忙的都市.md",
+    "母题/061 Code04 检查边长度限制的路径是否存在.md",
+    "母题/061 Code03 水资源分配优化.md",
+    "母题/061 Code02 Prim算法优化静态空间.md",
+    "母题/061 Code02 Prim算法模版动态空间.md",
+    "母题/061 Code01 Kruskal算法模版.md",
     "母题/060 Code04 参加会议的最多员工数.md",
     "母题/060 Code03 并行课程III.md",
     "母题/060 Code02 喧闹和富有.md",
@@ -261,12 +267,6 @@
     "未命名 1",
     "备份",
     "备份/059 Code03 字典序最小的拓扑排序.md",
-    "备份/059 Code04 火星词典.md",
-    "备份/059 Code02 拓扑排序 (牛客版).md",
-    "备份/059 Code02 拓扑排序 (链式前向星版).md",
-    "备份/059 Code02 拓扑排序 (课程表 II).md",
-    "备份/059 Code01 图的三种建立方式.md",
-    "备份/059 Code05 戳印序列.md",
     "God/B_Crimson_Triples.bin",
     "Codeforces/div2/1106",
     "Codeforces/div2",
