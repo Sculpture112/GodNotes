@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
+const int INF = 1e9;
 class Solution
 {
 public:
@@ -22,19 +23,48 @@ public:
 
         for (int i = 0; i < n; i++)
         {
-            for (int j = 0; j < n; j++)
+            for (int j = 0; j < m; j++)
             {
-                if(grid[i][j] !=0){
+                if (grid[i][j] != 0)
+                {
                     sz[grid[i][j]]++;
                 }
             }
         }
-        ll ans = 0;
+        int ans = 0;
         for (int i = 0; i < n; i++)
         {
+            for (int j = 0; j < m; j++)
+            {
+                if (grid[i][j] == 0)
+                {
+                    vector<int> visited(id, false);
+                    int up, down, right, left, merge = 0;
+                    up = i > 0 ? grid[i - 1][j] : 0;
+                    down = i < n - 1 ? grid[i + 1][j] : 0;
+                    right = j < m - 1 ? grid[i][j + 1] : 0;
+                    left = j > 0 ? grid[i][j - 1] : 0;
 
-            
+                    merge = sz[up] + 1;
+
+                    up = true;
+                    if (!visited[down])
+                    {
+                        ans += sz[down];
+                    }
+                    if (!visited[right])
+                    {
+                        ans += sz[right];
+                    }
+                    if (!visited[left])
+                    {
+                        ans += sz[left];
+                    }
+                    ans = max(ans, merge);
+                }
+            }
         }
+        return ans;
     }
     void dfs(int n, int m, vector<vector<int>> &grid, int id, int i, int j)
     {
