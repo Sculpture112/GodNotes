@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a748028239d359c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "算法名/01背包.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01背包"
-            }
-          },
-          {
             "id": "c255f87f29432aa9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/058 Code01 岛屿数量.md",
+                "file": "母题/058 Code02 被围绕的区域.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "058 Code01 岛屿数量"
+              "title": "058 Code02 被围绕的区域"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -254,7 +239,9 @@
   },
   "active": "c255f87f29432aa9",
   "lastOpenFiles": [
+    "母题/058 Code03 最大人工岛.md",
     "母题/058 Code02 被围绕的区域.md",
+    "母题/058 Code01 岛屿数量.md",
     "母题/059 Code03 字典序最小的拓扑排序.md",
     "母题/059 Code01 图的三种建立方式.md",
     "母题/047 Code01 航班预订统计.md",
@@ -288,8 +275,6 @@
     "算法名/mex.md",
     "算法名/栈.md",
     "实验室/第二周/I - Coprime Subsequences.md",
-    "实验室/第二周/CF1364C Ehab and Prefix MEXs.md",
-    "实验室/第二周/C - Money Buys Less Happiness Now.md",
     "image/Pasted image 20260707142236.png",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
