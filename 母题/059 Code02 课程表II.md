@@ -34,6 +34,7 @@ public:
         // 入度表
         vector<int> indegree(numCourses, 0);
         for (vector<int>& edge : prerequisites) {
+	        //这里定义graph[x]，意为学完x可以解锁哪些课程，所有edge1学完之后解锁edge0
             graph[edge[1]].push_back(edge[0]);
             indegree[edge[0]]++;
         }
