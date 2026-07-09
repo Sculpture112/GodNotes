@@ -39,7 +39,7 @@ public:
             {
                 if (grid[i][j] == 0)
                 {
-                    vector<int> visited(id, false);
+                    vector<bool> visited(id, false);
                     int up, down, right, left, merge = 0;
                     up = i > 0 ? grid[i - 1][j] : 0;
                     down = i < n - 1 ? grid[i + 1][j] : 0;
@@ -52,14 +52,17 @@ public:
                     if (!visited[down])
                     {
                         merge += sz[down];
+                        visited[down] = true;
                     }
                     if (!visited[right])
                     {
                         merge += sz[right];
+                        visited[right] = true;
                     }
                     if (!visited[left])
                     {
                         merge += sz[left];
+                        visited[left] = true;
                     }
                     ans = max(ans, merge);
                 }
