@@ -44,7 +44,7 @@ int main() {
                 if(dp[oldSum] == INF) continue;
                 for (int r = 0; r < 9;r++){
                     int newSum = (oldSum + r) % 9;
-                    ndp[newSum] = min(dp[newSum], dp[oldSum] + cost[i][oldSum]);
+                    ndp[newSum] = min(ndp[newSum], dp[oldSum] + cost[i][r]);
                 }
             }
         }
