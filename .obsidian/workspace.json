@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/059 Code01 建图的三种方式.md",
+                "file": "母题/059 Code02 课程表II.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "059 Code01 建图的三种方式"
+              "title": "059 Code02 课程表II"
             }
           }
         ]
@@ -239,9 +239,10 @@
   },
   "active": "c255f87f29432aa9",
   "lastOpenFiles": [
+    "母题/059 Code01 建图的三种方式.md",
+    "母题/059 Code02 课程表II.md",
     "母题/058 Code04 打砖块.md",
     "杂物/二次思路过.md",
-    "母题/059 Code01 建图的三种方式.md",
     "算法名/逆向.md",
     "算法名/逆序恢复.md",
     "母题/058 Code03 最大人工岛.md",
@@ -274,7 +275,6 @@
     "母题/061 Code01 Kruskal算法模版.md",
     "母题/060 Code04 参加会议的最多员工数.md",
     "母题/060 Code03 并行课程III.md",
-    "母题/060 Code02 喧闹和富有.md",
     "image/Pasted image 20260707142236.png",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
