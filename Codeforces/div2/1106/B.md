@@ -29,6 +29,7 @@ int main() {
         long long ans = 0;
         for (long long b = 1; b <= n; b++) {
             long long cnt = n / b;
+            
             ans += cnt * cnt;
         }
 
