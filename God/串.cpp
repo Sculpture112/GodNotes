@@ -21,10 +21,10 @@ int main() {
         vector<vector<int>> cnt(g, vector<int>(9, 0));
         vector<int> sz(g, 0);
         for (int i = 0; i < n;i++){
-            int group = i % 9;
+            int group = i % g;
             int r = (s[i] - '0') % 9;
             cnt[group][r]++;
-            sz[g]++;
+            sz[group]++;
         }
 
         vector<vector<int>> cost(g, vector<int>(9, 0));
