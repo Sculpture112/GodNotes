@@ -33,7 +33,19 @@ int main() {
             cout << -1 << "\n";
             continue;
         }
-
+        sort(a.begin(), a.end());
+        sort(b.begin(), b.end());
+        int i = 0, j = 0;
+        bool con = false;
+        while(i<n){
+            if(a[i]<b[j]){
+                cout << -1 << "\n";
+                con = true;
+                break;
+            }
+            i++, j++;
+        }
+        if(con) continue;
         int ans = suma - sumb;
         if(srt)
         {
