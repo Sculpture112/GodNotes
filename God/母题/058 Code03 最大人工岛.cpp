@@ -20,6 +20,7 @@ public:
         }
 
         vector<int> sz(id, 0);
+        int ans = 0;
 
         for (int i = 0; i < n; i++)
         {
@@ -28,10 +29,10 @@ public:
                 if (grid[i][j] != 0)
                 {
                     sz[grid[i][j]]++;
+                    ans = max(ans, sz[grid[i][j]]);
                 }
             }
         }
-        int ans = 0;
         for (int i = 0; i < n; i++)
         {
             for (int j = 0; j < m; j++)
@@ -47,18 +48,18 @@ public:
 
                     merge = sz[up] + 1;
 
-                    up = true;
+                    visited[true] = true;
                     if (!visited[down])
                     {
-                        ans += sz[down];
+                        merge += sz[down];
                     }
                     if (!visited[right])
                     {
-                        ans += sz[right];
+                        merge += sz[right];
                     }
                     if (!visited[left])
                     {
-                        ans += sz[left];
+                        merge += sz[left];
                     }
                     ans = max(ans, merge);
                 }
@@ -71,7 +72,7 @@ public:
         if (i < 0 || i == n || j < 0 || j == m)
             return;
 
-        grid[i][j] == id;
+        grid[i][j] = id;
         dfs(n, m, grid, id, i + 1, j);
         dfs(n, m, grid, id, i, j - 1);
         dfs(n, m, grid, id, i - 1, j);
