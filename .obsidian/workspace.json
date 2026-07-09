@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/058 Code03 最大人工岛.md",
+                "file": "母题/058 Code04 打砖块.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "058 Code03 最大人工岛"
+              "title": "058 Code04 打砖块"
             }
           }
         ]
@@ -237,8 +237,11 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "c31c5bd99dc4b701",
+  "active": "c255f87f29432aa9",
   "lastOpenFiles": [
+    "算法名/逆序恢复.md",
+    "母题/058 Code04 打砖块.md",
+    "母题/058 Code03 最大人工岛.md",
     "God/母题/063 Code03 最接近目标值的子序列和.cpp",
     "God/母题/063 Code02 牛牛的背包问题与世界冰球锦标赛.cpp",
     "God/母题/063 Code01 单词接龙.cpp",
@@ -249,9 +252,7 @@
     "God/母题/062 Code02 贴纸拼词.cpp",
     "God/母题/062 Code01 地图分析.cpp",
     "God/母题/061 Code05 繁忙的都市.cpp",
-    "God/母题/061 Code04 检查边长度限制的路径是否存在.cpp",
     "算法名/洪水模型.md",
-    "母题/058 Code03 最大人工岛.md",
     "算法名/DFS染色.md",
     "母题/063 Code03 最接近目标值的子序列和.md",
     "母题/063 Code02 牛牛的背包问题与世界冰球锦标赛.md",
@@ -273,7 +274,6 @@
     "母题/060 Code02 喧闹和富有.md",
     "母题/060 Code01 最大食物链计数.md",
     "母题/058 Code02 被围绕的区域.md",
-    "母题/058 Code04 打砖块.md",
     "备份/060 Code01 最大食物链计数.md",
     "image/Pasted image 20260707142236.png",
     "image/Pasted image 20260627193216.png",
