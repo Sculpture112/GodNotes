@@ -237,45 +237,9 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "floating": {
-    "id": "71ff798bdea0a489",
-    "type": "floating",
-    "children": [
-      {
-        "id": "a863238142f40323",
-        "type": "window",
-        "children": [
-          {
-            "id": "798d6ad8f6ef5cad",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "7501c82f2c0c02f8",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Drawing 2026-07-07 14.06.04.excalidraw.md"
-                  },
-                  "icon": "excalidraw-icon",
-                  "title": "Drawing 2026-07-07 14.06.04.excalidraw"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 720,
-        "y": 104,
-        "width": 878,
-        "height": 792,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "7501c82f2c0c02f8",
+  "active": "a748028239d359c2",
   "lastOpenFiles": [
+    "God/B_Crimson_Triples.bin",
     "Excalidraw/Drawing 2026-07-07 14.06.04.excalidraw.md",
     "Codeforces/div2/1106/B.md",
     "算法名/数论.md",
@@ -311,7 +275,6 @@
     "God/Coprime_Subsequences.bin",
     "Excalidraw/Drawing 2026-05-03 15.05.56.excalidraw.md",
     "备赛/备赛.md",
-    "算法名/贪心算法.md",
     "image/Pasted image 20260707142236.png",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
