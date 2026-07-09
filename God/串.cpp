@@ -34,9 +34,30 @@ int main() {
             }
         }
 
-        
+        const int INF = 1e9;
+
+        vector<int> dp(9, INF);
+        dp[0] = 0;
+        for (int i = 0; i < g; i++) {
+            vector<int> ndp(9, INF);
+            for (int oldSum = 0; oldSum < 9; oldSum++) {
+                if(dp[oldSum] == INF) continue;
+                for (int r = 0; r < 9;r++){
+                    int newSum = (oldSum + r) % 9;
+                    ndp[newSum] = min(dp[newSum], dp[oldSum] + cost[i][oldSum]);
+                }
+            }
+        }
+
+        int ans = INF;
+        for (int sum = 0; sum < 9;sum++){
+            int windowsum = sum * (9 / g) % 9;
+            if(windowsum == 0){
+                ans = min(ans, dp[sum]);
+            }
+        }
+        cout << ans << "\n";
     }
-    solve();
 
     return 0;
 }
