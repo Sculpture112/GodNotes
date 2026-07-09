@@ -6,7 +6,7 @@ class Solution
 public:
     string alienOrder(vector<string> &words)
     {
-        vector<int> indegree(26);
+        vector<int> indegree(26,-1);
         for (auto word : words)
         {
             for (char c : word)
@@ -15,7 +15,7 @@ public:
             }
         }
 
-        vector<vector<int>> graph(words.size());
+        vector<vector<int>> graph(26);
         for (int i = 0, j; i < words.size() - 1; i++)
         {
             string cur = words[i];
