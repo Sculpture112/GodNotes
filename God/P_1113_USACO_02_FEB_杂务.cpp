@@ -57,6 +57,7 @@ void solve()
                 }
             }
         }
+        ans += mx;
     }
 }
 
