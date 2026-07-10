@@ -34,14 +34,12 @@ public:
             }
         }
 
-        vector<int> path(n-m+1);
-        int cnt = 0;
+        vector<int> path;
         vector<bool> visited(n,false);
         while (l < r)
         {
             int cur = queue[l++];
             path.push_back(cur);
-            cnt++;
             for (int i = 0; i < m;i++){
                 if(!visited[cur + i]){
                     visited[cur + i] = true;
@@ -53,5 +51,9 @@ public:
                 }
             }
         }
+        if(path.size() != n-m+1){
+            return vector<int>();
+        }
+        return path;
     }
 };
