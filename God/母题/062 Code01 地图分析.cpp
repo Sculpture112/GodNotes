@@ -37,6 +37,9 @@ public:
                 }
             }
         }
+        if(seas == 0||seas == n*m){
+            return -1;
+        }
 
         int level = 0;
         while (l < r)
@@ -50,11 +53,11 @@ public:
                 {
                     int nx = x + dx[i];
                     int ny = y + dy[i];
-                    if (nx < 0 || nx == n || ny < 0 || ny == m || !visited[x][y])
+                    if (nx < 0 || nx == n || ny < 0 || ny == m || !visited[nx][ny])
                     {
                         continue;
                     }
-                    visited[x][y] = true;
+                    visited[nx][ny] = true;
                     queue[r++] = {nx, ny};
                 }
             }
