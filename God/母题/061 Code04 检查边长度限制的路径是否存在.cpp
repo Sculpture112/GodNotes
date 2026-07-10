@@ -13,7 +13,7 @@ public:
         sort(edgeList.begin(), edgeList.end(), [](auto &a, auto &b)
              { return a[2] < b[2]; });
 
-        vector<vector<int>> questions(m + 1, vector<int>(4,0));
+        vector<vector<int>> questions(m, vector<int>(4,0));
         for (int i = 0; i < m;i++){
             questions[i][0] = queries[i][0];
             questions[i][1] = queries[i][1];
@@ -24,7 +24,7 @@ public:
              { return a[2] < b[2]; });
 
         father.resize(n + 1);
-        for (int i = 1; i <= n; i++)
+        for (int i = 0; i < n; i++)
         {
             father[i] = i;
         }
@@ -47,7 +47,7 @@ public:
     }
     bool unite(int x,int y){
         if(find(x) != find(y)){
-            father[x] = y;
+            father[find(x)] = find(y);
             return true;
         }
         return false;
