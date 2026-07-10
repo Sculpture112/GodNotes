@@ -7,7 +7,7 @@ public:
     vector<int> father;
     vector<bool> distanceLimitedPathsExist(int n, vector<vector<int>> &edgeList, vector<vector<int>> &queries)
     {
-        int n = edgeList.size();
+        int b = edgeList.size();
         int m = queries.size();
 
         sort(edgeList.begin(), edgeList.end(), [](auto &a, auto &b)
@@ -30,7 +30,7 @@ public:
         }
 
         for (int i = 0, j = 0; i < n;i++){
-            
+
         }
     }
     int find (int i){
