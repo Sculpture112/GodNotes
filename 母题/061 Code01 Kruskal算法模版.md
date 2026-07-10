@@ -30,7 +30,7 @@ const int MAXM = 200001;
 int father[MAXN];
 
 // u, v, w
-array<int, 3> edges[MAXM];
+int edges[MAXM][3];
 
 int n, m;
 
