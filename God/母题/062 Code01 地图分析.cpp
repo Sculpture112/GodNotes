@@ -42,15 +42,23 @@ public:
         while (l < r)
         {
             level++;
-            auto [i, j] = queue[l++];
             int size = r - l;
             for (int k = 0; k < size; k++)
             {
+                auto [x, y] = queue[l++];
                 for (int i = 0; i < 4; i++)
                 {
-                    
+                    int nx = x + dx[i];
+                    int ny = y + dy[i];
+                    if (nx < 0 || nx == n || ny < 0 || ny == m || !visited[x][y])
+                    {
+                        continue;
+                    }
+                    visited[x][y] = true;
+                    queue[r++] = {nx, ny};
                 }
             }
         }
+        return level - 1;
     }
 };
