@@ -54,6 +54,7 @@ public:
         if(path.size() != n-m+1){
             return vector<int>();
         }
+        reverse(path.begin(), path.end());
         return path;
     }
 };
