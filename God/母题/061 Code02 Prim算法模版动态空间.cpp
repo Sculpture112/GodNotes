@@ -6,7 +6,7 @@ void solve()
     int n, m;
     cin >> n >> m;
     vector<vector<pair<int, int>>> graph(n + 1);
-    for (int i = 0, u, v, w; i < n; i++)
+    for (int i = 0, u, v, w; i < m; i++)
     {
         cin >> u >> v >> w;
         graph[u].push_back({w, v});
