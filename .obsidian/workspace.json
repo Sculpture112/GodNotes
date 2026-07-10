@@ -198,26 +198,16 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "母题/051 Code06 完成旅途的最少时间.md",
+                "file": "母题/061 Code01 Kruskal算法模版.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "051 Code06 完成旅途的最少时间 的出链列表"
-            }
-          },
-          {
-            "id": "fedf1f4aa2154717",
-            "type": "leaf",
-            "state": {
-              "type": "claudian-view",
-              "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "title": "061 Code01 Kruskal算法模版 的出链列表"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
