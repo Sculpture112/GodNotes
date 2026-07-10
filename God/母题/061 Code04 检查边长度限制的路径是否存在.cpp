@@ -30,9 +30,9 @@ public:
         }
 
         vector<bool> ans(m);
-        for (int i = 0, j = 0; i < b; i++)
+        for (int i = 0, j = 0; i < m; i++)
         {
-            for (; j < m&& edgeList[j][2]<questions[i][2];j++){
+            for (; j < b&& edgeList[j][2]<questions[i][2];j++){
                 unite(edgeList[j][0], edgeList[j][1]);
             }
             ans[questions[i][3]] = Issamset(questions[i][0], questions[i][1]);
