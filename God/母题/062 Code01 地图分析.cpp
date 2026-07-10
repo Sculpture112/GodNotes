@@ -53,7 +53,7 @@ public:
                 {
                     int nx = x + dx[i];
                     int ny = y + dy[i];
-                    if (nx < 0 || nx == n || ny < 0 || ny == m || !visited[nx][ny])
+                    if (nx < 0 || nx == n || ny < 0 || ny == m || visited[nx][ny])
                     {
                         continue;
                     }
