@@ -42,9 +42,9 @@ public:
             int cur = queue[l++];
             path.push_back(cur);
             cnt++;
-            for (int nxt : graph[cur])
+            for (int i : graph[cur])
             {
-                if(!visited[cur ])
+                if(!visited[cur])
             }
         }
     }
