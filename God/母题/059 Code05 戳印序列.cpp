@@ -20,7 +20,7 @@ public:
         {
             for (int j = 0; j < m; j++)
             {
-                if (s[i + j] == s[j])
+                if (t[i + j] == s[j])
                 {
                     if (--indegree[i] == 0)
                     {
