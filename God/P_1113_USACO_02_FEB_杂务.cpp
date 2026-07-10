@@ -9,7 +9,45 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
+    int n;
+    cin >> n;
+    vector<int> len(n + 1);
+    vector<int> finish(n + 1);
+    vector<vector<int>> g(n + 10);
+    vector<int> in(n + 1);
+    for (int i = 0; i < n; i++)
+    {
+        int id, len;
+        cin >> id >> len;
+        int pre;
+        while(cin>>pre && pre!=0){
+            g[pre].push_back(id);
+            in[id]++;
+        }
+    }
 
+    vector<int> q;
+    int l = 0, r = 0;
+    for (int i = 1;i<=n;i++){
+        if(in[i]==0){
+            finish[i] = len[i];
+            q[r++] = i;
+        }
+    }
+
+    int ans = 0;
+    while(l<r){
+        int cur = q[l++];
+        ans += finish[cur];
+        for(int nxt:g[cur]){
+            if(--in[nxt] == 0){
+                q[r++] = nxt;
+            }
+            finish[nxt] = max(finish[nxt], finish[cur] + len[nxt]);
+        }
+
+    }
+    cout << ans;
 }
 
 int main() {
