@@ -21,10 +21,14 @@ public:
         }
         sort(questions.begin(), questions.end(), [](auto &a, auto &b)
              { return a[2] < b[2]; });
-        
 
-        
-        
-        
+        int father[n + 1];
+        for (int i = 1; i <= n; i++)
+        {
+            father[i] = i;
+        }
+
+
     }
+    
 };
