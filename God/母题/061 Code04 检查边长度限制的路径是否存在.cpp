@@ -29,10 +29,13 @@ public:
             father[i] = i;
         }
 
-        for (int i = 0, j = 0; i < b;i++){
-            for (; j < m&& edge[];j++){
-
+        vector<bool> ans(m);
+        for (int i = 0, j = 0; i < b; i++)
+        {
+            for (; j < m&& edgeList[i][2]<questions[j][2];j++){
+                unite(edgeList[i][0], edgeList[i][1]);
             }
+            ans[i] = 
         }
     }
     int find (int i){
