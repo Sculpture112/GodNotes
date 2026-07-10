@@ -48,8 +48,8 @@ void solve()
         int sz = r - l;
         int mx = 0;
         for (int k = 0; k < sz;k++){
-            auto [cost, i] = queue[l++];
-            mx = max(mx, cost);
+            auto [fee, i] = queue[l++];
+            mx = max(mx, fee);
             for(int nxt : graph[i])
             {
                 if(--indegree[nxt] == 0){
@@ -59,6 +59,7 @@ void solve()
         }
         ans += mx;
     }
+    cout << ans;
 }
 
 int main()
