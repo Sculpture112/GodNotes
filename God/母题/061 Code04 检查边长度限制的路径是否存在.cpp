@@ -29,7 +29,9 @@ public:
             father[i] = i;
         }
 
-
+        for (int i = 0, j = 0; i < n;i++){
+            
+        }
     }
     int find (int i){
         if(i != father[i]){
@@ -39,7 +41,12 @@ public:
     }
     bool unite(int x,int y){
         if(find(x) != find(y)){
-            
+            father[x] = y;
+            return true;
         }
+        return false;
+    }
+    bool Issamset(int x,int y){
+        return find(x) == find(y);
     }
 };
