@@ -1,15 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void solve() {
-    
-}
-
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    solve();
-
-    return 0;
-}
+class Solution
+{
+public:
+    vector<bool> distanceLimitedPathsExist(int n, vector<vector<int>> &edgeList, vector<vector<int>> &queries)
+    {
+    }
+};
