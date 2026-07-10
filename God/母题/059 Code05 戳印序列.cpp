@@ -34,12 +34,18 @@ public:
             }
         }
 
-        vector<int> path;
+        vector<int> path(n-m+1);
+        int cnt = 0;
+        vector<bool> visited(n,false);
         while (l < r)
         {
             int cur = queue[l++];
             path.push_back(cur);
-            
+            cnt++;
+            for (int nxt : graph[cur])
+            {
+                if(!visited[cur ])
+            }
         }
     }
 };
