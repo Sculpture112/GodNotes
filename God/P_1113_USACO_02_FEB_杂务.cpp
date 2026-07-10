@@ -17,16 +17,17 @@ void solve() {
     vector<int> in(n + 1);
     for (int i = 0; i < n; i++)
     {
-        int id, len;
-        cin >> id >> len;
+        int id, length;
+        cin >> id >> length;
         int pre;
+        len[id] = length;
         while(cin>>pre && pre!=0){
             g[pre].push_back(id);
             in[id]++;
         }
     }
 
-    vector<int> q;
+    vector<int> q(n+1);
     int l = 0, r = 0;
     for (int i = 1;i<=n;i++){
         if(in[i]==0){
@@ -38,7 +39,7 @@ void solve() {
     int ans = 0;
     while(l<r){
         int cur = q[l++];
-        ans += finish[cur];
+        ans = max(ans,finish[cur]);
         for(int nxt:g[cur]){
             if(--in[nxt] == 0){
                 q[r++] = nxt;
