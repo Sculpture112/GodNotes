@@ -4,6 +4,7 @@ using namespace std;
 class Solution
 {
 public:
+    vector<int> father;
     vector<bool> distanceLimitedPathsExist(int n, vector<vector<int>> &edgeList, vector<vector<int>> &queries)
     {
         int n = edgeList.size();
@@ -22,7 +23,7 @@ public:
         sort(questions.begin(), questions.end(), [](auto &a, auto &b)
              { return a[2] < b[2]; });
 
-        int father[n + 1];
+        father.resize(n + 1);
         for (int i = 1; i <= n; i++)
         {
             father[i] = i;
@@ -37,6 +38,8 @@ public:
         return father[i];
     }
     bool unite(int x,int y){
-        
+        if(find(x) != find(y)){
+            
+        }
     }
 };
