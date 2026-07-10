@@ -29,8 +29,10 @@ public:
             father[i] = i;
         }
 
-        for (int i = 0, j = 0; i < n;i++){
+        for (int i = 0, j = 0; i < b;i++){
+            for (; j < m&& edge[];j++){
 
+            }
         }
     }
     int find (int i){
