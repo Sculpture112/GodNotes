@@ -1,15 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void solve() {
-    
-}
+using ll = long long;
 
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+const int INF = 0x3f3f3f3f;
+const ll LINF = 4e18;
 
-    solve();
+#define all(x) (x).begin(), (x).end()
 
-    return 0;
-}
+class Solution
+{
+public:
+    int maxDistance(vector<vector<int>> &grid)
+    {
+    }
+};
