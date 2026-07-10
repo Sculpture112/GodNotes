@@ -223,8 +223,7 @@
       "cmdr:重新加载 Obsidian（不保存当前编辑内容）": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "templater-obsidian:Templater": false,
-      "juggl:Juggl global graph": false,
-      "realclaudian:Open Claudian": false
+      "juggl:Juggl global graph": false
     }
   },
   "active": "c255f87f29432aa9",
