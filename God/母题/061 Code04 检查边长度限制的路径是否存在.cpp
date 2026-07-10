@@ -35,8 +35,9 @@ public:
             for (; j < m&& edgeList[i][2]<questions[j][2];j++){
                 unite(edgeList[i][0], edgeList[i][1]);
             }
-            ans[i] = 
+            ans[i] = Issamset(questions[i][0], questions[i][1]);
         }
+        return ans;
     }
     int find (int i){
         if(i != father[i]){
