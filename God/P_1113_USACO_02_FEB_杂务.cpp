@@ -8,8 +8,9 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 const int MAXN = 100001;
-vector<vector<pair<int,int>>> graph(MAXN);
+vector<vector<int>> graph(MAXN);
 int indegree[MAXN];
+int cost[MAXN];
 void solve()
 {
     int n;
@@ -22,26 +23,39 @@ void solve()
         cin >> u >> w;
         int x;
         cin >> x;
-
+        cost[u] = w;
         while (x > 0)
         {
-            graph[x].push_back({w,x});
+
+            graph[x].push_back(u);
             indegree[u]++;
             cin >> x;
         }
-
-        vector<pair<int, int>> queue;
-        int l = 0, r = 0;
-        for (int i = 1; i <= n;i++){
-            if(indegree[i] == 0)
-            {
-                queue[r++] = {};
-            }
+    }
+    vector<pair<int, int>> queue;
+    int l = 0, r = 0;
+    for (int i = 1; i <= n; i++)
+    {
+        if (indegree[i] == 0)
+        {
+            queue[r++] = {cost[i], i};
         }
+    }
 
-        while(l<r){
-            int cur = queue[l++];
-
+    int ans = 0;
+    while (l < r)
+    {
+        int sz = r - l;
+        int mx = 0;
+        for (int k = 0; k < sz;k++){
+            auto [cost, i] = queue[l++];
+            mx = max(mx, cost);
+            for(int nxt : graph[i])
+            {
+                if(--indegree[nxt] == 0){
+                    queue[l++] = {cost[nxt], nxt};
+                }
+            }
         }
     }
 }
