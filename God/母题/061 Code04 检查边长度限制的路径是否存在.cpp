@@ -12,13 +12,19 @@ public:
         sort(edgeList.begin(), edgeList.end(), [](auto &a, auto &b)
              { return a[2] < b[2]; });
 
-        vector<vector<int>> questions(m + 1, 4);
+        vector<vector<int>> questions(m + 1, vector<int>(4,0));
         for (int i = 0; i < m;i++){
             questions[i][0] = queries[i][0];
             questions[i][1] = queries[i][1];
             questions[i][2] = queries[i][2];
             questions[i][3] = i;
         }
-        sort(quex)
+        sort(questions.begin(), questions.end(), [](auto &a, auto &b)
+             { return a[2] < b[2]; });
+        
+
+        
+        
+        
     }
 };
