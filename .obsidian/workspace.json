@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/062 Code02 贴纸拼词.md",
+                "file": "例题/P1113 [USACO02FEB] 杂务.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "062 Code02 贴纸拼词"
+              "title": "P1113 [USACO02FEB] 杂务"
             }
           }
         ]
@@ -228,9 +228,10 @@
   },
   "active": "c255f87f29432aa9",
   "lastOpenFiles": [
+    "母题/062 Code02 贴纸拼词.md",
+    "例题/P1113 [USACO02FEB] 杂务.md",
     "God/P_1113_USACO_02_FEB__u6742_u52a1.bin",
     "母题/062 Code01 地图分析.md",
-    "母题/062 Code02 贴纸拼词.md",
     "母题/062 Code04 使网格图至少有一条有效路径的最小代价.md",
     "母题/059 Code02 课程表II.md",
     "母题/059 Code01 建图的三种方式.md",
@@ -263,7 +264,6 @@
     "God/母题/063 Code01 单词接龙.cpp",
     "God/母题/062 Code06 单词接龙II.cpp",
     "God/母题/062 Code05 二维接雨水.cpp",
-    "God/母题/062 Code04 使网格图至少有一条有效路径的最小代价.cpp",
     "image/Pasted image 20260707142236.png",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
