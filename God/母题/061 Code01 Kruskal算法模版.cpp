@@ -1,8 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 const int MAXN = 5001;
-const int MAXM = 20005;
+const int MAXM = 200005;
 int father[MAXN];
+
+struct Edge
+{
+    int u, v, w;
+};
+Edge edges[MAXM];
 
 int find(int i)
 {
@@ -13,10 +19,12 @@ int find(int i)
     }
     return father[i];
 }
-bool unite(int x,int y){
+bool unite(int x, int y)
+{
     int fx = find(x);
     int fy = find(y);
-    if(fx != fy){
+    if (fx != fy)
+    {
         father[fx] = fy;
         return true;
     }
@@ -32,28 +40,31 @@ void solve()
         father[i] = i;
     }
 
-    int edges[MAXM][3];
     for (int i = 0; i < m; i++)
     {
-        cin >> edges[i][0] >> edges[i][1] >> edges[i][2];
+        cin >> edges[i].u >> edges[i].v >> edges[i].w;
     }
 
-    sort(edges, edges + m, [](const auto &a, const auto &b)
-         { return a[2] < b[2]; });
+    sort(edges, edges + m, [](const Edge &a, const Edge &b)
+         { return a.w < b.w; });
 
     int ans = 0;
     int edgecnt = 0;
-    for (int i = 0; i < m;i++){
-        if(unite(edges[i][0],edges[i][1])){
+    for (int i = 0; i < m; i++)
+    {
+        if (unite(edges[i].u, edges[i].v))
+        {
             edgecnt++;
-            ans += edges[i][2];
+            ans += edges[i].w;
         }
     }
 
-    if(edgecnt == n-1){
+    if (edgecnt == n - 1)
+    {
         cout << ans;
     }
-    else{
+    else
+    {
         cout << "orz";
     }
     return;
