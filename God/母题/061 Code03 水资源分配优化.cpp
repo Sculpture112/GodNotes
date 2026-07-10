@@ -1,15 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void solve() {
+int minCostToSupplyWater(int n, vector<int> &wells, vector<vector<int>> &pipes) {
     
-}
-
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    solve();
-
-    return 0;
-}
+};
