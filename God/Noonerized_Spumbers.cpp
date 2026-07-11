@@ -7,7 +7,14 @@ const int INF = 0x3f3f3f3f;
 const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
-
+int bit(int x){
+    int bits = 0;
+    while(x!=0){
+        x /= 10;
+        bits++;
+    }
+    return bits;
+}
 void solve()
 {
     int a, b, c;
@@ -15,6 +22,17 @@ void solve()
     char w;
     cin >> a >> o >> b >> w >> c;
     if(o == '+'){
+        int mx = max({bit(a),bit(b),bit(c)});
+        int st;
+        if(bit(a) == mx){
+            st = 0;
+        }
+        else if(bit(b) ==mx){
+            st = 1;
+        }
+        else{
+            st = 2;
+        }
         
     }
 }
