@@ -14,30 +14,29 @@ int sum(int x)
     int ans = 0;
     while (x != 0)
     {
+        bool s = false;
         int u = x % 10;
+        
         if (u == 8)
         {
             ans += 6;
-            x /= 10;
-            continue;
+            s = true;
         }
         else if (u == 9)
         {
             ans += 6;
-            x /= 10;
-            continue;
+            s = true;
         }
         else if(u == 6)
         {
             ans += 5;
-            x /= 10;
-            continue;
+            s = true;
         }
         else if( u == 0){
             cnt0++;
-            x /= 10;
-            continue;
+
         }
+        
         ans += u;
         x /= 10;
     }
