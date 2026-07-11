@@ -8,6 +8,137 @@
 
 
 ```cpp
+动态空间实现
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <climits>
+
+using namespace std;
+
+const int MAXN = 100005;
+
+// 动态邻接表：graph[u] 中每个 pair 表示 {v, w}
+vector<vector<pair<int, int>>> graph;
+
+// 反向索引堆
+int heap_arr[MAXN];
+int where[MAXN];
+int heapSize;
+
+int dist[MAXN];
+int n, m, s;
+
+void build() {
+    heapSize = 0;
+    graph.assign(n + 1, vector<pair<int, int>>());
+
+    fill(where + 1, where + n + 1, -1);
+    fill(dist + 1, dist + n + 1, INT_MAX);
+}
+
+// 动态建图
+void addEdge(int u, int v, int w) {
+    graph[u].push_back({v, w});
+}
+
+void swap_heap(int i, int j) {
+    int tmp = heap_arr[i];
+    heap_arr[i] = heap_arr[j];
+    heap_arr[j] = tmp;
+    where[heap_arr[i]] = i;
+    where[heap_arr[j]] = j;
+}
+
+void heapInsert(int i) {
+    while (dist[heap_arr[i]] < dist[heap_arr[(i - 1) / 2]]) {
+        swap_heap(i, (i - 1) / 2);
+        i = (i - 1) / 2;
+    }
+}
+
+void addOrUpdateOrIgnore(int v, int w) {
+    if (where[v] == -1) {
+        heap_arr[heapSize] = v;
+        where[v] = heapSize++;
+        dist[v] = w;
+        heapInsert(where[v]);
+    } else if (where[v] >= 0) {
+        dist[v] = min(dist[v], w);
+        heapInsert(where[v]);
+    }
+}
+
+void heapify(int i) {
+    int l = i * 2 + 1;
+    while (l < heapSize) {
+        int best = l + 1 < heapSize &&
+                   dist[heap_arr[l + 1]] < dist[heap_arr[l]]
+                   ? l + 1 : l;
+
+        best = dist[heap_arr[best]] < dist[heap_arr[i]] ? best : i;
+
+        if (best == i) {
+            break;
+        }
+
+        swap_heap(best, i);
+        i = best;
+        l = i * 2 + 1;
+    }
+}
+
+int pop_heap() {
+    int ans = heap_arr[0];
+    swap_heap(0, --heapSize);
+    heapify(0);
+    where[ans] = -2;
+    return ans;
+}
+
+bool isEmpty() {
+    return heapSize == 0;
+}
+
+void dijkstra() {
+    addOrUpdateOrIgnore(s, 0);
+
+    while (!isEmpty()) {
+        int u = pop_heap();
+
+        // 遍历 u 的所有动态邻接边
+        for (const auto& edge : graph[u]) {
+            int v = edge.first;
+            int w = edge.second;
+            addOrUpdateOrIgnore(v, dist[u] + w);
+        }
+    }
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    while (cin >> n >> m >> s) {
+        build();
+
+        for (int i = 0, u, v, w; i < m; i++) {
+            cin >> u >> v >> w;
+            addEdge(u, v, w);
+        }
+
+        dijkstra();
+
+        cout << dist[1];
+        for (int i = 2; i <= n; i++) {
+            cout << " " << dist[i];
+        }
+        cout << "\n";
+    }
+
+    return 0;
+}
+
 // 064 Code01 Dijkstra算法模版（洛谷）
 // 静态空间实现 : 链式前向星 + 反向索引堆
 // 测试链接 : https://www.luogu.com.cn/problem/P4779
