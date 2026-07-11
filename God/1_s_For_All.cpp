@@ -22,7 +22,11 @@ int sum(int x)
         {
             ans += 6;
         }
-        else if(u == 0)
+        else if(u == 6)
+        {
+            ans += 5;
+        }
+        
         x /= 10;
     }
     return ans;
