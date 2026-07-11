@@ -50,7 +50,7 @@ public:
         int ans = 0;
         for (int i = 1; i <= n; i++)
         {
-            if (distance[i] == -1)
+            if (distance[i] == INF)
             {
                 return -1;
             }
