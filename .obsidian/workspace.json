@@ -226,8 +226,47 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "c31c5bd99dc4b701",
+  "floating": {
+    "id": "89d0cc9b1c8c8841",
+    "type": "floating",
+    "children": [
+      {
+        "id": "294fda81bb2c912c",
+        "type": "window",
+        "children": [
+          {
+            "id": "6a271fed3457d2e6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "75b6e8cda679199a",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Drawing 2026-07-07 14.06.04.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "Drawing 2026-07-07 14.06.04.excalidraw"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 844,
+        "y": 54,
+        "width": 778,
+        "height": 718,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "75b6e8cda679199a",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-07-07 14.06.04.excalidraw.md",
+    "牛客/小白月赛/135/⑨ 串.md",
     "God/小橙玩游戏.cpp",
     "God/_u5c0f_u6a59_u5206_u786c_u5e01.bin",
     "牛客/小白月赛/134",
@@ -247,7 +286,6 @@
     "God/母题/070 Code04 环形数组中不能选相邻元素的最大累加和.cpp",
     "God/母题/070 Code03 环形数组的子数组最大累加和.cpp",
     "God/母题/070 Code02 数组中不能选相邻元素的最大累加和.cpp",
-    "God/母题/070 Code01 子数组最大累加和.cpp",
     "母题/061 Code02 Prim算法模版动态空间.md",
     "母题/064 Code01 Dijkstra算法模版（洛谷）.md",
     "母题/062 Code02 贴纸拼词.md",
@@ -263,7 +301,6 @@
     "例题/P1147 连续正整数和.md",
     "例题/P1113 [USACO02FEB] 杂务.md",
     "算法名/DAG 最长路.md",
-    "母题/062 Code04 使网格图至少有一条有效路径的最小代价.md",
     "image/Pasted image 20260707142236.png",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
