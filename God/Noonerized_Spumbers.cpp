@@ -15,9 +15,12 @@ int bit(int x){
     }
     return bits;
 }
+int a, b, c;
+void xtoy(int x,int y){
+    
+}
 void solve()
 {
-    int a, b, c;
     char o;
     char w;
     cin >> a >> o >> b >> w >> c;
