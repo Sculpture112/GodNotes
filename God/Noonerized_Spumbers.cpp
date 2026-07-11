@@ -14,8 +14,8 @@ void solve()
     char o;
     char w;
     cin >> a >> o >> b >> w >> c;
-    if(o == '='){
-
+    if(o == '+'){
+        
     }
 }
 
