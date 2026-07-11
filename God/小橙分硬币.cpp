@@ -17,7 +17,10 @@ void solve()
         cout << "YES";
         return;
     }
-
+    if(a == 0 && b%2 == 0){
+        cout << "YES";
+        return;
+    }
     cout << "NO";
 }
 
