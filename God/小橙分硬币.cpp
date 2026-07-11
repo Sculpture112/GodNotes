@@ -8,27 +8,28 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+void solve()
+{
     int a, b;
     cin >> a >> b;
-    if(a != 0 && a%2 == 0){
+    if (a != 0 && a % 2 == 0)
+    {
         cout << "YES";
         return;
     }
-    if(b%2 !=0){
-        cout << "NO";
-        return;
-    }
+
     cout << "NO";
 }
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     int T = 1;
     // cin >> T;
-    while (T--) solve();
+    while (T--)
+        solve();
 
     return 0;
 }
