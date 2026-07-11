@@ -9,7 +9,17 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
-
+    int a, b;
+    cin >> a >> b;
+    if(a != 0 && a%2 == 0){
+        cout << "YES";
+        return;
+    }
+    if(b%2 !=0){
+        cout << "NO";
+        return;
+    }
+    cout << "NO";
 }
 
 int main() {
