@@ -8,8 +8,23 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
+int sum(int x){
+    int ans = 0;
+    while(x!=0){
+        ans += x % 10;
+        x /= 10;
+    }
+    return ans;
+}
 void solve() {
-
+    int n;
+    cin >> n;
+    if(n%10==0){
+        cout << 20 / 5 + 5;
+    }
+    else{
+        cout << sum(n);
+    }
 }
 
 int main() {

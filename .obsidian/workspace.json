@@ -250,8 +250,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 724,
-        "y": 183,
+        "x": 821,
+        "y": 167,
         "width": 783,
         "height": 721,
         "maximize": false,
@@ -261,6 +261,7 @@
   },
   "active": "c255f87f29432aa9",
   "lastOpenFiles": [
+    "God/1_s_For_All.bin",
     "Excalidraw/Drawing 2026-07-07 14.06.04.excalidraw.md",
     "牛客/小白月赛/135/⑨ 串.md",
     "God/_u5c0f_u6a59_u4e70_u6c34_u679c.bin",
