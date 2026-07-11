@@ -76,6 +76,7 @@ public:
             // C++17 结构化绑定提取距离和节点
             auto [d, u] = pq.top();
             pq.pop();
+            //只要弹出节点，那么最短路就确定了
             
             if (visited[u]) {
                 continue;
