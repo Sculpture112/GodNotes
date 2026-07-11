@@ -15,7 +15,7 @@ bool f(int x)
         return false;
 
     }
-    x -= F?
+    
 }
 void solve()
 {
