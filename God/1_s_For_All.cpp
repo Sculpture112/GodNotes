@@ -12,6 +12,7 @@ int sum(int x)
 {
     int cnt0 = 0;
     int ans = 0;
+    int pre;
     while (x != 0)
     {
         bool s = false;
@@ -43,8 +44,12 @@ int sum(int x)
             ans += u;
         }
         x /= 10;
+        pre = u;
     }
     ans += cnt0 * 7;
+    if(cnt0){
+        
+    }
     return ans;
 }
 void solve()
