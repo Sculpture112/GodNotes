@@ -18,6 +18,9 @@ int sum(int x)
         bool s = false;
         int u = x % 10;
 
+        if (u == 1 && pre ==0){
+            s = true;
+        }
         if (u == 8)
         {
             ans += 6;
