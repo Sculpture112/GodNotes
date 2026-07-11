@@ -19,12 +19,7 @@ int sum(int x){
 void solve() {
     int n;
     cin >> n;
-    if(n%10==0){
-        cout << n / 5 + 5;
-    }
-    else{
-        cout << sum(n);
-    }
+       
 }
 
 int main() {
