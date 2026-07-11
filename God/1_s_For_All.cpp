@@ -16,7 +16,7 @@ int sum(int x)
     {
         bool s = false;
         int u = x % 10;
-        
+
         if (u == 8)
         {
             ans += 6;
@@ -27,17 +27,21 @@ int sum(int x)
             ans += 6;
             s = true;
         }
-        else if(u == 6)
+        else if (u == 6)
         {
             ans += 5;
             s = true;
         }
-        else if( u == 0){
+        else if (u == 0)
+        {
             cnt0++;
-
+            s = true;
         }
-        
-        ans += u;
+
+        if (!s)
+        {
+            ans += u;
+        }
         x /= 10;
     }
     ans += cnt0 * 7;
