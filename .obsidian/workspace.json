@@ -11,10 +11,14 @@
             "id": "7629eefc8a35a9db",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "母题/079 Code05 选课，树上01背包的最优解.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "079 Code05 选课，树上01背包的最优解"
             }
           }
         ]
@@ -222,50 +226,26 @@
       "juggl:Juggl global graph": false
     }
   },
-  "floating": {
-    "id": "e4e00f1abb23b4ce",
-    "type": "floating",
-    "children": [
-      {
-        "id": "e58809ec72a070d1",
-        "type": "window",
-        "children": [
-          {
-            "id": "db2492f0c068d470",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c255f87f29432aa9",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Drawing 2026-07-07 14.06.04.excalidraw.md"
-                  },
-                  "icon": "excalidraw-icon",
-                  "title": "Drawing 2026-07-07 14.06.04.excalidraw"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 612,
-        "y": 94,
-        "width": 783,
-        "height": 720,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "c255f87f29432aa9",
+  "active": "7629eefc8a35a9db",
   "lastOpenFiles": [
+    "母题/079 Code05 选课，树上01背包的普通解法.md",
+    "母题/079 Code05 选课，树上01背包的最优解.md",
+    "母题/079 Code03 移除子树后的二叉树高度.md",
+    "母题/082 Code07 DI序列的有效排列.md",
+    "母题/082 Code06 买卖股票的最佳时机含冷冻期.md",
+    "母题/082 Code05 买卖股票的最佳时机含手续费.md",
+    "母题/082 Code04 买卖股票的最佳时机 IV.md",
+    "母题/082 083变题.md",
+    "母题/081 Code03 好子集的数目.md",
+    "母题/081 Code04 分配重复整数.md",
+    "母题/108 Code01 树状数组单点增加、范围查询模版.md",
+    "母题/098 Code07 学生出勤记录II.md",
+    "母题/108 Code03 树状数组范围增加、范围查询模版.md",
+    "Excalidraw/Drawing 2026-07-07 14.06.04.excalidraw.md",
     "God/Noonerized_Spumbers.bin",
     "God/1_s_For_All.bin",
     "God/Abridged_Reading.cpp",
     "God/Noonerized_Spumbers.cpp",
-    "Excalidraw/Drawing 2026-07-07 14.06.04.excalidraw.md",
     "牛客/小白月赛/135/⑨ 串.md",
     "God/_u5c0f_u6a59_u4e70_u6c34_u679c.bin",
     "God/小橙买水果.cpp",
@@ -273,11 +253,9 @@
     "God/小橙玩游戏.cpp",
     "God/_u5c0f_u6a59_u5206_u786c_u5e01.bin",
     "牛客/小白月赛/134",
-    "牛客/小白月赛/135",
     "牛客/小白月赛/135/D.md",
     "母题/083 Code01 规划兼职工作.md",
     "母题/083 Code02 K个逆序对数组.md",
-    "母题/082 Code05 买卖股票的最佳时机含手续费.md",
     "母题/082 Code02 买卖股票的最佳时机 II.md",
     "母题/082 Code01 买卖股票的最佳时机.md",
     "母题/082 Code03 买卖股票的最佳时机 III.md",
@@ -286,17 +264,6 @@
     "母题/061 Code02 Prim算法模版动态空间.md",
     "母题/064 Code01 Dijkstra算法模版（洛谷）.md",
     "母题/062 Code02 贴纸拼词.md",
-    "母题/062 Code01 地图分析.md",
-    "母题/061 Code05 繁忙的都市.md",
-    "母题/061 Code04 检查边长度限制的路径是否存在.md",
-    "母题/061 Code03 水资源分配优化.md",
-    "母题/061 Code01 Kruskal算法模版.md",
-    "母题/060 Code01 最大食物链计数.md",
-    "母题/060 Code02 喧闹和富有.md",
-    "母题/060 Code03 并行课程III.md",
-    "母题/059 Code05 戳印序列.md",
-    "例题/P1147 连续正整数和.md",
-    "例题/P1113 [USACO02FEB] 杂务.md",
     "image/Pasted image 20260707142236.png",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
