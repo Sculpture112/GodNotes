@@ -10,6 +10,7 @@ const ll LINF = 4e18;
 
 int sum(int x)
 {
+    int cnt0 = 0;
     int ans = 0;
     while (x != 0)
     {
@@ -17,24 +18,37 @@ int sum(int x)
         if (u == 8)
         {
             ans += 6;
+            x /= 10;
+            continue;
         }
         else if (u == 9)
         {
             ans += 6;
+            x /= 10;
+            continue;
         }
         else if(u == 6)
         {
             ans += 5;
+            x /= 10;
+            continue;
         }
-        
+        else if( u == 0){
+            cnt0++;
+            x /= 10;
+            continue;
+        }
+        ans += u;
         x /= 10;
     }
+    ans += cnt0 * 7;
     return ans;
 }
 void solve()
 {
     int n;
     cin >> n;
+    cout << sum(n);
 }
 
 int main()
