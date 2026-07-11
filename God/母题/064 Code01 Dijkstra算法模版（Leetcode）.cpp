@@ -19,20 +19,28 @@ public:
         vector<bool> visited(n + 1, false);
         distance[k] = 0;
 
-        priority_queue < pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+        for (auto edges : times)
+        {
+            graph[edges[0]].push_back({edges[2], edges[1]});
+        }
+
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
         pq.push({0, k});
 
-        while(!pq.empty()){
+        while (!pq.empty())
+        {
             auto [d, u] = pq.top();
             pq.pop();
-            if(visited[u]){
+            if (visited[u])
+            {
                 continue;
             }
             visited[u] = true;
-            for (auto [w,v] : graph[u])
+            for (auto [w, v] : graph[u])
             {
-                
-                if(!visited[v] && distance[u] + w < distance[v]){
+
+                if (!visited[v] && distance[u] + w < distance[v])
+                {
                     distance[v] = distance[u] + w;
                     pq.push({distance[v], v});
                 }
@@ -40,8 +48,10 @@ public:
         }
 
         int ans = 0;
-        for (int i = 1; i <= n;i++){
-            if(distance[i] == -1){
+        for (int i = 1; i <= n; i++)
+        {
+            if (distance[i] == -1)
+            {
                 return -1;
             }
             ans = max(ans, distance[i]);
