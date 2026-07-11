@@ -12,7 +12,7 @@ void solve() {
     int n;
     cin >> n;
     vector<int> a(n);
-    int sum = 0;
+    ll sum = 0;
     for (int i = 0; i < n; i++) {
         cin >> a[i];
         sum += a[i];
@@ -24,6 +24,10 @@ void solve() {
     }
     if(a[n-1]>=a[0]){
         sum -= a[0];
+    }
+    if(sum == 0){
+        cout << a[0] << "\n";
+        return;
     }
     cout << sum << "\n";
 }
