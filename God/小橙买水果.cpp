@@ -19,9 +19,13 @@ void solve() {
     }
     for (int i = 1; i < n; i++) {
         if(a[i-1]>=a[i]){
-            sum
+            sum -= a[i];
         }
     }
+    if(a[n-1]>=a[0]){
+        sum -= a[0];
+    }
+    cout << sum << "\n";
 }
 
 int main() {
