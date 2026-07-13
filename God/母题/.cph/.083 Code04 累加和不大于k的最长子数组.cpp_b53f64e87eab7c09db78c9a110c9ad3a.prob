@@ -1,0 +1,1 @@
+{"name":"Local: 083 Code04 累加和不大于k的最长子数组","url":"c:\\Users\\17487\\Desktop\\GodNotes\\God\\母题\\083 Code04 累加和不大于k的最长子数组.cpp","tests":[{"id":1783929398992,"input":"5 -2\n3 -2 -4 0 6","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\17487\\Desktop\\GodNotes\\God\\母题\\083 Code04 累加和不大于k的最长子数组.cpp","group":"local","local":true}
