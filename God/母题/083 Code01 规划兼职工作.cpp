@@ -44,9 +44,9 @@ public:
         int l = 0;
         while (l <= r)
         {
-            int m = (l - r) / 2 + r / 2;
+            int m = (l - r) / 2 + r;
 
-            if (jobs[m][1] < start)
+            if (jobs[m][1] <= start)
             {
                 ans = m;
                 l = m + 1;
