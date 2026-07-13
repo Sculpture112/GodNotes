@@ -48,7 +48,7 @@ public:
         int distance1 = jump1 > i ? jump1 - i : n - i + jump1;
         int jump2 = revclock(i, v);
         int distance2 = jump2 < i ? i - jump2 : i + n - jump2;
-        return dp[i][j] = min(distance1 + f(jump1, j + 1), distance2 + f(jump2, j + 1));
+        return dp[i][j] = min(distance1 + f(jump1, j), distance2 + f(jump2, j));
     }
     int clock(int i,int v){
         auto &arr = where[v];
