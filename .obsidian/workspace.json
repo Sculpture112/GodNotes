@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/084 Code02 最大为N的数字组合.md",
+                "file": "母题/084 Code03 统计整数数目.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "084 Code02 最大为N的数字组合"
+              "title": "084 Code03 统计整数数目"
             }
           },
           {
@@ -240,12 +240,19 @@
   },
   "active": "5373d5abdfc38686",
   "lastOpenFiles": [
+    "母题/085 FollowUp windy数加强版.md",
+    "母题/085 Code04 数字1的个数.md",
+    "母题/085 Code04 范围内的数字计数洛谷.md",
+    "母题/085 Code04 范围内的数字计数LeetCode.md",
+    "母题/085 Code03 不含连续1的非负整数.md",
+    "母题/085 Code02 萌数.md",
+    "母题/085 Code01 windy数.md",
+    "母题/084 Code02 最大为N的数字组合.md",
     "母题/084 Code01 统计各位数字都不同的数字个数.md",
     "母题/083 Code04 累加和不大于k的最长子数组.md",
     "母题/084 Code04 至少有1位重复的数字个数.md",
     "母题/084 Code04 完全没有重复的数字个数.md",
     "母题/084 Code03 统计整数数目.md",
-    "母题/084 Code02 最大为N的数字组合.md",
     "母题/083 Code03 自由之路.md",
     "母题/098 Code01 乘法快速幂模版.md",
     "God/母题/083 Code04 _u7d2f_u52a0_u548c_u4e0d_u5927_u4e8ek_u7684_u6700_u957f_u5b50_u6570_u7ec4.bin",
@@ -264,13 +271,6 @@
     "God/母题/083 Code02 K个逆序对数组.cpp",
     "God/母题/083 Code01 规划兼职工作.cpp",
     "母题/037 Code07 二叉树打家劫舍问题.md",
-    "母题/037 Code06 修剪搜索二叉树.md",
-    "母题/037 Code05 验证搜索二叉树.md",
-    "母题/037 Code04 验证平衡二叉树.md",
-    "母题/037 Code03 收集累加和等于aim的所有路径.md",
-    "母题/037 Code02 搜索二叉树上寻找两个节点的最近公共祖先.md",
-    "母题/037 Code01 普通二叉树上寻找两个节点的最近公共祖先.md",
-    "母题/036 Code09 求完全二叉树的节点个数.md",
     "God/Noonerized_Spumbers.bin",
     "God/1_s_For_All.bin",
     "God/Abridged_Reading.cpp",
