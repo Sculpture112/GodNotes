@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:折半搜索",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -226,8 +226,10 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "7629eefc8a35a9db",
+  "active": "c31c5bd99dc4b701",
   "lastOpenFiles": [
+    "母题标签.md",
+    "母题/083 Code02 K个逆序对数组.md",
     "母题/083 Code01 规划兼职工作.md",
     "God/母题/083 Code04 累加和不大于k的最长子数组.cpp",
     "God/母题/083 Code03 自由之路.cpp",
@@ -256,7 +258,6 @@
     "母题/082 Code01 买卖股票的最佳时机.md",
     "学校.md",
     "母题/079 Code05 选课，树上01背包的最优解.md",
-    "母题/079 Code05 选课，树上01背包的普通解法.md",
     "God/Noonerized_Spumbers.bin",
     "God/1_s_For_All.bin",
     "God/Abridged_Reading.cpp",
