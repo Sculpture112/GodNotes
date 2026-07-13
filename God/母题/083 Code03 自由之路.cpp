@@ -30,6 +30,7 @@ public:
 
         dp.assign(n, vector<int>(m, -1));
 
+        return f(0, 0);
     }
     int f(int i ,int j){
         if(j == m){
@@ -42,7 +43,12 @@ public:
             return dp[i][j] = 1 + f(i,j+1);
         }
 
-        int jump1;
+        int v = k[j] - 'a';
+        int jump1 = clock(i,v);
+        int distance1 = jump1 > i ? jump1 - i : n - jump1 + i;
+        int jump2 = revclock(i, v);
+        int distance2 = jump2 < i ? i - jump2 : i + n - jump2;
+        return dp[i][j] = min(distance1 + f(jump1, j + 1), distance2 + f(jump2, j + 1));
     }
     int clock(int i,int v){
         auto &arr = where[v];
@@ -52,6 +58,7 @@ public:
     }
     int revclock(int i ,int v){
         auto &arr = where[v];
-        auto it = 
+        auto it = lower_bound(arr.begin(), arr.end(), i);
+        return it == arr.begin() ? arr.back() : *(it - 1);
     }
 };
