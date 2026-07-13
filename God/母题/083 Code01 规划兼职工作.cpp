@@ -25,8 +25,14 @@ public:
         sort(jobs.begin(), jobs.end(), [](const auto &a, const auto &b) { return a[1] < b[1]; });
         vector<int> dp(n);
         dp[0] = jobs[0][2];
-        for (int i = 0; i < n; i++)
+        for (int i = 1; i < n; i++)
         {
+            int cur = jobs[i][2];
+            int pre = find(jobs, i - 1, jobs[i][0]);
+            if(pre !=-1){
+                cur += dp[pre];
+            }
+            dp[n] = max(dp[n - 1], cur);
         }
 
         int find(vector<int> & jobs, int r, int start)
