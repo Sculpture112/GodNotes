@@ -22,12 +22,11 @@ public:
             jobs[i][1] = endTime[i];
             jobs[i][2] = profit[i];
         }
-
+        sort(jobs.begin(), jobs.end(), [](const auto &a, const auto &b) { return a[1] < b[1]; });
         vector<int> dp(n);
-        int dp[0] = jobs[0][2];
+        dp[0] = jobs[0][2];
         for (int i = 0; i < n; i++)
         {
-            
         }
 
         int find(vector<int> & jobs, int r, int start)
