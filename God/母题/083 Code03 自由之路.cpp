@@ -45,7 +45,7 @@ public:
 
         int v = k[j] - 'a';
         int jump1 = clock(i,v);
-        int distance1 = jump1 > i ? jump1 - i : n - jump1 + i;
+        int distance1 = jump1 > i ? jump1 - i : n - i + jump1;
         int jump2 = revclock(i, v);
         int distance2 = jump2 < i ? i - jump2 : i + n - jump2;
         return dp[i][j] = min(distance1 + f(jump1, j + 1), distance2 + f(jump2, j + 1));
