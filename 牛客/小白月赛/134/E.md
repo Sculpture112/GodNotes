@@ -2,7 +2,7 @@
 
 > **原题链接:** ()
 
-**涉及知识点:** [[并查集]], [[构造]]，[[补题]],[[]],[[]]
+**涉及知识点:** [[并查集]], [[构造]]，[[补题]],[[BFS]],[[]]
 
 **核心套路:** 
 
@@ -10,7 +10,94 @@
 []
 
 ```cpp
+#include <bits/stdc++.h>
+using namespace std;
 
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int n, m;
+    cin >> n >> m;
+
+    vector<long long> a(n + 1);
+    int s = -1; // 任选一个 a[i] = 0 的点作为起点
+
+    for (int i = 1; i <= n; ++i) {
+        cin >> a[i];
+        if (a[i] == 0 && s == -1) {
+            s = i;
+        }
+    }
+
+    vector<vector<int>> graph(n + 1);
+    vector<pair<int, int>> edges(m);
+
+    for (int i = 0; i < m; ++i) {
+        int u, v;
+        cin >> u >> v;
+        edges[i] = {u, v};
+        graph[u].push_back(v);
+        graph[v].push_back(u);
+    }
+
+    // 起点到自己的距离必须为 0。
+    if (s == -1) {
+        cout << -1 << '\n';
+        return 0;
+    }
+
+    /*
+        把每条无向边临时按 a 值方向理解：
+
+        若 a[u] <= a[v]，可以从 u 向 v 扩展。
+        因为最短路从起点向外走时，距离不能下降。
+
+        BFS 只是在检查：
+        是否能从 s 出发，经由 a 值不减的路径到达每个点。
+    */
+    vector<bool> visited(n + 1, false);
+    queue<int> q;
+
+    visited[s] = true;
+    q.push(s);
+
+    int reached = 1;
+
+    while (!q.empty()) {
+        int u = q.front();
+        q.pop();
+
+        for (int v : graph[u]) {
+            // 只允许从目标距离较小/相等的点走向较大/相等的点。
+            if (!visited[v] && a[v] >= a[u]) {
+                visited[v] = true;
+                ++reached;
+                q.push(v);
+            }
+        }
+    }
+
+    // 存在某个点不能通过 a 不减路径到达，则无解。
+    if (reached != n) {
+        cout << -1 << '\n';
+        return 0;
+    }
+
+    /*
+        验证通过后，对每条边直接赋权为两端目标距离之差：
+
+        w = |a[u] - a[v]|
+
+        这既不会制造更短路径，
+        又能让 BFS 找到的 a 不减路径恰好累加到目标距离。
+    */
+    for (auto [u, v] : edges) {
+        cout << abs(a[u] - a[v]) << '\n';
+    }
+
+    return 0;
+}
 ```
 
 ```cpp
