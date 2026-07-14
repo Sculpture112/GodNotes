@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "牛客/小白月赛/134/D.md",
+                "file": "牛客/小白月赛/134/E.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "D"
+              "title": "E"
             }
           }
         ]
@@ -254,21 +254,22 @@
           }
         ],
         "direction": "vertical",
-        "x": 1190,
-        "y": 214,
+        "x": 924,
+        "y": 172,
         "width": 786,
-        "height": 720,
+        "height": 721,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "9feb7fb1946e9972",
+  "active": "5373d5abdfc38686",
   "lastOpenFiles": [
     "牛客/小白月赛/134/D.md",
+    "牛客/小白月赛/134/E.md",
+    "Excalidraw/Drawing 2026-07-13 14.13.46.excalidraw.md",
     "算法名/传送门.md",
     "牛客/小白月赛/135/D.md",
-    "Excalidraw/Drawing 2026-07-13 14.13.46.excalidraw.md",
     "God/_u5c0f_u6a59_u8bbf_u95ee_u4f20_u9001_u95e8.bin",
     "God/小橙访问传送门.cpp",
     "母题/084 Code03 统计整数数目.md",
@@ -293,7 +294,6 @@
     "Excalidraw/083.excalidraw.md",
     "算法名/环上最短移动.md",
     "母题/083 Code02 K个逆序对数组.md",
-    "Excalidraw/Drawing 2026-07-13 14.09.27.excalidraw.md",
     "God/母题/083 Code04 累加和不大于k的最长子数组.cpp",
     "God/母题/083 Code03 自由之路.cpp",
     "God/母题/083 Code02 K个逆序对数组.cpp",
