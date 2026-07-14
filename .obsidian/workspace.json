@@ -11,12 +11,14 @@
             "id": "5373d5abdfc38686",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-07-14 20.00.00.excalidraw.md"
+                "file": "牛客/小白月赛/134/E.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-07-14 20.00.00.excalidraw"
+              "icon": "lucide-file",
+              "title": "E"
             }
           }
         ]
@@ -226,12 +228,12 @@
   },
   "active": "5373d5abdfc38686",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-07-13 14.13.46.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-14 20.00.00.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-13 14.09.27.excalidraw.md",
-    "牛客/小白月赛/134/E.md",
-    "God/小橙分配边权.cpp",
     "牛客/小白月赛/134/D.md",
+    "牛客/小白月赛/134/E.md",
+    "Excalidraw/Drawing 2026-07-13 14.13.46.excalidraw.md",
+    "Excalidraw/Drawing 2026-07-13 14.09.27.excalidraw.md",
+    "Excalidraw/Drawing 2026-07-14 20.00.00.excalidraw.md",
+    "God/小橙分配边权.cpp",
     "算法名/传送门.md",
     "牛客/小白月赛/135/D.md",
     "God/_u5c0f_u6a59_u8bbf_u95ee_u4f20_u9001_u95e8.bin",

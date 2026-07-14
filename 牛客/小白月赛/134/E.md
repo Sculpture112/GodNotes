@@ -9,7 +9,9 @@
 ## 破题切入点 (思维闪念)
 []
 
+```cpp
 
+```
 
 ```cpp
 #include <bits/stdc++.h>
