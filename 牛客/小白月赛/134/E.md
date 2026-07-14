@@ -20,7 +20,14 @@ struct DSU {
 
     DSU(int n) : fa(n + 1), sz(n + 1, 1) {
         iota(fa.begin(), fa.end(), 0);
-    }
+	}
+	/*
+fa[0]=0
+fa[1]=1
+fa[2]=2
+...
+fa[n]=n
+	*/
 
     int find(int x) {
         if (fa[x] == x) return x;
