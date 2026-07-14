@@ -13,10 +13,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-07-13 14.13.46.excalidraw.md"
+                "file": "Excalidraw/Drawing 2026-07-14 20.00.00.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-07-13 14.13.46.excalidraw"
+              "title": "Drawing 2026-07-14 20.00.00.excalidraw"
             }
           }
         ]
@@ -224,48 +224,11 @@
       "juggl:Juggl global graph": false
     }
   },
-  "floating": {
-    "id": "7a22db77142a3b12",
-    "type": "floating",
-    "children": [
-      {
-        "id": "32f3b5ce69216697",
-        "type": "window",
-        "children": [
-          {
-            "id": "44e7b0a8551e9b7a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "7cf9d764c2d8c019",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Drawing 2026-07-13 14.13.46.excalidraw.md"
-                  },
-                  "icon": "excalidraw-icon",
-                  "title": "Drawing 2026-07-13 14.13.46.excalidraw"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 924,
-        "y": 172,
-        "width": 786,
-        "height": 721,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "5373d5abdfc38686",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-07-13 14.13.46.excalidraw.md",
     "Excalidraw/Drawing 2026-07-14 20.00.00.excalidraw.md",
     "Excalidraw/Drawing 2026-07-13 14.09.27.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-13 14.13.46.excalidraw.md",
     "牛客/小白月赛/134/E.md",
     "God/小橙分配边权.cpp",
     "牛客/小白月赛/134/D.md",
