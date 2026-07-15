@@ -62,14 +62,14 @@ public:
         int ans = 0;
         if(free == 0){
             for (int pick = 0;pick<cur;pick++){
-                ans += (ans + f(sum + pick, 1, i + 1))%MOD;
+                ans = (ans + f(sum + pick, 1, i + 1))%MOD;
                 
             }
-            ans += (ans +f(sum + cur, 0, i + 1))%MOD;
+            ans = (ans +f(sum + cur, 0, i + 1))%MOD;
         }
         else{
             for (int pick = 0; pick <= 9;pick++){
-                ans += (ans + f(sum + pick, 1, i + 1)) % MOD;
+                ans = (ans + f(sum + pick, 1, i + 1)) % MOD;
             }
         }
         dp[i][sum][free] = ans;
