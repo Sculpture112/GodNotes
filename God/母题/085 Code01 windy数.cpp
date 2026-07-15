@@ -88,6 +88,9 @@ int f(int num, int free, int pre, int len, int offset)
 }
 int cnt(int num)
 {
+    if(num == 0)
+        return 1;
+
     int len = 1;
     int offset = 1;
     int tmp = num / 10;
