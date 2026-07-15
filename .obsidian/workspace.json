@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/086 Code01 最长公共子序列其中一个结果.md",
+                "file": "母题/085 Code01 windy数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "086 Code01 最长公共子序列其中一个结果"
+              "title": "085 Code01 windy数"
             }
           }
         ]
@@ -228,14 +228,14 @@
   },
   "active": "ef8d607b9d7b5fc8",
   "lastOpenFiles": [
-    "image/Pasted image 20260715173248.png",
     "母题/085 FollowUp windy数加强版.md",
+    "母题/086 Code01 最长公共子序列其中一个结果.md",
+    "image/Pasted image 20260715173248.png",
     "母题/085 Code01 windy数.md",
     "母题/086 Code04 潜水的最大时间与方案空间压缩.md",
     "母题/086 Code04 潜水的最大时间与方案未压缩.md",
     "母题/086 Code03 最长递增子序列字典序最小的结果.md",
     "母题/086 Code02 最小的必要团队.md",
-    "母题/086 Code01 最长公共子序列其中一个结果.md",
     "母题/084 Code04 至少有1位重复的数字个数.md",
     "母题/084 Code03 统计整数数目.md",
     "母题/084 Code01 统计各位数字都不同的数字个数.md",
@@ -272,7 +272,6 @@
     "image/Pasted image 20260611164937.png",
     "image/Pasted image 20260611160117.png",
     "image/Pasted image 20260611154730.png",
-    "image/Pasted image 20260610142943.png",
-    "image/Pasted image 20260610142828.png"
+    "image/Pasted image 20260610142943.png"
   ]
 }
