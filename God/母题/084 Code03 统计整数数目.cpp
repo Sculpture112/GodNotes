@@ -19,7 +19,7 @@ public:
     void build()
     {
         for (int i = 0; i < len; i++) {
-            for (int j = 0; j < maxsum; j++) {
+            for (int j = 0; j <= maxsum; j++) {
                 dp[i][j][0] = -1;
                 dp[i][j][1] = -1;
             }
@@ -34,10 +34,10 @@ public:
         len = num.size();
         build();
         int ans = f(0, 0, 0);
-        num = num2;
+        num = num1;
         len = num.size();
         build();
-        ans = (ans + f(0, 0, 0)) % MOD;
+        ans = (ans - f(0, 0, 0)) % MOD;
         if(check()){
             ans = (ans + 1) % MOD;
         }
