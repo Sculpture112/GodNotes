@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/085 Code01 windy数.md",
+                "file": "母题/086 Code01 最长公共子序列其中一个结果.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "085 Code01 windy数"
+              "title": "086 Code01 最长公共子序列其中一个结果"
             }
           }
         ]
@@ -228,6 +228,9 @@
   },
   "active": "ef8d607b9d7b5fc8",
   "lastOpenFiles": [
+    "image/Pasted image 20260715173248.png",
+    "母题/085 FollowUp windy数加强版.md",
+    "母题/085 Code01 windy数.md",
     "母题/086 Code04 潜水的最大时间与方案空间压缩.md",
     "母题/086 Code04 潜水的最大时间与方案未压缩.md",
     "母题/086 Code03 最长递增子序列字典序最小的结果.md",
@@ -238,7 +241,6 @@
     "母题/084 Code01 统计各位数字都不同的数字个数.md",
     "母题/067 Code03 最长公共子序列.md",
     "母题/067 Code01 最小路径和.md",
-    "母题/085 Code01 windy数.md",
     "母题/084 Code04 完全没有重复的数字个数.md",
     "母题/084 Code02 最大为N的数字组合.md",
     "算法名/预处理.md",
@@ -261,8 +263,6 @@
     "牛客/小白月赛/135/D.md",
     "God/_u5c0f_u6a59_u8bbf_u95ee_u4f20_u9001_u95e8.bin",
     "God/小橙访问传送门.cpp",
-    "母题/041 Code03 加法减法乘法的同余原理.md",
-    "母题/041 Code02 第n个神奇数字.md",
     "God/母题/083 Code04 _u7d2f_u52a0_u548c_u4e0d_u5927_u4e8ek_u7684_u6700_u957f_u5b50_u6570_u7ec4.bin",
     "image/Pasted image 20260707142236.png",
     "image/Pasted image 20260627193216.png",
