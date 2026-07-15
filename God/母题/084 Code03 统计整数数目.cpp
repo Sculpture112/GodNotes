@@ -37,7 +37,7 @@ public:
         num = num1;
         len = num.size();
         build();
-        ans = (ans - f(0, 0, 0)) % MOD;
+        ans = (ans - f(0, 0, 0)+MOD) % MOD;
         if(check()){
             ans = (ans + 1) % MOD;
         }
