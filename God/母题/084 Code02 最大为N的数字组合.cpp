@@ -60,4 +60,49 @@ public:
         }
         return ans;
     }
+    int atMostNGivenDigitSet2(vector<string> &digits, int n){
+        int m = digits.size();
+        vector<int> digit(m);
+        for (int i = 0; i < n; i++) {
+            digit[i] = stoi(digits[i]);
+        }
+
+        int offset = 1;
+        int tmp = n / 10;
+        int len = 1;
+        while(tmp>0){
+            tmp /= 10;
+            offset *= 10;
+            len++;
+        }
+
+        vector<int> cnt(len);
+        int ans = 0;
+        for (int i = m, k = 1; k < len; k++, i *= m)
+        {
+            cnt[k] = i;
+            ans += i;
+        }
+        return f(digit, cnt, len, n, offset);
+    }
+    int f(vector<int>& digit,vector<int>& cnt,int len,int num,int offset)
+    {
+        if(len == 0)
+            return 1;
+
+        int cur = num / offset % 10;
+        int ans = 0;
+        for (int x : digit)
+        {
+            if(x<cur){
+                ans += cnt[len - 1];
+            }
+            else if(x==cur){
+                ans += f(digit, cnt, len - 1, num, offset / 10);
+            }
+            else
+                break;
+        }
+        return ans;
+    }
 };
