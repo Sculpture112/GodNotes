@@ -30,11 +30,11 @@ public:
             cnt[i] = cnt[i - 1] * k;
         }
 
-        int ans = 9;
+        int ans = 0;
         if (len >= 2)
         {
             ans = 9;
-            for (int i = 0, a = 9, b = 9; i < n; i++, b--)
+            for (int i = 0, a = 9, b = 9; i < len; i++, b--)
             {
                 a *= b;
                 ans += a;
@@ -44,22 +44,26 @@ public:
         int first = n / offset;
         ans += (first - 1) * cnt[len - 1];
 
-        ans += f(cnt, len, offset, n, 1 << first);
+        ans += f(cnt, len - 1, offset / 10, n, 1 << first);
         return ans;
     }
-    int f(vector<int>& cnt,int len ,int offset,int n,int status){
-        if(len == 0)
+    int f(vector<int> &cnt, int len, int offset, int n, int status)
+    {
+        if (len == 0)
             return 1;
 
         int ans = 0;
         int first = n / offset % 10;
-        for (int i = 0; i < first; i++) {
-            if((1<<i)&status ==0){
+        for (int i = 0; i < first; i++)
+        {
+            if (((1 << i) & status) == 0)
+            {
                 ans += cnt[len - 1];
             }
         }
-        if((1<<first)&status == 0){
-            ans += f(cnt, len - 1, offset, n, status | (1 << first));
+        if (((1 << first) & status) == 0)
+        {
+            ans += f(cnt, len - 1, offset/10, n, status | (1 << first));
         }
         return ans;
     }
