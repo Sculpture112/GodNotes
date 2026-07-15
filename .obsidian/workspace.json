@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/085 Code01 windy数.md",
+                "file": "母题/085 Code02 萌数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "085 Code01 windy数"
+              "title": "085 Code02 萌数"
             }
           }
         ]
@@ -228,9 +228,9 @@
   },
   "active": "ef8d607b9d7b5fc8",
   "lastOpenFiles": [
+    "母题/085 Code01 windy数.md",
     "God/母题/085 Code01 windy_u6570.bin",
     "备赛/备赛.md",
-    "母题/085 Code01 windy数.md",
     "母题/087 Code04 使数组严格递增的最小操作数.md",
     "母题/087 Code03 两个排列的最长公共子序列长度.md",
     "母题/087 Code02 选择k个数字使得两集合累加和相差不超过1.md",
@@ -244,7 +244,6 @@
     "God/母题/085 Code04 范围内的数字计数洛谷.cpp",
     "God/母题/085 Code04 范围内的数字计数LeetCode.cpp",
     "God/母题/085 Code03 不含连续1的非负整数.cpp",
-    "God/母题/085 Code02 萌数.cpp",
     "母题/085 FollowUp windy数加强版.md",
     "母题/086 Code01 最长公共子序列其中一个结果.md",
     "image/Pasted image 20260715173248.png",
