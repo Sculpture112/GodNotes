@@ -9,7 +9,7 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 int a, b;
-int dp[10][11][2];
+int dp[11][11][2];
 
 void build()
 {
@@ -39,7 +39,7 @@ int f(int num, int free, int pre, int len, int offset)
         if (pre == 10)
         {
 
-            ans += f(num, 0, 10, len - 1, offset / 10);
+            ans += f(num, 1, 10, len - 1, offset / 10);
             for (int i = 1; i < cur; i++)
             {
                 ans += f(num, 1, i, len - 1, offset / 10);
@@ -48,9 +48,9 @@ int f(int num, int free, int pre, int len, int offset)
         }
         else
         {
-            for (int i = 0; i < cur; i++)
+            for (int i = 0; i <= cur; i++)
             {
-                if (i - pre <= 2 || pre - i >= 2)
+                if (i - pre >= 2 || pre - i >= 2)
                 {
                     if (i < cur)
                     {
@@ -83,7 +83,8 @@ int f(int num, int free, int pre, int len, int offset)
             }
         }
     }
-    return ans;
+    return dp[len][pre][free] = ans;
+    ;
 }
 int cnt(int num)
 {
@@ -96,6 +97,7 @@ int cnt(int num)
         offset *= 10;
         len++;
     }
+    build();
     return f(num, 0, 10, len, offset);
 }
 
