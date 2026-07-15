@@ -18,7 +18,7 @@ void solve()
     for (int i = 1; i <= n; i++)
     {
         cin >> a[i];
-        if (a[i] == 0 && s == -1)
+        if (a[i] == 0 && s == -1)   
         {
             s = i;
         }
