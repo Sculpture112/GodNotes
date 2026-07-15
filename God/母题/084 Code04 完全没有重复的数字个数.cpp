@@ -34,7 +34,7 @@ public:
         if (len >= 2)
         {
             ans = 9;
-            for (int i = 0, a = 9, b = 9; i < len; i++, b--)
+            for (int i = 2, a = 9, b = 9; i < len; i++, b--)
             {
                 a *= b;
                 ans += a;
