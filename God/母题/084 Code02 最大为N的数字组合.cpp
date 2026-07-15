@@ -63,7 +63,7 @@ public:
     int atMostNGivenDigitSet2(vector<string> &digits, int n){
         int m = digits.size();
         vector<int> digit(m);
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < m; i++) {
             digit[i] = stoi(digits[i]);
         }
 
@@ -78,12 +78,13 @@ public:
 
         vector<int> cnt(len);
         int ans = 0;
+        cnt[0] = 1;
         for (int i = m, k = 1; k < len; k++, i *= m)
         {
             cnt[k] = i;
             ans += i;
         }
-        return f(digit, cnt, len, n, offset);
+        return ans + f(digit, cnt, len, n, offset);
     }
     int f(vector<int>& digit,vector<int>& cnt,int len,int num,int offset)
     {
