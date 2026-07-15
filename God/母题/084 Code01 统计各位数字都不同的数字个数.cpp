@@ -8,17 +8,20 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+class Solution
+{
+public:
+    int countNumbersWithUniqueDigits(int n)
+    {
+        if(n == 0){
+            return 1;
+        }
 
-}
-
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int T = 1;
-    // cin >> T;
-    while (T--) solve();
-
-    return 0;
-}
+        int ans = 10;
+        for (int s = 9, i = 9, k = 2; k <= n;k++,i--){
+            s *= i;
+            ans += s;
+        }
+        return ans;
+    }
+};
