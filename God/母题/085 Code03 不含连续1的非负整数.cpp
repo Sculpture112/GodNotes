@@ -28,7 +28,7 @@ public:
         }
         int ans = 0;
         if((num&(1<<i)) != 0){
-            ans += f(cnt, num, i - 1);
+            ans += cnt[i];
 
             if((num&(1<<(i+1)))!=0)
             {

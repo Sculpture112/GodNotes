@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/085 Code03 不含连续1的非负整数.md",
+                "file": "母题/085 Code04 范围内的数字计数洛谷.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "085 Code03 不含连续1的非负整数"
+              "title": "085 Code04 范围内的数字计数洛谷"
             }
           }
         ]
@@ -228,6 +228,8 @@
   },
   "active": "ef8d607b9d7b5fc8",
   "lastOpenFiles": [
+    "母题/085 Code03 不含连续1的非负整数.md",
+    "算法名/斐波那契.md",
     "母题/085 Code02 萌数.md",
     "备赛/备赛.md",
     "母题/085 Code01 windy数.md",
@@ -263,8 +265,6 @@
     "算法名/数位DP.md",
     "母题/083 Code03 自由之路.md",
     "母题/082 Code07 DI序列的有效排列.md",
-    "牛客/小白月赛/134/E.md",
-    "牛客/小白月赛/134/D.md",
     "image/Pasted image 20260707142236.png",
     "image/Pasted image 20260627193216.png",
     "image/Pasted image 20260627193211.png",
