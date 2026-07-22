@@ -13,24 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/085 FollowUp windy数加强版.md",
+                "file": "母题/086 Code01 最长公共子序列其中一个结果.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "085 FollowUp windy数加强版"
-            }
-          },
-          {
-            "id": "e7dc9ebc141fd083",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-07-16 14.42.44.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-07-16 14.42.44.excalidraw"
+              "title": "086 Code01 最长公共子序列其中一个结果"
             }
           }
         ]
@@ -240,6 +228,8 @@
   },
   "active": "ef8d607b9d7b5fc8",
   "lastOpenFiles": [
+    "母题/085 FollowUp windy数加强版.md",
+    "Excalidraw/Drawing 2026-07-16 14.42.44.excalidraw.md",
     "母题/085 Code04 数字1的个数.md",
     "母题/085 Code04 范围内的数字计数洛谷.md",
     "God/母题/085 Code04 _u8303_u56f4_u5185_u7684_u6570_u5b57_u8ba1_u6570_u6d1b_u8c37.bin",
@@ -265,8 +255,6 @@
     "母题/091 Code04 平均值最小累加和.md",
     "母题/091 Code03 组团买票洛谷.md",
     "母题/091 Code03 组团买票优化版.md",
-    "母题/091 Code02 最小区间.md",
-    "母题/091 Code01 最短无序连续子数组.md",
     "God/母题/085 Code01 windy_u6570.bin",
     "God/母题/086 Code04 潜水的最大时间与方案未压缩.cpp",
     "God/母题/086 Code04 潜水的最大时间与方案空间压缩.cpp",
