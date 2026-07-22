@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/086 Code02 最小的必要团队.md",
+                "file": "母题/086 Code03 最长递增子序列字典序最小的结果.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "086 Code02 最小的必要团队"
+              "title": "086 Code03 最长递增子序列字典序最小的结果"
             }
           }
         ]
@@ -228,6 +228,12 @@
   },
   "active": "ef8d607b9d7b5fc8",
   "lastOpenFiles": [
+    "母题/086 Code02 最小的必要团队.md",
+    "母题/087 Code01 贿赂怪兽.md",
+    "母题/085 Code04 数字1的个数.md",
+    "母题/085 Code04 范围内的数字计数LeetCode.md",
+    "母题/085 Code04 范围内的数字计数洛谷.md",
+    "母题/086 Code03 最长递增子序列字典序最小的结果.md",
     "母题/086 Code01 最长公共子序列其中一个结果.md",
     "God/母题/086 Code01 _u6700_u957f_u516c_u5171_u5b50_u5e8f_u5217_u5176_u4e2d_u4e00_u4e2a_u7ed3_u679c.bin",
     "God/母题/094 Code06 烹调方案.cpp",
@@ -243,8 +249,6 @@
     "算法名/最长公共子序列.md",
     "母题/085 FollowUp windy数加强版.md",
     "Excalidraw/Drawing 2026-07-16 14.42.44.excalidraw.md",
-    "母题/085 Code04 数字1的个数.md",
-    "母题/085 Code04 范围内的数字计数洛谷.md",
     "母题/094 Code06 烹调方案.md",
     "母题/094 Code05 砍树.md",
     "母题/094 Code04 雇佣K名工人的最低成本.md",
@@ -260,9 +264,6 @@
     "母题/092 Code05 将数组分成几个递增序列.md",
     "母题/092 Code04 知识竞赛.md",
     "母题/092 Code03 使数组相似的最少操作次数.md",
-    "母题/092 Code02 森林中的兔子.md",
-    "母题/092 Code01 数组的最小偏移量.md",
-    "母题/091 Code06 两个0和1数量相等区间的最大长度.md",
     "image/Pasted image 20260715173248.png",
     "image/Pasted image 20260707142236.png",
     "image/Pasted image 20260627193216.png",

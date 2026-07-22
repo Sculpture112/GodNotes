@@ -23,7 +23,7 @@ public:
         }
 
         vector<int> arr(m);
-        for (int i = 0, status; i < n; i++)
+        for (int i = 0, status; i < m; i++)
         {
             status = 0;
             for (auto &skill : people[i])
@@ -67,7 +67,7 @@ public:
         int p1 = f(arr, n, m, i + 1, s, dp);
         int p2 = INF;
         int next = INF;
-        next = f(arr, n, m, i + 1, s |= arr[i], dp);
+        next = f(arr, n, m, i + 1, s | arr[i], dp);
         if (next != INF)
         {
             p2 = 1 + next;
