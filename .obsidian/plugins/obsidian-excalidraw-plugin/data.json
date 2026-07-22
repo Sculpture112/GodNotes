@@ -19,7 +19,7 @@
   "decompressForMDView": false,
   "onceOffCompressFlagReset": true,
   "onceOffGPTVersionReset": true,
-  "autosave": true,
+  "autosave": false,
   "autosaveIntervalDesktop": 60000,
   "autosaveIntervalMobile": 30000,
   "drawingFilenamePrefix": "Drawing ",
