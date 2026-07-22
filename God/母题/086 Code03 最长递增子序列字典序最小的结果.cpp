@@ -27,16 +27,17 @@ int bs(int len,int num){
 
 int filldp(){
     int len = 0;
-    
+    for (int i = n - 1, find; i >= 0; i--)
+    {
+        
+    }
 }
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int T = 1;
     // cin >> T;
-    while (T--) solve();
 
     for (int i = 0; i < n; i++) {
         cin >> nums[i];
