@@ -25,12 +25,14 @@
             "id": "a4103ac04b9c418d",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-07-14 20.00.00.excalidraw.md"
+                "file": "Excalidraw/Drawing 2026-07-16 11.39.28.excalidraw.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-07-14 20.00.00.excalidraw"
+              "icon": "lucide-file",
+              "title": "Drawing 2026-07-16 11.39.28.excalidraw"
             }
           }
         ],
@@ -234,17 +236,17 @@
       "graph:查看关系图谱": false,
       "obsidian-git:Open Git source control": false,
       "cmdr:重新加载 Obsidian（不保存当前编辑内容）": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
       "templater-obsidian:Templater": false,
-      "juggl:Juggl global graph": false
+      "juggl:Juggl global graph": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a4103ac04b9c418d",
+  "active": "c31c5bd99dc4b701",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-07-16 11.39.28.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-16 14.42.44.excalidraw.md",
     "Excalidraw/Drawing 2026-07-22 15.16.46.excalidraw.md",
+    "Excalidraw/Drawing 2026-07-16 14.42.44.excalidraw.md",
     "Excalidraw/Drawing 2026-07-14 20.00.00.excalidraw.md",
+    "Excalidraw/Drawing 2026-07-16 11.39.28.excalidraw.md",
     "Excalidraw/Drawing 2026-03-04 15.46.50.excalidraw.md",
     "Excalidraw/Drawing 2026-04-24 15.28.57.excalidraw.md",
     "Excalidraw/Drawing 2026-04-19 16.04.22.excalidraw.md",
