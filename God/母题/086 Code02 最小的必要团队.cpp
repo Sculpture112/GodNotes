@@ -17,7 +17,8 @@ public:
         int m = people.size();
         unordered_map<string, int> map;
         int cnt = 0;
-        for(string& s : req_skills){
+        for (string &s : req_skills)
+        {
             map[s] = cnt++;
         }
 
@@ -25,30 +26,41 @@ public:
         for (int i = 0, status; i < n; i++)
         {
             status = 0;
-            for(auto& skill : people[i]){
-                if(map.count(skill))
+            for (auto &skill : people[i])
+            {
+                if (map.count(skill))
                     status |= (1 << map[skill]);
             }
             arr[i] = status;
         }
 
-        vector<vector<int>> dp(m, vector<int>(1<<n, -1));
-        int sz = f(arr, n, m, 1, 0, dp);
+        vector<vector<int>> dp(m, vector<int>(1 << n, -1));
+        int sz = f(arr, n, m, 0, 0, dp);
 
         vector<int> ans(sz);
-        for (int j = 0, i = 0, s = 0; s != (1 << n) - 1;i++){
-            if(i == m || dp[i][s] != dp[i+1][s])
+        for (int j = 0, i = 0, s = 0; s != (1 << n) - 1; i++)
+        {
+            if (i == m - 1 || dp[i][s] != dp[i + 1][s])
+            {
+                ans[j++] = i;
+                s |= arr[i];
+            }
         }
+        return ans;
     }
-    int f(vector<int>& arr,int n,int m,int i,int s,vector<vector<int>>& dp){
-        if(s == (1<<n) -1){
+    int f(vector<int> &arr, int n, int m, int i, int s, vector<vector<int>> &dp)
+    {
+        if (s == (1 << n) - 1)
+        {
             return 0;
         }
-        if(i == m){
+        if (i == m)
+        {
             return INF;
         }
 
-        if(dp[i][s]!=-1){
+        if (dp[i][s] != -1)
+        {
             return dp[i][s];
         }
 
@@ -56,7 +68,8 @@ public:
         int p2 = INF;
         int next = INF;
         next = f(arr, n, m, i + 1, s |= arr[i], dp);
-        if(next != INF){
+        if (next != INF)
+        {
             p2 = 1 + next;
         }
         dp[i][s] = min(p1, p2);
