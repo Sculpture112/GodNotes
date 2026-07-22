@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "086 Code03 最长递增子序列字典序最小的结果"
             }
+          },
+          {
+            "id": "a4103ac04b9c418d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-07-22 15.16.46.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-07-22 15.16.46.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,10 +239,10 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "ef8d607b9d7b5fc8",
+  "active": "a4103ac04b9c418d",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-07-22 15.16.46.excalidraw.md",
     "母题/086 Code03 最长递增子序列字典序最小的结果.md",
+    "Excalidraw/Drawing 2026-07-22 15.16.46.excalidraw.md",
     "算法名/最长递增子序列.md",
     "母题/086 Code04 潜水的最大时间与方案空间压缩.md",
     "母题/086 Code02 最小的必要团队.md",
