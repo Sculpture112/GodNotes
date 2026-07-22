@@ -1,0 +1,1 @@
+{"name":"Local: 086 Code01 最长公共子序列其中一个结果","url":"c:\\Users\\17487\\Desktop\\GodNotes\\God\\母题\\086 Code01 最长公共子序列其中一个结果.cpp","tests":[{"id":1784695413938,"input":"1A2C3D4B56\nB1D23CA45B6A","output":"123456"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\17487\\Desktop\\GodNotes\\God\\母题\\086 Code01 最长公共子序列其中一个结果.cpp","group":"local","local":true}
