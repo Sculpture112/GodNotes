@@ -21,9 +21,42 @@ public:
             map[s] = cnt++;
         }
 
-        for (int i = 0, status;i<n;i++){
+        vector<int> arr(m);
+        for (int i = 0, status; i < n; i++)
+        {
             status = 0;
-            for()
+            for(auto& skill : people[i]){
+                if(map.count(skill))
+                    status |= (1 << map[skill]);
+            }
+            arr[i] = status;
         }
+
+        vector<vector<int>> dp(n+1, vector<int>(m+1, -1));
+        int sz = f(arr, n, m, 1, 0, dp);
+
+        
+    }
+    int f(vector<int>& arr,int n,int m,int i,int s,vector<vector<int>>& dp){
+        if(s == (1<<n) -1){
+            return 0;
+        }
+        if(i == m){
+            return INF;
+        }
+
+        if(dp[i][s]!=-1){
+            return dp[i][s];
+        }
+
+        int p1 = f(arr, n, m, i + 1, s, dp);
+        int p2 = INF;
+        int next = INF;
+        next = f(arr, n, m, i + 1, s |= arr[i], dp);
+        if(next != INF){
+            p2 = 1 + next;
+        }
+        dp[i][s] = min(p1, p2);
+        return dp[i][s];
     }
 };
