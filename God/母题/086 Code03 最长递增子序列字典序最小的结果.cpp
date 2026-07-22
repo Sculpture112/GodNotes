@@ -29,7 +29,29 @@ int filldp(){
     int len = 0;
     for (int i = n - 1, find; i >= 0; i--)
     {
-        
+        find = bs(len, nums[i]);
+        if(find == -1){
+            endsArr[len++] = nums[i];
+            dp[i] = len;
+        }
+        else{
+            endsArr[find] = nums[i];
+            dp[i] = find + 1;
+        }
+    }
+    return len;
+}
+
+void lis(){
+    k = filldp();
+    fill(ans, ans + k, INF);
+    for (int i = 0; i < n; i++) {
+        if(dp[i] = k){
+            ans[0] = nums[i];
+        }
+        else if(ans[k-dp[i]-1]<nums[i]){
+            ans[k - dp[i]] = nums[i];
+        }
     }
 }
 
@@ -43,7 +65,11 @@ int main() {
         cin >> nums[i];
     }
 
-
+    lis();
+    for (int i = 0; i < k-1; i++) {
+        cout << ans[i] << " ";
+    }
+    cout << ans[k - 1];
 
     return 0;
 }
