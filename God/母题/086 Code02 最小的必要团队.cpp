@@ -37,7 +37,7 @@ public:
 
         vector<int> ans(sz);
         for (int j = 0, i = 0, s = 0; s != (1 << n) - 1;i++){
-            if(i != m)
+            if(i == m || dp[i][s] != dp[i+1][s])
         }
     }
     int f(vector<int>& arr,int n,int m,int i,int s,vector<vector<int>>& dp){
