@@ -60,6 +60,27 @@ int solve2(int n,vector<int>& a,vector<int>& b){
     return -1;
 }
 
+int solve3(int n,vector<int>& a,vector<int>& b){
+    int m = accumulate(a.begin(), a.end(), 0);
+    vector<vector<int>> dp(n + 1, vector<int>(m + 1, INT_MAX));
+    //dp[i][j] == 到了i个之后的j能力最小需要花费多少钱
+    dp[0][0] = 0;
+
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 0; j <= m;j++){
+            if(j >= a[i] && dp[i-1][j] != INT_MAX){
+                dp[i][j] = dp[i - 1][j];
+            }
+            if(j>=a[i] && dp[i-1][j-a[i]] !=INT_MAX){
+                dp[i][j] = min(dp[i][j],dp[i - 1][j - a[i]] + b[i]);
+            }
+        }
+    }
+
+    int ans = *min_element(dp[n].begin(), dp[n].end());
+    return ans == INT_MAX ? -1 : ans;
+}
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -71,6 +92,6 @@ int main() {
     {
         cin >> a[i] >> b[i];
     }
-    cout << solve2(n, a, b);
+    cout << solve3(n, a, b);
     return 0;
 }
