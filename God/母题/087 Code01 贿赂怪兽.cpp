@@ -81,6 +81,12 @@ int solve3(int n,vector<int>& a,vector<int>& b){
     int ans = *min_element(dp[n].begin(), dp[n].end());
     return ans == INT_MAX ? -1 : ans;
 }
+int solve4(int n,vector<int>& a,vector<int>& b){
+    int m = accumulate(a.begin(), a.end(), 0);
+    vector<int> dp(m + 1, INT_MAX);
+    dp[0] = 0;
+    for
+}
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
