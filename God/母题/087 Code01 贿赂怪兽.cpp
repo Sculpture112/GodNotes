@@ -42,7 +42,7 @@ int solve2(int n,vector<int>& a,vector<int>& b){
     {
         for (int j = m; j >= 0;j--){
             
-            if(j>b[i] && dp[j-b[i]] !=INT_MIN)
+            if(j>=b[i] && dp[j-b[i]] !=INT_MIN)
             {
                 dp[j] = max(dp[j], dp[j - b[i]] + a[i]);
             }
@@ -52,6 +52,7 @@ int solve2(int n,vector<int>& a,vector<int>& b){
         if(dp[j] != INT_MIN)
             return j;
     }
+    return -1;
 }
 
 int main() {
@@ -65,6 +66,6 @@ int main() {
     {
         cin >> a[i] >> b[i];
     }
-    cout << solve(n, a, b);
+    cout << solve2(n, a, b);
     return 0;
 }
