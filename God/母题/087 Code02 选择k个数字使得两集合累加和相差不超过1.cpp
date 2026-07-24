@@ -8,17 +8,16 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
-
+vector<int> generate(ll sum,int n,int k){
+    bool canSplit(int n, int k);
+    bool f(int n, int i, int k, int s, vector<vector<vector<int>>> &dp);
+}
+vector<int> pick(int n,int k){
+    ll sum = 1LL * (n + 1) * n / 2;
+    vector<int> ans = generate(sum / 2, n, k);
+    if(ans.empty() && (sum&1)){
+        ans = generate(sum / 2 + 1, n, k);
+    }
+    return ans;
 }
 
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int T = 1;
-    // cin >> T;
-    while (T--) solve();
-
-    return 0;
-}
