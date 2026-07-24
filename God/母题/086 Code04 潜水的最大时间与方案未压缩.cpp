@@ -52,7 +52,7 @@ int main()
     a.assign(n + 1, 0);
     b.assign(n + 1, 0);
     c.assign(n + 1, 0);
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i <= n; i++)
     {
         cin >> a[i] >> b[i] >> c[i];
     }

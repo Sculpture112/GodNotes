@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/086 Code04 潜水的最大时间与方案空间压缩.md",
+                "file": "母题/086 Code04 潜水的最大时间与方案未压缩.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "086 Code04 潜水的最大时间与方案空间压缩"
+              "title": "086 Code04 潜水的最大时间与方案未压缩"
             }
           }
         ]
@@ -228,10 +228,10 @@
   },
   "active": "ef8d607b9d7b5fc8",
   "lastOpenFiles": [
+    "母题/086 Code04 潜水的最大时间与方案空间压缩.md",
     "God/母题/086 Code04 _u6f5c_u6c34_u7684_u6700_u5927_u65f6_u95f4_u4e0e_u65b9_u6848_u672a_u538b_u7f29.bin",
     "母题/086 Code03 最长递增子序列字典序最小的结果.md",
     "Excalidraw/Drawing 2026-07-22 16.01.53.excalidraw.md",
-    "母题/086 Code04 潜水的最大时间与方案空间压缩.md",
     "Excalidraw/Drawing 2026-07-16 14.42.44.excalidraw.md",
     "Excalidraw/Drawing 2026-07-13 14.13.46.excalidraw.md",
     "Excalidraw/Drawing 2026-07-14 20.00.00.excalidraw.md",
@@ -261,7 +261,6 @@
     "God/母题/094 Code01 消灭怪物的最大数量.cpp",
     "God/母题/093 Code05 超级洗衣机.cpp",
     "God/母题/093 Code04 过河问题.cpp",
-    "God/母题/093 Code03 字符串转化.cpp",
     "算法名/路径回溯.md",
     "算法名/最长公共子序列.md",
     "image/Pasted image 20260715173248.png",
