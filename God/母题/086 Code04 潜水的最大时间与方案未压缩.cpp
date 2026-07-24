@@ -59,10 +59,8 @@ int main()
     dp.assign(m + 1, vector<int>(v + 1, 0));
     path.assign(m + 1, vector<string>(v + 1));
 
-    int T = 1;
-    // cin >> T;
-    while (T--)
-        solve();
-
+    solve();
+    cout << dp[m][v]<<"\n";
+    cout << path[m][v] << "\n";
     return 0;
 }
