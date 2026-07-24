@@ -86,7 +86,7 @@ int solve4(int n,vector<int>& a,vector<int>& b){
     vector<int> dp(m + 1, INT_MAX);
     dp[0] = 0;
     for (int i = 1; i <= n;i++){
-        for (int j = 0; j <= m;j++){
+        for (int j = m; j >=0 ;j--){
             int cur = INT_MAX;
             if (j >= a[i] && dp[j] != INT_MAX)
             {
