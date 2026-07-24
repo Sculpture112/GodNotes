@@ -99,7 +99,8 @@ int solve4(int n,vector<int>& a,vector<int>& b){
         }
     }
 
-    int ans = *min_element()
+    int ans = *min_element(dp.begin(), dp.end());
+    return ans == INT_MAX ? -1 : ans;
 }
 int main() {
     ios::sync_with_stdio(false);
@@ -112,6 +113,6 @@ int main() {
     {
         cin >> a[i] >> b[i];
     }
-    cout << solve3(n, a, b);
+    cout << solve4(n, a, b);
     return 0;
 }
