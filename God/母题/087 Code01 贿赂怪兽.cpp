@@ -22,7 +22,7 @@ int solve(int n,vector<int>& a,vector<int>& b) {
 
             if(j>=b[i] && dp[i-1][j-b[i]]!=INT_MIN)
             {
-                dp[i][j] = max(dp[i][j], dp[i][j - b[i]] + a[i]);
+                dp[i][j] = max(dp[i][j], dp[i-1][j - b[i]] + a[i]);
             }
         }
     }
@@ -33,6 +33,15 @@ int solve(int n,vector<int>& a,vector<int>& b) {
         }
     }
     return -1;
+}
+
+int solve2(int n,vector<int>& a,vector<int>& b){
+    int m = accumulate(b.begin(), b.end(), 0);
+    for (int i = 1; i <= n;i++){
+        for (int j = m; j >= 0;j--){
+            if(dp[j] >=)
+        }
+    }
 }
 
 int main() {
