@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/087 Code01 贿赂怪兽.md",
+                "file": "母题/087 Code02 选择k个数字使得两集合累加和相差不超过1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "087 Code01 贿赂怪兽"
+              "title": "087 Code02 选择k个数字使得两集合累加和相差不超过1"
             }
           }
         ]
@@ -228,9 +228,9 @@
   },
   "active": "ef8d607b9d7b5fc8",
   "lastOpenFiles": [
+    "母题/087 Code01 贿赂怪兽.md",
     "母题/087 Code02 选择k个数字使得两集合累加和相差不超过1.md",
     "母题/086 Code04 潜水的最大时间与方案未压缩.md",
-    "母题/087 Code01 贿赂怪兽.md",
     "母题/086 Code04 潜水的最大时间与方案空间压缩.md",
     "God/母题/086 Code04 _u6f5c_u6c34_u7684_u6700_u5927_u65f6_u95f4_u4e0e_u65b9_u6848_u672a_u538b_u7f29.bin",
     "母题/086 Code03 最长递增子序列字典序最小的结果.md",
