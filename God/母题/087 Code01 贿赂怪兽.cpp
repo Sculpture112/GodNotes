@@ -87,11 +87,19 @@ int solve4(int n,vector<int>& a,vector<int>& b){
     dp[0] = 0;
     for (int i = 1; i <= n;i++){
         for (int j = 0; j <= m;j++){
-            if(j>=a[i] && dp[j] != INT_MAX){
-                 
+            int cur = INT_MAX;
+            if (j >= a[i] && dp[j] != INT_MAX)
+            {
+                cur = dp[j];
             }
+            if(j>=a[i] && dp[j-a[i]]!=INT_MAX){
+                cur = min(cur, dp[j - a[i]] + b[i]);
+            }
+            dp[j] = cur;
         }
     }
+
+    int ans = *min_element()
 }
 int main() {
     ios::sync_with_stdio(false);
