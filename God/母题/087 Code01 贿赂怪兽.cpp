@@ -37,10 +37,20 @@ int solve(int n,vector<int>& a,vector<int>& b) {
 
 int solve2(int n,vector<int>& a,vector<int>& b){
     int m = accumulate(b.begin(), b.end(), 0);
-    for (int i = 1; i <= n;i++){
+    vector<int> dp(m + 1, INT_MIN);
+    for (int i = 1; i <= n; i++)
+    {
         for (int j = m; j >= 0;j--){
-            if(dp[j] >=)
+            
+            if(j>b[i] && dp[j-b[i]] !=INT_MIN)
+            {
+                dp[j] = max(dp[j], dp[j - b[i]] + a[i]);
+            }
         }
+    }
+    for (int j = 0; j <= m;j++){
+        if(dp[j] != INT_MIN)
+            return j;
     }
 }
 
