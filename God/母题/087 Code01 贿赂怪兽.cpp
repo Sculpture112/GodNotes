@@ -85,7 +85,13 @@ int solve4(int n,vector<int>& a,vector<int>& b){
     int m = accumulate(a.begin(), a.end(), 0);
     vector<int> dp(m + 1, INT_MAX);
     dp[0] = 0;
-    for
+    for (int i = 1; i <= n;i++){
+        for (int j = 0; j <= m;j++){
+            if(j>=a[i] && dp[j] != INT_MAX){
+                 
+            }
+        }
+    }
 }
 int main() {
     ios::sync_with_stdio(false);
