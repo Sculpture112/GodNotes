@@ -25,10 +25,10 @@ int main() {
         cin >> time[i].first;
         time[i].second = i;
     }
-    sort(time.begin(),time.end(),[](auto& a,auto &b){
-        return
-    })
-    for (int i = 0; i < n; i++) {
+    sort(time.begin(), time.end(), [](auto &a, auto &b)
+         { return a.first < b.first; });
+    for (int i = 0; i < n; i++)
+    {
         cin >> delay[i];
     }
     int q;
@@ -39,6 +39,7 @@ int main() {
     }
 
     priority_queue<vector<int>,vector<int>,greater<vector<int>>> pq;
+    pq.push(time[0],)
     for (int i = 1; i < n; i++) {
         
     }
