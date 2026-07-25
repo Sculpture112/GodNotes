@@ -1,0 +1,1 @@
+{"name":"Local: 087 Code03 两个排列的最长公共子序列长度","url":"c:\\Users\\17487\\Desktop\\GodNotes\\God\\母题\\087 Code03 两个排列的最长公共子序列长度.cpp","tests":[{"id":1784947929559,"input":"5 \n3 2 1 4 5\n1 2 3 4 5\n","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\17487\\Desktop\\GodNotes\\God\\母题\\087 Code03 两个排列的最长公共子序列长度.cpp","group":"local","local":true}
