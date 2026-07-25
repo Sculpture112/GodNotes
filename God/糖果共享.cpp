@@ -20,9 +20,10 @@ int main() {
     cin >> n;
     vector<pair<int,int>> time(n);
     vector<int> delay(n);
-    
+    int mx = 0;
     for (int i = 0; i < n; i++) {
         cin >> time[i].first;
+        mx = max(time[i].first, mx);
         time[i].second = i;
     }
     sort(time.begin(), time.end(), [](auto &a, auto &b)
@@ -39,8 +40,8 @@ int main() {
     }
 
     priority_queue<vector<pair<int,int>>,vector<pair<int,int>>,greater<vector<pair<int,int>>>> pq;
-    for (int i = 1; i < n; i++) {
-        while(pq.top())   
+    for (int i = 1; i <= mx; i++) {
+        while(pq.top == i)   
     }
     return 0;
 }
