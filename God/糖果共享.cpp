@@ -40,7 +40,7 @@ int main() {
 
     priority_queue<vector<pair<int,int>>,vector<pair<int,int>>,greater<vector<pair<int,int>>>> pq;
     for (int i = 1; i < n; i++) {
-        while(pq.top)   
+        while(pq.top())   
     }
     return 0;
 }
