@@ -25,6 +25,9 @@ int main() {
         cin >> time[i].first;
         time[i].second = i;
     }
+    sort(time.begin(),time.end(),[](auto& a,auto &b){
+        return
+    })
     for (int i = 0; i < n; i++) {
         cin >> delay[i];
     }
