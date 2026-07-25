@@ -18,6 +18,19 @@ int main() {
 
     int T = 1;
     // cin >> T;
+    int n, m;
+    cin >> n >> m;
+    vector<int> cnt(m + 1, -1);
+    for (int i = 0; i < n; i++) {
+        int c, sz;
+        cin >> c >> sz;
+        if(sz>cnt[c]){
+            cnt[c] = sz;
+        }
+    }
+    for (int i = 0; i < n; i++) {
+        
+    }
     while (T--) solve();
 
     return 0;
