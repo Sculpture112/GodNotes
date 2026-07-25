@@ -20,7 +20,7 @@ int main() {
     // cin >> T;
     int n, m;
     cin >> n >> m;
-    vector<int> cnt(m + 1, -1);
+    vector<int> cnt(m+1, -1);
     for (int i = 0; i < n; i++) {
         int c, sz;
         cin >> c >> sz;
@@ -28,8 +28,8 @@ int main() {
             cnt[c] = sz;
         }
     }
-    for (int i = 0; i < n; i++) {
-        
+    for (int i = 1; i <= m; i++) {
+        cout << cnt[i]<<" ";
     }
     while (T--) solve();
 
