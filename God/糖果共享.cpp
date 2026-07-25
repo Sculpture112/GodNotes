@@ -38,10 +38,18 @@ int main() {
     for (int i = 0; i < q; i++) {
         cin>>quiery[i];
     }
-
+    vector<int> ans(n);
     priority_queue<vector<pair<int,int>>,vector<pair<int,int>>,greater<vector<pair<int,int>>>> pq;
-    for (int i = 1; i <= mx; i++) {
-        while(pq.top == i)   
+    for (int i = 1,j=0; i <= mx; i++) {
+        while(time[j].first<=i){
+            pq.push({delay[time[j].second], time[j].second});
+            j++;
+        }
+        while(pq.top().first == i)   
+        {
+            
+            pq.top();
+        }
     }
     return 0;
 }
