@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "087 Code03 两个排列的最长公共子序列长度"
             }
+          },
+          {
+            "id": "c6702fea5de8d492",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-07-24 20.18.59.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-07-24 20.18.59.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,11 +239,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c31c5bd99dc4b701",
+  "active": "c6702fea5de8d492",
   "lastOpenFiles": [
+    "母题/087 Code03 两个排列的最长公共子序列长度.md",
     "Excalidraw/Drawing 2026-07-24 20.18.59.excalidraw.md",
     "算法名/映射.md",
-    "母题/087 Code03 两个排列的最长公共子序列长度.md",
     "算法名/排列 LCS 转 LIS.md",
     "母题/087 Code02 选择k个数字使得两集合累加和相差不超过1.md",
     "算法名/对数器.md",
