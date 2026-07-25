@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学校.md",
+                "file": "母题/087 Code04 使数组严格递增的最小操作数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "学校"
+              "title": "087 Code04 使数组严格递增的最小操作数"
+            }
+          },
+          {
+            "id": "4488418b0cb70f5d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-07-25 11.30.51.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-07-25 11.30.51.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,15 +239,17 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7ec9e0954478b70b",
+  "active": "4488418b0cb70f5d",
   "lastOpenFiles": [
-    "God/_u9b54_u836f.bin",
-    "God/魔药.cpp",
-    "文明6.md",
     "Excalidraw/Drawing 2026-07-25 12.56.13.excalidraw.md",
-    "God/糖果共享.cpp",
     "Excalidraw/Drawing 2026-07-25 13.20.14.excalidraw.md",
     "母题/087 Code04 使数组严格递增的最小操作数.md",
+    "母题/087 Code03 两个排列的最长公共子序列长度.md",
+    "文明6.md",
+    "学校.md",
+    "God/_u9b54_u836f.bin",
+    "God/魔药.cpp",
+    "God/糖果共享.cpp",
     "God/相遇问题.cpp",
     "God/_u6570_u4e09_u89d2_u5f62.bin",
     "God/数三角形.cpp",
@@ -242,11 +257,9 @@
     "God/最大颜色.cpp",
     "Excalidraw/Drawing 2026-07-25 11.30.51.excalidraw.md",
     "Excalidraw/Drawing 2026-07-25 11.19.36.excalidraw.md",
-    "母题/087 Code03 两个排列的最长公共子序列长度.md",
     "God/母题/087 Code03 _u4e24_u4e2a_u6392_u5217_u7684_u6700_u957f_u516c_u5171_u5b50_u5e8f_u5217_u957f_u5ea6.bin",
     "母题/072 Code01 最长递增子序列和最长不下降子序列.md",
     "God/母题/072 Code05 有一次修改机会的最长不下降子序列.cpp",
-    "God/母题/072 Code04 最长数对链.cpp",
     "Excalidraw/Drawing 2026-07-24 20.18.59.excalidraw.md",
     "算法名/映射.md",
     "算法名/排列 LCS 转 LIS.md",
