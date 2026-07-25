@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "087 Code04 使数组严格递增的最小操作数"
             }
+          },
+          {
+            "id": "2564c5c8427c6786",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-07-25 11.19.36.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-07-25 11.19.36.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,11 +239,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ef8d607b9d7b5fc8",
+  "active": "2564c5c8427c6786",
   "lastOpenFiles": [
+    "母题/087 Code04 使数组严格递增的最小操作数.md",
     "Excalidraw/Drawing 2026-07-25 11.19.36.excalidraw.md",
     "母题/087 Code03 两个排列的最长公共子序列长度.md",
-    "母题/087 Code04 使数组严格递增的最小操作数.md",
     "God/母题/087 Code03 _u4e24_u4e2a_u6392_u5217_u7684_u6700_u957f_u516c_u5171_u5b50_u5e8f_u5217_u957f_u5ea6.bin",
     "母题/072 Code01 最长递增子序列和最长不下降子序列.md",
     "God/母题/072 Code05 有一次修改机会的最长不下降子序列.cpp",
