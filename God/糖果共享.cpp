@@ -18,9 +18,12 @@ int main() {
 
     int n;
     cin >> n;
-    vector<int> time(n), delay(n);
+    vector<pair<int,int>> time(n);
+    vector<int> delay(n);
+    
     for (int i = 0; i < n; i++) {
-        cin >> time[i];
+        cin >> time[i].first;
+        time[i].second = i;
     }
     for (int i = 0; i < n; i++) {
         cin >> delay[i];
