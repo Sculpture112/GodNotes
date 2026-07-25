@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "087 Code04 使数组严格递增的最小操作数"
             }
-          },
-          {
-            "id": "2564c5c8427c6786",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-07-25 11.19.36.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-07-25 11.19.36.excalidraw"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -239,10 +226,48 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
+  "floating": {
+    "id": "4f2cdceee5bcd354",
+    "type": "floating",
+    "children": [
+      {
+        "id": "eb4bbc4abb2108d8",
+        "type": "window",
+        "children": [
+          {
+            "id": "d0d49bae118a0c87",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2564c5c8427c6786",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Drawing 2026-07-25 12.56.13.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "Drawing 2026-07-25 12.56.13.excalidraw"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 832,
+        "y": 165,
+        "width": 772,
+        "height": 725,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "2564c5c8427c6786",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-07-25 11.30.51.excalidraw.md",
     "母题/087 Code04 使数组严格递增的最小操作数.md",
+    "Excalidraw/Drawing 2026-07-25 12.56.13.excalidraw.md",
+    "Excalidraw/Drawing 2026-07-25 11.30.51.excalidraw.md",
     "Excalidraw/Drawing 2026-07-25 11.19.36.excalidraw.md",
     "母题/087 Code03 两个排列的最长公共子序列长度.md",
     "God/母题/087 Code03 _u4e24_u4e2a_u6392_u5217_u7684_u6700_u957f_u516c_u5171_u5b50_u5e8f_u5217_u957f_u5ea6.bin",
@@ -272,7 +297,6 @@
     "母题/093 Code01 跳跃游戏II.md",
     "母题/092 Code06 最低加油次数.md",
     "母题/092 Code05 将数组分成几个递增序列.md",
-    "母题/092 Code04 知识竞赛.md",
     "God/母题/087 Code01 _u8d3f_u8d42_u602a_u517d.bin",
     "God/母题/086 Code04 _u6f5c_u6c34_u7684_u6700_u5927_u65f6_u95f4_u4e0e_u65b9_u6848_u672a_u538b_u7f29.bin",
     "God/母题/086 Code01 _u6700_u957f_u516c_u5171_u5b50_u5e8f_u5217_u5176_u4e2d_u4e00_u4e2a_u7ed3_u679c.bin",
