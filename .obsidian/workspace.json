@@ -281,8 +281,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 662,
-        "y": 106,
+        "x": 642,
+        "y": 108,
         "width": 772,
         "height": 727,
         "maximize": false,
@@ -290,10 +290,10 @@
       }
     ]
   },
-  "active": "ef8d607b9d7b5fc8",
+  "active": "2564c5c8427c6786",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-07-25 12.56.13.excalidraw.md",
     "Excalidraw/Drawing 2026-07-25 13.20.14.excalidraw.md",
+    "Excalidraw/Drawing 2026-07-25 12.56.13.excalidraw.md",
     "母题/087 Code04 使数组严格递增的最小操作数.md",
     "God/相遇问题.cpp",
     "God/_u6570_u4e09_u89d2_u5f62.bin",
