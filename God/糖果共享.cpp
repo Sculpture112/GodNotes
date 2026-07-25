@@ -62,6 +62,8 @@ int main()
             pq.top();
         }
     }
-    for
+    for(auto a : quiery){
+        cout << ans[a] << "\n";
+    }
     return 0;
 }
