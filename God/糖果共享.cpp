@@ -47,7 +47,9 @@ int main()
     {
         while (j < n && time[j].first <= i)
         {
+            ans[time[j].second] = i;
             pq.push({delay[time[j].second], time[j].second});
+
             j++;
         }
         while (pq.top().first == i)
@@ -60,5 +62,6 @@ int main()
             pq.top();
         }
     }
+    for
     return 0;
 }
