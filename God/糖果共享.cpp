@@ -38,10 +38,9 @@ int main() {
         cin>>quiery[i];
     }
 
-    priority_queue<vector<int>,vector<int>,greater<vector<int>>> pq;
-    pq.push(time[0],)
+    priority_queue<vector<pair<int,int>>,vector<pair<int,int>>,greater<vector<pair<int,int>>>> pq;
     for (int i = 1; i < n; i++) {
-        
+        while(pq.top)   
     }
     return 0;
 }
