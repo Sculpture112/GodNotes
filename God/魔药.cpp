@@ -13,12 +13,12 @@ int dp[MAXN];
 int n;
 int f(int sum,int i,int cnt)
 {
-    if(i == n-1)
+    if(i == n)
         return cnt;
     if(a[i]>=0){
         cnt++;
         sum += a[i];
-        return cnt;
+        return f(sum+a[i],i+1,cnt+1);
     }
     int p1 = INT_MIN;
     if(sum+a[i]>=0){
