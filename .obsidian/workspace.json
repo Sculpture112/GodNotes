@@ -22,15 +22,17 @@
             }
           },
           {
-            "id": "88a019a86780a83e",
+            "id": "9b43eeca04c3e6f1",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-07-24 20.18.59.excalidraw.md"
+                "file": "母题/072 Code01 最长递增子序列和最长不下降子序列.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-07-24 20.18.59.excalidraw"
+              "icon": "lucide-file",
+              "title": "072 Code01 最长递增子序列和最长不下降子序列"
             }
           }
         ],
@@ -53,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:折半搜索",
+                "query": "最长递增子序列",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,8 +89,7 @@
               "title": "文件列表"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -239,7 +240,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "88a019a86780a83e",
+  "active": "9b43eeca04c3e6f1",
   "lastOpenFiles": [
     "母题/087 Code03 两个排列的最长公共子序列长度.md",
     "Excalidraw/Drawing 2026-07-24 20.18.59.excalidraw.md",
