@@ -35,16 +35,16 @@ public:
         if(dp[i]!=-1)
             return dp[i];
 
-        int find = bs(arr2, m, arr1[i]);
-        int pre = arr1[i - 1];
+        int pre = i == 0?INT_MIN:arr1[i - 1];
+        int find = bs(arr2, m, pre);
         int ans = INT_MAX;
-        for (int j = i, k = 0, next; j <= n; j++)
+        for (int j = i, k = 0, next; j <= n; j++,k++)
         {
             if(j == n){
-                return 0;
+                ans = min(ans,k);
             }
             else{
-                if(pre<arr1[i]){
+                if(pre<arr1[j]){
                     next = f1(arr1, arr2, n, m, dp, j + 1);
                     if(next != INT_MAX){
                         ans = min(ans, k + next);
@@ -69,7 +69,7 @@ public:
         int ans = -1;
         while (l <= r)
         {
-            m = l + ((r - l) << 1);
+            m = l + ((r - l) >> 1);
             if(arr[m]>num){
                 ans = m;
                 r = m - 1;
