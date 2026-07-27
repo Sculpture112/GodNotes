@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e046a3086c301136",
+        "id": "73c27563fe48efe9",
         "type": "tabs",
         "children": [
           {
-            "id": "7ec9e0954478b70b",
+            "id": "97f5cac143f56204",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,18 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "087 Code04 使数组严格递增的最小操作数"
-            }
-          },
-          {
-            "id": "358298e60ff432eb",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-07-25 15.07.56.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-07-25 15.07.56.excalidraw"
             }
           }
         ]
@@ -238,16 +226,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7ec9e0954478b70b",
+  "active": "97f5cac143f56204",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-07-25 15.07.56.excalidraw.md",
+    "学校.md",
     "母题/087 Code04 使数组严格递增的最小操作数.md",
     "Excalidraw/Drawing 2026-07-25 11.30.51.excalidraw.md",
     "Excalidraw/Drawing 2026-07-25 12.56.13.excalidraw.md",
     "Excalidraw/Drawing 2026-07-25 13.20.14.excalidraw.md",
     "母题/087 Code03 两个排列的最长公共子序列长度.md",
     "文明6.md",
-    "学校.md",
     "God/_u9b54_u836f.bin",
     "God/魔药.cpp",
     "God/糖果共享.cpp",
