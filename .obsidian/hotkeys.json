@@ -14,5 +14,13 @@
       ],
       "key": "S"
     }
+  ],
+  "insert-current-time": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
   ]
 }
