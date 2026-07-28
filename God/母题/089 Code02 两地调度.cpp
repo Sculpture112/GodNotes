@@ -8,17 +8,24 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+class Solution
+{
+public:
+    int twoCitySchedCost(vector<vector<int>> &costs)
+    {
+        int n = costs.size();
+        int sum = 0;
+        vector<int> arr(n);
+        for (int i = 0; i < n; i++)
+        {
+            sum += costs[i][0];
+            arr[i] = costs[i][1] - costs[i][0];
+        }
 
-}
-
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int T = 1;
-    // cin >> T;
-    while (T--) solve();
-
-    return 0;
-}
+        sort(arr.begin(), arr.end());
+        for (int i = 0; i < n / 2;i++){
+            sum += arr[i];
+        }
+        return sum;
+    }
+};
