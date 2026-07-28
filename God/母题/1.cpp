@@ -1,0 +1,42 @@
+#include <bits/stdc++.h>
+using namespace std;
+// 两个0和1数量相等区间的最大长度
+// 给出一个长度为n的01串，现在请你找到两个区间，使得这两个区间中，1的个数相等，0的个数也相等
+int len1(vector<int> &a)
+{
+    map<pair<int, int>, int> m;
+    for (int i = 0; i < a.size(); i++)
+    {
+        int z = 0, o = 0;
+        for (int j = i; j < a.size(); j++)
+        {
+            z += a[j] == 0;
+            o += a[j] == 1;
+            m[{z, o}]++;
+        }
+    }
+    int ans = 0;
+    for (auto &[x, c] : m)
+        if (c > 1)
+            ans = max(ans, x.first + x.second);
+    return ans;
+}
+int len2(vector<int> &a)
+{
+    int l0 = -1, l1 = -1, r0 = -1, r1 = -1, n = a.size();
+    for (int i = 0; i < n; i++)
+    {
+        if (a[i] == 0 && l0 < 0)
+            l0 = i;
+        if (a[i] == 1 && l1 < 0)
+            l1 = i;
+    }
+    for (int i = n - 1; i >= 0; i--)
+    {
+        if (a[i] == 0 && r0 < 0)
+            r0 = i;
+        if (a[i] == 1 && r1 < 0)
+            r1 = i;
+    }
+    return max(r0 - l0, r1 - l1);
+}
