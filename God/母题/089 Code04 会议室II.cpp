@@ -8,17 +8,22 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+int minMeetingRooms(vector<vector<int>> &meeting)
+{
+    int n = meeting.size();
+    sort(meeting.begin(), meeting.end(), [](const auto a, const auto b)
+         { return a[i] < b[i]; });
 
-}
+    priority_queue<int, vector<int>, greater<int>> pq;
+    int ans = 0;
+    for (int i = 0; i < n; i++)
+    {
+        while(!pq.empty() && pq.top()<=meeting[i][0]){
+            pq.pop();
+        }
 
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int T = 1;
-    // cin >> T;
-    while (T--) solve();
-
-    return 0;
+        pq.push(meeting[i][1]);
+        ans = max(ans, (int)pq.size());
+    }
+    return ans;
 }
