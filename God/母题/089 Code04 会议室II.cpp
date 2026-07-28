@@ -12,7 +12,7 @@ int minMeetingRooms(vector<vector<int>> &meeting)
 {
     int n = meeting.size();
     sort(meeting.begin(), meeting.end(), [](const auto a, const auto b)
-         { return a[i] < b[i]; });
+         { return a[0] < b[0]; });
 
     priority_queue<int, vector<int>, greater<int>> pq;
     int ans = 0;
