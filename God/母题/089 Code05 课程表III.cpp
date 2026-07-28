@@ -8,17 +8,31 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+class Solution
+{
+public:
+    int scheduleCourse(vector<vector<int>> &courses)
+    {
+        sort(courses.begin(), courses.end(), [](const auto &a, const auto &b)
+             { return a[1] < b[1]; });
 
-}
-
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int T = 1;
-    // cin >> T;
-    while (T--) solve();
-
-    return 0;
-}
+        int time = 0;
+        priority_queue<int> heap;
+        for (auto &c : courses)
+        {
+            if(time + c[0]<=c[1]){
+                heap.push(c[0]);
+                time += c[0];
+            }
+            else{
+                if(!heap.empty() && heap.top()>c[0]){
+                    heap.push(c[0]);
+                    time += c[0];
+                    time -= heap.top();
+                    heap.pop();
+                }
+            }
+        }
+        return heap.size();
+    }
+};
