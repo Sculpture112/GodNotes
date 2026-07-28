@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/089 Code05 课程表III.md",
+                "file": "母题/089 Code06 连接棒材的最低费用1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "089 Code05 课程表III"
+              "title": "089 Code06 连接棒材的最低费用1"
             }
           }
         ]
@@ -228,8 +228,8 @@
   },
   "active": "97f5cac143f56204",
   "lastOpenFiles": [
-    "算法名/反悔贪心.md",
     "母题/089 Code05 课程表III.md",
+    "算法名/反悔贪心.md",
     "母题/089 Code04 会议室II.md",
     "母题/091 Code03 组团买票1.md",
     "image/Pasted image 20260728190851.png",
