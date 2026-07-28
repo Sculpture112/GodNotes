@@ -8,17 +8,21 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+class Solution
+{
+public:
+    unordered_map<int, int> dp;
+    int minDays(int n)
+    {
+        if (n <= 1)
+            return n;
+        if (dp.count(n))
+        {
+            return dp[n];
+        }
 
-}
-
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int T = 1;
-    // cin >> T;
-    while (T--) solve();
-
-    return 0;
-}
+        int ans = min(n % 2 + 1 + minDays(n / 2), n % 3 + 1 + minDays(n / 3));
+        dp[n] = ans;
+        return ans;
+    }
+};
