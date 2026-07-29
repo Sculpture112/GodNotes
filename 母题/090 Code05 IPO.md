@@ -25,39 +25,39 @@ using namespace std;
 
 class Solution {
 public:
-    struct Project {
-        int p; // 纯利润
-        int c; // 需要的启动金
+    int findMaximizedCapital(int k, int w,
+                             vector<int>& profit,
+                             vector<int>& cost) {
+        // pair<启动资金, 利润>
+        // greater 让启动资金最小的项目在堆顶
+        priority_queue<pair<int, int>,
+                       vector<pair<int, int>>,
+                       greater<pair<int, int>>> heap1;
 
-        Project(int profit, int cost) : p(profit), c(cost) {
-        }
-    };
+        // 已解锁项目：利润最大者在堆顶
+        priority_queue<int> heap2;
 
-    int findMaximizedCapital(int k, int w, vector<int>& profit, vector<int>& cost) {
-        int n = profit.size();
-        // 需要的启动金小根堆
-        // 代表被锁住的项目
-        auto cmp1 = [](const Project& a, const Project& b) { return a.c > b.c; };
-        priority_queue<Project, vector<Project>, decltype(cmp1)> heap1(cmp1);
-        // 利润大根堆
-        // 代表被解锁的项目
-        auto cmp2 = [](const Project& a, const Project& b) { return a.p < b.p; };
-        priority_queue<Project, vector<Project>, decltype(cmp2)> heap2(cmp2);
-        for (int i = 0; i < n; i++) {
-            heap1.emplace(profit[i], cost[i]);
+        for (int i = 0; i < profit.size(); i++) {
+            heap1.push({cost[i], profit[i]});
         }
-        while (k > 0) {
-            while (!heap1.empty() && heap1.top().c <= w) {
-                heap2.push(heap1.top());
+
+        while (k-- > 0) {
+            // 解锁所有当前资金可以启动的项目
+            while (!heap1.empty() && heap1.top().first <= w) {
+                heap2.push(heap1.top().second);
                 heap1.pop();
             }
+
+            // 没有可做项目
             if (heap2.empty()) {
                 break;
             }
-            w += heap2.top().p;
+
+            // 做利润最大的项目
+            w += heap2.top();
             heap2.pop();
-            k--;
         }
+
         return w;
     }
 };
