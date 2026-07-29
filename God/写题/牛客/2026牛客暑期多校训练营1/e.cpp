@@ -23,7 +23,14 @@ int main() {
         cin >> arr[i];
     }
 
-    
+    ll sum = 0;
+    for (int i = 0,j = n-1; i < n,j>0; i++,j--) {
+        sum -= j * arr[i];
+    }
+    for (int i = n - 1,j = n-1; i >= 0,j>0;i--,j--){
+        sum += j * arr[i];
+    }
+    cout << sum;
 
     return 0;
 }
