@@ -11,7 +11,7 @@ const ll LINF = 4e18;
 class Solution
 {
 public:
-    ll power(int x, int n, int mod)
+    ll power(ll x, ll n, int mod)
     {
         ll ans = 1;
         while (n > 0)
@@ -27,6 +27,10 @@ public:
     }
     int cuttingBamboo(int n)
     {
+        if(n==2)
+            return 1;
+        if(n==3)
+            return 2;
         int mod = 1000000007;
         int tail = (n % 3 == 0) ? 1 : (n % 3 == 1 ? 4 : 2);
 
