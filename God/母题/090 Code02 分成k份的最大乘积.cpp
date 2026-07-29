@@ -8,17 +8,23 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
-
+ll power(ll x,int n,int mod){
+    ll ans = 1;
+    while(n>0){
+        if(n&1){
+            ans = (ans * x) % mod;
+        }
+        x = (x * x) % mod;
+        n >>= 1;
+    }
+    return ans;
 }
-
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int T = 1;
-    // cin >> T;
-    while (T--) solve();
-
-    return 0;
+int maxValue2(int n, int k)
+{
+    int mod = 1000000007;
+    ll a = n / k;
+    ll b = n % k;
+    ll part1 = power(a + 1, b, mod);
+    ll part2 = power(a, k - b, mod);
+    return part1 * part2 % mod;
 }
