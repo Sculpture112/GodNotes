@@ -27,10 +27,10 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2026-07-30 14.37.35.excalidraw.md"
+                "file": "Excalidraw/九宫格.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Drawing 2026-07-30 14.37.35.excalidraw"
+              "title": "九宫格.excalidraw"
             }
           }
         ],
@@ -241,8 +241,10 @@
   },
   "active": "f6dd773eb10c7176",
   "lastOpenFiles": [
-    "母题/091 Code03 组团买票1.md",
     "Excalidraw/Drawing 2026-07-30 14.37.35.excalidraw.md",
+    "Excalidraw/九宫格.excalidraw.md",
+    "Excalidraw/Drawing 2026-07-24 20.18.59.excalidraw.md",
+    "母题/091 Code03 组团买票1.md",
     "God/写题/牛客/2026牛客暑期多校训练营1/e.bin",
     "God/写题/牛客/2026牛客暑期多校训练营1/e.cpp",
     "God/写题/牛客/2026牛客暑期多校训练营1/a.bin",
@@ -275,8 +277,6 @@
     "母题/090 Code03 会议必须独占时间段的最大会议数量1.md",
     "母题/090 Code02 分成k份的最大乘积.md",
     "母题/087 Code04 使数组严格递增的最小操作数.md",
-    "母题/089 Code01 最大数.md",
-    "母题/089 Code03 吃掉N个橘子的最少天数.md",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
     "image/Pasted image 20260707142236.png",
