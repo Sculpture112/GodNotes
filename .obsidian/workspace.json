@@ -11,12 +11,14 @@
             "id": "f6dd773eb10c7176",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-07-30 16.44.51.excalidraw.md"
+                "file": "牛客/暑假多校/1/f.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-07-30 16.44.51.excalidraw"
+              "icon": "lucide-file",
+              "title": "f"
             }
           }
         ]
@@ -226,13 +228,16 @@
   },
   "active": "f6dd773eb10c7176",
   "lastOpenFiles": [
-    "Excalidraw/2026-07-30 16.43.39.excalidraw.md",
+    "Excalidraw/Drawing 2026-07-30 14.37.35.excalidraw.md",
+    "牛客/暑假多校/1/f.md",
+    "牛客/暑假多校/1",
+    "牛客/暑假多校",
     "Excalidraw/Drawing 2026-07-30 16.44.51.excalidraw.md",
+    "Excalidraw/2026-07-30 16.43.39.excalidraw.md",
     "母题/091 Code03 组团买票1.md",
     "母题/091 Code02 最小区间.md",
     "母题/091 Code01 最短无序连续子数组.md",
     "母题/093 Code03 字符串转化.md",
-    "Excalidraw/Drawing 2026-07-30 14.37.35.excalidraw.md",
     "Excalidraw/未命名.md",
     "Excalidraw/2026-07-30 16.26.09.excalidraw.md",
     "Excalidraw/Drawing 2026-03-04 15.46.50.excalidraw.md",
@@ -247,8 +252,6 @@
     "God/写题/牛客/2026牛客暑期多校训练营1/a.bin",
     "God/写题/牛客/2026牛客暑期多校训练营1/b.cpp",
     "God/写题/牛客/2026牛客暑期多校训练营1/b.coo",
-    "God/写题/牛客/2026牛客暑期多校训练营1/a.cpp",
-    "God/写题/牛客/2026牛客暑期多校训练营1",
     "母题/094 Code06 烹调方案.md",
     "母题/094 Code05 砍树.md",
     "母题/094 Code04 雇佣K名工人的最低成本.md",
@@ -261,7 +264,6 @@
     "母题/093 Code01 跳跃游戏II.md",
     "母题/091 Code03 组团买票2.md",
     "母题/090 Code06 加入差值绝对值直到长度固定.md",
-    "算法名/贪心算法.md",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
     "image/Pasted image 20260707142236.png",
