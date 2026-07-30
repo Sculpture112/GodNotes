@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "091 Code03 组团买票1"
             }
+          },
+          {
+            "id": "f6dd773eb10c7176",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-07-30 14.37.35.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-07-30 14.37.35.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,8 +239,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c31c5bd99dc4b701",
+  "active": "f6dd773eb10c7176",
   "lastOpenFiles": [
+    "母题/091 Code03 组团买票1.md",
     "Excalidraw/Drawing 2026-07-30 14.37.35.excalidraw.md",
     "God/写题/牛客/2026牛客暑期多校训练营1/e.bin",
     "God/写题/牛客/2026牛客暑期多校训练营1/e.cpp",
@@ -253,7 +267,6 @@
     "母题/093 Code02 灌溉花园的最少水龙头数目.md",
     "母题/093 Code01 跳跃游戏II.md",
     "母题/091 Code03 组团买票2.md",
-    "母题/091 Code03 组团买票1.md",
     "母题/090 Code06 加入差值绝对值直到长度固定.md",
     "算法名/贪心算法.md",
     "母题/090 Code05 IPO.md",
