@@ -11,14 +11,12 @@
             "id": "f6dd773eb10c7176",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "母题/091 Code03 组团买票1.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2026-07-30 16.44.51.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "091 Code03 组团买票1"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-07-30 16.44.51.excalidraw"
             }
           }
         ]
@@ -228,9 +226,9 @@
   },
   "active": "f6dd773eb10c7176",
   "lastOpenFiles": [
+    "母题/091 Code03 组团买票1.md",
     "Excalidraw/Drawing 2026-07-30 16.44.51.excalidraw.md",
     "Excalidraw/2026-07-30 16.43.39.excalidraw.md",
-    "母题/091 Code03 组团买票1.md",
     "母题/091 Code02 最小区间.md",
     "母题/091 Code01 最短无序连续子数组.md",
     "母题/093 Code03 字符串转化.md",
