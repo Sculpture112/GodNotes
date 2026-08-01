@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/091 Code06 两个0和1数量相等区间的最大长度.md",
+                "file": "母题/092 Code01 数组的最小偏移量.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "091 Code06 两个0和1数量相等区间的最大长度"
+              "title": "092 Code01 数组的最小偏移量"
             }
           }
         ]
@@ -230,6 +230,8 @@
   },
   "active": "f6dd773eb10c7176",
   "lastOpenFiles": [
+    "母题/091 Code06 两个0和1数量相等区间的最大长度.md",
+    "母题/092 Code01 数组的最小偏移量.md",
     "母题/091 Code05 执行所有任务的最少初始电量.md",
     "母题/091 Code04 平均值最小累加和.md",
     "母题/091 Code03 组团买票2.md",
@@ -264,8 +266,6 @@
     "母题/094 Code06 烹调方案.md",
     "母题/094 Code05 砍树.md",
     "母题/094 Code04 雇佣K名工人的最低成本.md",
-    "母题/094 Code03 最大平均通过率.md",
-    "母题/094 Code01 消灭怪物的最大数量.md",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
     "image/Pasted image 20260707142236.png",
