@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/092 Code03 使数组相似的最少操作次数.md",
+                "file": "母题/098 Code01 乘法快速幂模版.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "092 Code03 使数组相似的最少操作次数"
+              "title": "098 Code01 乘法快速幂模版"
             }
           }
         ]
@@ -228,10 +228,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c31c5bd99dc4b701",
+  "active": "f6dd773eb10c7176",
   "lastOpenFiles": [
-    "母题/092 Code02 森林中的兔子.md",
+    "母题/094 Code06 烹调方案.md",
+    "母题/098 Code01 乘法快速幂模版.md",
     "母题/092 Code03 使数组相似的最少操作次数.md",
+    "母题/092 Code02 森林中的兔子.md",
     "母题/092 Code05 将数组分成几个递增序列.md",
     "母题/092 Code04 知识竞赛.md",
     "母题/092 Code01 数组的最小偏移量.md",
@@ -259,8 +261,6 @@
     "tools/excalidraw-obsidian.CMD",
     "tools/excalidraw-obsidian.mjs",
     "tools",
-    "Excalidraw/九宫格.excalidraw.md",
-    "Excalidraw/Drawing 2026-07-24 20.18.59.excalidraw.md",
     "God/写题/牛客/2026牛客暑期多校训练营1/e.bin",
     "God/写题/牛客/2026牛客暑期多校训练营1/e.cpp",
     "God/写题/牛客/2026牛客暑期多校训练营1/a.bin",
