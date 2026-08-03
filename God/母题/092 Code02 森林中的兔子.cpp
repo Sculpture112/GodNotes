@@ -8,17 +8,22 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+class Solution
+{
+public:
+    int numRabbits(vector<int> &answers)
+    {
+        sort(answers.begin(), answers.end());
+        int ans = 0;
 
-}
-
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int T = 1;
-    // cin >> T;
-    while (T--) solve();
-
-    return 0;
-}
+        for (int i = 0, j = 1; i < answers.size();j++){
+            int x = answers[i];
+            while(j<answers.size() && answers[j] == answers[i]){
+                j++;
+            }
+            ans += (j - i + x) / (x + 1) * (x + 1);
+            i = j;
+        }
+        return ans;
+    }
+};
