@@ -15,9 +15,15 @@ struct Employee
 };
 
 Employee nums[MAXN];
+int n;
 void solve()
 {
-    sort(nums.begin(), nums.end(), (const Employee &a, const Employee &b) { return abs(a.a - a.b) < abs(b.a - b.b); });
+    sort(nums, nums+n, [](const Employee &a, const Employee &b) { return abs(a.a - a.b) < abs(b.a - b.b); });
+    int maxa = nums[0].a;
+    int maxb = nums[0].b;
+    for (int i = 1; i < n;i++){
+        
+    }
 }
 
 int main()
@@ -25,7 +31,6 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int n;
     cin >> n;
     for (int i = 0; i < n; i++)
     {
