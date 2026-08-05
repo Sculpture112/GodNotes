@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/093 Code04 过河问题.md",
+                "file": "母题/094 Code01 消灭怪物的最大数量.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "093 Code04 过河问题"
+              "title": "094 Code01 消灭怪物的最大数量"
             }
           }
         ]
@@ -230,6 +230,8 @@
   },
   "active": "f6dd773eb10c7176",
   "lastOpenFiles": [
+    "母题/093 Code05 超级洗衣机.md",
+    "母题/093 Code04 过河问题.md",
     "母题/093 Code03 字符串转化.md",
     "母题/093 Code02 灌溉花园的最少水龙头数目.md",
     "母题/093 Code01 跳跃游戏II.md",
@@ -254,8 +256,6 @@
     "母题/095 Code01 巴什博弈.md",
     "母题/098 Code01 乘法快速幂模版.md",
     "母题/094 Code06 烹调方案.md",
-    "母题/094 Code05 砍树.md",
-    "母题/094 Code04 雇佣K名工人的最低成本.md",
     "牛客/暑假多校/1",
     "牛客/暑假多校",
     "tools/excalidraw-obsidian.CMD",
