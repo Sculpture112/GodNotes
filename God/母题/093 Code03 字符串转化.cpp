@@ -8,17 +8,16 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+bool canConvert(string str1, string str2)
+{
+    if(str1 == str2)
+        return true;
 
-}
+    int map[26];
+    fill(map, map + 26, 0);
 
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int T = 1;
-    // cin >> T;
-    while (T--) solve();
-
-    return 0;
+    int kinds = 0;
+    for (int i = 0; i < str2.length();i++){
+        
+    }
 }
