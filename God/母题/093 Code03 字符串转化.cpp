@@ -22,4 +22,12 @@ bool canConvert(string str1, string str2)
             kinds++;
         }
     }
+    if(kinds == 26)
+        return false;
+
+    fill(map, map + 26, -1);
+    for (int i = 0,cur; i < str1.length();i++){
+        cur = 
+        map[str2[i] - 'a'] = i;
+    }
 }
