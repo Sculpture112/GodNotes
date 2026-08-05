@@ -18,6 +18,8 @@ bool canConvert(string str1, string str2)
 
     int kinds = 0;
     for (int i = 0; i < str2.length();i++){
-        
+        if(map[str2[i] - 'a']++ == 0){
+            kinds++;
+        }
     }
 }
