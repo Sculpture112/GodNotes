@@ -47,7 +47,7 @@ int main()
     {
         cin >> nums[i].a >> nums[i].b;
     }
-    cout<<(double)solve()/2;
+    cout<<fixed<<setprecision(1)<<(double)solve()/2;
 
     return 0;
 }
