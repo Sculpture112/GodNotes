@@ -27,7 +27,11 @@ bool canConvert(string str1, string str2)
 
     fill(map, map + 26, -1);
     for (int i = 0,cur; i < str1.length();i++){
-        cur = 
-        map[str2[i] - 'a'] = i;
+        cur = str1[i] - 'a';
+        if(map[str1[i]] != -1 && str2[map[cur]] != str2[i]){
+            return false;
+        }
+        map[cur] = i;
     }
+    return true;
 }
