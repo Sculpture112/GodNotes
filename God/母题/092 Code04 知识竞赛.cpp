@@ -30,7 +30,8 @@ int solve()
         else{
             ans = max(ans, nums[i].b + maxb);
         }
-        maxa = max(maxa,)
+        maxa = max(maxa, nums[i].a);
+        maxb = max(maxb, nums[i].b);
     }
     return ans;
     
@@ -46,7 +47,7 @@ int main()
     {
         cin >> nums[i].a >> nums[i].b;
     }
-    cout<<solve/2;
+    cout<<(double)solve()/2;
 
     return 0;
 }
