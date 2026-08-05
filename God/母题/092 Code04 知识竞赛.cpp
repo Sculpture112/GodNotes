@@ -30,6 +30,7 @@ int solve()
         else{
             ans = max(ans, nums[i].b + maxb);
         }
+        maxa = max(maxa,)
     }
     return ans;
     
