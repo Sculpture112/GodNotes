@@ -16,14 +16,23 @@ struct Employee
 
 Employee nums[MAXN];
 int n;
-void solve()
+int solve()
 {
     sort(nums, nums+n, [](const Employee &a, const Employee &b) { return abs(a.a - a.b) < abs(b.a - b.b); });
     int maxa = nums[0].a;
     int maxb = nums[0].b;
-    for (int i = 1; i < n;i++){
-        
+    int ans = 0;
+    for (int i = 1; i < n; i++)
+    {
+        if(nums[i].a<nums[i].b){
+            ans = max(ans, nums[i].a + maxa);
+        }
+        else{
+            ans = max(ans, nums[i].b + maxb);
+        }
     }
+    return ans;
+    
 }
 
 int main()
@@ -36,7 +45,7 @@ int main()
     {
         cin >> nums[i].a >> nums[i].b;
     }
-    solve;
+    cout<<solve/2;
 
     return 0;
 }
