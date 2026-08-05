@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/093 Code03 字符串转化.md",
+                "file": "母题/093 Code04 过河问题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "093 Code03 字符串转化"
+              "title": "093 Code04 过河问题"
             }
           }
         ]
@@ -230,6 +230,7 @@
   },
   "active": "f6dd773eb10c7176",
   "lastOpenFiles": [
+    "母题/093 Code03 字符串转化.md",
     "母题/093 Code02 灌溉花园的最少水龙头数目.md",
     "母题/093 Code01 跳跃游戏II.md",
     "母题/092 Code06 最低加油次数.md",
@@ -255,7 +256,6 @@
     "母题/094 Code06 烹调方案.md",
     "母题/094 Code05 砍树.md",
     "母题/094 Code04 雇佣K名工人的最低成本.md",
-    "母题/094 Code03 最大平均通过率.md",
     "牛客/暑假多校/1",
     "牛客/暑假多校",
     "tools/excalidraw-obsidian.CMD",
