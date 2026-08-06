@@ -9,7 +9,52 @@
 ## 破题切入点 (思维闪念)
 []
 
-
+```cpp
+这个是用multiset做
+#include <bits/stdc++.h>
+using namespace std;
+using ll = long long;
+const int INF = 0x3f3f3f3f;
+const ll LINF = 4'000'000'000'000'000'000LL;
+#define all(x) (x).begin(), (x).end()
+void solve() {
+    int n, m;
+    cin >> n >> m;
+    vector<ll> v(n);
+    for (ll &x : v) cin >> x;
+    vector<ll> a(1LL * n * m);
+    for (ll &x : a) cin >> x;
+    ll ans = m;
+    multiset<ll> best;
+    for (int i = n - 1; i >= 0; --i) {
+        for (int j = 0; j < m; ++j) {
+            best.insert(a[1LL * i * m + j]);
+            if ((int)best.size() > m) {
+                best.erase(best.begin());
+            }
+        }
+        ll sum = 0;
+        ll cnt = 0;
+        for (auto it = best.rbegin(); it != best.rend(); ++it) {
+            sum += *it;
+            ++cnt;
+            if (sum >= v[i]) {
+                ans = min(ans, cnt);
+                break;
+            }
+        }
+    }
+    cout << ans << '\n';
+}
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int T = 1;
+    cin >> T;
+    while (T--) solve();
+    return 0;
+}
+```
 
 ```cpp
 #include <bits/stdc++.h>
