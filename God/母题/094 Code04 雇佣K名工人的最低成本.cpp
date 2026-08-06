@@ -24,8 +24,10 @@ public:
     {
         int n = quality.size();
 
-        vector<Employee> employees(n);
-        for (int i = 0; i < n; i++) {
+        vector<Employee> employees;
+        employees.reserve(n);
+        for (int i = 0; i < n; i++)
+        {
             employees.emplace_back(1.0 * wage[i] / quality[i], quality[i]);
         }
 
