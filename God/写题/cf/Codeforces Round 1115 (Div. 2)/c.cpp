@@ -32,13 +32,13 @@ void solve()
     vector<int> count(n + 1, -1);
     int ans = m;
     priority_queue<int> heap,heap2;
-    for (int i = n; i >= 1; i--)
+    for (int i = n,sum =0; i >= 1; i--)
     {
         for (int j = 1; j <= m;j++){
             heap.push(graph[i][j]);
         }
         heap2 = heap;
-        
+        while(sum)
         heap = heap2;
     }
     cout << ans << "\n";
