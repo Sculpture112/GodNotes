@@ -18,26 +18,25 @@ void solve()
         cin >> weight[i];
     }
 
-    vector<vector<int>> graph(n + 1, vector<int>(m + 1));
-    for (int i = 1; i <= n; i++)
+    vector<vector<int>> graph(n, vector<int>(m));
+    for (int i = 0; i <= n-1; i++)
     {
-        for (int j = 1; j <= m; j++)
+        for (int j = 0; j <= m-1; j++)
         {
             cin >> graph[i][j];
         }
     }
-    for (int i = 1; i <= n; i++)
+    for (int i = 0; i <= n-1; i++)
     {
         sort(graph[i].rbegin(), graph[i].rend());
     }
-    vector<int> count(n + 1, -1);
     int ans = m;
     priority_queue<int> heap, heap2;
-    for (int i = n; i >= 1; i--)
+    for (int i = n-1; i >= 0; i--)
     {
         ll sum = 0;
         int cnt = 0;
-        for (int j = 1; j <= m; j++)
+        for (int j = 0; j <= m-1; j++)
         {
             heap.push(graph[i][j]);
         }
