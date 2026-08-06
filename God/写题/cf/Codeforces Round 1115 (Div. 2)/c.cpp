@@ -23,11 +23,13 @@ void solve() {
         }
     }
     vector<int> count(n + 1, -1);
-    vector<int> 
+    vector<int> srt;
     for (int i = n; i >= 1;i--){
         for (int j = 1; j <= m;j++){
+            srt.push_back(graph[i][j]);
         }
-        
+        sort(srt.rbegin(), srt.rend());
+
     }
 }
 
