@@ -37,11 +37,11 @@ void solve()
     {
         ll sum = 0;
         int cnt = 0;
+        heap2 = heap;
         for (int j = 1; j <= m; j++)
         {
             heap.push(graph[i][j]);
         }
-        heap2 = heap;
         while (!heap.empty() && sum < weight[i - 1])
         {
             sum += heap.top();
