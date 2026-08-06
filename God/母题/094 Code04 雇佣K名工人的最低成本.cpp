@@ -34,16 +34,22 @@ public:
 
         priority_queue<int> heap;
 
-        for (int i = 0,curquality; i < n; i++) {
+        int ans = INF;
+        int sum = 0;
+        for (int i = 0, curquality; i < n; i++)
+        {
             curquality = employees[i].quality;
             if(heap.size()<k){
                 heap.push(curquality);
-
-                if(heap.size() ==k){
-                    
+                sum += curquality;
+                if (heap.size() == k)
+                {
+                    ans = min(ans, sum);
                 }
             }
-
+            else{
+                if(curquality<)
+            }
         }
     }
 };
