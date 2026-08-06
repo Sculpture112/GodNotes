@@ -29,8 +29,21 @@ public:
             employees.emplace_back(1.0 * wage[i] / quality[i], quality[i]);
         }
 
-        sort(employees.begin(), employees.end(), [](const Employee &a, const employee &b) {
+        sort(employees.begin(), employees.end(), [](const Employee &a, const Employee &b)
+             { return a.ratio < b.ratio; });
 
-        });
+        priority_queue<int> heap;
+
+        for (int i = 0,curquality; i < n; i++) {
+            curquality = employees[i].quality;
+            if(heap.size()<k){
+                heap.push(curquality);
+
+                if(heap.size() ==k){
+                    
+                }
+            }
+
+        }
     }
 };
