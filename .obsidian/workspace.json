@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "73c27563fe48efe9",
+        "id": "b69bbe72805a0d30",
         "type": "tabs",
         "children": [
           {
-            "id": "f6dd773eb10c7176",
+            "id": "25a8dcda65099d53",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-08-06 16.31.15.excalidraw.md"
+                "file": "牛客/暑假多校/2/n.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-08-06 16.31.15.excalidraw"
+              "icon": "lucide-file",
+              "title": "n"
             }
           }
         ]
@@ -226,11 +228,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f6dd773eb10c7176",
+  "active": "25a8dcda65099d53",
   "lastOpenFiles": [
+    "牛客/暑假多校/2/n.md",
+    "Excalidraw/Drawing 2026-08-06 16.31.15.excalidraw.md",
     "God/写题/牛客/2026牛客暑假多校训练营2/m.bin",
     "牛客/暑假多校/2/b.md",
-    "Excalidraw/Drawing 2026-08-06 16.31.15.excalidraw.md",
     "God/写题/牛客/2026牛客暑假多校训练营2/m.cpp",
     "算法名/线性基.md",
     "算法名/异或线性基.md",
@@ -251,7 +254,6 @@
     "God/母题/096 Code03 两堆石头的巴什博弈.cpp",
     "God/母题/096 Code02 尼姆博弈SG定理简单用法展示.cpp",
     "God/母题/096 Code01 巴什博弈SG函数求解过程展示.cpp",
-    "God/母题/095 Code06 威佐夫博弈.cpp",
     "母题/095 Code02 质数次方版取石子.md",
     "母题/095 Code01 巴什博弈.md",
     "母题/094 Code06 烹调方案.md",
