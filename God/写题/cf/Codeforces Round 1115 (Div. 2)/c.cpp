@@ -35,13 +35,19 @@ void solve()
     for (int i = n; i >= 1; i--)
     {
         ll sum = 0;
+        int cnt = 0;
         for (int j = 1; j <= m;j++){
             heap.push(graph[i][j]);
         }
         heap2 = heap;
-        while(sum<weight[i-1])
+        while(sum<weight[i-1]){
+            sum += heap.top();
+            heap.pop();
+            cnt++;
+        }
         heap = heap2;
     }
+
     cout << ans << "\n";
 }
 
