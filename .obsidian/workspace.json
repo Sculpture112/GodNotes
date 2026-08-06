@@ -11,14 +11,12 @@
             "id": "f6dd773eb10c7176",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "牛客/暑假多校/2/b.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2026-08-06 16.31.15.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "b"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-08-06 16.31.15.excalidraw"
             }
           }
         ]
@@ -230,8 +228,10 @@
   },
   "active": "f6dd773eb10c7176",
   "lastOpenFiles": [
-    "算法名/线性基.md",
     "牛客/暑假多校/2/b.md",
+    "Excalidraw/Drawing 2026-08-06 16.31.15.excalidraw.md",
+    "God/写题/牛客/2026牛客暑假多校训练营2/m.cpp",
+    "算法名/线性基.md",
     "算法名/异或线性基.md",
     "算法名/异或.md",
     "母题/096 Code01 巴什博弈SG函数求解过程展示.md",
@@ -251,7 +251,6 @@
     "God/母题/096 Code02 尼姆博弈SG定理简单用法展示.cpp",
     "God/母题/096 Code01 巴什博弈SG函数求解过程展示.cpp",
     "God/母题/095 Code06 威佐夫博弈.cpp",
-    "God/母题/095 Code05 斐波那契博弈.cpp",
     "母题/095 Code02 质数次方版取石子.md",
     "母题/095 Code01 巴什博弈.md",
     "母题/094 Code06 烹调方案.md",
@@ -265,7 +264,6 @@
     "母题/093 Code03 字符串转化.md",
     "母题/093 Code02 灌溉花园的最少水龙头数目.md",
     "母题/093 Code01 跳跃游戏II.md",
-    "母题/092 Code06 最低加油次数.md",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
     "image/Pasted image 20260707142236.png",
