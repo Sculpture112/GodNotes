@@ -23,22 +23,14 @@ void solve()
             kinds++;
         }
     }
-    int mx = 0;
     ll ans = 0;
-    for(auto num :map){
-
-        if(num.second<=2)
-        {
+    for(auto num:map){
+        if(num.second-1<=n-num.second){
             ans += num.first * num.second;
         }
         else{
-            mx = max(mx, num.first);
-            ans += num.first * 2;
+            ans += num.first * (n - num.second);
         }
-    }
-
-    if(kinds>1){
-        ans += mx;
     }
     cout << ans << "\n";
 }
