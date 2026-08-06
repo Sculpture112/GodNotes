@@ -26,30 +26,17 @@ void solve()
             cin >> graph[i][j];
         }
     }
+    for (int i = 1; i <= n; i++) {
+        sort(graph[i].rbegin(), graph[i].rend());
+    }
     vector<int> count(n + 1, -1);
-    vector<int> srt;
     int ans = m;
+    priority_queue<int> heap;
     for (int i = n; i >= 1; i--)
     {
-        for (int j = 1; j <= m; j++)
-        {
-            srt.push_back(graph[i][j]);
-        }
-        int sum = 0;
-        int cnt = 0;
-        sort(srt.rbegin(), srt.rend());
-        for (int num : srt)
-        {
-            sum += num;
-            cnt++;
-            if (sum >= weight[i - 1])
-            {
-                count[i] = cnt;
-                // cout << cnt;
-                ans = min(ans, count[i]);
-                break;
-            }
-        }
+        for (int j = 1; j <= m;j++)
+            heap.push(graph[i][j]);
+        
     }
     cout << ans << "\n";
 }
