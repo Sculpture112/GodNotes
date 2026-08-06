@@ -48,7 +48,12 @@ public:
                 }
             }
             else{
-                if(curquality<)
+                if(curquality<heap.top()){
+                    sum -= heap.top();
+                    sum += curquality;
+                    heap.pop();
+                    ans = min(ans, sum*employees[i].ratio);
+                }
             }
         }
     }
