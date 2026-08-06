@@ -9,7 +9,26 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
+    int n, m;
+    cin >> n >> m;
+    vector<int> weight(n+1);
+    for (int i = 0; i < n; i++) {
+        cin >> weight[i];
+    }
 
+    vector<vector<int>> graph(n + 1, vector<int>(m + 1));
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= m;j++){
+            cin >> graph[i][j];
+        }
+    }
+    vector<int> count(n + 1, -1);
+    vector<int> 
+    for (int i = n; i >= 1;i--){
+        for (int j = 1; j <= m;j++){
+        }
+        
+    }
 }
 
 int main() {
@@ -17,7 +36,7 @@ int main() {
     cin.tie(nullptr);
 
     int T = 1;
-    // cin >> T;
+    cin >> T;
     while (T--) solve();
 
     return 0;
