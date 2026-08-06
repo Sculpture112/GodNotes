@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/096 Code01 巴什博弈SG函数求解过程展示.md",
+                "file": "牛客/暑假多校/2/b.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "096 Code01 巴什博弈SG函数求解过程展示"
+              "title": "b"
             }
           }
         ]
@@ -68,7 +68,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabeticalReverse",
-                "autoReveal": true,
+                "autoReveal": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -228,8 +228,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c31c5bd99dc4b701",
+  "active": "f6dd773eb10c7176",
   "lastOpenFiles": [
+    "母题/096 Code01 巴什博弈SG函数求解过程展示.md",
+    "牛客/暑假多校/2/b.md",
+    "牛客/暑假多校/2",
+    "牛客/暑假多校/未命名.md",
     "母题/095 Code06 威佐夫博弈.md",
     "母题/095 Code05 斐波那契博弈.md",
     "算法名/斐波那契博弈.md",
@@ -245,7 +249,6 @@
     "God/母题/096 Code01 巴什博弈SG函数求解过程展示.cpp",
     "God/母题/095 Code06 威佐夫博弈.cpp",
     "God/母题/095 Code05 斐波那契博弈.cpp",
-    "God/母题/095 Code04 反尼姆博弈.cpp",
     "母题/095 Code02 质数次方版取石子.md",
     "母题/095 Code01 巴什博弈.md",
     "母题/094 Code06 烹调方案.md",
@@ -263,9 +266,6 @@
     "母题/092 Code05 将数组分成几个递增序列.md",
     "母题/092 Code04 知识竞赛.md",
     "母题/092 Code03 使数组相似的最少操作次数.md",
-    "母题/092 Code02 森林中的兔子.md",
-    "学校.md",
-    "母题/096 Code06 分裂游戏.md",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
     "image/Pasted image 20260707142236.png",
