@@ -24,13 +24,22 @@ void solve()
         }
     }
     ll ans = 0;
+    int mx = 0;
+    int mxcount = 0;
     for(auto num:map){
         if(num.second - 1<=n-num.second){
             ans += num.first * num.second;
         }
         else{
             ans += num.first * (n - num.second);
+            if(num.first>mx){
+                mx = num.first;
+                mxcount = num.second-(n-num.second);
+            }
         }
+    }
+    if(mx!=0){
+        ans += mxcount <= 2 ? mx * mxcount : mx * 2;
     }
     cout << ans << "\n";
 }
