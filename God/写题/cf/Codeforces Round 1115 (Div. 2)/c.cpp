@@ -24,6 +24,7 @@ void solve() {
     }
     vector<int> count(n + 1, -1);
     vector<int> srt;
+    int ans = INF;
     for (int i = n; i >= 1;i--){
         for (int j = 1; j <= m;j++){
             srt.push_back(graph[i][j]);
@@ -36,10 +37,14 @@ void solve() {
             cnt++;
             if(sum>=weight[i]){
                 count[i] = cnt;
+                ans = min(ans, count[i]);
                 break;
             }
         }
     }
+    if(m<ans)
+        ans = m;
+    cout << ans << "\n";
 }
 
 int main() {
