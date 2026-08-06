@@ -41,7 +41,8 @@ public:
         for (int i = 0, curquality; i < n; i++)
         {
             curquality = employees[i].quality;
-            if(heap.size()<k){
+            if (heap.size() < k)
+            {
                 heap.push(curquality);
                 sum += curquality;
                 if (heap.size() == k)
@@ -49,12 +50,14 @@ public:
                     ans = min(ans, sum * employees[i].ratio);
                 }
             }
-            else{
-                if(curquality<heap.top()){
+            else
+            {
+                if (curquality < heap.top())
+                {
                     sum -= heap.top();
                     sum += curquality;
                     heap.pop();
-                    ans = min(ans, sum*employees[i].ratio);
+                    ans = min(ans, sum * employees[i].ratio);
                 }
             }
         }
