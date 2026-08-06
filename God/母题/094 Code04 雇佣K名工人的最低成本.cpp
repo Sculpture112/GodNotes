@@ -34,7 +34,7 @@ public:
 
         priority_queue<int> heap;
 
-        int ans = INF;
+        double ans = INF;
         int sum = 0;
         for (int i = 0, curquality; i < n; i++)
         {
@@ -44,7 +44,7 @@ public:
                 sum += curquality;
                 if (heap.size() == k)
                 {
-                    ans = min(ans, sum);
+                    ans = min(ans, sum * employees[i].ratio);
                 }
             }
             else{
@@ -56,5 +56,6 @@ public:
                 }
             }
         }
+        return ans;
     }
 };
