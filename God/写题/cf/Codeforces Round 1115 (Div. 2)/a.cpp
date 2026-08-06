@@ -25,7 +25,7 @@ void solve()
     }
     ll ans = 0;
     for(auto num:map){
-        if(num.second-1<=n-num.second){
+        if(num.second - 1<=n-num.second){
             ans += num.first * num.second;
         }
         else{
