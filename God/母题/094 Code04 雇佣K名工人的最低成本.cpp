@@ -57,6 +57,7 @@ public:
                     sum -= heap.top();
                     sum += curquality;
                     heap.pop();
+                    heap.push(curquality);
                     ans = min(ans, sum * employees[i].ratio);
                 }
             }

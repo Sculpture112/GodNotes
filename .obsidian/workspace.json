@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/094 Code04 雇佣K名工人的最低成本.md",
+                "file": "母题/094 Code05 砍树.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "094 Code04 雇佣K名工人的最低成本"
+              "title": "094 Code05 砍树"
             }
           }
         ]
@@ -230,6 +230,9 @@
   },
   "active": "f6dd773eb10c7176",
   "lastOpenFiles": [
+    "母题/094 Code06 烹调方案.md",
+    "母题/094 Code05 砍树.md",
+    "母题/094 Code04 雇佣K名工人的最低成本.md",
     "母题/094 Code03 最大平均通过率.md",
     "母题/094 Code02 最大回文数字.md",
     "母题/094 Code01 消灭怪物的最大数量.md",
@@ -253,9 +256,6 @@
     "母题/096 Code01 巴什博弈SG函数求解过程展示.md",
     "母题/095 Code06 威佐夫博弈.md",
     "母题/095 Code05 斐波那契博弈.md",
-    "母题/095 Code04 反尼姆博弈.md",
-    "母题/095 Code03 尼姆博弈.md",
-    "母题/095 Code02 质数次方版取石子.md",
     "牛客/暑假多校/1",
     "牛客/暑假多校",
     "tools/excalidraw-obsidian.CMD",
