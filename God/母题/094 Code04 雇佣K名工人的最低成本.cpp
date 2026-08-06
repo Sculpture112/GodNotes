@@ -36,8 +36,8 @@ public:
 
         priority_queue<int> heap;
 
-        double ans = INF;
-        int sum = 0;
+        double ans = 1e18;
+        ll sum = 0;
         for (int i = 0, curquality; i < n; i++)
         {
             curquality = employees[i].quality;
