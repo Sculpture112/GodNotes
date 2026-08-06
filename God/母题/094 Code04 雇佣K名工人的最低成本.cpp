@@ -26,8 +26,11 @@ public:
 
         vector<Employee> employees(n);
         for (int i = 0; i < n; i++) {
-            employees.emplace(1.0 * wage[i] / quality[i], quality[i]);
+            employees.emplace_back(1.0 * wage[i] / quality[i], quality[i]);
         }
-        
+
+        sort(employees.begin(), employees.end(), [](const Employee &a, const employee &b) {
+
+        });
     }
 };
