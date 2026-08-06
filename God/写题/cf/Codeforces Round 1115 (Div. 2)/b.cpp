@@ -57,6 +57,7 @@ void solve()
     if (abs(c1 - c0) >= 2)
     {
         ans += (max(c1, c0) - 1);
+        ans -= min(c1, c0);
     }
 
     cout << ans << "\n";
