@@ -28,8 +28,17 @@ void solve() {
         for (int j = 1; j <= m;j++){
             srt.push_back(graph[i][j]);
         }
+        int sum = 0;
+        int cnt = 0;
         sort(srt.rbegin(), srt.rend());
-
+        for(int num:srt){
+            sum += num;
+            cnt++;
+            if(sum>=weight[i]){
+                count[i] = cnt;
+                break;
+            }
+        }
     }
 }
 
