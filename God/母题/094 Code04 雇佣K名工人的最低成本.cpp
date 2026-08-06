@@ -7,18 +7,27 @@ const int INF = 0x3f3f3f3f;
 const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
+class Solution
+{
+    struct Employee
+    {
+        double ratio;
+        int quality;
+        Employee(double r, int q) : ratio(r), quality(q)
+        {
+        }
+    };
 
-void solve() {
+public:
+    double
+    mincostToHireWorkers(vector<int> &quality, vector<int> &wage, int k)
+    {
+        int n = quality.size();
 
-}
-
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int T = 1;
-    // cin >> T;
-    while (T--) solve();
-
-    return 0;
-}
+        vector<Employee> employees(n);
+        for (int i = 0; i < n; i++) {
+            employees.emplace(1.0 * wage[i] / quality[i], quality[i]);
+        }
+        
+    }
+};
