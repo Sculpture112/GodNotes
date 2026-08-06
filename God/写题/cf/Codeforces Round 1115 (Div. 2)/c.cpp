@@ -37,6 +37,7 @@ void solve() {
             cnt++;
             if(sum>=weight[i]){
                 count[i] = cnt;
+                // cout << cnt;
                 ans = min(ans, count[i]);
                 break;
             }
