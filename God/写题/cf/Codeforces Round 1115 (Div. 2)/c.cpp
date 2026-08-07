@@ -8,8 +8,37 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+int solve() {
+    int n, m;
+    cin >> n >> m;
+    vector<ll> v(n);
+    for (ll &x: v)
+        cin >> x;
 
+    vector<ll> arr(1LL * n * m);
+    priority_queue<ll, vector<ll>, greater<ll>> heap;
+    for(ll &x :arr)
+        cin >> x;
+    ll sum = 0;
+    ll ans = m;
+    for (int i = n-1; i >=0 ;i--){
+        for (int j = 0; j < m;j++){
+            heap.push(arr[1LL * n * m]);
+            sum += arr[1LL * n * m];
+        }
+        if(heap.size() == ans){
+            sum -= heap.top();
+            heap.pop();
+
+        }
+        while(!heap.empty()&&sum>=v[i]){
+            ans = heap.size();
+            sum -= heap.top();
+            heap.pop();
+
+        }
+    }
+    return ans;
 }
 
 int main() {
@@ -17,8 +46,8 @@ int main() {
     cin.tie(nullptr);
 
     int T = 1;
-    // cin >> T;
-    while (T--) solve();
+    cin >> T;
+    while (T--) cout<<solve()<<"\n";
 
     return 0;
 }
