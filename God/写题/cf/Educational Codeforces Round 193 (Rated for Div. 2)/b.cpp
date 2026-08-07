@@ -43,7 +43,7 @@ void solve()
             break;
         if (a[i] == pre && a[i + 1] != a[i])
         {
-            if (a[i + 2] != a[i])
+            if (i + 2 < n && a[i + 2] != a[i])
             {
                 if (a[i + 1] == a[i + 2])
                     sta == 2;
@@ -54,8 +54,9 @@ void solve()
         }
     }
     int ans = n - sim;
-    ans += sta
-
+    ans += sta;
+    cout << ans << "\n";
+}
 int main()
 {
     ios::sync_with_stdio(false);
