@@ -41,7 +41,7 @@ void solve()
     {
         if (sta == 2)
             break;
-        if (a[i] == pre && a[i + 1] != a[i])
+        if (a[i] == pre && i+1<n && a[i + 1] != a[i])
         {
             if (i + 2 < n && a[i + 2] != a[i])
             {
@@ -52,6 +52,7 @@ void solve()
                     sta = 1;
             }
         }
+        pre = a[i];
     }
     int ans = n - sim;
     ans += sta;
