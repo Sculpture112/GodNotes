@@ -13,14 +13,14 @@ void solve()
     int n;
     cin >> n;
     vector<int> a(n);
-    vector<int> cnt(n);
+    vector<int> cnt(n+5);
     int kinds = 0;
     int sim = 0;
     int pre = -1;
     for (int &num : a)
     {
         cin >> num;
-        if (pre = num)
+        if (pre == num)
             sim++;
         if (cnt[num]++ == 0)
         {
@@ -36,7 +36,7 @@ void solve()
     }
 
     pre = a[0];
-    int sta = -1;
+    int sta = 0;
     for (int i = 1; i < n; i++)
     {
         if (sta == 2)
@@ -50,6 +50,9 @@ void solve()
 
                 else
                     sta = 1;
+            }
+            else if(i + 2 == n){
+                sta = 1;
             }
         }
         pre = a[i];
