@@ -207,6 +207,16 @@
               "icon": "links-going-out",
               "title": "061 Code02 Prim算法模版动态空间 的出链列表"
             }
+          },
+          {
+            "id": "2fbacdadcbcf8e27",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
         "currentTab": 8
@@ -228,7 +238,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "980b82052fff5d44",
+  "active": "c31c5bd99dc4b701",
   "lastOpenFiles": [
     "God/写题/cf/Codeforces Round 1115 (Div. 2)/d.cpp",
     "写题/Codeforces/div2/1115/c.md",
