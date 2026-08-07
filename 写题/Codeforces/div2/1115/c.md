@@ -56,7 +56,7 @@ void solve() {
         // 当前保留的棋块已经足以击垮第 i 层。
         while (!heap.empty() && sum >= v[i]) {
             ans = (int)heap.size();
-
+			// 这里能知道弹出去的就一定不是最优,因为此处sum>=v[i],如果需要ans变小,必须要有一个更大的值加入  
             // 尝试再少选一个：删除当前选择中最小的数。
             sum -= heap.top();
             heap.pop();
