@@ -45,6 +45,7 @@ string nim2(const vector<int>& arr) {
     vector<bool> appear(maxValue + 1, false);
     for (int i = 1; i <= maxValue; i++) {
         fill(appear.begin(), appear.end(), false);
+        //对于一堆石子,可能出现的状况就是 0 - i(石子数量)
         for (int j = 0; j < i; j++) {
             appear[sg[j]] = true;
         }
