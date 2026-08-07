@@ -11,14 +11,12 @@
             "id": "0e15012f8018f4cc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Daily/2026-08-08.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2026-08-07 22.38.34.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "2026-08-08"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-08-07 22.38.34.excalidraw"
             }
           }
         ]
@@ -210,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2026-08-08.md",
+                "file": "Excalidraw/Drawing 2026-08-07 22.38.34.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -223,7 +221,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 657.833251953125
+    "width": 657.833251953125,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,11 +237,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c31c5bd99dc4b701",
+  "active": "0e15012f8018f4cc",
   "lastOpenFiles": [
+    "God/写题/cf/Educational Codeforces Round 193 (Rated for Div. 2)/a.bin",
+    "Daily/2026-08-08.md",
+    "Excalidraw/Drawing 2026-08-07 22.38.34.excalidraw.md",
     "Daily/2026-08-07.md",
     "写题/Codeforces/div2/1115/e.md",
-    "Daily/2026-08-08.md",
     "写题/Codeforces/div2/1115/d.md",
     "写题/Codeforces/div2/1115.md",
     "Templates/每日清单.md",
@@ -274,8 +275,6 @@
     "算法名/异或线性基.md",
     "算法名/异或.md",
     "牛客/暑假多校/未命名.md",
-    "母题/095 Code06 威佐夫博弈.md",
-    "母题/095 Code05 斐波那契博弈.md",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
     "image/Pasted image 20260707142236.png",
