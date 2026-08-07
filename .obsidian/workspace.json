@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/096 Code05 E&D游戏1.md",
+                "file": "母题/096 Code06 分裂游戏.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "096 Code05 E&D游戏1"
+              "title": "096 Code06 分裂游戏"
             }
           }
         ],
@@ -245,6 +245,8 @@
   },
   "active": "980b82052fff5d44",
   "lastOpenFiles": [
+    "母题/096 Code05 E&D游戏2.md",
+    "母题/096 Code05 E&D游戏1.md",
     "母题/096 Code04 三堆石头拿取斐波那契数博弈.md",
     "母题/096 Code03 两堆石头的巴什博弈.md",
     "算法名/SG定理.md",
@@ -279,8 +281,6 @@
     "母题/095 Code02 质数次方版取石子.md",
     "母题/094 Code06 烹调方案.md",
     "母题/094 Code05 砍树.md",
-    "母题/094 Code04 雇佣K名工人的最低成本.md",
-    "母题/094 Code03 最大平均通过率.md",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
     "image/Pasted image 20260707142236.png",
