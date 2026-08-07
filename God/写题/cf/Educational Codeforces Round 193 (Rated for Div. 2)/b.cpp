@@ -13,7 +13,7 @@ void solve()
     int n;
     cin >> n;
     vector<int> a(n);
-    vector<int> cnt(n+5);
+    vector<int> cnt(n + 5);
     int kinds = 0;
     int sim = 0;
     int pre = -1;
@@ -41,7 +41,7 @@ void solve()
     {
         if (sta == 2)
             break;
-        if (a[i] == pre && i+1<n && a[i + 1] != a[i])
+        if (a[i] == pre && i + 1 < n && a[i + 1] != a[i])
         {
             if (i + 2 < n && a[i + 2] != a[i])
             {
@@ -51,7 +51,8 @@ void solve()
                 else
                     sta = 1;
             }
-            else if(i + 2 == n){
+            else if (i + 1 == n - 1)
+            {
                 sta = 1;
             }
         }
