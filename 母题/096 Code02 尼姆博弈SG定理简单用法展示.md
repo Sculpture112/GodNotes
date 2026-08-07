@@ -46,7 +46,7 @@ string nim2(const vector<int>& arr) {
     for (int i = 1; i <= maxValue; i++) {
         fill(appear.begin(), appear.end(), false);
         for (int j = 0; j < i; j++) {
-            appear[j] = true;
+            appear[sg[j]] = true;
         }
         for (int s = 0; s <= maxValue; s++) {
             if (!appear[s]) {

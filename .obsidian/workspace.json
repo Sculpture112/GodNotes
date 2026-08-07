@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "c"
             }
+          },
+          {
+            "id": "980b82052fff5d44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "母题/096 Code02 尼姆博弈SG定理简单用法展示.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "096 Code02 尼姆博弈SG定理简单用法展示"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -228,12 +243,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "25a8dcda65099d53",
+  "active": "980b82052fff5d44",
   "lastOpenFiles": [
+    "母题/096 Code01 巴什博弈SG函数求解过程展示.md",
+    "母题/095 Code01 巴什博弈.md",
+    "Codeforces/div2/1115/c.md",
     "God/a.cpp",
     "God/a",
     "Excalidraw/Drawing 2026-08-06 22.50.18.excalidraw.md",
-    "Codeforces/div2/1115/c.md",
     "Codeforces/div2/1115",
     "God/写题/cf/Codeforces Round 1115 (Div. 2)/c.bin",
     "God/写题/cf/Codeforces Round 1115 (Div. 2)/b.bin",
@@ -246,7 +263,6 @@
     "算法名/线性基.md",
     "算法名/异或线性基.md",
     "算法名/异或.md",
-    "母题/096 Code01 巴什博弈SG函数求解过程展示.md",
     "牛客/暑假多校/2",
     "牛客/暑假多校/未命名.md",
     "母题/095 Code06 威佐夫博弈.md",
@@ -256,9 +272,7 @@
     "母题/095 Code04 反尼姆博弈.md",
     "母题/095 Code03 尼姆博弈.md",
     "God/母题/096 Code06 分裂游戏.cpp",
-    "God/母题/096 Code05 E&D游戏2.cpp",
     "母题/095 Code02 质数次方版取石子.md",
-    "母题/095 Code01 巴什博弈.md",
     "母题/094 Code06 烹调方案.md",
     "母题/094 Code05 砍树.md",
     "母题/094 Code04 雇佣K名工人的最低成本.md",
