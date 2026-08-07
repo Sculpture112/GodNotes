@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "25a8dcda65099d53",
+            "id": "980b82052fff5d44",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Codeforces/div2/1115/c.md",
+                "file": "写题/Codeforces/div2/1115/c.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "c"
             }
-          },
-          {
-            "id": "980b82052fff5d44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "母题/096 Code06 分裂游戏.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "096 Code06 分裂游戏"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -245,6 +230,8 @@
   },
   "active": "980b82052fff5d44",
   "lastOpenFiles": [
+    "母题/096 Code06 分裂游戏.md",
+    "写题",
     "母题/096 Code05 E&D游戏2.md",
     "母题/096 Code05 E&D游戏1.md",
     "母题/096 Code04 三堆石头拿取斐波那契数博弈.md",
@@ -253,23 +240,23 @@
     "母题/096 Code02 尼姆博弈SG定理简单用法展示.md",
     "母题/096 Code01 巴什博弈SG函数求解过程展示.md",
     "母题/095 Code01 巴什博弈.md",
-    "Codeforces/div2/1115/c.md",
+    "写题/Codeforces/div2/1115/c.md",
     "God/a.cpp",
     "God/a",
     "Excalidraw/Drawing 2026-08-06 22.50.18.excalidraw.md",
-    "Codeforces/div2/1115",
+    "写题/Codeforces/div2/1115",
     "God/写题/cf/Codeforces Round 1115 (Div. 2)/c.bin",
     "God/写题/cf/Codeforces Round 1115 (Div. 2)/b.bin",
     "God/写题/cf/Codeforces Round 1115 (Div. 2)/a.bin",
-    "牛客/暑假多校/2/n.md",
+    "写题/牛客/暑假多校/2/n.md",
     "Excalidraw/Drawing 2026-08-06 16.31.15.excalidraw.md",
     "God/写题/牛客/2026牛客暑假多校训练营2/m.bin",
-    "牛客/暑假多校/2/b.md",
+    "写题/牛客/暑假多校/2/b.md",
     "God/写题/牛客/2026牛客暑假多校训练营2/m.cpp",
     "算法名/线性基.md",
     "算法名/异或线性基.md",
     "算法名/异或.md",
-    "牛客/暑假多校/2",
+    "写题/牛客/暑假多校/2",
     "牛客/暑假多校/未命名.md",
     "母题/095 Code06 威佐夫博弈.md",
     "母题/095 Code05 斐波那契博弈.md",
@@ -277,10 +264,8 @@
     "算法名/斐波那契.md",
     "母题/095 Code04 反尼姆博弈.md",
     "母题/095 Code03 尼姆博弈.md",
-    "God/母题/096 Code06 分裂游戏.cpp",
     "母题/095 Code02 质数次方版取石子.md",
     "母题/094 Code06 烹调方案.md",
-    "母题/094 Code05 砍树.md",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
     "image/Pasted image 20260707142236.png",
