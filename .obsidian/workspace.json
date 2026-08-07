@@ -11,10 +11,14 @@
             "id": "0e15012f8018f4cc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Daily/2026-08-07.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "2026-08-07"
             }
           }
         ]
@@ -70,16 +74,6 @@
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
-            }
-          },
-          {
-            "id": "2fbacdadcbcf8e27",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
             }
           }
         ],
@@ -206,11 +200,22 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Daily/2026-08-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
               "title": "出链"
+            }
+          },
+          {
+            "id": "38b343b3c62ac6ac",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ],
@@ -218,8 +223,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 657.833251953125,
-    "collapsed": true
+    "width": 657.833251953125
   },
   "left-ribbon": {
     "hiddenItems": {
