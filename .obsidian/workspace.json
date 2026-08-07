@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-08-07.md",
+                "file": "Daily/2026-08-08.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-08-07"
+              "title": "2026-08-08"
             }
           }
         ]
@@ -74,6 +74,16 @@
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
+            }
+          },
+          {
+            "id": "38b343b3c62ac6ac",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ],
@@ -200,22 +210,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2026-08-07.md",
+                "file": "Daily/2026-08-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
               "title": "出链"
-            }
-          },
-          {
-            "id": "38b343b3c62ac6ac",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
             }
           }
         ],
@@ -238,13 +238,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0e15012f8018f4cc",
+  "active": "c31c5bd99dc4b701",
   "lastOpenFiles": [
+    "Daily/2026-08-07.md",
     "写题/Codeforces/div2/1115/e.md",
     "Daily/2026-08-08.md",
     "写题/Codeforces/div2/1115/d.md",
     "写题/Codeforces/div2/1115.md",
-    "Daily/2026-08-07.md",
     "Templates/每日清单.md",
     "Daily",
     "Templates",
