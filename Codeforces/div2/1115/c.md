@@ -2,7 +2,7 @@
 
 > **原题链接:** ()
 
-**涉及知识点:** [[贪心算法]], [[树状数组]]，[[补题]],[[]],[[]]
+**涉及知识点:** [[贪心算法]], [[树状数组]]，[[补题]],[[优先队列]],[[]]
 
 **核心套路:** 
 
@@ -10,7 +10,80 @@
 []
 
 ```cpp
-这个是用multiset做
+优先队列
+#include <bits/stdc++.h>
+using namespace std;
+
+using ll = long long;
+
+const int INF = 0x3f3f3f3f;
+const ll LINF = 4e18;
+
+#define all(x) (x).begin(), (x).end()
+
+void solve() {
+    int n, m;
+    cin >> n >> m;
+
+    vector<ll> v(n);
+    for (ll &x : v) cin >> x;
+
+    // 使用一维数组，避免 n 很大、m 很小时产生大量 vector 对象。
+    vector<ll> a(1LL * n * m);
+    for (ll &x : a) cin >> x;
+
+    // 拆空任意一行需要 m 块，因此答案至多是 m。
+    int ans = m;
+
+    // 维护当前后缀中最大的 ans - 1 个数。
+    priority_queue<ll, vector<ll>, greater<ll>> heap;
+    ll sum = 0;
+
+    for (int i = n - 1; i >= 0; --i) {
+        for (int j = 0; j < m; ++j) {
+            ll x = a[1LL * i * m + j];
+
+            heap.push(x);
+            sum += x;
+
+            // 只保留最大的 ans - 1 个数。
+            if ((int)heap.size() == ans) {
+                sum -= heap.top();
+                heap.pop();
+            }
+        }
+
+        // 当前保留的棋块已经足以击垮第 i 层。
+        while (!heap.empty() && sum >= v[i]) {
+            ans = (int)heap.size();
+
+            // 尝试再少选一个：删除当前选择中最小的数。
+            sum -= heap.top();
+            heap.pop();
+        }
+    }
+
+    cout << ans << '\n';
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int T = 1;
+    cin >> T;
+    while (T--) solve();
+
+    return 0;
+}
+
+```
+
+
+
+
+```cpp
+这个是用mutiset做
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
