@@ -11,12 +11,14 @@
             "id": "0e15012f8018f4cc",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-08-07 22.38.34.excalidraw.md"
+                "file": "写题/Codeforces/div2/1115/d.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-08-07 22.38.34.excalidraw"
+              "icon": "lucide-file",
+              "title": "d"
             }
           }
         ]
@@ -239,10 +241,11 @@
   },
   "active": "0e15012f8018f4cc",
   "lastOpenFiles": [
+    "写题/Codeforces/div2/1115/c.md",
+    "Daily/2026-08-08.md",
     "Excalidraw/Drawing 2026-08-07 22.38.34.excalidraw.md",
     "God/写题/cf/Educational Codeforces Round 193 (Rated for Div. 2)/b.bin",
     "God/写题/cf/Educational Codeforces Round 193 (Rated for Div. 2)/a.bin",
-    "Daily/2026-08-08.md",
     "Daily/2026-08-07.md",
     "写题/Codeforces/div2/1115/e.md",
     "写题/Codeforces/div2/1115/d.md",
@@ -251,7 +254,6 @@
     "Daily",
     "Templates",
     "God/写题/cf/Codeforces Round 1115 (Div. 2)/d.cpp",
-    "写题/Codeforces/div2/1115/c.md",
     "God/写题/cf/Codeforces Round 1115 (Div. 2)/c.bin",
     "God/写题/例题/魔药.cpp",
     "God/写题/例题/高桥.cpp",
