@@ -233,10 +233,11 @@
       "cmdr:重新加载 Obsidian（不保存当前编辑内容）": false,
       "templater-obsidian:Templater": false,
       "juggl:Juggl global graph": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "83beec6f0b19402a",
+  "active": "0e15012f8018f4cc",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-08-07 22.38.34.excalidraw.md",
     "God/写题/cf/Educational Codeforces Round 193 (Rated for Div. 2)/b.bin",
