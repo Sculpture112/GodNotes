@@ -233,16 +233,15 @@
       "cmdr:重新加载 Obsidian（不保存当前编辑内容）": false,
       "templater-obsidian:Templater": false,
       "juggl:Juggl global graph": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "periodic-notes:Open today": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0e15012f8018f4cc",
+  "active": "83beec6f0b19402a",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-08-07 22.38.34.excalidraw.md",
     "God/写题/cf/Educational Codeforces Round 193 (Rated for Div. 2)/b.bin",
     "God/写题/cf/Educational Codeforces Round 193 (Rated for Div. 2)/a.bin",
     "Daily/2026-08-08.md",
-    "Excalidraw/Drawing 2026-08-07 22.38.34.excalidraw.md",
     "Daily/2026-08-07.md",
     "写题/Codeforces/div2/1115/e.md",
     "写题/Codeforces/div2/1115/d.md",
@@ -257,7 +256,6 @@
     "God/写题/例题/高桥.cpp",
     "God/写题/例题/马的遍历.cpp",
     "God/写题/例题/面试题 17.24. 最大子矩阵.cpp",
-    "God/写题/例题/计算系数.cpp",
     "母题/096 Code06 分裂游戏.md",
     "母题/096 Code05 E&D游戏2.md",
     "母题/096 Code05 E&D游戏1.md",
