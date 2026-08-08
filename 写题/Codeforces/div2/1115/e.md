@@ -60,6 +60,95 @@ int main() {
 
 ```
 
+
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+using ull = unsigned long long;
+using ll = long long;
+
+constexpr int MOD = 1'000'000'007;
+constexpr int INV2 = 500'000'004;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int t;
+    cin >> t;
+
+    while (t--) {
+        ull n;
+        cin >> n;
+
+        static int dp[2][2][2][2][2];
+        static int ndp[2][2][2][2][2];
+
+        memset(dp, 0, sizeof(dp));
+        dp[0][0][0][0][0] = 1;
+
+        for (int bit = 0; bit <= 60; ++bit) {
+            memset(ndp, 0, sizeof(ndp));
+            int nBit = (n >> bit) & 1ULL;
+
+            for (int carry = 0; carry <= 1; ++carry) {
+                for (int prevB = 0; prevB <= 1; ++prevB) {
+                    for (int borrowA = 0; borrowA <= 1; ++borrowA) {
+                        for (int borrowB = 0; borrowB <= 1; ++borrowB) {
+                            for (int borrowC = 0; borrowC <= 1; ++borrowC) {
+                                int ways =
+                                    dp[carry][prevB][borrowA][borrowB][borrowC];
+
+                                if (ways == 0) continue;
+
+                                for (int aBit = 0; aBit <= 1; ++aBit) {
+                                    for (int bBit = 0; bBit <= 1; ++bBit) {
+                                        int cBit = aBit ^ bBit;
+                                        int sum = aBit + cBit + carry;
+
+                                        if ((sum & 1) != prevB) continue;
+
+                                        int nextCarry = sum >> 1;
+                                        int nextBorrowA =
+                                            (aBit + borrowA > nBit);
+                                        int nextBorrowB =
+                                            (bBit + borrowB > nBit);
+                                        int nextBorrowC =
+                                            (cBit + borrowC > nBit);
+
+                                        int &to = ndp[nextCarry][bBit]
+                                                      [nextBorrowA]
+                                                      [nextBorrowB]
+                                                      [nextBorrowC];
+
+                                        to += ways;
+                                        if (to >= MOD) to -= MOD;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            memcpy(dp, ndp, sizeof(dp));
+        }
+
+        ll total = dp[0][0][0][0][0];
+        total += dp[1][1][0][0][0];
+        total %= MOD;
+
+        ll answer = (total - 1 + MOD) % MOD;
+        answer = answer * INV2 % MOD;
+
+        cout << answer << '\n';
+    }
+
+    return 0;
+}
+```
 ---
 
 
