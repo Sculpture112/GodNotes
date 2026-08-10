@@ -43,7 +43,7 @@ void solve() {
         }
     }
 
-    int m = color.size();
+	int m = color.size();
 
     // 不进行交换时，每个连续段保留一个元素
     // 相邻连续段颜色不同，所以基础答案为段数 m
