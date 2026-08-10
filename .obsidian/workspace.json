@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "写题/Codeforces/div2/1115/e.md",
+                "file": "写题/Codeforces/div2/Educational Codeforces Round 193 (Rated for Div. 2)/b.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "e"
+              "title": "b"
             }
           }
         ]
@@ -235,11 +235,15 @@
       "cmdr:重新加载 Obsidian（不保存当前编辑内容）": false,
       "templater-obsidian:Templater": false,
       "juggl:Juggl global graph": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "0e15012f8018f4cc",
   "lastOpenFiles": [
+    "写题/Codeforces/div2/1115/e.md",
+    "写题/Codeforces/div2/Educational Codeforces Round 193 (Rated for Div. 2)/b.md",
+    "写题/Codeforces/div2/Educational Codeforces Round 193 (Rated for Div. 2)",
     "写题/Codeforces/div2/1115/d.md",
     "写题/Codeforces/div2/1115/c.md",
     "Daily/2026-08-08.md",
@@ -247,7 +251,6 @@
     "God/写题/cf/Educational Codeforces Round 193 (Rated for Div. 2)/b.bin",
     "God/写题/cf/Educational Codeforces Round 193 (Rated for Div. 2)/a.bin",
     "Daily/2026-08-07.md",
-    "写题/Codeforces/div2/1115/e.md",
     "写题/Codeforces/div2/1115.md",
     "Templates/每日清单.md",
     "Daily",
@@ -257,7 +260,6 @@
     "God/写题/例题/魔药.cpp",
     "God/写题/例题/高桥.cpp",
     "God/写题/例题/马的遍历.cpp",
-    "God/写题/例题/面试题 17.24. 最大子矩阵.cpp",
     "母题/096 Code06 分裂游戏.md",
     "母题/096 Code05 E&D游戏2.md",
     "母题/096 Code05 E&D游戏1.md",
