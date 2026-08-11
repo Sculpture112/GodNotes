@@ -14,6 +14,7 @@ void solve() {
     vector<int> a(n);
     for(int&x:a)
         cin >> x;
+    sort(a.begin(), a.end());
     int ans = 0;
     for (int i = 0, j = n - 1; i < n, i <= j;)
     {
