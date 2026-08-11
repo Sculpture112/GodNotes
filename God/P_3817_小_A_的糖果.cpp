@@ -21,16 +21,11 @@ void solve() {
     }
 
     int ans = 0;
-    for (int i = 0; i < n-2; i++) {
+    for (int i = 0; i < n-1; i++) {
         while(b[i]>x){
             ans++;
             b[i]--;
-            b[i + 1]--;
         }
-    }
-    while(b[n-2]>x){
-        ans++;
-        b[n - 2]--;
     }
     cout << ans;
 }
