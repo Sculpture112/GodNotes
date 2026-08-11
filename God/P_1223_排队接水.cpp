@@ -8,12 +8,14 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+void solve()
+{
     int n;
     cin >> n;
     vector<pair<int, int>> a(n);
     int i = 1;
-    for(auto &x:a){
+    for (auto &x : a)
+    {
         cin >> x.first;
         x.second = i++;
     }
@@ -22,23 +24,29 @@ void solve() {
          { return a.first < b.first; });
 
     double ans = 0;
-    for(auto& x:a){
+    double sum = 0;
+    for (int i = 0; i < n - 1; i++)
+    {
+        auto x = a[i];
         cout << x.second << " ";
-        ans += x.first;
+        sum += x.first;
+        ans += sum;
     }
-    ans -= a[n - 1].first;
+    cout << a[n - 1].second;
     ans /= n;
     cout << "\n";
     cout << fixed << setprecision(2) << ans;
 }
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     int T = 1;
     // cin >> T;
-    while (T--) solve();
+    while (T--)
+        solve();
 
     return 0;
 }
