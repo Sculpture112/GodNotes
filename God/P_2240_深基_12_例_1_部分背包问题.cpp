@@ -13,10 +13,13 @@ void solve() {
     cin >> n >> t;
     vector<int> weight(n);
     vector<int> value(n);
-    vector<pair<int,int>> 
+    vector<pair<int, int>> gods(n);
     for (int i = 0; i < n; i++) {
-        cin >> weight[i] >> value[i];
+        cin >> gods[i].first >> gods[i].second;
     }
+    sort(gods.begin(),gods.end(),[](const auto& a,const auto& b){
+        return 
+    })
     
 }
 
