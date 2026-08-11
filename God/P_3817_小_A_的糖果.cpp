@@ -11,18 +11,19 @@ const ll LINF = 4e18;
 void solve() {
     int n, x;
     cin >> n >> x;
+    int pre = 0;
     vector<int> a(n);
-    for(int &i:a){
-        cin >> i;
+    for(int&x:a){
+        cin >> x;
     }
-
     int ans = 0;
-    for (int i = 0; i < n-1; i++) {
-        if(a[i]+a[i+1]>x){
-            int z = max(0, a[i] + a[i - 1] - x);
-            a[i] -= z;
-            ans += z;
+    for (int i = 0; i < n; i++) {
+        if(pre+a[i]>x){
+            int s = max(0, pre + a[i] - x);
+            a[i] -= s;
+            ans += s;
         }
+        pre = a[i];
     }
     cout << ans;
 }
