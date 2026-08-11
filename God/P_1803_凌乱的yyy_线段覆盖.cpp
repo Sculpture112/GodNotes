@@ -17,7 +17,11 @@ void solve() {
     }
     sort(a.begin(), a.end(), [](const auto &a, const auto &b)
          { return a.second < b.second; });
-    
+    int ans = 0;
+    for (int i = 0, cur = 0; i < n; i++)
+    {   
+        if(cur <= )
+    }
 }
 
 int main() {
