@@ -19,7 +19,20 @@ void solve() {
     }
     sort(gods.begin(), gods.end(), [](const auto &a, const auto &b)
          { return (a.value * 1.0 / a.weight) > (b.value * 1.0 / b.weight); });
-    
+
+    double ans = 0;
+    for(auto x : gods){
+        int weight = x.first, value = x.second;
+        if(weight<=t){
+            ans += value;
+        }
+        else if(t == 0){
+            break;
+        }
+        else{
+            
+        }
+    }
 }
 
 int main() {
