@@ -16,7 +16,7 @@ void solve()
     for (string &x : a)
         cin >> x;
     sort(a.begin(), a.end(), [](const auto &a, const auto &b)
-         { return a > b; });
+         { return a+b > b+a; });
     string ans = "";
     for(string &x:a){
         ans += x;
