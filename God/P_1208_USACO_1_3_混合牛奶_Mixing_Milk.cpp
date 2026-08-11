@@ -22,6 +22,7 @@ void solve()
     for (int i = 0; i < n; i++) {
         if(sum + a[i].second<s){
             ans += (a[i].first * a[i].second);
+            sum += a[i].second;
         }
         else{
             ans += (a[i].first * (s - sum));
