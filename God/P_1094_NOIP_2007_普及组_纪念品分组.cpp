@@ -14,10 +14,20 @@ void solve() {
     vector<int> a(n);
     for(int&x:a)
         cin >> x;
-    for (int i = 0, j = n - 1; i < n, i <= j; i++)
+    int ans = 0;
+    for (int i = 0, j = n - 1; i < n, i <= j;)
     {
-        if(a[i]+a[j]<=)
+        if(a[i]+a[j]<=sum){
+            ans++;
+            i++;
+            j--;
+        }
+        else{
+            ans++;
+            j--;
+        }
     }
+    cout << ans;
 }
 
 int main() {
