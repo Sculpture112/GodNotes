@@ -11,6 +11,12 @@ const ll LINF = 4e18;
 void solve() {
     int n;
     cin >> n;
+    vector<pair<int, int>> a(n);
+    for (int i = 0; i < n;i++){
+        cin >> a[i].first >> a[i].second;
+    }
+    sort(a.begin(), a.end(), [](const auto &a, const auto &b)
+         { return a.second < b.second; });
     
 }
 
