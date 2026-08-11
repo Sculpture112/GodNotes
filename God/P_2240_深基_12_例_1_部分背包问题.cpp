@@ -17,9 +17,8 @@ void solve() {
     for (int i = 0; i < n; i++) {
         cin >> gods[i].first >> gods[i].second;
     }
-    sort(gods.begin(),gods.end(),[](const auto& a,const auto& b){
-        return 
-    })
+    sort(gods.begin(), gods.end(), [](const auto &a, const auto &b)
+         { return (a.value * 1.0 / a.weight) > (b.value * 1.0 / b.weight); });
     
 }
 
