@@ -13,7 +13,11 @@ void solve() {
     cin >> n >> t;
     vector<int> weight(n);
     vector<int> value(n);
-    for()
+    vector<pair<int,int>> 
+    for (int i = 0; i < n; i++) {
+        cin >> weight[i] >> value[i];
+    }
+    
 }
 
 int main() {
