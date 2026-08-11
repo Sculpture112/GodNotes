@@ -17,7 +17,7 @@ void solve()
     string ans;
     for (int i = 0; i < n.size(); i++)
     {
-        while (!ans.empty() && ans.back() > n[i])
+        while (k>0 && !ans.empty() && ans.back() > n[i])
         {
             ans.pop_back();
             k--;
