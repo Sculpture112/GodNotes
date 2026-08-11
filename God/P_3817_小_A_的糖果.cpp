@@ -12,19 +12,16 @@ void solve() {
     int n, x;
     cin >> n >> x;
     vector<int> a(n);
-    vector<int> b(n - 1);
     for(int &i:a){
         cin >> i;
-    }
-    for (int i = 0; i < n-1; i++) {
-        b[i] = a[i] + a[i + 1];
     }
 
     int ans = 0;
     for (int i = 0; i < n-1; i++) {
-        while(b[i]>x){
-            ans++;
-            b[i]--;
+        if(a[i]+a[i+1]>x){
+            int z = max(0, a[i] + a[i - 1] - x);
+            a[i] -= z;
+            ans += z;
         }
     }
     cout << ans;
