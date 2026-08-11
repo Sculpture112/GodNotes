@@ -9,17 +9,18 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
-    int n, x;
+    int n;
+    ll x;
     cin >> n >> x;
-    int pre = 0;
+    ll pre = 0;
     vector<int> a(n);
     for(int&x:a){
         cin >> x;
     }
-    int ans = 0;
+    ll ans = 0;
     for (int i = 0; i < n; i++) {
         if(pre+a[i]>x){
-            int s = max(0, pre + a[i] - x);
+            int s = max(0LL, pre + a[i] - x);
             a[i] -= s;
             ans += s;
         }
