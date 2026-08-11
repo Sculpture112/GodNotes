@@ -33,7 +33,7 @@ void solve() {
     ll ans = n;
     for(auto &[_,heap]:group){
         if(!heap.empty()){
-            ans = min(ans, heap.top());
+            ans = min(ans, 1LL * heap.top());
         }
     }
     cout << ans;
