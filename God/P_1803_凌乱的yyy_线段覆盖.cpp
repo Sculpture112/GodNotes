@@ -19,9 +19,16 @@ void solve() {
          { return a.second < b.second; });
     int ans = 0;
     for (int i = 0, cur = 0; i < n; i++)
-    {   
-        if(cur <= )
+    {
+        auto x = a[i];
+        int f = x.first;
+        int e = x.second;
+        if(cur <= f){
+            ans += 1;
+            cur = e;
+        }
     }
+    cout << ans;
 }
 
 int main() {
