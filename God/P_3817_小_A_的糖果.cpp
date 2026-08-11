@@ -9,7 +9,30 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
+    int n, x;
+    cin >> n >> x;
+    vector<int> a(n);
+    vector<int> b(n - 1);
+    for(int &i:a){
+        cin >> i;
+    }
+    for (int i = 0; i < n-1; i++) {
+        b[i] = a[i] + a[i + 1];
+    }
 
+    int ans = 0;
+    for (int i = 0; i < n-2; i++) {
+        while(b[i]>x){
+            ans++;
+            b[i]--;
+            b[i + 1]--;
+        }
+    }
+    while(b[n-2]>x){
+        ans++;
+        b[n - 2]--;
+    }
+    cout << ans;
 }
 
 int main() {
