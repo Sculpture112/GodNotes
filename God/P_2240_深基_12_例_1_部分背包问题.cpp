@@ -17,7 +17,7 @@ void solve() {
     for (int i = 0; i < n; i++) {
         cin >> gods[i].first >> gods[i].second;
     }
-    sort(gods.begin(), gods.end(), [](const auto &a, const auto &b)
+    sort(gods.begin(), gods.end(), [](const auto& a, const auto &b)
          { return (a.value * 1.0 / a.weight) > (b.value * 1.0 / b.weight); });
 
     double ans = 0;
@@ -30,9 +30,10 @@ void solve() {
             break;
         }
         else{
-            
+            ans += (1.0 * t / weight) * value;
         }
     }
+    cout << fixed << setprecision(2) << ans;
 }
 
 int main() {
