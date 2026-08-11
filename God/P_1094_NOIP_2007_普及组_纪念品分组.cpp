@@ -14,7 +14,10 @@ void solve() {
     vector<int> a(n);
     for(int&x:a)
         cin >> x;
-    
+    for (int i = 0, j = n - 1; i < n, i <= j; i++)
+    {
+        if(a[i]+a[j]<=)
+    }
 }
 
 int main() {
