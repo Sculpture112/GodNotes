@@ -15,8 +15,8 @@ void solve() {
     cin >> k;
     vector<char> s;
     int n = str.size();
-    for (int i = 0; i < str.size(); i++) {
-        s[i] = str[i];
+    for (int i = 0; i < str.length(); i++) {
+        s.push_back(str[i]);
     }
     sort(s.begin(), s.end());
     for (int i = 0; i < n - k;i++){
