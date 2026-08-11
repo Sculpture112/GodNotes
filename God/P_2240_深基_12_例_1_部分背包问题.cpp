@@ -9,7 +9,11 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
-
+    int n, t;
+    cin >> n >> t;
+    vector<int> weight(n);
+    vector<int> value(n);
+    for()
 }
 
 int main() {
