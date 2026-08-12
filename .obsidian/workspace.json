@@ -35,8 +35,7 @@
               "title": "P1080 [NOIP 2012 提高组] 国王游戏"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +101,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -254,11 +253,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7620c51a8d58ccfa",
+  "active": "b9a7b39ed3bb4977",
   "lastOpenFiles": [
+    "D_Hypercarp.cpp",
+    "例题/P1080 [NOIP 2012 提高组] 国王游戏.md",
     "Daily/2026-08-11.md",
     "算法名/高精度.md",
-    "例题/P1080 [NOIP 2012 提高组] 国王游戏.md",
     "写题/Codeforces/div2/Educational Codeforces Round 193 (Rated for Div. 2)/c.md",
     "写题/Codeforces/div2/Educational Codeforces Round 193 (Rated for Div. 2)/b.md",
     "写题/Codeforces/div2/1115/e.md",
