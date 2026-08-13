@@ -37,34 +37,42 @@ void solve()
         }
     }
 
-    if(dangertime[0][0] == 0){
+    if (dangertime[0][0] == 0)
+    {
         cout << -1 << "\n";
         return;
     }
 
     queue<pair<int, int>> q;
-    q.push({0,0});
+    q.push({0, 0});
     dist[0][0] = 0;
 
-    while(!q.empty()){
+    while (!q.empty())
+    {
         auto [x, y] = q.front();
         q.pop();
 
-        if(dangertime[x][y] == INF){
+        if (dangertime[x][y] == INF)
+        {
             cout << dist[x][y] << "\n";
             return;
         }
 
-        for (int j = 0; j < 4; j++) {
+        for (int j = 0; j < 4; j++)
+        {
             int nx = x + dx[i];
             int ny = y + dy[i];
 
-            if(nx<0 || nx >n ||ny<0 || ny>n){
+            if (nx < 0 || nx > n || ny < 0 || ny > n)
+            {
                 continue;
-            }               
+            }
 
+            if (dist[nx][ny] != 1)
+                continue;
 
-            if(dist[nx][ny] !=)
+            q.push({nx, ny});
+            dist[nx][ny] = dist[x][y] + 1;
         }
     }
 }
