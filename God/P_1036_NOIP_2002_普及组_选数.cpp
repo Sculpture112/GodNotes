@@ -8,7 +8,7 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 const int N = 24;
-vector<bool> IsPrime(N, true);
+vector<bool> IsPrime(300, true);
 
 int n, k;
 int ans = 0;
@@ -28,26 +28,30 @@ void init()
 }
 void dfs(int idx, int select, int sum)
 {
-    if (select == k && IsPrime[sum])
+    if (select == k )
     {
-        ans++;
+        if(IsPrime[sum]){
+            ans++;
+        }
         return;
     }
 
     if (idx == n)
         return;
 
-    dfs(idx + 1, select + 1, sum += arr[idx]);
+    dfs(idx + 1, select + 1, sum + arr[idx]);
     dfs(idx + 1, select, sum);
 }
 void solve()
 {
     cin >> n >> k;
 
-    for (int &x : arr)
-        cin >> x;
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
 
     init();
+    dfs(0, 0, 0);
     cout << ans;
 }
 
