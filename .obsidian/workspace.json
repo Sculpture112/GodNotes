@@ -45,8 +45,7 @@
               "title": "BFS"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -264,10 +263,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "14c0f7c6bf4a8f8e",
+  "active": "852807d7720d90df",
   "lastOpenFiles": [
-    "例题/P2895 [USACO08FEB] Meteor Shower S.md",
     "算法名/BFS.md",
+    "例题/P2895 [USACO08FEB] Meteor Shower S.md",
     "例题/P1135 奇怪的电梯.md",
     "God/P_2895_USACO_08_FEB_Meteor_Shower_S.cpp",
     "Daily/2026-08-13.md",
