@@ -58,7 +58,7 @@ void solve()
             return;
         }
 
-        for (int j = 0; j < 4; j++)
+        for (int i = 0; i < 4; i++)
         {
             int nx = x + dx[i];
             int ny = y + dy[i];
@@ -71,8 +71,11 @@ void solve()
             if (dist[nx][ny] != 1)
                 continue;
 
-            q.push({nx, ny});
-            dist[nx][ny] = dist[x][y] + 1;
+            
+            int nexttime = dist[x][y] +1;
+            if(nexttime<dangertime[nx][ny]){
+                dist
+            }
         }
     }
 }
