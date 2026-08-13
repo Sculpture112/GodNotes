@@ -47,10 +47,17 @@ void solve()
     dist[0][0] = 0;
 
     while(!q.empty()){
-        auto [x, y] = q.top();
+        auto [x, y] = q.front();
         q.pop();
 
-        if()
+        if(dangertime[x][y] == INF){
+            cout << dist[x][y] << "\n";
+            return;
+        }
+
+        for (int j = 0; j < 4; j++) {
+            
+        }
     }
 }
 
