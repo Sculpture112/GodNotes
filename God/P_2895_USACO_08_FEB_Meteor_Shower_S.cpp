@@ -42,7 +42,16 @@ void solve()
         return;
     }
 
-    queue<
+    queue<pair<int, int>> q;
+    q.push({0,0});
+    dist[0][0] = 0;
+
+    while(!q.empty()){
+        auto [x, y] = q.top();
+        q.pop();
+
+        if()
+    }
 }
 
 int main()
