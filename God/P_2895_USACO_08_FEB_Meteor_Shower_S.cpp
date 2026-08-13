@@ -63,7 +63,7 @@ void solve()
             int nx = x + dx[i];
             int ny = y + dy[i];
 
-            if (nx < 0 || nx > n || ny < 0 || ny > n)
+            if (nx < 0 || nx >= n || ny < 0 || ny > n)
             {
                 continue;
             }
@@ -74,10 +74,13 @@ void solve()
             
             int nexttime = dist[x][y] +1;
             if(nexttime<dangertime[nx][ny]){
-                dist
+                dist[nx][ny] = nexttime;
+                q.push({nx, ny});
             }
         }
     }
+    cout << -1 << "\n";
+    
 }
 
 int main()
