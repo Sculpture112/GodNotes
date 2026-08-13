@@ -9,9 +9,9 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 int ans = INF;
 int a[11], b[11];
-void dfs(int sum,int idx){
-    ans = min(ans, sum);
+void dfs(int s,int k,int idx){
     
+    dfs()
 }
 void solve() {
     int n;
