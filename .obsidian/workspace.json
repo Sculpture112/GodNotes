@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "n"
             }
-          },
-          {
-            "id": "4e5dca69ef0f2313",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "例题/P1219 [USACO1.5] 八皇后 Checker Challenge.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "P1219 [USACO1.5] 八皇后 Checker Challenge"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -254,10 +239,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4e5dca69ef0f2313",
+  "active": "852807d7720d90df",
   "lastOpenFiles": [
-    "算法名/副对角线.md",
+    "God/P_2392_kkksc_03__u8003_u524d_u4e34_u65f6_u62b1_u4f5b_u811a.bin",
+    "God/P_2392_kkksc_03_考前临时抱佛脚.cpp",
+    "Daily/2026-08-13.md",
     "例题/P1219 [USACO1.5] 八皇后 Checker Challenge.md",
+    "算法名/副对角线.md",
     "算法名/主对角线.md",
     "写题/牛客/暑假多校/2/导航.md",
     "写题/牛客/暑假多校/2/g.md",
@@ -287,12 +275,9 @@
     "God/P_4447_AHOI_2018_初中组_分组.cpp",
     "God/P_4995__u8df3_u8df3.bin",
     "God/P_4995_跳跳.cpp",
-    "God/P_1094_NOIP_2007__u666e_u53ca_u7ec4__u7eaa_u5ff5_u54c1_u5206_u7ec4.bin",
     "例题/P1106 删数问题.md",
     "例题/P3817 小 A 的糖果.md",
     "母题/041 Code01 求最大公约数最小公倍数.md",
-    "母题/038 Code01 字符串的全部子序列.md",
-    "Daily/2026-08-07.md",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
     "image/Pasted image 20260707142236.png",
