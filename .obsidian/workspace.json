@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-08-13.md",
+                "file": "写题/牛客/暑假多校/2/g.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-08-13"
+              "title": "g"
             }
           },
           {
@@ -111,7 +111,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -265,19 +265,22 @@
   },
   "active": "852807d7720d90df",
   "lastOpenFiles": [
+    "God/P_1036_NOIP_2002_普及组_选数.cpp",
+    "Daily/2026-08-12.md",
+    "写题/牛客/暑假多校/2/n.md",
+    "写题/牛客/暑假多校/2/b.md",
+    "Daily/2026-08-13.md",
     "例题/P2895 [USACO08FEB] Meteor Shower S.md",
     "God/P_2895_USACO_08_FEB_Meteor_Shower_S.bin",
     "算法名/BFS.md",
     "例题/P1135 奇怪的电梯.md",
     "God/P_2895_USACO_08_FEB_Meteor_Shower_S.cpp",
-    "Daily/2026-08-13.md",
     "God/P_1135__u5947_u602a_u7684_u7535_u68af.bin",
     "God/P_1135_奇怪的电梯.cpp",
     "例题/P1443 马的遍历.md",
     "God/P_1443_马的遍历.cpp",
     "例题/P2392 kkksc03 考前临时抱佛脚.md",
     "算法名/搜索.md",
-    "写题/牛客/暑假多校/2/n.md",
     "God/P_2392_kkksc_03__u8003_u524d_u4e34_u65f6_u62b1_u4f5b_u811a.bin",
     "God/P_2392_kkksc_03_考前临时抱佛脚.cpp",
     "例题/P1219 [USACO1.5] 八皇后 Checker Challenge.md",
@@ -285,9 +288,7 @@
     "算法名/主对角线.md",
     "写题/牛客/暑假多校/2/导航.md",
     "写题/牛客/暑假多校/2/g.md",
-    "Daily/2026-08-12.md",
     "算法名/优化枚举.md",
-    "写题/牛客/暑假多校/2/b.md",
     "image/Pasted image 20260812165838.png",
     "写题/Codeforces/div2/Educational Codeforces Round 193 (Rated for Div. 2)/d.md",
     "例题/P1080 [NOIP 2012 提高组] 国王游戏.md",
