@@ -7,8 +7,18 @@ const int INF = 0x3f3f3f3f;
 const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
-
+int ans = INF;
+void dfs(int sum,){
+    ans = min(ans, sum);
+}
 void solve() {
+    int n;
+    cin >> n;
+    vector<int> a(n);
+    vector<int> b(n);
+    for (int i = 0; i < n; i++) {
+        cin >> a[i] >> b[i];
+    }
 
 }
 
