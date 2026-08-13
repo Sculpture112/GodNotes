@@ -28,7 +28,12 @@ void solve()
     {
         int size = que.size();
         for (int i = 0; i < size; i++) {
-            
+            int cur = que.front();
+            que.pop();
+            if(dist[cur] != -1){
+                que.push(cur + arr[cur]);
+                que.push(cur - arr[cur]);
+            }
         }
     }
 }
