@@ -11,11 +11,15 @@ const ll LINF = 4e18;
 void solve() {
     int n, a, b;
     cin >> n >> a >> b;
-    vector<int> arr(n);
-    for(int &x:arr)
-        cin >> x;
+    vector<int> arr(n + 1);
+    for (int i = 1; i <= n; i++) {
+        cin >> arr[i];
+    }
 
-    
+    queue<int> que;
+    que.push(a);
+
+    while(que.)
 }
 
 int main() {
