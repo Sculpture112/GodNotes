@@ -7,7 +7,7 @@ const int INF = 0x3f3f3f3f;
 const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
-const int N = 24;
+const int N = 299;
 vector<bool> IsPrime(300, true);
 
 int n, k;
