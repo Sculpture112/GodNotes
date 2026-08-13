@@ -18,15 +18,20 @@ void solve()
         cin >> arr[i];
     }
 
+    a--, b--;
     queue<int> que;
     que.push(a);
 
     int step = 0;
-    vector<int> visited(n, -1);
+    vector<int> dist(n, -1);
     while (!que.empty())
     {
         int cur = que.front();
         que.pop();
+        if(dist[cur] != -1){
+            que.push(arr[cur] + cur);
+            que.push(arr[cur])
+        }
     }
 }
 
