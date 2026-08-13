@@ -9,7 +9,9 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
-
+    int n, m, x, y;
+    cin >> n >> m >> x >> y;
+    
 }
 
 int main() {
