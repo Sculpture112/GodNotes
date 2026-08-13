@@ -26,11 +26,9 @@ void solve()
     vector<int> dist(n, -1);
     while (!que.empty())
     {
-        int cur = que.front();
-        que.pop();
-        if(dist[cur] != -1){
-            que.push(arr[cur] + cur);
-            que.push(arr[cur])
+        int size = que.size();
+        for (int i = 0; i < size; i++) {
+            
         }
     }
 }
