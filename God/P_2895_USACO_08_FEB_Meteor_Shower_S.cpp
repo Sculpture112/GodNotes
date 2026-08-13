@@ -12,8 +12,8 @@ int dist[N][N];
 
 #define all(x) (x).begin(), (x).end()
 int graph[301][301];
-int dx[4] = {0, 1, 0, -1};
-int dy[4] = {1, 0, -1, 0};
+int dx[5] = {0,0, 1, 0, -1};
+int dy[5] = {0,1, 0, -1, 0};
 void solve()
 {
     int n;
@@ -25,12 +25,12 @@ void solve()
     {
         int x, y, t;
         cin >> x >> y >> t;
-        for (int i = 0; i < 4; i++)
+        for (int i = 0; i < 5; i++)
         {
             int nx = dx[i] + x;
             int ny = dy[i] + y;
 
-            if (nx >= 0 && nx <= n && ny >= 0 && ny <= n)
+            if (nx >= 0 && nx <= N && ny >= 0 && ny <= N)
             {
                 dangertime[nx][ny] = min(dangertime[nx][ny], t);
             }
@@ -58,17 +58,17 @@ void solve()
             return;
         }
 
-        for (int i = 0; i < 4; i++)
+        for (int i = 0; i < 5; i++)
         {
             int nx = x + dx[i];
             int ny = y + dy[i];
 
-            if (nx < 0 || nx >= n || ny < 0 || ny >= n)
+            if (nx < 0 || nx >= N || ny < 0 || ny >= N)
             {
                 continue;
             }
 
-            if (dist[nx][ny] != 1)
+            if (dist[nx][ny] != -1)
                 continue;
 
             
