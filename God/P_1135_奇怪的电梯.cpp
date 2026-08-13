@@ -24,16 +24,17 @@ void solve()
 
     int step = 1;
     vector<int> dist(n, -1);
+    dist[a] = 0;
     while (!que.empty())
     {
         int size = que.size();
         for (int i = 0; i < size; i++)
         {
             int cur = que.front();
-            if (cur < 1 || cur > n)
-                continue;
             que.pop();
-            if (dist[cur] != -1)
+            if (cur < 0 || cur >= n)
+                continue;
+            if (dist[cur] == -1)
             {
                 dist[cur] = step;
                 que.push(cur + arr[cur]);
