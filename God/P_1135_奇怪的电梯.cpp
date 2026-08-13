@@ -22,7 +22,7 @@ void solve()
     queue<int> que;
     que.push(a);
 
-    int step = 0;
+    int step = 1;
     vector<int> dist(n, -1);
     while (!que.empty())
     {
@@ -35,12 +35,14 @@ void solve()
             que.pop();
             if (dist[cur] != -1)
             {
+                dist[cur] = step;
                 que.push(cur + arr[cur]);
                 que.push(cur - arr[cur]);
             }
         }
-        
+        step++;
     }
+    cout << dist[b];
 }
 
 int main()
