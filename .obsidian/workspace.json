@@ -11,14 +11,12 @@
             "id": "852807d7720d90df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "例题/P2036.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2026-08-17 23.03.22.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "P2036"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-08-17 23.03.22.excalidraw"
             }
           },
           {
@@ -259,13 +257,16 @@
       "cmdr:重新加载 Obsidian（不保存当前编辑内容）": false,
       "templater-obsidian:Templater": false,
       "juggl:Juggl global graph": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "852807d7720d90df",
   "lastOpenFiles": [
-    "Daily/2026-08-13.md",
+    "God/写题/cf/Codeforces Round 1117 (Div. 2)/b.bin",
     "例题/P2036.md",
+    "Excalidraw/Drawing 2026-08-17 23.03.22.excalidraw.md",
+    "Daily/2026-08-13.md",
     "God/P_2036_COCI_2008_2009_2_PERKET.cpp",
     "例题/P1036 [NOIP 2002 普及组] 选数.md",
     "写题/牛客/暑假多校/2/g.md",
@@ -299,8 +300,6 @@
     "算法名/高精度.md",
     "写题/Codeforces/div2/Educational Codeforces Round 193 (Rated for Div. 2)/c.md",
     "写题/Codeforces/div2/Educational Codeforces Round 193 (Rated for Div. 2)/b.md",
-    "写题/Codeforces/div2/1115/e.md",
-    "Daily/2026-08-08.md",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
     "image/Pasted image 20260707142236.png",
