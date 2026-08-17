@@ -1,0 +1,1 @@
+{"name":"Local: b","url":"c:\\Users\\17487\\Desktop\\GodNotes\\God\\写题\\abc\\abc471\\b.cpp","tests":[{"id":1786795633880,"input":"7\nARC\nabc\nahc\nABC\nbeginner\nAbC\nahc\n","output":"3\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\17487\\Desktop\\GodNotes\\God\\写题\\abc\\abc471\\b.cpp","group":"local","local":true}
