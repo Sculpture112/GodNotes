@@ -11,12 +11,14 @@
             "id": "14c0f7c6bf4a8f8e",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-08-18 14.19.30.excalidraw.md"
+                "file": "例题/三妖精say.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-08-18 14.19.30.excalidraw"
+              "icon": "lucide-file",
+              "title": "三妖精say"
             }
           }
         ]
@@ -208,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2026-08-18 14.19.30.excalidraw.md",
+                "file": "例题/三妖精say.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -239,6 +241,9 @@
   },
   "active": "14c0f7c6bf4a8f8e",
   "lastOpenFiles": [
+    "Daily/2026-08-18.md",
+    "例题/三妖精say.md",
+    "Excalidraw/Drawing 2026-08-18 14.19.30.excalidraw.md",
     "God/_u65e0_u7a77_u65e0_u5c3d_u7684_u529b_u91cf.bin",
     "God/小红拿石子.cpp",
     "God/小红有无穷无尽的小数.cpp",
@@ -249,11 +254,8 @@
     "God/_u4e09_u4e2a_u5996_u7cbe.bin",
     "God/小红有无穷无尽的数.cpp",
     "写题/Atcoder/abc471/d.md",
-    "Excalidraw/Drawing 2026-08-18 14.19.30.excalidraw.md",
     "God/无穷无尽的力量.cpp",
-    "God/三个妖精.cpp",
     "写题/Atcoder/abc471/c.md",
-    "Daily/2026-08-18.md",
     "算法名/BFS.md",
     "Excalidraw/Drawing 2026-08-17 23.03.22.excalidraw.md",
     "例题/P2036.md",
