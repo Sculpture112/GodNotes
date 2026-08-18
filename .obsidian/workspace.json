@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "写题/Atcoder/abc471/c.md",
+                "file": "写题/Atcoder/abc471/d.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "c"
+              "title": "d"
             }
           }
         ]
@@ -97,7 +97,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "写题/Atcoder/abc471/c.md",
+                "file": "写题/Atcoder/abc471/d.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -251,9 +251,10 @@
   },
   "active": "14c0f7c6bf4a8f8e",
   "lastOpenFiles": [
+    "写题/Atcoder/abc471/c.md",
+    "写题/Atcoder/abc471/d.md",
     "Daily/2026-08-18.md",
     "算法名/BFS.md",
-    "写题/Atcoder/abc471/c.md",
     "Excalidraw/Drawing 2026-08-17 23.03.22.excalidraw.md",
     "写题/Atcoder/abc471",
     "God/写题/cf/Codeforces Round 1117 (Div. 2)/b.bin",
@@ -287,7 +288,6 @@
     "例题/P1080 [NOIP 2012 提高组] 国王游戏.md",
     "Daily/2026-08-11.md",
     "算法名/高精度.md",
-    "写题/Codeforces/div2/Educational Codeforces Round 193 (Rated for Div. 2)/c.md",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
     "image/Pasted image 20260707142236.png",
