@@ -15,19 +15,23 @@ void solve()
     cin >> s;
     unordered_map<char, int> cnt;
     int size = 0;
-    for(char&c:s){
-        if(cnt[c]++ == 0){
+    for (char &c : s)
+    {
+        if (cnt[c]++ == 0)
+        {
             size++;
         }
     }
-    int ans = 1;
-    for(auto[_,count] : cnt){
-        if(count >1){
+    ll ans = 1;
+    for (auto [_, count] : cnt)
+    {
+        if (count > 1)
+        {
             ans *= count;
         }
     }
 
-    ans *= (size) * (size - 1);
+    ans *= (size) * (size - 1) * (size - 2);
     cout << ans % MOD;
 }
 int main()
