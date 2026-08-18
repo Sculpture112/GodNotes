@@ -35,7 +35,7 @@ void solve()
         return;
     }
     else if(size == 2){
-        cout << 3;
+        cout << ans;
         return;
     }
     ans *= (size) * (size - 1) * (size - 2);
