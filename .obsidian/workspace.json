@@ -11,12 +11,14 @@
             "id": "852807d7720d90df",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-08-17 23.03.22.excalidraw.md"
+                "file": "写题/Atcoder/abc471/c.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-08-17 23.03.22.excalidraw"
+              "icon": "lucide-file",
+              "title": "c"
             }
           },
           {
@@ -264,6 +266,8 @@
   "active": "852807d7720d90df",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-08-17 23.03.22.excalidraw.md",
+    "写题/Atcoder/abc471/c.md",
+    "写题/Atcoder/abc471",
     "God/写题/cf/Codeforces Round 1117 (Div. 2)/b.bin",
     "例题/P2036.md",
     "Daily/2026-08-13.md",
@@ -286,7 +290,6 @@
     "God/P_1443_马的遍历.cpp",
     "例题/P2392 kkksc03 考前临时抱佛脚.md",
     "算法名/搜索.md",
-    "God/P_2392_kkksc_03__u8003_u524d_u4e34_u65f6_u62b1_u4f5b_u811a.bin",
     "例题/P1219 [USACO1.5] 八皇后 Checker Challenge.md",
     "算法名/副对角线.md",
     "算法名/主对角线.md",
