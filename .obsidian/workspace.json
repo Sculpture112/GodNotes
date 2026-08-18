@@ -99,16 +99,6 @@
               "icon": "lucide-folder-closed",
               "title": "文件列表"
             }
-          },
-          {
-            "id": "b9a7b39ed3bb4977",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
           }
         ],
         "currentTab": 2
@@ -234,12 +224,22 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "写题/Codeforces/div2/Educational Codeforces Round 193 (Rated for Div. 2)/c.md",
+                "file": "写题/Atcoder/abc471/c.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
               "title": "出链"
+            }
+          },
+          {
+            "id": "7a929b7ed15ad051",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ],
@@ -247,8 +247,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 657.833251953125,
-    "collapsed": true
+    "width": 657.833251953125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -259,8 +258,7 @@
       "cmdr:重新加载 Obsidian（不保存当前编辑内容）": false,
       "templater-obsidian:Templater": false,
       "juggl:Juggl global graph": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "periodic-notes:Open today": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "852807d7720d90df",
