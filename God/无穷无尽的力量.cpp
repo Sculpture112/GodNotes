@@ -11,7 +11,7 @@ const ll LINF = 4e18;
 void solve() {
     int n, m;
     cin >> n >> m;
-    if(n>=3||m>=3){
+    if(n>=3&&m>=3){
         cout << n * m;
     }
     else if(n*m == 6){
