@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/小红有无穷无尽的树.md",
+                "file": "例题/小红有无穷无尽的小数.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "小红有无穷无尽的树"
+              "title": "小红有无穷无尽的小数"
             }
           }
         ]
@@ -242,6 +242,7 @@
   "active": "14c0f7c6bf4a8f8e",
   "lastOpenFiles": [
     "Daily/2026-08-18.md",
+    "例题/小红有无穷无尽的小数.md",
     "例题/小红有无穷无尽的树.md",
     "例题/小红拿石子2.0.md",
     "例题/小红有无穷无尽的数.md",
@@ -276,7 +277,6 @@
     "算法名/搜索.md",
     "例题/P1219 [USACO1.5] 八皇后 Checker Challenge.md",
     "算法名/副对角线.md",
-    "算法名/主对角线.md",
     "image/Pasted image 20260812165838.png",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
