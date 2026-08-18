@@ -5,25 +5,40 @@ using ll = long long;
 
 const int INF = 0x3f3f3f3f;
 const ll LINF = 4e18;
-
+const int MOD = 998244353;
 #define all(x) (x).begin(), (x).end()
-int C2(ll n){
-    return (n * (n - 1));
-}
-void solve() {
+void solve()
+{
     int n;
     cin >> n;
     string s;
     cin >> s;
-    cout << C2(n);
+    unordered_map<char, int> cnt;
+    int size = 0;
+    for(char&c:s){
+        if(cnt[c]++ == 0){
+            size++;
+        }
+    }
+    int ans = 1;
+    for(auto[_,count] : cnt){
+        if(count >1){
+            ans *= count;
+        }
+    }
+
+    ans *= (size) * (size - 1);
+    cout << ans;
 }
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     int T = 1;
     // cin >> T;
-    while (T--) solve();
+    while (T--)
+        solve();
 
     return 0;
 }
