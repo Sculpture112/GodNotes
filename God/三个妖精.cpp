@@ -28,7 +28,7 @@ void solve()
     }
 
     ans *= (size) * (size - 1);
-    cout << ans;
+    cout << ans % MOD;
 }
 int main()
 {
