@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/小红有无穷无尽的数.md",
+                "file": "Daily/2026-08-18.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "小红有无穷无尽的数"
+              "title": "2026-08-18"
             }
           }
         ]
@@ -235,13 +235,14 @@
       "cmdr:重新加载 Obsidian（不保存当前编辑内容）": false,
       "templater-obsidian:Templater": false,
       "juggl:Juggl global graph": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "14c0f7c6bf4a8f8e",
   "lastOpenFiles": [
-    "Daily/2026-08-18.md",
     "例题/小红有无穷无尽的数.md",
+    "Daily/2026-08-18.md",
     "Excalidraw/Drawing 2026-08-18 15.42.22.excalidraw.md",
     "例题/三妖精say.md",
     "Excalidraw/Drawing 2026-08-18 14.19.30.excalidraw.md",
