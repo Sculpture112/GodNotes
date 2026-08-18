@@ -14,7 +14,7 @@ void solve()
     string s;
     cin >> s;
     unordered_map<char, int> cnt;
-    int size = 0;
+    ll size = 0;
     for (char &c : s)
     {
         if (cnt[c]++ == 0)
