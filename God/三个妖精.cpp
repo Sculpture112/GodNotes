@@ -13,26 +13,11 @@ void solve()
     cin >> n;
     string s;
     cin >> s;
-    unordered_map<char, int> cnt;
-    ll size = 0;
-    for (char &c : s)
-    {
-        if (cnt[c]++ == 0)
-        {
-            size++;
-        }
-    }
-    ll ans = 1;
-    for (auto [_, count] : cnt)
-    {
-        if (count > 1)
-        {
-            ans *= count;
-        }
-    }
-    ans *= (size) * (size - 1) * (size - 2);
-    cout << ans % MOD;
+    ll ans = n * (n - 1) * (n - 2);
+    cout << ans;
 }
+
+
 int main()
 {
     ios::sync_with_stdio(false);
