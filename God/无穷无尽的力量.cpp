@@ -14,7 +14,7 @@ void solve() {
     if(n>=3&&m>=3){
         cout << n * m;
     }
-    else if(n*m == 6){
+    else if(n*m == 6 && n>=2){
         cout << 2;
     }
     else{
