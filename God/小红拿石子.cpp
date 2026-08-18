@@ -15,7 +15,7 @@ void solve() {
     for(int&x:a)
         cin >> x;
 
-    
+       
 }
 
 int main() {
