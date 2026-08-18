@@ -11,12 +11,14 @@
             "id": "14c0f7c6bf4a8f8e",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-08-18 15.42.22.excalidraw.md"
+                "file": "例题/小红有无穷无尽的数.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-08-18 15.42.22.excalidraw"
+              "icon": "lucide-file",
+              "title": "小红有无穷无尽的数"
             }
           }
         ]
@@ -208,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2026-08-18 15.42.22.excalidraw.md",
+                "file": "例题/小红有无穷无尽的数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -239,8 +241,9 @@
   },
   "active": "14c0f7c6bf4a8f8e",
   "lastOpenFiles": [
-    "例题/三妖精say.md",
     "Excalidraw/Drawing 2026-08-18 15.42.22.excalidraw.md",
+    "例题/小红有无穷无尽的数.md",
+    "例题/三妖精say.md",
     "Daily/2026-08-18.md",
     "Excalidraw/Drawing 2026-08-18 14.19.30.excalidraw.md",
     "God/_u65e0_u7a77_u65e0_u5c3d_u7684_u529b_u91cf.bin",
@@ -275,7 +278,6 @@
     "写题/牛客/暑假多校/2/导航.md",
     "算法名/优化枚举.md",
     "image/Pasted image 20260812165838.png",
-    "写题/Codeforces/div2/Educational Codeforces Round 193 (Rated for Div. 2)/d.md",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
     "image/Pasted image 20260707142236.png",
