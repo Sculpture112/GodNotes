@@ -2,7 +2,7 @@
 
 > **原题链接:** ()
 
-**涉及知识点:** [[贪心算法]], [[双指针]]，[[补题]],[[]],[[]]
+**涉及知识点:** [[贪心算法]], [[双指针]]，[[补题]],[[]],[[平衡树]]
 
 **核心套路:** 
 
@@ -83,4 +83,66 @@ int main() {
 
 ---
 
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
 
+using ll = long long;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int N;
+    cin >> N;
+
+    set<ll> cookies;
+
+    for (int i = 0; i < N; ++i) {
+        ll x;
+        cin >> x;
+        cookies.insert(x);
+    }
+
+    ll cur = 0;
+    ll answer = 0;
+
+    while (!cookies.empty()) {
+        // 第一个 >= cur 的剩余坐标
+        auto right = cookies.lower_bound(cur);
+
+        auto chosen = cookies.end();
+
+        if (right == cookies.begin()) {
+            // 左边没有剩余饼干，只能选择右边
+            chosen = right;
+        } else if (right == cookies.end()) {
+            // 右边没有剩余饼干，只能选择左边
+            chosen = prev(right);
+        } else {
+            // 左右两边都有饼干
+            auto left = prev(right);
+
+            ll leftDistance = llabs(cur - *left);
+            ll rightDistance = llabs(*right - cur);
+
+            // 距离相等时选择坐标更小的左侧点
+            if (leftDistance <= rightDistance) {
+                chosen = left;
+            } else {
+                chosen = right;
+            }
+        }
+
+        answer += llabs(cur - *chosen);
+        cur = *chosen;
+
+        // 捡起后从集合中删除
+        cookies.erase(chosen);
+    }
+
+    cout << answer << '\n';
+
+    return 0;
+}
+```

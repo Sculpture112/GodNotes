@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法名/BFS.md",
+                "file": "写题/Atcoder/abc471/c.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "BFS"
+              "title": "c"
             }
           }
         ]
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "算法名/BFS.md",
+                "file": "写题/Atcoder/abc471/c.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -252,6 +252,7 @@
   "active": "14c0f7c6bf4a8f8e",
   "lastOpenFiles": [
     "Daily/2026-08-18.md",
+    "算法名/BFS.md",
     "写题/Atcoder/abc471/c.md",
     "Excalidraw/Drawing 2026-08-17 23.03.22.excalidraw.md",
     "写题/Atcoder/abc471",
@@ -268,7 +269,6 @@
     "写题/牛客/暑假多校/2/b.md",
     "例题/P2895 [USACO08FEB] Meteor Shower S.md",
     "God/P_2895_USACO_08_FEB_Meteor_Shower_S.bin",
-    "算法名/BFS.md",
     "例题/P1135 奇怪的电梯.md",
     "God/P_2895_USACO_08_FEB_Meteor_Shower_S.cpp",
     "God/P_1135__u5947_u602a_u7684_u7535_u68af.bin",
