@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kpm/未命名 1.md",
+                "file": "kpm/路线.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名 1"
+              "title": "路线"
             }
           }
         ],
@@ -257,7 +257,7 @@
   "active": "67b4a43d58eaabdd",
   "lastOpenFiles": [
     "kpm/知识.md",
-    "kpm/未命名 1.md",
+    "kpm/路线.md",
     "kpm/项目类似.md",
     "kpm/未命名.md",
     "学校.md",
