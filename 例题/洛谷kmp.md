@@ -21,53 +21,62 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    string s1, s2;
-    cin >> s1 >> s2;
+    string text, pattern;
+    cin >> text >> pattern;
 
-    // 改成 1 下标，便于书写 KMP
-    s1 = " " + s1;
-    s2 = " " + s2;
+    // 改成 1 下标，便于使用 pattern[j + 1]
+    text = " " + text;
+    pattern = " " + pattern;
 
-    int n = static_cast<int>(s1.size()) - 1;
-    int m = static_cast<int>(s2.size()) - 1;
+    int n = static_cast<int>(text.size()) - 1;
+    int m = static_cast<int>(pattern.size()) - 1;
 
     vector<int> nxt(m + 1, 0);
 
-    // 构造模式串 s2 的 next 数组
+    // 计算模式串的 nxt 数组
     for (int i = 2, j = 0; i <= m; ++i) {
-        while (j > 0 && s2[i] != s2[j + 1]) {
+        // 当前候选无法接上 pattern[i]，回退到更短候选
+        while (j > 0 && pattern[i] != pattern[j + 1]) {
             j = nxt[j];
         }
 
-        if (s2[i] == s2[j + 1]) {
+        // 如果能接上，公共前后缀长度增加 1
+        if (pattern[i] == pattern[j + 1]) {
             ++j;
         }
 
         nxt[i] = j;
     }
 
-    // 在主串 s1 中匹配模式串 s2
+    // 使用 KMP 在主串中匹配模式串
     for (int i = 1, j = 0; i <= n; ++i) {
-        while (j > 0 && s1[i] != s2[j + 1]) {
+        // 主串当前位置不动，模式串匹配长度回退
+        while (j > 0 && text[i] != pattern[j + 1]) {
             j = nxt[j];
         }
 
-        if (s1[i] == s2[j + 1]) {
+        // 当前字符匹配成功
+        if (text[i] == pattern[j + 1]) {
             ++j;
         }
 
+        // 模式串完整匹配
         if (j == m) {
             cout << i - m + 1 << '\n';
 
-            // 继续寻找下一个匹配，也能处理重叠匹配
+            // 保留可能重叠的部分，继续匹配
             j = nxt[j];
         }
     }
 
-    // 输出 s2 每个前缀的最长 border 长度
+    // 输出每个前缀的最长 border 长度
     for (int i = 1; i <= m; ++i) {
-        cout << nxt[i] << (i == m ? '\n' : ' ');
+        if (i > 1) {
+            cout << ' ';
+        }
+        cout << nxt[i];
     }
+    cout << '\n';
 
     return 0;
 }
