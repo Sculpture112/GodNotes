@@ -12,10 +12,14 @@ void solve() {
     int n;
     cin >> n;
     map<string, int> map;
-    for (int i = 0,v; i < n; i++) {
+    int ans = 0;
+    for (int i = 0,string v; i < n; i++) {
         cin >> v;
-        map[v
+        if(map[v]++ == 0){
+            ans++;
+        }
     }
+    cout << ans;
 }
 
 int main() {
