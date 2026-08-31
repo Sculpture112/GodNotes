@@ -25,14 +25,12 @@
             "id": "67b4a43d58eaabdd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "学校.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2026-08-31 17.03.27.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "学校"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-08-31 17.03.27.excalidraw"
             }
           }
         ],
@@ -256,7 +254,14 @@
   },
   "active": "67b4a43d58eaabdd",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-08-06 22.50.18.excalidraw.md",
     "Excalidraw/Drawing 2026-08-31 17.03.27.excalidraw.md",
+    "Excalidraw/Drawing 2026-08-18 15.42.22.excalidraw.md",
+    "Excalidraw/Drawing 2026-08-07 22.38.34.excalidraw.md",
+    "Excalidraw/Drawing 2026-08-17 23.03.22.excalidraw.md",
+    "Excalidraw/2026-07-30 16.43.39.excalidraw.md",
+    "Excalidraw/Drawing 2026-08-18 14.19.30.excalidraw.md",
+    "学校.md",
     "例题/洛谷kmp.md",
     "算法名/KMP.md",
     "母题/100 Code01 KMP算法.md",
@@ -281,17 +286,10 @@
     "母题/101 Code03 二叉树中的链表.md",
     "母题/101 Code02 不停删除之后剩下的字符串.md",
     "母题/101 Code01 最短循环节的长度.md",
-    "学校.md",
     "Daily/2026-08-18.md",
     "文明6.md",
     "kpm/未命名 1.md",
     "kpm/README.md",
-    "kpm/路线.md",
-    "kpm/知识.md",
-    "kpm/项目类似.md",
-    "kpm/未命名.md",
-    "例题/小红有无穷无尽的小数.md",
-    "例题/小红有无穷无尽的树.md",
     "image/Pasted image 20260812165838.png",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
