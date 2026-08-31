@@ -9,7 +9,13 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
-
+    int n;
+    cin >> n;
+    map<string, int> map;
+    for (int i = 0,v; i < n; i++) {
+        cin >> v;
+        map[v
+    }
 }
 
 int main() {
