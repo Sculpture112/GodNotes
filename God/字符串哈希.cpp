@@ -13,9 +13,10 @@ void solve() {
     cin >> n;
     map<string, int> map;
     int ans = 0;
-    for (int i = 0,string v; i < n; i++) {
-        cin >> v;
-        if(map[v]++ == 0){
+    string s;
+    for (int i = 0; i < n; i++) {
+        cin >> s;
+        if(map[s]++ == 0){
             ans++;
         }
     }
