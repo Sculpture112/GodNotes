@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/未命名.md",
+                "file": "Daily/2026-09-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "2026-09-01"
             }
           }
         ]
@@ -241,8 +241,8 @@
   },
   "active": "14c0f7c6bf4a8f8e",
   "lastOpenFiles": [
+    "例题/P1481 魔族密码.md",
     "例题/洛谷前缀树.md",
-    "例题/未命名.md",
     "God/P_1481_魔族密码.cpp",
     "God/P_3879_TJOI_2010__u9605_u8bfb_u7406_u89e3.bin",
     "God/P_3879_TJOI_2010_阅读理解.cpp",
