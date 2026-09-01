@@ -87,28 +87,31 @@ void deleteWord(const string &word)
 
 void clearTrie()
 {
-    for (int i = 1; i <= cnt; i++) {
+    for (int i = 1; i <= cnt; i++)
+    {
         fill(tree[i], tree[i] + 26, 0);
         endcount[i] = 0;
         pass[i] = 0;
     }
 }
 
-void solve(){
+void solve()
+{
     int n, m;
     cin >> n >> m;
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
+    {
         string word;
         cin >> word;
         insertWord(word);
     }
-    for (int i = 0; i < m; i++) {
+    for (int i = 0; i < m; i++)
+    {
         string word;
         cin >> word;
-        cout<<prefixNumber(word)<<"\n";
+        cout << prefixNumber(word) << "\n";
     }
 }
-
 
 int main()
 {
@@ -117,7 +120,8 @@ int main()
 
     int t;
     cin >> t;
-    while(t--){
+    while (t--)
+    {
         solve();
     }
 
