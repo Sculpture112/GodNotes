@@ -22,31 +22,31 @@
             }
           },
           {
-            "id": "1196f70b2f2ad826",
+            "id": "2a8aea1758a93351",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法名/DFS.md",
+                "file": "算法名/BFS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DFS"
+              "title": "BFS"
             }
           },
           {
-            "id": "e0e8a253446714ee",
+            "id": "b429579ee63a80a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "母题/058 Code01 岛屿数量.md",
+                "file": "母题/062 Code01 地图分析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "058 Code01 岛屿数量"
+              "title": "062 Code01 地图分析"
             }
           }
         ],
@@ -220,7 +220,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "母题/058 Code01 岛屿数量.md",
+                "file": "母题/062 Code01 地图分析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,7 +252,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 282.83331298828125,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -267,10 +268,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e0e8a253446714ee",
+  "active": "b429579ee63a80a2",
   "lastOpenFiles": [
-    "算法名/DFS.md",
+    "算法名/BFS.md",
+    "母题/059 Code05 戳印序列.md",
     "例题/P5318 【深基18.例3】查找文献.md",
+    "算法名/DFS.md",
     "母题/058 Code01 岛屿数量.md",
     "Daily/2026-09-01.md",
     "God/P_5318_深基_18_例_3_查找文献.cpp",
@@ -303,8 +306,6 @@
     "Excalidraw/2026-07-30 16.43.39.excalidraw.md",
     "Excalidraw/Drawing 2026-08-18 14.19.30.excalidraw.md",
     "学校.md",
-    "算法名/KMP.md",
-    "母题/100 Code01 KMP算法.md",
     "image/Pasted image 20260812165838.png",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
