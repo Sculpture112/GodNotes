@@ -29,7 +29,10 @@ void solve() {
     st.push_back({1, 0});
 
     while(!st.empty()){
-        int 
+        int x = st.back().first;
+        int &idx = st.back().second;
+
+        while(idx<(int)grpah[x].size() && )
     }
 }
 
