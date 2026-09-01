@@ -8,25 +8,35 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+void solve()
+{
     int n;
     cin >> n;
-    vector<string> a(n);
-    for(string& s:a){
-        cin >> s;
+    vector<string> chain;
+    int ans = 0;
+    for (int i = 0; i < n; i++)
+    {
+        string word;
+        cin >> word;
+        while (!chain.empty() && word.compare(0, chain.back().size(), chain.back()) != 0)
+        {
+            chain.pop_back();
+        }
+        chain.push_back(word);
+        ans = max(ans, (int)chain.size());
     }
-
-    vector<int> dp(n + 1);
-    
+    cout << ans;
 }
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     int T = 1;
     // cin >> T;
-    while (T--) solve();
+    while (T--)
+        solve();
 
     return 0;
 }
