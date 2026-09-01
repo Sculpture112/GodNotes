@@ -241,6 +241,7 @@
   },
   "active": "14c0f7c6bf4a8f8e",
   "lastOpenFiles": [
+    "God/字典树.cpp",
     "God/P_3375__u6a21_u677f_KMP.bin",
     "God/P_3375_模板_KMP.cpp",
     "Daily/2026-08-18.md",
@@ -263,7 +264,6 @@
     "God/母题/101 Code04 找到所有好字符串.cpp",
     "God/母题/101 Code03 二叉树中的链表.cpp",
     "God/母题/101 Code02 不停删除之后剩下的字符串.cpp",
-    "God/母题/101 Code01 最短循环节的长度.cpp",
     "母题/103 Code03 将单词恢复初始状态所需的最短时间II.md",
     "母题/103 Code02 扩展KMP模版.md",
     "母题/103 Code01 Manacher算法.md",
