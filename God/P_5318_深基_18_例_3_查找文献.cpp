@@ -53,10 +53,8 @@ void solve()
             st.push_back({v, 0});
         }
     }
-
-    for (int i = 0; i < n; i++) {
-        cout << dfsorder[i] << " ";
-    }
+    for (int x : dfsorder)
+        cout << x << " ";
     cout << "\n";
 
     fill(visited.begin(), visited.end(), false);
@@ -64,18 +62,22 @@ void solve()
     queue<int> q;
     q.push(1);
     visited[1] = true;
-    while(!q.empty()){
+    while (!q.empty())
+    {
         int u = q.back();
         q.pop();
         bfsorder.push_back(1);
-        for(int v:graph[u]){
-            if(!visited[v]){
+        for (int v : graph[u])
+        {
+            if (!visited[v])
+            {
                 q.push(v);
                 visited[v] = true;
             }
         }
     }
-    for(int x:bfsorder){
+    for (int x : bfsorder)
+    {
         cout << x << " ";
     }
 }
