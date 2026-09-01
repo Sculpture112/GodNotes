@@ -9,7 +9,18 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
+    int n, m;
+    cin >> n >> m;
 
+    vector<vector<int>> graph(n + 1);
+    for (int i = 0; i < m; i++) {
+        int u, v;
+        cin >> u >> v;
+        graph[u].push_back(v);
+    }
+    for (int i = 1; i <= n; i++) {
+        sort(graph[i].begin(), graph[i].end());
+    }
 }
 
 int main() {
