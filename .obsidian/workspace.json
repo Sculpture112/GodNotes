@@ -235,11 +235,13 @@
       "cmdr:重新加载 Obsidian（不保存当前编辑内容）": false,
       "templater-obsidian:Templater": false,
       "juggl:Juggl global graph": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "14c0f7c6bf4a8f8e",
   "lastOpenFiles": [
+    "God/P_3375_模板_KMP.cpp",
     "Daily/2026-08-18.md",
     "Excalidraw/Drawing 2026-08-31 17.03.27.excalidraw.md",
     "Excalidraw/Drawing 2026-08-18 15.42.22.excalidraw.md",
@@ -275,7 +277,6 @@
     "母题/101 Code01 最短循环节的长度.md",
     "文明6.md",
     "kpm/未命名 1.md",
-    "kpm/README.md",
     "image/Pasted image 20260812165838.png",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
