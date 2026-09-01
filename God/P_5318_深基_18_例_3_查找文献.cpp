@@ -59,7 +59,25 @@ void solve()
     }
     cout << "\n";
 
-    
+    fill(visited.begin(), visited.end(), false);
+    vector<int> bfsorder;
+    queue<int> q;
+    q.push(1);
+    visited[1] = true;
+    while(!q.empty()){
+        int u = q.back();
+        q.pop();
+        bfsorder.push_back(1);
+        for(int v:graph[u]){
+            if(!visited[v]){
+                q.push(v);
+                visited[v] = true;
+            }
+        }
+    }
+    for(int x:bfsorder){
+        cout << x << " ";
+    }
 }
 
 int main()
