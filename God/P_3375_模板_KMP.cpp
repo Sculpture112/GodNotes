@@ -47,9 +47,17 @@ void solve()
         }
 
         if(j ==m){
-            cout<<
+            cout << i - m + 1 << "\n";
+
+            j = nxt[j];
         }
     }
+
+    cout << nxt[1];
+    for (int i = 2; i <= m; i++) {
+        cout << " " << nxt[i];
+    }
+
 }
 
 int main()
