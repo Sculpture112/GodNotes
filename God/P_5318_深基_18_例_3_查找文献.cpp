@@ -21,6 +21,11 @@ void solve() {
     for (int i = 1; i <= n; i++) {
         sort(graph[i].begin(), graph[i].end());
     }
+
+    vector<bool> viisted(n + 1, false);
+    vector<int> dfsorder(n);
+    vector<pair<int, int>> st;
+    
 }
 
 int main() {
