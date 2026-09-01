@@ -26,11 +26,11 @@ void solve()
     }
 
     vector<bool> visited(n + 1, false);
-    vector<int> dfsorder(n);
+    vector<int> dfsorder;
     vector<pair<int, int>> st;
     visited[1] = true;
     st.push_back({1, 0});
-
+    dfsorder.push_back(1);
     while (!st.empty())
     {
         int x = st.back().first;
@@ -64,9 +64,9 @@ void solve()
     visited[1] = true;
     while (!q.empty())
     {
-        int u = q.back();
+        int u = q.front();
         q.pop();
-        bfsorder.push_back(1);
+        bfsorder.push_back(u);
         for (int v : graph[u])
         {
             if (!visited[v])
