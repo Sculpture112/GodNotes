@@ -22,10 +22,15 @@ void solve() {
         sort(graph[i].begin(), graph[i].end());
     }
 
-    vector<bool> viisted(n + 1, false);
+    vector<bool> visited(n + 1, false);
     vector<int> dfsorder(n);
     vector<pair<int, int>> st;
-    
+    visited[1] = true;
+    st.push_back({1, 0});
+
+    while(!st.empty()){
+        int 
+    }
 }
 
 int main() {
