@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/P3916 图的遍历.md",
+                "file": "Daily/2026-09-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "P3916 图的遍历"
+              "title": "2026-09-01"
             }
           }
         ]
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/P3916 图的遍历.md",
+                "file": "Daily/2026-09-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,8 +241,9 @@
   },
   "active": "14c0f7c6bf4a8f8e",
   "lastOpenFiles": [
-    "例题/P5318 【深基18.例3】查找文献.md",
     "例题/P3916 图的遍历.md",
+    "God/P_3916__u56fe_u7684_u904d_u5386.bin",
+    "例题/P5318 【深基18.例3】查找文献.md",
     "God/P_3916_图的遍历.cpp",
     "God/P_5318__u6df1_u57fa_18__u4f8b_3__u67e5_u627e_u6587_u732e.bin",
     "Daily/2026-09-01.md",
@@ -260,7 +261,6 @@
     "God/P_1481__u9b54_u65cf_u5bc6_u7801.bin",
     "例题/洛谷前缀树.md",
     "God/P_3879_TJOI_2010__u9605_u8bfb_u7406_u89e3.bin",
-    "God/P_3879_TJOI_2010_阅读理解.cpp",
     "算法名/前缀树.md",
     "母题/044 Code02 用固定数组实现前缀树.md",
     "母题/044 Code01 用类描述实现前缀树.md",
@@ -276,7 +276,6 @@
     "Excalidraw/Drawing 2026-08-06 22.50.18.excalidraw.md",
     "Excalidraw/Drawing 2026-08-07 22.38.34.excalidraw.md",
     "Excalidraw/Drawing 2026-08-17 23.03.22.excalidraw.md",
-    "Excalidraw/2026-07-30 16.43.39.excalidraw.md",
     "image/Pasted image 20260812165838.png",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
