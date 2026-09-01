@@ -39,7 +39,7 @@ int searchtree(const string &word)
         path = word[i] - 'a';
         if (tree[cur][path] == 0)
         {
-            return 0;
+            return ans;
         }
         cur = tree[cur][path];
         ans += endcount[cur];
