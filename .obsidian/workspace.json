@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-09-01.md",
+                "file": "母题/058 Code01 岛屿数量.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-01"
+              "title": "058 Code01 岛屿数量"
             }
           }
         ]
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "母题/083 Code01 规划兼职工作.md",
+                "file": "母题/058 Code01 岛屿数量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +201,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "083 Code01 规划兼职工作 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -219,12 +219,11 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 657.833251953125,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,15 +238,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "14c0f7c6bf4a8f8e",
+  "active": "d3fad05e062f0285",
   "lastOpenFiles": [
+    "算法名/DFS.md",
+    "Daily/2026-09-01.md",
+    "God/P_5318_深基_18_例_3_查找文献.cpp",
     "God/P_10470__u524d_u7f00_u7edf_u8ba1.bin",
     "例题/P1481 魔族密码.md",
     "God/P_10470_前缀统计.cpp",
     "God/P_1481_魔族密码.cpp",
     "God/P_1481_魔族密码(1.cpp",
     "God/P_1481__u9b54_u65cf_u5bc6_u7801.bin",
-    "Daily/2026-09-01.md",
     "例题/洛谷前缀树.md",
     "God/P_3879_TJOI_2010__u9605_u8bfb_u7406_u89e3.bin",
     "God/P_3879_TJOI_2010_阅读理解.cpp",
@@ -262,8 +263,6 @@
     "母题/045 Code03 在二维字符数组中搜索可能的单词.md",
     "母题/045 Code02 数组中两个数的最大异或值.md",
     "母题/045 Code01 牛牛和他的朋友们.md",
-    "God/字典树.cpp",
-    "God/P_3375__u6a21_u677f_KMP.bin",
     "Daily/2026-08-18.md",
     "Excalidraw/Drawing 2026-08-31 17.03.27.excalidraw.md",
     "Excalidraw/Drawing 2026-08-18 15.42.22.excalidraw.md",
