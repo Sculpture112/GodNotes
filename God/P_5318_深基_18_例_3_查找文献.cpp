@@ -38,6 +38,11 @@ void solve() {
         }
         if(idx == graph[x].size()){
             st.pop_back();
+        }else{
+            int v = graph[x][idx];
+            visited[graph[x][idx]] = true;
+            idx++;
+            
         }
     }
 }
