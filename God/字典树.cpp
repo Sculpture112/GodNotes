@@ -77,8 +77,7 @@ int prefixNumber(const string &pre)
     return pass[cur];
 }
 
-void deleteWord(const string &word)
-{
+void deleteWord(const string &word) {
     if (searchWord(word) > 0)
     {
         int cur = 1;
@@ -87,7 +86,7 @@ void deleteWord(const string &word)
         {
             path = getpath(word[i]);
 
-            if (--tree[cur][path] == 0)
+            if (--pass[tree[cur][path]] == 0)
             {
                 return;
             }
@@ -102,7 +101,7 @@ void clearTrie()
 {
     for (int i = 1; i <= cnt; i++)
     {
-        fill(tree[i], tree[i] + 26, 0);
+        fill(tree[i], tree[i] + 62, 0);
         endcount[i] = 0;
         pass[i] = 0;
     }
@@ -112,8 +111,8 @@ void solve()
 {
     int n, m;
     cin >> n >> m;
-    build();
     clearTrie();
+    build();
     for (int i = 0; i < n; i++)
     {
         string word;
