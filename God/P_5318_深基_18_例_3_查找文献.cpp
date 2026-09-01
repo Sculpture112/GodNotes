@@ -53,6 +53,8 @@ void solve()
             st.push_back({v, 0});
         }
     }
+
+    
 }
 
 int main()
