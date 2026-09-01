@@ -87,7 +87,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -241,6 +241,8 @@
   },
   "active": "14c0f7c6bf4a8f8e",
   "lastOpenFiles": [
+    "Daily/2026-09-01.md",
+    "例题/洛谷kmp.md",
     "God/字典树.cpp",
     "God/P_3375__u6a21_u677f_KMP.bin",
     "God/P_3375_模板_KMP.cpp",
@@ -253,7 +255,6 @@
     "Excalidraw/2026-07-30 16.43.39.excalidraw.md",
     "Excalidraw/Drawing 2026-08-18 14.19.30.excalidraw.md",
     "学校.md",
-    "例题/洛谷kmp.md",
     "算法名/KMP.md",
     "母题/100 Code01 KMP算法.md",
     "God/母题/103 Code03 将单词恢复初始状态所需的最短时间II.cpp",
@@ -263,7 +264,6 @@
     "God/母题/102 Code01 AC自动机模版.cpp",
     "God/母题/101 Code04 找到所有好字符串.cpp",
     "God/母题/101 Code03 二叉树中的链表.cpp",
-    "God/母题/101 Code02 不停删除之后剩下的字符串.cpp",
     "母题/103 Code03 将单词恢复初始状态所需的最短时间II.md",
     "母题/103 Code02 扩展KMP模版.md",
     "母题/103 Code01 Manacher算法.md",
