@@ -32,7 +32,7 @@ void solve() {
         int x = st.back().first;
         int &idx = st.back().second;
 
-        while(idx<(int)grpah[x].size() && )
+        while(idx<(int)graph[x].size() && visited[idx])
     }
 }
 
