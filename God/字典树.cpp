@@ -8,7 +8,7 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 const int MAXN = 3e6 + 5;
-int tree[MAXN][26];
+int tree[MAXN][62];
 int endcount[MAXN];
 int pass[MAXN];
 int cnt;
@@ -17,13 +17,22 @@ void build()
 {
     cnt = 1;
 }
+int getpath(char a)
+{
+    if (a <= 'z' && a >= 'a')
+        return a - 'a';
+    else if (a <= 'Z' && a >= 'A')
+        return a - 'A' + 26;
+
+    return a - '0' + 52;
+}
 void insertWord(const string &word)
 {
     int cur = 1;
     pass[cur]++;
     for (int i = 0, path; i < word.size(); i++)
     {
-        path = word[i] - 'a';
+        path = getpath(word[i]);
         if (tree[cur][path] == 0)
         {
             tree[cur][path] = ++cnt;
@@ -40,7 +49,9 @@ int searchWord(const string &word)
     int cur = 1;
     for (int i = 0, path; i < word.size(); i++)
     {
-        path = word[i] - 'a';
+
+        path = getpath(word[i]);
+
         if (tree[cur][path] == 0)
         {
             return 0;
@@ -55,7 +66,8 @@ int prefixNumber(const string &pre)
     int cur = 1;
     for (int i = 0, path; i < pre.size(); i++)
     {
-        path = pre[i] - 'a';
+        path = getpath(pre[i]);
+
         if (tree[cur][path] == 0)
         {
             return 0;
@@ -73,7 +85,8 @@ void deleteWord(const string &word)
         pass[cur]--;
         for (int i = 0, path; i < word.size(); i++)
         {
-            path = word[i] - 'a';
+            path = getpath(word[i]);
+
             if (--tree[cur][path] == 0)
             {
                 return;
