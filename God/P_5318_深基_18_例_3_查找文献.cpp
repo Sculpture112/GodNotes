@@ -32,7 +32,13 @@ void solve() {
         int x = st.back().first;
         int &idx = st.back().second;
 
-        while(idx<(int)graph[x].size() && visited[idx])
+        while(idx<(int)graph[x].size() && visited[graph[x][idx]])
+        {
+            idx++;
+        }
+        if(idx == graph[x].size()){
+            st.pop_back();
+        }
     }
 }
 
