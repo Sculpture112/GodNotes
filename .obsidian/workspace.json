@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-09-02.md",
+                "file": "例题/P1127 词链.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-02"
+              "title": "P1127 词链"
             }
           }
         ]
@@ -241,9 +241,11 @@
   },
   "active": "21a217d8adbae8f9",
   "lastOpenFiles": [
+    "算法名/欧拉回路.md",
+    "例题/P1127 词链.md",
+    "Daily/2026-09-02.md",
     "例题/P2853 [USACO06DEC] Cow Picnic S.md",
     "God/P_2853_USACO_06_DEC_Cow_Picnic_S.bin",
-    "Daily/2026-09-02.md",
     "例题/P1807 最长路.md",
     "God/P_1807__u6700_u957f_u8def.bin",
     "Daily/2026-09-01.md",
@@ -275,7 +277,6 @@
     "母题/045 Code03 在二维字符数组中搜索可能的单词.md",
     "母题/045 Code02 数组中两个数的最大异或值.md",
     "母题/045 Code01 牛牛和他的朋友们.md",
-    "Daily/2026-08-18.md",
     "image/Pasted image 20260812165838.png",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
