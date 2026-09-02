@@ -34,6 +34,20 @@
               "icon": "lucide-file",
               "title": "P1807 最长路"
             }
+          },
+          {
+            "id": "b704f9a687a857bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "母题/059 Code02 课程表II.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "059 Code02 课程表II"
+            }
           }
         ],
         "currentTab": 1
@@ -55,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "最短路",
+                "query": "拓扑",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,8 +115,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -256,8 +269,9 @@
   },
   "active": "c4bb20423bab273a",
   "lastOpenFiles": [
-    "母题/065 Code03 Bellman-Ford算法应用（不是模版）.md",
+    "母题/059 Code02 课程表II.md",
     "例题/P1807 最长路.md",
+    "母题/065 Code03 Bellman-Ford算法应用（不是模版）.md",
     "Daily/2026-09-01.md",
     "例题/P3916 图的遍历.md",
     "God/P_3916__u56fe_u7684_u904d_u5386.bin",
@@ -291,7 +305,6 @@
     "Excalidraw/Drawing 2026-08-31 17.03.27.excalidraw.md",
     "Excalidraw/Drawing 2026-08-18 15.42.22.excalidraw.md",
     "Excalidraw/Drawing 2026-08-06 22.50.18.excalidraw.md",
-    "Excalidraw/Drawing 2026-08-07 22.38.34.excalidraw.md",
     "image/Pasted image 20260812165838.png",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
