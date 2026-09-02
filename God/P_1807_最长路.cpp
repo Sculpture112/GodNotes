@@ -18,17 +18,22 @@ void solve()
         cin >> u >> v >> w;
         graph[u].push_back({v, w});
     }
-    vector<int> dp(n + 1, 0);
-
+    vector<int> dp(n + 1, INT_MIN);
+    dp[1] = 0;
     for (int u = 1; u <= n; u++)
     {
-        if(dp[u] == 0)continue;
+        if(dp[u] == INT_MIN)continue;
         for(auto[v,w]:graph[u]){
             dp[v] = max(dp[v], dp[u] + 1);
         }
     }
 
-    
+    if(dp[n] == INT_MIN){
+        cout << -1 << "\n";
+    }
+    else{
+        cout << dp[n];
+    }
 }
 
 int main()
