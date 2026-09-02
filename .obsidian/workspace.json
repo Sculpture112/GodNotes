@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -264,12 +264,15 @@
       "cmdr:重新加载 Obsidian（不保存当前编辑内容）": false,
       "templater-obsidian:Templater": false,
       "juggl:Juggl global graph": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "5d6a6f8fe65ff68d",
+  "active": "9f05b95ff05bd25f",
   "lastOpenFiles": [
+    "备赛/提示词.md",
     "母题/188 Code01 有向图的欧拉路径2.md",
+    "备赛/备赛.md",
     "例题/P1127 词链.md",
     "母题/188 Code04 词链2.md",
     "Daily/2026-09-02.md",
@@ -293,8 +296,6 @@
     "母题/188 Code05 无序字母对2.md",
     "母题/188 Code05 无序字母对1.md",
     "母题/188 Code04 词链1.md",
-    "母题/188 Code03 合法排列数对2.md",
-    "母题/188 Code02 无向图的欧拉路径2.md",
     "God/P_2853_USACO_06_DEC_Cow_Picnic_S.bin",
     "God/P_1807__u6700_u957f_u8def.bin",
     "God/P_3916__u56fe_u7684_u904d_u5386.bin",
