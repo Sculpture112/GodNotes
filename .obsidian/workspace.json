@@ -27,30 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/P1127 词链.md",
+                "file": "例题/P1363 幻象迷宫.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "P1127 词链"
-            }
-          },
-          {
-            "id": "9f05b95ff05bd25f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "母题/188 Code01 有向图的欧拉路径2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "188 Code01 有向图的欧拉路径2"
+              "title": "P1363 幻象迷宫"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -268,12 +254,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9f05b95ff05bd25f",
+  "active": "5d6a6f8fe65ff68d",
   "lastOpenFiles": [
-    "备赛/提示词.md",
-    "母题/188 Code01 有向图的欧拉路径2.md",
-    "备赛/备赛.md",
+    "算法名/位移检测.md",
+    "例题/P1363 幻象迷宫.md",
+    "算法名/周期网格.md",
     "例题/P1127 词链.md",
+    "母题/188 Code01 有向图的欧拉路径2.md",
+    "备赛/提示词.md",
+    "备赛/备赛.md",
     "母题/188 Code04 词链2.md",
     "Daily/2026-09-02.md",
     "母题/188 Code01 有向图的欧拉路径1.md",
@@ -293,9 +282,6 @@
     "母题/188 Code07 所有可能的密码串1.md",
     "母题/188 Code06 破解保险箱2.md",
     "母题/188 Code06 破解保险箱1.md",
-    "母题/188 Code05 无序字母对2.md",
-    "母题/188 Code05 无序字母对1.md",
-    "母题/188 Code04 词链1.md",
     "God/P_2853_USACO_06_DEC_Cow_Picnic_S.bin",
     "God/P_1807__u6700_u957f_u8def.bin",
     "God/P_3916__u56fe_u7684_u904d_u5386.bin",
