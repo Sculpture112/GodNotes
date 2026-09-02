@@ -86,8 +86,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -239,7 +238,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "14c0f7c6bf4a8f8e",
+  "active": "47b137b2f0765088",
   "lastOpenFiles": [
     "例题/P3916 图的遍历.md",
     "God/P_3916__u56fe_u7684_u904d_u5386.bin",
