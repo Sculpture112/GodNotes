@@ -24,7 +24,7 @@ void solve()
     {
         if(dp[u] == INT_MIN)continue;
         for(auto[v,w]:graph[u]){
-            dp[v] = max(dp[v], dp[u] + 1);
+            dp[v] = max(dp[v], dp[u] + w);
         }
     }
 
