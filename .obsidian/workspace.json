@@ -264,15 +264,14 @@
       "cmdr:重新加载 Obsidian（不保存当前编辑内容）": false,
       "templater-obsidian:Templater": false,
       "juggl:Juggl global graph": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "periodic-notes:Open today": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "5d6a6f8fe65ff68d",
   "lastOpenFiles": [
-    "母题/188 Code04 词链2.md",
     "母题/188 Code01 有向图的欧拉路径2.md",
     "例题/P1127 词链.md",
+    "母题/188 Code04 词链2.md",
     "Daily/2026-09-02.md",
     "母题/188 Code01 有向图的欧拉路径1.md",
     "母题/188 Code03 合法排列数对1.md",
