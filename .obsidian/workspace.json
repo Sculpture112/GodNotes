@@ -8,49 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "14c0f7c6bf4a8f8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily/2026-09-01.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-09-01"
-            }
-          },
-          {
             "id": "29d9dc9942aa5b59",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/P1807 最长路.md",
+                "file": "例题/P2853 [USACO06DEC] Cow Picnic S.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "P1807 最长路"
-            }
-          },
-          {
-            "id": "b704f9a687a857bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "母题/059 Code02 课程表II.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "059 Code02 课程表II"
+              "title": "P2853 [USACO06DEC] Cow Picnic S"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "拓扑",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +86,8 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -269,10 +241,12 @@
   },
   "active": "29d9dc9942aa5b59",
   "lastOpenFiles": [
+    "Daily/2026-09-02.md",
+    "例题/P2853 [USACO06DEC] Cow Picnic S.md",
+    "例题/P1807 最长路.md",
     "God/P_1807__u6700_u957f_u8def.bin",
     "Daily/2026-09-01.md",
     "母题/059 Code02 课程表II.md",
-    "例题/P1807 最长路.md",
     "母题/065 Code03 Bellman-Ford算法应用（不是模版）.md",
     "例题/P3916 图的遍历.md",
     "God/P_3916__u56fe_u7684_u904d_u5386.bin",
@@ -292,7 +266,6 @@
     "God/P_1481_魔族密码(1.cpp",
     "God/P_1481__u9b54_u65cf_u5bc6_u7801.bin",
     "例题/洛谷前缀树.md",
-    "God/P_3879_TJOI_2010__u9605_u8bfb_u7406_u89e3.bin",
     "算法名/前缀树.md",
     "母题/044 Code02 用固定数组实现前缀树.md",
     "母题/044 Code01 用类描述实现前缀树.md",
@@ -304,7 +277,6 @@
     "母题/045 Code01 牛牛和他的朋友们.md",
     "Daily/2026-08-18.md",
     "Excalidraw/Drawing 2026-08-31 17.03.27.excalidraw.md",
-    "Excalidraw/Drawing 2026-08-18 15.42.22.excalidraw.md",
     "image/Pasted image 20260812165838.png",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
