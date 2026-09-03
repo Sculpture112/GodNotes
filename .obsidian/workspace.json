@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -282,12 +282,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bb9914fdf5b6556c",
+  "active": "2f1c63290f736103",
   "lastOpenFiles": [
+    "杂物/状态.md",
     "备赛/备赛.md",
     "template/templatec++.md",
     "例题/P1983 [NOIP 2013 普及组] 车站分级.md",
-    "杂物/状态.md",
     "例题/P1347 [ECNA 2001] 排序.md",
     "未命名 3.md",
     "template/templatem.md",
