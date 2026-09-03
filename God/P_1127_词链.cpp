@@ -126,7 +126,7 @@ int directedStart()
 void euler(int u,const string& word){
     for (int e = cur[u]; e != 0;e = cur[u]){
         cur[u] = nxt[e];
-        euler()
+        euler(to[e], weight[e]);
     }
 }
 int main()
