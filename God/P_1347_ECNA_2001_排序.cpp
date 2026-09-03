@@ -8,49 +8,58 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-int topo(int n,bool graph[26][26],string& order){
-    int indegree[26]={};
+int topo(int n, bool graph[26][26], string &order)
+{
+    int indegree[26] = {};
 
-    for (int i = 0; i < n;i++){
-        for (int j = 0; j < n;j++){
-            if(graph[i][j])
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            if (graph[i][j])
                 indegree[j]++;
         }
     }
 
-    bool used[26];
+    bool used[26] = {};
     order.clear();
     bool unique = true;
 
-    for (int step = 0; step < n;step++){
+    for (int step = 0; step < n; step++)
+    {
         vector<int> zero;
 
-        for (int i = 0; i < n;i++){
-            if(!used[i] && indegree[i] == 0){
+        for (int i = 0; i < n; i++)
+        {
+            if (!used[i] && indegree[i] == 0)
+            {
                 zero.push_back(i);
             }
         }
 
-        if(zero.empty()){
+        if (zero.empty())
+        {
             return -1;
         }
 
-        if(zero.size()>1){
+        if (zero.size() > 1)
+        {
             unique = false;
-            return 0;
         }
 
         int u = zero[0];
         used[u] = true;
         order.push_back('A' + u);
 
-        for (int v = 0; v < n;v++){
-            if(graph[u][v]){
+        for (int v = 0; v < n; v++)
+        {
+            if (graph[u][v])
+            {
                 indegree[v]--;
             }
         }
     }
-    return 1;
+    return unique ? 1 : 0;
 }
 int main()
 {
@@ -60,7 +69,7 @@ int main()
     int n, m;
     cin >> n >> m;
 
-    bool graph[26][26];
+    bool graph[26][26] = {};
 
     for (int relation = 1; relation <= m; relation++)
     {
@@ -69,11 +78,11 @@ int main()
         int u = s[0] - 'A';
         int v = s[2] - 'A';
 
-        if(!graph[u][v])
+        if (graph[u][v])
         {
-            graph[u][v] = true;
             continue;
         }
+        graph[u][v] = true;
 
         string order;
         int result = topo(n, graph, order);
