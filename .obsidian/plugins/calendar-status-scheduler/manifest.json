@@ -1,0 +1,9 @@
+{
+  "id": "calendar-status-scheduler",
+  "name": "日历状态排程器",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "将当前笔记加入指定天数后的日记，并把自定义 [[状态]] 回写为新的状态。",
+  "author": "Codex",
+  "isDesktopOnly": false
+}
