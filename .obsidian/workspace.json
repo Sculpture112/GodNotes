@@ -35,8 +35,7 @@
               "title": "P1363 幻象迷宫"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -250,14 +249,13 @@
       "cmdr:重新加载 Obsidian（不保存当前编辑内容）": false,
       "templater-obsidian:Templater": false,
       "juggl:Juggl global graph": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "periodic-notes:Open today": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5d6a6f8fe65ff68d",
+  "active": "21a217d8adbae8f9",
   "lastOpenFiles": [
-    "算法名/位移检测.md",
     "例题/P1363 幻象迷宫.md",
+    "算法名/位移检测.md",
     "算法名/周期网格.md",
     "例题/P1127 词链.md",
     "母题/188 Code01 有向图的欧拉路径2.md",
