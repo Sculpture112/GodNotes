@@ -35,8 +35,7 @@
               "title": "P1347 [ECNA 2001] 排序"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -254,11 +253,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5d6a6f8fe65ff68d",
+  "active": "04a573e427517a9b",
   "lastOpenFiles": [
+    "例题/P1347 [ECNA 2001] 排序.md",
     "God/P_1347_ECNA_2001__u6392_u5e8f.bin",
     "例题/P1363 幻象迷宫.md",
-    "例题/P1347 [ECNA 2001] 排序.md",
     "God/P_1363__u5e7b_u8c61_u8ff7_u5bab.bin",
     "Daily/2026-09-03.md",
     "例题/P1127 词链.md",
@@ -291,7 +290,6 @@
     "God/P_5318__u6df1_u57fa_18__u4f8b_3__u67e5_u627e_u6587_u732e.bin",
     "God/P_5318_深基_18_例_3_查找文献.cpp",
     "God/P_10470__u524d_u7f00_u7edf_u8ba1.bin",
-    "God/P_10470_前缀统计.cpp",
     "image/Pasted image 20260812165838.png",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
