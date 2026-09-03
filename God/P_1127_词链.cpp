@@ -128,6 +128,7 @@ void euler(int u,const string& word){
         cur[u] = nxt[e];
         euler(to[e], weight[e]);
     }
+    path[++cntp] = word;
 }
 int main()
 {
@@ -153,5 +154,16 @@ int main()
         cout << "***\n";
     }
 
-    return 0;
+    euler(start,"");
+
+    if(cntp != m+1){//cntp是顶点的数量统计,m条边(实际上就是字符串) 对应这 m+1个顶点
+        cout << "***\n";
+    }
+
+    cout << path[cntp - 1];
+    for (int i = cntp - 2; i >= 1;i--){
+        cout << '.' << path[i];
+    }
+
+        return 0;
 }
