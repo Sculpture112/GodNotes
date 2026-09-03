@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-09-03.md",
+                "file": "例题/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-03"
+              "title": "未命名"
             }
           },
           {
@@ -255,11 +255,12 @@
   },
   "active": "04a573e427517a9b",
   "lastOpenFiles": [
+    "Daily/2026-09-03.md",
+    "例题/未命名.md",
     "例题/P1347 [ECNA 2001] 排序.md",
     "God/P_1347_ECNA_2001__u6392_u5e8f.bin",
     "例题/P1363 幻象迷宫.md",
     "God/P_1363__u5e7b_u8c61_u8ff7_u5bab.bin",
-    "Daily/2026-09-03.md",
     "例题/P1127 词链.md",
     "God/P_1127__u8bcd_u94fe.bin",
     "算法名/离散化.md",
