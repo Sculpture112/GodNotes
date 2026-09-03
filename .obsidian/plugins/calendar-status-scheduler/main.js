@@ -4,7 +4,7 @@ const DEFAULT_SETTINGS = {
   dailyFolder: "",
   dateFormat: "",
   templatePath: "",
-  insertionHeading: "",
+  insertionHeading: "## 今天做了啥",
   statusFrom: "[[0-5]]",
   taskPrefix: "- [ ]",
   includeDueDate: true,
