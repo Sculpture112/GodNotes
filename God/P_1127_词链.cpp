@@ -7,18 +7,90 @@ const int INF = 0x3f3f3f3f;
 const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
+const int MAXN = 27;
+const int MAXM = 1005;
 
-void solve() {
+int n = 26, m;
 
+string str[MAXM];
+int a[MAXM], b[MAXM];
+int eidArr[MAXM];
+
+int head[MAXN];
+int nxt[MAXM];
+int to[MAXM];
+string weight[MAXM];
+int cntg;
+
+int cur[MAXN];
+int inDeg[MAXN], outDeg[MAXN];
+
+string path[MAXM];
+int cntp;
+
+int startnode(string s)
+{
+    return s[0] - 'a' + 1;
 }
 
-int main() {
+int endnode(string s)
+{
+    return s[s.size() - 1] - 'a' + 1;
+}
+bool edgecmp(int i, int j)
+{
+    if (a[i] != a[j])
+    {
+        return a[i] < a[j];
+    }
+    return str[i] < str[j];
+}
+void addedge(int u,int v,string word){
+    nxt[++cntg] = head[u];
+    head[u] = cntg;
+    to[cntg] = v;
+    weight[cntg] = word;
+}
+void connect()
+{
+    sort(eidArr + 1, eidArr + m + 1, edgecmp);
+
+    for (int l = 1, r = 1; r <= m;l = ++r){
+        while (r + 1 <= m && a[eidArr[r + 1]] == a[eidArr[l]]){
+            r++;
+        }
+
+        for (int i = r; i >= l;i--){ // 这里的遍历的 i 是虚拟坐标(根据eidArr)来的坐标
+            int id = eidArr[i];
+            int u = a[id];
+            int v = b[id];
+            string w = str[id];
+
+            outDeg[u]++;
+            inDeg[v]++;
+            addedge(u, v, w);
+        }
+    }
+
+    for (int i = 1; i <= n;i++){//意为每个首字母单词的边
+        cur[i] = head[i]; // 为后续her算法准备弧
+    }
+}
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int T = 1;
-    // cin >> T;
-    while (T--) solve();
+    cin >> m;
+
+    for (int i = 1; i <= m; i++)
+    {
+        cin >> str[i];
+
+        a[i] = startnode(str[i]);
+        b[i] = endnode(str[i]);
+        eidArr[i] = i;
+    }
 
     return 0;
 }
