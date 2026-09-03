@@ -2,7 +2,7 @@ const { Plugin, Notice, Modal, Setting, PluginSettingTab } = require("obsidian")
 
 const DEFAULT_SETTINGS = {
   dailyFolder: "",
-  dateFormat: "YYYY-MM-DD",
+  dateFormat: "",
   templatePath: "",
   insertionHeading: "",
   statusFrom: "[[0-5]]",
@@ -92,7 +92,7 @@ class SchedulerSettingTab extends PluginSettingTab {
     containerEl.createEl("h2", { text: "日历状态排程器" });
     const s = this.plugin.settings;
     new Setting(containerEl).setName("日记文件夹").setDesc("相对于库根目录；留空则使用库根目录。示例：日记/每日").addText(t => t.setValue(s.dailyFolder).onChange(async v => { s.dailyFolder = v.trim().replace(/^\/+|\/+$/g, ""); await this.plugin.saveSettings(); }));
-    new Setting(containerEl).setName("日期文件名格式").setDesc("支持 YYYY、MM、DD；必须与 Calendar/Periodic Notes 的日记格式一致。").addText(t => t.setValue(s.dateFormat).onChange(async v => { s.dateFormat = v || "YYYY-MM-DD"; await this.plugin.saveSettings(); }));
+    new Setting(containerEl).setName("日期文件名格式").setDesc("支持 YYYY、MM、DD；留空则直接使用 Periodic Notes 的日记格式。").addText(t => t.setValue(s.dateFormat).onChange(async v => { s.dateFormat = v.trim(); await this.plugin.saveSettings(); }));
     new Setting(containerEl).setName("日记模板路径（可选）").setDesc("目标日记不存在时复制此模板，例如 Templates/Daily.md；留空则创建空文件。").addText(t => t.setValue(s.templatePath).onChange(async v => { s.templatePath = v.trim(); await this.plugin.saveSettings(); }));
     new Setting(containerEl).setName("插入标题（可选）").setDesc("填写模板中的完整标题（如 ## 今日清单），任务会插入其下一行；找不到时追加到文件末尾。").addText(t => t.setValue(s.insertionHeading).onChange(async v => { s.insertionHeading = v; await this.plugin.saveSettings(); }));
     new Setting(containerEl).setName("待替换状态").setDesc("默认自动识别唯一的 [[0]] 到 [[5]]；如需固定状态，可填入完整文本，例如 [[todo]]。").addText(t => t.setValue(s.statusFrom).onChange(async v => { s.statusFrom = v || "[[0-5]]"; await this.plugin.saveSettings(); }));
@@ -117,6 +117,18 @@ module.exports = class CalendarStatusScheduler extends Plugin {
   async saveSettings() { await this.saveData(this.settings); }
 
   getDailyOptions() {
+    const periodic = this.app.plugins?.getPlugin?.("periodic-notes");
+    if (periodic?.calendarSetManager) {
+      try {
+        const config = periodic.calendarSetManager.getActiveConfig("day") || {};
+        const format = periodic.calendarSetManager.getFormat("day") || "YYYY-MM-DD";
+        return {
+          folder: this.settings.dailyFolder || config.folder || "",
+          format: this.settings.dateFormat || format,
+          template: this.settings.templatePath || config.templatePath || ""
+        };
+      } catch (_) { /* fall back to core settings below */ }
+    }
     const daily = this.app.internalPlugins?.getPluginById?.("daily-notes");
     const options = daily?.instance?.options || {};
     return {
@@ -132,6 +144,15 @@ module.exports = class CalendarStatusScheduler extends Plugin {
   }
 
   async getOrCreateDailyNote(date) {
+    const periodic = this.app.plugins?.getPlugin?.("periodic-notes");
+    // 使用 Periodic Notes 自己的查找/创建 API，确保 Calendar 能识别该文件，
+    // 并且使用它的活动日历组、文件夹和模板。
+    if (periodic?.calendarSetManager && !this.settings.dailyFolder && !this.settings.dateFormat && !this.settings.templatePath) {
+      const m = window.moment(date);
+      let periodicFile = periodic.getPeriodicNote?.("day", m);
+      if (!periodicFile) periodicFile = await periodic.createPeriodicNote("day", m);
+      if (periodicFile) return periodicFile;
+    }
     const opts = this.getDailyOptions();
     const name = formatDate(date, opts.format) + ".md";
     const path = opts.folder ? `${opts.folder}/${name}` : name;

@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-09-05.md",
+                "file": "例题/P1127 词链.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-05"
+              "title": "P1127 词链"
             }
           },
           {
@@ -283,10 +283,10 @@
       "calendar-status-scheduler:安排当前笔记到未来日历": false
     }
   },
-  "active": "bb9914fdf5b6556c",
+  "active": "7a929b7ed15ad051",
   "lastOpenFiles": [
-    "Daily/2026-09-04.md",
     "Daily/2026-09-05.md",
+    "Daily/2026-09-04.md",
     "2026-09-05.md",
     "例题/P1127 词链.md",
     "2026-09-04.md",
