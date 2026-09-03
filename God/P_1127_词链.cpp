@@ -72,7 +72,7 @@ void connect()
         }
     }
 
-    for (int i = 1; i <= n;i++){//意为每个首字母单词的边
+    for (int i = 1; i <= n;i++){//意为每个首字母单词,这样后续可以直接通过to[参数] (这里实际上就是b[i]的意思)直接访问到下一个单词的首字母
         cur[i] = head[i]; // 为后续her算法准备弧
     }
 }
@@ -91,6 +91,8 @@ int main()
         b[i] = endnode(str[i]);
         eidArr[i] = i;
     }
+
+    connect(); // 数据离散化,数据放入进链式前项星
 
     return 0;
 }
