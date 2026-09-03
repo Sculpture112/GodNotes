@@ -123,7 +123,12 @@ int directedStart()
     return -1;
 }
 
-
+void euler(int u,const string& word){
+    for (int e = cur[u]; e != 0;e = cur[u]){
+        cur[u] = nxt[e];
+        euler()
+    }
+}
 int main()
 {
     ios::sync_with_stdio(false);
