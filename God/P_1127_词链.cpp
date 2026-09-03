@@ -152,12 +152,14 @@ int main()
 
     if(start ==-1){
         cout << "***\n";
+        return 0;
     }
 
     euler(start,"");
 
     if(cntp != m+1){//cntp是顶点的数量统计,m条边(实际上就是字符串) 对应这 m+1个顶点
         cout << "***\n";
+        return 0;
     }
 
     cout << path[cntp - 1];
