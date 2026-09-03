@@ -49,8 +49,7 @@
               "title": "备赛"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -269,11 +268,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "00bbcbf4d2739c33",
+  "active": "04a573e427517a9b",
   "lastOpenFiles": [
+    "例题/P1347 [ECNA 2001] 排序.md",
     "God/P_1347_ECNA_2001__u6392_u5e8f.bin",
     "备赛/备赛.md",
-    "例题/P1347 [ECNA 2001] 排序.md",
     "未命名 4.md",
     "God/P_1347_ECNA_2001_排序.cpp",
     "God/P_1347_ECNA_2001_排序(floyd解.cpp",
