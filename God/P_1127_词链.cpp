@@ -84,7 +84,25 @@ int directedStart(){
     for (int i = 1; i <= n;i++){
         int diff = outDeg[i] - inDeg[i];
 
-        if(diff<1 || dif>-1)
+        if (diff > 1 || diff < -1)
+            return -1;
+        
+        if(diff == 1){
+            if(start!=-1)
+                return -1;
+            start = i;
+        }
+
+        if(diff == -1){
+            if(end!=-1)
+                return -1;
+            end = i;
+        }
+
+        if((start == -1) != (end == -1))
+            return -1;
+        
+        
     }
 }
 int main()
