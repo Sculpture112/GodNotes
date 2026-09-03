@@ -147,7 +147,9 @@ module.exports = class CalendarStatusScheduler extends Plugin {
     const periodic = this.app.plugins?.getPlugin?.("periodic-notes");
     // 使用 Periodic Notes 自己的查找/创建 API，确保 Calendar 能识别该文件，
     // 并且使用它的活动日历组、文件夹和模板。
-    if (periodic?.calendarSetManager && !this.settings.dailyFolder && !this.settings.dateFormat && !this.settings.templatePath) {
+    // YYYY-MM-DD 是旧版本的默认值，不应被视为用户覆盖；否则升级后会绕过模板。
+    const hasManualDateOverride = !!this.settings.dateFormat && this.settings.dateFormat !== "YYYY-MM-DD";
+    if (periodic?.calendarSetManager && !this.settings.dailyFolder && !hasManualDateOverride && !this.settings.templatePath) {
       const m = window.moment(date);
       let periodicFile = periodic.getPeriodicNote?.("day", m);
       if (!periodicFile) periodicFile = await periodic.createPeriodicNote("day", m);
