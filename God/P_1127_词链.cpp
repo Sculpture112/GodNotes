@@ -45,7 +45,8 @@ bool edgecmp(int i, int j)
     }
     return str[i] < str[j];
 }
-void addedge(int u,int v,string word){
+void addedge(int u, int v, string word)
+{
     nxt[++cntg] = head[u];
     head[u] = cntg;
     to[cntg] = v;
@@ -55,12 +56,15 @@ void connect()
 {
     sort(eidArr + 1, eidArr + m + 1, edgecmp);
 
-    for (int l = 1, r = 1; r <= m;l = ++r){
-        while (r + 1 <= m && a[eidArr[r + 1]] == a[eidArr[l]]){
+    for (int l = 1, r = 1; r <= m; l = ++r)
+    {
+        while (r + 1 <= m && a[eidArr[r + 1]] == a[eidArr[l]])
+        {
             r++;
         }
 
-        for (int i = r; i >= l;i--){ // 这里的遍历的 i 是虚拟坐标(根据eidArr)来的坐标
+        for (int i = r; i >= l; i--)
+        { // 这里的遍历的 i 是虚拟坐标(根据eidArr)来的坐标
             int id = eidArr[i];
             int u = a[id];
             int v = b[id];
@@ -72,39 +76,54 @@ void connect()
         }
     }
 
-    for (int i = 1; i <= n;i++){//意为每个首字母单词,这样后续可以直接通过to[参数] (这里实际上就是b[i]的意思)直接访问到下一个单词的首字母
+    for (int i = 1; i <= n; i++)
+    {                     // 意为每个首字母单词,这样后续可以直接通过to[参数] (这里实际上就是b[i]的意思)直接访问到下一个单词的首字母
         cur[i] = head[i]; // 为后续her算法准备弧
     }
 }
 
-int directedStart(){
+int directedStart()
+{
     int start = -1;
     int end = -1;
 
-    for (int i = 1; i <= n;i++){
+    for (int i = 1; i <= n; i++)
+    {
         int diff = outDeg[i] - inDeg[i];
 
         if (diff > 1 || diff < -1)
             return -1;
-        
-        if(diff == 1){
-            if(start!=-1)
+
+        if (diff == 1)
+        {
+            if (start != -1)
                 return -1;
             start = i;
         }
 
-        if(diff == -1){
-            if(end!=-1)
+        if (diff == -1)
+        {
+            if (end != -1)
                 return -1;
             end = i;
         }
-
-        if((start == -1) != (end == -1))
-            return -1;
-        
-        
     }
+
+    if ((start == -1) != (end == -1))
+        return -1;
+    
+    if(start != -1)
+        return start;
+
+    for (int i = 1; i <= n;i++){
+        if(outDeg[i]>0){
+            return i;
+        }
+    }
+    return -1;
 }
+
+
 int main()
 {
     ios::sync_with_stdio(false);
@@ -124,5 +143,10 @@ int main()
     connect(); // 数据离散化,数据放入进链式前项星,为her算法准备cur数组;
 
     int start = directedStart();
+
+    if(start ==-1){
+        cout << "***\n";
+    }
+
     return 0;
 }
