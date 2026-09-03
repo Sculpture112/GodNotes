@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/P1363 幻象迷宫.md",
+                "file": "例题/P1347 [ECNA 2001] 排序.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "P1363 幻象迷宫"
+              "title": "P1347 [ECNA 2001] 排序"
             }
           }
         ],
@@ -102,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -256,9 +256,10 @@
   },
   "active": "5d6a6f8fe65ff68d",
   "lastOpenFiles": [
+    "例题/P1363 幻象迷宫.md",
+    "例题/P1347 [ECNA 2001] 排序.md",
     "God/P_1363__u5e7b_u8c61_u8ff7_u5bab.bin",
     "Daily/2026-09-03.md",
-    "例题/P1363 幻象迷宫.md",
     "例题/P1127 词链.md",
     "God/P_1127__u8bcd_u94fe.bin",
     "算法名/离散化.md",
@@ -291,7 +292,6 @@
     "God/P_5318_深基_18_例_3_查找文献.cpp",
     "God/P_10470__u524d_u7f00_u7edf_u8ba1.bin",
     "God/P_10470_前缀统计.cpp",
-    "God/P_1481_魔族密码.cpp",
     "image/Pasted image 20260812165838.png",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
