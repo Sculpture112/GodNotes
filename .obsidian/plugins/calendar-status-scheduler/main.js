@@ -118,6 +118,16 @@ module.exports = class CalendarStatusScheduler extends Plugin {
 
   getDailyOptions() {
     const periodic = this.app.plugins?.getPlugin?.("periodic-notes");
+    // Calendar 当前版本读取的是 Periodic Notes 的 legacy settings.daily。
+    // 必须使用这组设置，否则会错误地回退到仓库根目录。
+    const legacyDaily = periodic?.settings?.daily;
+    if (legacyDaily?.enabled) {
+      return {
+        folder: this.settings.dailyFolder || legacyDaily.folder || "",
+        format: this.settings.dateFormat || legacyDaily.format || "YYYY-MM-DD",
+        template: this.settings.templatePath || legacyDaily.template || ""
+      };
+    }
     if (periodic?.calendarSetManager) {
       try {
         const config = periodic.calendarSetManager.getActiveConfig("day") || {};
@@ -145,16 +155,6 @@ module.exports = class CalendarStatusScheduler extends Plugin {
 
   async getOrCreateDailyNote(date) {
     const periodic = this.app.plugins?.getPlugin?.("periodic-notes");
-    // 使用 Periodic Notes 自己的查找/创建 API，确保 Calendar 能识别该文件，
-    // 并且使用它的活动日历组、文件夹和模板。
-    // YYYY-MM-DD 是旧版本的默认值，不应被视为用户覆盖；否则升级后会绕过模板。
-    const hasManualDateOverride = !!this.settings.dateFormat && this.settings.dateFormat !== "YYYY-MM-DD";
-    if (periodic?.calendarSetManager && !this.settings.dailyFolder && !hasManualDateOverride && !this.settings.templatePath) {
-      const m = window.moment(date);
-      let periodicFile = periodic.getPeriodicNote?.("day", m);
-      if (!periodicFile) periodicFile = await periodic.createPeriodicNote("day", m);
-      if (periodicFile) return periodicFile;
-    }
     const opts = this.getDailyOptions();
     const name = formatDate(date, opts.format) + ".md";
     const path = opts.folder ? `${opts.folder}/${name}` : name;
@@ -162,9 +162,23 @@ module.exports = class CalendarStatusScheduler extends Plugin {
     if (file) return file;
     if (opts.folder) await this.ensureFolder(opts.folder);
     let content = "";
-    if (opts.template) { const template = this.app.vault.getAbstractFileByPath(opts.template); if (template) content = await this.app.vault.read(template); }
+    if (opts.template) {
+      const template = this.app.vault.getAbstractFileByPath(opts.template);
+      if (template) content = this.renderTemplate(await this.app.vault.read(template), date, opts.format);
+    }
     file = await this.app.vault.create(path, content);
     return file;
+  }
+
+  renderTemplate(content, date, format) {
+    const m = window.moment(date);
+    // 与 Calendar 的模板替换规则保持一致，并额外支持你的 {{date:...}} 写法。
+    return content
+      .replace(/{{\s*date\s*}}/gi, m.format(format))
+      .replace(/{{\s*title\s*}}/gi, m.format(format))
+      .replace(/{{\s*date\s*:\s*([^}]+)}}/gi, (_, f) => m.format(f.trim()))
+      .replace(/{{\s*yesterday\s*}}/gi, m.clone().subtract(1, "day").format(format))
+      .replace(/{{\s*tomorrow\s*}}/gi, m.clone().add(1, "day").format(format));
   }
 
   insertTask(content, line) {
