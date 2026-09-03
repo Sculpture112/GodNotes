@@ -76,6 +76,17 @@ void connect()
         cur[i] = head[i]; // 为后续her算法准备弧
     }
 }
+
+int directedStart(){
+    int start = -1;
+    int end = -1;
+
+    for (int i = 1; i <= n;i++){
+        int diff = outDeg[i] - inDeg[i];
+
+        if(diff<1 || dif>-1)
+    }
+}
 int main()
 {
     ios::sync_with_stdio(false);
@@ -92,7 +103,8 @@ int main()
         eidArr[i] = i;
     }
 
-    connect(); // 数据离散化,数据放入进链式前项星
+    connect(); // 数据离散化,数据放入进链式前项星,为her算法准备cur数组;
 
+    int start = directedStart();
     return 0;
 }
