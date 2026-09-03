@@ -102,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -256,6 +256,7 @@
   },
   "active": "5d6a6f8fe65ff68d",
   "lastOpenFiles": [
+    "God/P_1363__u5e7b_u8c61_u8ff7_u5bab.bin",
     "Daily/2026-09-03.md",
     "例题/P1363 幻象迷宫.md",
     "例题/P1127 词链.md",
@@ -282,7 +283,6 @@
     "母题/188 Code08 太鼓达人2.md",
     "母题/188 Code08 太鼓达人1.md",
     "母题/188 Code07 所有可能的密码串2.md",
-    "母题/188 Code07 所有可能的密码串1.md",
     "God/P_2853_USACO_06_DEC_Cow_Picnic_S.bin",
     "God/P_1807__u6700_u957f_u8def.bin",
     "God/P_3916__u56fe_u7684_u904d_u5386.bin",
