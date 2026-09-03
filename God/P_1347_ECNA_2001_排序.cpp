@@ -8,7 +8,7 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-int topo(int n,bool graph[26][26],string& word){
+int topo(int n,bool graph[26][26],string& order){
     int indegree[26]={};
 
     for (int i = 0; i < n;i++){
@@ -18,7 +18,39 @@ int topo(int n,bool graph[26][26],string& word){
         }
     }
 
-    
+    bool used[26];
+    order.clear();
+    bool unique = true;
+
+    for (int step = 0; step < n;step++){
+        vector<int> zero;
+
+        for (int i = 0; i < n;i++){
+            if(!used[i] && indegree[i] == 0){
+                zero.push_back(i);
+            }
+        }
+
+        if(zero.empty()){
+            return -1;
+        }
+
+        if(zero.size()>1){
+            unique = false;
+            return 0;
+        }
+
+        int u = zero[0];
+        used[u] = true;
+        order.push_back('A' + u);
+
+        for (int v = 0; v < n;v++){
+            if(graph[u][v]){
+                indegree[v]--;
+            }
+        }
+    }
+    return 1;
 }
 int main()
 {
@@ -44,8 +76,24 @@ int main()
         }
 
         string order;
-        int result = 
+        int result = topo(n, graph, order);
+
+        if (result == -1)
+        {
+            cout << "Inconsistency found after "
+                 << relation << " relations.\n";
+            return 0;
+        }
+
+        if (result == 1)
+        {
+            cout << "Sorted sequence determined after "
+                 << relation << " relations: "
+                 << order << ".\n";
+            return 0;
+        }
     }
 
+    cout << "Sorted sequence cannot be determined.\n";
     return 0;
 }
