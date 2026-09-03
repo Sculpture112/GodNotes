@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "f22de7dfc6629a68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily/2026-09-04.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-09-04"
+            }
+          },
+          {
             "id": "a85b2d52bbfb32c3",
             "type": "leaf",
             "state": {
@@ -269,16 +283,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a85b2d52bbfb32c3",
+  "active": "f22de7dfc6629a68",
   "lastOpenFiles": [
     "例题/P1127 词链.md",
     "Daily/2026-09-04.md",
+    "例题/P1363 幻象迷宫.md",
+    "Daily/2026-09-03.md",
     "2026-09-04.md",
     "备份/日历状态排程器-重复文件/2026-09-06.md",
     "备份/日历状态排程器-重复文件/2026-09-05.md",
     "备份/日历状态排程器-重复文件/2026-09-04.md",
     "备份/日历状态排程器-重复文件",
-    "Daily/2026-09-03.md",
     "备赛/备赛.md",
     "2026-09-06.md",
     "2026-09-05.md",
@@ -292,7 +307,6 @@
     "未命名 3.md",
     "template/templatem.md",
     "God/P_1347_ECNA_2001__u6392_u5e8f.bin",
-    "例题/P1363 幻象迷宫.md",
     "God/P_1363__u5e7b_u8c61_u8ff7_u5bab.bin",
     "God/P_1127__u8bcd_u94fe.bin",
     "算法名/离散化.md",
