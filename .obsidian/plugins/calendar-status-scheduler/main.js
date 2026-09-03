@@ -4,7 +4,7 @@ const DEFAULT_SETTINGS = {
   dailyFolder: "",
   dateFormat: "",
   templatePath: "",
-  insertionHeading: "## 今天做了啥",
+  insertionHeading: "## 复习",
   statusFrom: "[[0-5]]",
   taskPrefix: "- [ ]",
   includeDueDate: true,
@@ -97,7 +97,7 @@ class SchedulerSettingTab extends PluginSettingTab {
     new Setting(containerEl).setName("插入标题（可选）").setDesc("填写模板中的完整标题（如 ## 今日清单），任务会插入其下一行；找不到时追加到文件末尾。").addText(t => t.setValue(s.insertionHeading).onChange(async v => { s.insertionHeading = v; await this.plugin.saveSettings(); }));
     new Setting(containerEl).setName("待替换状态").setDesc("默认自动识别唯一的 [[0]] 到 [[5]]；如需固定状态，可填入完整文本，例如 [[todo]]。").addText(t => t.setValue(s.statusFrom).onChange(async v => { s.statusFrom = v || "[[0-5]]"; await this.plugin.saveSettings(); }));
     new Setting(containerEl).setName("任务前缀").setDesc("Tasks 插件通常使用 - [ ]；也可以改成普通列表前缀。").addText(t => t.setValue(s.taskPrefix).onChange(async v => { s.taskPrefix = v; await this.plugin.saveSettings(); }));
-    new Setting(containerEl).setName("写入 Tasks 到期日期").addToggle(t => t.setValue(s.includeDueDate).onChange(async v => { s.includeDueDate = v; await this.plugin.saveSettings(); }));
+    new Setting(containerEl).setName("写入日期标记").setDesc("启用后在任务末尾写入安排当天的日期（不是目标日记日期）。").addToggle(t => t.setValue(s.includeDueDate).onChange(async v => { s.includeDueDate = v; await this.plugin.saveSettings(); }));
     new Setting(containerEl).setName("替换所有状态").addToggle(t => t.setValue(s.replaceAll).onChange(async v => { s.replaceAll = v; await this.plugin.saveSettings(); }));
     new Setting(containerEl).setName("默认 x").addText(t => t.setValue(String(s.defaultDays)).onChange(async v => { const n = Number(v); if (Number.isInteger(n) && n >= 0) { s.defaultDays = n; await this.plugin.saveSettings(); } }));
     new Setting(containerEl).setName("默认 y").addText(t => t.setValue(s.defaultStatus).onChange(async v => { s.defaultStatus = v; await this.plugin.saveSettings(); }));
@@ -203,7 +203,7 @@ module.exports = class CalendarStatusScheduler extends Plugin {
     const targetDate = addDays(new Date(), input.days);
     const target = await this.getOrCreateDailyNote(targetDate);
     const link = `[[${source.path.replace(/\\/g, "/").replace(/\.md$/i, "")}]]`;
-    const due = this.settings.includeDueDate ? ` 📅 ${formatDate(targetDate, this.getDailyOptions().format)}` : "";
+    const due = this.settings.includeDueDate ? ` 📅 ${formatDate(new Date(), this.getDailyOptions().format)}` : "";
     const line = `${this.settings.taskPrefix.trim()} ${link}${due}`.trim();
     const targetContent = await this.app.vault.read(target);
     if (!targetContent.split("\n").some(l => l.trim() === line.trim())) await this.app.vault.modify(target, this.insertTask(targetContent, line));
