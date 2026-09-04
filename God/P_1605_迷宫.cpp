@@ -9,7 +9,14 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
-
+    int n, m, t;
+    cin >> n >> m >> t;
+    vector<vector<int>> graph(n, vector<int>(m));
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cin >> graph[i][j];
+        }
+    }
 }
 
 int main() {
