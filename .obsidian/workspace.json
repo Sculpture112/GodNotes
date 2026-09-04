@@ -236,14 +236,16 @@
       "templater-obsidian:Templater": false,
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "calendar-status-scheduler:安排当前笔记到未来日历": false
+      "calendar-status-scheduler:安排当前笔记到未来日历": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "04a573e427517a9b",
   "lastOpenFiles": [
+    "Daily/2026-09-04.md",
+    "例题/P1433 吃奶酪.md",
     "2026-09-03-21-13-23.md",
     "2026-09-03-21-17-12.md",
-    "例题/P1433 吃奶酪.md",
     "备赛/备赛.md",
     "例题/P1347 [ECNA 2001] 排序.md",
     "未命名 6.md",
@@ -256,7 +258,6 @@
     "God/P_1347_ECNA_2001_排序.cpp",
     "God/P_1347_ECNA_2001_排序(floyd解.cpp",
     "Daily/2026-09-03.md",
-    "Daily/2026-09-04.md",
     "例题/洛谷前缀树.md",
     "例题/洛谷kmp.md",
     "例题/P1127 词链.md",
