@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/P1101 单词方阵.md",
+                "file": "例题/P2404 自然数的拆分问题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "P1101 单词方阵"
+              "title": "P2404 自然数的拆分问题"
             }
           }
         ]
@@ -242,10 +242,11 @@
   },
   "active": "6333cf840343fab2",
   "lastOpenFiles": [
+    "例题/P1101 单词方阵.md",
+    "例题/P2404 自然数的拆分问题.md",
     "God/P_2404__u81ea_u7136_u6570_u7684_u62c6_u5206_u95ee_u9898.bin",
     "God/P_2404_自然数的拆分问题.cpp",
     "Daily/2026-09-04.md",
-    "例题/P1101 单词方阵.md",
     "God/P_1101_单词方阵.cpp",
     "Daily/2026-09-05.md",
     "例题/P1433 吃奶酪.md",
@@ -278,7 +279,6 @@
     "未命名 6.md",
     "God/P_1433_吃奶酪.cpp",
     "God/P_1983_NOIP_2013__u666e_u53ca_u7ec4__u8f66_u7ad9_u5206_u7ea7.bin",
-    "God/P_1347_ECNA_2001__u6392_u5e8f.bin",
     "image/Pasted image 20260812165838.png",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
