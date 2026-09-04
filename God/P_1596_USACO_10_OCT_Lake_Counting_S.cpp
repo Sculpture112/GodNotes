@@ -12,7 +12,7 @@ int n, m;
 void solve()
 {
     cin >> n >> m;
-    vector<vector<int>> graph(n)
+    vector<string> graph
 }
 
 int main()
