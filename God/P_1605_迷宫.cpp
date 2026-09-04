@@ -16,7 +16,7 @@ int a, b, c, d;
 int visited[6][6];
 void dfs(int x, int y)
 {
-    if (x < 0 || x >= n || y < 0 || y >= m)
+    if (x < 1 || x > n || y < 1 || y > m)
     {
         return;
     }
