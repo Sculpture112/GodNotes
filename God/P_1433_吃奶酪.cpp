@@ -15,7 +15,7 @@ int main()
 
     int n;
     cin >> n;
-    vector<int> x(n), y(n);
+    vector<double> x(n), y(n);
     for (int i = 0; i < n; i++)
     {
         cin >> x[i] >> y[i];
@@ -24,14 +24,14 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        diststart[i] = (x[i] * x[i] + y[i] * y[i]);
+        diststart[i] = sqrt(x[i] * x[i] + y[i] * y[i]);
     }
 
     auto dist = [&](int a, int b)
     {
         double dx = (x[a] - x[b]);
         double dy = (y[a] - y[b]);
-        return (dx * dx + dy * dy);
+        return sqrt(dx * dx + dy * dy);
     };
 
     vector<vector<double>> distance(n, vector<double>(n, DINF));
@@ -43,7 +43,7 @@ int main()
         }
     }
 
-    vector<vector<double>> dp(n, vector<double>(n, DINF));
+    vector<vector<double>> dp(1<<n, vector<double>(n, DINF));
 
     for (int i = 0; i < n;i++){
         dp[1 << i][i] = diststart[i];
@@ -57,7 +57,7 @@ int main()
             for (int nxt = 0; nxt < n;nxt++){
                 if(mask & (1<<nxt)) continue;
 
-                int newmask = mask | nxt;
+                int newmask = mask | (1<<nxt);
                 dp[newmask][nxt] = min(dp[newmask][nxt], dp[mask][last] + distance[last][nxt]);
             }
         }
