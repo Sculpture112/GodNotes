@@ -19,21 +19,26 @@ unordered_map<string, int> bfs(
     dist[start] = 0;
     q.push(start);
 
-    while(!q.empty()){
+    while (!q.empty())
+    {
         string cur = q.front();
         q.pop();
 
         int step = dist[cur];
-        if(step>=5)continue;
+        if (step >= 5)
+            continue;
 
-        for(auto& rul:rule){
+        for (auto &rul : rule)
+        {
             string from = reverse ? rul.second : rul.first;
             string to = reverse ? rul.first : rul.second;
 
             size_t pos = cur.find(from);
-            while(pos != string::npos){
-                string nxt = cur.substr(0, pos) + to + cur.substr(pos+from.size());
-                if(!dist.count(nxt)){
+            while (pos != string::npos)
+            {
+                string nxt = cur.substr(0, pos) + to + cur.substr(pos + from.size());
+                if (!dist.count(nxt))
+                {
                     dist[nxt] = dist[cur] + 1;
                     q.push(nxt);
                 }
@@ -65,13 +70,20 @@ void solve()
     auto fromB = bfs(B, rule, true);
 
     int ans = INF;
-    for(auto& [s,d]:fromA){
+    for (auto &[s, d] : fromA)
+    {
         auto it = fromB.find(s);
-        if(it!=fromB.end()){
+        if (it != fromB.end())
+        {
             ans = min(ans, d + it->second);
         }
     }
-    cout << ans;
+    if (ans <= 10)
+        cout << ans;
+    else
+    {
+        cout << "NO ANSWER!";
+    }
 }
 
 int main()
