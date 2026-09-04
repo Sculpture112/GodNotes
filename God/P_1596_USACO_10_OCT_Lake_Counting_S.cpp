@@ -10,7 +10,8 @@ const ll LINF = 4e18;
 
 int n, m;
 int ans = 0;
-const int dx[8];
+const int dx[8]={0,1,1,1,0,-1,-1,-1};
+const int dy[8]={1,1,0,-1,-1,-1,}
 void dfs(){
     
 }
