@@ -9,17 +9,24 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 int n, m;
+int ans = 0;
+void dfs(){
+
+}
 void solve()
 {
     cin >> n >> m;
     vector<string> graph;
+    vector<vector<bool>> used(n, vector<bool>(m));
     for (int i = 0; i < n; i++) {
         cin >> graph[i];
     }
 
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m;j++){
-            if(graph[i][j] == '')
+            if(graph[i][j] == 'W' && ){
+                dfs();
+            }
         }
     }
 }
