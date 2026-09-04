@@ -13,6 +13,7 @@ int ans = 0;
 const int dx[8] = {0, 1, 1, 1, 0, -1, -1, -1};
 const int dy[8] = {1, 1, 0, -1, -1, -1, 0, 1};
 bool used[105][105];
+vector<string> graph(105);
 void dfs(int x, int y)
 {
     for (int i = 0; i < 8; i++)
@@ -23,14 +24,16 @@ void dfs(int x, int y)
         {
             continue;
         }
-        used[nx][ny] = true;
-        dfs(nx, ny);
+        if (graph[nx][ny] == 'W')
+        {
+            used[nx][ny] = true;
+            dfs(nx, ny);
+        }
     }
 }
 void solve()
 {
     cin >> n >> m;
-    vector<string> graph;
     for (int i = 0; i < n; i++)
     {
         cin >> graph[i];
