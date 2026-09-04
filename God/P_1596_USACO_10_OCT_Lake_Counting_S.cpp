@@ -19,11 +19,12 @@ void dfs(int x, int y)
     {
         int nx = x + dx[i];
         int ny = y + dy[i];
-        if (nx < 0 || nx >= n || ny < 0 || ny >= m || !used[nx][ny])
+        if (nx < 0 || nx >= n || ny < 0 || ny >= m || used[nx][ny])
         {
-            used[nx][ny] = true;
-            dfs(nx, ny);
+            continue;
         }
+        used[nx][ny] = true;
+        dfs(nx, ny);
     }
 }
 void solve()
@@ -42,6 +43,7 @@ void solve()
             if (graph[i][j] == 'W' && !used[i][j])
             {
                 ans++;
+                used[i][j] = true;
                 dfs(i, j);
             }
         }
