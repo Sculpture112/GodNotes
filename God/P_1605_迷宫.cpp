@@ -12,11 +12,14 @@ void solve() {
     int n, m, t;
     cin >> n >> m >> t;
     vector<vector<int>> graph(n, vector<int>(m));
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < m; j++) {
-            cin >> graph[i][j];
-        }
+    int a, b, c, d;
+    cin >> a >> b >> c >> d;
+    for (int i = 0; i < t;i++){
+        int x, y;
+        cin >> x >> y;
+        graph[x][y] = -1;
     }
+    
 }
 
 int main() {
