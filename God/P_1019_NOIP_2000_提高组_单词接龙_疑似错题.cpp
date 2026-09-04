@@ -10,6 +10,9 @@ const ll LINF = 4e18;
 string s[25];
 int overlap[25][25];
 int addlen[25][25];
+int used[25];
+int ans = 0;
+int n;
 
 int overlapd(const string &a, const string &b)
 {
@@ -18,7 +21,7 @@ int overlapd(const string &a, const string &b)
     for (int len = 1; len <= limit; len++)
     {
         bool ok = true;
-        for (int k = 0; k < limit; k++)
+        for (int k = 0; k < len; k++)
         {
             if (a[a.size() - len + k] != b[k])
             {
@@ -33,15 +36,25 @@ int overlapd(const string &a, const string &b)
     return 0;
 }
 
-void dfs(){
-    
+void dfs(int last, int len)
+{
+    ans = max(ans, len);
+
+    for (int i = 0; i < n; i++)
+    {
+        if (used[i] >= 2 || addlen[last][i] == 0)
+            continue;
+
+        used[i]++;
+        dfs(i, len + addlen[last][i]);
+        used[i]--;
+    }
 }
 int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int n;
     cin >> n;
     for (int i = 0; i < n; i++)
     {
@@ -56,16 +69,22 @@ int main()
         for (int j = 0; j < n; j++)
         {
             overlap[i][j] = overlapd(s[i], s[j]);
-            if(overlap){
+            if (overlap[i][j])
+            {
                 addlen[i][j] = s[j].size() - overlap[i][j];
             }
         }
     }
 
-    for (int i = 0; i < n;i++){
-        if(s[i][0] == c){
-            
+    for (int i = 0; i < n; i++)
+    {
+        if (s[i][0] == c)
+        {
+            used[i]++;
+            dfs(i, s[i].size());
+            used[i]--;
         }
     }
-        return 0;
+    cout << ans;
+    return 0;
 }
