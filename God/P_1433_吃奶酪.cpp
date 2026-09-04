@@ -57,9 +57,16 @@ int main()
             for (int nxt = 0; nxt < n;nxt++){
                 if(mask & (1<<nxt)) continue;
 
-                int newmask = 
+                int newmask = mask | nxt;
+                dp[newmask][nxt] = min(dp[newmask][nxt], dp[mask][last] + distance[last][nxt]);
             }
         }
     }
-        return 0;
+
+    double ans = DINF;
+    for (int i = 0; i < n;i++){
+        ans = min(ans, dp[total - 1][i]);
+    }
+    cout << fixed << setprecision(2) << ans;
+    return 0;
 }
