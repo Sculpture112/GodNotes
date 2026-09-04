@@ -27,10 +27,10 @@ void dfs(int x, int y)
     }
     for (int i = 0; i < 4; i++)
     {
-        if ()
+        int nx = dx[i] + x;
+        int ny = dy[i] + y;
+        if (graph[nx][ny] != -1 && !visited[nx][ny])
         {
-            int nx = dx[i] + x;
-            int ny = dy[i] + y;
             visited[nx][ny] = true;
             dfs(nx, ny);
             visited[nx][ny] = false;
