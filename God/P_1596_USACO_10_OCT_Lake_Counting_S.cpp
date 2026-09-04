@@ -10,8 +10,9 @@ const ll LINF = 4e18;
 
 int n, m;
 int ans = 0;
+const int dx[8];
 void dfs(){
-
+    
 }
 void solve()
 {
@@ -24,7 +25,7 @@ void solve()
 
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m;j++){
-            if(graph[i][j] == 'W' && ){
+            if(graph[i][j] == 'W' && !used[i][j]){
                 dfs();
             }
         }
