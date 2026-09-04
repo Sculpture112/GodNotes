@@ -35,8 +35,7 @@
               "title": "2026-09-04-10-52-05"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -255,10 +254,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b61f833d68eb4535",
+  "active": "04a573e427517a9b",
   "lastOpenFiles": [
-    "例题/洛谷kmp.md",
     "2026-09-04-10-52-05.md",
+    "例题/洛谷kmp.md",
     "image/Pasted image 20260904105209.png",
     "Daily/2026-09-04.md",
     "Daily/2026-09-07.md",
