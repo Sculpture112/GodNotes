@@ -13,12 +13,17 @@ int ans = 0;
 const int dx[8] = {0, 1, 1, 1, 0, -1, -1, -1};
 const int dy[8] = {1, 1, 0, -1, -1, -1, 0, 1};
 bool used[105][105];
-void dfs(int x,int y)
+void dfs(int x, int y)
 {
-    for (int i = 0; i < 8;i++){
+    for (int i = 0; i < 8; i++)
+    {
         int nx = x + dx[i];
         int ny = y + dy[i];
-        if (nx < 0 || nx >= n||ny<0||ny>=m || used)
+        if (nx < 0 || nx >= n || ny < 0 || ny >= m || !used[nx][ny])
+        {
+            used[nx][ny] = true;
+            dfs(nx, ny);
+        }
     }
 }
 void solve()
@@ -37,10 +42,11 @@ void solve()
             if (graph[i][j] == 'W' && !used[i][j])
             {
                 ans++;
-                dfs(i,j);
+                dfs(i, j);
             }
         }
     }
+    cout << ans;
 }
 
 int main()
