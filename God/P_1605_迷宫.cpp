@@ -20,12 +20,15 @@ void dfs(int x, int y)
     {
         return;
     }
-    if(x == c && y == d){
+    if (x == c && y == d)
+    {
         ans++;
         return;
     }
-    for (int i = 0; i < 4;i++){
-        for (int j = 0; j < 4;j++){
+    for (int i = 0; i < 4; i++)
+    {
+        if ()
+        {
             int nx = dx[i] + x;
             int ny = dy[i] + y;
             visited[nx][ny] = true;
@@ -44,8 +47,8 @@ void solve()
         cin >> x >> y;
         graph[x][y] = -1;
     }
-    dfs(a, b);
     visited[a][b] = true;
+    dfs(a, b);
     cout << ans;
 }
 
