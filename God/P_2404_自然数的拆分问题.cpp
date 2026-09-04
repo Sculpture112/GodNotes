@@ -9,28 +9,35 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 int n;
+vector<int> path;
 
-
-void dfs(int least, int last)
+void dfs(int sum, int last)
 {
-    if(least == 0){
-        cout << "\n";
-        return;
-    }
-    for (int i = last; i < least;i++){
-        cout << '+' << i;
-        dfs(least - i, i);
+    for (int i = last; sum + i <= n && i < n; i++)
+    {
+        path.push_back(i);
+        if (sum + i == n)
+        {
+            for (int i = 0; i < path.size(); i++)
+            {
+                if (i)
+                    cout << '+';
+                cout << path[i];
+            }
+            cout << "\n";
+        }
+        else
+        {
+            dfs(sum + i, i);
+        }
+        path.pop_back();
     }
 }
 void solve()
 {
     cin >> n;
 
-    for (int i = 1; i < n; i++)
-    {
-        cout << i;
-        dfs(n - i, i);
-    }
+    dfs(0, 1);
 }
 
 int main()
