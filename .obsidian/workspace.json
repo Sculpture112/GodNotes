@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-09-04.md",
+                "file": "例题/P1101 单词方阵.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-04"
+              "title": "P1101 单词方阵"
             }
           }
         ]
@@ -87,7 +87,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -242,10 +242,11 @@
   },
   "active": "6333cf840343fab2",
   "lastOpenFiles": [
+    "Daily/2026-09-04.md",
+    "例题/P1101 单词方阵.md",
     "God/P_1101_单词方阵.cpp",
     "Daily/2026-09-05.md",
     "例题/P1433 吃奶酪.md",
-    "Daily/2026-09-04.md",
     "例题/P1019 [NOIP 2000 提高组] 单词接龙.md",
     "God/P_1019_NOIP_2000__u63d0_u9ad8_u7ec4__u5355_u8bcd_u63a5_u9f99__u7591_u4f3c_u9519_u9898.bin",
     "Excalidraw/Drawing 2026-09-04 15.25.11.excalidraw.md",
@@ -278,7 +279,6 @@
     "God/P_1983_NOIP_2013__u666e_u53ca_u7ec4__u8f66_u7ad9_u5206_u7ea7.bin",
     "God/P_1347_ECNA_2001__u6392_u5e8f.bin",
     "God/P_1347_ECNA_2001_排序.cpp",
-    "God/P_1347_ECNA_2001_排序(floyd解.cpp",
     "image/Pasted image 20260812165838.png",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
