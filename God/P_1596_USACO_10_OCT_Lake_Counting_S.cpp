@@ -12,7 +12,16 @@ int n, m;
 void solve()
 {
     cin >> n >> m;
-    vector<string> graph
+    vector<string> graph;
+    for (int i = 0; i < n; i++) {
+        cin >> graph[i];
+    }
+
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m;j++){
+            if(graph[i][j] == '')
+        }
+    }
 }
 
 int main()
