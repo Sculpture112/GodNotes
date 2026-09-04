@@ -12,15 +12,19 @@ int n, m;
 int ans = 0;
 const int dx[8] = {0, 1, 1, 1, 0, -1, -1, -1};
 const int dy[8] = {1, 1, 0, -1, -1, -1, 0, 1};
+bool used[105][105];
 void dfs(int x,int y)
 {
-    for()
+    for (int i = 0; i < 8;i++){
+        int nx = x + dx[i];
+        int ny = y + dy[i];
+        if (nx < 0 || nx >= n||ny<0||ny>=m || used)
+    }
 }
 void solve()
 {
     cin >> n >> m;
     vector<string> graph;
-    vector<vector<bool>> used(n, vector<bool>(m));
     for (int i = 0; i < n; i++)
     {
         cin >> graph[i];
@@ -32,7 +36,8 @@ void solve()
         {
             if (graph[i][j] == 'W' && !used[i][j])
             {
-                dfs();
+                ans++;
+                dfs(i,j);
             }
         }
     }
