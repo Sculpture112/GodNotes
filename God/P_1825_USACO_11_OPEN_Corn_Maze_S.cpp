@@ -8,8 +8,31 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
 
+void bfs(){
+
+}
+void solve() {
+    int n, m;
+    cin >> n >> m;
+    vector<string> graph;
+    int sx, sy;
+    
+    for (int i = 0; i < n; i++) {
+        cin >> graph[i];
+        for (int j = 0; j < m; j++) {
+            if(graph[i][j] =='@'){
+                sx = i, sy = j;
+            }
+        }
+    }
+
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m;j++){
+            bfs();
+        }
+    }
+    
 }
 
 int main() {
