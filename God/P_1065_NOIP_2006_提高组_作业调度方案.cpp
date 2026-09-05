@@ -36,6 +36,7 @@ void solve()
         for (int j = 0; j < m; j++)
         {
             int v;
+            cin >> v;
             time[i].push_back(v);
         }
     }
