@@ -16,7 +16,9 @@ void solve() {
         cin >> a[i];
     }
 
-    auto it = find(a.begin(), a.end(), 1);
+    for (int i = 0; i < n; i++) {
+        
+    }
     
 }   
 
