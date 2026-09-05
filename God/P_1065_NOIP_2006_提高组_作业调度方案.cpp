@@ -65,10 +65,19 @@ void solve() {
 
             if(current+duration<= left){
                 start = current;
-                
+                intsertpos = i;
                 break;
             }
+            current = max(current, right);
         }
+
+        if(intsertpos == intervals.size()){
+            start = current;
+        }
+
+        int finish = start + duration;
+
+        schedule[mach]
     }
 }
 
