@@ -8,17 +8,59 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+void solve()
+{
+    int m, n;
+    cin >> m >> n;
 
+    vector<int> shunxu(2 * n);
+    vector<int> gongxu[n];
+
+    for (int i = 0; i < 2 * n; i++)
+    {
+        cin >> shunxu[i];
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0, v; j < m; j++)
+        {
+            cin >> v;
+            gongxu[i].push_back(v);
+        }
+    }
+
+    vector<int> time[n];
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < m; j++)
+        {
+            int v;
+            time[i].push_back(v);
+        }
+    }
+
+    vector<int> path[m];
+    vector<int> used(n);
+    for (int i = 0; i < 2 * n; i++)
+    {
+        int order = shunxu[i];
+        int machine = gongxu[order][used[order]];
+
+        int t = used[order]++;
+        auto it = path[order].find(0);
+    }
 }
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     int T = 1;
     // cin >> T;
-    while (T--) solve();
+    while (T--)
+        solve();
 
     return 0;
 }
