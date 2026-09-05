@@ -236,8 +236,7 @@
       "templater-obsidian:Templater": false,
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "periodic-notes:Open today": false
+      "calendar-status-scheduler:安排当前笔记到未来日历": false
     }
   },
   "active": "60107d64f8f5d82d",
