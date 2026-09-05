@@ -12,22 +12,13 @@ void solve() {
     int n;
     cin >> n;
     vector<int> a(n);
-    vector<int> sign;
     for (int i = 0; i < n; i++) {
         cin >> a[i];
-        if(a[i] == 1){
-            sign.push_back(i);
-        }
-
     }
 
-
-    for (int i = 0; i < n;i++){
-        if(a[i] == 1){
-
-        }
-    }
-}
+    auto it = find(a.begin(), a.end(), 1);
+    
+}   
 
 int main() {
     ios::sync_with_stdio(false);
