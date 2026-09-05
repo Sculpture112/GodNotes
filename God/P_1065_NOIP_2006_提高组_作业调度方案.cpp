@@ -59,7 +59,16 @@ void solve() {
         int current = ready;
         int intsertpos = intervals.size();
 
-        
+        for (int i = 0; i < intervals.size(); i++) {
+            int left = intervals[i].first;
+            int right = intervals[i].second;
+
+            if(current+duration<= left){
+                start = current;
+                
+                break;
+            }
+        }
     }
 }
 
