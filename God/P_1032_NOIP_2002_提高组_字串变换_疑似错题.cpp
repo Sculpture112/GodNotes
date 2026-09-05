@@ -84,6 +84,7 @@ void solve()
     {
         cout << "NO ANSWER!";
     }
+    
 }
 
 int main()
