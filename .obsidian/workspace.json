@@ -236,15 +236,16 @@
       "templater-obsidian:Templater": false,
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "calendar-status-scheduler:安排当前笔记到未来日历": false
+      "calendar-status-scheduler:安排当前笔记到未来日历": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "60107d64f8f5d82d",
   "lastOpenFiles": [
+    "God/P_1825_USACO_11_OPEN_Corn_Maze_S.cpp",
     "备赛/备赛.md",
     "例题/P1825 [USACO11OPEN] Corn Maze S.md",
     "God/P_1825_USACO_11_OPEN_Corn_Maze_S.exe",
-    "God/P_1825_USACO_11_OPEN_Corn_Maze_S.cpp",
     "备份/063 Code03 最接近目标值的子序列和.md",
     "备份/063 Code02 牛牛的背包问题 & 世界冰球锦标赛.md",
     "例题/P1032 [NOIP 2002 提高组] 字串变换.md",
@@ -277,7 +278,6 @@
     "例题/洛谷kmp.md",
     "image/Pasted image 20260904105209.png",
     "杂物/状态.md",
-    "例题/洛谷前缀树.md",
     "image/Pasted image 20260812165838.png",
     "image/Pasted image 20260728190851.png",
     "image/Pasted image 20260715173248.png",
