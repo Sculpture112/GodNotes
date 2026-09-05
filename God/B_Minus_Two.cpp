@@ -15,18 +15,33 @@ void solve() {
     vector<int> a(n);
     for (int i = 0; i < n; i++) {
         cin >> a[i];
-        if(a[i]/2 %2 ==0){
-            cnt[0]++;
+        if(a[i]%2 == 0){
+            if((a[i]/2) %2 == 0){
+                cnt[0]++;
+            }
+            else{
+                cnt[1]++;
+            }
         }
         else{
             cnt[2]++;
         }
     }
-    cnt[1] = n - cnt[0] - cnt[2];
-    int ans = max(cnt[0], cnt[1]);
-    ans = max(ans, cnt[2]);
+    // int mx = 0;
+    // for (int i = 0; i < 3; i++) {
+    //     cout << cnt[i] << " ";
+    // }
+    // cout << "\n";
+    // for(int num:cnt){
+    //     mx = max(mx, num);
+    // }
+    // cout << mx << "\n";
 
-    cout << ans << "\n";
+    int ans = 0;
+    for(int num:cnt){
+        ans = max(ans, num);
+    }
+    cout << ans<<"\n";
 }
 
 
