@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/P1065 [NOIP 2006 提高组] 作业调度方案.md",
+                "file": "Daily/2026-09-05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "P1065 [NOIP 2006 提高组] 作业调度方案"
+              "title": "2026-09-05"
             }
           }
         ]
@@ -242,9 +242,9 @@
   },
   "active": "60107d64f8f5d82d",
   "lastOpenFiles": [
+    "例题/P1065 [NOIP 2006 提高组] 作业调度方案.md",
     "God/P_1065_NOIP_2006__u63d0_u9ad8_u7ec4__u4f5c_u4e1a_u8c03_u5ea6_u65b9_u6848.bin",
     "Daily/2026-09-06.md",
-    "例题/P1065 [NOIP 2006 提高组] 作业调度方案.md",
     "算法名/模拟.md",
     "Daily/2026-09-05.md",
     "test.exe",
@@ -263,7 +263,6 @@
     "God/P_1032_NOIP_2002__u63d0_u9ad8_u7ec4__u5b57_u4e32_u53d8_u6362__u7591_u4f3c_u9519_u9898.bin",
     "God/P_1032_NOIP_2002_提高组_字串变换_疑似错题.cpp",
     "例题/P1162 填涂颜色.md",
-    "God/P_1162_填涂颜色.cpp",
     "例题/P2404 自然数的拆分问题.md",
     "例题/P1101 单词方阵.md",
     "例题/P1433 吃奶酪.md",
