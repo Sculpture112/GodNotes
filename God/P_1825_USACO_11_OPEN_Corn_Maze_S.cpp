@@ -11,7 +11,7 @@ const ll LINF = 4e18;
 void solve() {
     int n, m;
     cin >> n >> m;
-    
+    for
 }
 
 int main() {
