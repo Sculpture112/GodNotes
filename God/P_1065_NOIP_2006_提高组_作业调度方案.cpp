@@ -42,13 +42,24 @@ void solve()
 
     vector<int> path[m];
     vector<int> used(n);
+    for (int i = 0; i < m; i++) {
+        path[i].resize(100);
+    }
     for (int i = 0; i < 2 * n; i++)
     {
-        int order = shunxu[i];
+        int order = shunxu[i]; // 工件号
         int machine = gongxu[order][used[order]];
 
         int t = used[order]++;
-        auto it = path[order].find(0);
+        auto it = find(path[machine].begin(), path[machine].end(), 0);
+
+        if (it != path[machine].end() && it + t < path[machine].end())
+        {
+            for (int k = 0; k < t; k++)
+            {
+                path[machine][it] = order;
+            }
+        }
     }
 }
 
