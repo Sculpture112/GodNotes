@@ -9,7 +9,13 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
-
+    int n;
+    cin >> n;
+    string s;
+    cin >> s;
+    for (int i = 0; i < s.size();i++){
+        
+    }
 }
 
 int main() {
@@ -17,7 +23,7 @@ int main() {
     cin.tie(nullptr);
 
     int T = 1;
-    // cin >> T;
+    cin >> T;
     while (T--) solve();
 
     return 0;
