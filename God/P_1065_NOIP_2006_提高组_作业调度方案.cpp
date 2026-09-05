@@ -77,8 +77,13 @@ void solve() {
 
         int finish = start + duration;
 
-        schedule[mach]
+        schedule[machine].insert(intervals.begin() + intsertpos, {start, finish});
+
+        jobEnd[job] = finish;
+
+        ans = max(ans, finish);
     }
+    cout << ans;
 }
 
 int main() {
