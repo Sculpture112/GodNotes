@@ -12,12 +12,30 @@ void solve() {
     int n;
     cin >> n;
     vector<int> a(n);
+    vector<int> sign;
+    vector<int> fu;
     for (int i = 0; i < n; i++) {
         cin >> a[i];
+        if(a[i] == 1){
+            sign.push_back(i);
+        }
+        if(a[i] == -1){
+            fu.push_back(i);
+        }
     }
 
-    for (int i = 0; i < n; i++) {
-        
+    int ans = 0;
+
+
+    
+    for (int i = 0; i < n-1; i++) {
+        ans = max(ans,sign[i + 1] - sign[i]);
+    }
+
+    if(!fu.empty()){
+        if(fu[0]<sign[0]){
+            a[] = 1;
+        }
     }
     
 }   
