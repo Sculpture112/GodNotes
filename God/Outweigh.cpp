@@ -8,14 +8,17 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+void solve()
+{
     int n;
     cin >> n;
-    vector<int> a(n),b(n);
-    for (int i = 0; i < n; i++) {
+    vector<int> a(n), b(n);
+    for (int i = 0; i < n; i++)
+    {
         cin >> a[i];
     }
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
+    {
         cin >> b[i];
     }
 
@@ -25,35 +28,50 @@ void solve() {
     vector<int> w(n);
     int fusum = 0;
     int zhsum = 0;
-    for (int i = 0; i < n; i++) {
-        if(a[i]>b[i]){
+    for (int i = 0; i < n; i++)
+    {
+        if (a[i] > b[i])
+        {
             ok = true;
         }
         diff[i] = a[i] - b[i];
-        if(diff[i]<=0){
+        if (diff[i] <= 0)
+        {
             w[i] = 1;
             fusum += diff[i];
         }
-        else{
+        else
+        {
             zhsum += diff[i];
         }
     }
 
-    if(ok){
+    fusum = abs(fusum);
+
+    if (ok)
+    {
         cout << "Yes" << "\n";
-         
+        int k = (fusum + zhsum - 1) / zhsum + 1;
+        for (int i = 0; i < n; i++) {
+            if(w[i] != 1){
+                w[i] = k;
+            }
+            cout << w[i] << " ";
+        }
+        return;
     }
-
-
+    cout << "No";
 }
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     int T = 1;
     // cin >> T;
-    while (T--) solve();
+    while (T--)
+        solve();
 
     return 0;
 }
