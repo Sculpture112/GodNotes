@@ -19,7 +19,32 @@ void solve() {
         cin >> b[i];
     }
 
-    
+    bool ok = false;
+
+    vector<int> diff(n);
+    vector<int> w(n);
+    int fusum = 0;
+    int zhsum = 0;
+    for (int i = 0; i < n; i++) {
+        if(a[i]>b[i]){
+            ok = true;
+        }
+        diff[i] = a[i] - b[i];
+        if(diff[i]<=0){
+            w[i] = 1;
+            fusum += diff[i];
+        }
+        else{
+            zhsum += diff[i];
+        }
+    }
+
+    if(ok){
+        cout << "Yes" << "\n";
+         
+    }
+
+
 }
 
 int main() {
