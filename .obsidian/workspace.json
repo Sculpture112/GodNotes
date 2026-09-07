@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/E - One Time Coupon.md",
+                "file": "写题/Atcoder/abc/abc474/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "E - One Time Coupon"
+              "title": "未命名"
             }
           }
         ]
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/E - One Time Coupon.md",
+                "file": "写题/Atcoder/abc/abc474/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,9 +242,10 @@
   },
   "active": "411c203e5dae1290",
   "lastOpenFiles": [
-    "Daily/2026-09-10.md",
-    "例题/E - One Time Coupon.md",
     "Daily/2026-09-07.md",
+    "写题/Atcoder/abc/abc474/未命名.md",
+    "写题/Atcoder/abc/abc474/E - One Time Coupon.md",
+    "Daily/2026-09-10.md",
     "语法/list.md",
     "母题/188 Code02 无向图的欧拉路径1.md",
     "God/One_Time_Coupon.cpp",
@@ -273,7 +274,6 @@
     "写题/Atcoder/abc/abc474",
     "Daily/2026-09-05.md",
     "Daily/2026-09-15.md",
-    "例题/P1363 幻象迷宫.md",
     "写题/Codeforces/div2/1119",
     "God/Outweigh.bin",
     "main.exe",
