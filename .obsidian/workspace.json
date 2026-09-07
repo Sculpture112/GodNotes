@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "C - Remove and Append"
             }
+          },
+          {
+            "id": "411c203e5dae1290",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "语法/list.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "list"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,12 +255,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "60107d64f8f5d82d",
+  "active": "411c203e5dae1290",
   "lastOpenFiles": [
-    "算法名/list.md",
+    "语法",
+    "未命名 6.md",
+    "未命名.md",
+    "语法/list.md",
+    "写题/Atcoder/abc/abc474/C - Remove and Append.md",
     "写题/Atcoder/abc",
     "算法名/链表.md",
-    "写题/Atcoder/abc/abc474/C - Remove and Append.md",
     "Daily/2026-09-17.md",
     "算法名/最后一次出现的位置.md",
     "例题/P1983 [NOIP 2013 普及组] 车站分级.md",
@@ -267,10 +285,7 @@
     "例题/P2404 自然数的拆分问题.md",
     "例题/P1032 [NOIP 2002 提高组] 字串变换.md",
     "算法名/双向搜索.md",
-    "Daily/2026-09-04.md",
-    "写题/Codeforces/div2/1119/C. 101.md",
     "写题/Codeforces/div2/1119",
-    "Excalidraw/Drawing 2026-09-05 23.24.44.excalidraw.md",
     "God/Outweigh.bin",
     "main.exe",
     "main.cpp",
