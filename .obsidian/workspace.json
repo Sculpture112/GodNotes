@@ -11,12 +11,14 @@
             "id": "60107d64f8f5d82d",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-09-05 23.24.44.excalidraw.md"
+                "file": "写题/Codeforces/未命名.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-09-05 23.24.44.excalidraw"
+              "icon": "lucide-file",
+              "title": "未命名"
             }
           }
         ]
@@ -85,7 +87,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -238,10 +240,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "60107d64f8f5d82d",
+  "active": "c31c5bd99dc4b701",
   "lastOpenFiles": [
-    "God/Outweigh.bin",
+    "写题/Codeforces/div2/未命名",
     "Excalidraw/Drawing 2026-09-05 23.24.44.excalidraw.md",
+    "写题/Codeforces/未命名.md",
+    "God/Outweigh.bin",
     "main.exe",
     "main.cpp",
     "God/C_101.cpp",
@@ -254,7 +258,6 @@
     "God/A_Cover_in_Water.cpp",
     "Daily/2026-09-05.md",
     "例题/P1065 [NOIP 2006 提高组] 作业调度方案.md",
-    "God/P_1065_NOIP_2006__u63d0_u9ad8_u7ec4__u4f5c_u4e1a_u8c03_u5ea6_u65b9_u6848.bin",
     "算法名/模拟.md",
     "例题/P1825 [USACO11OPEN] Corn Maze S.md",
     "Daily/2026-09-04.md",
@@ -275,7 +278,6 @@
     "例题/P1363 幻象迷宫.md",
     "Daily/2026-09-07.md",
     "Daily/2026-09-03.md",
-    "例题/P1347 [ECNA 2001] 排序.md",
     "image/Pasted image 20260904105209.png",
     "image/Pasted image 20260812165838.png",
     "image/Pasted image 20260728190851.png",
