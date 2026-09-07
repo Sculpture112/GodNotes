@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/P1065 [NOIP 2006 提高组] 作业调度方案.md",
+                "file": "例题/P1825 [USACO11OPEN] Corn Maze S.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "P1065 [NOIP 2006 提高组] 作业调度方案"
+              "title": "P1825 [USACO11OPEN] Corn Maze S"
             }
           }
         ]
@@ -243,8 +243,11 @@
   "active": "60107d64f8f5d82d",
   "lastOpenFiles": [
     "Daily/2026-09-06.md",
-    "Daily/2026-09-05.md",
+    "例题/P1065 [NOIP 2006 提高组] 作业调度方案.md",
+    "Daily/2026-09-12.md",
     "Daily/2026-09-10.md",
+    "Daily/2026-09-05.md",
+    "例题/P1825 [USACO11OPEN] Corn Maze S.md",
     "例题/P1019 [NOIP 2000 提高组] 单词接龙.md",
     "例题/P1433 吃奶酪.md",
     "例题/P2404 自然数的拆分问题.md",
@@ -253,7 +256,6 @@
     "算法名/双向搜索.md",
     "Daily/2026-09-04.md",
     "写题/Codeforces/div2/1119/C. 101.md",
-    "Daily/2026-09-12.md",
     "写题/Codeforces/div2/1119",
     "Excalidraw/Drawing 2026-09-05 23.24.44.excalidraw.md",
     "God/Outweigh.bin",
@@ -265,9 +267,7 @@
     "God/A_Three_Numbers_on_the_Blackboard.bin",
     "God/A_Three_Numbers_on_the_Blackboard.cpp",
     "God/A_Cover_in_Water.bin",
-    "例题/P1065 [NOIP 2006 提高组] 作业调度方案.md",
     "算法名/模拟.md",
-    "例题/P1825 [USACO11OPEN] Corn Maze S.md",
     "备赛/备赛.md",
     "备份/063 Code03 最接近目标值的子序列和.md",
     "备份/063 Code02 牛牛的背包问题 & 世界冰球锦标赛.md",
