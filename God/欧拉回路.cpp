@@ -36,15 +36,17 @@ void solve()
         cin >> u >> v;
         addedge(u, v);
         outdeg[u]++;
+        indeg[u]++;
         indeg[v]++;
+        outdeg[v]++;
     }
 
     bool ans = true;
 
-    for (int i = 1; i <= n; i++) {
-        cout << outdeg[i] << " " << indeg[i] << "\n";
+    // for (int i = 1; i <= n; i++) {
+    //     cout << outdeg[i] << " " << indeg[i] << "\n";
         
-    }
+    // }
     for (int i = 1; i <= n; i++)
     {
         int diff = outdeg[i] - indeg[i];
