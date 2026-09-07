@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "写题/Atcoder/abc474/C - Remove and Append.md",
+                "file": "写题/Atcoder/abc/abc474/C - Remove and Append.md",
                 "mode": "source",
                 "source": false
               },
@@ -91,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 200
   },
   "right": {
     "id": "4768838af22391f0",
@@ -240,11 +240,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "60107d64f8f5d82d",
+  "active": "c31c5bd99dc4b701",
   "lastOpenFiles": [
+    "写题/Atcoder/abc",
+    "算法名/链表.md",
+    "写题/Atcoder/abc/abc474/C - Remove and Append.md",
+    "Daily/2026-09-17.md",
+    "算法名/最后一次出现的位置.md",
     "例题/P1983 [NOIP 2013 普及组] 车站分级.md",
-    "写题/Atcoder/abc474/C - Remove and Append.md",
-    "写题/Atcoder/abc474",
+    "写题/Atcoder/abc/abc474",
     "Daily/2026-09-05.md",
     "Daily/2026-09-07.md",
     "Daily/2026-09-15.md",
@@ -274,10 +278,6 @@
     "God/B_Domino_Tiles.cpp",
     "God/A_Three_Numbers_on_the_Blackboard.bin",
     "God/A_Three_Numbers_on_the_Blackboard.cpp",
-    "算法名/模拟.md",
-    "备赛/备赛.md",
-    "备份/063 Code03 最接近目标值的子序列和.md",
-    "备份/063 Code02 牛牛的背包问题 & 世界冰球锦标赛.md",
     "image/Pasted image 20260904105209.png",
     "image/Pasted image 20260812165838.png",
     "image/Pasted image 20260728190851.png",

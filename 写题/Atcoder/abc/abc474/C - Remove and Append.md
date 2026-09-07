@@ -2,10 +2,10 @@
 
 > **原题链接:** (https://atcoder.jp/contests/abc474/tasks/abc474_c)
 
-**涉及知识点:** [[]], [[]]，[[补题]],[[]],[[]]
+**涉及知识点:** [[最后一次出现的位置]], [[0]]，[[补题]],[[链表]],[[]]
 
 **核心套路:** 
-
+[两种方法]
 ## 破题切入点 (思维闪念)
 []
 
@@ -21,6 +21,52 @@
 
 **一个相似变式：**
 
+链表
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int N, Q;
+    cin >> N >> Q;
+
+    list<int> seq;
+    vector<list<int>::iterator> pos(N + 1);
+
+    for (int i = 0; i < N; i++) {
+        int x;
+        cin >> x;
+
+        seq.push_back(x);
+        pos[x] = prev(seq.end());
+    }
+
+    while (Q--) {
+        int x;
+        cin >> x;
+
+        seq.erase(pos[x]);
+
+        seq.push_back(x);
+        pos[x] = prev(seq.end());
+    }
+
+    bool first = true;
+    for (int x : seq) {
+        if (!first) cout << ' ';
+        cout << x;
+        first = false;
+    }
+    cout << '\n';
+
+    return 0;
+}
+```
+
+	last数组
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
