@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/P1032 [NOIP 2002 提高组] 字串变换.md",
+                "file": "例题/P2404 自然数的拆分问题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "P1032 [NOIP 2002 提高组] 字串变换"
+              "title": "P2404 自然数的拆分问题"
             }
           }
         ]
@@ -242,14 +242,16 @@
   },
   "active": "60107d64f8f5d82d",
   "lastOpenFiles": [
-    "算法名/双向搜索.md",
-    "例题/P1032 [NOIP 2002 提高组] 字串变换.md",
     "Daily/2026-09-05.md",
+    "例题/P2404 自然数的拆分问题.md",
+    "Daily/2026-09-07.md",
+    "Daily/2026-09-10.md",
+    "例题/P1032 [NOIP 2002 提高组] 字串变换.md",
+    "算法名/双向搜索.md",
     "Daily/2026-09-04.md",
     "Daily/2026-09-06.md",
     "写题/Codeforces/div2/1119/C. 101.md",
     "Daily/2026-09-12.md",
-    "Daily/2026-09-07.md",
     "写题/Codeforces/div2/1119",
     "Excalidraw/Drawing 2026-09-05 23.24.44.excalidraw.md",
     "God/Outweigh.bin",
@@ -268,7 +270,6 @@
     "备份/063 Code03 最接近目标值的子序列和.md",
     "备份/063 Code02 牛牛的背包问题 & 世界冰球锦标赛.md",
     "例题/P1162 填涂颜色.md",
-    "例题/P2404 自然数的拆分问题.md",
     "例题/P1101 单词方阵.md",
     "例题/P1433 吃奶酪.md",
     "例题/P1019 [NOIP 2000 提高组] 单词接龙.md",
@@ -277,7 +278,6 @@
     "算法名/单词接龙.md",
     "2026-09-04-10-52-05.md",
     "例题/P1127 词链.md",
-    "例题/P1363 幻象迷宫.md",
     "image/Pasted image 20260904105209.png",
     "image/Pasted image 20260812165838.png",
     "image/Pasted image 20260728190851.png",
