@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "写题/Atcoder/abc/abc474/C - Remove and Append.md",
+                "file": "写题/Atcoder/abc/abc474/D - Outweigh.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C - Remove and Append"
+              "title": "D - Outweigh"
             }
           },
           {
@@ -256,12 +256,13 @@
   },
   "active": "60107d64f8f5d82d",
   "lastOpenFiles": [
+    "写题/Atcoder/abc/abc474/C - Remove and Append.md",
+    "写题/Atcoder/abc/abc474/D - Outweigh.md",
     "God/Remove_and_Append.bin",
     "语法/list.md",
     "语法",
     "未命名 6.md",
     "未命名.md",
-    "写题/Atcoder/abc/abc474/C - Remove and Append.md",
     "写题/Atcoder/abc",
     "算法名/链表.md",
     "Daily/2026-09-17.md",
@@ -291,7 +292,6 @@
     "main.cpp",
     "God/C_101.cpp",
     "God/B_Minus_Two.bin",
-    "God/B_Domino_Tiles.cpp",
     "image/Pasted image 20260904105209.png",
     "image/Pasted image 20260812165838.png",
     "image/Pasted image 20260728190851.png",
