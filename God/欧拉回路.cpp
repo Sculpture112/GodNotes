@@ -41,10 +41,14 @@ void solve()
 
     bool ans = true;
 
+    for (int i = 1; i <= n; i++) {
+        cout << outdeg[i] << " " << indeg[i] << "\n";
+        
+    }
     for (int i = 1; i <= n; i++)
     {
         int diff = outdeg[i] - indeg[i];
-        if (diff <= -1 || diff >= 1)
+        if (diff != 0)
         {
             ans = false;
             break;
