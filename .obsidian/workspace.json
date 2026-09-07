@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "写题/Atcoder/abc/abc474/未命名.md",
+                "file": "写题/Atcoder/abc/abc474/F - Increment All Divisors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "F - Increment All Divisors"
             }
           }
         ]
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "写题/Atcoder/abc/abc474/未命名.md",
+                "file": "写题/Atcoder/abc/abc474/F - Increment All Divisors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,14 +236,15 @@
       "templater-obsidian:Templater": false,
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "periodic-notes:Open today": false
+      "calendar-status-scheduler:安排当前笔记到未来日历": false
     }
   },
   "active": "411c203e5dae1290",
   "lastOpenFiles": [
+    "算法名/莫比乌斯反演.md",
+    "写题/Atcoder/abc/abc474/F - Increment All Divisors.md",
+    "算法名/莫比乌思.md",
     "Daily/2026-09-07.md",
-    "写题/Atcoder/abc/abc474/未命名.md",
     "写题/Atcoder/abc/abc474/E - One Time Coupon.md",
     "Daily/2026-09-10.md",
     "语法/list.md",
@@ -272,8 +273,6 @@
     "算法名/最后一次出现的位置.md",
     "例题/P1983 [NOIP 2013 普及组] 车站分级.md",
     "写题/Atcoder/abc/abc474",
-    "Daily/2026-09-05.md",
-    "Daily/2026-09-15.md",
     "写题/Codeforces/div2/1119",
     "God/Outweigh.bin",
     "main.exe",
