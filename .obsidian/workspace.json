@@ -35,8 +35,7 @@
               "title": "list"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -255,12 +254,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "411c203e5dae1290",
+  "active": "60107d64f8f5d82d",
   "lastOpenFiles": [
+    "God/Remove_and_Append.bin",
+    "语法/list.md",
     "语法",
     "未命名 6.md",
     "未命名.md",
-    "语法/list.md",
     "写题/Atcoder/abc/abc474/C - Remove and Append.md",
     "写题/Atcoder/abc",
     "算法名/链表.md",
@@ -292,7 +292,6 @@
     "God/C_101.cpp",
     "God/B_Minus_Two.bin",
     "God/B_Domino_Tiles.cpp",
-    "God/A_Three_Numbers_on_the_Blackboard.bin",
     "image/Pasted image 20260904105209.png",
     "image/Pasted image 20260812165838.png",
     "image/Pasted image 20260728190851.png",
