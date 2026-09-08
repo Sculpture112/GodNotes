@@ -13,9 +13,10 @@ void solve() {
     cin >> x >> y >> k;
 
     ll ans = 0;
-    for (int i = 0; i < k; i++) {
-        ans += (y % x);
-        x += 1, y += 1;
+
+    int diff = y - x;
+    while(y-x!=diff){
+        ans += 
     }
     cout << ans << "\n";
 }
