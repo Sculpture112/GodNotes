@@ -9,7 +9,8 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
-    ll x, y, k;
+    int x, y;
+    ll k;
     cin >> x >> y >> k;
 
     ll ans = 0;
@@ -22,7 +23,7 @@ void solve() {
         y++, x++;
         if(cnt==k)
             break;
-        cout << ans << " ";
+        // cout << ans << " ";
     }
     for (cnt = 0; cnt < k; cnt++) {
         ans += diff;
