@@ -17,31 +17,26 @@ void solve()
 
     int pos;
     int cnt = 0;
-    bool first = false;
     for (int i = 31; i >= 0; i--)
     {
-        if (x & 1 != 0 && !first)
+        if (x & 1 != 0)
         {
             pos = i;
-        }
-
-        if (y & 1 != 0)
-        {
-            cnt++;
+            break;
         }
     }
 
     if (x == 0)
     {
-        cout << cnt << " " << 0;
+        cout << y << " " << 0;
         cout << "\n";
         return;
     }
 
     for (int i = pos; i >= 0; i++)
     {
-        if (((1 << i) & sum) != 0){
-            
+        if (((1 << i) <= sum) != 0){
+            sum -= (1 << i);
         }
     }
 }
