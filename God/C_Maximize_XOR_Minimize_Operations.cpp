@@ -12,6 +12,7 @@ void solve()
     ll x, y;
     cin >> x >> y;
     ll sum = x + y;
+    ll osum = x + y;
     ll cnt = x;
     ll ans = 0;
 
@@ -41,7 +42,7 @@ void solve()
         }
     }
 
-    y = sum - ans;
+    y = osum - ans;
     ans ^= y;
     cout << ans << " " << cnt - x << "\n";
 }
