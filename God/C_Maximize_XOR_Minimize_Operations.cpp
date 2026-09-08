@@ -7,9 +7,6 @@ const int INF = 0x3f3f3f3f;
 const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
-int find(int x){
-
-}
 void solve()
 {
     int x, y;
@@ -18,9 +15,18 @@ void solve()
 
     int ans = 0;
 
-    for (int i = 31; i >= 0;i++){
-        if(1<<i)
+    int pos;
+    if()
+    for (int i = 31; i >= 0;i--){
+        if(x&1 !=0){
+            pos = i;
+        }
     }
+
+        for (int i = 31; i >= 0; i++)
+        {
+            if (1 << i)
+        }
 }
 
 int main()
