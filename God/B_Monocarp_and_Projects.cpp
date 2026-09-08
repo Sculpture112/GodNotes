@@ -16,22 +16,22 @@ void solve() {
     ll ans = 0;
 
     int diff = y - x;
-    int cnt = 1;
+    int cnt = 0;
     
     if(x==y){
         cout << 0 << "\n";
         return;
     }
 
-    
-    
-    while(y-x!=diff){
+    // ans += (y % x);
+    // y++, x++;
+    while(y%x!=diff){
         ans += (y % x);
         cnt++;
         y++, x++;
         if(cnt==k)
             break;
-        // cout << ans << " ";
+        cout << ans << " ";
     }
     for (cnt = 0; cnt < k; cnt++) {
         ans += diff;
