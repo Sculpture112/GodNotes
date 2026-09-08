@@ -20,37 +20,8 @@
               "icon": "lucide-file",
               "title": "F - Increment All Divisors"
             }
-          },
-          {
-            "id": "45b855031dab2e4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-09-08-11-10-44.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-09-08-11-10-44"
-            }
-          },
-          {
-            "id": "151baf6f7dac5dfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "算法名/莫比乌斯反演.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "莫比乌斯反演"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -270,13 +241,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "45b855031dab2e4b",
+  "active": "411c203e5dae1290",
   "lastOpenFiles": [
+    "2026-09-08-11-10-44.md",
+    "算法名/莫比乌斯反演.md",
+    "Atcoder/abc/abc474/F - Increment All Divisors.md",
+    "image/Pasted image 20260908111611.png",
     "image/Pasted image 20260908111223.png",
     "image/Pasted image 20260908111156.png",
-    "2026-09-08-11-10-44.md",
-    "Atcoder/abc/abc474/F - Increment All Divisors.md",
-    "算法名/莫比乌斯反演.md",
     "Excalidraw/Drawing 2026-09-08 10.17.04.excalidraw.md",
     "excalidraw 26-09-08 10.28.38.ex",
     "学校.md",
@@ -315,8 +287,6 @@
     "image/Pasted image 20260715173248.png",
     "image/Pasted image 20260707142236.png",
     "image/Pasted image 20260627193216.png",
-    "image/Pasted image 20260627193211.png",
-    "image/Pasted image 20260611170400.png",
-    "image/Pasted image 20260611165947.png"
+    "image/Pasted image 20260627193211.png"
   ]
 }
