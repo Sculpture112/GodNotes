@@ -12,6 +12,8 @@ void solve()
 {
     int x, y;
     cin >> x >> y;
+    int ans = 0;
+    
 }
 
 int main()
@@ -23,8 +25,6 @@ int main()
     // cin >> T;
     while (T--)
         solve();
-    cout << LINF << "\n";
-    cout << pow(2, 30);
 
     return 0;
 }
