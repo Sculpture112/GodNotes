@@ -34,7 +34,8 @@ void solve()
 
     for (int i = pos; i >= 0; i--)
     {
-        if (((1 << i) <= sum) != 0){
+        if (((1 << i) <= sum && ans + (1 << i) <= x) != 0)
+        {
             sum -= (1 << i);
             ans += (1 << i);
         }
@@ -42,7 +43,7 @@ void solve()
 
     y = sum - ans;
     x ^= y;
-    cout << x << " "<<cnt - x<<"\n";
+    cout << x << " " << cnt - x << "\n";
 }
 
 int main()
