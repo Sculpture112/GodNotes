@@ -35,8 +35,7 @@
               "title": "莫比乌斯反演"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -255,12 +254,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "151baf6f7dac5dfc",
+  "active": "411c203e5dae1290",
   "lastOpenFiles": [
+    "算法名/莫比乌斯反演.md",
     "Atcoder/abc/abc474/F - Increment All Divisors.md",
     "Atcoder/abc/abc474/C - Remove and Append.md",
     "算法名/未命名.md",
-    "算法名/莫比乌斯反演.md",
     "算法名/莫比乌思.md",
     "Daily/2026-09-07.md",
     "Atcoder/abc/abc474/E - One Time Coupon.md",

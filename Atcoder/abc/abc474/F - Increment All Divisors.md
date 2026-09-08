@@ -21,6 +21,109 @@
 
 **一个相似变式：**
 
+莫比乌斯反演
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+using int64 = long long;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int N;
+    cin >> N;
+
+    vector<int64> A(N + 1);
+    for (int i = 1; i <= N; ++i) {
+        cin >> A[i];
+    }
+
+    // 线性筛求莫比乌斯函数
+    vector<int> mu(N + 1);
+    vector<int> primes;
+    vector<bool> composite(N + 1, false);
+
+    mu[1] = 1;
+
+    for (int i = 2; i <= N; ++i) {
+        if (!composite[i]) {
+            primes.push_back(i);
+            mu[i] = -1;
+        }
+
+        for (int p : primes) {
+            if (1LL * i * p > N) {
+                break;
+            }
+
+            composite[i * p] = true;
+
+            if (i % p == 0) {
+                mu[i * p] = 0;
+                break;
+            }
+
+            mu[i * p] = -mu[i];
+        }
+    }
+
+    // X 至少不能小于原数组最大值
+    int64 lower = *max_element(A.begin() + 1, A.end());
+
+    const int64 INF = 4'000'000'000'000'000'000LL;
+    int64 upper = INF;
+
+    for (int j = 1; j <= N; ++j) {
+        // C_j = coef * X + constant
+        int64 coef = 0;
+        int64 constant = 0;
+
+        for (int t = 1; j * t <= N; ++t) {
+            coef += mu[t];
+            constant -= 1LL * mu[t] * A[j * t];
+        }
+
+        // 要求 coef * X + constant >= 0
+        if (coef > 0) {
+            if (constant < 0) {
+                int64 need =
+                    (-constant + coef - 1) / coef;
+
+                lower = max(lower, need);
+            }
+        } else if (coef == 0) {
+            if (constant < 0) {
+                cout << -1 << '\n';
+                return 0;
+            }
+        } else {
+            if (constant < 0) {
+                cout << -1 << '\n';
+                return 0;
+            }
+
+            upper = min(
+                upper,
+                constant / (-coef)
+            );
+        }
+    }
+
+    if (lower > upper) {
+        cout << -1 << '\n';
+    } else {
+        cout << lower - A[1] << '\n';
+    }
+
+    return 0;
+}
+```
+
+
+
+
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
