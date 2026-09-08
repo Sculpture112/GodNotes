@@ -42,7 +42,7 @@ void solve()
 
     y = sum - ans;
     x ^= y;
-    cout << x << " "<<cnt - x;
+    cout << x << " "<<cnt - x<<"\n";
 }
 
 int main()
@@ -51,7 +51,7 @@ int main()
     cin.tie(nullptr);
 
     int T = 1;
-    // cin >> T;
+    cin >> T;
     while (T--)
         solve();
 
