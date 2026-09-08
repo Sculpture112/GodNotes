@@ -269,14 +269,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c31c5bd99dc4b701",
+  "active": "85b604365b1cfa38",
   "lastOpenFiles": [
-    "0.md",
     "Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version).md",
+    "Daily/2026-09-07.md",
+    "杂物/状态.md",
+    "0.md",
     "Daily/2026-09-09.md",
     "Codeforces/div3/1119/D. MEX Multiset.md",
     "学校.md",
-    "Daily/2026-09-07.md",
     "Daily/2026-09-14.md",
     "Codeforces/div3/1119/C. 101.md",
     "Codeforces/div3",
@@ -301,7 +302,6 @@
     "母题/097 Code02 判断较大的数字是否是质数1.md",
     "母题/097 Code02 读入long类型数字的注意点.md",
     "母题/097 Code01 判断较小的数字是否是质数.md",
-    "Atcoder/abc/abc474/C - Remove and Append.md",
     "God/One_Time_Coupon.cpp",
     "God/_u6b27_u62c9_u56de_u8def.bin",
     "God/Remove_and_Append.bin",
