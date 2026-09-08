@@ -42,8 +42,8 @@ void solve()
     }
 
     y = sum - ans;
-    x ^= y;
-    cout << x << " " << cnt - x << "\n";
+    ans ^= y;
+    cout << ans << " " << cnt - x << "\n";
 }
 
 int main()
