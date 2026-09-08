@@ -19,6 +19,9 @@ C_j= X\sum_t\mu(t) - \sum_t\mu(t)A_{jt}
 $$
 **关键观察/不变量：**
 
+$$
+C_j=\texttt{coef}\times X+\texttt{constant}\ge0
+$$
 ## 分类讨论
 
 要求：
