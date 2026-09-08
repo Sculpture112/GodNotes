@@ -48,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -267,10 +267,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d0e679545a2ea552",
+  "active": "151baf6f7dac5dfc",
   "lastOpenFiles": [
-    "算法名/莫比乌斯反演.md",
     "Excalidraw/Drawing 2026-09-08 10.17.04.excalidraw.md",
+    "算法名/莫比乌斯反演.md",
     "Atcoder/abc/abc474/F - Increment All Divisors.md",
     "学校.md",
     "母题/097 Code04 计数质数.md",
