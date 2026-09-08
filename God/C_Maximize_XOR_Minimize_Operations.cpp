@@ -40,7 +40,7 @@ void solve()
 
     for (int i = pos; i >= 0; i++)
     {
-        if (((1 << i) & x) != 0){
+        if (((1 << i) & sum) != 0){
             
         }
     }
