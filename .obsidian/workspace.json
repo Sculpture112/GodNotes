@@ -34,8 +34,21 @@
               "icon": "lucide-file",
               "title": "莫比乌斯反演"
             }
+          },
+          {
+            "id": "d0e679545a2ea552",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-09-08 10.17.04.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-09-08 10.17.04.excalidraw"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -254,15 +267,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "411c203e5dae1290",
+  "active": "d0e679545a2ea552",
   "lastOpenFiles": [
+    "算法名/莫比乌斯反演.md",
+    "Excalidraw/Drawing 2026-09-08 10.17.04.excalidraw.md",
+    "Atcoder/abc/abc474/F - Increment All Divisors.md",
+    "学校.md",
     "母题/097 Code04 计数质数.md",
     "母题/097 Code03 数字n拆分质数因子.md",
     "母题/097 Code02 判断较大的数字是否是质数4.md",
     "母题/097 Code02 判断较大的数字是否是质数3.md",
-    "算法名/莫比乌斯反演.md",
     "算法名/欧拉筛.md",
-    "Atcoder/abc/abc474/F - Increment All Divisors.md",
     "母题/097 Code02 判断较大的数字是否是质数2.md",
     "母题/097 Code02 判断较大的数字是否是质数1.md",
     "母题/097 Code02 读入long类型数字的注意点.md",
@@ -281,8 +296,6 @@
     "母题/188 Code04 词链1.md",
     "母题/188 Code04 词链2.md",
     "母题/188 Code05 无序字母对2.md",
-    "母题/188 Code06 破解保险箱1.md",
-    "母题/188 Code08 太鼓达人2.md",
     "God/_u6b27_u62c9_u56de_u8def.bin",
     "God/Remove_and_Append.bin",
     "语法",
