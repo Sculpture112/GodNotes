@@ -17,6 +17,7 @@ void solve() {
 
     int diff = y - x;
     int cnt = 0;
+    
     while(y-x!=diff){
         ans += (y % x);
         cnt++;
