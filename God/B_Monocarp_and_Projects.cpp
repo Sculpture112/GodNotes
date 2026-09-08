@@ -16,7 +16,14 @@ void solve() {
     ll ans = 0;
 
     int diff = y - x;
-    int cnt = 0;
+    int cnt = 1;
+    
+    if(x==y){
+        cout << 0 << "\n";
+        return;
+    }
+
+    
     
     while(y-x!=diff){
         ans += (y % x);
