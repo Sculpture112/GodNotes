@@ -31,9 +31,10 @@ void solve() {
         y++, x++;
         if(cnt==k)
             break;
-        cout << ans << " ";
+        // cout << ans << " ";
     }
     for (cnt = 0; cnt < k; cnt++) {
+        cout << diff << " ";
         ans += diff;
     }
     cout << ans << "\n";
