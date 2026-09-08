@@ -15,8 +15,16 @@ void solve() {
     ll ans = 0;
 
     int diff = y - x;
+    int cnt = 0;
     while(y-x!=diff){
-        ans += 
+        ans += y % x;
+        cnt++;
+        y++, x++;
+        if(cnt==k)
+            break;
+    }
+    for (cnt = 0; cnt < k; cnt++) {
+        
     }
     cout << ans << "\n";
 }
