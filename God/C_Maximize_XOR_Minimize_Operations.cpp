@@ -12,8 +12,13 @@ void solve()
 {
     int x, y;
     cin >> x >> y;
+    ll sum = x + y;
+
     int ans = 0;
-    
+
+    for (int i = 31; i >= 0;i++){
+        if(1<<i)
+    }
 }
 
 int main()
