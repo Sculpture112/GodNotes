@@ -15,8 +15,8 @@ void solve() {
 
     ll ans = 0;
 
-    int diff = y - x;
-    int cnt = 0;
+    ll diff = y - x;
+    ll cnt = 0;
     
     if(x==y){
         cout << 0 << "\n";
@@ -33,10 +33,19 @@ void solve() {
             break;
         // cout << ans << " ";
     }
-    for (cnt = 0; cnt < k; cnt++) {
-        cout << diff << " ";
-        ans += diff;
-    }
+
+    // cout << cnt << " ";
+    // for (cnt = 0; cnt < k; cnt++) {
+    //     // cout << diff << " ";
+    //     ans += diff;
+    // }
+
+    // while(cnt<k){
+    //     cnt++;
+    //     ans += diff;
+    // }
+    cnt = max(0LL, k - cnt);
+    ans = ans +   cnt * diff;
     cout << ans << "\n";
 }
 
