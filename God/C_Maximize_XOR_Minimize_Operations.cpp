@@ -38,9 +38,11 @@ void solve()
         return;
     }
 
-    for (int i = 31; i >= 0; i++)
+    for (int i = pos; i >= 0; i++)
     {
-        if (1 << i)
+        if (((1 << i) & x) != 0){
+            
+        }
     }
 }
 
