@@ -37,8 +37,11 @@ void solve()
     {
         if (((1 << i) <= sum) != 0){
             sum -= (1 << i);
+            ans += (1 << i);
         }
     }
+
+    
 }
 
 int main()
