@@ -16,10 +16,16 @@ void solve()
     int ans = 0;
 
     int pos;
-    if()
+    if(x == 0){
+        cout<<
+    }
     for (int i = 31; i >= 0;i--){
         if(x&1 !=0){
             pos = i;
+        }
+
+        if(y&1!=0){
+            cnt++;
         }
     }
 
