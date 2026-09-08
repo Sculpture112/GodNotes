@@ -46,6 +46,18 @@
               "icon": "excalidraw-icon",
               "title": "Drawing 2026-09-08 10.17.04.excalidraw"
             }
+          },
+          {
+            "id": "bd11c93478394330",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw_cn",
+              "state": {
+                "file": "excalidraw 26-09-08 10.28.38.ex"
+              },
+              "icon": "lucide-file",
+              "title": "excalidraw 26-09-08 10.28.38"
+            }
           }
         ],
         "currentTab": 2
@@ -264,13 +276,15 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
+      "excalidraw-cn:Create New Excalidraw File": false,
       "periodic-notes:Open today": false
     }
   },
   "active": "d0e679545a2ea552",
   "lastOpenFiles": [
-    "算法名/莫比乌斯反演.md",
     "Excalidraw/Drawing 2026-09-08 10.17.04.excalidraw.md",
+    "excalidraw 26-09-08 10.28.38.ex",
+    "算法名/莫比乌斯反演.md",
     "Atcoder/abc/abc474/F - Increment All Divisors.md",
     "学校.md",
     "母题/097 Code04 计数质数.md",
@@ -295,7 +309,6 @@
     "母题/188 Code05 无序字母对1.md",
     "母题/188 Code04 词链1.md",
     "母题/188 Code04 词链2.md",
-    "母题/188 Code05 无序字母对2.md",
     "God/_u6b27_u62c9_u56de_u8def.bin",
     "God/Remove_and_Append.bin",
     "语法",
@@ -304,7 +317,6 @@
     "Codeforces/div2/1119",
     "God/Outweigh.bin",
     "main.exe",
-    "main.cpp",
     "image/Pasted image 20260904105209.png",
     "image/Pasted image 20260812165838.png",
     "image/Pasted image 20260728190851.png",
