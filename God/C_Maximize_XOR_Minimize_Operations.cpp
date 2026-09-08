@@ -16,23 +16,32 @@ void solve()
     int ans = 0;
 
     int pos;
-    if(x == 0){
-        cout<<
-    }
-    for (int i = 31; i >= 0;i--){
-        if(x&1 !=0){
+    int cnt = 0;
+    bool first = false;
+    for (int i = 31; i >= 0; i--)
+    {
+        if (x & 1 != 0 && !first)
+        {
             pos = i;
         }
 
-        if(y&1!=0){
+        if (y & 1 != 0)
+        {
             cnt++;
         }
     }
 
-        for (int i = 31; i >= 0; i++)
-        {
-            if (1 << i)
-        }
+    if (x == 0)
+    {
+        cout << cnt << " " << 0;
+        cout << "\n";
+        return;
+    }
+
+    for (int i = 31; i >= 0; i++)
+    {
+        if (1 << i)
+    }
 }
 
 int main()
