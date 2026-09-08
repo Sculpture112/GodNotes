@@ -9,14 +9,13 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 void solve()
 {
-    int x, y;
+    ll x, y;
     cin >> x >> y;
     ll sum = x + y;
     ll cnt = x;
     ll ans = 0;
 
     int pos;
-    int cnt = 0;
     for (int i = 31; i >= 0; i--)
     {
         if (x & 1 != 0)
@@ -33,7 +32,7 @@ void solve()
         return;
     }
 
-    for (int i = pos; i >= 0; i++)
+    for (int i = pos; i >= 0; i--)
     {
         if (((1 << i) <= sum) != 0){
             sum -= (1 << i);
@@ -41,9 +40,9 @@ void solve()
         }
     }
 
-    int y = sum - ans;
+    y = sum - ans;
     x ^= y;
-    cout << x << cnt - x;
+    cout << x << " "<<cnt - x;
 }
 
 int main()
