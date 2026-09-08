@@ -11,6 +11,12 @@
 
 **触发条件：**
 
+$$
+C_j= \sum_{t=1}^{\lfloor N/j\rfloor} \mu(t)(X-A_{jt})
+$$
+$$
+C_j= X\sum_t\mu(t) - \sum_t\mu(t)A_{jt}
+$$
 **关键观察/不变量：**
 
 **最容易错的边界：**
