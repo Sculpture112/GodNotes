@@ -13,7 +13,7 @@ void solve()
     cin >> x >> y;
     ll sum = x + y;
 
-    int ans = 0;
+    ll ans = 0;
 
     int pos;
     int cnt = 0;
@@ -41,7 +41,10 @@ void solve()
         }
     }
 
-    
+    int y = sum - ans;
+    for (int i = 0; i < 32; i++) {
+           
+    }
 }
 
 int main()
