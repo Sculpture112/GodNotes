@@ -22,6 +22,7 @@ void solve() {
         y++, x++;
         if(cnt==k)
             break;
+        cout << ans << " ";
     }
     for (cnt = 0; cnt < k; cnt++) {
         ans += diff;
