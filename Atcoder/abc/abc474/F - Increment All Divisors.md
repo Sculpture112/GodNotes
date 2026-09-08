@@ -19,6 +19,44 @@ C_j= X\sum_t\mu(t) - \sum_t\mu(t)A_{jt}
 $$
 **关键观察/不变量：**
 
+## 分类讨论
+
+要求：
+
+$$
+coef \times X + constant \ge 0
+$$
+
+### 1. `coef > 0`
+
+给 $X$ 提供下界：
+
+$$
+X \ge \left\lceil \frac{-constant}{coef} \right\rceil
+$$
+
+若 `constant < 0`：
+
+`lower = max(lower, (-constant + coef - 1) / coef);`
+
+### 2. `coef == 0`
+
+此时操作次数只等于 `constant`。
+
+若 `constant < 0`，无论 $X$ 取多少都无解，输出 `-1`。
+
+### 3. `coef < 0`
+
+给 $X$ 提供上界：
+
+$$
+X \le \left\lfloor \frac{constant}{-coef} \right\rfloor
+$$
+
+若 `constant < 0`，直接无解；否则：
+
+`upper = min(upper, constant / (-coef));`
+
 **最容易错的边界：**
 
 **我第一次卡在哪里：**
@@ -26,6 +64,8 @@ $$
 **下次看到什么信号要想到它：**
 
 **一个相似变式：**
+
+
 
 莫比乌斯反演
 ```cpp
