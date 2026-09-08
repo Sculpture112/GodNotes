@@ -12,7 +12,7 @@ void solve()
     int x, y;
     cin >> x >> y;
     ll sum = x + y;
-
+    ll cnt = x;
     ll ans = 0;
 
     int pos;
@@ -42,9 +42,8 @@ void solve()
     }
 
     int y = sum - ans;
-    for (int i = 0; i < 32; i++) {
-           
-    }
+    x ^= y;
+    cout << x << cnt - x;
 }
 
 int main()
