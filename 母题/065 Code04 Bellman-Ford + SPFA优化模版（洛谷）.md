@@ -1,4 +1,4 @@
-# []
+# [[0]]
 
 > **原题链接:** (https://www.luogu.com.cn/problem/P3385)
 
