@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/洛谷kmp.md",
+                "file": "例题/洛谷前缀树.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "洛谷kmp"
+              "title": "洛谷前缀树"
             }
           }
         ]
@@ -243,6 +243,8 @@
   "active": "411c203e5dae1290",
   "lastOpenFiles": [
     "Daily/2026-09-07.md",
+    "例题/洛谷kmp.md",
+    "Daily/2026-09-11.md",
     "例题/P1983 [NOIP 2013 普及组] 车站分级.md",
     "Daily/2026-09-12.md",
     "Excalidraw/Drawing 2026-09-08 22.55.02.excalidraw.md",
@@ -274,7 +276,6 @@
     "母题/097 Code04 计数质数.md",
     "母题/097 Code03 数字n拆分质数因子.md",
     "母题/097 Code02 判断较大的数字是否是质数4.md",
-    "母题/097 Code02 判断较大的数字是否是质数3.md",
     "God/One_Time_Coupon.cpp",
     "God/_u6b27_u62c9_u56de_u8def.bin",
     "God/Remove_and_Append.bin",
