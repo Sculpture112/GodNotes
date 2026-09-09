@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/P3385 【模板】负环.md",
+                "file": "例题/P5905 【模板】全源最短路（Johnson）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "P3385 【模板】负环"
+              "title": "P5905 【模板】全源最短路（Johnson）"
             }
           }
         ]
@@ -243,6 +243,10 @@
   },
   "active": "411c203e5dae1290",
   "lastOpenFiles": [
+    "算法名/Johnson 全源最短路.md",
+    "例题/P5905 【模板】全源最短路（Johnson）.md",
+    "Daily/2026-09-10.md",
+    "例题/P3385 【模板】负环.md",
     "God/P_5905_模板_全源最短路_Johnson.cpp",
     "God/P_4779__u6a21_u677f__u5355_u6e90_u6700_u77ed_u8def_u5f84__u6807_u51c6_u7248.bin",
     "God/P_4779_模板_单源最短路径_标准版.cpp",
@@ -251,8 +255,6 @@
     "output/imagegen",
     "output",
     "Codeforces/div3/1119/F. Binary Bubble Sort Inversions.md",
-    "例题/P3385 【模板】负环.md",
-    "Daily/2026-09-10.md",
     "母题/065 Code03 Bellman-Ford算法应用（不是模版）.md",
     "母题/065 Code04 Bellman-Ford + SPFA优化模版（洛谷）.md",
     "母题/065 Code01 Astar算法模版（对数器验证）.md",
@@ -277,9 +279,7 @@
     "例题/P1363 幻象迷宫.md",
     "Daily/2026-09-07.md",
     "Daily/2026-09-13.md",
-    "Daily/2026-09-17.md",
     "God/C_Maximize_XOR_Minimize_Operations.bin",
-    "God/C_Maximize_XOR_Minimize_Operations.cpp",
     "image/Pasted image 20260908111611.png",
     "image/Pasted image 20260908111223.png",
     "image/Pasted image 20260908111156.png",
