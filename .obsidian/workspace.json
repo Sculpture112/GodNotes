@@ -11,12 +11,14 @@
             "id": "411c203e5dae1290",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-09-08 22.55.02.excalidraw.md"
+                "file": "例题/洛谷kmp.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-09-08 22.55.02.excalidraw"
+              "icon": "lucide-file",
+              "title": "洛谷kmp"
             }
           }
         ]
@@ -240,12 +242,13 @@
   },
   "active": "411c203e5dae1290",
   "lastOpenFiles": [
+    "Daily/2026-09-07.md",
+    "例题/P1983 [NOIP 2013 普及组] 车站分级.md",
+    "Daily/2026-09-12.md",
     "Excalidraw/Drawing 2026-09-08 22.55.02.excalidraw.md",
     "God/C_Maximize_XOR_Minimize_Operations.bin",
     "God/C_Maximize_XOR_Minimize_Operations.cpp",
     "God/B_Monocarp_and_Projects.bin",
-    "例题/P1983 [NOIP 2013 普及组] 车站分级.md",
-    "Daily/2026-09-07.md",
     "例题/P1363 幻象迷宫.md",
     "Daily/2026-09-06.md",
     "Daily/2026-09-08.md",
@@ -261,7 +264,6 @@
     "Daily/2026-09-14.md",
     "Codeforces/div3/1119/C. 101.md",
     "Codeforces/div3",
-    "Daily/2026-09-12.md",
     "2026-09-08-11-10-44.md",
     "算法名/莫比乌斯反演.md",
     "image/Pasted image 20260908111611.png",
