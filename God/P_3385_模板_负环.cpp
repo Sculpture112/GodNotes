@@ -24,30 +24,41 @@ void solve()
         cin >> u >> v >> w;
 
         graph[u].push_back({v, w});
+        if (w >= 0)
+        {
+            graph[v].push_back({u, w});
+        }
     }
 
     queue<int> q;
     vector<bool> inque(n + 1, false);
-    q.push(1);
-    inque[1] = true;
     vector<ll> dist(n + 1, LINF);
     vector<int> edgecnt(n + 1);
+    q.push(1);
+    inque[1] = true;
+    dist[1] = 0;
     bool ok = false;
-    while(!q.empty()){
+    while (!q.empty())
+    {
         int cur = q.front();
         q.pop();
         inque[cur] = false;
 
-        for(auto [to,weight] : graph[cur]){
+        for (auto [to, weight] : graph[cur])
+        {
             ll newdis = dist[cur] + weight;
-            if(newdis<dist[to]){
+            if (newdis < dist[to])
+            {
                 dist[to] = newdis;
                 edgecnt[to] = edgecnt[cur] + 1;
-                if(edgecnt[to]>=n){
+                if (edgecnt[to] >= n)
+                {
                     ok = true;
+                    break;
                 }
 
-                if(!inque[to]){
+                if (!inque[to])
+                {
                     q.push(to);
                     inque[to] = true;
                 }
@@ -55,7 +66,7 @@ void solve()
         }
     }
 
-    cout << ok ? "NO\n" : "YES\n";
+    cout << (ok ? "YES\n" : "NO\n");
 }
 
 int main()
