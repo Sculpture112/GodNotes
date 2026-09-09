@@ -110,6 +110,8 @@ module.exports = class CalendarStatusScheduler extends Plugin {
     await this.loadSettings();
     this.addCommand({ id: "schedule-current-note", name: "安排当前笔记到未来日历并更新状态", callback: () => this.scheduleCurrentNote() });
     this.addRibbonIcon("calendar-plus", "安排当前笔记到未来日历", () => this.scheduleCurrentNote());
+    this.addCommand({ id: "mark-zero-and-review-tomorrow", name: "标记为 0 并安排明天复习", callback: () => this.markZeroAndReviewTomorrow() });
+    this.addRibbonIcon("tag", "标记为 0 并安排明天复习", () => this.markZeroAndReviewTomorrow());
     this.addSettingTab(new SchedulerSettingTab(this.app, this));
   }
 
@@ -189,6 +191,42 @@ module.exports = class CalendarStatusScheduler extends Plugin {
     lines.splice(index + 1, 0, line); return lines.join("\n");
   }
 
+  makeReviewLine(source) {
+    const link = `[[${source.path.replace(/\\/g, "/").replace(/\.md$/i, "")}]]`;
+    const dateMarker = this.settings.includeDueDate ? ` 📅 ${formatDate(new Date(), this.getDailyOptions().format)}` : "";
+    return `${this.settings.taskPrefix.trim()} ${link}${dateMarker}`.trim();
+  }
+
+  async addNoteToReviewDate(source, targetDate) {
+    const target = await this.getOrCreateDailyNote(targetDate);
+    const line = this.makeReviewLine(source);
+    const targetContent = await this.app.vault.read(target);
+    if (!targetContent.split("\n").some(existing => existing.trim() === line.trim())) {
+      await this.app.vault.modify(target, this.insertTask(targetContent, line));
+    }
+    return target;
+  }
+
+  async markZeroAndReviewTomorrow() {
+    const source = this.app.workspace.getActiveFile();
+    if (!source || source.extension !== "md") { new Notice("请先打开要处理的 Markdown 笔记"); return; }
+    const sourceContent = await this.app.vault.read(source);
+    if (/\[\[[0-5]\]\]/.test(sourceContent)) { new Notice("已经有标签了~"); return; }
+
+    const lines = sourceContent.split(/\r?\n/);
+    const firstContentLine = lines.findIndex(line => line.trim() !== "");
+    if (firstContentLine < 0 || !/^#\s*\[\]\s*$/.test(lines[firstContentLine].trim())) {
+      new Notice("第一行没有找到 # []，未执行");
+      return;
+    }
+
+    lines[firstContentLine] = lines[firstContentLine].replace(/\[\]/, "[[0]]");
+    const target = await this.addNoteToReviewDate(source, addDays(new Date(), 1));
+    await this.app.vault.modify(source, lines.join("\n"));
+    new Notice(`已添加 [[0]]，并安排到 ${target.path} 的复习区`);
+    if (this.settings.openTarget) await this.app.workspace.getLeaf(false).openFile(target);
+  }
+
   async scheduleCurrentNote() {
     const source = this.app.workspace.getActiveFile();
     if (!source || source.extension !== "md") { new Notice("请先打开要安排的 Markdown 笔记"); return; }
@@ -201,12 +239,7 @@ module.exports = class CalendarStatusScheduler extends Plugin {
     if (!statusMatch) { new Notice(autoStatus ? "当前笔记找不到 [[0]] 到 [[5]] 的状态" : `当前笔记找不到 ${this.settings.statusFrom}，未执行`); return; }
     const sourceStatus = statusMatch[0];
     const targetDate = addDays(new Date(), input.days);
-    const target = await this.getOrCreateDailyNote(targetDate);
-    const link = `[[${source.path.replace(/\\/g, "/").replace(/\.md$/i, "")}]]`;
-    const due = this.settings.includeDueDate ? ` 📅 ${formatDate(new Date(), this.getDailyOptions().format)}` : "";
-    const line = `${this.settings.taskPrefix.trim()} ${link}${due}`.trim();
-    const targetContent = await this.app.vault.read(target);
-    if (!targetContent.split("\n").some(l => l.trim() === line.trim())) await this.app.vault.modify(target, this.insertTask(targetContent, line));
+    const target = await this.addNoteToReviewDate(source, targetDate);
     const replacement = `[[${input.status}]]`;
     const updated = this.settings.replaceAll ? sourceContent.split(sourceStatus).join(replacement) : sourceContent.replace(sourceStatus, replacement);
     await this.app.vault.modify(source, updated);
