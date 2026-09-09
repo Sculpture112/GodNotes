@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/洛谷前缀树.md",
+                "file": "Codeforces/div3/1119/D. MEX Multiset.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "洛谷前缀树"
+              "title": "D. MEX Multiset"
+            }
+          },
+          {
+            "id": "101d7178afcf6229",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Codeforces/div3/1119/F. Binary Bubble Sort Inversions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "F. Binary Bubble Sort Inversions"
             }
           }
         ]
@@ -242,28 +256,32 @@
   },
   "active": "411c203e5dae1290",
   "lastOpenFiles": [
+    "Daily/2026-09-08.md",
+    "例题/P1363 幻象迷宫.md",
     "Daily/2026-09-07.md",
-    "例题/洛谷kmp.md",
-    "Daily/2026-09-11.md",
-    "例题/P1983 [NOIP 2013 普及组] 车站分级.md",
     "Daily/2026-09-12.md",
+    "Daily/2026-09-13.md",
+    "Daily/2026-09-11.md",
+    "Daily/2026-09-10.md",
+    "Daily/2026-09-09.md",
+    "Codeforces/div3/1119/F. Binary Bubble Sort Inversions.md",
+    "Daily/2026-09-17.md",
+    "Daily/2026-09-15.md",
+    "Daily/2026-09-14.md",
+    "例题/洛谷前缀树.md",
+    "例题/洛谷kmp.md",
+    "例题/P1983 [NOIP 2013 普及组] 车站分级.md",
     "Excalidraw/Drawing 2026-09-08 22.55.02.excalidraw.md",
     "God/C_Maximize_XOR_Minimize_Operations.bin",
     "God/C_Maximize_XOR_Minimize_Operations.cpp",
     "God/B_Monocarp_and_Projects.bin",
-    "例题/P1363 幻象迷宫.md",
     "Daily/2026-09-06.md",
-    "Daily/2026-09-08.md",
     "Atcoder/abc/abc474/F - Increment All Divisors.md",
-    "Daily/2026-09-09.md",
     "Codeforces/div3/1119/D. MEX Multiset.md",
-    "Codeforces/div3/1119/F. Binary Bubble Sort Inversions.md",
-    "Daily/2026-09-10.md",
     "Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version).md",
     "杂物/状态.md",
     "0.md",
     "学校.md",
-    "Daily/2026-09-14.md",
     "Codeforces/div3/1119/C. 101.md",
     "Codeforces/div3",
     "2026-09-08-11-10-44.md",
@@ -271,11 +289,7 @@
     "image/Pasted image 20260908111611.png",
     "image/Pasted image 20260908111223.png",
     "image/Pasted image 20260908111156.png",
-    "Excalidraw/Drawing 2026-09-08 10.17.04.excalidraw.md",
     "excalidraw 26-09-08 10.28.38.ex",
-    "母题/097 Code04 计数质数.md",
-    "母题/097 Code03 数字n拆分质数因子.md",
-    "母题/097 Code02 判断较大的数字是否是质数4.md",
     "God/One_Time_Coupon.cpp",
     "God/_u6b27_u62c9_u56de_u8def.bin",
     "God/Remove_and_Append.bin",
