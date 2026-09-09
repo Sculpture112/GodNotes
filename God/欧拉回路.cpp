@@ -19,12 +19,14 @@ int findroot(int x)
     return findroot(p[x]);
 }
 
-void unite(int x,int y){
+void unite(int x, int y)
+{
     int fx = findroot(x);
     int fy = findroot(y);
 
-    if(fx!=fy){
-        p[x] = y;
+    if (fx != fy)
+    {
+        p[fx] = fy;
     }
     return;
 }
@@ -45,15 +47,23 @@ void solve()
 
     int root = findroot(1);
     bool ok = true;
-    for (int i = 1; i <= n; i++) {
-        if(findroot(i) != root || degree[i] %2 != 0){
+    for (int i = 1; i <= n; i++)
+    {
+        if (findroot(i) != root || degree[i] % 2 != 0)
+        {
             ok = false;
             break;
         }
     }
 
-    cout << ok ? 1 : 0;
+    cout << (ok ? 1 : 0);
     cout << "\n";
+
+    for (int i = 1; i <= n; i++)
+    {
+        degree[i] = 0;
+        p[i] = i;
+    }
 }
 
 int main()
