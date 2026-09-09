@@ -7,57 +7,52 @@ const int INF = 0x3f3f3f3f;
 const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
-
 const int MAXN = 1005;
-int cnt = 1;
-int nxt[MAXN];
-int head[MAXN];
-int to[MAXN];
-
-int indeg[MAXN], outdeg[MAXN];
-
 int n, m;
 
-void addedge(int u, int v)
+int degree[1005];
+int p[1005];
+int findroot(int x)
 {
-    nxt[++cnt] = head[u];
-    head[u] = cnt;
-    to[cnt] = v;
+    if (p[x] == x)
+        return x;
+    return findroot(p[x]);
+}
+
+void unite(int x,int y){
+    int fx = findroot(x);
+    int fy = findroot(y);
+
+    if(fx!=fy){
+        p[x] = y;
+    }
+    return;
 }
 void solve()
 {
-    if (n == 0)
-        return;
-    cin >> m;
+    for (int i = 1; i <= n; i++)
+    {
+        p[i] = i;
+    }
 
     for (int i = 0; i < m; i++)
     {
         int u, v;
         cin >> u >> v;
-        addedge(u, v);
-        outdeg[u]++;
-        indeg[u]++;
-        indeg[v]++;
-        outdeg[v]++;
+        unite(u, v);
+        degree[u]++, degree[v]++;
     }
 
-    bool ans = true;
-
-    // for (int i = 1; i <= n; i++) {
-    //     cout << outdeg[i] << " " << indeg[i] << "\n";
-        
-    // }
-    for (int i = 1; i <= n; i++)
-    {
-        int diff = outdeg[i] - indeg[i];
-        if (diff != 0)
-        {
-            ans = false;
+    int root = findroot(1);
+    bool ok = true;
+    for (int i = 1; i <= n; i++) {
+        if(findroot(i) != root || degree[i] %2 != 0){
+            ok = false;
             break;
         }
     }
 
-    cout << ans ? 1 : 0;
+    cout << ok ? 1 : 0;
     cout << "\n";
 }
 
@@ -65,8 +60,12 @@ int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    while (cin >> n)
+
+    while (cin >> n && n != 0)
+    {
+        cin >> m;
         solve();
+    }
 
     return 0;
 }
