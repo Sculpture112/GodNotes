@@ -13,44 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/欧拉回路.md",
+                "file": "例题/HDU欧拉回路.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "欧拉回路"
-            }
-          },
-          {
-            "id": "9cfe72e7d9f6d174",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "算法名/欧拉回路.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "欧拉回路"
-            }
-          },
-          {
-            "id": "279d6c5b8c4ff033",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "母题/188 Code02 无向图的欧拉路径1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "188 Code02 无向图的欧拉路径1"
+              "title": "HDU欧拉回路"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,8 +86,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -220,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "母题/188 Code02 无向图的欧拉路径1.md",
+                "file": "例题/HDU欧拉回路.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,12 +239,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "279d6c5b8c4ff033",
+  "active": "411c203e5dae1290",
   "lastOpenFiles": [
     "算法名/欧拉回路.md",
+    "母题/188 Code01 有向图的欧拉路径1.md",
     "母题/188 Code02 无向图的欧拉路径1.md",
     "未命名.md",
-    "例题/欧拉回路.md",
+    "例题/HDU欧拉回路.md",
     "Daily/2026-09-15.md",
     "例题/P1347 [ECNA 2001] 排序.md",
     "Daily/2026-09-14.md",
@@ -306,7 +277,6 @@
     "母题/1.md",
     "God/最短路.cpp",
     "Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version).md",
-    "Atcoder/abc/abc474/F - Increment All Divisors.md",
     "God/C_Maximize_XOR_Minimize_Operations.bin",
     "image/Pasted image 20260908111611.png",
     "image/Pasted image 20260908111223.png",
