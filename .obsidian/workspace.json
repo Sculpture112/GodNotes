@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "欧拉回路"
             }
+          },
+          {
+            "id": "9cfe72e7d9f6d174",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法名/欧拉回路.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "欧拉回路"
+            }
+          },
+          {
+            "id": "279d6c5b8c4ff033",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "母题/188 Code02 无向图的欧拉路径1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "188 Code02 无向图的欧拉路径1"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,7 +220,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/欧拉回路.md",
+                "file": "母题/188 Code02 无向图的欧拉路径1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,8 +252,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,10 +269,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "411c203e5dae1290",
+  "active": "279d6c5b8c4ff033",
   "lastOpenFiles": [
-    "Daily/2026-09-15.md",
+    "算法名/欧拉回路.md",
+    "母题/188 Code02 无向图的欧拉路径1.md",
+    "未命名.md",
     "例题/欧拉回路.md",
+    "Daily/2026-09-15.md",
     "例题/P1347 [ECNA 2001] 排序.md",
     "Daily/2026-09-14.md",
     "Daily/2026-09-13.md",
@@ -276,9 +307,6 @@
     "God/最短路.cpp",
     "Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version).md",
     "Atcoder/abc/abc474/F - Increment All Divisors.md",
-    "2026-09-09-10-05-02.md",
-    "2026-09-08-11-10-44.md",
-    "Daily/2026-09-08.md",
     "God/C_Maximize_XOR_Minimize_Operations.bin",
     "image/Pasted image 20260908111611.png",
     "image/Pasted image 20260908111223.png",
