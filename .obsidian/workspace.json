@@ -34,23 +34,8 @@
               "icon": "lucide-file",
               "title": "F. Binary Bubble Sort Inversions"
             }
-          },
-          {
-            "id": "554dc914a66af741",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "母题/064 Code01 Dijkstra算法模版（Leetcode）.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "064 Code01 Dijkstra算法模版（Leetcode）"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +100,8 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -256,7 +242,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "graph:查看关系图谱": false,
@@ -265,16 +250,18 @@
       "templater-obsidian:Templater": false,
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "calendar-status-scheduler:安排当前笔记到未来日历": false
+      "periodic-notes:Open today": false,
+      "calendar-status-scheduler:安排当前笔记到未来日历": false,
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false
     }
   },
-  "active": "554dc914a66af741",
+  "active": "411c203e5dae1290",
   "lastOpenFiles": [
     "Codeforces/div3/1119/F. Binary Bubble Sort Inversions.md",
+    "Daily/2026-09-10.md",
     "母题/064 Code01 Dijkstra算法模版（Leetcode）.md",
     "Daily/2026-09-09.md",
     "例题/最短路.md",
-    "Daily/2026-09-10.md",
     "母题/064 Code02 最小体力消耗路径.md",
     "母题/064 Code01 Dijkstra算法模版（洛谷）.md",
     "God/P_3385_模板_负环.cpp",
