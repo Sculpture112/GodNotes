@@ -9,6 +9,9 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
+    int n, m;
+    cin >> n >> m;
+    vector<vector<int>> graph(n + 1);
 
 }
 
@@ -17,7 +20,7 @@ int main() {
     cin.tie(nullptr);
 
     int T = 1;
-    // cin >> T;
+    cin >> T;
     while (T--) solve();
 
     return 0;
