@@ -14,7 +14,14 @@ void solve() {
 
     for (int i = 0; i < m; i++) {
         cin >> a >> b >> c;
-        graph[a] = {(b,c)};
+        graph[a].first = b,graph[a].second = c;
+    }
+
+    int ans = 0;
+    queue<int> q;
+    
+    while(q.empty()){
+
     }
 
 }
