@@ -7,18 +7,25 @@ const int INF = 0x3f3f3f3f;
 const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
-
+int n, m;
 void solve() {
+    int a, b, c;
+    vector<pair<int,int>> graph(n + 1);
+
+    for (int i = 0; i < m; i++) {
+        cin >> a >> b >> c;
+        graph[a] = {(b,c)};
+    }
 
 }
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-
-    int T = 1;
-    // cin >> T;
-    while (T--) solve();
+    cin >> n >> m;
+    while(n!=0 || m != 0){
+        solve();
+    }
 
     return 0;
 }
