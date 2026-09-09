@@ -108,7 +108,7 @@ int main() {
             }
 
             composite[i * p] = true;
-
+	
             if (i % p == 0) {
                 mu[i * p] = 0;
                 break;
