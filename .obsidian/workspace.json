@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version).md",
+                "file": "Daily/2026-09-09.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "E. Treasure Map Destruction (Constructive Version)"
+              "title": "2026-09-09"
             }
           },
           {
@@ -254,8 +254,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "411c203e5dae1290",
+  "active": "2e7194a3f60f5734",
   "lastOpenFiles": [
+    "God/最短路.cpp",
+    "Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version).md",
+    "Daily/2026-09-11.md",
     "Daily/2026-09-09.md",
     "Daily/2026-09-12.md",
     "Atcoder/abc/abc474/F - Increment All Divisors.md",
@@ -265,9 +268,7 @@
     "Daily/2026-09-08.md",
     "Daily/2026-09-06.md",
     "Daily/2026-09-10.md",
-    "Daily/2026-09-11.md",
     "Codeforces/div3/1119/D. MEX Multiset.md",
-    "Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version).md",
     "例题/P1363 幻象迷宫.md",
     "Daily/2026-09-07.md",
     "Daily/2026-09-13.md",
@@ -284,7 +285,6 @@
     "杂物/状态.md",
     "0.md",
     "学校.md",
-    "Codeforces/div3/1119/C. 101.md",
     "Codeforces/div3",
     "image/Pasted image 20260908111611.png",
     "image/Pasted image 20260908111223.png",
