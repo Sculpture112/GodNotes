@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "单源最短路",
+                "query": "064",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,8 +115,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -272,12 +271,13 @@
   "active": "32b0479595bf24a2",
   "lastOpenFiles": [
     "Daily/2026-09-10.md",
+    "母题/064 Code02 最小体力消耗路径.md",
     "例题/最短路.md",
+    "母题/064 Code01 Dijkstra算法模版（洛谷）.md",
+    "Codeforces/div3/1119/F. Binary Bubble Sort Inversions.md",
     "God/P_3385_模板_负环.cpp",
     "God/_u6700_u77ed_u8def.bin",
     "母题/065 Code03 Bellman-Ford算法应用（不是模版）.md",
-    "Codeforces/div3/1119/F. Binary Bubble Sort Inversions.md",
-    "母题/064 Code02 最小体力消耗路径.md",
     "母题/064 Code01 Dijkstra算法模版（Leetcode）.md",
     "Daily/2026-09-09.md",
     "母题/1.md",
