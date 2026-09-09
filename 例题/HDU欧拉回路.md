@@ -92,4 +92,74 @@ int main() {
 
 ---
 
+```cpp
+#include <iostream>
+using namespace std;
 
+const int MAXN = 1005;
+
+int parentArr[MAXN];
+int degreeArr[MAXN];
+
+// 查找节点 x 所在连通块的根节点
+int findRoot(int x) {
+    if (parentArr[x] == x) {
+        return x;
+    }
+
+    return parentArr[x] = findRoot(parentArr[x]);
+}
+
+// 合并 a、b 所在的连通块
+void unite(int a, int b) {
+    int rootA = findRoot(a);
+    int rootB = findRoot(b);
+
+    if (rootA != rootB) {
+        parentArr[rootA] = rootB;
+    }
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int n, m;
+
+    while (cin >> n && n != 0) {
+        cin >> m;
+
+        // 初始化并查集和度数数组
+        for (int i = 1; i <= n; ++i) {
+            parentArr[i] = i;
+            degreeArr[i] = 0;
+        }
+
+        // 读取所有边
+        for (int i = 0; i < m; ++i) {
+            int u, v;
+            cin >> u >> v;
+
+            ++degreeArr[u];
+            ++degreeArr[v];
+
+            unite(u, v);
+        }
+
+        bool valid = true;
+        int root = findRoot(1);
+
+        // 检查连通性和度数
+        for (int i = 1; i <= n; ++i) {
+            if (findRoot(i) != root || degreeArr[i] % 2 != 0) {
+                valid = false;
+                break;
+            }
+        }
+
+        cout << (valid ? 1 : 0) << '\n';
+    }
+
+    return 0;
+}
+```
