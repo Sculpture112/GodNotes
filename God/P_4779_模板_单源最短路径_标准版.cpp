@@ -33,7 +33,7 @@ void solve() {
         auto [cur, u] = heap.top();
         heap.pop();
 
-        if(dist[cur] != cur)continue;
+        if(dist[u] != cur)continue;
 
         for(auto[v,w] : graph[u]){
             ll newdis = dist[u] + w;
