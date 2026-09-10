@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "2026-09-10"
             }
-          },
-          {
-            "id": "9df63bccbae2ebce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Codeforces/div2/Educational194/D. Signs of Prefix Sums.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "D. Signs of Prefix Sums"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Codeforces/div2/Educational194/D. Signs of Prefix Sums.md",
+                "file": "Daily/2026-09-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,28 +236,30 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "9df63bccbae2ebce",
+  "active": "f205454d50b9bdba",
   "lastOpenFiles": [
-    "Codeforces/div2/Educational194/C. Maximize XOR, Minimize Operations.md",
+    "母题问题解答.md",
     "Codeforces/div2/Educational194/D. Signs of Prefix Sums.md",
+    "God/097 Code04 计数质数.cpp",
+    "God/097 Code03 数字n拆分质数因子.cpp",
+    "God/097 Code02 判断较大的数字是否是质数4.cpp",
+    "God/097 Code02 判断较大的数字是否是质数3.cpp",
+    "God/097 Code02 判断较大的数字是否是质数2.cpp",
+    "God/097 Code02 判断较大的数字是否是质数1.cpp",
+    "God/097 Code02 读入long类型数字的注意点.cpp",
+    "God/097 Code01 判断较小的数字是否是质数.cpp",
+    "Codeforces/div2/Educational194/C. Maximize XOR, Minimize Operations.md",
     "Daily/2026-09-11.md",
     "Codeforces/div2/Drawing 2026-09-10 17.17.42.excalidraw.md",
     "Codeforces/div2/Educational194",
     "例题/P5905 【模板】全源最短路（Johnson）.md",
     "Excalidraw/Drawing 2026-09-10 14.15.30.excalidraw.md",
     "God/J__u60f3_u8d5a_u94b1_u5c31_u6765_u70bc_u4e39_u554a.bin",
-    "God/J_想赚钱就来炼丹啊.cpp",
-    "God/K__u6570_u7ec4.bin",
     "image/Pasted Image 20260910160610_671.png",
-    "God/K_数组.cpp",
-    "God/A__u96c6_u5408_u7684_LCM.bin",
-    "God/F__u4e2d_u6b63_u722c_u5c71.bin",
-    "God/I_Is_Diamond.cpp",
-    "God/B__u5c0f_u84dd_u9cb8_u7684_u5927_u8fc1_u5f99.bin",
-    "God/F_中正爬山.cpp",
     "Daily/2026-09-10.md",
     "母题/065 Code04 Bellman-Ford + SPFA优化模版（洛谷）.md",
     "Daily/2026-09-16.md",
@@ -292,7 +279,6 @@
     "例题/P2404 自然数的拆分问题.md",
     "2.md",
     "例题/P1032 [NOIP 2002 提高组] 字串变换.md",
-    "Daily/2026-09-09.md",
     "output/imagegen/shanghai-cyberpunk-hero.png",
     "image/Pasted image 20260908111611.png",
     "image/Pasted image 20260908111223.png",
