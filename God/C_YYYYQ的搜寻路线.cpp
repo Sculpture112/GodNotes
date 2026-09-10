@@ -8,6 +8,9 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 int ans = 0;
+void dfs(int cur,int t,vector<vector<int>>& graph){
+    
+}
 void solve() {
     int n, m;
     cin >> n >> m;
@@ -21,27 +24,8 @@ void solve() {
 
     int t;
     cin >> t;
-
-    vector<bool> vis(n + 1);
-    queue<int> q;
-    q.push(1);
-    vis[1] = true;
-    while(!q.empty()){
-        int u = q.front();
-        q.pop();
-        if(u==t)
-        {
-            ans++;
-            continue;
-        }
-        for(int v:graph[u]){
-            if(!vis[v]){
-                q.push(v);
-                vis[v] = true;
-            }
-        }
-    }
-}
+    
+}   
 
 int main() {
     ios::sync_with_stdio(false);
