@@ -32,6 +32,7 @@ void solve()
         if (a <= r)
         {
             a = min(l, a);
+            cout << a << " " << b << "\n";
             stack.push_back({a, b});
         }
         else
