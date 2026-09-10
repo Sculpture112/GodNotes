@@ -33,7 +33,7 @@ void solve()
 
     while (!stack.empty())
     {
-        int u = stack.front();
+        int u = stack.back();
         stack.pop_back();
         order.push_back(u);
         rootsum += deepth[u];
