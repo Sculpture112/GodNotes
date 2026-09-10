@@ -9,7 +9,17 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
-    int n
+    int n, m;
+    cin >> n >> m;
+    vector<int> a(n);
+    for(int &x:a){
+        cin >> x;
+    }
+    vector<int> diff(n + 1);
+    for (int i = 0; i < m; i++) {
+        int l, r;
+        cin >> l >> r;
+    }
 }
 
 int main() {
