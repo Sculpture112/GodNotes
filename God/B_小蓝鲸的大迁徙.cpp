@@ -46,26 +46,35 @@ void solve()
     ll ans = 0;
     for (int i = 0; i < N; i++)
     {
-        if(m>=a[i]){
+        if (m >= a[i])
+        {
             heap.push(b[i]);
         }
-        else{
-            while(!heap.empty() && m < a[i]){
+        else
+        {
+            while (!heap.empty() && m < a[i])
+            {
                 ans++;
                 m += heap.top();
                 heap.pop();
             }
-            if(m>=a[i]){
+            if (m >= a[i])
+            {
                 heap.push(b[i]);
             }
-            else{
+            else
+            {
                 cout << -1 << "\n";
                 return;
             }
         }
-
     }
-
+    while (m < n && !heap.empty())
+    {
+        m += heap.top();
+        ans++;
+        heap.pop();
+    }
     // cout << m;
     // cout << " " << ans;
     if (m >= n)
@@ -74,20 +83,7 @@ void solve()
     }
     else
     {
-        while (m < n && !heap.empty())
-        {
-            m += heap.top();
-            ans++;
-            heap.pop();
-        }
-        if (m >= n)
-        {
-            cout << ans << "\n";
-        }
-        else
-        {
-            cout << -1 << "\n";
-        }
+        cout << -1 << "\n";
     }
 }
 
