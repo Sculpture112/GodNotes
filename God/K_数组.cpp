@@ -8,29 +8,40 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+void solve()
+{
     int n, m;
     cin >> n >> m;
     vector<int> a(n + 1);
-    for (int i = 1; i <= n; i++) {
+    for (int i = 1; i <= n; i++)
+    {
         cin >> a[i];
     }
     vector<int> diff(n + 1);
-    for (int i = 0; i < m; i++) {
+    for (int i = 0; i < m; i++)
+    {
         int l, r;
         cin >> l >> r;
-        
+        for (int i = l; i <= r; i++)
+        {
+            a[i] += (min(r - i, i - l) + 1);
+        }
     }
-
+    for (int i = 1; i <= n; i++)
+    {
+        cout << a[i] << " ";
+    }
 }
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     int T = 1;
     // cin >> T;
-    while (T--) solve();
+    while (T--)
+        solve();
 
     return 0;
 }
