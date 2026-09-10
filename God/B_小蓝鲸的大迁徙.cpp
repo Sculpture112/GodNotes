@@ -43,7 +43,7 @@ void solve()
         cout << 0 << "\n";
         return;
     }
-    int ans = 0;
+    ll ans = 0;
     for (int i = 0; i < N; i++)
     {
         if(m>=a[i]){
