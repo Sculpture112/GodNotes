@@ -22,15 +22,17 @@ void solve()
     }
     sort(t.begin(), t.end());
 
-    for (int i = 0; i < n; i++)
+    stack.push_back({t[0].first, t[0].second});
+    for (int i = 1; i < n; i++)
     {
         auto [a, b] = t[i];
-        while (!stack.empty())
+        auto [l, r] = stack.front();
+        while ()
         {
-            auto [l, r] = stack.front();
-            if(l<=b){
+            if (l <= b)
+            {
                 l = min(l, a);
-                stack.push_back({l,r});
+                stack.push_back({l, r});
             }
         }
     }
