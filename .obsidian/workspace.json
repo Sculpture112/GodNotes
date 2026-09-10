@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/P1395 会议.md",
+                "file": "例题/P1032 [NOIP 2002 提高组] 字串变换.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "P1395 会议"
+              "title": "P1032 [NOIP 2002 提高组] 字串变换"
             }
           }
         ],
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2026-08-08.md",
+                "file": "例题/P1032 [NOIP 2002 提高组] 字串变换.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -176,8 +176,8 @@
             "state": {
               "type": "juggl_style",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "juggl_style"
+              "icon": "ag-style",
+              "title": "Juggl style"
             }
           },
           {
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/P1395 会议.md",
+                "file": "例题/P1032 [NOIP 2002 提高组] 字串变换.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "例题/小红有无穷无尽的数.md",
+                "file": "例题/P1032 [NOIP 2002 提高组] 字串变换.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -238,7 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 202.83331298828125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -255,12 +255,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f205454d50b9bdba",
+  "active": "d3fad05e062f0285",
   "lastOpenFiles": [
-    "God/P_1395__u4f1a_u8bae.bin",
+    "Daily/2026-09-10.md",
     "Daily/2026-09-09.md",
     "例题/P1395 会议.md",
-    "Daily/2026-09-10.md",
+    "God/P_1395__u4f1a_u8bae.bin",
     "算法名/树的重心.md",
     "算法名/换根dp.md",
     "母题/188 Code02 无向图的欧拉路径1.md",
@@ -287,7 +287,6 @@
     "God/P_5905_模板_全源最短路_Johnson.cpp",
     "God/P_4779__u6a21_u677f__u5355_u6e90_u6700_u77ed_u8def_u5f84__u6807_u51c6_u7248.bin",
     "God/P_4779_模板_单源最短路径_标准版.cpp",
-    "God/P_3385__u6a21_u677f__u8d1f_u73af.bin",
     "output/imagegen/shanghai-cyberpunk-hero.png",
     "Codeforces/div3/1119/F. Binary Bubble Sort Inversions.md",
     "母题/065 Code03 Bellman-Ford算法应用（不是模版）.md",
