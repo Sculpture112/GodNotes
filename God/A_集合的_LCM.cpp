@@ -45,6 +45,8 @@ void solve()
         sz[i] = i;
     }
 
+    order.reserve(n + 1);
+
     for (int i = 0; i < m; i++)
     {
         int x, y;
