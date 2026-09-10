@@ -102,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -251,23 +251,22 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
-      "periodic-notes:Open today": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false
     }
   },
   "active": "f205454d50b9bdba",
   "lastOpenFiles": [
-    "算法名/树的重心.md",
-    "例题/P1395 会议.md",
-    "算法名/换根dp.md",
+    "Daily/2026-09-09.md",
     "Daily/2026-09-10.md",
+    "例题/P1395 会议.md",
+    "算法名/树的重心.md",
+    "算法名/换根dp.md",
     "母题/188 Code02 无向图的欧拉路径1.md",
     "例题/HDU欧拉回路.md",
     "God/P_1395_会议.cpp",
     "God/_u6b27_u62c9_u56de_u8def.bin",
     "God/欧拉回路.cpp",
     "God/欧拉回路1.cpp",
-    "Daily/2026-09-09.md",
     "学校.md",
     "God/a.cpp",
     "God/a.c",
