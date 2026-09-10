@@ -17,14 +17,13 @@ void solve()
     {
         cin >> a[i];
     }
-    vector<int> diff(n + 1);
     for (int i = 0; i < m; i++)
     {
         int l, r;
         cin >> l >> r;
-        for (int i = l; i <= r; i++)
+        for (int j = l; j <= r; j++)
         {
-            a[i] += (min(r - i, i - l) + 1);
+            a[j] += (min(r - j, j - l) + 1);
         }
     }
     for (int i = 1; i <= n; i++)
