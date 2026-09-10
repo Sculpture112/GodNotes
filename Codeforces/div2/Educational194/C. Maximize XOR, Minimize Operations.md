@@ -1,4 +1,4 @@
-# []
+# [[0]]
 
 > **原题链接:** (https://codeforces.com/contest/2260/problem/C)
 
