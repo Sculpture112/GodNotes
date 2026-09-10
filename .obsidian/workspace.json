@@ -25,12 +25,14 @@
             "id": "9df63bccbae2ebce",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-09-10 14.15.30.excalidraw.md"
+                "file": "Codeforces/div2/Educational194/C. Maximize XOR, Minimize Operations.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-09-10 14.15.30.excalidraw"
+              "icon": "lucide-file",
+              "title": "C. Maximize XOR, Minimize Operations"
             }
           }
         ],
@@ -204,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2026-09-10 14.15.30.excalidraw.md",
+                "file": "Codeforces/div2/Educational194/C. Maximize XOR, Minimize Operations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,6 +257,11 @@
   },
   "active": "9df63bccbae2ebce",
   "lastOpenFiles": [
+    "Codeforces/div2/Drawing 2026-09-10 17.17.42.excalidraw.md",
+    "Codeforces/div2/Educational194/C. Maximize XOR, Minimize Operations.md",
+    "Codeforces/div2/Educational194",
+    "例题/P5905 【模板】全源最短路（Johnson）.md",
+    "Excalidraw/Drawing 2026-09-10 14.15.30.excalidraw.md",
     "God/J__u60f3_u8d5a_u94b1_u5c31_u6765_u70bc_u4e39_u554a.bin",
     "God/J_想赚钱就来炼丹啊.cpp",
     "God/K__u6570_u7ec4.bin",
@@ -265,10 +272,6 @@
     "God/I_Is_Diamond.cpp",
     "God/B__u5c0f_u84dd_u9cb8_u7684_u5927_u8fc1_u5f99.bin",
     "God/F_中正爬山.cpp",
-    "God/C_YYYYQ_u7684_u641c_u5bfb_u8def_u7ebf.bin",
-    "God/C_YYYYQ的搜寻路线.cpp",
-    "例题/P5905 【模板】全源最短路（Johnson）.md",
-    "Excalidraw/Drawing 2026-09-10 14.15.30.excalidraw.md",
     "Daily/2026-09-10.md",
     "母题/065 Code04 Bellman-Ford + SPFA优化模版（洛谷）.md",
     "Daily/2026-09-16.md",
@@ -291,7 +294,6 @@
     "Daily/2026-09-09.md",
     "例题/P1395 会议.md",
     "算法名/树的重心.md",
-    "算法名/换根dp.md",
     "output/imagegen/shanghai-cyberpunk-hero.png",
     "image/Pasted image 20260908111611.png",
     "image/Pasted image 20260908111223.png",
