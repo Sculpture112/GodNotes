@@ -27,7 +27,7 @@ void solve()
     {
         auto [a, b] = t[i];
         auto [l, r] = stack.back();
-        
+        stack.pop_back();
         if (l <= b)
         {
             l = min(l, a);
@@ -35,6 +35,7 @@ void solve()
         }
         else
         {
+            stack.push_back({l, r});
             stack.push_back({a, b});
         }
     }
