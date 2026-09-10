@@ -7,48 +7,50 @@ const int INF = 0x3f3f3f3f;
 const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
-// const int MAXN = 1005;
-// int p[MAXN];
-// int sz[MAXN];
-// int findp(int x)
-// {
-//     if (p[x] == x)
-//     {
-//         return x;
-//     }
+const int MAXN = 1005;
+int p[MAXN];
+int sz[MAXN];
+vector<vector<int>> order;
+int findp(int x)
+{
+    if (p[x] == x)
+    {
+        return x;
+    }
 
-//     return findp(p[x]);
-// }
+    return findp(p[x]);
+}
 
-// void unite(int x, int y)
-// {
-//     int fx = findp(x);
-//     int fy = findp(y);
+void unite(int x, int y)
+{
+    int fx = findp(x);
+    int fy = findp(y);
 
-//     if (fx != fy)
-//     {
-//         p[fx] = fy;
-//         sz[fy] = lcm(sz[fx], sz[fy]);
-//         order[fy].push_back(sz[fy]);
-//     }
-// }
+    if (fx != fy)
+    {
+        p[fx] = fy;
+        sz[fy] = lcm(sz[fx], sz[fy]);
+        // order[fy].push_back(sz[fy]);
+    }
+}
 void solve()
 {
     int n, m;
     cin >> n >> m;
     cout << n << m;
 
-    // for (int i = 1; i <= n; i++) {
-    //     p[i] = i;
-    //     sz[i] = i;
-    // }
+    for (int i = 1; i <= n; i++)
+    {
+        p[i] = i;
+        sz[i] = i;
+    }
 
-    // for (int i = 0; i < m; i++)
-    // {
-    //     int x, y;
-    //     cin >> x >> y;
-    //     unite(x, y);
-    // }
+    for (int i = 0; i < m; i++)
+    {
+        int x, y;
+        cin >> x >> y;
+        unite(x, y);
+    }
 
     // for (int i = 1; i <= n; i++)
     // {
