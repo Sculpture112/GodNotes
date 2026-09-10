@@ -19,34 +19,36 @@ void solve()
     {
         int a, b;
         cin >> a >> b;
+        t.push_back({a, b});
     }
     sort(t.begin(), t.end());
 
-    stack.push_back({t[0].first, t[0].second});
-    for (int i = 1; i < n; i++)
-    {
-        auto [a, b] = t[i];
-        auto [l, r] = stack.back();
-        stack.pop_back();
-        if (l <= b)
-        {
-            l = min(l, a);
-            stack.push_back({l, r});
-        }
-        else
-        {
-            stack.push_back({l, r});
-            stack.push_back({a, b});
-        }
-    }
-    int ans = 0;
-    while (!stack.empty())
-    {
-        auto [l, r] = stack.back();
-        stack.pop_back();
-        ans += (r - l);
-    }
-    cout << ans;
+    auto [l, r] = t[0];
+    stack.push_back({l, r});
+    // for (int i = 1; i < n; i++)
+    // {
+    //     auto [a, b] = t[i];
+    //     auto [l, r] = stack.back();
+    //     stack.pop_back();
+    //     if (l <= b)
+    //     {
+    //         l = min(l, a);
+    //         stack.push_back({l, r});
+    //     }
+    //     else
+    //     {
+    //         stack.push_back({l, r});
+    //         stack.push_back({a, b});
+    //     }
+    // }
+    // int ans = 0;
+    // while (!stack.empty())
+    // {
+    //     auto [l, r] = stack.back();
+    //     stack.pop_back();
+    //     ans += (r - l);
+    // }
+    // cout << ans;
 }
 
 int main()
