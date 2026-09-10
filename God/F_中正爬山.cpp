@@ -27,12 +27,14 @@ void solve()
     for (int i = 1; i < n; i++)
     {
         auto [a, b] = t[i];
+        // cout << a << " " << b;
         auto [l, r] = stack.back();
         stack.pop_back();
         if (a <= r)
         {
             a = min(l, a);
-            cout << a << " " << b << "\n";
+            b = max(r, b);
+            // cout << a << " " << b << "\n";
             stack.push_back({a, b});
         }
         else
