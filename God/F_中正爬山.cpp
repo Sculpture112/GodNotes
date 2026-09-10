@@ -25,11 +25,18 @@ void solve()
     for (int i = 0; i < n; i++)
     {
         auto [a, b] = t[i];
-        auto[]
-        stack.push_back({a, b});
-
+        auto [l, r] = stack.front();
+        if(l<=b){
+            l = min(l, a);
+            stack.push_back({l, r});
+        }
+        else{
+            stack.push_back({a, b});
+        }
+    }
+    int ans = 0;
+    while(!stack.empty()){
         
-
     }
 }
 
