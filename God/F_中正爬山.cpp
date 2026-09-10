@@ -27,14 +27,12 @@ void solve()
     {
         auto [a, b] = t[i];
         auto [l, r] = stack.front();
-        while ()
+        if (l <= b)
         {
-            if (l <= b)
-            {
-                l = min(l, a);
-                stack.push_back({l, r});
-            }
+            l = min(l, a);
+            stack.push_back({l, r});
         }
+
     }
 }
 
