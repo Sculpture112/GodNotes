@@ -14,7 +14,7 @@ void solve()
     cin >> n;
 
     vector<pair<ll, ll>> stack;
-    vector<pair<ll, int>> t;
+    vector<pair<ll, ll>> t;
     for (int i = 0; i < n; i++)
     {
         ll a, b;
