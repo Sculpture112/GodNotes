@@ -29,9 +29,9 @@ void solve()
         auto [a, b] = t[i];
         auto [l, r] = stack.back();
         stack.pop_back();
-        if (l <= b)
+        if (a <= r)
         {
-            l = min(l, a);
+            a = min(l, a);
             cout << l << " " << r << " ";
             stack.push_back({l, r});
         }
