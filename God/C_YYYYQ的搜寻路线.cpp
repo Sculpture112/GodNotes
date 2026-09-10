@@ -17,8 +17,9 @@ void dfs(int u,int t,vector<vector<int>>& graph){
 
     for(int v:graph[u]){
         if(!vis[v]){
-            vis[]
+            vis[v] = true;
             dfs(v, t, graph);
+            vis[v] = false;
         }
     }
 }
@@ -36,6 +37,7 @@ void solve() {
     int t;
     cin >> t;
 
+    vis[1] = true;
     dfs(1, t, graph);
     cout << ans;
 }   
