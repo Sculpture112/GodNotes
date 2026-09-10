@@ -13,11 +13,11 @@ void solve()
     int n;
     cin >> n;
 
-    vector<pair<int, int>> stack;
-    vector<pair<int, int>> t;
+    vector<pair<ll, ll>> stack;
+    vector<pair<ll, int>> t;
     for (int i = 0; i < n; i++)
     {
-        int a, b;
+        ll a, b;
         cin >> a >> b;
         t.push_back({a, b});
     }
@@ -32,8 +32,7 @@ void solve()
         if (a <= r)
         {
             a = min(l, a);
-            cout << l << " " << r << " ";
-            stack.push_back({l, r});
+            stack.push_back({a, b});
         }
         else
         {
@@ -41,7 +40,7 @@ void solve()
             stack.push_back({a, b});
         }
     }
-    int ans = 0;
+    ll ans = 0;
     while (!stack.empty())
     {
         auto [l, r] = stack.back();
