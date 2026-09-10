@@ -6,16 +6,14 @@ using ll = long long;
 const int INF = 0x3f3f3f3f;
 const ll LINF = 4e18;
 
-#define all(x) (x).begin(), (x).end()
-
 void solve()
 {
-    ll n, m;
+    int n, m;
     cin >> n >> m;
-    ll N;
+    int N;
     cin >> N;
-    vector<ll> a(N);
-    vector<ll> b(N);
+    vector<int> a(N);
+    vector<int> b(N);
     // while (N--)
     // {
     //     int x, y;
@@ -36,7 +34,7 @@ void solve()
     //     cout << b[i] << " ";
     // }
 
-    priority_queue<ll, vector<ll>, greater<ll>> heap;
+    priority_queue<int, vector<int>, greater<int>> heap;
 
     if (m - n >= 0)
     {
