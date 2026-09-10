@@ -14,7 +14,7 @@ void solve()
     cin >> n;
 
     vector<vector<int>> graph(n + 1);
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n - 1; i++)
     {
         int u, v;
         cin >> u >> v;
@@ -26,7 +26,7 @@ void solve()
     vector<int> deepth(n + 1);
     vector<int> order;
     vector<int> parent(n + 1);
-    int rootsum = 0;
+    ll rootsum = 0;
 
     parent[1] = -1;
     stack.push_back(1);
@@ -34,6 +34,7 @@ void solve()
     while (!stack.empty())
     {
         int u = stack.front();
+        stack.pop_back();
         order.push_back(u);
         rootsum += deepth[u];
         for (int v : graph[u])
@@ -59,13 +60,15 @@ void solve()
     {
         int u = order[i];
         int p = parent[u];
-        distance[u] = distance[p] - 1LL * 2 * size[u];
+        distance[u] = distance[p] + n - 1LL * 2 * size[u];
     }
 
     int node = 1;
     ll ans = INF;
-    for (int i = 1; i <= n;i++){
-        if(distance[i]<ans){
+    for (int i = 1; i <= n; i++)
+    {
+        if (distance[i] < ans)
+        {
             node = i;
             ans = distance[i];
         }
