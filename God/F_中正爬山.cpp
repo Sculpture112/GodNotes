@@ -29,7 +29,8 @@ void solve()
         {
             auto [l, r] = stack.front();
             if(l<=b){
-                
+                l = min(l, a);
+                stack.push_back({l,r});
             }
         }
     }
