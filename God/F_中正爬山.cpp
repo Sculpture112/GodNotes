@@ -43,7 +43,9 @@ void solve()
     ll ans = 0;
     while (!stack.empty())
     {
-        auto [l, r] = stack.back();
+        auto cur = stack.back();
+        ll l = cur.first;
+        ll r = cur.second;
         // cout << l << " " << r;
         stack.pop_back();
         ans += (r - l);

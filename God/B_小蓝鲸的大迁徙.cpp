@@ -34,7 +34,7 @@ void solve()
     //     cout << b[i] << " ";
     // }
 
-    priority_queue<int, vector<int>, greater<int>> heap;
+    priority_queue<int> heap;
 
     if (m - n >= 0)
     {
