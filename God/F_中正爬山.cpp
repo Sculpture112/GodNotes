@@ -19,13 +19,17 @@ void solve()
     {
         int a, b;
         cin >> a >> b;
-        t.push_back({a, b});
     }
-    // sort(t.begin().t.end());
+    sort(t.begin(), t.end());
 
-    while (!stack.empty())
+    for (int i = 0; i < n; i++)
     {
-        auto [l, r] = stack.front();
+        auto [a, b] = t[i];
+        stack.push_back({a, b});
+        while (!stack.empty())
+        {
+            auto [l, r] = stack.front();
+        }
     }
 }
 
