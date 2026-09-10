@@ -25,10 +25,12 @@ void solve()
     for (int i = 0; i < n; i++)
     {
         auto [a, b] = t[i];
-        stack.push_back({a, b});
         while (!stack.empty())
         {
             auto [l, r] = stack.front();
+            if(l<=b){
+                
+            }
         }
     }
 }
