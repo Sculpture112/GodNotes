@@ -1,8 +1,8 @@
-# []
+# [[1]]
 
 > **原题链接:** (https://atcoder.jp/contests/abc474/tasks/abc474_e)
 
-**涉及知识点:** [[贪心算法]], [[0]]，[[补题]],[[]],[[]]
+**涉及知识点:** [[贪心算法]], [[]]，[[补题]],[[]],[[]]
 
 **核心套路:** 
 
@@ -58,6 +58,7 @@ int main() {
             prefixSave += save[c - 1];
 
             long long extraCoupons = max(0LL, 2LL * c - N);
+            // n-c 是此时有的优惠券,而c是需要的优惠券,extra计算还需要再买多少优惠券 = c - n + c;
             long long cost =
                 sumA - prefixSave + extraCoupons * minA;
 
