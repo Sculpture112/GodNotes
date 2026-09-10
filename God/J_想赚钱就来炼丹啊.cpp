@@ -8,41 +8,75 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+void solve()
+{
     int n, m;
     cin >> n >> m;
-    vector<int> a(n), b(n), c(n);
-    int mina = INF, minb = INF, minc = INF;
-    map<int, int> mapa,mapb,mapc;
-    for (int i = 0; i < n; i++) {
-        cin >> a[i];
-        mapa[a[i]]++;
+    map<int, int> a, b, c;
+
+    for (int i = 0; i < n; i++)
+    {
+        int x;
+        cin >> x;
+        a[x]++;
     }
-    for (int i = 0; i < n; i++) {
-        cin >> b[i];
-        mapb[b[i]]++;
+    for (int i = 0; i < n; i++)
+    {
+        int x;
+        cin >> x;
+        b[x]++;
     }
-    for (int i = 0; i < n; i++) {
-        cin >> c[i];
-        mapc[c[i]]++;
+    for (int i = 0; i < n; i++)
+    {
+        int x;
+        cin >> x;
+        c[x]++;
     }
 
-    auto [cura,cnta] = *mapa.begin();
-    auto [curb, cntb] = *mapb.begin();
-    auto [curc, cntc] = *mapc.begin();
+    auto ita = a.begin();
+    auto itb = b.begin();
+    auto itc = c.begin();
+    int cur = ita->first * itb->first * itc->first;
+    int cnt = ita->second * itb->second * itc->second;
+    cnt = min(cnt, m);
+    m -= cnt;
+    for (int i = 0; i < cnt; i++)
+    {
+        cout << cur << " ";
+    }
+    for (int i = 0; i < n; i++)
+    {
+        if (m<=0)
+            break;
 
-    for (int i = 0; i < n;i++){
         
+
+        int nxt = min({ita++->first, itb->first, itc->first});
+
+
+
+        cur = ita->first * itb->first * itc->first;
+
+        cout << cur;
+        cnt = ita->second * itb->second * itc->second;
+        cnt = min(cnt, m);
+        m -= cnt;
+        for (int i = 0; i < cnt; i++)
+        {
+            cout << cur << " ";
+        }
     }
 }
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     int T = 1;
     cin >> T;
-    while (T--) solve();
+    while (T--)
+        solve();
 
     return 0;
 }
