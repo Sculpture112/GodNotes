@@ -8,20 +8,36 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+void solve()
+{
     int n;
     cin >> n;
-    
+
+    vector<pair<int, int>> stack;
+    vector<pair<int, int>> t;
+    for (int i = 0; i < n; i++)
+    {
+        int a, b;
+        cin >> a >> b;
+        t.push_back({a, b});
+    }
+    // sort(t.begin().t.end());
+
+    while (!stack.empty())
+    {
+        auto [l, r] = stack.front();
+    }
 }
 
-
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     int T = 1;
     // cin >> T;
-    while (T--) solve();
+    while (T--)
+        solve();
 
     return 0;
 }
