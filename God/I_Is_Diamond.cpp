@@ -24,6 +24,7 @@ void solve()
     auto check = [&](int x, int y)
     {
         int nx = x + k;
+        int ny = y + k;
         for()
     };
     for (int i = 0; i < n; i++)
