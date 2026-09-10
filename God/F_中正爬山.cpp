@@ -22,16 +22,13 @@ void solve()
     }
     sort(t.begin(), t.end());
 
-    stack.push_back({t[0].first, t[0].second});
-    for (int i = 1; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
         auto [a, b] = t[i];
-        auto [l, r] = stack.front();
-        if (l <= b)
-        {
-            l = min(l, a);
-            stack.push_back({l, r});
-        }
+        auto[]
+        stack.push_back({a, b});
+
+        
 
     }
 }
