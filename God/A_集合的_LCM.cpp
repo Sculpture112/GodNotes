@@ -28,8 +28,16 @@ void unite(int x, int y)
 
     if (fx != fy)
     {
-        p[fx] = fy;
-        sz[fy] = lcm(sz[fx], sz[fy]);
+        if (fx < fy)
+        {
+            p[fx] = fy;
+            sz[fy] = lcm(sz[fx], sz[fy]);
+        }
+        else
+        {
+            p[fy] = fx;
+            sz[fx] = lcm(sz[fx], sz[fy]);
+        }
         // order[fy].push_back(sz[fy]);
     }
 }
