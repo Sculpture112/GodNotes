@@ -8,8 +8,19 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 int ans = 0;
-void dfs(int cur,int t,vector<vector<int>>& graph){
-    
+vector<bool> vis(25,false);
+void dfs(int u,int t,vector<vector<int>>& graph){
+    if(u == t){
+        ans++;
+        return;
+    }
+
+    for(int v:graph[u]){
+        if(!vis[v]){
+            vis[]
+            dfs(v, t, graph);
+        }
+    }
 }
 void solve() {
     int n, m;
@@ -24,7 +35,9 @@ void solve() {
 
     int t;
     cin >> t;
-    
+
+    dfs(1, t, graph);
+    cout << ans;
 }   
 
 int main() {
