@@ -22,31 +22,15 @@
             }
           },
           {
-            "id": "945317c071ff0c61",
+            "id": "9df63bccbae2ebce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "学校.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2026-09-10 14.15.30.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "学校"
-            }
-          },
-          {
-            "id": "c8994c9a516f205b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "例题/P3385 【模板】负环.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "P3385 【模板】负环"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-09-10 14.15.30.excalidraw"
             }
           }
         ],
@@ -151,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学校.md",
+                "file": "例题/P5905 【模板】全源最短路（Johnson）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -220,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学校.md",
+                "file": "Excalidraw/Drawing 2026-09-10 14.15.30.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "学校.md",
+                "file": "例题/P5905 【模板】全源最短路（Johnson）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -269,10 +253,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "945317c071ff0c61",
+  "active": "9df63bccbae2ebce",
   "lastOpenFiles": [
+    "例题/P5905 【模板】全源最短路（Johnson）.md",
+    "Excalidraw/Drawing 2026-09-10 14.15.30.excalidraw.md",
     "Daily/2026-09-10.md",
+    "母题/065 Code04 Bellman-Ford + SPFA优化模版（洛谷）.md",
+    "Daily/2026-09-16.md",
     "例题/P3385 【模板】负环.md",
+    "学校.md",
     "母题/064 Code01 Dijkstra算法模版（Leetcode）.md",
     "母题/064 Code02 最小体力消耗路径.md",
     "Daily/2026-09-17.md",
@@ -293,17 +282,12 @@
     "算法名/树的重心.md",
     "算法名/换根dp.md",
     "母题/188 Code02 无向图的欧拉路径1.md",
-    "例题/HDU欧拉回路.md",
     "God/P_1395_会议.cpp",
     "God/_u6b27_u62c9_u56de_u8def.bin",
     "God/欧拉回路.cpp",
     "God/欧拉回路1.cpp",
-    "学校.md",
     "God/a.cpp",
     "God/a.c",
-    "算法名/欧拉回路.md",
-    "Daily/2026-09-15.md",
-    "母题/188 Code01 有向图的欧拉路径1.md",
     "God/P_5905_模板_全源最短路_Johnson.cpp",
     "God/P_4779__u6a21_u677f__u5355_u6e90_u6700_u77ed_u8def_u5f84__u6807_u51c6_u7248.bin",
     "God/P_4779_模板_单源最短路径_标准版.cpp",
