@@ -37,7 +37,6 @@ void solve()
 {
     int n, m;
     cin >> n >> m;
-    cout << n << m;
 
     for (int i = 1; i <= n; i++)
     {
@@ -52,6 +51,14 @@ void solve()
         int x, y;
         cin >> x >> y;
         unite(x, y);
+    }
+
+    for (int i = 1; i <= n; i++)
+    {
+        if (p[i] == i)
+        {
+            cout << sz[i] << "\n";
+        }
     }
 
     // for (int i = 1; i <= n; i++)

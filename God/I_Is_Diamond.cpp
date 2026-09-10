@@ -25,7 +25,9 @@ void solve()
     {
         int nx = x + k;
         int ny = y + k;
-        for()
+        while(2k--){
+
+        }
     };
     for (int i = 0; i < n; i++)
     {
