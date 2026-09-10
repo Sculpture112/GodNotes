@@ -251,14 +251,16 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "f205454d50b9bdba",
   "lastOpenFiles": [
+    "God/P_1395__u4f1a_u8bae.bin",
     "Daily/2026-09-09.md",
-    "Daily/2026-09-10.md",
     "例题/P1395 会议.md",
+    "Daily/2026-09-10.md",
     "算法名/树的重心.md",
     "算法名/换根dp.md",
     "母题/188 Code02 无向图的欧拉路径1.md",
@@ -292,7 +294,6 @@
     "母题/065 Code04 Bellman-Ford + SPFA优化模版（洛谷）.md",
     "母题/065 Code01 Astar算法模版（对数器验证）.md",
     "母题/064 Code01 Dijkstra算法模版（Leetcode）.md",
-    "例题/最短路.md",
     "image/Pasted image 20260908111611.png",
     "image/Pasted image 20260908111223.png",
     "image/Pasted image 20260908111156.png",
