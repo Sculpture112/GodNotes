@@ -23,19 +23,8 @@ void solve()
     int ans = 0;
     auto check = [&](int x, int y)
     {
-        for (int i = 0; i < 4; i++)
-        {
-            int sum = 0;
-            int nx = x + dx[i];
-            int ny = y + dy[i];
-            if (nx < 0 || nx >= n || ny < 0 || ny >= n){
-                continue;
-            }
-            if(nx == '*'){
-                
-            }
-
-        }
+        int nx = x + k;
+        for()
     };
     for (int i = 0; i < n; i++)
     {
