@@ -11,7 +11,14 @@ const ll LINF = 4e18;
 void solve() {
     int n;
     cin >> n;
+    if(n<10){
+        cout << "No" << "\n";
+        return;
+    }
+
+    vector<int> a(n);
     
+
 }
 
 int main() {
