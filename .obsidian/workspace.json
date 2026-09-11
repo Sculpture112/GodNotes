@@ -87,7 +87,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -236,11 +236,10 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
-      "periodic-notes:Open today": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false
     }
   },
-  "active": "f205454d50b9bdba",
+  "active": "2e7194a3f60f5734",
   "lastOpenFiles": [
     "God/母题/097 Code04 计数质数.cpp",
     "God/母题/097 Code03 数字n拆分质数因子.cpp",
