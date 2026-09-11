@@ -31,6 +31,10 @@ void solve() {
     int n, m, p;
     cin >> n >> m >> p;
 
+    for (int i = 1; i <= n; i++) {
+        father[i] = i;
+    }
+
     for (int i = 0; i < m; i++) {
         int x, y;
         cin >> x >> y;
