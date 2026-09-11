@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/P5250 【深基17.例5】木材仓库.md",
+                "file": "例题/D. 三原色.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "P5250 【深基17.例5】木材仓库"
+              "title": "D. 三原色"
             }
           }
         ]
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/P5250 【深基17.例5】木材仓库.md",
+                "file": "例题/D. 三原色.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,6 +242,8 @@
   },
   "active": "f205454d50b9bdba",
   "lastOpenFiles": [
+    "例题/P5250 【深基17.例5】木材仓库.md",
+    "例题/D. 三原色.md",
     "tmp/solution.exe",
     "tmp/solution.cpp",
     "tmp/pdfs/page-8.png",
@@ -251,14 +253,12 @@
     "tmp",
     "God/P_5266_深基_17_例_6_学籍管理.cpp",
     "Daily/2026-09-12.md",
-    "例题/P5250 【深基17.例5】木材仓库.md",
     "God/P_5250__u6df1_u57fa_17__u4f8b_5__u6728_u6750_u4ed3_u5e93.bin",
     "Daily/2026-09-11.md",
     "God/P_5250_深基_17_例_5_木材仓库.cpp",
     "God/P_3405_USACO_16_DEC_Cities_and_States_S.bin",
     "God/P_3405_USACO_16_DEC_Cities_and_States_S.cpp",
     "God/P_1536__u6751_u6751_u901a.bin",
-    "God/P_1536_村村通.cpp",
     "Daily/2026-09-10.md",
     "例题/P1395 会议.md",
     "Daily/2026-09-14.md",
