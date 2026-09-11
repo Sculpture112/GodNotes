@@ -12,7 +12,23 @@ void solve()
 {
     int n;
     cin >> n;
-    unordered_map<string,
+    vector<pair<string, string>> a;
+    for (int i = 0; i < n; i++) {
+        string name, s;
+        cin >> name >> s;
+        name = name.substr(0, 2);
+        a.push_back({name, s});
+    }
+
+    int cnt = 0;
+    for(auto [name,s] : a){
+        for(auto[name1,s1]:a){
+            if(name == s1 && s == name1){
+                cnt++;
+            }
+        }
+    }
+    cout << cnt;
 }
 
 int main()
