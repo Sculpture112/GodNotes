@@ -113,7 +113,7 @@ int main() {
             auto [currentDistance, u] = heap.top();
             heap.pop();
 
-            if (currentDistance != dist[u]) {
+            if (currentDistance != dist[u]) {// dj里面的经典旧数据跳过
                 continue;
             }
 
