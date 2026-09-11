@@ -251,14 +251,15 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "d6266bbe32b6be24",
   "lastOpenFiles": [
-    "学校.md",
-    "例题/P1395 会议.md",
     "Daily/2026-09-10.md",
+    "例题/P1395 会议.md",
+    "学校.md",
     "例题/HDU欧拉回路.md",
     "Daily/2026-09-14.md",
     "例题/P5905 【模板】全源最短路（Johnson）.md",
