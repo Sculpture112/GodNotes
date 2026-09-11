@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-09-11.md",
+                "file": "例题/P5250 【深基17.例5】木材仓库.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-11"
+              "title": "P5250 【深基17.例5】木材仓库"
             }
           }
         ]
@@ -87,7 +87,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2026-09-11.md",
+                "file": "例题/P5250 【深基17.例5】木材仓库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,6 +242,8 @@
   },
   "active": "f205454d50b9bdba",
   "lastOpenFiles": [
+    "Daily/2026-09-11.md",
+    "例题/P5250 【深基17.例5】木材仓库.md",
     "God/P_5250_深基_17_例_5_木材仓库.cpp",
     "God/P_3405_USACO_16_DEC_Cities_and_States_S.bin",
     "God/P_3405_USACO_16_DEC_Cities_and_States_S.cpp",
@@ -259,9 +261,7 @@
     "例题/P5905 【模板】全源最短路（Johnson）.md",
     "Daily/2026-09-21.md",
     "God/P_5905__u6a21_u677f__u5168_u6e90_u6700_u77ed_u8def_Johnson.bin",
-    "Daily/2026-09-11.md",
     "Daily/2026-09-12.md",
-    "God/母题/097 Code04 计数质数.cpp",
     "母题问题解答.md",
     "Codeforces/div2/Educational194/D. Signs of Prefix Sums.md",
     "Codeforces/div2/Educational194/C. Maximize XOR, Minimize Operations.md",
