@@ -77,7 +77,7 @@ void solve()
 
             for (auto [v, w] : graph[u])
             {
-                int newweight = h[u] + w - h[v];
+                ll newweight = h[u] + w - h[v];
                 if (dist[v] > curdis + newweight)
                 {
                     dist[v] = curdis + newweight;
