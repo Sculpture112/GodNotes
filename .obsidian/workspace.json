@@ -102,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -256,6 +256,8 @@
   },
   "active": "d6266bbe32b6be24",
   "lastOpenFiles": [
+    "学校.md",
+    "例题/P1395 会议.md",
     "Daily/2026-09-10.md",
     "例题/HDU欧拉回路.md",
     "Daily/2026-09-14.md",
@@ -282,7 +284,6 @@
     "母题/065 Code04 Bellman-Ford + SPFA优化模版（洛谷）.md",
     "Daily/2026-09-16.md",
     "例题/P3385 【模板】负环.md",
-    "学校.md",
     "母题/064 Code01 Dijkstra算法模版（Leetcode）.md",
     "母题/064 Code02 最小体力消耗路径.md",
     "Daily/2026-09-17.md",
@@ -292,7 +293,6 @@
     "例题/P1019 [NOIP 2000 提高组] 单词接龙.md",
     "Daily/2026-09-20.md",
     "例题/P1433 吃奶酪.md",
-    "例题/P2404 自然数的拆分问题.md",
     "output/imagegen/shanghai-cyberpunk-hero.png",
     "image/Pasted image 20260908111611.png",
     "image/Pasted image 20260908111223.png",
