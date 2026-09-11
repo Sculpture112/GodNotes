@@ -12,23 +12,22 @@ void solve()
 {
     int n;
     cin >> n;
-    vector<pair<string, string>> a;
-    for (int i = 0; i < n; i++) {
-        string name, s;
-        cin >> name >> s;
-        name = name.substr(0, 2);
-        a.push_back({name, s});
-    }
+    map<pair<string, string>, ll> cnt;
+    ll ans = 0;
+    for (int i = 0; i < n; i++)
+    {
+        string city, state;
+        cin >> city >> state;
+        city = city.substr(0, 2);
 
-    int cnt = 0;
-    for(auto [name,s] : a){
-        for(auto[name1,s1]:a){
-            if(name == s1 && s == name1){
-                cnt++;
-            }
-        }
+        if (state == city)
+            continue;
+
+        ans += cnt[{city, state}];
+
+        cnt[{state, city}]++;
     }
-    cout << cnt;
+    cout << ans;
 }
 
 int main()
