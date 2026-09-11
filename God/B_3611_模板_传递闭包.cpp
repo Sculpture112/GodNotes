@@ -27,14 +27,16 @@ void solve()
         {
             for (int k = 0; k < n; k++)
             {
-                graph[i][j] = graph[i][k] | (graph[i][k] && graph[k][j]);
+                graph[i][j] = graph[i][j] | (graph[i][k] && graph[k][j]);
             }
         }
     }
 
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            if(j)
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            if (j)
                 cout << " ";
             cout << graph[i][j];
         }
