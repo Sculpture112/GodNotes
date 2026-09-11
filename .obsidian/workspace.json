@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-09-10.md",
+                "file": "Daily/2026-09-11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-10"
-            }
-          },
-          {
-            "id": "d6266bbe32b6be24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "例题/P1395 会议.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "P1395 会议"
+              "title": "2026-09-11"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +87,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -206,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/P1395 会议.md",
+                "file": "Daily/2026-09-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,13 +240,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d6266bbe32b6be24",
+  "active": "f205454d50b9bdba",
   "lastOpenFiles": [
     "Daily/2026-09-10.md",
     "例题/P1395 会议.md",
+    "Daily/2026-09-14.md",
     "学校.md",
     "例题/HDU欧拉回路.md",
-    "Daily/2026-09-14.md",
     "例题/P5905 【模板】全源最短路（Johnson）.md",
     "Daily/2026-09-21.md",
     "God/P_5905__u6a21_u677f__u5168_u6e90_u6700_u77ed_u8def_Johnson.bin",
