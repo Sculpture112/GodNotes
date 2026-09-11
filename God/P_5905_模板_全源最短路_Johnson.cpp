@@ -31,7 +31,7 @@ void solve()
         graph[u].push_back({v, w});
     }
 
-    vector<int> h(n + 1);
+    vector<ll> h(n + 1);
 
     for (int round = 1; round <= n; round++)
     {
@@ -39,9 +39,9 @@ void solve()
         for (auto edge : edges)
         {
             int u = edge.u, v = edge.v, w = edge.weight;
-            if (h[u] > h[v] + w)
+            if (h[v] > h[u] + w)
             {
-                h[u] = h[v] + w;
+                h[v] = h[u] + w;
                 update = true;
             }
         }
@@ -92,7 +92,9 @@ void solve()
             if (dist[i] == INF)
             {
                 ans += 1000000000LL;
-            }else{
+            }
+            else
+            {
                 ans += 1LL * i * dist[i];
             }
         }
