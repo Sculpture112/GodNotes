@@ -84,7 +84,7 @@ int main() {
             }
         }
 
-        if (!updated) {
+        if (!updated) { // 如果某一轮没有更新,说明所有边都已经松弛到极限了
             break;
         }
 
