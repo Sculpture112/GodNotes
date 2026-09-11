@@ -8,26 +8,36 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+void solve()
+{
     int n;
     cin >> n;
-    if(n<10){
+    if (n < 10)
+    {
         cout << "No" << "\n";
         return;
     }
-
-    vector<int> a(n);
     
+    vector<int> a(n);
 
+    for (int i = 0; i <= n / 2; i++)
+    {
+        a[i] = (i + 1) * 2;
+    }
+    swap(a[n / 2 - 1], a[n / 2 - 2]);
+
+    for (int i = )
 }
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     int T = 1;
     cin >> T;
-    while (T--) solve();
+    while (T--)
+        solve();
 
     return 0;
 }
