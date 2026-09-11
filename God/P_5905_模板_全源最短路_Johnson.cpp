@@ -91,11 +91,11 @@ void solve()
         {
             if (dist[i] == INF)
             {
-                ans += 1000000000LL;
+                ans += 1LL * i * 1000000000LL;
             }
             else
             {
-                ans += 1LL * i * dist[i];
+                ans += 1LL * i * (dist[i] - h[source] + h[i]);
             }
         }
         cout << ans << "\n";
