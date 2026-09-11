@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-09-10.md",
+                "file": "例题/P5905 【模板】全源最短路（Johnson）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-10"
+              "title": "P5905 【模板】全源最短路（Johnson）"
             }
           }
         ]
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2026-09-10.md",
+                "file": "例题/P5905 【模板】全源最短路（Johnson）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,11 +236,15 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "2e7194a3f60f5734",
+  "active": "f205454d50b9bdba",
   "lastOpenFiles": [
+    "Daily/2026-09-10.md",
+    "Daily/2026-09-11.md",
+    "Daily/2026-09-12.md",
     "God/母题/097 Code04 计数质数.cpp",
     "God/母题/097 Code03 数字n拆分质数因子.cpp",
     "God/母题/097 Code02 判断较大的数字是否是质数4.cpp",
@@ -253,14 +257,11 @@
     "Codeforces/div2/Educational194/D. Signs of Prefix Sums.md",
     "God/097 Code04 计数质数.cpp",
     "God/097 Code03 数字n拆分质数因子.cpp",
-    "God/097 Code02 判断较大的数字是否是质数4.cpp",
     "Codeforces/div2/Educational194/C. Maximize XOR, Minimize Operations.md",
-    "Daily/2026-09-11.md",
     "Codeforces/div2/Drawing 2026-09-10 17.17.42.excalidraw.md",
     "例题/P5905 【模板】全源最短路（Johnson）.md",
     "Excalidraw/Drawing 2026-09-10 14.15.30.excalidraw.md",
     "image/Pasted Image 20260910160610_671.png",
-    "Daily/2026-09-10.md",
     "母题/065 Code04 Bellman-Ford + SPFA优化模版（洛谷）.md",
     "Daily/2026-09-16.md",
     "例题/P3385 【模板】负环.md",
@@ -269,7 +270,6 @@
     "母题/064 Code02 最小体力消耗路径.md",
     "Daily/2026-09-17.md",
     "例题/最短路.md",
-    "Daily/2026-09-12.md",
     "Codeforces/div3/1119/F. Binary Bubble Sort Inversions.md",
     "Atcoder/abc/abc474/E - One Time Coupon.md",
     "Daily/2026-09-14.md",

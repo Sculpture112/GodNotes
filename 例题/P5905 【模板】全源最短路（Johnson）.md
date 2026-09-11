@@ -1,6 +1,6 @@
 # [[0]]
 
-> **原题链接:** ()
+> **原题链接:** (https://www.luogu.com.cn/problem/P5905)
 
 **涉及知识点:** [[Johnson 全源最短路]], [[Bellman-Ford]]，[[补题]],[[Dijkstra]],[[负环]],[[多源最短路径]]
 
