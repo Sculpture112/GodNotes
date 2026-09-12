@@ -41,16 +41,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/洛谷kmp.md",
+                "file": "Daily/2026-09-12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "洛谷kmp"
+              "title": "2026-09-12"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/洛谷kmp.md",
+                "file": "例题/D. 三原色.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,11 +268,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1df490a2ecb7c555",
+  "active": "f205454d50b9bdba",
   "lastOpenFiles": [
-    "Daily/2026-09-11.md",
-    "Daily/2026-09-10.md",
     "Daily/2026-09-12.md",
+    "Daily/2026-09-11.md",
+    "Daily/2026-09-25.md",
+    "例题/洛谷kmp.md",
+    "Daily/2026-09-10.md",
     "Daily/2026-09-27.md",
     "例题/洛谷前缀树.md",
     "Daily/2026-09-14.md",
@@ -310,8 +311,6 @@
     "例题/P5905 【模板】全源最短路（Johnson）.md",
     "Daily/2026-09-21.md",
     "母题问题解答.md",
-    "Codeforces/div2/Educational194/D. Signs of Prefix Sums.md",
-    "Codeforces/div2/Drawing 2026-09-10 17.17.42.excalidraw.md",
     "image/Pasted Image 20260910160610_671.png",
     "output/imagegen/shanghai-cyberpunk-hero.png",
     "image/Pasted image 20260908111611.png",
