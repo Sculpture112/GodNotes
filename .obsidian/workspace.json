@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-09-11.md",
+                "file": "例题/G. 考古密码求和.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-11"
+              "title": "G. 考古密码求和"
             }
           },
           {
@@ -49,7 +49,8 @@
               "title": "2026-09-12"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -219,7 +220,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/D. 三原色.md",
+                "file": "例题/G. 考古密码求和.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -268,10 +269,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f205454d50b9bdba",
+  "active": "55c1490e356b94b4",
   "lastOpenFiles": [
-    "Daily/2026-09-12.md",
+    "Daily/2026-09-13.md",
+    "例题/G. 考古密码求和.md",
+    "例题/D. 三原色.md",
     "Daily/2026-09-11.md",
+    "Daily/2026-09-12.md",
+    "例题/未命名.md",
     "Daily/2026-09-25.md",
     "例题/洛谷kmp.md",
     "Daily/2026-09-10.md",
@@ -291,12 +296,10 @@
     "God/Change.cpp",
     "God/mnclr.bin",
     "God/mnclr.cpp",
-    "Daily/2026-09-13.md",
     "例题/Kaky 的数组交换.md",
     "算法名/置换奇偶性不变量.md",
     "Excalidraw/Drawing 2026-09-11 20.09.59.excalidraw.md",
     "学校.md",
-    "例题/D. 三原色.md",
     "例题/P5250 【深基17.例5】木材仓库.md",
     "tmp/solution.exe",
     "tmp/solution.cpp",
@@ -309,8 +312,6 @@
     "例题/P1395 会议.md",
     "例题/HDU欧拉回路.md",
     "例题/P5905 【模板】全源最短路（Johnson）.md",
-    "Daily/2026-09-21.md",
-    "母题问题解答.md",
     "image/Pasted Image 20260910160610_671.png",
     "output/imagegen/shanghai-cyberpunk-hero.png",
     "image/Pasted image 20260908111611.png",
