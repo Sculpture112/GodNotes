@@ -30,7 +30,7 @@ void solve()
     //     }
     // }
 
-    int diff = k - n;
+    int diff = 2*n-k;
     vector<vector<int>> graph(n, vector<int>(n, 0));
     for (int i = 0; i < diff; i++)
     {
