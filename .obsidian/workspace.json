@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-09-11.md",
+                "file": "Codeforces/div2/Educational194/C. Maximize XOR, Minimize Operations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-11"
+              "title": "C. Maximize XOR, Minimize Operations"
             }
           }
         ],
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2026-09-11.md",
+                "file": "Codeforces/div2/Educational194/C. Maximize XOR, Minimize Operations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,13 +257,14 @@
   },
   "active": "55c1490e356b94b4",
   "lastOpenFiles": [
+    "Daily/2026-09-11.md",
+    "Daily/2026-09-10.md",
+    "Daily/2026-09-09.md",
     "God/Walk_the_Line.cpp",
     "God/Change.bin",
     "God/Change.cpp",
     "God/mnclr.bin",
     "God/mnclr.cpp",
-    "Daily/2026-09-10.md",
-    "Daily/2026-09-11.md",
     "Daily/2026-09-13.md",
     "例题/Kaky 的数组交换.md",
     "算法名/置换奇偶性不变量.md",
@@ -280,7 +281,6 @@
     "tmp",
     "God/P_5266_深基_17_例_6_学籍管理.cpp",
     "Daily/2026-09-12.md",
-    "God/P_5250__u6df1_u57fa_17__u4f8b_5__u6728_u6750_u4ed3_u5e93.bin",
     "例题/P1395 会议.md",
     "Daily/2026-09-14.md",
     "例题/HDU欧拉回路.md",
