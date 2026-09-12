@@ -13,22 +13,26 @@ void solve()
     int n, k;
     cin >> n >> k;
 
-    if (k < n || k >= n + 4)
+    if (k < n || k > n + 2)
     {
         cout << -1 << "\n";
         return;
     }
-    vector<vector<int>> graph(n, vector<int>(n,0));
+    vector<vector<int>> graph(n, vector<int>(n, 0));
 
-    for (int i = 0; i < n;i++){
-        graph[i][0] = i + 1;
+    int diff = k - n;
+
+    if (diff == 0)
+    {
+        for (int i = 0; i < n; i++)
+        {
+            graph[i][i] = i + 1;
+        }
+    }
+    else if(diff ==1){
+        for(int )
     }
 
-    for (int i = 1; i <= n;i++){
-        graph[0][i] = n + i;
-    }
-
-    for(int i = )
 }
 
 int main()
