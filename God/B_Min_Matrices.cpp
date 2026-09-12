@@ -18,13 +18,19 @@ void solve()
         cout << -1 << "\n";
         return;
     }
-    vector<vector<int>> graph(n, vector<int>(n, 0));
+    // vector<vector<int>> graph(n, vector<int>(n, 0));
 
-    int diff = k - n;
+    // int diff = k - n;
 
-    for (int i = 0; i < n;i++){
-        
-    }
+    // for (int i = 0; i < n+diff;i++){
+    //     if(i-1 == n-1)
+    //         break;
+    //     if(i>diff){
+    //         graph[i][i - 1] = i + 1;
+    //     }
+    // }
+
+    
 }
 
 int main()
