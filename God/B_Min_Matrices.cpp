@@ -13,7 +13,7 @@ void solve()
     int n, k;
     cin >> n >> k;
 
-    if (k < n || k > n + 2)
+    if (k < n || k > n + n-1)
     {
         cout << -1 << "\n";
         return;
@@ -22,17 +22,9 @@ void solve()
 
     int diff = k - n;
 
-    if (diff == 0)
-    {
-        for (int i = 0; i < n; i++)
-        {
-            graph[i][i] = i + 1;
-        }
+    for (int i = 0; i < n;i++){
+        
     }
-    else if(diff ==1){
-        for(int )
-    }
-
 }
 
 int main()
