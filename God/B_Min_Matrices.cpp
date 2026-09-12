@@ -30,21 +30,28 @@ void solve()
     //     }
     // }
 
+    int diff = k - n;
     vector<vector<int>> graph(n, vector<int>(n, 0));
-    for (int i = 0; i < k; i++)
+    for (int i = 0; i < diff; i++)
     {
         graph[i][i] = i + 1;
     }
 
-    //     for (int i = 0; i < n; i++)
-    // {
-    //     for (int j = 0; j < n; j++)
-    //     {
-    //         if(graph[i][j] ==0){
-    //             graph[i][j] = ++k;
-    //         }
-    //     }
-    // }
+        for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            if(graph[i][j] ==0){
+                graph[i][j] = ++diff;
+            }
+        }
+    }
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            cout << graph[i][j] << " ";
+        }
+        cout << "\n";
+    }
 }
 
 int main()
