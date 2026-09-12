@@ -15,7 +15,6 @@ void solve()
     string s;
     cin >> s;
     int cnt = 0;
-    int ans = INF;
 
     int sx = 0, sy = 0;
     bool ok = false;
@@ -44,15 +43,15 @@ void solve()
             sx++;
         else if (c == 'L')
             sy--;
+        int distances = INF;
         for (auto [x, y] : fo)
         {
-            ans = min(ans, dist(x, y));
+            
+            distances = min(distances,dist(x,y));
         }
 
-        if (ans <= cnt)
+        if (distances <= cnt)
         {
-            cout << "坐标" << sx << " " << sy << " ";
-            cout << ans << " " << cnt << "\n";
             ok = true;
         }
     }
