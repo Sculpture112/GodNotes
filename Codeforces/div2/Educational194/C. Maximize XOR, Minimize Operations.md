@@ -1,4 +1,4 @@
-# [[0]]
+# [[1]]
 
 > **原题链接:** (https://codeforces.com/contest/2260/problem/C)
 
@@ -52,7 +52,7 @@ int main() {
 
             if (smaller) {
                 if (sum & mask) bestX |= mask;
-            } else if (x & mask) {
+            } else if (x & mask) { // bestX必须是sum的子掩码,同时bestX<=x
                 if (sum & mask) {
                     bestX |= mask;
                 } else {
