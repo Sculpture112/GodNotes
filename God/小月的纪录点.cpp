@@ -13,9 +13,16 @@ void solve() {
     cin >> n;
     vector<int> a(n);
     int mx = 0;
+    int last = 0;
+    int dis = INF;
     for (int i = 0; i < n; i++) {
         cin >> a[i];
-        mx = max(a[i], mx);
+        if(mx>a[i]){
+            mx = max(mx, a[i]);
+            dis = min(dis, i-last);
+            last = i;
+        }
+        
     }
 
 
