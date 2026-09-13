@@ -14,19 +14,16 @@ void solve() {
     vector<int> a(n);
     int mx = 0;
     int last = 0;
-    int dis = INF;
+    int dis = 0;
     int cnt = 0;
     for (int i = 0; i < n; i++) {
         cin >> a[i];
         if(mx<a[i]){
             mx = max(mx, a[i]);
-            dis = min(dis, i-last);
+            dis = max(dis, i-last);
             last = i;
             cnt++;
         }
-    }
-    if(dis == INF){
-        dis = 0;
     }
 
     cout << cnt << " " << dis;
