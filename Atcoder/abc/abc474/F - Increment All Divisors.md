@@ -103,7 +103,7 @@ int main() {
         }
 
         for (int p : primes) {
-            if (1LL * i * p > N) {
+            if (1LL * i * p > N) { // 说明后续的数都大于N,后面的不需要
                 break;
             }
 
@@ -111,7 +111,7 @@ int main() {
 	
             if (i % p == 0) {
                 mu[i * p] = 0;
-                break;
+                break; // 一个数只被它最小的质因数标记,在这里,合数的判断和mu的判断一起结束
             }
 
             mu[i * p] = -mu[i]; // [[2026-09-09-10-05-02]]
