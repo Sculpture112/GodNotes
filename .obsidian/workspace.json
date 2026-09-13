@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,12 +97,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bool",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-search",
               "title": "搜索"
@@ -143,8 +143,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -248,7 +247,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "学校.md",
+                "file": "例题/G. 考古密码求和.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -297,8 +296,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b812e4464b3038f0",
+  "active": "47b137b2f0765088",
   "lastOpenFiles": [
+    "学校.md",
     "God/_u5c0f_u6708_u7684_u6392_u5e8f.bin",
     "God/_u5c0f_u6708_u7684_u7eaa_u5f55_u70b9.bin",
     "God/小月的排序.cpp",
@@ -336,7 +336,6 @@
     "God/A_Min_Max_Game.cpp",
     "image/Pasted image 20260912211213.png",
     "image/Pasted image 20260912210827.png",
-    "God/Walk_the_Line.cpp",
     "tmp/pdfs/page-8.png",
     "tmp/pdfs/page-7.png",
     "tmp/pdfs/page-6.png",

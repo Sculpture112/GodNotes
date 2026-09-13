@@ -12,8 +12,8 @@ void solve()
 {
     int n, k;
     cin >> n >> k;
-    vector<ll> a(n);
-    for (ll &x : a)
+    vector<int> a(n);
+    for (int &x : a)
     {
         cin >> x;
     }
@@ -22,27 +22,27 @@ void solve()
     {
         if (x == 0 && y != 0)
         {
-            return x < y;
+            return true;
         }
         if (y == 0 && x != 0)
         {
-            return y < x;
+            return false;
         }
-        if (x == 0 && y == 0)
-            return x == y;
-        int cnt = 0, cnt1 = 0;
-        for (int i = 29; i >= 0; i--)
-        {
-            ll mask = 1 << i;
-            if (a[x] & mask != 0)
-            {
-                cnt++;
-            }
-            // if (a[y] & mask != 0)
-            // {
-            //     cnt1++;
-            // }
-        }
+        // if (x == 0 && y == 0)
+        //     return x == y;
+        // int cnt = 0, cnt1 = 0;
+        // for (int i = 31; i >= 0; i--)
+        // {
+        //     int mask = 1 << i;
+        //     if (x & mask != 0)
+        //     {
+        //         cnt++;
+        //     }
+        //     if (y & mask != 0)
+        //     {
+        //         cnt1++;
+        //     }
+        // }
         // if (cnt != cnt1)
         // {
         //     return (cnt < cnt1) ? (x < y) : (x > y);
@@ -52,7 +52,7 @@ void solve()
         // for (int i = 0; i < 32; i++)
         // {
         //     int mask = 1 << i;
-        //     if (a[x] & mask != 0)
+        //     if (x & mask != 0)
         //     {
         //         pos = i;
         //         break;
@@ -62,7 +62,7 @@ void solve()
         // for (int i = 0; i < 32; i++)
         // {
         //     int mask = 1 << i;
-        //     if (a[y] & mask != 0)
+        //     if (y & mask != 0)
         //     {
         //         pos1 = i;
         //         break;
@@ -73,32 +73,34 @@ void solve()
         //     return (pos < pos1) ? (x < y) : (x > y);
         // }
 
-        // for (int i = 31; i >0; i--)
+        // for (int i = 31; i > 0; i--)
         // {
         //     int mask = 1 << i;
         //     bool true1 = false, true2 = false;
 
-        //     if(a[x] &mask!=0)
+        //     if (x & mask != 0)
         //     {
         //         true1 = true;
         //     }
-        //     if(a[y]&mask!=0)
+        //     if (y & mask != 0)
         //     {
         //         true2 = true;
         //     }
 
-        //     if(true1 && !true2)
+        //     if (true1 && !true2)
         //     {
         //         return x < y;
         //     }
-        //     if(!true1 && true2)
+        //     if (!true1 && true2)
         //     {
         //         return x > y;
         //     }
         // }
     };
+    cout << 1;
 
-    sort(a.begin(), a.end(), cmp);
+    // sort(a.begin(), a.end(), cmp);
+
     cout << a[k - 1];
 }
 
