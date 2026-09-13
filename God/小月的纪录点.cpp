@@ -13,7 +13,7 @@ void solve()
     int n;
     cin >> n;
     vector<ll> a(n);
-    ll mx = 0;
+    ll mx = -INF;
     int last = INF;
     int dis = 0;
     int cnt = 0;
