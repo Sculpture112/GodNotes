@@ -15,17 +15,21 @@ void solve() {
     int mx = 0;
     int last = 0;
     int dis = INF;
+    int cnt = 0;
     for (int i = 0; i < n; i++) {
         cin >> a[i];
-        if(mx>a[i]){
+        if(mx<a[i]){
             mx = max(mx, a[i]);
             dis = min(dis, i-last);
             last = i;
+            cnt++;
         }
-        
+    }
+    if(dis == INF){
+        dis = 0;
     }
 
-
+    cout << cnt << " " << dis;
 }
 
 int main() {
