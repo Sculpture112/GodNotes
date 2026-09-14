@@ -1,46 +1,56 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 using ll = long long;
-
-const int INF = 0x3f3f3f3f;
-const ll LINF = 4e18;
-
-#define all(x) (x).begin(), (x).end()
-
-void solve()
-{
-    int n, m;
-    cin >> n >> m;
-    vector<int> a(n + 1);
-    for (int i = 1; i <= n; i++)
-    {
-        cin >> a[i];
-    }
-    for (int i = 0; i < m; i++)
-    {
-        int l, r;
-        cin >> l >> r;
-        for (int j = l; j <= r; j++)
-        {
-            a[j] += (min(r - j, j - l) + 1);
-        }
-    }
-    for (int i = 1; i <= n; i++)
-    {
-        cout << a[i] << " ";
-    }
-}
-
+const int N = 100010;
+ll a[N], diff[N];
 int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    int n, m;
+    cin >> n >> m;
+    for (int i = 1; i <= n; i++)
+        cin >> a[i];
+    while (m--)
+    {
 
-    int T = 1;
-    // cin >> T;
-    while (T--)
-        solve();
-
+        int l, r;
+        cin >> l >> r;
+        if (l == r)
+        {
+            diff[l] += 1;
+            diff[l + 1] -= 2;
+            diff[l + 2] += 1;
+        }
+        else if (r == l + 1)
+        {
+            diff[l] += 1;
+            diff[l + 1] -= 1;
+            diff[l + 2] -= 1;
+            diff[l + 3] += 1;
+        }
+        else if ((r - l + 1) & 1)
+        {
+            int mid = (l + r) / 2;
+            diff[l] += 1;
+            diff[mid + 1] -= 2;
+            diff[r + 1] += 1;
+        }
+        else
+        {
+            int mid = (l + r) / 2;
+            diff[l] += 1;
+            diff[mid + 1] -= 1;
+            diff[mid + 2] -= 1;
+            diff[r + 1] += 1;
+        }
+    }
+    // 两次前缀和还原增量
+    for (int i = 1; i <= n; i++)
+        diff[i] += diff[i - 1];
+    for (int i = 1; i <= n; i++)
+        diff[i] += diff[i - 1];
+    for (int i = 1; i <= n; i++)
+        cout << a[i] + diff[i] << " \n"[i == n];
     return 0;
 }
