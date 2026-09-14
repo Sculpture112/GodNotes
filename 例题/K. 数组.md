@@ -35,6 +35,67 @@ int main() {
     cin >> n >> m;
 
     vector<int64> a(n + 1);
+    vector<int64> diff(n + 5, 0);
+
+    for (int i = 1; i <= n; ++i) {
+        cin >> a[i];
+    }
+
+    while (m--) {
+        int L, R;
+        cin >> L >> R;
+
+        int mid = (L + R) / 2;
+        int len = R - L + 1;
+
+        if (len & 1) {
+            // 奇数长度：1, 2, ..., peak, ..., 2, 1
+            diff[L] += 1;
+            diff[mid + 1] -= 2;
+            diff[R + 2] += 1;
+        } else {
+            // 偶数长度：1, 2, ..., peak, peak, ..., 2, 1
+            diff[L] += 1;
+            diff[mid + 1] -= 1;
+            diff[mid + 2] -= 1;
+            diff[R + 2] += 1;
+        }
+    }
+
+    // 二阶差分 -> 一阶差分
+    for (int i = 1; i <= n; ++i) {
+        diff[i] += diff[i - 1];
+    }
+
+    // 一阶差分 -> 实际增加量
+    for (int i = 1; i <= n; ++i) {
+        diff[i] += diff[i - 1];
+    }
+
+    for (int i = 1; i <= n; ++i) {
+        if (i > 1) cout << ' ';
+        cout << a[i] + diff[i];
+    }
+    cout << '\n';
+
+    return 0;
+}
+```
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+using int64 = long long;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int n, m;
+    cin >> n >> m;
+
+    vector<int64> a(n + 1);
     vector<int64> diffK(n + 3, 0);
     vector<int64> diffB(n + 3, 0);
 
