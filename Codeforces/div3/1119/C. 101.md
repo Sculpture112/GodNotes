@@ -21,6 +21,58 @@
 
 **一个相似变式：**
 
+官方题解
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int T;
+    cin >> T;
+
+    while (T--) {
+        int n;
+        cin >> n;
+
+        vector<int> a(n);
+        for (int &x : a) cin >> x;
+
+        // 找到最左边能够成为 1 的位置
+        for (int i = 0; i < n; i++) {
+            if (a[i] == -1) {
+                a[i] = 1;
+            }
+
+            if (a[i] == 1) {
+                break;
+            }
+        }
+
+        // 找到最右边能够成为 1 的位置
+        for (int i = n - 1; i >= 0; i--) {
+            if (a[i] == -1) {
+                a[i] = 1;
+            }
+
+            if (a[i] == 1) {
+                break;
+            }
+        }
+
+        // 剩余的 -1 全部变成 0
+        for (int i = 0; i < n; i++) {
+            cout << max(a[i], 0)
+                 << (i + 1 == n ? '\n' : ' ');
+        }
+    }
+
+    return 0;
+}
+```
+
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
