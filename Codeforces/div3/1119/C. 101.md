@@ -81,7 +81,8 @@ int main() {
                 bestL = bestR = ones[0];
                 bestLen = 1;
             }
-        } else {
+        } 
+        else {
             // 没有固定 1，直接让最左和最右的 -1 变成 1
             if ((int)neg.size() >= 2) {
                 update(neg.front(), neg.back());
