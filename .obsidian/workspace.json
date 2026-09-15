@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/C. Hot Potatoes at the Fairy Warehouse.md",
+                "file": "Daily/2026-09-16.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C. Hot Potatoes at the Fairy Warehouse"
+              "title": "2026-09-16"
             }
           }
         ]
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/C. Hot Potatoes at the Fairy Warehouse.md",
+                "file": "Daily/2026-09-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,14 +236,13 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
-      "periodic-notes:Open today": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false
     }
   },
   "active": "fd5491b181cb7886",
   "lastOpenFiles": [
-    "Daily/2026-09-15.md",
     "例题/C. Hot Potatoes at the Fairy Warehouse.md",
+    "Daily/2026-09-15.md",
     "例题/P1347 [ECNA 2001] 排序.md",
     "Daily/2026-09-22.md",
     "Daily/2026-10-02.md",
