@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/K. 数组.md",
+                "file": "Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,8 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.83331298828125,
-    "collapsed": true
+    "width": 202.83331298828125
   },
   "left-ribbon": {
     "hiddenItems": {
