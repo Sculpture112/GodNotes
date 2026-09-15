@@ -1,4 +1,4 @@
-# [[1]]
+# [[2]]
 
 > **原题链接:** (https://codeforces.com/contest/2260/problem/C)
 
@@ -53,7 +53,7 @@ int main() {
 
             if (smaller) {
                 if (sum & mask) bestX |= mask;
-            } else if (x & mask) { // bestX必须是sum的子掩码,同时bestX<=x
+            } else if (x & mask) { // bestX必须是sum的子掩码,同时bestX<=x , 这里为什么要x&mask呢?因为是让产生的bestX <= x
                 if (sum & mask) {
                     bestX |= mask;
                 } else {
