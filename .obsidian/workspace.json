@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "1ece637b6d39ab53",
+            "id": "087fc170e1baa6d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/P1363 幻象迷宫.md",
+                "file": "例题/P1347 [ECNA 2001] 排序.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "P1363 幻象迷宫"
+              "title": "P1347 [ECNA 2001] 排序"
             }
           }
         ],
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/P1363 幻象迷宫.md",
+                "file": "例题/P1347 [ECNA 2001] 排序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,9 +255,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1ece637b6d39ab53",
+  "active": "087fc170e1baa6d2",
   "lastOpenFiles": [
     "Daily/2026-09-15.md",
+    "Daily/2026-10-02.md",
+    "例题/P1363 幻象迷宫.md",
     "Daily/2026-09-16.md",
     "Codeforces/div3/1119/D. MEX Multiset.md",
     "Daily/2026-09-14.md",
@@ -281,8 +283,6 @@
     "例题/J. 想赚钱就来炼丹啊.md",
     "例题/G. 考古密码求和.md",
     "算法名/进制转换.md",
-    "例题/D. 三原色.md",
-    "学校.md",
     "image/Pasted image 20260915192024.png",
     "image/Pasted image 20260914210507.png",
     "God/_u5c0f_u6708_u7684_u6392_u5e8f.bin",
