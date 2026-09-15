@@ -33,7 +33,7 @@ int main() {
     cin >> N >> M;
 
     vector<string> maze(N);
-    vector<pair<int, int>> pos[26];
+    vector<pair<int, int>> pos[26]; // 26个vector
     int sr = 0, sc = 0;
 
     for (int i = 0; i < N; ++i) {
