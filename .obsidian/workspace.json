@@ -8,49 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b6c2720a9b78882d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "例题/K. 数组.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "K. 数组"
-            }
-          },
-          {
             "id": "fd5491b181cb7886",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-09-13.md",
+                "file": "Daily/2026-09-14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-13"
+              "title": "2026-09-14"
             }
           },
           {
-            "id": "e17f026f69685b20",
+            "id": "41730ab4e210ca77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/P1825 [USACO11OPEN] Corn Maze S.md",
+                "file": "Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "P1825 [USACO11OPEN] Corn Maze S"
+              "title": "E. Treasure Map Destruction (Constructive Version)"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,7 +101,8 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -269,9 +256,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e17f026f69685b20",
+  "active": "41730ab4e210ca77",
   "lastOpenFiles": [
+    "Daily/2026-09-14.md",
+    "Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version).md",
     "Daily/2026-09-13.md",
+    "例题/P1825 [USACO11OPEN] Corn Maze S.md",
     "Daily/2026-09-18.md",
     "例题/Kaky 的数组交换.md",
     "Daily/2026-09-12.md",
@@ -286,7 +276,6 @@
     "2026-09-14-21-05-01.md",
     "image/Pasted image 20260915192024.png",
     "image/Pasted image 20260914210507.png",
-    "Daily/2026-09-14.md",
     "例题/K. 数组.md",
     "Daily/2026-09-19.md",
     "Codeforces/div3/1119/C. 101.md",
@@ -303,8 +292,6 @@
     "备份/日历状态排程器-重复文件/2026-09-06.md",
     "备份/日历状态排程器-重复文件/2026-09-05.md",
     "Atcoder/abc/abc474/F - Increment All Divisors.md",
-    "Codeforces/div3/1119/F. Binary Bubble Sort Inversions.md",
-    "Daily/2026-09-20.md",
     "God/B_Min_Matrices.bin",
     "God/B_Min_Matrices.cpp",
     "God/A_Min_Max_Game.bin",
