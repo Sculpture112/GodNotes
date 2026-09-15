@@ -80,7 +80,7 @@ int main() {
             // 走到传送门后，立即传送到另一个端点
             if (ch >= 'A' && ch <= 'Z') {
                 auto &v = pos[ch - 'A'];
-                if (v[0] == make_pair(nr, nc)) {
+                if (v[0] == make_pair(nr, nc)) { // make_pair为了对齐格式
                     tr = v[1].first;
                     tc = v[1].second;
                 } else {
