@@ -1,4 +1,4 @@
-# [[0]]
+# [[1]]
 
 > **原题链接:** (https://ac.nowcoder.com/acm/contest/139936?channelPut=tracker1)
 
@@ -43,8 +43,8 @@ int main() {
         for (int &x : c) cin >> x;
         for (int &x : d) cin >> x;
 
-        vector<int> mate(2 * n + 1);
-        vector<int> isBottom(2 * n + 1, 0);
+        vector<int> mate(2 * n + 1); // 利用数组产生map效果,匹配
+        vector<int> isBottom(2 * n + 1, 0); // 标记下层的数字,如果后续读到就是异或flip
 
         for (int i = 0; i < n; ++i) {
             mate[a[i]] = b[i];
@@ -58,11 +58,11 @@ int main() {
         for (int i = 0; i < n; ++i) {
             // 目标中的两个元素必须来自初始状态的同一列
             if (mate[c[i]] != d[i]) {
-                ok = false;
+                ok = false; // 配对关系不能改变
             }
 
             // 若目标上方元素原本位于下方，则这一列被翻转
-            flipParity ^= isBottom[c[i]];
+            flipParity ^= isBottom[c[i]]; // flip必须是偶数次
         }
 
         cout << (ok && flipParity == 0 ? "Yes" : "No") << '\n';

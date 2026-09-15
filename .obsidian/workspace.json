@@ -36,31 +36,17 @@
             }
           },
           {
-            "id": "3c71a388c15c4fb5",
+            "id": "e17f026f69685b20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/J. 想赚钱就来炼丹啊.md",
+                "file": "例题/P1825 [USACO11OPEN] Corn Maze S.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "J. 想赚钱就来炼丹啊"
-            }
-          },
-          {
-            "id": "f458640d1021483a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "例题/Kaky 的数组交换.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kaky 的数组交换"
+              "title": "P1825 [USACO11OPEN] Corn Maze S"
             }
           }
         ],
@@ -129,8 +115,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -284,10 +269,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3c71a388c15c4fb5",
+  "active": "e17f026f69685b20",
   "lastOpenFiles": [
     "Daily/2026-09-13.md",
+    "Daily/2026-09-18.md",
     "例题/Kaky 的数组交换.md",
+    "Daily/2026-09-12.md",
+    "Daily/2026-09-21.md",
     "例题/J. 想赚钱就来炼丹啊.md",
     "Daily/2026-09-16.md",
     "例题/G. 考古密码求和.md",
@@ -297,7 +285,6 @@
     "算法名/矩阵快速幂.md",
     "2026-09-14-21-05-01.md",
     "image/Pasted image 20260915192024.png",
-    "Daily/2026-09-12.md",
     "image/Pasted image 20260914210507.png",
     "Daily/2026-09-14.md",
     "例题/K. 数组.md",
@@ -312,14 +299,12 @@
     "God/_u5c0f_u6708_u7684_u4eae_u706f.bin",
     "God/小月的亮灯.cpp",
     "例题/P1127 词链.md",
-    "Daily/2026-09-18.md",
     "Daily/2026-09-03.md",
     "备份/日历状态排程器-重复文件/2026-09-06.md",
     "备份/日历状态排程器-重复文件/2026-09-05.md",
     "Atcoder/abc/abc474/F - Increment All Divisors.md",
     "Codeforces/div3/1119/F. Binary Bubble Sort Inversions.md",
     "Daily/2026-09-20.md",
-    "例题/P1983 [NOIP 2013 普及组] 车站分级.md",
     "God/B_Min_Matrices.bin",
     "God/B_Min_Matrices.cpp",
     "God/A_Min_Max_Game.bin",
