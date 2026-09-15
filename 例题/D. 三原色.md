@@ -35,6 +35,7 @@ constexpr int64 MOD = 998244353;
 struct Matrix {
     int64 a[K][K]{};
 };
+// M[i][j]表示i状态到j状态可不可以实现
 
 Matrix operator*(const Matrix& x, const Matrix& y) {
     Matrix z;

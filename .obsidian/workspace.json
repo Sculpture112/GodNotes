@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "3c5946c3c7301d15",
+            "id": "fd5491b181cb7886",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "fd5491b181cb7886",
+            "id": "48ea8c49b1c5d9d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,6 +47,20 @@
               },
               "icon": "lucide-file",
               "title": "D. 三原色"
+            }
+          },
+          {
+            "id": "97581f50f1d8880f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "学校.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "学校"
             }
           },
           {
@@ -276,16 +290,19 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "fd5491b181cb7886",
+  "active": "48ea8c49b1c5d9d7",
   "lastOpenFiles": [
+    "学校.md",
     "2026-09-14-21-05-01.md",
-    "image/Pasted image 20260914210507.png",
+    "image/Pasted image 20260915192024.png",
     "例题/D. 三原色.md",
     "Daily/2026-09-13.md",
     "Daily/2026-09-12.md",
+    "image/Pasted image 20260914210507.png",
     "Daily/2026-09-14.md",
     "例题/K. 数组.md",
     "例题/G. 考古密码求和.md",
@@ -293,7 +310,6 @@
     "Codeforces/div3/1119/C. 101.md",
     "Daily/2026-09-17.md",
     "例题/P1065 [NOIP 2006 提高组] 作业调度方案.md",
-    "学校.md",
     "God/_u5c0f_u6708_u7684_u6392_u5e8f.bin",
     "God/_u5c0f_u6708_u7684_u7eaa_u5f55_u70b9.bin",
     "God/小月的排序.cpp",
@@ -324,7 +340,6 @@
     "tmp/pdfs/page-6.png",
     "image/Pasted Image 20260910160610_671.png",
     "output/imagegen/shanghai-cyberpunk-hero.png",
-    "image/Pasted image 20260908111611.png",
-    "image/Pasted image 20260908111223.png"
+    "image/Pasted image 20260908111611.png"
   ]
 }
