@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "2026-09-15"
             }
-          },
-          {
-            "id": "087fc170e1baa6d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "例题/P1347 [ECNA 2001] 排序.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "P1347 [ECNA 2001] 排序"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/P1347 [ECNA 2001] 排序.md",
+                "file": "Daily/2026-09-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,8 +240,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "087fc170e1baa6d2",
+  "active": "fd5491b181cb7886",
   "lastOpenFiles": [
+    "例题/P1347 [ECNA 2001] 排序.md",
+    "Daily/2026-09-22.md",
     "Daily/2026-09-15.md",
     "Daily/2026-10-02.md",
     "例题/P1363 幻象迷宫.md",
@@ -274,7 +261,6 @@
     "Daily/2026-09-18.md",
     "Daily/2026-09-19.md",
     "Daily/2026-09-21.md",
-    "Daily/2026-09-22.md",
     "Daily/2026-09-25.md",
     "Daily/2026-09-13.md",
     "例题/P1825 [USACO11OPEN] Corn Maze S.md",
@@ -282,7 +268,6 @@
     "Daily/2026-09-12.md",
     "例题/J. 想赚钱就来炼丹啊.md",
     "例题/G. 考古密码求和.md",
-    "算法名/进制转换.md",
     "image/Pasted image 20260915192024.png",
     "image/Pasted image 20260914210507.png",
     "God/_u5c0f_u6708_u7684_u6392_u5e8f.bin",
