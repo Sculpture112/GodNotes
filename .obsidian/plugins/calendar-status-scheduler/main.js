@@ -36,9 +36,10 @@ function addDays(date, days) {
 }
 
 class ScheduleModal extends Modal {
-  constructor(app, settings) {
+  constructor(app, settings, currentStatus) {
     super(app);
     this.settings = settings;
+    this.currentStatus = currentStatus;
     this.result = null;
     this.resolvePromise = null;
   }
@@ -58,9 +59,11 @@ class ScheduleModal extends Modal {
       t.inputEl.style.width = "100%";
     });
     let statusInput;
-    new Setting(contentEl).setName("y：修改后的状态").setDesc(`把 ${this.settings.statusFrom} 改成 [[y]]`).addText(t => {
+    const currentNumber = Number(this.currentStatus.replace(/^\[\[|\]\]$/g, ""));
+    const suggestedStatus = Number.isInteger(currentNumber) ? String(currentNumber + 1) : this.settings.defaultStatus;
+    new Setting(contentEl).setName("y：修改后的状态").setDesc(`当前状态：${this.currentStatus}；默认更新为 [[${suggestedStatus}]]`).addText(t => {
       statusInput = t.inputEl;
-      t.setValue(this.settings.defaultStatus);
+      t.setValue(suggestedStatus);
       t.inputEl.placeholder = "例如 2 或 review";
       t.inputEl.style.width = "100%";
     });
@@ -230,14 +233,14 @@ module.exports = class CalendarStatusScheduler extends Plugin {
   async scheduleCurrentNote() {
     const source = this.app.workspace.getActiveFile();
     if (!source || source.extension !== "md") { new Notice("请先打开要安排的 Markdown 笔记"); return; }
-    const input = await new ScheduleModal(this.app, this.settings).waitForResult();
-    if (!input) return;
     const sourceContent = await this.app.vault.read(source);
     // 默认模式兼容旧设置 [[0]]，自动寻找 [[0]]…[[5]] 中实际出现的那个状态。
     const autoStatus = !this.settings.statusFrom || this.settings.statusFrom === "[[0]]" || this.settings.statusFrom === "[[0-5]]";
     const statusMatch = autoStatus ? sourceContent.match(/\[\[[0-5]\]\]/) : (sourceContent.includes(this.settings.statusFrom) ? [this.settings.statusFrom] : null);
     if (!statusMatch) { new Notice(autoStatus ? "当前笔记找不到 [[0]] 到 [[5]] 的状态" : `当前笔记找不到 ${this.settings.statusFrom}，未执行`); return; }
     const sourceStatus = statusMatch[0];
+    const input = await new ScheduleModal(this.app, this.settings, sourceStatus).waitForResult();
+    if (!input) return;
     const targetDate = addDays(new Date(), input.days);
     const target = await this.addNoteToReviewDate(source, targetDate);
     const replacement = `[[${input.status}]]`;

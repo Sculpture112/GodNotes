@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "2026-09-14"
             }
+          },
+          {
+            "id": "7cc2ae564e1ea551",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atcoder/abc/abc474/E - One Time Coupon.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "E - One Time Coupon"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2026-09-14.md",
+                "file": "Atcoder/abc/abc474/E - One Time Coupon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,14 +251,13 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
-      "periodic-notes:Open today": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false
     }
   },
-  "active": "fd5491b181cb7886",
+  "active": "7cc2ae564e1ea551",
   "lastOpenFiles": [
-    "Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version).md",
     "Daily/2026-09-14.md",
+    "Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version).md",
     "Codeforces/div2/Educational194/C. Maximize XOR, Minimize Operations.md",
     "例题/P1395 会议.md",
     "Daily/2026-09-20.md",
