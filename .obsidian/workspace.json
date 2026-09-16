@@ -236,13 +236,15 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "fd5491b181cb7886",
   "lastOpenFiles": [
-    "Daily/2026-09-16.md",
+    "算法名/逆元.md",
     "例题/D. A Ribbon for Tomorrow.md",
+    "Daily/2026-09-16.md",
     "例题/C. Hot Potatoes at the Fairy Warehouse.md",
     "Daily/2026-09-27.md",
     "学校.md",
@@ -266,7 +268,6 @@
     "例题/P1363 幻象迷宫.md",
     "Codeforces/div3/1119/D. MEX Multiset.md",
     "Daily/2026-09-14.md",
-    "Atcoder/abc/abc474/E - One Time Coupon.md",
     "image/Pasted image 20260915192024.png",
     "image/Pasted image 20260914210507.png",
     "God/_u5c0f_u6708_u7684_u6392_u5e8f.bin",
