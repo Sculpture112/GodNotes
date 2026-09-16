@@ -32,7 +32,7 @@ constexpr int MAX_N = 1'000'000;
 
 int64 fac[MAX_N + 1];
 int64 ifac[MAX_N + 1];
-
+// [[2026-09-16-19-45-42]]
 int64 qpow(int64 a, int64 b) {
     int64 result = 1;
 
