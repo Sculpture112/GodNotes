@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vim.md",
+                "file": "例题/D. A Ribbon for Tomorrow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vim"
+              "title": "D. A Ribbon for Tomorrow"
             }
           }
         ]
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vim.md",
+                "file": "例题/D. A Ribbon for Tomorrow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,16 +236,18 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
-      "periodic-notes:Open today": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false
     }
   },
   "active": "fd5491b181cb7886",
   "lastOpenFiles": [
-    "problem_chinese.md",
-    "学校.md",
     "Daily/2026-09-16.md",
+    "例题/D. A Ribbon for Tomorrow.md",
+    "例题/C. Hot Potatoes at the Fairy Warehouse.md",
     "Daily/2026-09-27.md",
+    "学校.md",
+    "problem_chinese.md",
+    "Vim.md",
     "Daily/2026-09-25.md",
     "Daily/2026-09-23.md",
     "Daily/2026-09-22.md",
@@ -259,15 +261,12 @@
     "例题/P1825 [USACO11OPEN] Corn Maze S.md",
     "算法名/DFS.md",
     "例题/Tactical Game.md",
-    "例题/C. Hot Potatoes at the Fairy Warehouse.md",
     "例题/P1347 [ECNA 2001] 排序.md",
     "Daily/2026-10-02.md",
     "例题/P1363 幻象迷宫.md",
     "Codeforces/div3/1119/D. MEX Multiset.md",
     "Daily/2026-09-14.md",
     "Atcoder/abc/abc474/E - One Time Coupon.md",
-    "Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version).md",
-    "Codeforces/div2/Educational194/C. Maximize XOR, Minimize Operations.md",
     "image/Pasted image 20260915192024.png",
     "image/Pasted image 20260914210507.png",
     "God/_u5c0f_u6708_u7684_u6392_u5e8f.bin",
