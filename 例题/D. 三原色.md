@@ -62,7 +62,7 @@ array<int64, K> operator*(const array<int64, K>& x,
     // z[j] = 行向量 x × 矩阵 y 的第 j 列
     for (int j = 0; j < K; ++j) {
         for (int k = 0; k < K; ++k) {
-            z[j] = (z[j] + x[k] * y.a[k][j]) % MOD;
+            z[j] = (z[j] + x[k] * y.a[k][j]) % MOD; // 固定j列, 第k个方案数乘以第k个能否到底j 等于这个方案增加的数量
         }
     }
 
