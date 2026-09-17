@@ -62,8 +62,8 @@ array<int64, K> operator*(const array<int64, K>& x,
     // z[j] = 行向量 x × 矩阵 y 的第 j 列
     for (int j = 0; j < K; ++j) {
         for (int k = 0; k < K; ++k) {
-            z[j] = (z[j] + x[k] * y.a[k][j]) % MOD; // 固定j列, 第k个方案数乘以第k个能否到底j 等于这个方案增加的数量
-        }
+            z[j] = (z[j] + x[k] * y.a[k][j]) % MOD; // 固定j列, 第k个方案数乘以第k个能否到底j 等于这个方案增加的数量 [[2026-09-17-09-45-54]]
+        } // 意为x[k] * a[k][j] ,第k个状态能不能到达j状态
     }
 
     return z;
@@ -91,7 +91,7 @@ int main() {
         {0, 0, 0, 1, 0, 1},
         {0, 0, 0, 1, 0, 0}
     };
-
+	// 新状态都可以由旧状态转移,所以直接计算矩阵快速幂,加速转移
     Matrix trans;
     for (int i = 0; i < K; ++i) {
         for (int j = 0; j < K; ++j) {
