@@ -99,6 +99,7 @@ int main() {
         }
     }
 
+// M[i][j]表示i状态到j状态可不可以实现
     // 所有测试用例共用这些矩阵幂
     array<Matrix, LOG> pw;
     pw[0] = trans;
@@ -106,6 +107,7 @@ int main() {
     for (int i = 1; i < LOG; ++i) {
         pw[i] = pw[i - 1] * pw[i - 1];
     }
+    // 计算矩阵快速幂
 
     int T;
     cin >> T;
