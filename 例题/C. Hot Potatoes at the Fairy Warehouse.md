@@ -1,4 +1,4 @@
-# [[0]]
+# [[1]]
 
 > **原题链接:** (https://codeforces.com/contest/2256/problem/C)
 
@@ -45,7 +45,7 @@ int main() {
 
         for (int i = 0; i < m; ++i) {
             if (s[i] == '0') continue;
-
+			// 这里是i和题目对下标正好相反
             int team = i & 1;  // 0: Red, 1: Blue
 
             if (s[(i + 1) % m] == '0') {
