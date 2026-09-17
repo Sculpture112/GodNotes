@@ -46,7 +46,7 @@ Matrix operator*(const Matrix& x, const Matrix& y) {
         for (int j = 0; j < K; ++j) {
             for (int k = 0; k < K; ++k) {
                 z.a[i][j] =
-                    (z.a[i][j] + x.a[i][k] * y.a[k][j]) % MOD;
+                    (z.a[i][j] + x.a[i][k] * y.a[k][j]) % MOD; // 第i行乘以第j列
             }
         }
     }
