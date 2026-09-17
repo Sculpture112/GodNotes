@@ -1,4 +1,4 @@
-# [[0]]
+# [[1]]
 
 > **原题链接:** (https://codeforces.com/gym/715305/problem/G)
 
