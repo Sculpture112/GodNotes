@@ -87,7 +87,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -236,14 +236,17 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "f29bf82e75008626",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-09-17 11.04.43.excalidraw.md",
+    "未命名 1.md",
+    "Daily/2026-09-17.md",
     "Daily/2026-09-24.md",
     "Atcoder/abc/abc474/C - Remove and Append.md",
-    "Daily/2026-09-17.md",
     "Daily/2026-09-26.md",
     "例题/最短路.md",
     "例题/P5250 【深基17.例5】木材仓库.md",
@@ -269,8 +272,6 @@
     "image/Pasted image 20260917095403.png",
     "2026-09-17-09-45-54.md",
     "image/Pasted image 20260917094559.png",
-    "例题/G. 考古密码求和.md",
-    "Daily/2026-09-21.md",
     "image/Pasted image 20260917092847.png",
     "image/Pasted image 20260916200310.png",
     "image/Pasted image 20260916194733.png",
