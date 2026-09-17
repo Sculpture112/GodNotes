@@ -124,7 +124,7 @@ int main() {
         int64 exponent = n - 1;
 
         for (int bit = 0; exponent > 0; ++bit, exponent >>= 1) {
-            if (exponent & 1LL) {
+            if (exponent & 1LL) { // 快速幂
                 dp = dp * pw[bit];
             }
         }
