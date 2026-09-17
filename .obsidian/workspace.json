@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-09-16.md",
+                "file": "Daily/2026-09-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-16"
+              "title": "2026-09-17"
             }
           },
           {
-            "id": "a08fcfad8daf5044",
+            "id": "7ab30554271017ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/D. A Ribbon for Tomorrow.md",
+                "file": "Atcoder/abc/abc474/E - One Time Coupon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "D. A Ribbon for Tomorrow"
+              "title": "E - One Time Coupon"
             }
           }
         ],
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/D. A Ribbon for Tomorrow.md",
+                "file": "Atcoder/abc/abc474/E - One Time Coupon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,10 +255,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a08fcfad8daf5044",
+  "active": "7ab30554271017ac",
   "lastOpenFiles": [
     "Daily/2026-09-17.md",
+    "例题/D. A Ribbon for Tomorrow.md",
     "Daily/2026-09-16.md",
+    "Daily/2026-09-18.md",
+    "Atcoder/abc/abc474/E - One Time Coupon.md",
+    "2026-09-16-20-03-06.md",
+    "2026-09-16-19-45-42.md",
+    "Daily/2026-09-20.md",
     "Daily/2026-09-25.md",
     "例题/P3385 【模板】负环.md",
     "Daily/2026-09-19.md",
@@ -271,7 +277,6 @@
     "image/Pasted image 20260917095403.png",
     "2026-09-17-09-45-54.md",
     "image/Pasted image 20260917094559.png",
-    "Daily/2026-09-20.md",
     "例题/G. 考古密码求和.md",
     "Daily/2026-09-21.md",
     "例题/J. 想赚钱就来炼丹啊.md",
@@ -280,17 +285,12 @@
     "Codeforces/div3/1119/D. MEX Multiset.md",
     "例题/C. Hot Potatoes at the Fairy Warehouse.md",
     "Daily/2026-09-15.md",
-    "例题/D. A Ribbon for Tomorrow.md",
-    "2026-09-16-20-03-06.md",
     "image/Pasted image 20260916200310.png",
-    "2026-09-16-19-45-42.md",
     "image/Pasted image 20260916194733.png",
     "image/Pasted image 20260916194633.png",
     "算法名/费马小定理.md",
     "学校.md",
     "算法名/逆元.md",
-    "Daily/2026-09-27.md",
-    "problem_chinese.md",
     "image/Pasted image 20260915192024.png",
     "image/Pasted image 20260914210507.png",
     "God/_u5c0f_u6708_u7684_u6392_u5e8f.bin",
