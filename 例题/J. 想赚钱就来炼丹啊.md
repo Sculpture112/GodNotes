@@ -1,4 +1,4 @@
-# [[0]]
+# [[1]]
 
 > **原题链接:** (https://codeforces.com/gym/715305)
 
@@ -78,7 +78,8 @@ int main() {
             int x = cur.x;
             int y = cur.y;
             int z = cur.z;
-
+			// [[2026-09-17-09-28-43]]
+			// 形成链状塞入，满足唯一前驱塞入
             if (x + 1 < n) {
                 push(x + 1, y, z);
             }
