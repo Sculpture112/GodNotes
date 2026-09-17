@@ -123,7 +123,7 @@ int main() {
 
         int64 exponent = n - 1;
 
-        for (int bit = 0; exponent > 0; ++bit, exponent >>= 1) {
+        for (int bit = 0; exponent > 0; ++bit, exponent >>= 1) { // [[2026-09-17-09-53-57]]
             if (exponent & 1LL) { // 快速幂
                 dp = dp * pw[bit];
             }
