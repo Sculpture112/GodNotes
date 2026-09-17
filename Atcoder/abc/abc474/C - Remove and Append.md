@@ -1,8 +1,8 @@
-# []
+# [[1]]
 
 > **原题链接:** (https://atcoder.jp/contests/abc474/tasks/abc474_c)
 
-**涉及知识点:** [[最后一次出现的位置]], [[0]]，[[补题]],[[链表]],[[]]
+**涉及知识点:** [[最后一次出现的位置]], [[]]，[[补题]],[[链表]],[[]]
 
 **核心套路:** 
 [两种方法]
@@ -36,6 +36,7 @@ int main() {
 
     list<int> seq;
     vector<list<int>::iterator> pos(N + 1);
+    // vector<list<int>::iterator> pos
 
     for (int i = 0; i < N; i++) {
         int x;
