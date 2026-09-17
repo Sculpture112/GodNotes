@@ -48,11 +48,11 @@ int64 makePalindrome(int64 x, bool odd) {
 bool isPalindromeInBase(int64 x, int base) {
     int digit[64];
     int length = 0;
-
+	// 进制转换
     while (x > 0) {
         digit[length++] = x % base;
         x /= base;
-    }
+    } // 原本是倒序输出，但是这里是回文，不用
 
     for (int left = 0, right = length - 1; left < right;
          ++left, --right) {
