@@ -21,7 +21,6 @@
 **下次看到什么信号要想到它：**
 
 **一个相似变式：**
-
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -35,16 +34,17 @@ constexpr int64 MOD = 998244353;
 struct Matrix {
     int64 a[K][K]{};
 };
-// M[i][j]表示i状态到j状态可不可以实现
 
+// M[i][j] 表示 i 状态到 j 状态可不可以实现
+
+// 矩阵 × 矩阵
 Matrix operator*(const Matrix& x, const Matrix& y) {
     Matrix z;
 
+    // z[i][j] = x 的第 i 行 × y 的第 j 列
     for (int i = 0; i < K; ++i) {
-        for (int k = 0; k < K; ++k) {
-            if (x.a[i][k] == 0) continue;
-
-            for (int j = 0; j < K; ++j) {
+        for (int j = 0; j < K; ++j) {
+            for (int k = 0; k < K; ++k) {
                 z.a[i][j] =
                     (z.a[i][j] + x.a[i][k] * y.a[k][j]) % MOD;
             }
@@ -54,14 +54,14 @@ Matrix operator*(const Matrix& x, const Matrix& y) {
     return z;
 }
 
+// 行向量 × 矩阵
 array<int64, K> operator*(const array<int64, K>& x,
                           const Matrix& y) {
     array<int64, K> z{};
 
-    for (int k = 0; k < K; ++k) {
-        if (x[k] == 0) continue;
-
-        for (int j = 0; j < K; ++j) {
+    // z[j] = 行向量 x × 矩阵 y 的第 j 列
+    for (int j = 0; j < K; ++j) {
+        for (int k = 0; k < K; ++k) {
             z[j] = (z[j] + x[k] * y.a[k][j]) % MOD;
         }
     }
@@ -99,7 +99,8 @@ int main() {
         }
     }
 
-// M[i][j]表示i状态到j状态可不可以实现
+    // M[i][j] 表示 i 状态到 j 状态可不可以实现
+
     // 所有测试用例共用这些矩阵幂
     array<Matrix, LOG> pw;
     pw[0] = trans;
@@ -107,6 +108,7 @@ int main() {
     for (int i = 1; i < LOG; ++i) {
         pw[i] = pw[i - 1] * pw[i - 1];
     }
+
     // 计算矩阵快速幂
 
     int T;
