@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/C. Spying on the Beaver.md",
+                "file": "例题/D. Bermuda Rectangle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C. Spying on the Beaver"
+              "title": "D. Bermuda Rectangle"
             }
           }
         ]
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/C. Spying on the Beaver.md",
+                "file": "例题/D. Bermuda Rectangle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,8 +242,9 @@
   },
   "active": "f29bf82e75008626",
   "lastOpenFiles": [
-    "Daily/2026-09-18.md",
     "例题/C. Spying on the Beaver.md",
+    "例题/D. Bermuda Rectangle.md",
+    "Daily/2026-09-18.md",
     "Daily/2026-09-17.md",
     "Excalidraw/Drawing 2026-09-17 11.04.43.excalidraw.md",
     "未命名 1.md",
@@ -269,7 +270,6 @@
     "image/Pasted image 20260917100224.png",
     "2026-09-17-10-00-50.md",
     "image/Pasted image 20260917100054.png",
-    "2026-09-17-09-53-57.md",
     "image/Pasted image 20260917095403.png",
     "image/Pasted image 20260917094559.png",
     "image/Pasted image 20260917092847.png",
