@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "4d366c9705fa3095",
+            "id": "558d197fa2ac630b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/最短路.md",
+                "file": "Atcoder/abc/abc474/C - Remove and Append.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "最短路"
+              "title": "C - Remove and Append"
             }
           }
         ],
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/最短路.md",
+                "file": "Atcoder/abc/abc474/C - Remove and Append.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,10 +255,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4d366c9705fa3095",
+  "active": "558d197fa2ac630b",
   "lastOpenFiles": [
     "Daily/2026-09-17.md",
     "Daily/2026-09-26.md",
+    "例题/最短路.md",
     "例题/P5250 【深基17.例5】木材仓库.md",
     "Daily/2026-10-02.md",
     "Atcoder/abc/abc474/F - Increment All Divisors.md",
@@ -287,7 +288,6 @@
     "例题/J. 想赚钱就来炼丹啊.md",
     "2026-09-17-09-28-43.md",
     "image/Pasted image 20260917092847.png",
-    "Codeforces/div3/1119/D. MEX Multiset.md",
     "image/Pasted image 20260916200310.png",
     "image/Pasted image 20260916194733.png",
     "image/Pasted image 20260916194633.png",
