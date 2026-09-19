@@ -34,6 +34,18 @@
               "icon": "lucide-file",
               "title": "test"
             }
+          },
+          {
+            "id": "1a0a409e6e34a6f9",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-09-19 11.10.13.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-09-19 11.10.13.excalidraw"
+            }
           }
         ],
         "currentTab": 1
@@ -259,8 +271,9 @@
   },
   "active": "9418be78b34880e6",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-09-19 11.00.18.excalidraw.md",
+    "Excalidraw/Drawing 2026-09-19 11.10.13.excalidraw.md",
     "test.md",
+    "Excalidraw/Drawing 2026-09-19 11.00.18.excalidraw.md",
     "Excalidraw/Drawing 2026-09-19 10.24.44.excalidraw.md",
     "例题/D. Bermuda Rectangle.md",
     "例题/C. Spying on the Beaver.md",
@@ -284,7 +297,6 @@
     "Daily/2026-09-20.md",
     "Daily/2026-09-25.md",
     "例题/P3385 【模板】负环.md",
-    "Daily/2026-09-19.md",
     "image/Pasted image 20260917100224.png",
     "image/Pasted image 20260917100054.png",
     "image/Pasted image 20260917095403.png",
