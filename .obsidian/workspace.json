@@ -48,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -219,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2026-09-19 14.09.49.excalidraw.md",
+                "file": "test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,10 +269,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1a0a409e6e34a6f9",
+  "active": "9418be78b34880e6",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-09-19 11.10.13.excalidraw.md",
     "Excalidraw/Drawing 2026-09-19 14.09.49.excalidraw.md",
+    "Excalidraw/Drawing 2026-09-19 11.10.13.excalidraw.md",
     "test.md",
     "Excalidraw/Drawing 2026-09-19 11.00.18.excalidraw.md",
     "Excalidraw/Drawing 2026-09-19 10.24.44.excalidraw.md",
