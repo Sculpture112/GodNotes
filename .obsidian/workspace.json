@@ -48,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -219,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2026-09-19 15.43.18.excalidraw.md",
+                "file": "test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,7 +269,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "692ed9e60070ac6d",
+  "active": "9418be78b34880e6",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-09-19 15.43.18.excalidraw.md",
     "test.md",
