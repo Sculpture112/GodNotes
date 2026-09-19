@@ -25,14 +25,12 @@
             "id": "9418be78b34880e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "test.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2026-09-19 11.00.18.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "test"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-09-19 11.00.18.excalidraw"
             }
           }
         ],
@@ -106,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.16668701171875
+    "width": 336.16668701171875,
+    "collapsed": true
   },
   "right": {
     "id": "4768838af22391f0",
@@ -206,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test.md",
+                "file": "Excalidraw/Drawing 2026-09-19 11.00.18.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,7 +237,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.83331298828125
+    "width": 202.83331298828125,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,9 +257,10 @@
   },
   "active": "9418be78b34880e6",
   "lastOpenFiles": [
+    "test.md",
+    "Excalidraw/Drawing 2026-09-19 11.00.18.excalidraw.md",
     "Excalidraw/Drawing 2026-09-19 10.24.44.excalidraw.md",
     "例题/D. Bermuda Rectangle.md",
-    "test.md",
     "例题/C. Spying on the Beaver.md",
     "Daily/2026-09-18.md",
     "Daily/2026-09-17.md",
@@ -282,7 +283,6 @@
     "Daily/2026-09-25.md",
     "例题/P3385 【模板】负环.md",
     "Daily/2026-09-19.md",
-    "例题/D. 三原色.md",
     "image/Pasted image 20260917100224.png",
     "image/Pasted image 20260917100054.png",
     "image/Pasted image 20260917095403.png",
