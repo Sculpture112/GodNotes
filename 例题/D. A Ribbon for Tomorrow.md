@@ -1,4 +1,4 @@
-# [[1]]
+# [[2]]
 
 > **原题链接:** (https://codeforces.com/contest/2256/problem/D)
 
@@ -68,7 +68,7 @@ int main() {
 
     ifac[MAX_N] = qpow(fac[MAX_N], MOD - 2);
 
-    for (int i = MAX_N; i >= 1; --i) {
+    for (int i = MAX_N; i >= 1; --i) { //[[2026-09-20-16-43-17]]
         ifac[i - 1] = ifac[i] * i % MOD;
     }
 
