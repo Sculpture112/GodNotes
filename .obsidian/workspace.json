@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-09-19.md",
+                "file": "Daily/2026-09-20.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-19"
+              "title": "2026-09-20"
             }
           },
           {
-            "id": "dbd39bbeeebe59d4",
+            "id": "d3195e6b73e7b0bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Codeforces/div3/1119/C. 101.md",
+                "file": "例题/D. A Ribbon for Tomorrow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C. 101"
+              "title": "D. A Ribbon for Tomorrow"
             }
           }
         ],
@@ -256,21 +256,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dbd39bbeeebe59d4",
+  "active": "d3195e6b73e7b0bc",
   "lastOpenFiles": [
+    "Daily/2026-09-20.md",
     "Daily/2026-09-19.md",
+    "Daily/2026-09-29.md",
+    "Codeforces/div3/1119/C. 101.md",
     "2026-09-14-21-05-01.md",
     "Daily/2026-09-24.md",
     "例题/D. 三原色.md",
     "Daily/2026-09-18.md",
     "例题/P1127 词链.md",
-    "Daily/2026-09-29.md",
     "例题/Kaky 的数组交换.md",
     "Daily/2026-09-25.md",
     "例题/C. Spying on the Beaver.md",
     "Daily/2026-09-17.md",
     "Daily/2026-09-10.md",
-    "Daily/2026-09-20.md",
     "例题/D. Bermuda Rectangle.md",
     "Excalidraw/Drawing 2026-09-19 15.43.18.excalidraw.md",
     "test.md",
@@ -283,7 +284,6 @@
     "Atcoder/abc/abc474/C - Remove and Append.md",
     "Daily/2026-09-26.md",
     "例题/最短路.md",
-    "例题/P5250 【深基17.例5】木材仓库.md",
     "image/Pasted image 20260917100224.png",
     "image/Pasted image 20260917100054.png",
     "image/Pasted image 20260917095403.png",
