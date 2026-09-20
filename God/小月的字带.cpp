@@ -9,7 +9,25 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
-
+    int n;
+    cin >> n;
+    char c;
+    cin >> c;
+    int cnt = 0;
+    char last = c;
+    char ch;
+    for (int i = 0; i < n;i++){
+        cin >> ch;
+        if (ch == last){
+            cnt++;
+            cnt *= 2;
+        }
+        else{
+            cnt *= 2;
+        }
+        last = ch;
+    }
+    cout << cnt;
 }
 
 int main() {
