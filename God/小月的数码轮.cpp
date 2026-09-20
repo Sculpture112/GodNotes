@@ -13,8 +13,14 @@ void solve() {
     cin >> n >> m;
     string a;
     cin >> a;
+    
     for (int i = 0; i < 10;i++){
-        ll sum 
+        int sum = 0;
+        for(char num:a){
+            sum = sum * 10 + num - '0';
+        }
+        
+
     }
 }
 
