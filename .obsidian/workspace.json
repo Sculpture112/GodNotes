@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-09-20.md",
+                "file": "例题/P1080 [NOIP 2012 提高组] 国王游戏.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-20"
-            }
-          },
-          {
-            "id": "366b3b8ffdbd710f",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-09-20 19.32.50.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-09-20 19.32.50.excalidraw"
+              "title": "P1080 [NOIP 2012 提高组] 国王游戏"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -53,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "高精度",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,13 +86,11 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 336.16668701171875,
-    "collapsed": true
+    "width": 336.16668701171875
   },
   "right": {
     "id": "4768838af22391f0",
@@ -255,12 +240,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "366b3b8ffdbd710f",
+  "active": "f29bf82e75008626",
   "lastOpenFiles": [
+    "Daily/2026-09-20.md",
+    "Excalidraw/Drawing 2026-09-20 19.32.50.excalidraw.md",
     "God/_u5c0f_u6708_u7684_u5468_u957f.bin",
     "God/小月的数码轮.cpp",
-    "Excalidraw/Drawing 2026-09-20 19.32.50.excalidraw.md",
-    "Daily/2026-09-20.md",
     "God/小月的周长.cpp",
     "God/_u5c0f_u6708_u7684_u8d34_u7eb8.bin",
     "God/小月的贴纸.cpp",
@@ -301,7 +286,6 @@
     "image/Pasted image 20260916194733.png",
     "image/Pasted image 20260916194633.png",
     "God/_u5c0f_u6708_u7684_u6392_u5e8f.bin",
-    "God/_u5c0f_u6708_u7684_u7eaa_u5f55_u70b9.bin",
-    "God/小月的排序.cpp"
+    "God/_u5c0f_u6708_u7684_u7eaa_u5f55_u70b9.bin"
   ]
 }

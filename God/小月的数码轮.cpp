@@ -9,7 +9,13 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
-
+    int n, m;
+    cin >> n >> m;
+    string a;
+    cin >> a;
+    for (int i = 0; i < 10;i++){
+        ll sum 
+    }
 }
 
 int main() {
