@@ -21,7 +21,8 @@ void solve()
         ll sum = 0;
         for (char num : a)
         {
-            sum = sum * 10 + (num - '0' + i) % 10;int
+            sum = sum * 10 + (num - '0' + i) % 10;
+            sum = sum % m;
         }
         if (sum % m == 0)
         {
