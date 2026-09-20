@@ -19,15 +19,14 @@ void solve() {
     for (int i = 0; i < n;i++){
         cin >> ch;
         if (ch == last){
-            cnt++;
-            cnt *= 2;
+            cnt+=2;
         }
         else{
-            cnt *= 2;
+            cnt++;
         }
         last = ch;
     }
-    cout << cnt;
+    cout << cnt * 2;
 }
 
 int main() {
