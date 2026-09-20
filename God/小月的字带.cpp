@@ -14,7 +14,7 @@ void solve()
     cin >> n;
     char c;
     cin >> c;
-    int cnt = 0;
+    nt cnt = 0;
     char last = c;
     char ch;
     for (int i = 0; i < n; i++)
