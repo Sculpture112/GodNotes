@@ -1,4 +1,4 @@
-# [[1]]
+# [[2]]
 
 > **原题链接:** (https://codeforces.com/contest/2256/problem/C)
 
