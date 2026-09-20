@@ -33,14 +33,12 @@ void solve()
     bool firstzero = false;
     for (int i = 0; i < n; i++)
     {
-        if (a[i] == 0 && !firstzero)
-        {
-
-            firstzero = true;
+        if(!firstzero && a[i] == 0){
             ans[i] = 'B';
+            firstzero = true;
+            continue;
         }
-        if (a[i] == 0)
-        {
+        if(a[i] == 0){
             ans[i] = 'C';
         }
     }
