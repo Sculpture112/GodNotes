@@ -66,7 +66,7 @@ int main() {
         fac[i] = fac[i - 1] * i % MOD;
     }
 
-    ifac[MAX_N] = qpow(fac[MAX_N], MOD - 2);
+    ifac[MAX_N] = qpow(fac[MAX_N], MOD - 2); // 直接记住即可，这是费马小定理
 
     for (int i = MAX_N; i >= 1; --i) {
         ifac[i - 1] = ifac[i] * i % MOD;
