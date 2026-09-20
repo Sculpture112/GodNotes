@@ -8,29 +8,38 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+void solve()
+{
     int n, m;
     cin >> n >> m;
     string a;
     cin >> a;
-    
-    for (int i = 0; i < 10;i++){
-        int sum = 0;
-        for(char num:a){
-            sum = sum * 10 + num - '0';
-        }
-        
 
+    int cnt = 0;
+    for (int i = 0; i < 10; i++)
+    {
+        ll sum = 0;
+        for (char num : a)
+        {
+            sum = sum * 10 + (num - '0' + i) % 10;int
+        }
+        if (sum % m == 0)
+        {
+            cnt++;
+        }
     }
+    cout << cnt;
 }
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     int T = 1;
     // cin >> T;
-    while (T--) solve();
+    while (T--)
+        solve();
 
     return 0;
 }
