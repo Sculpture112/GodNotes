@@ -15,10 +15,22 @@ void solve()
     cin >> n >> m;
     cin >> x >> y;
     int sum = 0;
-    sum += 2 * (y - 1 + x - 1);
-    sum += 2 * (m - y + x - 1);
-    sum += 2 * (n - x + y - 1);
-    sum += 2 * (m - y + n - x);
+    if (y - 1 != 0 && x - 1 != 0)
+    {
+        sum += 2 * (y - 1 + x - 1);
+    }
+    if (m - y != 0 && x - 1 != 0)
+    {
+        sum += 2 * (m - y + x - 1);
+    }
+    if (n - x != 0 && y - 1 != 0)
+    {
+        sum += 2 * (n - x + y - 1);
+    }
+    if (m - y != 0 && n - x != 0)
+    {
+        sum += 2 * (m - y + n - x);
+    }
     cout << sum << "\n";
 }
 
