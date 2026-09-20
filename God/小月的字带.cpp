@@ -29,7 +29,6 @@ void solve()
         {
             cnt *= 2;
         }
-        last = ch;
     }
     cout << cnt*2;
 }
