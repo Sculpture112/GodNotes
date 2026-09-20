@@ -14,23 +14,11 @@ void solve()
     int x, y;
     cin >> n >> m;
     cin >> x >> y;
-    int sum = 2 * n + 2 * m;
-    if ((x == n || x == 1) && (y > 1 && y < n))
-    {
-        cout << sum + 2 << "\n";
-        return;
-    }
-    if ((y == 1 || y == n) && (x > 1 && x < n))
-    {
-        cout << sum + 2 << "\n";
-        return;
-    }
-
-    if ((x > 1 && x < n && y > 1 && y < n))
-    {
-        cout << sum + 4 << "\n";
-        return;
-    }
+    int sum = 0;
+    sum += 2 * (y - 1 + x - 1);
+    sum += 2 * (m - y + x - 1);
+    sum += 2 * (n - x + y - 1);
+    sum += 2 * (m - y + n - x);
     cout << sum << "\n";
 }
 
