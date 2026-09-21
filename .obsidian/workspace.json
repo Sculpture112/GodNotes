@@ -20,6 +20,16 @@
               "icon": "lucide-file",
               "title": "B2. Carrot Chopdown (Hard Version)"
             }
+          },
+          {
+            "id": "ee1570a205a16f0d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ]
       }
@@ -243,8 +253,8 @@
   },
   "active": "f29bf82e75008626",
   "lastOpenFiles": [
-    "例题/B1. Carrot Chopdown (Easy Version).md",
     "例题/B2. Carrot Chopdown (Hard Version).md",
+    "例题/B1. Carrot Chopdown (Easy Version).md",
     "Daily/2026-09-22.md",
     "例题/C1. Floor of MEX (Easy Version).md",
     "God/A_Odd_Eraser.bin",
