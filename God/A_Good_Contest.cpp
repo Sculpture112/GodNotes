@@ -9,7 +9,15 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
-
+    int n;
+    cin >> n;
+    int mn = INF;
+    for(int i= 0,u;i<3;i++){
+        cin >> u;
+        mn = min(mn, u);
+    }
+    // cout << n << " " << mn << "\n";
+    cout << n - mn << "\n";
 }
 
 int main() {
@@ -17,7 +25,7 @@ int main() {
     cin.tie(nullptr);
 
     int T = 1;
-    // cin >> T;
+    cin >> T;
     while (T--) solve();
 
     return 0;
