@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/P1080 [NOIP 2012 提高组] 国王游戏.md",
+                "file": "例题/C1. Floor of MEX (Easy Version).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "P1080 [NOIP 2012 提高组] 国王游戏"
+              "title": "C1. Floor of MEX (Easy Version)"
             }
           }
         ]
@@ -86,7 +86,8 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -236,11 +237,14 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "f29bf82e75008626",
   "lastOpenFiles": [
+    "例题/P1080 [NOIP 2012 提高组] 国王游戏.md",
+    "例题/C1. Floor of MEX (Easy Version).md",
     "God/小月的区间.cpp",
     "God/_u5c0f_u6708_u7684_u5b57_u5e26.bin",
     "God/小月的字带.cpp",
@@ -266,7 +270,6 @@
     "例题/C. Hot Potatoes at the Fairy Warehouse.md",
     "Codeforces/div3/1119/D. MEX Multiset.md",
     "Daily/2026-10-10.md",
-    "God/D_MEX_Multiset.bin",
     "例题/G. 考古密码求和.md",
     "例题/D. A Ribbon for Tomorrow.md",
     "2026-09-20-16-43-17.md",
@@ -278,7 +281,6 @@
     "2026-09-14-21-05-01.md",
     "例题/D. 三原色.md",
     "Daily/2026-09-18.md",
-    "例题/P1127 词链.md",
     "image/Pasted image 20260917100224.png",
     "image/Pasted image 20260917100054.png",
     "image/Pasted image 20260917095403.png",
