@@ -13,7 +13,6 @@ void solve() {
     cin >> n;
     string s;
     cin >> s;
-    int start = s[0];
     if(s[0] == '1'){
         int cnt = 0;
         for (char c:s)
