@@ -9,7 +9,15 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
+    int n;
+    cin >> n;
+    vector<int> a(n);
+    for(int&x:a)
+        cin >> x;
 
+    int ans = gcd(a.front(), a.back());
+    cout << ans << "\n";
+    
 }
 
 int main() {
@@ -17,7 +25,7 @@ int main() {
     cin.tie(nullptr);
 
     int T = 1;
-    // cin >> T;
+    cin >> T;
     while (T--) solve();
 
     return 0;
