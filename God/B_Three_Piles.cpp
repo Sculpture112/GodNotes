@@ -8,17 +8,26 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+void solve()
+{
+    ll a, b, c;
+    cin >> a >> b >> c;
+    ll ans = abs(a - b);
+    // cout << ans;
+    ans = max(ans, abs(c + a - b));
 
+    cout << ans << "\n";
 }
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     int T = 1;
-    // cin >> T;
-    while (T--) solve();
+    cin >> T;
+    while (T--)
+        solve();
 
     return 0;
 }
