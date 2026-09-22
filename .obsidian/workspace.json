@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/B2. Carrot Chopdown (Hard Version).md",
+                "file": "例题/E. Prime Destruction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "B2. Carrot Chopdown (Hard Version)"
-            }
-          },
-          {
-            "id": "0d022b65623046b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "例题/C. AND, OR, Sort!.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "C. AND, OR, Sort!"
+              "title": "E. Prime Destruction"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -256,10 +241,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0d022b65623046b3",
+  "active": "4d5829808ad4ecf4",
   "lastOpenFiles": [
-    "例题/C. Far Cities.md",
+    "Daily/2026-09-23.md",
+    "例题/E. Prime Destruction.md",
+    "例题/B2. Carrot Chopdown (Hard Version).md",
+    "例题/D. Falling Concrete.md",
     "例题/C. AND, OR, Sort!.md",
+    "例题/小红有无穷无尽的小数.md",
+    "例题/C. Far Cities.md",
     "God/C_AND_OR_Sort.bin",
     "God/C_AND_OR_Sort.cpp",
     "God/B_Three_Piles.bin",
@@ -268,7 +258,6 @@
     "God/A_Good_Contest.cpp",
     "2026-09-21-19-58-01.md",
     "算法名/树的直径.md",
-    "例题/B2. Carrot Chopdown (Hard Version).md",
     "image/Pasted image 20260921195807.png",
     "Daily/2026-09-22.md",
     "Daily/2026-09-21.md",
@@ -288,13 +277,9 @@
     "Daily/2026-09-29.md",
     "例题/P2404 自然数的拆分问题.md",
     "例题/P1433 吃奶酪.md",
-    "Daily/2026-09-23.md",
     "Codeforces/div3/1119/F. Binary Bubble Sort Inversions.md",
     "Daily/2026-09-30.md",
     "例题/HDU欧拉回路.md",
-    "例题/C. Hot Potatoes at the Fairy Warehouse.md",
-    "Codeforces/div3/1119/D. MEX Multiset.md",
-    "Daily/2026-10-10.md",
     "image/Pasted image 20260920164323.png",
     "image/eaafa8d66ebec23c.png",
     "image/Pasted image 20260917100224.png",
