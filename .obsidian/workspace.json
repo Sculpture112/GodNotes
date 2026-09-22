@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/C. Far Cities.md",
+                "file": "例题/C. AND, OR, Sort!.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C. Far Cities"
+              "title": "C. AND, OR, Sort!"
             }
           }
         ],
@@ -102,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -252,11 +252,14 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "0d022b65623046b3",
   "lastOpenFiles": [
+    "例题/C. Far Cities.md",
+    "例题/C. AND, OR, Sort!.md",
     "God/C_AND_OR_Sort.bin",
     "God/C_AND_OR_Sort.cpp",
     "God/B_Three_Piles.bin",
@@ -265,7 +268,6 @@
     "God/A_Good_Contest.cpp",
     "2026-09-21-19-58-01.md",
     "算法名/树的直径.md",
-    "例题/C. Far Cities.md",
     "例题/B2. Carrot Chopdown (Hard Version).md",
     "image/Pasted image 20260921195807.png",
     "Daily/2026-09-22.md",
@@ -279,7 +281,6 @@
     "God/小月的区间.cpp",
     "God/_u5c0f_u6708_u7684_u5b57_u5e26.bin",
     "God/小月的字带.cpp",
-    "God/_u5c0f_u6708_u7684_u6570_u7801_u8f6e.bin",
     "Daily/2026-09-20.md",
     "Excalidraw/Drawing 2026-09-20 19.32.50.excalidraw.md",
     "Daily/2026-09-24.md",
