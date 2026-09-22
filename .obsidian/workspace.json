@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -270,10 +270,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "98d346f8287bfa7c",
+  "active": "f45716915e52dad8",
   "lastOpenFiles": [
-    "image/8977b031e9847540.png",
     "2026-09-22-20-50-34.md",
+    "image/8977b031e9847540.png",
     "例题/P5905 【模板】全源最短路（Johnson）.md",
     "Daily/2026-09-21.md",
     "2026-09-17-09-28-43.md",
@@ -316,7 +316,6 @@
     "image/Pasted image 20260917095403.png",
     "image/Pasted image 20260917094559.png",
     "image/Pasted image 20260917092847.png",
-    "image/Pasted image 20260916200310.png",
-    "image/Pasted image 20260916194733.png"
+    "image/Pasted image 20260916200310.png"
   ]
 }
