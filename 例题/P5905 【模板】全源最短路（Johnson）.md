@@ -56,8 +56,8 @@ int main() {
         int64 w;
         cin >> u >> v >> w;
 
-        edges.push_back({u, v, w});
-        graph[u].push_back({v, w});
+        edges.push_back({u, v, w}); // 方便遍历边
+        graph[u].push_back({v, w}); // 方便遍历点的边
     }
 
     /*
