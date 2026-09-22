@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -266,13 +266,14 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "477e5ff8a03b215d",
+  "active": "48eed9c0b02ce957",
   "lastOpenFiles": [
-    "2026-09-17-09-28-43.md",
     "例题/J. 想赚钱就来炼丹啊.md",
+    "2026-09-17-09-28-43.md",
     "Daily/2026-09-21.md",
     "Daily/2026-09-20.md",
     "Daily/2026-09-22.md",
