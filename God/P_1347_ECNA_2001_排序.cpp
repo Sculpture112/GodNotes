@@ -4,7 +4,7 @@ using namespace std;
 using ll = long long;
 
 const int INF = 0x3f3f3f3f;
-const ll LINF = 1 << 62;
+const ll LINF = 1LL << 62;
 const double DINF = 1e100;
 
 #define all(x) (x).begin(), (x).end()
