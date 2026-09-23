@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "6eef3b3d3899d2a5",
+            "id": "6bcf1cb50c9b2586",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/D. Falling Concrete.md",
+                "file": "例题/P1395 会议.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "D. Falling Concrete"
+              "title": "P1395 会议"
             }
           }
         ],
@@ -252,58 +252,32 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
-      "periodic-notes:Open today": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false
     }
   },
-  "floating": {
-    "id": "2e81a4b4341fac56",
-    "type": "floating",
-    "children": [
-      {
-        "id": "d6f6575094d6b802",
-        "type": "window",
-        "children": [
-          {
-            "id": "574d16d477cb2114",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "e72165079927c91f",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Drawing 2026-09-23 15.19.03.excalidraw.md"
-                  },
-                  "icon": "excalidraw-icon",
-                  "title": "Drawing 2026-09-23 15.19.03.excalidraw"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 288,
-        "y": 90,
-        "width": 1380,
-        "height": 808,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "e72165079927c91f",
+  "active": "6bcf1cb50c9b2586",
   "lastOpenFiles": [
-    "例题/D. Falling Concrete.md",
-    "Excalidraw/Drawing 2026-09-23 15.19.03.excalidraw.md",
     "Daily/2026-09-23.md",
+    "Daily/2026-10-02.md",
+    "例题/D. A Ribbon for Tomorrow.md",
+    "2026-09-20-16-43-17.md",
+    "Daily/2026-10-08.md",
+    "Codeforces/div3/1119/F. Binary Bubble Sort Inversions.md",
+    "God/F_Binary_Bubble_Sort_Inversions.bin",
+    "God/F_Binary_Bubble_Sort_Inversions.cpp",
+    "Daily/2026-09-26.md",
+    "Daily/2026-09-22.md",
+    "例题/C. AND, OR, Sort!.md",
+    "2026-09-23-15-40-50.md",
+    "image/Pasted image 20260923154053.png",
+    "Excalidraw/Drawing 2026-09-23 15.19.03.excalidraw.md",
+    "Daily/2026-09-27.md",
+    "例题/D. Falling Concrete.md",
     "Daily/2026-09-28.md",
     "例题/E. Prime Destruction.md",
     "算法名/埃氏筛.md",
     "Daily/2026-10-03.md",
     "例题/B4016 树的直径.md",
-    "Daily/2026-09-27.md",
     "例题/C. Far Cities.md",
     "Daily/2026-09-29.md",
     "例题/B2. Carrot Chopdown (Hard Version).md",
@@ -312,19 +286,10 @@
     "image/Pasted image 20260923143736.png",
     "Daily/2026-09-24.md",
     "例题/C2. Floor of MEX (Hard Version).md",
-    "Daily/2026-09-22.md",
     "Daily/2026-10-06.md",
-    "Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version).md",
-    "Daily/2026-10-08.md",
-    "例题/P1347 [ECNA 2001] 排序.md",
     "God/P_1347_ECNA_2001__u6392_u5e8f.bin",
-    "2026-09-23-09-15-50.md",
     "image/Pasted image 20260923091558.png",
-    "2026-09-23-08-50-19.md",
     "image/Pasted image 20260923085033.png",
-    "例题/C1. Floor of MEX (Easy Version).md",
-    "Daily/2026-09-21.md",
-    "2026-09-22-20-50-34.md",
     "image/8977b031e9847540.png",
     "God/B_4016__u6811_u7684_u76f4_u5f84.bin",
     "God/B_4016_树的直径.cpp",
@@ -333,13 +298,10 @@
     "God/B_Three_Piles.bin",
     "God/B_Three_Piles.cpp",
     "God/A_Good_Contest.bin",
-    "God/A_Good_Contest.cpp",
     "image/Pasted image 20260921195807.png",
-    "God/A_Odd_Eraser.bin",
     "image/Pasted image 20260920164323.png",
     "image/eaafa8d66ebec23c.png",
     "image/Pasted image 20260917100224.png",
-    "image/Pasted image 20260917100054.png",
-    "image/Pasted image 20260917095403.png"
+    "image/Pasted image 20260917100054.png"
   ]
 }
