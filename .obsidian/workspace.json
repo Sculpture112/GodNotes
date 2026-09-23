@@ -25,14 +25,12 @@
             "id": "11482629b2ebae25",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Codeforces/div2/Educational194/C. Maximize XOR, Minimize Operations.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2026-09-23 19.19.36.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "C. Maximize XOR, Minimize Operations"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-09-23 19.19.36.excalidraw"
             }
           }
         ],
@@ -106,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.16668701171875
+    "width": 336.16668701171875,
+    "collapsed": true
   },
   "right": {
     "id": "4768838af22391f0",
@@ -258,6 +257,8 @@
   },
   "active": "11482629b2ebae25",
   "lastOpenFiles": [
+    "Codeforces/div2/Educational194/C. Maximize XOR, Minimize Operations.md",
+    "Excalidraw/Drawing 2026-09-23 19.19.36.excalidraw.md",
     "Daily/2026-09-23.md",
     "Daily/2026-10-07.md",
     "例题/P1395 会议.md",
@@ -285,9 +286,7 @@
     "Daily/2026-09-29.md",
     "例题/B2. Carrot Chopdown (Hard Version).md",
     "2026-09-23-14-37-32.md",
-    "2026-09-21-19-58-01.md",
     "image/Pasted image 20260923143736.png",
-    "Daily/2026-09-24.md",
     "God/P_1347_ECNA_2001__u6392_u5e8f.bin",
     "image/Pasted image 20260923091558.png",
     "image/Pasted image 20260923085033.png",
