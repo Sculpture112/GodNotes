@@ -1,4 +1,4 @@
-# [[0]]
+# [[1]]
 
 > **原题链接:** (https://codeforces.com/contest/2258/problem/C)
 
@@ -55,7 +55,7 @@ int main() {
         // 第一遍：寻找距离 1 最远的点
         for (int v = 2; v <= n; ++v) {
             while (diameter + 1 <= n &&
-                   ask(1, v, diameter + 1)) {
+                   ask(1, v, diameter + 1)) { // 如果返回1就证明小了
                 endpoint = v;
                 ++diameter;
             }
