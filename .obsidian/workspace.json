@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "7d1620173a46faae",
+            "id": "17a721afad0d3524",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/C2. Floor of MEX (Hard Version).md",
+                "file": "例题/P1347 [ECNA 2001] 排序.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C2. Floor of MEX (Hard Version)"
+              "title": "P1347 [ECNA 2001] 排序"
             }
           }
         ],
@@ -256,17 +256,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7d1620173a46faae",
+  "active": "17a721afad0d3524",
   "lastOpenFiles": [
-    "2026-09-23-08-50-19.md",
-    "image/Pasted image 20260923085033.png",
+    "Daily/2026-09-22.md",
+    "Daily/2026-09-24.md",
     "例题/C2. Floor of MEX (Hard Version).md",
     "Daily/2026-09-23.md",
-    "Daily/2026-09-22.md",
+    "2026-09-23-09-15-50.md",
+    "image/Pasted image 20260923091558.png",
+    "2026-09-23-08-50-19.md",
+    "image/Pasted image 20260923085033.png",
     "例题/C1. Floor of MEX (Easy Version).md",
     "Daily/2026-09-21.md",
     "例题/P1347 [ECNA 2001] 排序.md",
-    "Daily/2026-09-24.md",
     "例题/B2. Carrot Chopdown (Hard Version).md",
     "例题/C. Far Cities.md",
     "例题/B4016 树的直径.md",
@@ -293,7 +295,6 @@
     "算法名/树的直径.md",
     "image/Pasted image 20260921195807.png",
     "071 Code02 子序列累加和必须被7整除的最大累加和.md",
-    "problem_chinese.md",
     "God/A_Odd_Eraser.bin",
     "God/小月的区间.cpp",
     "image/Pasted image 20260920164323.png",
@@ -301,7 +302,6 @@
     "image/Pasted image 20260917100224.png",
     "image/Pasted image 20260917100054.png",
     "image/Pasted image 20260917095403.png",
-    "image/Pasted image 20260917094559.png",
-    "image/Pasted image 20260917092847.png"
+    "image/Pasted image 20260917094559.png"
   ]
 }
