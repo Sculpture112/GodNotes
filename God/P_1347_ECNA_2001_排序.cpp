@@ -4,105 +4,103 @@ using namespace std;
 using ll = long long;
 
 const int INF = 0x3f3f3f3f;
-const ll LINF = 4e18;
+const ll LINF = 1 << 62;
+const double DINF = 1e100;
 
 #define all(x) (x).begin(), (x).end()
 
-int topo(int n, bool graph[26][26], string &order)
+void solve()
 {
-    int indegree[26] = {};
+    int n;
+    int m;
+    cin >> n;
+    cin >> m;
 
-    for (int i = 0; i < n; i++)
+    bool reach[26][26] = {};
+
+    for (int step = 1; step <= m; step++)
     {
-        for (int j = 0; j < n; j++)
+        char a, op, b;
+        cin >> a >> op >> b;
+        reach[a - 'A'][b - 'A'] = true;
+
+        for (int k = 0; k < n; k++)
         {
-            if (graph[i][j])
-                indegree[j]++;
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    reach[i][j] = reach[i][j] || (reach[i][k] && reach[k][j]);
+                }
+            }
         }
-    }
 
-    bool used[26] = {};
-    order.clear();
-    bool unique = true;
-
-    for (int step = 0; step < n; step++)
-    {
-        vector<int> zero;
-
+        bool inconsistent = false;
         for (int i = 0; i < n; i++)
         {
-            if (!used[i] && indegree[i] == 0)
+            if (reach[i][i])
             {
-                zero.push_back(i);
+                inconsistent = true;
+                break;
             }
         }
 
-        if (zero.empty())
+        if (inconsistent)
         {
-            return -1;
+            cout << "Inconsistency found after " << step << " relations.\n";
+            return;
         }
 
-        if (zero.size() > 1)
+        bool determine = true;
+        for (int i = 0; i < n; i++)
         {
-            unique = false;
-        }
-
-        int u = zero[0];
-        used[u] = true;
-        order.push_back('A' + u);
-
-        for (int v = 0; v < n; v++)
-        {
-            if (graph[u][v])
+            for (int j = 0; j < n; j++)
             {
-                indegree[v]--;
+                if (!reach[i][j] && !reach[j][i])
+                {
+                    determine = false;
+                    break;
+                }
             }
+        }
+
+        if (determine)
+        {
+            vector<char> ans(n);
+            for (int i = 0; i < n; i++)
+            {
+                int pre = 0;
+                for (int j = 0; j < n; j++)
+                {
+                    if (reach[j][i])
+                    {
+                        pre++;
+                    }
+                }
+                ans[pre] = i + 'A';
+            }
+
+            cout << "Sorted sequence determined after " << step << " relations: ";
+            for (char c : ans)
+            {
+                cout << c;
+            }
+            cout << '.\n';
         }
     }
-    return unique ? 1 : 0;
+
+    cout << "Sorted sequence cannot be determined.\n";
 }
+
 int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int n, m;
-    cin >> n >> m;
+    int T = 1;
+    // cin >> T;
+    while (T--)
+        solve();
 
-    bool graph[26][26] = {};
-
-    for (int relation = 1; relation <= m; relation++)
-    {
-        string s;
-        cin >> s;
-        int u = s[0] - 'A';
-        int v = s[2] - 'A';
-
-        if (graph[u][v])
-        {
-            continue;
-        }
-        graph[u][v] = true;
-
-        string order;
-        int result = topo(n, graph, order);
-
-        if (result == -1)
-        {
-            cout << "Inconsistency found after "
-                 << relation << " relations.\n";
-            return 0;
-        }
-
-        if (result == 1)
-        {
-            cout << "Sorted sequence determined after "
-                 << relation << " relations: "
-                 << order << ".\n";
-            return 0;
-        }
-    }
-
-    cout << "Sorted sequence cannot be determined.\n";
     return 0;
 }
