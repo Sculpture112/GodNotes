@@ -31,10 +31,10 @@ bool ask(int u, int v, int d) {
     int response;
     cin >> response;
 
-    if (response == -1) {
+/*    if (response == -1) {
         exit(0);
     }
-
+*/
     return response == 1;
 }
 
