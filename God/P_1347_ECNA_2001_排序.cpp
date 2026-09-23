@@ -52,9 +52,9 @@ void solve()
         }
 
         bool determine = true;
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < n && determine; i++)
         {
-            for (int j = 0; j < n; j++)
+            for (int j = i + 1; j < n; j++)
             {
                 if (!reach[i][j] && !reach[j][i])
                 {
@@ -85,7 +85,8 @@ void solve()
             {
                 cout << c;
             }
-            cout << '.\n';
+            cout << ".\n";
+            return;
         }
     }
 
