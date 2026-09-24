@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/C. Creative Snap.md",
+                "file": "例题/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C. Creative Snap"
+              "title": "未命名"
             }
           }
         ]
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/C. Creative Snap.md",
+                "file": "例题/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,8 +242,10 @@
   },
   "active": "27a76bca6bcd2fdd",
   "lastOpenFiles": [
-    "Daily/2026-09-24.md",
     "例题/C. Creative Snap.md",
+    "例题/未命名.md",
+    "Daily/2026-09-25.md",
+    "Daily/2026-09-24.md",
     "Daily/2026-10-01.md",
     "Atcoder/abc/abc474/C - Remove and Append.md",
     "Daily/2026-10-12.md",
@@ -269,8 +271,6 @@
     "例题/P1395 会议.md",
     "Daily/2026-10-02.md",
     "例题/D. A Ribbon for Tomorrow.md",
-    "2026-09-20-16-43-17.md",
-    "Daily/2026-10-08.md",
     "God/F_Binary_Bubble_Sort_Inversions.bin",
     "God/F_Binary_Bubble_Sort_Inversions.cpp",
     "image/Pasted image 20260923154053.png",
