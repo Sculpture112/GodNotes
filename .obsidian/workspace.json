@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/D. Destroy the Colony.md",
+                "file": "2026-09-23-14-37-32.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "D. Destroy the Colony"
+              "title": "2026-09-23-14-37-32"
             }
           }
         ]
@@ -86,8 +86,7 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -191,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/D. Destroy the Colony.md",
+                "file": "2026-09-23-14-37-32.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,8 +222,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.83331298828125,
-    "collapsed": true
+    "width": 202.83331298828125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,12 +239,29 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "27a76bca6bcd2fdd",
+  "active": "47b137b2f0765088",
   "lastOpenFiles": [
+    "image/Pasted image 20260923143736.png",
+    "2026-09-23-08-50-19.md",
+    "image/Pasted image 20260923085033.png",
+    "image/Pasted image 20260923154053.png",
+    "2026-09-23-14-37-32.md",
+    "例题/C. AND, OR, Sort!.md",
+    "2026-09-23-15-40-50.md",
+    "2026-09-23-09-15-50.md",
+    "2026-09-22-20-50-34.md",
+    "2026-09-17-10-00-50.md",
+    "20260502160536.md",
+    "20260727183849.md",
+    "2026-09-16-19-45-42.md",
+    "2026-09-03-21-13-23.md",
+    "母题问题解答.md",
+    "2026-09-21-19-58-01.md",
+    "语法/list.md",
+    "例题/D. Destroy the Colony.md",
     "cf1111d_check.exe",
     "cf1111d_check.cpp",
     "例题/C. Creative Snap.md",
-    "例题/D. Destroy the Colony.md",
     "Daily/2026-09-25.md",
     "Daily/2026-09-24.md",
     "Daily/2026-10-01.md",
@@ -256,34 +271,16 @@
     "例题/D. 三原色.md",
     "例题/C. Hot Potatoes at the Fairy Warehouse.md",
     "Daily/2026-10-11.md",
-    "例题/P1433 吃奶酪.md",
-    "Daily/2026-10-09.md",
-    "例题/P1032 [NOIP 2002 提高组] 字串变换.md",
-    "例题/J. 想赚钱就来炼丹啊.md",
-    "Daily/2026-10-03.md",
-    "例题/C1. Floor of MEX (Easy Version).md",
-    "例题/C2. Floor of MEX (Hard Version).md",
-    "Daily/2026-09-23.md",
-    "Daily/2026-10-10.md",
-    "Codeforces/div2/Educational194/C. Maximize XOR, Minimize Operations.md",
-    "Excalidraw/Drawing 2026-09-23 19.19.36.excalidraw.md",
     "God/P_1001_A_B_Problem.bin",
     "God/P_1001_A_B_Problem.cpp",
     "God/test.bin",
-    "Daily/2026-10-07.md",
-    "例题/P1395 会议.md",
-    "Daily/2026-10-02.md",
     "God/F_Binary_Bubble_Sort_Inversions.bin",
     "God/F_Binary_Bubble_Sort_Inversions.cpp",
-    "image/Pasted image 20260923154053.png",
-    "image/Pasted image 20260923143736.png",
     "God/P_1347_ECNA_2001__u6392_u5e8f.bin",
     "image/Pasted image 20260923091558.png",
-    "image/Pasted image 20260923085033.png",
     "image/8977b031e9847540.png",
     "God/B_4016__u6811_u7684_u76f4_u5f84.bin",
     "God/B_4016_树的直径.cpp",
-    "God/C_AND_OR_Sort.bin",
     "image/Pasted image 20260921195807.png",
     "image/Pasted image 20260920164323.png",
     "image/eaafa8d66ebec23c.png",
