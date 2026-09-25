@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-09-23-14-37-32.md",
+                "file": "例题/G. 考古密码求和.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-23-14-37-32"
+              "title": "G. 考古密码求和"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "高精度",
+                "query": "bool odd",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -190,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-09-23-14-37-32.md",
+                "file": "例题/G. 考古密码求和.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,17 +235,16 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
-      "periodic-notes:Open today": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false
     }
   },
-  "active": "47b137b2f0765088",
+  "active": "27a76bca6bcd2fdd",
   "lastOpenFiles": [
+    "2026-09-23-14-37-32.md",
     "image/Pasted image 20260923143736.png",
     "2026-09-23-08-50-19.md",
     "image/Pasted image 20260923085033.png",
     "image/Pasted image 20260923154053.png",
-    "2026-09-23-14-37-32.md",
     "例题/C. AND, OR, Sort!.md",
     "2026-09-23-15-40-50.md",
     "2026-09-23-09-15-50.md",
