@@ -25,40 +25,68 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-using ll = long long;
+using int64 = long long;
 
-vector<int> pos;
-ll A, B;
+int n, k;
+int64 A, B;
+vector<int64> position;
 
-ll solve(ll l, ll r, int begin, int end) {
-    ll count = end - begin;
-    if (count == 0) return A;
+/*
+    当前需要摧毁的位置区间为 [left, right]。
 
-    ll burn = B * count * (r - l + 1);
-    if (l == r) return burn;
+    position[beginIndex ... endIndex - 1]
+    是位于这个区间内的所有复仇者位置。
+*/
+int64 solve(int64 left, int64 right, int beginIndex, int endIndex) {
+    int64 avengers = endIndex - beginIndex;
 
-    ll mid = (l + r) / 2;
-    int split = upper_bound(pos.begin() + begin, pos.begin() + end, mid)
-              - pos.begin();
+    // 没有复仇者时，直接摧毁一定最优。
+    if (avengers == 0) {
+        return A;
+    }
 
-    ll divide = solve(l, mid, begin, split)
-              + solve(mid + 1, r, split, end);
+    int64 length = right - left + 1;
+    int64 burnCost = B * avengers * length;
 
-    return min(burn, divide);
+    // 长度为 1，无法继续分割。
+    if (left == right) {
+        return burnCost;
+    }
+
+    int64 mid = (left + right) / 2;
+
+    // 找到第一个位置大于 mid 的复仇者。
+    int splitIndex = lower_bound(
+        position.begin() + beginIndex,
+        position.begin() + endIndex,
+        mid + 1
+    ) - position.begin();
+
+    int64 divideCost =
+        solve(left, mid, beginIndex, splitIndex) +
+        solve(mid + 1, right, splitIndex, endIndex);
+
+    return min(burnCost, divideCost);
 }
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int n, k;
     cin >> n >> k >> A >> B;
 
-    pos.resize(k);
-    for (int &x : pos) cin >> x;
-    sort(pos.begin(), pos.end());
+    position.resize(k);
+    for (int i = 0; i < k; ++i) {
+        cin >> position[i];
+    }
 
-    cout << solve(1, 1LL << n, 0, k) << '\n';
+    sort(position.begin(), position.end());
+
+    // 必须使用 1LL，避免 1 << 30 的整型问题。
+    int64 baseLength = 1LL << n;
+
+    cout << solve(1, baseLength, 0, k) << '\n';
+
     return 0;
 }
 ```
