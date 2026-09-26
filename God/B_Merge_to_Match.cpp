@@ -8,17 +8,51 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-void solve() {
+void solve()
+{
+    int n, m;
+    cin >> n >> m;
+    vector<int> a(n), b(m);
+    int mn = INF, mx = 0;
+    for (int &x : a)
+    {
+        cin >> x;
+        if(x<mn)
+            mn = x;
+        if(x>mx)
+            mx = x;
+    }
+
+    int omn = INF, omx = 0;
+
+    for (int &x : b)
+    {
+        cin >> x;
+        if(x<omn)
+            omn = x;
+        if(x>omx)
+            omx = x;
+    }
+
+    if(mn>omn || mx < omx){
+        cout << "NO\n";
+    }
+    else{
+        cout << "YES\n";
+    }
+
 
 }
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     int T = 1;
-    // cin >> T;
-    while (T--) solve();
+    cin >> T;
+    while (T--)
+        solve();
 
     return 0;
 }
