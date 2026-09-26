@@ -9,7 +9,11 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
-
+    int n, k;
+    cin >> n >> k;
+    ll sum = (k-1)*2;
+    sum += pow(2, n - (k - 1));
+    cout << sum << "\n";
 }
 
 int main() {
@@ -17,7 +21,7 @@ int main() {
     cin.tie(nullptr);
 
     int T = 1;
-    // cin >> T;
+    cin >> T;
     while (T--) solve();
 
     return 0;
