@@ -18,10 +18,11 @@ void solve()
     sort(a.begin(), a.end());
     if (n < 2)
     {
-        cout << "YES\n";
+        cout << "NO\n";
+        return;
     }
     int diff = a[n / 2] - a[n / 2 - 1];
-    if (diff >= 1)
+    if (diff >= 2)
     {
         cout << "YES\n";
     }
