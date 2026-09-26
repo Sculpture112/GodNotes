@@ -243,6 +243,7 @@
   },
   "active": "d48d53f48bc8bd91",
   "lastOpenFiles": [
+    "God/C_Maximize_the_Score.bin",
     "God/C_Maximize_the_Score.cpp",
     "Daily/2026-09-27.md",
     "例题/B. Merge to Match.md",
@@ -287,7 +288,6 @@
     "cf1111d_check.cpp",
     "God/P_1001_A_B_Problem.bin",
     "God/P_1001_A_B_Problem.cpp",
-    "God/test.bin",
-    "God/F_Binary_Bubble_Sort_Inversions.bin"
+    "God/test.bin"
   ]
 }
