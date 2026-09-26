@@ -40,7 +40,7 @@ void solve()
     }
 
     
-    if(mn>omn || mx < omx || m - cnt < 2*(n-cnt)){
+    if(mn>omn || mx < omx || 2*(m - cnt) > n-cnt){
         cout << "NO\n";
     }
     else{
