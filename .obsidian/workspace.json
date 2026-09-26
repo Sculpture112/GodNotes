@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/C. Maximize the Score.md",
+                "file": "例题/D. Good Pair Queries.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C. Maximize the Score"
+              "title": "D. Good Pair Queries"
             }
           }
         ]
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/C. Maximize the Score.md",
+                "file": "例题/D. Good Pair Queries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -243,12 +243,13 @@
   },
   "active": "d48d53f48bc8bd91",
   "lastOpenFiles": [
+    "Daily/2026-09-27.md",
+    "例题/D. Good Pair Queries.md",
+    "例题/C. Maximize the Score.md",
     "tools/new-god-mother-templates.ps1",
     "更新母题标签.cmd",
     "更新母题标签.ps1",
     "算法名/前缀dp.md",
-    "例题/C. Maximize the Score.md",
-    "Daily/2026-09-27.md",
     "例题/B. Merge to Match.md",
     "cf2248c.exe",
     "cf2248c.cpp",
@@ -259,7 +260,6 @@
     "God/B_Merge_to_Match.bin",
     "God/B_Merge_to_Match.cpp",
     "God/A_You_Delete_I_Delete.bin",
-    "God/A_You_Delete_I_Delete.cpp",
     "Daily/2026-09-26.md",
     "Daily/2026-09-25.md",
     "Daily/2026-10-03.md",
