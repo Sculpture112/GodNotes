@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -220,7 +220,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-09-04-10-52-05.md",
+                "file": "例题/洛谷kmp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,10 +270,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bfc2d418447998b3",
+  "active": "1b7339bae14c10ad",
   "lastOpenFiles": [
-    "例题/洛谷kmp.md",
     "2026-09-04-10-52-05.md",
+    "2026-09-26-14-56-28.md",
+    "image/Pasted image 20260926145631.png",
+    "例题/洛谷kmp.md",
     "3.md",
     "杂物/状态.md",
     "Daily/2026-09-25.md",
@@ -303,10 +305,8 @@
     "例题/G. 考古密码求和.md",
     "2026-09-23-14-37-32.md",
     "image/Pasted image 20260923143736.png",
-    "2026-09-23-08-50-19.md",
     "image/Pasted image 20260923085033.png",
     "image/Pasted image 20260923154053.png",
-    "例题/C. AND, OR, Sort!.md",
     "cf1111d_check.exe",
     "cf1111d_check.cpp",
     "God/P_1001_A_B_Problem.bin",
@@ -315,7 +315,6 @@
     "God/F_Binary_Bubble_Sort_Inversions.bin",
     "God/F_Binary_Bubble_Sort_Inversions.cpp",
     "God/P_1347_ECNA_2001__u6392_u5e8f.bin",
-    "image/Pasted image 20260923091558.png",
     "God/B_4016__u6811_u7684_u76f4_u5f84.bin",
     "God/B_4016_树的直径.cpp"
   ]
