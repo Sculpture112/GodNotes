@@ -11,12 +11,19 @@ const ll LINF = 4e18;
 void solve() {
     int n, k;
     cin >> n >> k;
-    vector<int> a(n);
-    for (int &x:a)
-        cin >> x;
+    vector<int> a(n+1);
+    for (int i = 1; i <= n; i++) {
+        cin >> a[i];
+    }
 
-    
-
+    ll ans = 0;
+    int m = n;
+    int pos = m - k + 1;
+    while(m>=k){
+        if(a[pos]>=a[m]){
+            ans += a[pos];
+        }
+    }
 }
 
 int main() {
