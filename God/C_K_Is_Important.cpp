@@ -26,6 +26,7 @@ void solve()
     for (int i = n; i >= 1; i--)
     {
         sum[i] = sum[i + 1] + a[i];
+        // cout << sum[i] << " ";
     }
 
     ans = sum[n - k];
