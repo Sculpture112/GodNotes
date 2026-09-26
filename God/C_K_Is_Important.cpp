@@ -28,7 +28,8 @@ void solve()
         sum[i] = sum[i + 1] + a[i];
     }
 
-    ans = sum[n - k - 1];
+    ans = sum[n - k];
+    cout << ans << "\n";
 }
 
 int main()
