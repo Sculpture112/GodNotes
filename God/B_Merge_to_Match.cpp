@@ -14,6 +14,7 @@ void solve()
     cin >> n >> m;
     vector<int> a(n), b(m);
     int mn = INF, mx = 0;
+    unordered_map<int, int> map;
     for (int &x : a)
     {
         cin >> x;
@@ -21,10 +22,12 @@ void solve()
             mn = x;
         if(x>mx)
             mx = x;
+        map[x]++;
     }
 
     int omn = INF, omx = 0;
 
+    int cnt = 0;
     for (int &x : b)
     {
         cin >> x;
@@ -32,9 +35,12 @@ void solve()
             omn = x;
         if(x>omx)
             omx = x;
+        if(map.count(x))
+            cnt++;
     }
 
-    if(mn>omn || mx < omx){
+    
+    if(mn>omn || mx < omx || m - cnt < 2*(n-cnt)){
         cout << "NO\n";
     }
     else{
