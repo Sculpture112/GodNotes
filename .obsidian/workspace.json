@@ -243,8 +243,11 @@
   },
   "active": "d48d53f48bc8bd91",
   "lastOpenFiles": [
-    "Daily/2026-09-27.md",
+    "更新母题标签.cmd",
+    "更新母题标签.ps1",
+    "算法名/前缀dp.md",
     "例题/C. Maximize the Score.md",
+    "Daily/2026-09-27.md",
     "例题/B. Merge to Match.md",
     "cf2248c.exe",
     "cf2248c.cpp",
@@ -279,15 +282,12 @@
     "Daily/2026-10-05.md",
     "例题/C. Spying on the Beaver.md",
     "Daily/2026-10-02.md",
-    "例题/C. Creative Snap.md",
-    "例题/D. Destroy the Colony.md",
     "image/Pasted image 20260926141431.png",
     "image/Pasted image 20260926141044.png",
     "image/Pasted image 20260926135143.png",
     "image/Pasted image 20260926132225.png",
     "image/Pasted image 20260926132104.png",
     "image/Pasted image 20260923143736.png",
-    "cf1111d_check.exe",
-    "cf1111d_check.cpp"
+    "cf1111d_check.exe"
   ]
 }
