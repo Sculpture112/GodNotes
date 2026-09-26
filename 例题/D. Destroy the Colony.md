@@ -261,6 +261,9 @@ int main() {
 
 ---
 
+下面的是时间常数更优的做法
+[[2026-09-26-14-14-27]]
+
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
