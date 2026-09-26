@@ -22,6 +22,10 @@ void solve() {
     while(m>=k){
         if(a[pos]>=a[m]){
             ans += a[pos];
+            m--;
+        }
+        else{
+            
         }
     }
 }
