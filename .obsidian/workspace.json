@@ -243,6 +243,7 @@
   },
   "active": "d48d53f48bc8bd91",
   "lastOpenFiles": [
+    "God/B_Merge_to_Match.cpp",
     "God/A_You_Delete_I_Delete.bin",
     "God/A_You_Delete_I_Delete.cpp",
     "Daily/2026-09-26.md",
@@ -287,7 +288,6 @@
     "God/test.bin",
     "God/F_Binary_Bubble_Sort_Inversions.bin",
     "God/F_Binary_Bubble_Sort_Inversions.cpp",
-    "God/P_1347_ECNA_2001__u6392_u5e8f.bin",
-    "God/B_4016__u6811_u7684_u76f4_u5f84.bin"
+    "God/P_1347_ECNA_2001__u6392_u5e8f.bin"
   ]
 }
