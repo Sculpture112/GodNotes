@@ -39,7 +39,7 @@ void solve()
         char c = s[i++];
         num = getnum(c) + num *16;
     }
-
+    
     if ()
     {
         cout << "YES\n";
