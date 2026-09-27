@@ -18,15 +18,20 @@ void solve()
     for (int &x : b)
         cin >> x;
 
+    int cnt = 0;
     for (int i = 0; i < n;i++){
         for (int j = 0; j < n;j++){
             if(gcd(a[i],b[i])!=1){
-                cout << "Alice";
-                return;
+                cnt++;
             }
         }
     }
-    cout << "Bob";
+    if(cnt>n-cnt){
+        cout << "Alice";
+    }
+    else{
+        cout << "Bob";
+    }
 }
 
 int main()
