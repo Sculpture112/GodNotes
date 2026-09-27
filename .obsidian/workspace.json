@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/B. String Construction.md",
+                "file": "例题/C. Rank Subsequence.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "B. String Construction"
+              "title": "C. Rank Subsequence"
             }
           }
         ],
@@ -258,9 +258,10 @@
   },
   "active": "5e23a780d690ff5f",
   "lastOpenFiles": [
-    "例题/D. Good Pair Queries.md",
-    "例题/B. String Construction.md",
     "Daily/2026-09-28.md",
+    "例题/C. Rank Subsequence.md",
+    "例题/B. String Construction.md",
+    "例题/D. Good Pair Queries.md",
     "Excalidraw/Drawing 2026-09-26 22.51.52.excalidraw.md",
     "God/C_K_Is_Important.bin",
     "God/C_K_Is_Important.cpp",
@@ -296,7 +297,6 @@
     "image/Pasted image 20260926145631.png",
     "3.md",
     "杂物/状态.md",
-    "例题/P3385 【模板】负环.md",
     "image/Pasted image 20260926144413.png",
     "image/Pasted image 20260926141431.png",
     "image/Pasted image 20260926141044.png",
