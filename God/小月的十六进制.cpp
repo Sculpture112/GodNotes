@@ -41,8 +41,13 @@ void solve()
     }
 
     for (int i = 0; i < k;i++){
-        num
+        if(num%2!=0){
+            cout << "NO";
+            return;
+        }
+        num /= 2;
     }
+    cout << "YES";
 }
 
 
