@@ -20,7 +20,7 @@ void solve()
         sum += x;
     }
 
-    if(sum%2==0){
+    if(sum%4==0){
         cout << "YES\n";
     }
     else{
