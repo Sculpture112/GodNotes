@@ -25,12 +25,14 @@
             "id": "5e23a780d690ff5f",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-09-26 22.51.52.excalidraw.md"
+                "file": "例题/B. String Construction.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-09-26 22.51.52.excalidraw"
+              "icon": "lucide-file",
+              "title": "B. String Construction"
             }
           }
         ],
@@ -256,11 +258,13 @@
   },
   "active": "5e23a780d690ff5f",
   "lastOpenFiles": [
+    "例题/D. Good Pair Queries.md",
+    "例题/B. String Construction.md",
+    "Daily/2026-09-28.md",
     "Excalidraw/Drawing 2026-09-26 22.51.52.excalidraw.md",
     "God/C_K_Is_Important.bin",
     "God/C_K_Is_Important.cpp",
     "God/B_KiaKio_and_Squared_Numbers.bin",
-    "例题/D. Good Pair Queries.md",
     "God/B_KiaKio_and_Squared_Numbers.cpp",
     "God/A_SauSaGe_Bank.bin",
     "God/A_SauSaGe_Bank.cpp",
@@ -293,7 +297,6 @@
     "3.md",
     "杂物/状态.md",
     "例题/P3385 【模板】负环.md",
-    "2026-09-26-14-44-10.md",
     "image/Pasted image 20260926144413.png",
     "image/Pasted image 20260926141431.png",
     "image/Pasted image 20260926141044.png",
