@@ -39,16 +39,12 @@ void solve()
         char c = s[i++];
         num = getnum(c) + num *16;
     }
-    
-    if ()
-    {
-        cout << "YES\n";
-    }
-    else
-    {
-        cout << "NO\n";
+
+    for (int i = 0; i < k;i++){
+        num
     }
 }
+
 
 int main()
 {
