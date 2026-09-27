@@ -33,14 +33,16 @@ void solve()
 
     ll num = 0;
     size_t i = 0;
+    ll cnt = 0;
     while (i != s.size())
     {
         char c = s[i++];
-        num = getnum(c) + num * 16;
+        num = getnum(c);
+        cnt += num * 4;
     }
+    cout << cnt;
 
-    ll divides = pow(2, k);
-    if (num % divides == 0)
+    if (cnt>=k)
     {
         cout << "YES\n";
     }
