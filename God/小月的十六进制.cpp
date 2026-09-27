@@ -33,7 +33,6 @@ void solve()
 
     ll num = 0;
     size_t i = 0;
-    ll cnt = 0;
     while (i != s.size())
     {
         char c = s[i++];
