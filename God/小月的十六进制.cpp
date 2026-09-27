@@ -37,10 +37,10 @@ void solve()
     while (i != s.size())
     {
         char c = s[i++];
-        num = getnum(c) + num * 16;
+        num = getnum(c) + num *16;
     }
 
-    if (num % (pow(2, k)) == 0)
+    if ()
     {
         cout << "YES\n";
     }
