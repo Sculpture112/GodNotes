@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-09-28.md",
+                "file": "例题/小月的树.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-28"
-            }
-          },
-          {
-            "id": "fd9b9131fde16bc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "例题/E. Prime Destruction.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "E. Prime Destruction"
+              "title": "小月的树"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +87,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -256,9 +241,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fd9b9131fde16bc0",
+  "active": "d48d53f48bc8bd91",
   "lastOpenFiles": [
     "Daily/2026-09-28.md",
+    "例题/小月的树.md",
+    "Daily/2026-10-13.md",
+    "例题/E. Prime Destruction.md",
     "Daily/2026-10-05.md",
     "例题/B. String Construction.md",
     "Daily/2026-10-06.md",
@@ -286,11 +274,8 @@
     "例题/B. Merge to Match.md",
     "2026-09-26-16-18-31.md",
     "例题/C. Maximize the Score.md",
-    "例题/D. Good Pair Queries.md",
-    "2026-09-28-15-57-37.md",
     "image/Pasted image 20260928155826.png",
     "image/Pasted image 20260928155740.png",
-    "Daily/2026-09-26.md",
     "image/Pasted image 20260928093804.png",
     "God/_u5c0f_u6708_u7684_u5bf9_u5c40.bin",
     "God/小月的对局.cpp",
