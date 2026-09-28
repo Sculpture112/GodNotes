@@ -29,7 +29,6 @@ void solve() {
     int n;
     cin >> n;
 
-    [[maybe_unused]] int ballast = 0;
 
     vector<long long> b(n);
 
