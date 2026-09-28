@@ -11,12 +11,14 @@
             "id": "d48d53f48bc8bd91",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-09-27 23.20.21.excalidraw.md"
+                "file": "例题/小月的排序.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-09-27 23.20.21.excalidraw"
+              "icon": "lucide-file",
+              "title": "小月的排序"
             }
           }
         ]
@@ -89,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5,
-    "collapsed": true
+    "width": 355.5
   },
   "right": {
     "id": "4768838af22391f0",
@@ -243,6 +244,7 @@
   "active": "d48d53f48bc8bd91",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2026-09-27 23.20.21.excalidraw.md",
+    "例题/小月的排序.md",
     "例题/B. Yet Another Constructive.md",
     "God/_u5c0f_u6708_u7684_u5bf9_u5c40.bin",
     "God/小月的对局.cpp",
@@ -279,7 +281,6 @@
     "Daily/2026-10-12.md",
     "例题/C. AND, OR, Sort!.md",
     "例题/洛谷kmp.md",
-    "2026-09-04-10-52-05.md",
     "image/Pasted image 20260926151036.png",
     "image/Pasted image 20260926145631.png",
     "image/Pasted image 20260926144413.png",
