@@ -19,7 +19,7 @@ int getchar(char c){
     }else if(c>='A' && c<='Z'){
         return c - 'A' + 26;
     }
-    return 0;
+    return c - '0' + 52;
 }
 void insertword(const string&s){
     int cur = 1;
