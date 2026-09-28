@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/小月的排序.md",
+                "file": "例题/小月的岛屿.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "小月的排序"
+              "title": "小月的岛屿"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "2026-09-28-09-38-01"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -256,11 +255,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "cc27b391cc12dc1c",
+  "active": "d48d53f48bc8bd91",
   "lastOpenFiles": [
-    "image/Pasted image 20260928093804.png",
-    "2026-09-28-09-38-01.md",
     "例题/小月的排序.md",
+    "例题/小月的岛屿.md",
+    "2026-09-28-09-38-01.md",
+    "image/Pasted image 20260928093804.png",
     "Daily/2026-09-29.md",
     "Excalidraw/Drawing 2026-09-27 23.20.21.excalidraw.md",
     "例题/B. Yet Another Constructive.md",
@@ -302,7 +302,6 @@
     "image/Pasted image 20260926141431.png",
     "image/Pasted image 20260926141044.png",
     "image/Pasted image 20260926135143.png",
-    "image/Pasted image 20260926132225.png",
-    "image/Pasted image 20260926132104.png"
+    "image/Pasted image 20260926132225.png"
   ]
 }
