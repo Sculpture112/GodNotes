@@ -16,16 +16,16 @@ void solve()
     cin >> n >> m;
 
     int s;
-    cin >> s;
 
-    vector<bitset<MAXN>> adj(n+1);
+    vector<bitset<MAXN>> adj(n + 1);
 
     for (int i = 0; i < m; i++)
     {
+        cin >> s;
         vector<int> stop(s);
-        vector<bool> isstop(s+1, false);
+        vector<bool> isstop(n + 1, false);
         bitset<MAXN> bitstop;
-        for (int j = 0; j < s; i++)
+        for (int j = 0; j < s; j++)
         {
             cin >> stop[j];
             isstop[stop[j]] = true;
@@ -35,41 +35,52 @@ void solve()
         int left = stop.front();
         int right = stop.back();
 
-        for (int station = left; station <= right;station++){
-            if(!isstop[station]){
+        for (int station = left; station <= right; station++)
+        {
+            if (!isstop[station])
+            {
                 adj[station] |= bitstop;
             }
         }
     }
 
-    vector<int> indegree(n+1);
-    for (int i = 1; i <= n;i++){
-        for (int j = 1; j <= n;j++){
-            if(adj[i][j]==1){
+    vector<int> indegree(n + 1);
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= n; j++)
+        {
+            if (adj[i][j] == 1)
+            {
                 indegree[j]++;
             }
         }
     }
 
     queue<int> q;
-    for (int i = 1; i <= n;i++){
-        if(indegree[i] == 0){
+    for (int i = 1; i <= n; i++)
+    {
+        if (indegree[i] == 0)
+        {
             q.push(i);
         }
     }
 
-    vector<int> dp(n + 1,1);
+    vector<int> dp(n + 1, 1);
     int ans = 0;
 
-    while(!q.empty()){
+    while (!q.empty())
+    {
         int u = q.front();
         q.pop();
         ans = max(ans, dp[u]);
 
-        for (int v = 1; v <= n;v++){
-            if(adj[u][v]){
+        for (int v = 1; v <= n; v++)
+        {
+            if (adj[u][v])
+            {
                 dp[v] = max(dp[v], dp[u] + 1);
-                if(--indegree[v]==0){
+                if (--indegree[v] == 0)
+                {
                     q.push(v);
                 }
             }
