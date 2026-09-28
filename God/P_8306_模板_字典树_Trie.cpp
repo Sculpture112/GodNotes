@@ -28,7 +28,7 @@ void insertword(const string&s){
         int path = getchar(s[i]);
         
         if(tree[cur][path]==0){
-            tree[cur][path] = cnt++;
+            tree[cur][path] = ++cnt;
         }
         cur = tree[cur][path];
         pass[cur]++;
@@ -50,9 +50,12 @@ int precount(const string&s){
 }
 void solve()
 {
+    for (int i = 1; i <= cnt; i++)
+    {
+        fill(tree[i], tree[i] + 62, 0);
+        pass[i] = endcount[i] = 0;
+    }
     cnt = 1;
-    fill(pass, pass + MAXN,0);
-    fill(endcount, endcount + MAXN, 0);
 
     int n, m;
     cin >> n >> m;
