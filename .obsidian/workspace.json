@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/小月的路线.md",
+                "file": "例题/小月的筹码.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "小月的路线"
+              "title": "小月的筹码"
             }
           }
         ]
@@ -244,6 +244,7 @@
   "active": "d48d53f48bc8bd91",
   "lastOpenFiles": [
     "Daily/2026-09-30.md",
+    "例题/小月的筹码.md",
     "例题/小月的路线.md",
     "例题/小月的树.md",
     "2026-09-29-14-52-39.md",
@@ -272,7 +273,6 @@
     "Daily/2026-10-14.md",
     "例题/P5905 【模板】全源最短路（Johnson）.md",
     "例题/C. Far Cities.md",
-    "Daily/2026-10-07.md",
     "image/Pasted image 20260928161245.png",
     "image/Pasted image 20260928161152.png",
     "image/Pasted image 20260928155826.png",
