@@ -16,9 +16,20 @@ void solve()
     {
         int n;
         cin >> n;
+        vector<int> a(n + 1, 0);
+        if (n >= 2)
+        {
+            a[1] = 1, a[2] = 2;
+        }
+        int sum = 3;
+        for (int i = 3; i <= n; i++)
+        {
+            a[i] = sum;
+            sum += sum;
+        }
         for (int i = 1; i <= n; i++)
         {
-            cout << i * 2 << " ";
+            cout << a[i] << " ";
         }
         cout << "\n";
     }
