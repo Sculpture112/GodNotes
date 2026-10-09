@@ -33,8 +33,7 @@
               "title": "前缀和与差分讲义"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -53,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "二阶差分",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,13 +98,11 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 355.5,
-    "collapsed": true
+    "width": 355.5
   },
   "right": {
     "id": "4768838af22391f0",
@@ -255,9 +252,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2d46de0b72070b09",
+  "active": "d48d53f48bc8bd91",
   "lastOpenFiles": [
     "算法名/前缀和与差分讲义.md",
+    "例题/K. 数组.md",
     "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md",
     "output/前缀和与差分讲解图/一维差分.png",
     "output/前缀和与差分讲解图/一维前缀和.png",
