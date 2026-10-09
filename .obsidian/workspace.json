@@ -47,7 +47,8 @@
               "title": "一维前缀和与差分入门题单（洛谷）"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -271,14 +272,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2d46de0b72070b09",
+  "active": "aa6cd9eb4b026cd7",
   "lastOpenFiles": [
+    "算法名/前缀和与差分讲义.md",
+    "output/前缀和与差分讲解图/一维差分.png",
+    "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md",
     "God/P_8218__u6df1_u8fdb_1__u4f8b_1__u6c42_u533a_u95f4_u548c.bin",
     "God/P_8218_深进_1_例_1_求区间和.cpp",
     "God/P_1614_爱与愁的心痛.cpp",
-    "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md",
     "算法名/一维前缀和与差分入门题单（洛谷）.md",
-    "算法名/前缀和与差分讲义.md",
     "output/前缀和与差分讲解图/一维前缀和.png",
     "2026-10-09-17-48-44.md",
     "Daily/2026-10-09.md",
@@ -290,7 +292,6 @@
     "Daily/2026-10-08.md",
     "Daily/2026-10-07.md",
     "例题/K. 数组.md",
-    "output/前缀和与差分讲解图/一维差分.png",
     "output/前缀和与差分讲解图/讲解图预览.md",
     "output/前缀和与差分讲解图/检查结果.json",
     "output/前缀和与差分讲解图/二维差分.png",
@@ -317,7 +318,6 @@
     "God/P_1983_NOIP_2013__u666e_u53ca_u7ec4__u8f66_u7ad9_u5206_u7ea7.bin",
     "image/Pasted image 20260928161245.png",
     "image/Pasted image 20260928161152.png",
-    "God/_u5c0f_u6708_u7684_u5bf9_u5c40.bin",
-    "God/小月的对局.cpp"
+    "God/_u5c0f_u6708_u7684_u5bf9_u5c40.bin"
   ]
 }
