@@ -48,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -272,11 +272,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "aa6cd9eb4b026cd7",
+  "active": "864d47b88e41783a",
   "lastOpenFiles": [
     "算法名/前缀和与差分讲义.md",
-    "output/前缀和与差分讲解图/一维差分.png",
     "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md",
+    "output/前缀和与差分讲解图/一维差分.png",
     "God/P_8218__u6df1_u8fdb_1__u4f8b_1__u6c42_u533a_u95f4_u548c.bin",
     "God/P_8218_深进_1_例_1_求区间和.cpp",
     "God/P_1614_爱与愁的心痛.cpp",
