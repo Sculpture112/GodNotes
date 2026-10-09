@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "7f435e68f04b5402",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "output/前缀和与差分讲解图/一维差分.png"
+              },
+              "icon": "lucide-image",
+              "title": "一维差分"
+            }
+          },
+          {
             "id": "aa6cd9eb4b026cd7",
             "type": "leaf",
             "state": {
@@ -48,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -272,15 +284,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "864d47b88e41783a",
+  "active": "7f435e68f04b5402",
   "lastOpenFiles": [
     "算法名/前缀和与差分讲义.md",
-    "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md",
     "output/前缀和与差分讲解图/一维差分.png",
+    "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md",
+    "算法名/一维前缀和与差分入门题单（洛谷）.md",
     "God/P_8218__u6df1_u8fdb_1__u4f8b_1__u6c42_u533a_u95f4_u548c.bin",
     "God/P_8218_深进_1_例_1_求区间和.cpp",
     "God/P_1614_爱与愁的心痛.cpp",
-    "算法名/一维前缀和与差分入门题单（洛谷）.md",
     "output/前缀和与差分讲解图/一维前缀和.png",
     "2026-10-09-17-48-44.md",
     "Daily/2026-10-09.md",
