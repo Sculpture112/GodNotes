@@ -1,16 +1,25 @@
 {
-  "drawing": "C:\\Users\\17487\\Desktop\\GodNotes\\Excalidraw\\Drawing 2026-10-09 14.25.31.excalidraw.md",
-  "relative": "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md",
-  "elements": 530,
-  "text_elements": 270,
-  "unique_ids": true,
-  "text_collisions": 0,
-  "math_checks": "passed",
-  "preview_folder": "C:\\Users\\17487\\Desktop\\GodNotes\\output\\前缀和与差分讲解图",
-  "panels": [
-    "C:\\Users\\17487\\Desktop\\GodNotes\\output\\前缀和与差分讲解图\\一维前缀和.png",
-    "C:\\Users\\17487\\Desktop\\GodNotes\\output\\前缀和与差分讲解图\\一维差分.png",
-    "C:\\Users\\17487\\Desktop\\GodNotes\\output\\前缀和与差分讲解图\\二维前缀和.png",
-    "C:\\Users\\17487\\Desktop\\GodNotes\\output\\前缀和与差分讲解图\\二维差分.png"
-  ]
+  "drawing": "C:/Users/17487/Desktop/GodNotes/Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md",
+  "elements": 534,
+  "text_elements": 280,
+  "image_elements": 0,
+  "one_dimensional_difference": "original a[i] + cover",
+  "increment_diff_initially_zero": true,
+  "other_panels_preserved": true,
+  "example_cover": [
+    0,
+    3,
+    3,
+    3,
+    0
+  ],
+  "example_result": [
+    3,
+    1,
+    8,
+    4,
+    4
+  ],
+  "randomized_checks": 1000,
+  "text_collisions": 0
 }

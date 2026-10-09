@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "算法名/前缀和与差分讲义.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -104,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5
+    "width": 355.5,
+    "collapsed": true
   },
   "right": {
     "id": "4768838af22391f0",
@@ -257,8 +258,8 @@
   "active": "2d46de0b72070b09",
   "lastOpenFiles": [
     "output/前缀和与差分讲解图/一维差分.png",
-    "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md",
     "算法名/前缀和与差分讲义.md",
+    "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md",
     "output/前缀和与差分讲解图/一维前缀和.png",
     "output/前缀和与差分讲解图/讲解图预览.md",
     "output/前缀和与差分讲解图/检查结果.json",
