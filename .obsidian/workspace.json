@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d48d53f48bc8bd91",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-10-09 14.25.31.excalidraw"
-            }
-          },
-          {
             "id": "2d46de0b72070b09",
             "type": "leaf",
             "state": {
@@ -271,12 +259,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d48d53f48bc8bd91",
+  "active": "2d46de0b72070b09",
   "lastOpenFiles": [
-    "算法名/前缀和与差分讲义.md",
-    "output/前缀和与差分讲解图/一维前缀和.png",
     "算法名/一维前缀和与差分入门题单（洛谷）.md",
+    "算法名/前缀和与差分讲义.md",
     "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md",
+    "output/前缀和与差分讲解图/一维前缀和.png",
     "2026-10-09-17-48-44.md",
     "Daily/2026-10-09.md",
     "Daily/2026-10-29.md",
