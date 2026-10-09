@@ -11,12 +11,14 @@
             "id": "aa6cd9eb4b026cd7",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md"
+                "file": "Daily/2026-10-10.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-10-09 14.25.31.excalidraw"
+              "icon": "lucide-file",
+              "title": "2026-10-10"
             }
           },
           {
@@ -106,8 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5,
-    "collapsed": true
+    "width": 355.5
   },
   "right": {
     "id": "4768838af22391f0",
@@ -253,18 +254,18 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
-      "periodic-notes:Open today": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false
     }
   },
   "active": "aa6cd9eb4b026cd7",
   "lastOpenFiles": [
+    "例题/C. 0mar and Alternating Sums.md",
+    "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md",
     "God/B_ezraft_and_Array.bin",
     "God/B_ezraft_and_Array.cpp",
     "God/A_farmpiggie_and_Subset_Sum.bin",
     "God/A_farmpiggie_and_Subset_Sum.cpp",
     "算法名/一维前缀和与差分入门题单（洛谷）.md",
-    "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md",
     "output/前缀和与差分讲解图/一维差分.png",
     "算法名/前缀和与差分讲义.md",
     "God/P_8218__u6df1_u8fdb_1__u4f8b_1__u6c42_u533a_u95f4_u548c.bin",
@@ -302,7 +303,6 @@
     "Daily/2026-10-15.md",
     "备份/日历后移-2026-10-08-448b3c31",
     "image/Pasted image 20260929145243.png",
-    "God/P_8306__u6a21_u677f__u5b57_u5178_u6811_Trie.bin",
     "image/Pasted image 20260928161245.png",
     "image/Pasted image 20260928161152.png"
   ]
