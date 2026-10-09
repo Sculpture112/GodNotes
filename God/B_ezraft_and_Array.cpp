@@ -16,7 +16,7 @@ void solve()
     {
         int n;
         cin >> n;
-        for (int i = 1; 1 <= n; i++)
+        for (int i = 1; i <= n; i++)
         {
             cout << i * 2 << " ";
         }
