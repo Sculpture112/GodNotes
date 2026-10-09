@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "aa6cd9eb4b026cd7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-10-09 14.25.31.excalidraw"
+            }
+          },
+          {
             "id": "864d47b88e41783a",
             "type": "leaf",
             "state": {
@@ -35,7 +47,8 @@
               "title": "一维前缀和与差分入门题单（洛谷）"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,8 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5,
-    "collapsed": true
+    "width": 355.5
   },
   "right": {
     "id": "4768838af22391f0",
@@ -259,11 +271,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2d46de0b72070b09",
+  "active": "864d47b88e41783a",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md",
     "算法名/一维前缀和与差分入门题单（洛谷）.md",
     "算法名/前缀和与差分讲义.md",
-    "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md",
     "output/前缀和与差分讲解图/一维前缀和.png",
     "2026-10-09-17-48-44.md",
     "Daily/2026-10-09.md",
