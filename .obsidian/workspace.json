@@ -47,8 +47,7 @@
               "title": "一维前缀和与差分入门题单（洛谷）"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5
+    "width": 355.5,
+    "collapsed": true
   },
   "right": {
     "id": "4768838af22391f0",
@@ -271,8 +271,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "864d47b88e41783a",
+  "active": "2d46de0b72070b09",
   "lastOpenFiles": [
+    "God/P_1614_爱与愁的心痛.cpp",
     "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md",
     "算法名/一维前缀和与差分入门题单（洛谷）.md",
     "算法名/前缀和与差分讲义.md",
