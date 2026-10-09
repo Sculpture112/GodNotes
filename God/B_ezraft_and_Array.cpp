@@ -16,11 +16,17 @@ void solve()
     {
         int n;
         cin >> n;
-        vector<ll> a(n + 1, 0);
-        if (n >= 2)
-        {
-            a[1] = 1, a[2] = 2;
+        if(n==1){
+            cout << 1 << "\n";
+            continue;
         }
+
+        if(n==2){
+            cout << -1 << "\n";
+            continue;
+        }
+        vector<ll> a(n + 1, 0);
+        a[1] = 1, a[2] = 2;
         ll sum = 3;
         for (int i = 3; i <= n; i++)
         {
