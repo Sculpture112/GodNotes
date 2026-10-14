@@ -13,7 +13,7 @@ void solve()
     int n;
     cin >> n;
 
-    vector<ll> x(n), y(n);
+    vector<double> x(n), y(n);
 
     for (int i = 0; i < n; i++)
     {
