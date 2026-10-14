@@ -13,7 +13,11 @@ vector<int> position;
 ll solve(int left,int right,int beginidx,int endidx) {
     int cnt = endidx - beginidx;
 
-    
+    if(cnt == 0){
+        return A;
+    }
+
+    int lenth = right - left 
 }
 
 int main() {
