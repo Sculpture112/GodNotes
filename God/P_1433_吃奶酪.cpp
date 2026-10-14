@@ -22,13 +22,13 @@ void solve()
 
     auto distance = [&](int a, int b)
     {
-        int dx = x[a] - x[b];
-        int dy = y[a] - y[b];
+        double dx = x[a] - x[b];
+        double dy = y[a] - y[b];
 
         return sqrt(dx * dx + dy * dy);
     };
 
-    vector<ll> diststart(n);
+    vector<double> diststart(n);
 
     for (int i = 0; i < n; i++)
     {
@@ -69,7 +69,7 @@ void solve()
                     continue;
                 }
 
-                int newmask = mask | nxt;
+                int newmask = mask | (1 << nxt);
 
                 dp[newmask][nxt] = min(dp[newmask][nxt], dp[mask][last] + dist[last][nxt]);
             }
