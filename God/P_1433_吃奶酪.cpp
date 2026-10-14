@@ -47,7 +47,12 @@ void solve()
     int total = 1 << n;
     vector<vector<double>> dp(total, vector<double>(n, INF));
 
-    for (int mask = 0; mask < total; mask++)
+    for (int i = 0; i < n; i++)
+    {
+        dp[1 << i][i] = diststart[i];
+    }
+
+    for (int mask = 1; mask < total; mask++)
     {
 
         for (int last = 0; last < n; last++)
@@ -72,9 +77,12 @@ void solve()
     }
 
     double ans = INF;
-    for (int i = 0; i < n;i++){
+    for (int i = 0; i < n; i++)
+    {
         ans = min(ans, dp[total - 1][i]);
     }
+
+    cout << fixed << setprecision(2) << ans;
 }
 
 int main()
