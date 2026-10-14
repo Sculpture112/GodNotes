@@ -35,8 +35,7 @@
               "title": "备赛"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -259,8 +258,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8c26d41a7c5584e2",
+  "active": "3f67a7096db25279",
   "lastOpenFiles": [
+    "备赛/备赛.md",
     "例题/C. Village Guilds.md",
     "Daily/2026-10-15.md",
     "2026-09-14-21-05-01.md",
@@ -286,7 +286,6 @@
     "算法名/一维前缀和与差分入门题单（洛谷）.md",
     "Daily/2026-10-31.md",
     "例题/P1127 词链.md",
-    "2026-10-14-16-03-30.md",
     "image/Pasted image 20261014160337.png",
     "image/Pasted image 20261014160328.png",
     "God/C_Creative_Snap.bin",

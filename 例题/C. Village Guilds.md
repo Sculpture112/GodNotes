@@ -41,8 +41,6 @@ int main() {
             cin >> parent[i];
         }
 
-        // first[v]、second[v]：从 v 出发，
-        // 经过不同孩子向下的最大、第二大分支高度。
         vector<int> first(n + 1, 0);
         vector<int> second(n + 1, 0);
 
