@@ -105,7 +105,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -259,7 +259,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "886fff5dacd970e8",
+  "active": "0611e6a25a0bd468",
   "lastOpenFiles": [
     "Daily/2026-10-10.md",
     "Codeforces/div2/Educational194/C. Maximize XOR, Minimize Operations.md",
