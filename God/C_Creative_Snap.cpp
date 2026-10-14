@@ -7,7 +7,8 @@ const int INF = 0x3f3f3f3f;
 const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
-int n, k, A, B;
+int n, k;
+ll A, B;
 vector<int> position;
 
 ll solve(int left, int right, int beginidx, int endidx)
@@ -19,7 +20,7 @@ ll solve(int left, int right, int beginidx, int endidx)
         return A;
     }
 
-    ll lenth = right - left - 1;
+    ll lenth = right - left + 1;
     ll burn = B * cnt * lenth;
 
     if(lenth == 1){
@@ -33,7 +34,7 @@ ll solve(int left, int right, int beginidx, int endidx)
                        mid + 1) -
                    position.begin();
 
-    ll divi = solve(left, mid, beginidx, splitidx) + solve(mid + 1, right, splitidx + 1, endidx);
+    ll divi = solve(left, mid, beginidx, splitidx) + solve(mid + 1, right, splitidx, endidx);
 
     return min(divi, burn);
 }
@@ -44,9 +45,9 @@ int main()
     cin.tie(nullptr);
 
     cin >> n >> k >> A >> B;
-    position.resize(n);
+    position.resize(k);
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < k; i++)
     {
         cin >> position[i];
     }
