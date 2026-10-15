@@ -20,33 +20,8 @@
               "icon": "lucide-file",
               "title": "2026-10-15"
             }
-          },
-          {
-            "id": "a2898e45bdbc7de2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "例题/C2. Floor of MEX (Hard Version).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "C2. Floor of MEX (Hard Version)"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -219,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/C2. Floor of MEX (Hard Version).md",
+                "file": "Daily/2026-10-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,8 +226,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -269,16 +243,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a2898e45bdbc7de2",
+  "active": "8c26d41a7c5584e2",
   "lastOpenFiles": [
+    "例题/C2. Floor of MEX (Hard Version).md",
+    "Daily/2026-10-28.md",
+    "Daily/2026-10-13.md",
+    "Daily/2026-10-15.md",
+    "Daily/2026-10-17.md",
     "2026-10-15-20-27-56.md",
     "image/Pasted image 20261015202801.png",
-    "例题/C2. Floor of MEX (Hard Version).md",
     "2026-09-23-09-15-50.md",
     "image/Pasted image 20261015201150.png",
     "image/Pasted image 20261015200541.png",
-    "Daily/2026-10-15.md",
-    "Daily/2026-10-17.md",
     "Daily/2026-10-16.md",
     "Daily/2026-10-30.md",
     "例题/C1. Floor of MEX (Easy Version).md",
@@ -291,14 +267,12 @@
     "Daily/2026-10-29.md",
     "例题/P1032 [NOIP 2002 提高组] 字串变换.md",
     "例题/P5905 【模板】全源最短路（Johnson）.md",
-    "Daily/2026-10-13.md",
     "例题/洛谷kmp.md",
     "例题/最短路.md",
     "Daily/2026-10-19.md",
     "例题/E. Prime Destruction.md",
     "Daily/2026-10-21.md",
     "Daily/2026-10-12.md",
-    "Daily/2026-10-28.md",
     "image/Pasted image 20261014160337.png",
     "image/Pasted image 20261014160328.png",
     "God/C_Creative_Snap.bin",
