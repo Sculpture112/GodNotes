@@ -10,7 +10,7 @@ const ll LINF = 4e18;
 
 void solve()
 {
-    int n, r;
+    ll n, r;
     cin >> n >> r;
 
     vector<vector<ll>> dist(n, vector<ll>(n, LINF));
