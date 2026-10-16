@@ -10,7 +10,7 @@ const ll LINF = 4e18;
 
 void solve()
 {
-    int n, k;
+    ll n, k;
     cin >> n >> k;
     ll max = 0;
     ll sum = 0;
