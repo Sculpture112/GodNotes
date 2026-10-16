@@ -25,6 +25,8 @@ void solve() {
     ll n;
     cin >> n;
 
+       
+
     if(n<=12){
         cout << -1 << "\n";
         return;
