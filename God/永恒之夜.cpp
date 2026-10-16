@@ -42,6 +42,7 @@ void solve()
     {
         for (int j = 0; j < n; j++)
         {
+            if(i==j)continue;
             if (dist[i][j] <= r)
             {
                 ans[i]++;
