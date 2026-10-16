@@ -59,7 +59,7 @@ void solve() {
     }
 
     long long answer = 0;
-
+	// [[2026-10-16-14-34-47]]
     for (int c = 0; c < n; ++c) {
         if (!pre[c] || !suf[c + 1]) continue;
 
