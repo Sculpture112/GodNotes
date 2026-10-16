@@ -25,14 +25,13 @@ void solve() {
     ll n;
     cin >> n;
 
-       
 
     if(n<=12){
         cout << -1 << "\n";
         return;
     }
 
-    for (int half = 2; half < n;half++){
+    for (int half = 0; half < n;half++){
         ll even = makepal(half, false);
         ll odd = makepal(half, true);
 
