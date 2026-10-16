@@ -15,7 +15,7 @@ void solve()
 
     vector<vector<ll>> dist(n, vector<ll>(n));
 
-    vector<ll> x(n), y(n);
+    vector<double> x(n), y(n);
     vector<string> name(n);
     for (int i = 0; i < n; i++)
     {
@@ -24,8 +24,8 @@ void solve()
 
     auto dis = [&](int i, int j)
     {
-        ll dx = x[i] - x[j];
-        ll dy = y[i] - y[j];
+        double dx = x[i] - x[j];
+        double dy = y[i] - y[j];
         return dx * dx + dy * dy;
     };
 
