@@ -8,6 +8,14 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
+int makepal(ll x,bool odd){
+    if(odd){
+        x /= 10;
+    }
+
+    ll result = x;
+    
+}
 void solve() {
     int n;
     cin >> n;
