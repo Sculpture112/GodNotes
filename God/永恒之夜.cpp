@@ -24,8 +24,8 @@ void solve()
 
     auto dis = [&](int i, int j)
     {
-        int dx = x[i] - x[j];
-        int dy = y[i] - y[j];
+        ll dx = x[i] - x[j];
+        ll dy = y[i] - y[j];
         return dx * dx + dy * dy;
     };
 
