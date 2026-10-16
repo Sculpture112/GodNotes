@@ -13,9 +13,9 @@ void solve()
     int n, r;
     cin >> n >> r;
 
-    vector<vector<double>> dist(n, vector<double>(n, LINF));
+    vector<vector<ll>> dist(n, vector<ll>(n, LINF));
 
-    vector<int> x(n), y(n);
+    vector<ll> x(n), y(n);
     vector<string> name(n);
     for (int i = 0; i < n; i++)
     {
