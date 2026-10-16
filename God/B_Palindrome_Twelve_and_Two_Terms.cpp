@@ -17,7 +17,9 @@ void solve() {
         return;
     }
 
-    for (int half = 2;half<)
+    for (int half = 2; half < n;half++){
+        
+    }
 }
 
 int main() {
