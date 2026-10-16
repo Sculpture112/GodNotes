@@ -38,7 +38,11 @@ void solve() {
             break;
         }
 
-        if(even<n && (n-even)%
+        if(even<n && (n-even)%12 == 0){
+            cout << even << " " << n - even << "\n";
+            return;
+        }
+        else if(odd<n && (n-odd))
     }
 }
 
