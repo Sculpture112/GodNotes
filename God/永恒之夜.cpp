@@ -37,7 +37,7 @@ void solve()
         }
     }
 
-    vector<int> ans(n, INF);
+    vector<int> ans(n, 0);
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)
@@ -51,7 +51,12 @@ void solve()
         }
     }
 
-    int min = *min_element(ans.begin(), ans.end());
+    int min = INF;
+    for (int i = 0; i < n; i++) {
+        if(ans[i] != 0 && min<ans[i]){
+            min = ans[i];
+        }
+    }
 
     vector<string> as;
     for (int i = 0; i < n; i++) {
