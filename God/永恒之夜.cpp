@@ -26,7 +26,7 @@ void solve()
     {
         int dx = x[i] - x[j];
         int dy = y[i] - y[j];
-        return sqrt(dx * dx + dy * dy);
+        return dx * dx + dy * dy;
     };
 
     for (int i = 0; i < n; i++)
