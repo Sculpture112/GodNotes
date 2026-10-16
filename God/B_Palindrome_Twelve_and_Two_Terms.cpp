@@ -34,7 +34,11 @@ void solve() {
         ll even = makepal(half, false);
         ll odd = makepal(half, true);
 
-        if(even>)
+        if(even>=n && odd>=n){
+            break;
+        }
+
+        if(even<n && (n-even)%
     }
 }
 
