@@ -31,7 +31,10 @@ void solve() {
     }
 
     for (int half = 2; half < n;half++){
-        
+        ll even = makepal(half, false);
+        ll odd = makepal(half, true);
+
+        if(even>)
     }
 }
 
