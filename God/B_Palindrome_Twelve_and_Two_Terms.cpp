@@ -22,7 +22,7 @@ int makepal(ll x,bool odd){
     return result;
 }
 void solve() {
-    int n;
+    ll n;
     cin >> n;
 
     if(n<=12){
