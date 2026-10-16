@@ -46,6 +46,7 @@ void solve()
             if (dist[i][j] <= r)
             {
                 ans[i]++;
+                ans[j]++;
             }
         }
     }
