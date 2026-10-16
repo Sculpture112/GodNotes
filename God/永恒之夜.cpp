@@ -54,7 +54,7 @@ void solve()
     int min = INF;
     for (int i = 0; i < n; i++)
     {
-        if (ans[i] != 0 && min > ans[i])
+        if (min > ans[i])
         {
             min = ans[i];
         }
