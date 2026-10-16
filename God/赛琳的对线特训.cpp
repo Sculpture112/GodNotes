@@ -15,7 +15,8 @@ void solve()
     ll max = 0;
     ll sum = 0;
     ll ans = -1;
-    for (int i = 0, u; i < n; i++)
+    ll u;
+    for (int i = 0; i < n; i++)
     {
         cin >> u;
         if (max < u)
@@ -28,7 +29,7 @@ void solve()
         }
     }
 
-    
+
 
     cout << ans << "\n";
 }
