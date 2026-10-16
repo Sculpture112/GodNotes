@@ -40,7 +40,7 @@ void solve()
     vector<int> ans(n, 0);
     for (int i = 0; i < n; i++)
     {
-        for (int j = i + 1; j < n; j++)
+        for (int j = 0; j < n; j++)
         {
             if (dist[i][j] <= r)
             {
@@ -60,6 +60,7 @@ void solve()
 
     for(string s:as)
         cout << s << "\n";
+
 }
 
 int main()
