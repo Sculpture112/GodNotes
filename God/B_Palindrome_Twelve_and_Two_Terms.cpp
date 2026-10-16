@@ -8,41 +8,49 @@ const ll LINF = 4e18;
 
 #define all(x) (x).begin(), (x).end()
 
-int makepal(ll x,bool odd){
-    if(odd){
+int makepal(ll x, bool odd)
+{
+    ll result = x;
+    if (odd)
+    {
         x /= 10;
     }
 
-    ll result = x;
-    
-    while(x!=0){
-        result = result * 10 +  x % 10;
+    while (x != 0)
+    {
+        result = result * 10 + x % 10;
         x /= 10;
     }
     return result;
 }
-void solve() {
+void solve()
+{
     ll n;
     cin >> n;
 
-    if(n==1){
+    if (n == 1)
+    {
         cout << 1 << " " << 0 << "\n";
         return;
     }
 
-    for (int half = 0; half < n;half++){
+    for (int half = 0; half <= n; half++)
+    {
         ll even = makepal(half, false);
         ll odd = makepal(half, true);
 
-        if(even>=n && odd>=n){
+        if (even > n && odd > n)
+        {
             break;
         }
 
-        if(even<n && (n-even)%12 == 0){
+        if (even <= n && (n - even) % 12 == 0)
+        {
             cout << even << " " << n - even << "\n";
             return;
         }
-        else if(odd<n && (n-odd)%12 == 0){
+        else if (odd <= n && (n - odd) % 12 == 0)
+        {
             cout << odd << " " << n - odd << "\n";
             return;
         }
@@ -51,13 +59,15 @@ void solve() {
     cout << -1 << "\n";
 }
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     int T = 1;
     cin >> T;
-    while (T--) solve();
+    while (T--)
+        solve();
 
     return 0;
 }
