@@ -13,7 +13,7 @@ void solve()
     ll n, r;
     cin >> n >> r;
 
-    vector<vector<ll>> dist(n, vector<ll>(n, LINF));
+    vector<vector<ll>> dist(n, vector<ll>(n));
 
     vector<ll> x(n), y(n);
     vector<string> name(n);
@@ -37,7 +37,7 @@ void solve()
         }
     }
 
-    vector<int> ans(n, 0);
+    vector<ll> ans(n, 0);
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n; j++)
