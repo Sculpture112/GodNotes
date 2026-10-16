@@ -15,6 +15,11 @@ int makepal(ll x,bool odd){
 
     ll result = x;
     
+    while(x!=0){
+        result = result * 10 +  x % 10;
+        x /= 10;
+    }
+
 }
 void solve() {
     int n;
