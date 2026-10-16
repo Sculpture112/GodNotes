@@ -19,7 +19,7 @@ int makepal(ll x,bool odd){
         result = result * 10 +  x % 10;
         x /= 10;
     }
-
+    return result;
 }
 void solve() {
     int n;
