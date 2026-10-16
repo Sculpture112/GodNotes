@@ -42,32 +42,35 @@ void solve()
     {
         for (int j = 0; j < n; j++)
         {
-            if(i==j)continue;
+            if (i == j)
+                continue;
             if (dist[i][j] <= r)
             {
                 ans[i]++;
-                ans[j]++;
             }
         }
     }
 
     int min = INF;
-    for (int i = 0; i < n; i++) {
-        if(ans[i] != 0 && min<ans[i]){
+    for (int i = 0; i < n; i++)
+    {
+        if (ans[i] != 0 && min > ans[i])
+        {
             min = ans[i];
         }
     }
 
     vector<string> as;
-    for (int i = 0; i < n; i++) {
-        if(min == ans[i]){
+    for (int i = 0; i < n; i++)
+    {
+        if (min == ans[i])
+        {
             as.push_back(name[i]);
         }
     }
 
-    for(string s:as)
+    for (string s : as)
         cout << s << "\n";
-
 }
 
 int main()
