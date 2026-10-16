@@ -9,7 +9,15 @@ const ll LINF = 4e18;
 #define all(x) (x).begin(), (x).end()
 
 void solve() {
+    int n;
+    cin >> n;
 
+    if(n<=12){
+        cout << -1 << "\n";
+        return;
+    }
+
+    for (int half = 2;half<)
 }
 
 int main() {
@@ -17,7 +25,7 @@ int main() {
     cin.tie(nullptr);
 
     int T = 1;
-    // cin >> T;
+    cin >> T;
     while (T--) solve();
 
     return 0;
