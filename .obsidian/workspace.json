@@ -240,13 +240,15 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "8c26d41a7c5584e2",
   "lastOpenFiles": [
-    "学校.md",
+    "算法名/gcd.md",
     "算法名/公约数与公倍数：概念、C++函数与洛谷例题.md",
+    "学校.md",
     "例题/D. diss_quack and Array Game.md",
     "God/_u6c38_u6052_u4e4b_u591c.bin",
     "God/小雷姆吃大餐.cpp",
@@ -283,7 +285,6 @@
     "例题/C2. Floor of MEX (Hard Version).md",
     "Daily/2026-10-28.md",
     "Daily/2026-10-13.md",
-    "2026-10-15-20-27-56.md",
     "image/Pasted image 20261015202801.png",
     "image/Pasted image 20261015201150.png",
     "image/Pasted image 20261015200541.png",
