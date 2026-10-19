@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5
+    "width": 355.5,
+    "collapsed": true
   },
   "right": {
     "id": "4768838af22391f0",
@@ -240,11 +241,13 @@
       "juggl:Juggl global graph": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
-      "calendar-status-scheduler:标记为 0 并安排明天复习": false
+      "calendar-status-scheduler:标记为 0 并安排明天复习": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "8c26d41a7c5584e2",
   "lastOpenFiles": [
+    "God/1019.cpp",
     "算法名/gcd.md",
     "算法名/公约数与公倍数：概念、C++函数与洛谷例题.md",
     "学校.md",
@@ -283,7 +286,6 @@
     "God/A_Another_Popcount_Problem.cpp",
     "例题/C2. Floor of MEX (Hard Version).md",
     "Daily/2026-10-28.md",
-    "Daily/2026-10-13.md",
     "image/Pasted image 20261015202801.png",
     "image/Pasted image 20261015201150.png",
     "image/Pasted image 20261015200541.png",
