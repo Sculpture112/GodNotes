@@ -134,9 +134,20 @@ $$
 
 从 **C++17** 开始，标准库在 `<numeric>` 中提供 `std::gcd` 和 `std::lcm`。在洛谷提交下面的代码时，选择支持 C++17 或更新标准的编译选项。
 
+**它们是“内置函数”吗？** 如果你想问“C++ 有没有已经写好的函数，可以直接调用”，答案是有：`std::gcd` 和 `std::lcm` 都已经由标准库提供，不需要自己实现。严格来说，它们叫作**标准库函数**，并非语言语法本身内置的运算。
+
+**它们在 `<iostream>` 里面吗？** 它们对应的头文件是 **`<numeric>`**。`<iostream>` 主要提供输入输出功能，例如 `std::cin` 和 `std::cout`。
+
+| 头文件 | 本讲义中用到的功能 |
+| --- | --- |
+| `<iostream>` | `std::cin` 读入、`std::cout` 输出 |
+| `<numeric>` | `std::gcd` 最大公约数、`std::lcm` 最小公倍数 |
+
+因此，程序既要输入输出，又要调用 gcd/lcm，就应当同时包含这两个头文件。不要依赖某个编译环境偶然间接包含了其他头文件。
+
 ```cpp
-#include <iostream>
-#include <numeric>
+#include <iostream>  // std::cin、std::cout
+#include <numeric>   // std::gcd、std::lcm（C++17 起）
 
 int main() {
     long long a, b;
@@ -163,6 +174,10 @@ int main() {
 ```
 
 这段程序适用于输入的绝对值和最小公倍数都能用 `long long` 表示的情况。
+
+**`std::` 可以省略吗？** `std` 是标准库使用的命名空间。上面的代码没有写 `using namespace std;`，所以调用时写完整名称 `std::gcd`、`std::lcm`。
+
+如果在头文件后面写了 `using namespace std;`，就可以直接写 `gcd(a, b)`、`lcm(a, b)`，以及 `cin`、`cout`。这只是名称写法的区别，仍然需要包含对应的头文件。
 
 ### 3.2 参数和返回值
 
