@@ -455,7 +455,7 @@ int main() {
     long long a, b, c;
     std::cin >> a >> b >> c;
 
-    long long shortest = std::min({a, b, c});
+    long long shortest = std::min({a, b, c}); 
     long long longest = std::max({a, b, c});
     long long g = std::gcd(shortest, longest);
 
