@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法名/公约数与公倍数：概念、C++函数与洛谷例题.md",
+                "file": "例题/G. Matching.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "公约数与公倍数：概念、C++函数与洛谷例题"
+              "title": "G. Matching"
             }
           }
         ]
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5,
-    "collapsed": true
+    "width": 355.5
   },
   "right": {
     "id": "4768838af22391f0",
@@ -247,10 +246,12 @@
   },
   "active": "8c26d41a7c5584e2",
   "lastOpenFiles": [
+    "Daily/2026-10-20.md",
+    "例题/G. Matching.md",
+    "算法名/公约数与公倍数：概念、C++函数与洛谷例题.md",
     "God/1019.bin",
     "God/1019.cpp",
     "算法名/gcd.md",
-    "算法名/公约数与公倍数：概念、C++函数与洛谷例题.md",
     "学校.md",
     "例题/D. diss_quack and Array Game.md",
     "God/_u6c38_u6052_u4e4b_u591c.bin",
@@ -261,7 +262,6 @@
     "God/B_Palindrome_Twelve_and_Two_Terms.bin",
     "God/B_Palindrome_Twelve_and_Two_Terms.cpp",
     "God/A_Euclid_Sequence_and_Two_Numbers.bin",
-    "God/A_Euclid_Sequence_and_Two_Numbers.cpp",
     "2026-10-16-17-29-22.md",
     "image/Pasted image 20261016172925.png",
     "Daily/2026-10-17.md",
@@ -285,7 +285,6 @@
     "Daily/2026-11-10.md",
     "Daily/2026-10-15.md",
     "例题/C2. Floor of MEX (Hard Version).md",
-    "Daily/2026-10-28.md",
     "image/Pasted image 20261015202801.png",
     "image/Pasted image 20261015201150.png",
     "image/Pasted image 20261015200541.png",
