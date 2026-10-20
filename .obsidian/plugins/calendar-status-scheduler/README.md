@@ -1,5 +1,21 @@
 # 日历状态排程器
 
+## 批量分散复习任务（圆形按钮）
+
+点击左侧圆形图标，设置原日历开始日期、结束日期、最少/最多后移天数。
+“从今天计算”适用于将积压任务分散到未来一周（1～7 天）；
+“从原日期计算”适用于将各条任务后移 10～17 天等安排。
+日期范围和天数都可修改，会记住上一次的输入。
+
+处理范围内“复习”区域中未勾选且有笔记链接的任务；随机打乱日期并尽量均匀分散。
+目标日记已有同一笔记的未完成任务时复用该任务，范围内重复的笔记也合并安排。
+原条目会打钩并记录操作日，新条目日期标记为操作日，题目文件和状态标签不变。
+使用当前 Calendar/Periodic Notes 的文件夹和模板。
+操作备份位于 `.obsidian/plugins/calendar-status-scheduler/backups/`，包含修改前全文和分配结果。
+
+开发：运行 `npm install`，然后 `npm run build` 和 `npm test`。
+安装时使用 `build/main.js`（已包含批量模块），配合 `manifest.json`；不要直接复制源码 `main.js`。
+
 一个面向 Calendar/Periodic Notes + Tasks 工作流的 Obsidian 插件。命令“安排当前笔记到未来日历并更新状态”会：
 
 1. 输入 `x`（几天后）和 `y`（新状态）。
@@ -16,11 +32,11 @@
 
 ## 安装（开发版）
 
-把本目录复制到 vault 的 `.obsidian/plugins/calendar-status-scheduler/`，确认其中有 `manifest.json` 和 `main.js`，然后在 Obsidian → 设置 → 社区插件中启用。
+将 `build/main.js` 和根目录的 `manifest.json` 复制到 vault 的 `.obsidian/plugins/calendar-status-scheduler/`，然后在 Obsidian → 设置 → 社区插件中启用。打包的 ZIP 中已直接提供编译后的 `main.js`。
 
 ## 首次设置
 
-- 如果启用了 Periodic Notes，插件会优先调用它的 daily note API，因此会自动使用活动日历组的 `Daily` 文件夹、日期格式和 `Templates/每日清单.md` 模板；也能在设置中手动覆盖这些选项。
+- 如果启用了 Periodic Notes，插件会读取 Calendar 使用的日记配置，自动使用对应文件夹、日期格式和模板；也能在设置中手动覆盖这些选项。
 - 如果没有启用 Periodic Notes，才需要手动填写**日记文件夹**和**日期文件名格式**。
 - 如果希望未来文件使用和点击 Calendar 一样的模板，填写**日记模板路径**，或者先在 Calendar 中点击目标日期让它创建文件。
 - 你的模板使用 `## 复习`，插件默认会把任务插入这个标题下一行；也可以在设置中改成其他标题。

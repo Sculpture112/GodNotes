@@ -1,0 +1,202 @@
+{
+  "options": {
+    "start": "2026-10-17",
+    "end": "2026-10-18",
+    "today": "2026-10-20",
+    "minDays": 1,
+    "maxDays": 7,
+    "base": "today",
+    "heading": "## 复习"
+  },
+  "plan": [
+    {
+      "index": 8,
+      "line": "- [ ] [[D. diss_quack and Array Game]] 📅 2026-10-16",
+      "link": "D. diss_quack and Array Game",
+      "offset": 7,
+      "targetDay": "2026-10-27",
+      "sourcePath": "Daily/2026-10-17.md",
+      "sourceDay": "2026-10-17",
+      "newLine": "- [ ] [[D. diss_quack and Array Game]] 📅 2026-10-20"
+    },
+    {
+      "index": 9,
+      "line": "- [ ] [[例题/D. Permutation Cuts time limit per test4 seconds]] 📅 2026-10-16",
+      "link": "例题/D. Permutation Cuts time limit per test4 seconds",
+      "offset": 1,
+      "targetDay": "2026-10-21",
+      "sourcePath": "Daily/2026-10-17.md",
+      "sourceDay": "2026-10-17",
+      "newLine": "- [ ] [[例题/D. Permutation Cuts time limit per test4 seconds]] 📅 2026-10-20"
+    },
+    {
+      "index": 10,
+      "line": "- [ ] [[例题/C. Nim Game Is XOR Game]] 📅 2026-10-16",
+      "link": "例题/C. Nim Game Is XOR Game",
+      "offset": 2,
+      "targetDay": "2026-10-22",
+      "sourcePath": "Daily/2026-10-17.md",
+      "sourceDay": "2026-10-17",
+      "newLine": "- [ ] [[例题/C. Nim Game Is XOR Game]] 📅 2026-10-20"
+    },
+    {
+      "index": 11,
+      "line": "- [ ] [[例题/B. AI Finds Nothing Here]] 📅 2026-10-16",
+      "link": "例题/B. AI Finds Nothing Here",
+      "offset": 5,
+      "targetDay": "2026-10-25",
+      "sourcePath": "Daily/2026-10-17.md",
+      "sourceDay": "2026-10-17",
+      "newLine": "- [ ] [[例题/B. AI Finds Nothing Here]] 📅 2026-10-20"
+    },
+    {
+      "index": 12,
+      "line": "- [ ] [[例题/A. Another Popcount Problem]] 📅 2026-10-16",
+      "link": "例题/A. Another Popcount Problem",
+      "offset": 4,
+      "targetDay": "2026-10-24",
+      "sourcePath": "Daily/2026-10-17.md",
+      "sourceDay": "2026-10-17",
+      "newLine": "- [ ] [[例题/A. Another Popcount Problem]] 📅 2026-10-20"
+    },
+    {
+      "index": 13,
+      "line": "- [ ] [[例题/小月的树]] 📅 2026-10-08",
+      "link": "例题/小月的树",
+      "offset": 3,
+      "targetDay": "2026-10-23",
+      "sourcePath": "Daily/2026-10-17.md",
+      "sourceDay": "2026-10-17",
+      "newLine": "- [ ] [[例题/小月的树]] 📅 2026-10-20"
+    },
+    {
+      "index": 8,
+      "line": "- [ ] [[例题/B. Merge to Match]] 📅 2026-10-08",
+      "link": "例题/B. Merge to Match",
+      "offset": 6,
+      "targetDay": "2026-10-26",
+      "sourcePath": "Daily/2026-10-18.md",
+      "sourceDay": "2026-10-18",
+      "newLine": "- [ ] [[例题/B. Merge to Match]] 📅 2026-10-20"
+    },
+    {
+      "index": 9,
+      "line": "- [ ] [[Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version)]] 📅 2026-10-08",
+      "link": "Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version)",
+      "offset": 7,
+      "targetDay": "2026-10-27",
+      "sourcePath": "Daily/2026-10-18.md",
+      "sourceDay": "2026-10-18",
+      "newLine": "- [ ] [[Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version)]] 📅 2026-10-20"
+    },
+    {
+      "index": 10,
+      "line": "- [ ] [[例题/洛谷前缀树]] 📅 2026-09-28",
+      "link": "例题/洛谷前缀树",
+      "offset": 1,
+      "targetDay": "2026-10-21",
+      "sourcePath": "Daily/2026-10-18.md",
+      "sourceDay": "2026-10-18",
+      "newLine": "- [ ] [[例题/洛谷前缀树]] 📅 2026-10-20"
+    },
+    {
+      "index": 11,
+      "line": "- [ ] [[例题/P1983 [NOIP 2013 普及组] 车站分级]] 📅 2026-09-28",
+      "link": "例题/P1983 [NOIP 2013 普及组] 车站分级",
+      "offset": 5,
+      "targetDay": "2026-10-25",
+      "sourcePath": "Daily/2026-10-18.md",
+      "sourceDay": "2026-10-18",
+      "newLine": "- [ ] [[例题/P1983 [NOIP 2013 普及组] 车站分级]] 📅 2026-10-20"
+    }
+  ],
+  "changes": [
+    {
+      "path": "Daily/2026-10-21.md",
+      "before": "\n\n# 2026-10-21 Wednesday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/C2. Floor of MEX (Hard Version)]] 📅 2026-10-14\n- [ ] [[例题/C. Far Cities]] 📅 2026-10-08\n- [ ] [[例题/P1395 会议]] 📅 2026-10-08\n- [ ] [[例题/D. Destroy the Colony]] 📅 2026-10-08\n- \n",
+      "after": "\n\n# 2026-10-21 Wednesday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/D. Permutation Cuts time limit per test4 seconds]] 📅 2026-10-20\n- [ ] [[例题/洛谷前缀树]] 📅 2026-10-20\n- [ ] [[例题/C2. Floor of MEX (Hard Version)]] 📅 2026-10-14\n- [ ] [[例题/C. Far Cities]] 📅 2026-10-08\n- [ ] [[例题/P1395 会议]] 📅 2026-10-08\n- [ ] [[例题/D. Destroy the Colony]] 📅 2026-10-08\n- \n"
+    },
+    {
+      "path": "Daily/2026-10-22.md",
+      "before": "\n\n# 2026-10-22 Thursday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/最短路]] 📅 2026-10-14\n- [ ] [[例题/B. String Construction]] 📅 2026-10-08\n- \n",
+      "after": "\n\n# 2026-10-22 Thursday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/C. Nim Game Is XOR Game]] 📅 2026-10-20\n- [ ] [[例题/最短路]] 📅 2026-10-14\n- [ ] [[例题/B. String Construction]] 📅 2026-10-08\n- \n"
+    },
+    {
+      "path": "Daily/2026-10-23.md",
+      "before": "\n\n# 2026-10-23 Friday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/Kaky 的数组交换]] 📅 2026-10-09\n- [ ] [[例题/B. Yet Another Constructive]] 📅 2026-10-08\n- [ ] [[例题/C. Maximize the Score]] 📅 2026-10-08\n- [ ] [[例题/D. Falling Concrete]] 📅 2026-10-08\n- [ ] [[例题/P2404 自然数的拆分问题]] 📅 2026-10-08\n- [ ] [[例题/小月的岛屿]] 📅 2026-10-08\n- \n",
+      "after": "\n\n# 2026-10-23 Friday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/小月的树]] 📅 2026-10-20\n- [ ] [[例题/Kaky 的数组交换]] 📅 2026-10-09\n- [ ] [[例题/B. Yet Another Constructive]] 📅 2026-10-08\n- [ ] [[例题/C. Maximize the Score]] 📅 2026-10-08\n- [ ] [[例题/D. Falling Concrete]] 📅 2026-10-08\n- [ ] [[例题/P2404 自然数的拆分问题]] 📅 2026-10-08\n- [ ] [[例题/小月的岛屿]] 📅 2026-10-08\n- \n"
+    },
+    {
+      "path": "Daily/2026-10-24.md",
+      "before": "\n\n# 2026-10-24 Saturday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/C. Rank Subsequence]] 📅 2026-10-08\n- [ ] [[例题/小月的筹码]] 📅 2026-10-08\n- [ ] [[例题/G. 考古密码求和]] 📅 2026-10-08\n- [ ] [[例题/B2. Carrot Chopdown (Hard Version)]] 📅 2026-10-08\n- [ ] [[例题/小月的排序]] 📅 2026-10-08\n- \n",
+      "after": "\n\n# 2026-10-24 Saturday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/A. Another Popcount Problem]] 📅 2026-10-20\n- [ ] [[例题/C. Rank Subsequence]] 📅 2026-10-08\n- [ ] [[例题/小月的筹码]] 📅 2026-10-08\n- [ ] [[例题/G. 考古密码求和]] 📅 2026-10-08\n- [ ] [[例题/B2. Carrot Chopdown (Hard Version)]] 📅 2026-10-08\n- [ ] [[例题/小月的排序]] 📅 2026-10-08\n- \n"
+    },
+    {
+      "path": "Daily/2026-10-25.md",
+      "before": "\n\n# 2026-10-25 Sunday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[Codeforces/div3/1119/C. 101]] 📅 2026-10-08\n- ",
+      "after": "\n\n# 2026-10-25 Sunday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/B. AI Finds Nothing Here]] 📅 2026-10-20\n- [ ] [[例题/P1983 [NOIP 2013 普及组] 车站分级]] 📅 2026-10-20\n- [ ] [[Codeforces/div3/1119/C. 101]] 📅 2026-10-08\n- "
+    },
+    {
+      "path": "Daily/2026-10-26.md",
+      "before": null,
+      "after": "\n\n# 2026-10-26 Monday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/B. Merge to Match]] 📅 2026-10-20\n- "
+    },
+    {
+      "path": "Daily/2026-10-27.md",
+      "before": "\n\n# 2026-10-27 星期二\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/D. 三原色]] 📅 2026-10-14\n- ",
+      "after": "\n\n# 2026-10-27 星期二\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[D. diss_quack and Array Game]] 📅 2026-10-20\n- [ ] [[Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version)]] 📅 2026-10-20\n- [ ] [[例题/D. 三原色]] 📅 2026-10-14\n- "
+    },
+    {
+      "path": "Daily/2026-10-17.md",
+      "before": "\n\n# 2026-10-17 Saturday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[D. diss_quack and Array Game]] 📅 2026-10-16\n- [ ] [[例题/D. Permutation Cuts time limit per test4 seconds]] 📅 2026-10-16\n- [ ] [[例题/C. Nim Game Is XOR Game]] 📅 2026-10-16\n- [ ] [[例题/B. AI Finds Nothing Here]] 📅 2026-10-16\n- [ ] [[例题/A. Another Popcount Problem]] 📅 2026-10-16\n- [ ] [[例题/小月的树]] 📅 2026-10-08\n- ",
+      "after": "\n\n# 2026-10-17 Saturday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [x] [[D. diss_quack and Array Game]] 📅 2026-10-16 ✅ 2026-10-20\n- [x] [[例题/D. Permutation Cuts time limit per test4 seconds]] 📅 2026-10-16 ✅ 2026-10-20\n- [x] [[例题/C. Nim Game Is XOR Game]] 📅 2026-10-16 ✅ 2026-10-20\n- [x] [[例题/B. AI Finds Nothing Here]] 📅 2026-10-16 ✅ 2026-10-20\n- [x] [[例题/A. Another Popcount Problem]] 📅 2026-10-16 ✅ 2026-10-20\n- [x] [[例题/小月的树]] 📅 2026-10-08 ✅ 2026-10-20\n- "
+    },
+    {
+      "path": "Daily/2026-10-18.md",
+      "before": "\n\n# 2026-10-18 Sunday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/B. Merge to Match]] 📅 2026-10-08\n- [ ] [[Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version)]] 📅 2026-10-08\n- [ ] [[例题/洛谷前缀树]] 📅 2026-09-28\n- [ ] [[例题/P1983 [NOIP 2013 普及组] 车站分级]] 📅 2026-09-28\n- \n",
+      "after": "\n\n# 2026-10-18 Sunday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [x] [[例题/B. Merge to Match]] 📅 2026-10-08 ✅ 2026-10-20\n- [x] [[Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version)]] 📅 2026-10-08 ✅ 2026-10-20\n- [x] [[例题/洛谷前缀树]] 📅 2026-09-28 ✅ 2026-10-20\n- [x] [[例题/P1983 [NOIP 2013 普及组] 车站分级]] 📅 2026-09-28 ✅ 2026-10-20\n- \n"
+    }
+  ],
+  "hashes": [
+    {
+      "path": "例题/D. diss_quack and Array Game.md",
+      "hash": "7d24cd4cf7e4844ec94469af1ecfcd3c02bbabd73dff0abdb5bacfb63beba418"
+    },
+    {
+      "path": "例题/D. Permutation Cuts time limit per test4 seconds.md",
+      "hash": "a19f4e2a9a6d5465390e508a66d5c32f2ab2d28378a1eef9dfe60e8630dfa8a8"
+    },
+    {
+      "path": "例题/C. Nim Game Is XOR Game.md",
+      "hash": "6741158a2aeb6f9b2337afc50e460f1d6f8073afbf51f53665588aab4d784861"
+    },
+    {
+      "path": "例题/B. AI Finds Nothing Here.md",
+      "hash": "feeded13d7d7028dd3f1b40999f9edc694ecbf8f13dc8cc609c5ff5bdf419602"
+    },
+    {
+      "path": "例题/A. Another Popcount Problem.md",
+      "hash": "8363257715100781939e30d768166ca3d2add8edadd1c7ef76a70c81aa3b8e1c"
+    },
+    {
+      "path": "例题/小月的树.md",
+      "hash": "6be6cecd54603544c00d38176f20c12648d69f476e975bbc4cac1da8af660fa0"
+    },
+    {
+      "path": "例题/B. Merge to Match.md",
+      "hash": "161048fb30c87b402a4052ccc3d8264cea331e8a27fbe42c580a88a345ca3686"
+    },
+    {
+      "path": "Codeforces/div3/1119/E. Treasure Map Destruction (Constructive Version).md",
+      "hash": "f4cc689e728ca65806c671763f1429ae48b152036cbd0c511bf204b675dc7459"
+    },
+    {
+      "path": "例题/洛谷前缀树.md",
+      "hash": "7aeb4defb4bc2b1b35faf510b71a6aff993e65f0cb6ccab308db3e9e5eb478f1"
+    },
+    {
+      "path": "例题/P1983 [NOIP 2013 普及组] 车站分级.md",
+      "hash": "1d1d13a3d119dcef5306992d06ab3417deadabaae8a0095556c09406d09d6405"
+    }
+  ]
+}

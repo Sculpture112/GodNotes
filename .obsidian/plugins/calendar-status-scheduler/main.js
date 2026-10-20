@@ -1,10 +1,136 @@
-const { Plugin, Notice, Modal, Setting, PluginSettingTab } = require("obsidian");
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __commonJS = (cb, mod) => function __require() {
+  return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
+};
 
-const DEFAULT_SETTINGS = {
+// batch.js
+var require_batch = __commonJS({
+  "batch.js"(exports2, module2) {
+    function parseDay(value) {
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) throw new Error("\u8BF7\u586B\u5199\u5B8C\u6574\u65E5\u671F\uFF0C\u4F8B\u5982 2026-10-17");
+      const date = /* @__PURE__ */ new Date(value + "T12:00:00Z");
+      if (!Number.isFinite(date.getTime()) || dayString(date) !== value) throw new Error("\u65E5\u671F\u65E0\u6548\uFF1A" + value);
+      return date;
+    }
+    function dayString(date) {
+      return date.toISOString().slice(0, 10);
+    }
+    function shiftDay(day, offset) {
+      const date = parseDay(day);
+      date.setUTCDate(date.getUTCDate() + offset);
+      return dayString(date);
+    }
+    function validateOptions(options) {
+      parseDay(options.start);
+      parseDay(options.end);
+      parseDay(options.today);
+      if (options.start > options.end) throw new Error("\u5F00\u59CB\u65E5\u671F\u4E0D\u80FD\u665A\u4E8E\u7ED3\u675F\u65E5\u671F");
+      if (!Number.isInteger(options.minDays) || !Number.isInteger(options.maxDays) || options.minDays < 1 || options.maxDays < options.minDays || options.maxDays > 3660) {
+        throw new Error("\u540E\u79FB\u5929\u6570\u987B\u4E3A 1\uFF5E3660 \u7684\u6574\u6570\uFF0C\u4E14\u6700\u5927\u503C\u4E0D\u5C0F\u4E8E\u6700\u5C0F\u503C");
+      }
+      if (!["today", "original"].includes(options.base)) throw new Error("\u8BF7\u9009\u62E9\u8BA1\u7B97\u8D77\u70B9");
+    }
+    function shuffle(values, random) {
+      const result = values.slice();
+      for (let i = result.length - 1; i > 0; i--) {
+        const j = Math.floor(random() * (i + 1));
+        [result[i], result[j]] = [result[j], result[i]];
+      }
+      return result;
+    }
+    function reviewTasks(content, heading = "## \u590D\u4E60") {
+      let inReview = false;
+      let level = 0;
+      let fence = null;
+      const result = [];
+      content.split(/\r?\n/).forEach((line, index) => {
+        const fenceMatch = line.match(/^\s*(`{3,}|~{3,})/);
+        if (fenceMatch) {
+          if (!fence) fence = fenceMatch[1];
+          else if (fenceMatch[1][0] === fence[0] && fenceMatch[1].length >= fence.length) fence = null;
+          return;
+        }
+        if (fence) return;
+        const h = line.match(/^(#{1,6})\s+/);
+        if (h && line.trim() === heading.trim()) {
+          inReview = true;
+          level = h[1].length;
+          return;
+        }
+        if (h && h[1].length <= level) inReview = false;
+        if (!inReview) return;
+        const task = line.match(/^\s*- \[ \]\s+.*?\[\[(.+?)\]\]/);
+        if (task) result.push({ index, line, link: task[1] });
+      });
+      return result;
+    }
+    function makePlan(files, options, random = Math.random) {
+      validateOptions(options);
+      const entries = [];
+      const bags = /* @__PURE__ */ new Map();
+      const byLink = /* @__PURE__ */ new Map();
+      for (const file of files.slice().sort((a, b) => a.day.localeCompare(b.day))) {
+        if (file.day < options.start || file.day > options.end) continue;
+        for (const task of reviewTasks(file.content, options.heading)) {
+          let assigned = byLink.get(task.link);
+          if (!assigned) {
+            const base = options.base === "today" ? options.today : file.day;
+            if (!bags.get(base)?.length) {
+              const offsets = Array.from({ length: options.maxDays - options.minDays + 1 }, (_, i) => i + options.minDays);
+              bags.set(base, shuffle(offsets, random));
+            }
+            const offset = bags.get(base).pop();
+            const targetDay = shiftDay(base, offset);
+            if (targetDay <= options.today || targetDay <= options.end) {
+              throw new Error("\u76EE\u6807\u65E5\u671F\u5FC5\u987B\u5728\u4ECA\u5929\u53CA\u539F\u65E5\u671F\u8303\u56F4\u4E4B\u540E\uFF1B\u8BF7\u589E\u5927\u540E\u79FB\u5929\u6570\u6216\u9009\u62E9\u4ECE\u4ECA\u5929\u8BA1\u7B97");
+            }
+            assigned = { offset, targetDay };
+            byLink.set(task.link, assigned);
+          }
+          const newLine = task.line.replace(/📅\s*\d{4}-\d{2}-\d{2}/g, "").replace(/✅\s*\d{4}-\d{2}-\d{2}/g, "").replace(/\s+\^[\w-]+\s*$/, "").trimEnd() + " \u{1F4C5} " + options.today;
+          entries.push({ ...task, ...assigned, sourcePath: file.path, sourceDay: file.day, newLine });
+        }
+      }
+      return entries;
+    }
+    function insertReview(content, tasks, heading) {
+      const existing = new Set(reviewTasks(content, heading).map((t) => t.link));
+      const linesToAdd = [];
+      for (const task of tasks) {
+        if (!existing.has(task.link)) {
+          linesToAdd.push(task.newLine);
+          existing.add(task.link);
+        }
+      }
+      if (!linesToAdd.length) return content;
+      const eol = content.includes("\r\n") ? "\r\n" : "\n";
+      const lines = content.split(/\r?\n/);
+      const index = lines.findIndex((line) => line.trim() === heading.trim());
+      if (index < 0) return content.replace(/\s*$/, "") + eol + eol + heading + eol + linesToAdd.join(eol) + eol;
+      lines.splice(index + 1, 0, ...linesToAdd);
+      return lines.join(eol);
+    }
+    function checkOriginal(content, entries, today) {
+      const eol = content.includes("\r\n") ? "\r\n" : "\n";
+      const lines = content.split(/\r?\n/);
+      for (const entry of entries) {
+        if (lines[entry.index] !== entry.line) throw new Error("\u539F\u4EFB\u52A1\u53D1\u751F\u53D8\u5316\uFF0C\u8BF7\u91CD\u65B0\u6253\u5F00\u6279\u91CF\u6392\u7A0B");
+        lines[entry.index] = entry.line.replace(/- \[ \]/, "- [x]").replace(/\s+$/, "") + " \u2705 " + today;
+      }
+      return lines.join(eol);
+    }
+    module2.exports = { parseDay, shiftDay, validateOptions, reviewTasks, makePlan, insertReview, checkOriginal };
+  }
+});
+
+// main.js
+var { Plugin, Notice, Modal, Setting, PluginSettingTab } = require("obsidian");
+var batch = require_batch();
+var DEFAULT_SETTINGS = {
   dailyFolder: "",
   dateFormat: "",
   templatePath: "",
-  insertionHeading: "## 复习",
+  insertionHeading: "## \u590D\u4E60",
   statusFrom: "[[0-5]]",
   taskPrefix: "- [ ]",
   includeDueDate: true,
@@ -13,9 +139,9 @@ const DEFAULT_SETTINGS = {
   defaultStatus: "1",
   openTarget: true
 };
-
-function pad(n) { return String(n).padStart(2, "0"); }
-
+function pad(n) {
+  return String(n).padStart(2, "0");
+}
 function formatDate(date, format) {
   const values = {
     YYYY: String(date.getFullYear()),
@@ -25,17 +151,15 @@ function formatDate(date, format) {
     DD: pad(date.getDate()),
     D: String(date.getDate())
   };
-  return format.replace(/YYYY|YY|MM|M|DD|D/g, token => values[token]);
+  return format.replace(/YYYY|YY|MM|M|DD|D/g, (token) => values[token]);
 }
-
 function addDays(date, days) {
   const result = new Date(date);
   result.setHours(12, 0, 0, 0);
   result.setDate(result.getDate() + days);
   return result;
 }
-
-class ScheduleModal extends Modal {
+var ScheduleModal = class extends Modal {
   constructor(app, settings, currentStatus) {
     super(app);
     this.settings = settings;
@@ -43,15 +167,18 @@ class ScheduleModal extends Modal {
     this.result = null;
     this.resolvePromise = null;
   }
-
-  waitForResult() { return new Promise(resolve => { this.resolvePromise = resolve; this.open(); }); }
-
+  waitForResult() {
+    return new Promise((resolve) => {
+      this.resolvePromise = resolve;
+      this.open();
+    });
+  }
   onOpen() {
     const { contentEl } = this;
     contentEl.empty();
-    contentEl.createEl("h2", { text: "安排到未来日历" });
+    contentEl.createEl("h2", { text: "\u5B89\u6392\u5230\u672A\u6765\u65E5\u5386" });
     let daysInput;
-    new Setting(contentEl).setName("x：几天后").setDesc("0 表示今天，建议使用正整数。").addText(t => {
+    new Setting(contentEl).setName("x\uFF1A\u51E0\u5929\u540E").setDesc("0 \u8868\u793A\u4ECA\u5929\uFF0C\u5EFA\u8BAE\u4F7F\u7528\u6B63\u6574\u6570\u3002").addText((t) => {
       daysInput = t.inputEl;
       t.inputEl.type = "number";
       t.setValue(String(this.settings.defaultDays));
@@ -61,70 +188,253 @@ class ScheduleModal extends Modal {
     let statusInput;
     const currentNumber = Number(this.currentStatus.replace(/^\[\[|\]\]$/g, ""));
     const suggestedStatus = Number.isInteger(currentNumber) ? String(currentNumber + 1) : this.settings.defaultStatus;
-    new Setting(contentEl).setName("y：修改后的状态").setDesc(`当前状态：${this.currentStatus}；默认更新为 [[${suggestedStatus}]]`).addText(t => {
+    new Setting(contentEl).setName("y\uFF1A\u4FEE\u6539\u540E\u7684\u72B6\u6001").setDesc(`\u5F53\u524D\u72B6\u6001\uFF1A${this.currentStatus}\uFF1B\u9ED8\u8BA4\u66F4\u65B0\u4E3A [[${suggestedStatus}]]`).addText((t) => {
       statusInput = t.inputEl;
       t.setValue(suggestedStatus);
-      t.inputEl.placeholder = "例如 2 或 review";
+      t.inputEl.placeholder = "\u4F8B\u5982 2 \u6216 review";
       t.inputEl.style.width = "100%";
     });
     const buttons = contentEl.createDiv({ cls: "modal-button-container" });
-    const cancel = buttons.createEl("button", { text: "取消" });
+    const cancel = buttons.createEl("button", { text: "\u53D6\u6D88" });
     cancel.addEventListener("click", () => this.close());
-    const submit = buttons.createEl("button", { text: "执行", cls: "mod-cta" });
+    const submit = buttons.createEl("button", { text: "\u6267\u884C", cls: "mod-cta" });
     submit.addEventListener("click", () => {
       const x = Number(daysInput?.value);
       const y = String(statusInput?.value || "").trim();
-      if (!Number.isInteger(x) || x < 0) { new Notice("x 必须是大于等于 0 的整数"); return; }
-      if (!y || y.includes("[[") || y.includes("]]")) { new Notice("y 不能为空，且不能包含 [[ 或 ]] "); return; }
+      if (!Number.isInteger(x) || x < 0) {
+        new Notice("x \u5FC5\u987B\u662F\u5927\u4E8E\u7B49\u4E8E 0 \u7684\u6574\u6570");
+        return;
+      }
+      if (!y || y.includes("[[") || y.includes("]]")) {
+        new Notice("y \u4E0D\u80FD\u4E3A\u7A7A\uFF0C\u4E14\u4E0D\u80FD\u5305\u542B [[ \u6216 ]] ");
+        return;
+      }
       this.result = { days: x, status: y };
       this.close();
     });
-    statusInput?.addEventListener("keydown", e => { if (e.key === "Enter") submit.click(); });
+    statusInput?.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") submit.click();
+    });
   }
-
   onClose() {
     this.contentEl.empty();
     if (this.resolvePromise) this.resolvePromise(this.result);
   }
-}
-
-class SchedulerSettingTab extends PluginSettingTab {
-  constructor(app, plugin) { super(app, plugin); this.plugin = plugin; }
-  display() {
-    const { containerEl } = this; containerEl.empty();
-    containerEl.createEl("h2", { text: "日历状态排程器" });
-    const s = this.plugin.settings;
-    new Setting(containerEl).setName("日记文件夹").setDesc("相对于库根目录；留空则使用库根目录。示例：日记/每日").addText(t => t.setValue(s.dailyFolder).onChange(async v => { s.dailyFolder = v.trim().replace(/^\/+|\/+$/g, ""); await this.plugin.saveSettings(); }));
-    new Setting(containerEl).setName("日期文件名格式").setDesc("支持 YYYY、MM、DD；留空则直接使用 Periodic Notes 的日记格式。").addText(t => t.setValue(s.dateFormat).onChange(async v => { s.dateFormat = v.trim(); await this.plugin.saveSettings(); }));
-    new Setting(containerEl).setName("日记模板路径（可选）").setDesc("目标日记不存在时复制此模板，例如 Templates/Daily.md；留空则创建空文件。").addText(t => t.setValue(s.templatePath).onChange(async v => { s.templatePath = v.trim(); await this.plugin.saveSettings(); }));
-    new Setting(containerEl).setName("插入标题（可选）").setDesc("填写模板中的完整标题（如 ## 今日清单），任务会插入其下一行；找不到时追加到文件末尾。").addText(t => t.setValue(s.insertionHeading).onChange(async v => { s.insertionHeading = v; await this.plugin.saveSettings(); }));
-    new Setting(containerEl).setName("待替换状态").setDesc("默认自动识别唯一的 [[0]] 到 [[5]]；如需固定状态，可填入完整文本，例如 [[todo]]。").addText(t => t.setValue(s.statusFrom).onChange(async v => { s.statusFrom = v || "[[0-5]]"; await this.plugin.saveSettings(); }));
-    new Setting(containerEl).setName("任务前缀").setDesc("Tasks 插件通常使用 - [ ]；也可以改成普通列表前缀。").addText(t => t.setValue(s.taskPrefix).onChange(async v => { s.taskPrefix = v; await this.plugin.saveSettings(); }));
-    new Setting(containerEl).setName("写入日期标记").setDesc("启用后在任务末尾写入安排当天的日期（不是目标日记日期）。").addToggle(t => t.setValue(s.includeDueDate).onChange(async v => { s.includeDueDate = v; await this.plugin.saveSettings(); }));
-    new Setting(containerEl).setName("替换所有状态").addToggle(t => t.setValue(s.replaceAll).onChange(async v => { s.replaceAll = v; await this.plugin.saveSettings(); }));
-    new Setting(containerEl).setName("默认 x").addText(t => t.setValue(String(s.defaultDays)).onChange(async v => { const n = Number(v); if (Number.isInteger(n) && n >= 0) { s.defaultDays = n; await this.plugin.saveSettings(); } }));
-    new Setting(containerEl).setName("默认 y").addText(t => t.setValue(s.defaultStatus).onChange(async v => { s.defaultStatus = v; await this.plugin.saveSettings(); }));
-    new Setting(containerEl).setName("执行后打开目标日记").addToggle(t => t.setValue(s.openTarget).onChange(async v => { s.openTarget = v; await this.plugin.saveSettings(); }));
+};
+var BatchScheduleModal = class extends Modal {
+  constructor(app, plugin) {
+    super(app);
+    this.plugin = plugin;
   }
-}
-
+  onOpen() {
+    const today = formatDate(/* @__PURE__ */ new Date(), "YYYY-MM-DD");
+    const previous = this.plugin.settings.batchOptions || {};
+    const values = {
+      start: previous.start || batch.shiftDay(today, -2),
+      end: previous.end || batch.shiftDay(today, -1),
+      minDays: previous.minDays ?? 1,
+      maxDays: previous.maxDays ?? 7,
+      base: previous.base || "today",
+      today
+    };
+    const el = this.contentEl;
+    el.empty();
+    el.createEl("h2", { text: "\u6279\u91CF\u5206\u6563\u590D\u4E60\u4EFB\u52A1" });
+    el.createEl("p", { text: "\u5904\u7406\u65E5\u671F\u8303\u56F4\u5185\u201C\u590D\u4E60\u201D\u533A\u57DF\u4E2D\u672A\u52FE\u9009\u3001\u5E26\u7B14\u8BB0\u94FE\u63A5\u7684\u4EFB\u52A1\u3002\u65B0\u4EFB\u52A1\u5C3D\u91CF\u5747\u5300\u968F\u673A\u5206\u6563\uFF0C\u539F\u6761\u76EE\u6253\u94A9\uFF0C\u9898\u76EE\u6807\u7B7E\u4FDD\u6301\u539F\u6837\u3002" });
+    for (const [key, label] of [["start", "\u539F\u65E5\u5386\u5F00\u59CB\u65E5\u671F"], ["end", "\u539F\u65E5\u5386\u7ED3\u675F\u65E5\u671F\uFF08\u542B\u5F53\u5929\uFF09"]]) {
+      new Setting(el).setName(label).addText((t) => {
+        t.inputEl.type = "date";
+        t.setValue(values[key]).onChange((v) => {
+          values[key] = v;
+        });
+      });
+    }
+    new Setting(el).setName("\u4ECE\u54EA\u5929\u5F00\u59CB\u8BA1\u7B97").addDropdown((d) => d.addOption("today", "\u4ECA\u5929\uFF08\u5206\u6563\u5230\u672A\u6765\u51E0\u5929\uFF09").addOption("original", "\u6BCF\u6761\u4EFB\u52A1\u6240\u5728\u7684\u539F\u65E5\u5386\u65E5\u671F").setValue(values.base).onChange((v) => {
+      values.base = v;
+    }));
+    for (const [key, label] of [["minDays", "\u6700\u5C11\u540E\u79FB\u5929\u6570"], ["maxDays", "\u6700\u591A\u540E\u79FB\u5929\u6570"]]) {
+      new Setting(el).setName(label).addText((t) => {
+        t.inputEl.type = "number";
+        t.inputEl.min = "1";
+        t.inputEl.step = "1";
+        t.setValue(String(values[key])).onChange((v) => {
+          values[key] = Number(v);
+        });
+      });
+    }
+    el.createEl("p", { text: "\u4F8B\u5982\uFF1A\u4ECE\u4ECA\u5929\u8BA1\u7B97\uFF0C\u6700\u5C11 1 \u5929\u3001\u6700\u591A 7 \u5929\uFF0C\u5373\u5206\u6563\u5230\u660E\u5929\u8D77\u7684\u4E03\u5929\u3002\u65E5\u671F\u6587\u4EF6\u4E0D\u5B58\u5728\u65F6\u4F7F\u7528\u65E5\u8BB0\u6A21\u677F\u521B\u5EFA\uFF1B\u6267\u884C\u524D\u81EA\u52A8\u5907\u4EFD\u3002" });
+    const buttons = el.createDiv({ cls: "modal-button-container" });
+    buttons.createEl("button", { text: "\u53D6\u6D88" }).addEventListener("click", () => this.close());
+    const submit = buttons.createEl("button", { text: "\u5206\u6563\u5B89\u6392\u5E76\u52FE\u9009\u539F\u4EFB\u52A1", cls: "mod-cta" });
+    submit.addEventListener("click", async () => {
+      submit.disabled = true;
+      try {
+        batch.validateOptions(values);
+        const result = await this.plugin.rescheduleRange(values);
+        this.plugin.settings.batchOptions = { ...values };
+        await this.plugin.saveSettings();
+        new Notice(result.count ? `\u5DF2\u5904\u7406 ${result.count} \u6761\u539F\u4EFB\u52A1\uFF0C\u5B89\u6392 ${result.uniqueCount} \u4E2A\u7B14\u8BB0\u5230\u672A\u6765\u65E5\u5386` : "\u8FD9\u4E2A\u65E5\u671F\u8303\u56F4\u5185\u6CA1\u6709\u5F85\u79FB\u52A8\u7684\u590D\u4E60\u4EFB\u52A1");
+        this.close();
+      } catch (error) {
+        console.error("[\u65E5\u5386\u72B6\u6001\u6392\u7A0B\u5668]", error);
+        new Notice(error.message || String(error), 12e3);
+      } finally {
+        submit.disabled = false;
+      }
+    });
+  }
+  onClose() {
+    this.contentEl.empty();
+  }
+};
+var SchedulerSettingTab = class extends PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.plugin = plugin;
+  }
+  display() {
+    const { containerEl } = this;
+    containerEl.empty();
+    containerEl.createEl("h2", { text: "\u65E5\u5386\u72B6\u6001\u6392\u7A0B\u5668" });
+    const s = this.plugin.settings;
+    new Setting(containerEl).setName("\u65E5\u8BB0\u6587\u4EF6\u5939").setDesc("\u76F8\u5BF9\u4E8E\u5E93\u6839\u76EE\u5F55\uFF1B\u7559\u7A7A\u5219\u4F7F\u7528\u5E93\u6839\u76EE\u5F55\u3002\u793A\u4F8B\uFF1A\u65E5\u8BB0/\u6BCF\u65E5").addText((t) => t.setValue(s.dailyFolder).onChange(async (v) => {
+      s.dailyFolder = v.trim().replace(/^\/+|\/+$/g, "");
+      await this.plugin.saveSettings();
+    }));
+    new Setting(containerEl).setName("\u65E5\u671F\u6587\u4EF6\u540D\u683C\u5F0F").setDesc("\u652F\u6301 YYYY\u3001MM\u3001DD\uFF1B\u7559\u7A7A\u5219\u76F4\u63A5\u4F7F\u7528 Periodic Notes \u7684\u65E5\u8BB0\u683C\u5F0F\u3002").addText((t) => t.setValue(s.dateFormat).onChange(async (v) => {
+      s.dateFormat = v.trim();
+      await this.plugin.saveSettings();
+    }));
+    new Setting(containerEl).setName("\u65E5\u8BB0\u6A21\u677F\u8DEF\u5F84\uFF08\u53EF\u9009\uFF09").setDesc("\u76EE\u6807\u65E5\u8BB0\u4E0D\u5B58\u5728\u65F6\u590D\u5236\u6B64\u6A21\u677F\uFF0C\u4F8B\u5982 Templates/Daily.md\uFF1B\u7559\u7A7A\u5219\u521B\u5EFA\u7A7A\u6587\u4EF6\u3002").addText((t) => t.setValue(s.templatePath).onChange(async (v) => {
+      s.templatePath = v.trim();
+      await this.plugin.saveSettings();
+    }));
+    new Setting(containerEl).setName("\u63D2\u5165\u6807\u9898\uFF08\u53EF\u9009\uFF09").setDesc("\u586B\u5199\u6A21\u677F\u4E2D\u7684\u5B8C\u6574\u6807\u9898\uFF08\u5982 ## \u4ECA\u65E5\u6E05\u5355\uFF09\uFF0C\u4EFB\u52A1\u4F1A\u63D2\u5165\u5176\u4E0B\u4E00\u884C\uFF1B\u627E\u4E0D\u5230\u65F6\u8FFD\u52A0\u5230\u6587\u4EF6\u672B\u5C3E\u3002").addText((t) => t.setValue(s.insertionHeading).onChange(async (v) => {
+      s.insertionHeading = v;
+      await this.plugin.saveSettings();
+    }));
+    new Setting(containerEl).setName("\u5F85\u66FF\u6362\u72B6\u6001").setDesc("\u9ED8\u8BA4\u81EA\u52A8\u8BC6\u522B\u552F\u4E00\u7684 [[0]] \u5230 [[5]]\uFF1B\u5982\u9700\u56FA\u5B9A\u72B6\u6001\uFF0C\u53EF\u586B\u5165\u5B8C\u6574\u6587\u672C\uFF0C\u4F8B\u5982 [[todo]]\u3002").addText((t) => t.setValue(s.statusFrom).onChange(async (v) => {
+      s.statusFrom = v || "[[0-5]]";
+      await this.plugin.saveSettings();
+    }));
+    new Setting(containerEl).setName("\u4EFB\u52A1\u524D\u7F00").setDesc("Tasks \u63D2\u4EF6\u901A\u5E38\u4F7F\u7528 - [ ]\uFF1B\u4E5F\u53EF\u4EE5\u6539\u6210\u666E\u901A\u5217\u8868\u524D\u7F00\u3002").addText((t) => t.setValue(s.taskPrefix).onChange(async (v) => {
+      s.taskPrefix = v;
+      await this.plugin.saveSettings();
+    }));
+    new Setting(containerEl).setName("\u5199\u5165\u65E5\u671F\u6807\u8BB0").setDesc("\u542F\u7528\u540E\u5728\u4EFB\u52A1\u672B\u5C3E\u5199\u5165\u5B89\u6392\u5F53\u5929\u7684\u65E5\u671F\uFF08\u4E0D\u662F\u76EE\u6807\u65E5\u8BB0\u65E5\u671F\uFF09\u3002").addToggle((t) => t.setValue(s.includeDueDate).onChange(async (v) => {
+      s.includeDueDate = v;
+      await this.plugin.saveSettings();
+    }));
+    new Setting(containerEl).setName("\u66FF\u6362\u6240\u6709\u72B6\u6001").addToggle((t) => t.setValue(s.replaceAll).onChange(async (v) => {
+      s.replaceAll = v;
+      await this.plugin.saveSettings();
+    }));
+    new Setting(containerEl).setName("\u9ED8\u8BA4 x").addText((t) => t.setValue(String(s.defaultDays)).onChange(async (v) => {
+      const n = Number(v);
+      if (Number.isInteger(n) && n >= 0) {
+        s.defaultDays = n;
+        await this.plugin.saveSettings();
+      }
+    }));
+    new Setting(containerEl).setName("\u9ED8\u8BA4 y").addText((t) => t.setValue(s.defaultStatus).onChange(async (v) => {
+      s.defaultStatus = v;
+      await this.plugin.saveSettings();
+    }));
+    new Setting(containerEl).setName("\u6267\u884C\u540E\u6253\u5F00\u76EE\u6807\u65E5\u8BB0").addToggle((t) => t.setValue(s.openTarget).onChange(async (v) => {
+      s.openTarget = v;
+      await this.plugin.saveSettings();
+    }));
+  }
+};
 module.exports = class CalendarStatusScheduler extends Plugin {
   async onload() {
     await this.loadSettings();
-    this.addCommand({ id: "schedule-current-note", name: "安排当前笔记到未来日历并更新状态", callback: () => this.scheduleCurrentNote() });
-    this.addRibbonIcon("calendar-plus", "安排当前笔记到未来日历", () => this.scheduleCurrentNote());
-    this.addCommand({ id: "mark-zero-and-review-tomorrow", name: "标记为 0 并安排明天复习", callback: () => this.markZeroAndReviewTomorrow() });
-    this.addRibbonIcon("tag", "标记为 0 并安排明天复习", () => this.markZeroAndReviewTomorrow());
+    this.addCommand({ id: "schedule-current-note", name: "\u5B89\u6392\u5F53\u524D\u7B14\u8BB0\u5230\u672A\u6765\u65E5\u5386\u5E76\u66F4\u65B0\u72B6\u6001", callback: () => this.scheduleCurrentNote() });
+    this.addRibbonIcon("calendar-plus", "\u5B89\u6392\u5F53\u524D\u7B14\u8BB0\u5230\u672A\u6765\u65E5\u5386", () => this.scheduleCurrentNote());
+    this.addCommand({ id: "mark-zero-and-review-tomorrow", name: "\u6807\u8BB0\u4E3A 0 \u5E76\u5B89\u6392\u660E\u5929\u590D\u4E60", callback: () => this.markZeroAndReviewTomorrow() });
+    this.addRibbonIcon("tag", "\u6807\u8BB0\u4E3A 0 \u5E76\u5B89\u6392\u660E\u5929\u590D\u4E60", () => this.markZeroAndReviewTomorrow());
+    this.addCommand({ id: "batch-reschedule-reviews", name: "\u6309\u65E5\u671F\u8303\u56F4\u6279\u91CF\u5206\u6563\u590D\u4E60\u4EFB\u52A1", callback: () => new BatchScheduleModal(this.app, this).open() });
+    this.addRibbonIcon("circle", "\u6279\u91CF\u5206\u6563\u590D\u4E60\u4EFB\u52A1\uFF08\u65E5\u671F\u548C\u5929\u6570\u53EF\u8BBE\u7F6E\uFF09", () => new BatchScheduleModal(this.app, this).open());
     this.addSettingTab(new SchedulerSettingTab(this.app, this));
   }
-
-  async loadSettings() { this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData()); }
-  async saveSettings() { await this.saveData(this.settings); }
-
+  async loadSettings() {
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+  }
+  async saveSettings() {
+    await this.saveData(this.settings);
+  }
+  async rescheduleRange(input) {
+    if (this.batchRunning) throw new Error("\u6B63\u5728\u6279\u91CF\u6392\u7A0B\uFF0C\u8BF7\u7A0D\u5019");
+    this.batchRunning = true;
+    let backupPath;
+    try {
+      const options = { ...input, heading: this.settings.insertionHeading.trim() || "## \u590D\u4E60" };
+      batch.validateOptions(options);
+      if (batch.shiftDay(options.start, 3660) < options.end) throw new Error("\u4E00\u6B21\u6700\u591A\u5904\u7406\u5341\u5E74\u7684\u65E5\u671F\u8303\u56F4");
+      const daily = this.getDailyOptions();
+      const pathFor = (day) => {
+        const name = window.moment(day, "YYYY-MM-DD", true).format(daily.format) + ".md";
+        return [daily.folder.replace(/\\/g, "/").replace(/^\/+|\/+$/g, ""), name].filter(Boolean).join("/");
+      };
+      const files = [];
+      for (let day = options.start; day <= options.end; day = batch.shiftDay(day, 1)) {
+        const path = pathFor(day);
+        const file = this.app.vault.getAbstractFileByPath(path);
+        if (file?.extension === "md") files.push({ day, path, content: await this.app.vault.read(file) });
+      }
+      const plan = batch.makePlan(files, options);
+      if (!plan.length) return { count: 0, uniqueCount: 0, plan: [] };
+      const changes = [];
+      let templateContent = "";
+      if (daily.template) {
+        const template = this.app.vault.getAbstractFileByPath(daily.template) || this.app.vault.getAbstractFileByPath(daily.template + ".md");
+        if (!template) throw new Error("\u627E\u4E0D\u5230\u65E5\u8BB0\u6A21\u677F\uFF1A" + daily.template);
+        templateContent = await this.app.vault.read(template);
+      }
+      for (const day of [...new Set(plan.map((t) => t.targetDay))].sort()) {
+        const path = pathFor(day);
+        const file = this.app.vault.getAbstractFileByPath(path);
+        if (file && file.extension !== "md") throw new Error("\u76EE\u6807\u8DEF\u5F84\u4E0D\u662F Markdown \u6587\u4EF6\uFF1A" + path);
+        const before = file ? await this.app.vault.read(file) : null;
+        const initial = before ?? this.renderTemplate(templateContent, window.moment(day, "YYYY-MM-DD", true).toDate(), daily.format);
+        changes.push({ path, before, after: batch.insertReview(initial, plan.filter((t) => t.targetDay === day), options.heading) });
+      }
+      for (const file of files) {
+        const entries = plan.filter((t) => t.sourcePath === file.path);
+        if (entries.length) changes.push({ path: file.path, before: file.content, after: batch.checkOriginal(file.content, entries, options.today) });
+      }
+      const backupFolder = `${this.app.vault.configDir}/plugins/${this.manifest.id}/backups`;
+      const adapter = this.app.vault.adapter;
+      if (!await adapter.exists(backupFolder)) await adapter.mkdir(backupFolder);
+      backupPath = `${backupFolder}/batch-${Date.now()}-${Math.random().toString(36).slice(2, 8)}.json`;
+      await adapter.write(backupPath, JSON.stringify({ options, plan, changes }, null, 2));
+      const checkUnchanged = async (change) => {
+        const file = this.app.vault.getAbstractFileByPath(change.path);
+        if (change.before === null ? !!file : !file || await this.app.vault.read(file) !== change.before) {
+          throw new Error("\u65E5\u5386\u5728\u6392\u7A0B\u8FC7\u7A0B\u4E2D\u53D1\u751F\u53D8\u5316\uFF0C\u8BF7\u91CD\u65B0\u6267\u884C\uFF1A" + change.path);
+        }
+        return file;
+      };
+      for (const change of changes) await checkUnchanged(change);
+      for (const change of changes) {
+        const file = await checkUnchanged(change);
+        if (file) await this.app.vault.modify(file, change.after);
+        else {
+          const parent = change.path.split("/").slice(0, -1).join("/");
+          if (parent) await this.ensureFolder(parent);
+          await this.app.vault.create(change.path, change.after);
+        }
+      }
+      return { count: plan.length, uniqueCount: new Set(plan.map((t) => t.link)).size, plan, backupPath };
+    } catch (error) {
+      if (backupPath) error.message += `\uFF1B\u672C\u6B21\u5907\u4EFD\uFF1A${backupPath}`;
+      throw error;
+    } finally {
+      this.batchRunning = false;
+    }
+  }
   getDailyOptions() {
     const periodic = this.app.plugins?.getPlugin?.("periodic-notes");
-    // Calendar 当前版本读取的是 Periodic Notes 的 legacy settings.daily。
-    // 必须使用这组设置，否则会错误地回退到仓库根目录。
     const legacyDaily = periodic?.settings?.daily;
     if (legacyDaily?.enabled) {
       return {
@@ -142,7 +452,8 @@ module.exports = class CalendarStatusScheduler extends Plugin {
           format: this.settings.dateFormat || format,
           template: this.settings.templatePath || config.templatePath || ""
         };
-      } catch (_) { /* fall back to core settings below */ }
+      } catch (_) {
+      }
     }
     const daily = this.app.internalPlugins?.getPluginById?.("daily-notes");
     const options = daily?.instance?.options || {};
@@ -152,12 +463,14 @@ module.exports = class CalendarStatusScheduler extends Plugin {
       template: this.settings.templatePath || options.template || ""
     };
   }
-
   async ensureFolder(path) {
-    const parts = path.split("/").filter(Boolean); let current = "";
-    for (const part of parts) { current = current ? `${current}/${part}` : part; if (!this.app.vault.getAbstractFileByPath(current)) await this.app.vault.createFolder(current); }
+    const parts = path.split("/").filter(Boolean);
+    let current = "";
+    for (const part of parts) {
+      current = current ? `${current}/${part}` : part;
+      if (!this.app.vault.getAbstractFileByPath(current)) await this.app.vault.createFolder(current);
+    }
   }
-
   async getOrCreateDailyNote(date) {
     const periodic = this.app.plugins?.getPlugin?.("periodic-notes");
     const opts = this.getDailyOptions();
@@ -174,79 +487,82 @@ module.exports = class CalendarStatusScheduler extends Plugin {
     file = await this.app.vault.create(path, content);
     return file;
   }
-
   renderTemplate(content, date, format) {
     const m = window.moment(date);
-    // 与 Calendar 的模板替换规则保持一致，并额外支持你的 {{date:...}} 写法。
-    return content
-      .replace(/{{\s*date\s*}}/gi, m.format(format))
-      .replace(/{{\s*title\s*}}/gi, m.format(format))
-      .replace(/{{\s*date\s*:\s*([^}]+)}}/gi, (_, f) => m.format(f.trim()))
-      .replace(/{{\s*yesterday\s*}}/gi, m.clone().subtract(1, "day").format(format))
-      .replace(/{{\s*tomorrow\s*}}/gi, m.clone().add(1, "day").format(format));
+    return content.replace(/{{\s*date\s*}}/gi, m.format(format)).replace(/{{\s*title\s*}}/gi, m.format(format)).replace(/{{\s*date\s*:\s*([^}]+)}}/gi, (_, f) => m.format(f.trim())).replace(/{{\s*yesterday\s*}}/gi, m.clone().subtract(1, "day").format(format)).replace(/{{\s*tomorrow\s*}}/gi, m.clone().add(1, "day").format(format));
   }
-
   insertTask(content, line) {
     const heading = this.settings.insertionHeading.trim();
     if (!heading) return content.replace(/\s*$/, "") + "\n" + line + "\n";
-    const lines = content.split("\n"); const index = lines.findIndex(l => l.trim() === heading);
-    if (index < 0) return content.replace(/\s*$/, "") + `\n\n${heading}\n${line}\n`;
-    lines.splice(index + 1, 0, line); return lines.join("\n");
-  }
+    const lines = content.split("\n");
+    const index = lines.findIndex((l) => l.trim() === heading);
+    if (index < 0) return content.replace(/\s*$/, "") + `
 
+${heading}
+${line}
+`;
+    lines.splice(index + 1, 0, line);
+    return lines.join("\n");
+  }
   makeReviewLine(source) {
     const link = `[[${source.path.replace(/\\/g, "/").replace(/\.md$/i, "")}]]`;
-    const dateMarker = this.settings.includeDueDate ? ` 📅 ${formatDate(new Date(), this.getDailyOptions().format)}` : "";
+    const dateMarker = this.settings.includeDueDate ? ` \u{1F4C5} ${formatDate(/* @__PURE__ */ new Date(), this.getDailyOptions().format)}` : "";
     return `${this.settings.taskPrefix.trim()} ${link}${dateMarker}`.trim();
   }
-
   async addNoteToReviewDate(source, targetDate) {
     const target = await this.getOrCreateDailyNote(targetDate);
     const line = this.makeReviewLine(source);
     const targetContent = await this.app.vault.read(target);
-    if (!targetContent.split("\n").some(existing => existing.trim() === line.trim())) {
+    if (!targetContent.split("\n").some((existing) => existing.trim() === line.trim())) {
       await this.app.vault.modify(target, this.insertTask(targetContent, line));
     }
     return target;
   }
-
   async markZeroAndReviewTomorrow() {
     const source = this.app.workspace.getActiveFile();
-    if (!source || source.extension !== "md") { new Notice("请先打开要处理的 Markdown 笔记"); return; }
-    const sourceContent = await this.app.vault.read(source);
-    if (/\[\[[0-5]\]\]/.test(sourceContent)) { new Notice("已经有标签了~"); return; }
-
-    const lines = sourceContent.split(/\r?\n/);
-    const firstContentLine = lines.findIndex(line => line.trim() !== "");
-    if (firstContentLine < 0 || !/^#\s*\[\]\s*$/.test(lines[firstContentLine].trim())) {
-      new Notice("第一行没有找到 # []，未执行");
+    if (!source || source.extension !== "md") {
+      new Notice("\u8BF7\u5148\u6253\u5F00\u8981\u5904\u7406\u7684 Markdown \u7B14\u8BB0");
       return;
     }
-
+    const sourceContent = await this.app.vault.read(source);
+    if (/\[\[[0-5]\]\]/.test(sourceContent)) {
+      new Notice("\u5DF2\u7ECF\u6709\u6807\u7B7E\u4E86~");
+      return;
+    }
+    const lines = sourceContent.split(/\r?\n/);
+    const firstContentLine = lines.findIndex((line) => line.trim() !== "");
+    if (firstContentLine < 0 || !/^#\s*\[\]\s*$/.test(lines[firstContentLine].trim())) {
+      new Notice("\u7B2C\u4E00\u884C\u6CA1\u6709\u627E\u5230 # []\uFF0C\u672A\u6267\u884C");
+      return;
+    }
     lines[firstContentLine] = lines[firstContentLine].replace(/\[\]/, "[[0]]");
-    const target = await this.addNoteToReviewDate(source, addDays(new Date(), 1));
+    const target = await this.addNoteToReviewDate(source, addDays(/* @__PURE__ */ new Date(), 1));
     await this.app.vault.modify(source, lines.join("\n"));
-    new Notice(`已添加 [[0]]，并安排到 ${target.path} 的复习区`);
+    new Notice(`\u5DF2\u6DFB\u52A0 [[0]]\uFF0C\u5E76\u5B89\u6392\u5230 ${target.path} \u7684\u590D\u4E60\u533A`);
     if (this.settings.openTarget) await this.app.workspace.getLeaf(false).openFile(target);
   }
-
   async scheduleCurrentNote() {
     const source = this.app.workspace.getActiveFile();
-    if (!source || source.extension !== "md") { new Notice("请先打开要安排的 Markdown 笔记"); return; }
+    if (!source || source.extension !== "md") {
+      new Notice("\u8BF7\u5148\u6253\u5F00\u8981\u5B89\u6392\u7684 Markdown \u7B14\u8BB0");
+      return;
+    }
     const sourceContent = await this.app.vault.read(source);
-    // 默认模式兼容旧设置 [[0]]，自动寻找 [[0]]…[[5]] 中实际出现的那个状态。
     const autoStatus = !this.settings.statusFrom || this.settings.statusFrom === "[[0]]" || this.settings.statusFrom === "[[0-5]]";
-    const statusMatch = autoStatus ? sourceContent.match(/\[\[[0-5]\]\]/) : (sourceContent.includes(this.settings.statusFrom) ? [this.settings.statusFrom] : null);
-    if (!statusMatch) { new Notice(autoStatus ? "当前笔记找不到 [[0]] 到 [[5]] 的状态" : `当前笔记找不到 ${this.settings.statusFrom}，未执行`); return; }
+    const statusMatch = autoStatus ? sourceContent.match(/\[\[[0-5]\]\]/) : sourceContent.includes(this.settings.statusFrom) ? [this.settings.statusFrom] : null;
+    if (!statusMatch) {
+      new Notice(autoStatus ? "\u5F53\u524D\u7B14\u8BB0\u627E\u4E0D\u5230 [[0]] \u5230 [[5]] \u7684\u72B6\u6001" : `\u5F53\u524D\u7B14\u8BB0\u627E\u4E0D\u5230 ${this.settings.statusFrom}\uFF0C\u672A\u6267\u884C`);
+      return;
+    }
     const sourceStatus = statusMatch[0];
     const input = await new ScheduleModal(this.app, this.settings, sourceStatus).waitForResult();
     if (!input) return;
-    const targetDate = addDays(new Date(), input.days);
+    const targetDate = addDays(/* @__PURE__ */ new Date(), input.days);
     const target = await this.addNoteToReviewDate(source, targetDate);
     const replacement = `[[${input.status}]]`;
     const updated = this.settings.replaceAll ? sourceContent.split(sourceStatus).join(replacement) : sourceContent.replace(sourceStatus, replacement);
     await this.app.vault.modify(source, updated);
-    new Notice(`已安排到 ${target.path}，并将状态更新为 ${replacement}`);
+    new Notice(`\u5DF2\u5B89\u6392\u5230 ${target.path}\uFF0C\u5E76\u5C06\u72B6\u6001\u66F4\u65B0\u4E3A ${replacement}`);
     if (this.settings.openTarget) await this.app.workspace.getLeaf(false).openFile(target);
   }
 };

@@ -1,0 +1,9 @@
+{
+  "batchOptions": {
+    "start": "2026-10-17",
+    "end": "2026-10-18",
+    "minDays": 1,
+    "maxDays": 7,
+    "base": "today"
+  }
+}
