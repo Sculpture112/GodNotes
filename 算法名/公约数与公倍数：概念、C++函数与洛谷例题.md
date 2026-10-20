@@ -253,7 +253,7 @@ long long ans = std::lcm(1LL * a, 1LL * b);
 ## 4. 函数背后的求法
 
 ### 4.1 最大公约数：辗转相除法 
-
+gcd 
 先看 48 和 18：
 
 ```text
