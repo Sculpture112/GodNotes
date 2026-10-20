@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "190ca08efc425980",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "算法名/埃氏筛.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "埃氏筛"
-            }
-          },
-          {
             "id": "2e5b155580ee4240",
             "type": "leaf",
             "state": {
@@ -48,9 +34,23 @@
               "icon": "lucide-file",
               "title": "C. Village Guilds"
             }
+          },
+          {
+            "id": "8a97a2c23e51fd21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2026-10-20-19-45-19.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-10-20-19-45-19"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,12 +119,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 355.5,
-    "collapsed": true
+    "width": 355.5
   },
   "right": {
     "id": "4768838af22391f0",
@@ -271,17 +270,22 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
       "calendar-status-scheduler:标记为 0 并安排明天复习": false,
-      "calendar-status-scheduler:批量分散复习任务（日期和天数可设置）": false
+      "calendar-status-scheduler:批量分散复习任务（日期和天数可设置）": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "190ca08efc425980",
+  "active": "8a97a2c23e51fd21",
   "lastOpenFiles": [
+    "image/Pasted image 20261020194522.png",
+    "2026-10-20-19-45-19.md",
+    "例题/C. Village Guilds.md",
+    "image/Pasted image 20261020194515.png",
+    "Daily/2026-10-20.md",
+    "算法名/埃氏筛.md",
+    "Daily/2026-10-19.md",
     "Daily/2026-10-21.md",
     "例题/P2704 [NOI2001] 炮兵阵地.md",
     "例题/G. Matching.md",
-    "Daily/2026-10-20.md",
-    "例题/C. Village Guilds.md",
-    "Daily/2026-10-19.md",
     "Daily/2026-11-09.md",
     "例题/E. Prime Destruction.md",
     "God/E_Prime_Destruction.bin",
@@ -305,11 +309,8 @@
     "Daily/2026-10-12.md",
     "例题/D. diss_quack and Array Game.md",
     "Daily/2026-10-16.md",
-    "算法名/公约数与公倍数：概念、C++函数与洛谷例题.md",
     "God/1019.bin",
     "God/1019.cpp",
-    "算法名/gcd.md",
-    "学校.md",
     "God/_u6c38_u6052_u4e4b_u591c.bin",
     "God/小雷姆吃大餐.cpp",
     "image/Pasted image 20261016172925.png",
@@ -320,7 +321,6 @@
     "image/Pasted image 20261015200541.png",
     "image/Pasted image 20261014160337.png",
     "image/Pasted image 20261014160328.png",
-    "image/Pasted image 20261012095115.png",
-    "image/Pasted image 20261012094026.png"
+    "image/Pasted image 20261012095115.png"
   ]
 }
