@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "算法名/埃氏筛.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -123,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5
+    "width": 355.5,
+    "collapsed": true
   },
   "right": {
     "id": "4768838af22391f0",
