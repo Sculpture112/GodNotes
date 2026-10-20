@@ -1,9 +1,21 @@
 {
+  "dailyFolder": "",
+  "dateFormat": "",
+  "templatePath": "",
+  "insertionHeading": "## 复习",
+  "statusFrom": "[[0-5]]",
+  "taskPrefix": "- [ ]",
+  "includeDueDate": true,
+  "replaceAll": false,
+  "defaultDays": 1,
+  "defaultStatus": "1",
+  "openTarget": true,
   "batchOptions": {
-    "start": "2026-10-17",
-    "end": "2026-10-18",
+    "start": "2026-10-19",
+    "end": "2026-10-19",
     "minDays": 1,
     "maxDays": 7,
-    "base": "today"
+    "base": "today",
+    "today": "2026-10-20"
   }
 }

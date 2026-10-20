@@ -1,0 +1,65 @@
+{
+  "options": {
+    "start": "2026-10-19",
+    "end": "2026-10-19",
+    "minDays": 1,
+    "maxDays": 7,
+    "base": "today",
+    "today": "2026-10-20",
+    "heading": "## 复习"
+  },
+  "plan": [
+    {
+      "index": 8,
+      "line": "- [ ] [[例题/E. Prime Destruction]] 📅 2026-10-14",
+      "link": "例题/E. Prime Destruction",
+      "offset": 1,
+      "targetDay": "2026-10-21",
+      "sourcePath": "Daily/2026-10-19.md",
+      "sourceDay": "2026-10-19",
+      "newLine": "- [ ] [[例题/E. Prime Destruction]] 📅 2026-10-20"
+    },
+    {
+      "index": 9,
+      "line": "- [ ] [[例题/C. 0mar and Alternating Sums]] 📅 2026-10-12",
+      "link": "例题/C. 0mar and Alternating Sums",
+      "offset": 2,
+      "targetDay": "2026-10-22",
+      "sourcePath": "Daily/2026-10-19.md",
+      "sourceDay": "2026-10-19",
+      "newLine": "- [ ] [[例题/C. 0mar and Alternating Sums]] 📅 2026-10-20"
+    },
+    {
+      "index": 10,
+      "line": "- [ ] [[Atcoder/abc/abc474/F - Increment All Divisors]] 📅 2026-10-08",
+      "link": "Atcoder/abc/abc474/F - Increment All Divisors",
+      "offset": 6,
+      "targetDay": "2026-10-26",
+      "sourcePath": "Daily/2026-10-19.md",
+      "sourceDay": "2026-10-19",
+      "newLine": "- [ ] [[Atcoder/abc/abc474/F - Increment All Divisors]] 📅 2026-10-20"
+    }
+  ],
+  "changes": [
+    {
+      "path": "Daily/2026-10-21.md",
+      "before": "\n\n# 2026-10-21 Wednesday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/D. Permutation Cuts time limit per test4 seconds]] 📅 2026-10-20\n- [ ] [[例题/洛谷前缀树]] 📅 2026-10-20\n- [ ] [[例题/C2. Floor of MEX (Hard Version)]] 📅 2026-10-14\n- [ ] [[例题/C. Far Cities]] 📅 2026-10-08\n- [ ] [[例题/P1395 会议]] 📅 2026-10-08\n- [ ] [[例题/D. Destroy the Colony]] 📅 2026-10-08\n- \n",
+      "after": "\n\n# 2026-10-21 Wednesday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/E. Prime Destruction]] 📅 2026-10-20\n- [ ] [[例题/D. Permutation Cuts time limit per test4 seconds]] 📅 2026-10-20\n- [ ] [[例题/洛谷前缀树]] 📅 2026-10-20\n- [ ] [[例题/C2. Floor of MEX (Hard Version)]] 📅 2026-10-14\n- [ ] [[例题/C. Far Cities]] 📅 2026-10-08\n- [ ] [[例题/P1395 会议]] 📅 2026-10-08\n- [ ] [[例题/D. Destroy the Colony]] 📅 2026-10-08\n- \n"
+    },
+    {
+      "path": "Daily/2026-10-22.md",
+      "before": "\n\n# 2026-10-22 Thursday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/C. Nim Game Is XOR Game]] 📅 2026-10-20\n- [ ] [[例题/最短路]] 📅 2026-10-14\n- [ ] [[例题/B. String Construction]] 📅 2026-10-08\n- \n",
+      "after": "\n\n# 2026-10-22 Thursday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/C. 0mar and Alternating Sums]] 📅 2026-10-20\n- [ ] [[例题/C. Nim Game Is XOR Game]] 📅 2026-10-20\n- [ ] [[例题/最短路]] 📅 2026-10-14\n- [ ] [[例题/B. String Construction]] 📅 2026-10-08\n- \n"
+    },
+    {
+      "path": "Daily/2026-10-26.md",
+      "before": "\n\n# 2026-10-26 Monday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/B. Merge to Match]] 📅 2026-10-20\n- \n",
+      "after": "\n\n# 2026-10-26 Monday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[Atcoder/abc/abc474/F - Increment All Divisors]] 📅 2026-10-20\n- [ ] [[例题/B. Merge to Match]] 📅 2026-10-20\n- \n"
+    },
+    {
+      "path": "Daily/2026-10-19.md",
+      "before": "\n\n# 2026-10-19 Monday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/E. Prime Destruction]] 📅 2026-10-14\n- [ ] [[例题/C. 0mar and Alternating Sums]] 📅 2026-10-12\n- [ ] [[Atcoder/abc/abc474/F - Increment All Divisors]] 📅 2026-10-08\n- \n",
+      "after": "\n\n# 2026-10-19 Monday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [x] [[例题/E. Prime Destruction]] 📅 2026-10-14 ✅ 2026-10-20\n- [x] [[例题/C. 0mar and Alternating Sums]] 📅 2026-10-12 ✅ 2026-10-20\n- [x] [[Atcoder/abc/abc474/F - Increment All Divisors]] 📅 2026-10-08 ✅ 2026-10-20\n- \n"
+    }
+  ]
+}
