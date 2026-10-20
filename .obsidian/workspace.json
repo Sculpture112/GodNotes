@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "59c4c364a59c229a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-10-09 14.25.31.excalidraw"
+            }
+          },
+          {
             "id": "8a97a2c23e51fd21",
             "type": "leaf",
             "state": {
@@ -56,7 +68,7 @@
               "type": "markdown",
               "state": {
                 "file": "算法名/公约数与公倍数：概念、C++函数与洛谷例题.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -64,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -83,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gcd",
+                "query": "前缀和",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,12 +144,12 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 355.5,
-    "collapsed": true
+    "width": 355.5
   },
   "right": {
     "id": "4768838af22391f0",
@@ -290,10 +302,12 @@
   },
   "active": "1e5bf9b19dbe3042",
   "lastOpenFiles": [
-    "God/1019.bin",
     "2026-10-20-19-45-19.md",
-    "image/Pasted image 20261020195521.png",
+    "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md",
     "例题/C. Village Guilds.md",
+    "算法名/公约数与公倍数：概念、C++函数与洛谷例题.md",
+    "God/1019.bin",
+    "image/Pasted image 20261020195521.png",
     "image/Pasted image 20261020194522.png",
     "image/Pasted image 20261020194515.png",
     "Daily/2026-10-20.md",
@@ -324,7 +338,6 @@
     "备份/日历后移-2026-10-20-9e93e4ac",
     "Daily/2026-10-12.md",
     "例题/D. diss_quack and Array Game.md",
-    "Daily/2026-10-16.md",
     "God/1019.cpp",
     "God/_u6c38_u6052_u4e4b_u591c.bin",
     "God/小雷姆吃大餐.cpp",
