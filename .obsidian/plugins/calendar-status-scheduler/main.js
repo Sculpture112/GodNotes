@@ -136,6 +136,7 @@ var DEFAULT_SETTINGS = {
   includeDueDate: true,
   replaceAll: false,
   defaultDays: 1,
+  fuzzyDates: false,
   defaultStatus: "1",
   openTarget: true
 };
@@ -160,9 +161,10 @@ function addDays(date, days) {
   return result;
 }
 var ScheduleModal = class extends Modal {
-  constructor(app, settings, currentStatus) {
+  constructor(app, plugin, currentStatus) {
     super(app);
-    this.settings = settings;
+    this.plugin = plugin;
+    this.settings = plugin.settings;
     this.currentStatus = currentStatus;
     this.result = null;
     this.resolvePromise = null;
@@ -184,6 +186,17 @@ var ScheduleModal = class extends Modal {
       t.setValue(String(this.settings.defaultDays));
       t.inputEl.min = "0";
       t.inputEl.style.width = "100%";
+    });
+    const fuzzySetting = new Setting(contentEl).setName("\u6A21\u7CCA\u65E5\u671F").setDesc("\u52FE\u9009\u540E\uFF0C\u5728\u586B\u5199\u5929\u6570\u5230\u591A 7 \u5929\u4E4B\u95F4\u968F\u673A\u9009\u62E9\uFF08\u542B\u4E24\u7AEF\uFF09\u3002\u4F8B\u5982\u586B 20\uFF0C\u5C31\u968F\u673A\u5B89\u6392\u5728 20\uFF5E27 \u5929\u540E\u3002\u4F1A\u8BB0\u4F4F\u4E0A\u6B21\u9009\u62E9\u3002");
+    const fuzzyCheckbox = fuzzySetting.controlEl.createEl("input", { type: "checkbox" });
+    fuzzyCheckbox.setAttribute("aria-label", "\u6A21\u7CCA\u65E5\u671F");
+    fuzzyCheckbox.checked = !!this.settings.fuzzyDates;
+    fuzzyCheckbox.addEventListener("change", () => {
+      this.settings.fuzzyDates = fuzzyCheckbox.checked;
+      this.plugin.saveSettings().catch((error) => {
+        console.error("[\u65E5\u5386\u72B6\u6001\u6392\u7A0B\u5668] \u4FDD\u5B58\u6A21\u7CCA\u65E5\u671F\u9009\u9879\u5931\u8D25", error);
+        new Notice("\u6A21\u7CCA\u65E5\u671F\u9009\u9879\u4FDD\u5B58\u5931\u8D25\uFF0C\u8BF7\u91CD\u8BD5");
+      });
     });
     let statusInput;
     const currentNumber = Number(this.currentStatus.replace(/^\[\[|\]\]$/g, ""));
@@ -209,7 +222,7 @@ var ScheduleModal = class extends Modal {
         new Notice("y \u4E0D\u80FD\u4E3A\u7A7A\uFF0C\u4E14\u4E0D\u80FD\u5305\u542B [[ \u6216 ]] ");
         return;
       }
-      this.result = { days: x, status: y };
+      this.result = { days: x, status: y, fuzzyDates: fuzzyCheckbox.checked };
       this.close();
     });
     statusInput?.addEventListener("keydown", (e) => {
@@ -555,14 +568,15 @@ ${line}
       return;
     }
     const sourceStatus = statusMatch[0];
-    const input = await new ScheduleModal(this.app, this.settings, sourceStatus).waitForResult();
+    const input = await new ScheduleModal(this.app, this, sourceStatus).waitForResult();
     if (!input) return;
-    const targetDate = addDays(/* @__PURE__ */ new Date(), input.days);
+    const actualDays = input.days + (input.fuzzyDates ? Math.floor(Math.random() * 8) : 0);
+    const targetDate = addDays(/* @__PURE__ */ new Date(), actualDays);
     const target = await this.addNoteToReviewDate(source, targetDate);
     const replacement = `[[${input.status}]]`;
     const updated = this.settings.replaceAll ? sourceContent.split(sourceStatus).join(replacement) : sourceContent.replace(sourceStatus, replacement);
     await this.app.vault.modify(source, updated);
-    new Notice(`\u5DF2\u5B89\u6392\u5230 ${target.path}\uFF0C\u5E76\u5C06\u72B6\u6001\u66F4\u65B0\u4E3A ${replacement}`);
+    new Notice(`\u5DF2\u5B89\u6392\u5230 ${target.path}\uFF08${actualDays} \u5929\u540E\uFF09\uFF0C\u5E76\u5C06\u72B6\u6001\u66F4\u65B0\u4E3A ${replacement}`);
     if (this.settings.openTarget) await this.app.workspace.getLeaf(false).openFile(target);
   }
 };

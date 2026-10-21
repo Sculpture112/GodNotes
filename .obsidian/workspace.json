@@ -256,13 +256,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
       "calendar-status-scheduler:标记为 0 并安排明天复习": false,
-      "calendar-status-scheduler:批量分散复习任务（日期和天数可设置）": false,
-      "periodic-notes:Open today": false
+      "calendar-status-scheduler:批量分散复习任务（日期和天数可设置）": false
     }
   },
   "active": "e689177f0764ab0d",
   "lastOpenFiles": [
     "Daily/2026-10-20.md",
+    "例题/P1065 [NOIP 2006 提高组] 作业调度方案.md",
     "Daily/2026-11-12.md",
     "例题/D. A Ribbon for Tomorrow.md",
     "2026-09-16-20-03-06.md",
@@ -297,7 +297,6 @@
     "备份/日历后移-2026-10-20-9e93e4ac/plugin-manifest-before.json",
     "备份/日历后移-2026-10-20-9e93e4ac/plugin-main-before.js",
     "备份/日历后移-2026-10-20-9e93e4ac/2026-10-18.md",
-    "备份/日历后移-2026-10-20-9e93e4ac/2026-10-17.md",
     "备份/日历后移-2026-10-20-9e93e4ac",
     "God/1019.cpp",
     "God/_u6c38_u6052_u4e4b_u591c.bin",
