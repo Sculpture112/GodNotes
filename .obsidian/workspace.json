@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,7 +119,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -274,10 +274,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7edad88ae7155247",
+  "active": "593fbe3b1b1f7e11",
   "lastOpenFiles": [
-    "2026-10-16-11-16-35.md",
     "例题/D. Permutation Cuts.md",
+    "2026-10-16-11-16-35.md",
+    "template/templatec++.md",
+    "template/templatem.md",
     "Daily/2026-10-21.md",
     "Daily/2026-11-07.md",
     "例题/P2704 [NOI2001] 炮兵阵地.md",
@@ -301,8 +303,6 @@
     "2026-10-20-19-45-19.md",
     "Daily/2026-10-31.md",
     "例题/C. Village Guilds.md",
-    "算法名/公约数与公倍数：概念、C++函数与洛谷例题.md",
-    "Excalidraw/Drawing 2026-10-09 14.25.31.excalidraw.md",
     "God/1019.bin",
     "image/Pasted image 20261020195521.png",
     "image/Pasted image 20261020194522.png",

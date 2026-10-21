@@ -364,8 +364,8 @@ module.exports = class CalendarStatusScheduler extends Plugin {
     await this.loadSettings();
     this.addCommand({ id: "schedule-current-note", name: "\u5B89\u6392\u5F53\u524D\u7B14\u8BB0\u5230\u672A\u6765\u65E5\u5386\u5E76\u66F4\u65B0\u72B6\u6001", callback: () => this.scheduleCurrentNote() });
     this.addRibbonIcon("calendar-plus", "\u5B89\u6392\u5F53\u524D\u7B14\u8BB0\u5230\u672A\u6765\u65E5\u5386", () => this.scheduleCurrentNote());
-    this.addCommand({ id: "mark-zero-and-review-tomorrow", name: "\u6807\u8BB0\u4E3A 0 \u5E76\u5B89\u6392\u660E\u5929\u590D\u4E60", callback: () => this.markZeroAndReviewTomorrow() });
-    this.addRibbonIcon("tag", "\u6807\u8BB0\u4E3A 0 \u5E76\u5B89\u6392\u660E\u5929\u590D\u4E60", () => this.markZeroAndReviewTomorrow());
+    this.addCommand({ id: "mark-zero-and-review-tomorrow", name: "\u6807\u8BB0\u4E3A 0 \u5E76\u5B89\u6392 3\uFF5E7 \u5929\u540E\u590D\u4E60", callback: () => this.markZeroAndReviewTomorrow() });
+    this.addRibbonIcon("tag", "\u6807\u8BB0\u4E3A 0 \u5E76\u5B89\u6392 3\uFF5E7 \u5929\u540E\u590D\u4E60", () => this.markZeroAndReviewTomorrow());
     this.addCommand({ id: "batch-reschedule-reviews", name: "\u6309\u65E5\u671F\u8303\u56F4\u6279\u91CF\u5206\u6563\u590D\u4E60\u4EFB\u52A1", callback: () => new BatchScheduleModal(this.app, this).open() });
     this.addRibbonIcon("circle", "\u6279\u91CF\u5206\u6563\u590D\u4E60\u4EFB\u52A1\uFF08\u65E5\u671F\u548C\u5929\u6570\u53EF\u8BBE\u7F6E\uFF09", () => new BatchScheduleModal(this.app, this).open());
     this.addSettingTab(new SchedulerSettingTab(this.app, this));
@@ -549,9 +549,10 @@ ${line}
       return;
     }
     lines[firstContentLine] = lines[firstContentLine].replace(/\[\]/, "[[0]]");
-    const target = await this.addNoteToReviewDate(source, addDays(/* @__PURE__ */ new Date(), 1));
+    const actualDays = 3 + Math.floor(Math.random() * 5);
+    const target = await this.addNoteToReviewDate(source, addDays(/* @__PURE__ */ new Date(), actualDays));
     await this.app.vault.modify(source, lines.join("\n"));
-    new Notice(`\u5DF2\u6DFB\u52A0 [[0]]\uFF0C\u5E76\u5B89\u6392\u5230 ${target.path} \u7684\u590D\u4E60\u533A`);
+    new Notice(`\u5DF2\u6DFB\u52A0 [[0]]\uFF0C\u5E76\u5B89\u6392\u5230 ${target.path} \u7684\u590D\u4E60\u533A\uFF08${actualDays} \u5929\u540E\uFF09`);
     if (this.settings.openTarget) await this.app.workspace.getLeaf(false).openFile(target);
   }
   async scheduleCurrentNote() {
