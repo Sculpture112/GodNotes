@@ -8,6 +8,7 @@
   "includeDueDate": true,
   "replaceAll": false,
   "defaultDays": 1,
+  "fuzzyDates": true,
   "defaultStatus": "1",
   "openTarget": true,
   "batchOptions": {
