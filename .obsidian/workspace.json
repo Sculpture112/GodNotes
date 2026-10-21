@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/D. Permutation Cuts time limit per test4 seconds.md",
+                "file": "例题/D. Permutation Cuts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "D. Permutation Cuts time limit per test4 seconds"
+              "title": "D. Permutation Cuts"
             }
           },
           {
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -274,9 +274,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "593fbe3b1b1f7e11",
+  "active": "7edad88ae7155247",
   "lastOpenFiles": [
-    "例题/D. Permutation Cuts time limit per test4 seconds.md",
+    "2026-10-16-11-16-35.md",
+    "例题/D. Permutation Cuts.md",
     "Daily/2026-10-21.md",
     "Daily/2026-11-07.md",
     "例题/P2704 [NOI2001] 炮兵阵地.md",
@@ -306,7 +307,6 @@
     "image/Pasted image 20261020195521.png",
     "image/Pasted image 20261020194522.png",
     "image/Pasted image 20261020194515.png",
-    "算法名/埃氏筛.md",
     "God/E_Prime_Destruction.bin",
     "God/E_Prime_Destruction.cpp",
     "备份/日历后移-2026-10-20-9e93e4ac/本次分配记录.json",
