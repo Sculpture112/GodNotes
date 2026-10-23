@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -273,11 +273,11 @@
       "calendar-status-scheduler:批量分散复习任务（日期和天数可设置）": false
     }
   },
-  "active": "8cdc3d521f2519bc",
+  "active": "0d87ef66a6887e79",
   "lastOpenFiles": [
+    "2026-10-12-09-40-23.md",
     "备赛/备赛.md",
     "template/templatec++.md",
-    "2026-10-12-09-40-23.md",
     "例题/C. 0mar and Alternating Sums.md",
     "Daily/2026-10-22.md",
     "template/templatem.md",
