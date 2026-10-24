@@ -123,15 +123,49 @@ var require_batch = __commonJS({
   }
 });
 
+// review-stage.js
+var require_review_stage = __commonJS({
+  "review-stage.js"(exports2, module2) {
+    function reviewStage2(status) {
+      const match = /^\[\[(\d+)\]\]$/.exec(status);
+      if (!match) return null;
+      const current = BigInt(match[1]);
+      const next = current + 1n;
+      let recommendedDays;
+      if (current === 0n) recommendedDays = 3;
+      else if (current === 1n) recommendedDays = 7;
+      else if (current === 2n) recommendedDays = 10;
+      else if (current === 3n) recommendedDays = 20;
+      else if (current <= 5n) recommendedDays = 10;
+      else if (current === 6n) recommendedDays = 30;
+      else if (current <= 8n) recommendedDays = 14;
+      else recommendedDays = current % 3n === 0n ? 45 : 20;
+      return {
+        nextStatus: next.toString(),
+        recommendedDays,
+        activity: next % 3n === 0n ? "\u91CD\u5199\u4EE3\u7801" : "\u9605\u8BFB\u9898\u610F\u3001\u4EE3\u7801"
+      };
+    }
+    function findNumericStatus2(content) {
+      return content.match(/\[\[\d+\]\]/)?.[0] || null;
+    }
+    function isAutoStatus2(value) {
+      return !value || ["[[0]]", "[[0-5]]", "[[\u6570\u5B57]]"].includes(value);
+    }
+    module2.exports = { reviewStage: reviewStage2, findNumericStatus: findNumericStatus2, isAutoStatus: isAutoStatus2 };
+  }
+});
+
 // main.js
 var { Plugin, Notice, Modal, Setting, PluginSettingTab } = require("obsidian");
 var batch = require_batch();
+var { reviewStage, findNumericStatus, isAutoStatus } = require_review_stage();
 var DEFAULT_SETTINGS = {
   dailyFolder: "",
   dateFormat: "",
   templatePath: "",
   insertionHeading: "## \u590D\u4E60",
-  statusFrom: "[[0-5]]",
+  statusFrom: "[[\u6570\u5B57]]",
   taskPrefix: "- [ ]",
   includeDueDate: true,
   replaceAll: false,
@@ -179,11 +213,13 @@ var ScheduleModal = class extends Modal {
     const { contentEl } = this;
     contentEl.empty();
     contentEl.createEl("h2", { text: "\u5B89\u6392\u5230\u672A\u6765\u65E5\u5386" });
+    const stage = reviewStage(this.currentStatus);
+    const recommendedDays = stage?.recommendedDays ?? this.settings.defaultDays;
     let daysInput;
-    new Setting(contentEl).setName("x\uFF1A\u51E0\u5929\u540E").setDesc("0 \u8868\u793A\u4ECA\u5929\uFF0C\u5EFA\u8BAE\u4F7F\u7528\u6B63\u6574\u6570\u3002").addText((t) => {
+    new Setting(contentEl).setName("x\uFF1A\u51E0\u5929\u540E").setDesc(stage ? `\u6839\u636E\u5F53\u524D\u6807\u7B7E ${this.currentStatus} \u63A8\u8350 ${recommendedDays} \u5929\uFF0C\u53EF\u624B\u52A8\u4FEE\u6539\u3002` : "0 \u8868\u793A\u4ECA\u5929\uFF0C\u5EFA\u8BAE\u4F7F\u7528\u6B63\u6574\u6570\u3002").addText((t) => {
       daysInput = t.inputEl;
       t.inputEl.type = "number";
-      t.setValue(String(this.settings.defaultDays));
+      t.setValue(String(recommendedDays));
       t.inputEl.min = "0";
       t.inputEl.style.width = "100%";
     });
@@ -199,9 +235,9 @@ var ScheduleModal = class extends Modal {
       });
     });
     let statusInput;
-    const currentNumber = Number(this.currentStatus.replace(/^\[\[|\]\]$/g, ""));
-    const suggestedStatus = Number.isInteger(currentNumber) ? String(currentNumber + 1) : this.settings.defaultStatus;
-    new Setting(contentEl).setName("y\uFF1A\u4FEE\u6539\u540E\u7684\u72B6\u6001").setDesc(`\u5F53\u524D\u72B6\u6001\uFF1A${this.currentStatus}\uFF1B\u9ED8\u8BA4\u66F4\u65B0\u4E3A [[${suggestedStatus}]]`).addText((t) => {
+    const suggestedStatus = stage?.nextStatus ?? this.settings.defaultStatus;
+    const activity = stage ? `\uFF1B\u672C\u8F6E\u9ED8\u8BA4\uFF1A${stage.activity}` : "";
+    new Setting(contentEl).setName("y\uFF1A\u4FEE\u6539\u540E\u7684\u72B6\u6001").setDesc(`\u5F53\u524D\u72B6\u6001\uFF1A${this.currentStatus}\uFF1B\u9ED8\u8BA4\u66F4\u65B0\u4E3A [[${suggestedStatus}]]${activity}`).addText((t) => {
       statusInput = t.inputEl;
       t.setValue(suggestedStatus);
       t.inputEl.placeholder = "\u4F8B\u5982 2 \u6216 review";
@@ -326,8 +362,8 @@ var SchedulerSettingTab = class extends PluginSettingTab {
       s.insertionHeading = v;
       await this.plugin.saveSettings();
     }));
-    new Setting(containerEl).setName("\u5F85\u66FF\u6362\u72B6\u6001").setDesc("\u9ED8\u8BA4\u81EA\u52A8\u8BC6\u522B\u552F\u4E00\u7684 [[0]] \u5230 [[5]]\uFF1B\u5982\u9700\u56FA\u5B9A\u72B6\u6001\uFF0C\u53EF\u586B\u5165\u5B8C\u6574\u6587\u672C\uFF0C\u4F8B\u5982 [[todo]]\u3002").addText((t) => t.setValue(s.statusFrom).onChange(async (v) => {
-      s.statusFrom = v || "[[0-5]]";
+    new Setting(containerEl).setName("\u5F85\u66FF\u6362\u72B6\u6001").setDesc("\u586B [[\u6570\u5B57]] \u81EA\u52A8\u8BC6\u522B\u975E\u8D1F\u6574\u6570\u6807\u7B7E\uFF0C\u5982 [[0]]\u3001[[12]]\uFF1B\u4E5F\u53EF\u586B\u56FA\u5B9A\u6587\u672C\uFF0C\u5982 [[todo]]\u3002").addText((t) => t.setValue(s.statusFrom).onChange(async (v) => {
+      s.statusFrom = v || "[[\u6570\u5B57]]";
       await this.plugin.saveSettings();
     }));
     new Setting(containerEl).setName("\u4EFB\u52A1\u524D\u7F00").setDesc("Tasks \u63D2\u4EF6\u901A\u5E38\u4F7F\u7528 - [ ]\uFF1B\u4E5F\u53EF\u4EE5\u6539\u6210\u666E\u901A\u5217\u8868\u524D\u7F00\u3002").addText((t) => t.setValue(s.taskPrefix).onChange(async (v) => {
@@ -342,7 +378,7 @@ var SchedulerSettingTab = class extends PluginSettingTab {
       s.replaceAll = v;
       await this.plugin.saveSettings();
     }));
-    new Setting(containerEl).setName("\u9ED8\u8BA4 x").addText((t) => t.setValue(String(s.defaultDays)).onChange(async (v) => {
+    new Setting(containerEl).setName("\u9ED8\u8BA4 x\uFF08\u975E\u6570\u5B57\u6807\u7B7E\u65F6\u4F7F\u7528\uFF09").setDesc("\u6570\u5B57\u6807\u7B7E\u4F1A\u6309\u590D\u4E60\u8F6E\u6B21\u81EA\u52A8\u63A8\u8350\u95F4\u9694\uFF1B\u5F39\u7A97\u4E2D\u7684\u5929\u6570\u4ECD\u53EF\u624B\u52A8\u4FEE\u6539\u3002").addText((t) => t.setValue(String(s.defaultDays)).onChange(async (v) => {
       const n = Number(v);
       if (Number.isInteger(n) && n >= 0) {
         s.defaultDays = n;
@@ -372,6 +408,7 @@ module.exports = class CalendarStatusScheduler extends Plugin {
   }
   async loadSettings() {
     this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+    if (isAutoStatus(this.settings.statusFrom)) this.settings.statusFrom = "[[\u6570\u5B57]]";
   }
   async saveSettings() {
     await this.saveData(this.settings);
@@ -538,7 +575,7 @@ ${line}
       return;
     }
     const sourceContent = await this.app.vault.read(source);
-    if (/\[\[[0-5]\]\]/.test(sourceContent)) {
+    if (findNumericStatus(sourceContent)) {
       new Notice("\u5DF2\u7ECF\u6709\u6807\u7B7E\u4E86~");
       return;
     }
@@ -562,13 +599,12 @@ ${line}
       return;
     }
     const sourceContent = await this.app.vault.read(source);
-    const autoStatus = !this.settings.statusFrom || this.settings.statusFrom === "[[0]]" || this.settings.statusFrom === "[[0-5]]";
-    const statusMatch = autoStatus ? sourceContent.match(/\[\[[0-5]\]\]/) : sourceContent.includes(this.settings.statusFrom) ? [this.settings.statusFrom] : null;
-    if (!statusMatch) {
-      new Notice(autoStatus ? "\u5F53\u524D\u7B14\u8BB0\u627E\u4E0D\u5230 [[0]] \u5230 [[5]] \u7684\u72B6\u6001" : `\u5F53\u524D\u7B14\u8BB0\u627E\u4E0D\u5230 ${this.settings.statusFrom}\uFF0C\u672A\u6267\u884C`);
+    const autoStatus = isAutoStatus(this.settings.statusFrom);
+    const sourceStatus = autoStatus ? findNumericStatus(sourceContent) : sourceContent.includes(this.settings.statusFrom) ? this.settings.statusFrom : null;
+    if (!sourceStatus) {
+      new Notice(autoStatus ? "\u5F53\u524D\u7B14\u8BB0\u627E\u4E0D\u5230\u975E\u8D1F\u6574\u6570\u72B6\u6001\u6807\u7B7E\uFF0C\u5982 [[0]]\u3001[[12]]" : `\u5F53\u524D\u7B14\u8BB0\u627E\u4E0D\u5230 ${this.settings.statusFrom}\uFF0C\u672A\u6267\u884C`);
       return;
     }
-    const sourceStatus = statusMatch[0];
     const input = await new ScheduleModal(this.app, this, sourceStatus).waitForResult();
     if (!input) return;
     const actualDays = input.days + (input.fuzzyDates ? Math.floor(Math.random() * 8) : 0);
