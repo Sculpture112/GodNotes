@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-10-24.md",
+                "file": "例题/K. Relay Jump.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-10-24"
+              "title": "K. Relay Jump"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "前缀和",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "例题/P4301 [CQOI2013] 新Nim游戏.md",
+                "file": "例题/K. Relay Jump.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +231,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "calendar-status-scheduler:标记为 0 并安排 3～7 天后复习": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "graph:查看关系图谱": false,
@@ -242,14 +241,18 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
       "calendar-status-scheduler:批量分散复习任务（日期和天数可设置）": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "calendar-status-scheduler:标记为 0 并安排 3～7 天后复习": false
     }
   },
   "active": "8c26d41a7c5584e2",
   "lastOpenFiles": [
+    "Daily/2026-10-24.md",
+    "例题/K. Relay Jump.md",
+    "Daily/2026-10-27.md",
+    "例题/P4301 [CQOI2013] 新Nim游戏.md",
     "Daily/2026-11-03.md",
     "例题/小月的排序.md",
-    "Daily/2026-10-24.md",
     "Daily/2026-11-01.md",
     "例题/B2. Carrot Chopdown (Hard Version).md",
     "2026-09-23-14-37-32.md",
@@ -265,14 +268,11 @@
     "Daily/2026-10-29.md",
     "Daily/2026-10-30.md",
     "Daily/2026-10-28.md",
-    "Daily/2026-10-27.md",
     "Daily/2026-10-26.md",
     "Daily/2026-10-25.md",
     "Daily/2026-10-23.md",
     "Daily/2026-10-16.md",
     "Daily/2026-10-22.md",
-    "例题/B. String Construction.md",
-    "例题/最短路.md",
     "image/Pasted image 20261021113743.png",
     "image/Pasted image 20261021102445.png",
     "God/1019.bin",
