@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "c37115fe52fbadcb",
+            "id": "239a1f4d6c8cbe27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/G. 考古密码求和.md",
+                "file": "例题/B2. Carrot Chopdown (Hard Version).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "G. 考古密码求和"
+              "title": "B2. Carrot Chopdown (Hard Version)"
             }
           }
         ],
@@ -260,9 +260,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c37115fe52fbadcb",
+  "active": "239a1f4d6c8cbe27",
   "lastOpenFiles": [
     "Daily/2026-10-24.md",
+    "Daily/2026-11-12.md",
+    "例题/G. 考古密码求和.md",
     "Daily/2026-11-11.md",
     "例题/小月的筹码.md",
     "Daily/2026-11-13.md",
@@ -286,8 +288,6 @@
     "2026-10-12-09-40-23.md",
     "Daily/2026-11-08.md",
     "例题/C. 0mar and Alternating Sums.md",
-    "Daily/2026-10-21.md",
-    "备赛/备赛.md",
     "image/Pasted image 20261021113743.png",
     "image/Pasted image 20261021102445.png",
     "God/1019.bin",
