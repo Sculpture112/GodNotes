@@ -1,4 +1,4 @@
-# []
+# [[0]]
 
 > **原题链接:** ()
 
@@ -27,7 +27,53 @@
 **一个相似变式：**
 
 ```cpp
+#include <bits/stdc++.h>
+using namespace std;
 
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int t;
+    cin >> t;
+
+    while (t--) {
+        int n;
+        cin >> n;
+
+        vector<int> h(n), clockwise(n);
+        for (int &x : h) cin >> x;
+
+        // 枚举空容器
+        for (int l = 0; l < n; ++l) {
+            int mx = 0;
+
+            // 顺时针：走到 i 时，新经过的是 h[i - 1]
+            for (int step = 1; step < n; ++step) {
+                int i = (l + step) % n;
+                int edge = (i - 1 + n) % n;
+
+                mx = max(mx, h[edge]);
+                clockwise[i] = mx;
+            }
+
+            long long ans = 0;
+            mx = 0;
+
+            // 逆时针：走到 i 时，新经过的是 h[i]
+            for (int step = 1; step < n; ++step) {
+                int i = (l - step + n) % n;
+
+                mx = max(mx, h[i]);
+                ans += min(clockwise[i], mx);
+            }
+
+            cout << ans << (l + 1 == n ? '\n' : ' ');
+        }
+    }
+
+    return 0;
+}
 ```
 
 ---

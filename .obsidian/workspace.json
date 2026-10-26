@@ -34,21 +34,9 @@
               "icon": "lucide-file",
               "title": "C. Vessels, Heights and Two Versions (Easy Version)"
             }
-          },
-          {
-            "id": "7c94397589b909b3",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/2026-10-26-09-31-27.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "2026-10-26-09-31-27"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -272,10 +260,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7c94397589b909b3",
+  "active": "ef147c7ca00c4e79",
   "lastOpenFiles": [
-    "Excalidraw/2026-10-26-09-31-27.md",
+    "Daily/2026-10-30.md",
     "例题/C. Vessels, Heights and Two Versions (Easy Version).md",
+    "Excalidraw/2026-10-26-09-31-27.md",
     "例题/C2. Floor of MEX (Hard Version).md",
     "Daily/2026-10-26.md",
     "Daily/2026-10-25.md",
@@ -299,7 +288,6 @@
     "Daily/2026-11-12.md",
     "例题/G. 考古密码求和.md",
     "Daily/2026-11-11.md",
-    "例题/小月的筹码.md",
     "image/Pasted image 20261021113743.png",
     "image/Pasted image 20261021102445.png",
     "God/1019.bin",
