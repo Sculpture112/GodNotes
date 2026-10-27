@@ -256,8 +256,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
       "calendar-status-scheduler:批量分散复习任务（日期和天数可设置）": false,
-      "calendar-status-scheduler:标记为 0 并安排 3～7 天后复习": false,
-      "periodic-notes:Open today": false
+      "calendar-status-scheduler:标记为 0 并安排 3～7 天后复习": false
     }
   },
   "active": "ef147c7ca00c4e79",
