@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "例题/C2. Floor of MEX (Hard Version).md",
+                "file": "例题/未命名 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C2. Floor of MEX (Hard Version)"
+              "title": "未命名 1"
             }
           },
           {
@@ -119,7 +119,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -270,13 +270,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "calendar-status-scheduler:安排当前笔记到未来日历": false,
       "calendar-status-scheduler:批量分散复习任务（日期和天数可设置）": false,
-      "calendar-status-scheduler:标记为 0 并安排 3～7 天后复习": false
+      "calendar-status-scheduler:标记为 0 并安排 3～7 天后复习": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "c851983929e3ae7a",
   "lastOpenFiles": [
-    "2026-09-23-09-15-50.md",
     "例题/C2. Floor of MEX (Hard Version).md",
+    "例题/未命名 1.md",
+    "2026-09-23-09-15-50.md",
     "Daily/2026-10-26.md",
     "Daily/2026-10-27.md",
     "Daily/2026-10-25.md",
@@ -300,7 +302,6 @@
     "例题/B2. Carrot Chopdown (Hard Version).md",
     "2026-09-23-14-37-32.md",
     "Daily/2026-11-12.md",
-    "例题/G. 考古密码求和.md",
     "image/Pasted image 20261021113743.png",
     "image/Pasted image 20261021102445.png",
     "God/1019.bin",
