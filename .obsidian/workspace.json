@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "2026-09-23-09-15-50"
             }
+          },
+          {
+            "id": "0096f40724681aa8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-11-04 15.19.14.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-11-04 15.19.14.excalidraw"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -274,10 +286,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c851983929e3ae7a",
+  "active": "0096f40724681aa8",
   "lastOpenFiles": [
-    "Daily/2026-11-08.md",
+    "Excalidraw/Drawing 2026-11-04 15.19.14.excalidraw.md",
     "例题/P1037 [NOIP 2002 普及组] 产生数.md",
+    "Daily/2026-11-08.md",
     "例题/C2. Floor of MEX (Hard Version).md",
     "2026-09-23-09-15-50.md",
     "Daily/2026-10-26.md",
@@ -301,7 +314,6 @@
     "Daily/2026-11-03.md",
     "例题/小月的排序.md",
     "例题/B2. Carrot Chopdown (Hard Version).md",
-    "2026-09-23-14-37-32.md",
     "image/Pasted image 20261021113743.png",
     "image/Pasted image 20261021102445.png",
     "God/1019.bin",
