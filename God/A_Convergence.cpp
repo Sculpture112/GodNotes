@@ -14,19 +14,18 @@ void solve()
     cin >> n;
 
     vector<int> a(n);
-    ll sum = 0;
     for (int &x : a)
-    {
         cin >> x;
-        sum += x;
+
+    sort(a.begin(), a.end());
+
+    int cnt = 0;
+    for (int i = 0; i < n; i++)
+    {
+        if (a[i] != a[n - i - 1])
+            cnt++;
     }
-
-    sum /= n;
-
-    auto it = find(a.begin(), a.end(), sum + 1) - a.begin();
-
-    int ans = min(it, n - it);
-    cout << ans << "\n";
+    cout << cnt / 2 << "\n";
 }
 
 int main()
