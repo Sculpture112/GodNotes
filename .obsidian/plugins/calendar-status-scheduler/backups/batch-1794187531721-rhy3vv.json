@@ -1,0 +1,490 @@
+{
+  "options": {
+    "start": "2026-10-28",
+    "end": "2026-11-09",
+    "minDays": 1,
+    "maxDays": 14,
+    "base": "today",
+    "today": "2026-11-09",
+    "heading": "## 复习"
+  },
+  "plan": [
+    {
+      "index": 9,
+      "line": "- [ ] [[例题/C. Hot Potatoes at the Fairy Warehouse]] 📅 2026-10-14",
+      "link": "例题/C. Hot Potatoes at the Fairy Warehouse",
+      "offset": 6,
+      "targetDay": "2026-11-15",
+      "sourcePath": "Daily/2026-10-28.md",
+      "sourceDay": "2026-10-28",
+      "newLine": "- [ ] [[例题/C. Hot Potatoes at the Fairy Warehouse]] 📅 2026-11-09"
+    },
+    {
+      "index": 10,
+      "line": "- [ ] [[Codeforces/div3/1119/F. Binary Bubble Sort Inversions]] 📅 2026-10-08",
+      "link": "Codeforces/div3/1119/F. Binary Bubble Sort Inversions",
+      "offset": 12,
+      "targetDay": "2026-11-21",
+      "sourcePath": "Daily/2026-10-28.md",
+      "sourceDay": "2026-10-28",
+      "newLine": "- [ ] [[Codeforces/div3/1119/F. Binary Bubble Sort Inversions]] 📅 2026-11-09"
+    },
+    {
+      "index": 8,
+      "line": "- [ ] [[例题/D. Destroy the Colony]] 📅 2026-10-21",
+      "link": "例题/D. Destroy the Colony",
+      "offset": 9,
+      "targetDay": "2026-11-18",
+      "sourcePath": "Daily/2026-10-29.md",
+      "sourceDay": "2026-10-29",
+      "newLine": "- [ ] [[例题/D. Destroy the Colony]] 📅 2026-11-09"
+    },
+    {
+      "index": 9,
+      "line": "- [ ] [[例题/P5905 【模板】全源最短路（Johnson）]] 📅 2026-10-14",
+      "link": "例题/P5905 【模板】全源最短路（Johnson）",
+      "offset": 10,
+      "targetDay": "2026-11-19",
+      "sourcePath": "Daily/2026-10-29.md",
+      "sourceDay": "2026-10-29",
+      "newLine": "- [ ] [[例题/P5905 【模板】全源最短路（Johnson）]] 📅 2026-11-09"
+    },
+    {
+      "index": 10,
+      "line": "- [ ] [[例题/P1032 [NOIP 2002 提高组] 字串变换]] 📅 2026-10-09",
+      "link": "例题/P1032 [NOIP 2002 提高组] 字串变换",
+      "offset": 4,
+      "targetDay": "2026-11-13",
+      "sourcePath": "Daily/2026-10-29.md",
+      "sourceDay": "2026-10-29",
+      "newLine": "- [ ] [[例题/P1032 [NOIP 2002 提高组] 字串变换]] 📅 2026-11-09"
+    },
+    {
+      "index": 8,
+      "line": "- [ ] [[例题/C. Vessels, Heights and Two Versions (Easy Version)]] 📅 2026-10-26",
+      "link": "例题/C. Vessels, Heights and Two Versions (Easy Version)",
+      "offset": 5,
+      "targetDay": "2026-11-14",
+      "sourcePath": "Daily/2026-10-30.md",
+      "sourceDay": "2026-10-30",
+      "newLine": "- [ ] [[例题/C. Vessels, Heights and Two Versions (Easy Version)]] 📅 2026-11-09"
+    },
+    {
+      "index": 9,
+      "line": "- [ ] [[例题/C1. Floor of MEX (Easy Version)]] 📅 2026-10-15",
+      "link": "例题/C1. Floor of MEX (Easy Version)",
+      "offset": 8,
+      "targetDay": "2026-11-17",
+      "sourcePath": "Daily/2026-10-30.md",
+      "sourceDay": "2026-10-30",
+      "newLine": "- [ ] [[例题/C1. Floor of MEX (Easy Version)]] 📅 2026-11-09"
+    },
+    {
+      "index": 10,
+      "line": "- [ ] [[例题/P1032 [NOIP 2002 提高组] 字串变换]] 📅 2026-10-14",
+      "link": "例题/P1032 [NOIP 2002 提高组] 字串变换",
+      "offset": 4,
+      "targetDay": "2026-11-13",
+      "sourcePath": "Daily/2026-10-30.md",
+      "sourceDay": "2026-10-30",
+      "newLine": "- [ ] [[例题/P1032 [NOIP 2002 提高组] 字串变换]] 📅 2026-11-09"
+    },
+    {
+      "index": 8,
+      "line": "- [ ] [[例题/C. Village Guilds]] 📅 2026-10-21",
+      "link": "例题/C. Village Guilds",
+      "offset": 14,
+      "targetDay": "2026-11-23",
+      "sourcePath": "Daily/2026-10-31.md",
+      "sourceDay": "2026-10-31",
+      "newLine": "- [ ] [[例题/C. Village Guilds]] 📅 2026-11-09"
+    },
+    {
+      "index": 9,
+      "line": "- [ ] [[例题/P1127 词链]] 📅 2026-10-14",
+      "link": "例题/P1127 词链",
+      "offset": 3,
+      "targetDay": "2026-11-12",
+      "sourcePath": "Daily/2026-10-31.md",
+      "sourceDay": "2026-10-31",
+      "newLine": "- [ ] [[例题/P1127 词链]] 📅 2026-11-09"
+    },
+    {
+      "index": 10,
+      "line": "- [ ] [[例题/C. AND, OR, Sort!]] 📅 2026-10-14",
+      "link": "例题/C. AND, OR, Sort!",
+      "offset": 2,
+      "targetDay": "2026-11-11",
+      "sourcePath": "Daily/2026-10-31.md",
+      "sourceDay": "2026-10-31",
+      "newLine": "- [ ] [[例题/C. AND, OR, Sort!]] 📅 2026-11-09"
+    },
+    {
+      "index": 8,
+      "line": "- [ ] [[例题/K Is Important]] 📅 2026-10-25",
+      "link": "例题/K Is Important",
+      "offset": 7,
+      "targetDay": "2026-11-16",
+      "sourcePath": "Daily/2026-11-01.md",
+      "sourceDay": "2026-11-01",
+      "newLine": "- [ ] [[例题/K Is Important]] 📅 2026-11-09"
+    },
+    {
+      "index": 9,
+      "line": "- [ ] [[例题/B2. Carrot Chopdown (Hard Version)]] 📅 2026-10-24",
+      "link": "例题/B2. Carrot Chopdown (Hard Version)",
+      "offset": 1,
+      "targetDay": "2026-11-10",
+      "sourcePath": "Daily/2026-11-01.md",
+      "sourceDay": "2026-11-01",
+      "newLine": "- [ ] [[例题/B2. Carrot Chopdown (Hard Version)]] 📅 2026-11-09"
+    },
+    {
+      "index": 8,
+      "line": "- [ ] [[例题/B. AI Finds Nothing Here]] 📅 2026-10-25",
+      "link": "例题/B. AI Finds Nothing Here",
+      "offset": 13,
+      "targetDay": "2026-11-22",
+      "sourcePath": "Daily/2026-11-02.md",
+      "sourceDay": "2026-11-02",
+      "newLine": "- [ ] [[例题/B. AI Finds Nothing Here]] 📅 2026-11-09"
+    },
+    {
+      "index": 9,
+      "line": "- [ ] [[例题/小月的路线]] 📅 2026-10-16",
+      "link": "例题/小月的路线",
+      "offset": 11,
+      "targetDay": "2026-11-20",
+      "sourcePath": "Daily/2026-11-02.md",
+      "sourceDay": "2026-11-02",
+      "newLine": "- [ ] [[例题/小月的路线]] 📅 2026-11-09"
+    },
+    {
+      "index": 8,
+      "line": "- [ ] [[例题/小月的排序]] 📅 2026-10-24",
+      "link": "例题/小月的排序",
+      "offset": 4,
+      "targetDay": "2026-11-13",
+      "sourcePath": "Daily/2026-11-03.md",
+      "sourceDay": "2026-11-03",
+      "newLine": "- [ ] [[例题/小月的排序]] 📅 2026-11-09"
+    },
+    {
+      "index": 9,
+      "line": "- [ ] [[例题/G. Matching]] 📅 2026-10-20",
+      "link": "例题/G. Matching",
+      "offset": 7,
+      "targetDay": "2026-11-16",
+      "sourcePath": "Daily/2026-11-03.md",
+      "sourceDay": "2026-11-03",
+      "newLine": "- [ ] [[例题/G. Matching]] 📅 2026-11-09"
+    },
+    {
+      "index": 8,
+      "line": "- [ ] [[例题/P1983 [NOIP 2013 普及组] 车站分级]] 📅 2026-10-25",
+      "link": "例题/P1983 [NOIP 2013 普及组] 车站分级",
+      "offset": 11,
+      "targetDay": "2026-11-20",
+      "sourcePath": "Daily/2026-11-04.md",
+      "sourceDay": "2026-11-04",
+      "newLine": "- [ ] [[例题/P1983 [NOIP 2013 普及组] 车站分级]] 📅 2026-11-09"
+    },
+    {
+      "index": 9,
+      "line": "- [ ] [[例题/P4301 [CQOI2013] 新Nim游戏]] 📅 2026-10-22",
+      "link": "例题/P4301 [CQOI2013] 新Nim游戏",
+      "offset": 14,
+      "targetDay": "2026-11-23",
+      "sourcePath": "Daily/2026-11-04.md",
+      "sourceDay": "2026-11-04",
+      "newLine": "- [ ] [[例题/P4301 [CQOI2013] 新Nim游戏]] 📅 2026-11-09"
+    },
+    {
+      "index": 10,
+      "line": "- [ ] [[例题/C. Far Cities]] 📅 2026-10-21",
+      "link": "例题/C. Far Cities",
+      "offset": 12,
+      "targetDay": "2026-11-21",
+      "sourcePath": "Daily/2026-11-04.md",
+      "sourceDay": "2026-11-04",
+      "newLine": "- [ ] [[例题/C. Far Cities]] 📅 2026-11-09"
+    },
+    {
+      "index": 8,
+      "line": "- [ ] [[例题/D. Permutation Cuts]] 📅 2026-10-21",
+      "link": "例题/D. Permutation Cuts",
+      "offset": 5,
+      "targetDay": "2026-11-14",
+      "sourcePath": "Daily/2026-11-05.md",
+      "sourceDay": "2026-11-05",
+      "newLine": "- [ ] [[例题/D. Permutation Cuts]] 📅 2026-11-09"
+    },
+    {
+      "index": 8,
+      "line": "- [ ] [[例题/P1065 [NOIP 2006 提高组] 作业调度方案]] 📅 2026-10-21",
+      "link": "例题/P1065 [NOIP 2006 提高组] 作业调度方案",
+      "offset": 2,
+      "targetDay": "2026-11-11",
+      "sourcePath": "Daily/2026-11-06.md",
+      "sourceDay": "2026-11-06",
+      "newLine": "- [ ] [[例题/P1065 [NOIP 2006 提高组] 作业调度方案]] 📅 2026-11-09"
+    },
+    {
+      "index": 9,
+      "line": "- [ ] [[例题/P3385 【模板】负环]] 📅 2026-10-14",
+      "link": "例题/P3385 【模板】负环",
+      "offset": 3,
+      "targetDay": "2026-11-12",
+      "sourcePath": "Daily/2026-11-06.md",
+      "sourceDay": "2026-11-06",
+      "newLine": "- [ ] [[例题/P3385 【模板】负环]] 📅 2026-11-09"
+    },
+    {
+      "index": 10,
+      "line": "- [ ] [[例题/C. Creative Snap]] 📅 2026-10-14",
+      "link": "例题/C. Creative Snap",
+      "offset": 1,
+      "targetDay": "2026-11-10",
+      "sourcePath": "Daily/2026-11-06.md",
+      "sourceDay": "2026-11-06",
+      "newLine": "- [ ] [[例题/C. Creative Snap]] 📅 2026-11-09"
+    },
+    {
+      "index": 11,
+      "line": "- [ ] [[例题/P1347 [ECNA 2001] 排序]] 📅 2026-10-08",
+      "link": "例题/P1347 [ECNA 2001] 排序",
+      "offset": 9,
+      "targetDay": "2026-11-18",
+      "sourcePath": "Daily/2026-11-06.md",
+      "sourceDay": "2026-11-06",
+      "newLine": "- [ ] [[例题/P1347 [ECNA 2001] 排序]] 📅 2026-11-09"
+    },
+    {
+      "index": 8,
+      "line": "- [ ] [[Codeforces/div3/1119/C. 101]] 📅 2026-10-25",
+      "link": "Codeforces/div3/1119/C. 101",
+      "offset": 6,
+      "targetDay": "2026-11-15",
+      "sourcePath": "Daily/2026-11-07.md",
+      "sourceDay": "2026-11-07",
+      "newLine": "- [ ] [[Codeforces/div3/1119/C. 101]] 📅 2026-11-09"
+    },
+    {
+      "index": 9,
+      "line": "- [ ] [[例题/P1395 会议]] 📅 2026-10-21",
+      "link": "例题/P1395 会议",
+      "offset": 10,
+      "targetDay": "2026-11-19",
+      "sourcePath": "Daily/2026-11-07.md",
+      "sourceDay": "2026-11-07",
+      "newLine": "- [ ] [[例题/P1395 会议]] 📅 2026-11-09"
+    },
+    {
+      "index": 10,
+      "line": "- [ ] [[例题/P2704 [NOI2001] 炮兵阵地]] 📅 2026-10-21",
+      "link": "例题/P2704 [NOI2001] 炮兵阵地",
+      "offset": 13,
+      "targetDay": "2026-11-22",
+      "sourcePath": "Daily/2026-11-07.md",
+      "sourceDay": "2026-11-07",
+      "newLine": "- [ ] [[例题/P2704 [NOI2001] 炮兵阵地]] 📅 2026-11-09"
+    },
+    {
+      "index": 11,
+      "line": "- [ ] [[例题/B4016 树的直径]] 📅 2026-10-21",
+      "link": "例题/B4016 树的直径",
+      "offset": 8,
+      "targetDay": "2026-11-17",
+      "sourcePath": "Daily/2026-11-07.md",
+      "sourceDay": "2026-11-07",
+      "newLine": "- [ ] [[例题/B4016 树的直径]] 📅 2026-11-09"
+    },
+    {
+      "index": 12,
+      "line": "- [ ] [[Atcoder/abc/abc474/E - One Time Coupon]] 📅 2026-10-14",
+      "link": "Atcoder/abc/abc474/E - One Time Coupon",
+      "offset": 2,
+      "targetDay": "2026-11-11",
+      "sourcePath": "Daily/2026-11-07.md",
+      "sourceDay": "2026-11-07",
+      "newLine": "- [ ] [[Atcoder/abc/abc474/E - One Time Coupon]] 📅 2026-11-09"
+    },
+    {
+      "index": 8,
+      "line": "- [ ] [[例题/P1037 [NOIP 2002 普及组] 产生数]] 📅 2026-11-02",
+      "link": "例题/P1037 [NOIP 2002 普及组] 产生数",
+      "offset": 8,
+      "targetDay": "2026-11-17",
+      "sourcePath": "Daily/2026-11-08.md",
+      "sourceDay": "2026-11-08",
+      "newLine": "- [ ] [[例题/P1037 [NOIP 2002 普及组] 产生数]] 📅 2026-11-09"
+    },
+    {
+      "index": 9,
+      "line": "- [ ] [[例题/C. 0mar and Alternating Sums]] 📅 2026-10-23",
+      "link": "例题/C. 0mar and Alternating Sums",
+      "offset": 3,
+      "targetDay": "2026-11-12",
+      "sourcePath": "Daily/2026-11-08.md",
+      "sourceDay": "2026-11-08",
+      "newLine": "- [ ] [[例题/C. 0mar and Alternating Sums]] 📅 2026-11-09"
+    },
+    {
+      "index": 8,
+      "line": "- [ ] [[例题/D. Good Pair Queries]] 📅 2026-10-21",
+      "link": "例题/D. Good Pair Queries",
+      "offset": 10,
+      "targetDay": "2026-11-19",
+      "sourcePath": "Daily/2026-11-09.md",
+      "sourceDay": "2026-11-09",
+      "newLine": "- [ ] [[例题/D. Good Pair Queries]] 📅 2026-11-09"
+    },
+    {
+      "index": 9,
+      "line": "- [ ] [[例题/E. Prime Destruction]] 📅 2026-10-20",
+      "link": "例题/E. Prime Destruction",
+      "offset": 4,
+      "targetDay": "2026-11-13",
+      "sourcePath": "Daily/2026-11-09.md",
+      "sourceDay": "2026-11-09",
+      "newLine": "- [ ] [[例题/E. Prime Destruction]] 📅 2026-11-09"
+    }
+  ],
+  "changes": [
+    {
+      "path": "Daily/2026-11-10.md",
+      "before": "\n\n# 2026-11-10 Tuesday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/A. Another Popcount Problem]] 📅 2026-10-24\n- [ ] [[例题/洛谷kmp]] 📅 2026-10-21\n- [ ] [[例题/P1363 幻象迷宫]] 📅 2026-10-16\n- [ ] [[例题/J. 想赚钱就来炼丹啊]] 📅 2026-10-14\n- ",
+      "after": "\n\n# 2026-11-10 Tuesday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/B2. Carrot Chopdown (Hard Version)]] 📅 2026-11-09\n- [ ] [[例题/C. Creative Snap]] 📅 2026-11-09\n- [ ] [[例题/A. Another Popcount Problem]] 📅 2026-10-24\n- [ ] [[例题/洛谷kmp]] 📅 2026-10-21\n- [ ] [[例题/P1363 幻象迷宫]] 📅 2026-10-16\n- [ ] [[例题/J. 想赚钱就来炼丹啊]] 📅 2026-10-14\n- "
+    },
+    {
+      "path": "Daily/2026-11-11.md",
+      "before": "\n\n# 2026-11-11 Wednesday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/小月的筹码]] 📅 2026-10-24\n- [ ] [[例题/B. String Construction]] 📅 2026-10-24\n- [ ] [[例题/C. Nim Game Is XOR Game]] 📅 2026-10-23\n- [ ] [[例题/HDU欧拉回路]] 📅 2026-10-16\n- ",
+      "after": "\n\n# 2026-11-11 Wednesday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/C. AND, OR, Sort!]] 📅 2026-11-09\n- [ ] [[例题/P1065 [NOIP 2006 提高组] 作业调度方案]] 📅 2026-11-09\n- [ ] [[Atcoder/abc/abc474/E - One Time Coupon]] 📅 2026-11-09\n- [ ] [[例题/小月的筹码]] 📅 2026-10-24\n- [ ] [[例题/B. String Construction]] 📅 2026-10-24\n- [ ] [[例题/C. Nim Game Is XOR Game]] 📅 2026-10-23\n- [ ] [[例题/HDU欧拉回路]] 📅 2026-10-16\n- "
+    },
+    {
+      "path": "Daily/2026-11-12.md",
+      "before": "\n\n# 2026-11-12 Thursday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/G. 考古密码求和]] 📅 2026-10-24\n- [ ] [[例题/D. A Ribbon for Tomorrow]] 📅 2026-10-21\n- [ ] [[例题/C. Spying on the Beaver]] 📅 2026-10-16\n- [ ] [[Codeforces/div2/Educational194/C. Maximize XOR, Minimize Operations]] 📅 2026-10-14\n- ",
+      "after": "\n\n# 2026-11-12 Thursday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/P1127 词链]] 📅 2026-11-09\n- [ ] [[例题/P3385 【模板】负环]] 📅 2026-11-09\n- [ ] [[例题/C. 0mar and Alternating Sums]] 📅 2026-11-09\n- [ ] [[例题/G. 考古密码求和]] 📅 2026-10-24\n- [ ] [[例题/D. A Ribbon for Tomorrow]] 📅 2026-10-21\n- [ ] [[例题/C. Spying on the Beaver]] 📅 2026-10-16\n- [ ] [[Codeforces/div2/Educational194/C. Maximize XOR, Minimize Operations]] 📅 2026-10-14\n- "
+    },
+    {
+      "path": "Daily/2026-11-13.md",
+      "before": "\n\n# 2026-11-13 Friday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/C. Rank Subsequence]] 📅 2026-10-24\n- ",
+      "after": "\n\n# 2026-11-13 Friday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/P1032 [NOIP 2002 提高组] 字串变换]] 📅 2026-11-09\n- [ ] [[例题/小月的排序]] 📅 2026-11-09\n- [ ] [[例题/E. Prime Destruction]] 📅 2026-11-09\n- [ ] [[例题/C. Rank Subsequence]] 📅 2026-10-24\n- "
+    },
+    {
+      "path": "Daily/2026-11-14.md",
+      "before": null,
+      "after": "\n\n# 2026-11-14 Saturday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/C. Vessels, Heights and Two Versions (Easy Version)]] 📅 2026-11-09\n- [ ] [[例题/D. Permutation Cuts]] 📅 2026-11-09\n- "
+    },
+    {
+      "path": "Daily/2026-11-15.md",
+      "before": null,
+      "after": "\n\n# 2026-11-15 Sunday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/C. Hot Potatoes at the Fairy Warehouse]] 📅 2026-11-09\n- [ ] [[Codeforces/div3/1119/C. 101]] 📅 2026-11-09\n- "
+    },
+    {
+      "path": "Daily/2026-11-16.md",
+      "before": "\n\n# 2026-11-16 星期一\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[Atcoder/abc/abc474/C - Remove and Append]] 📅 2026-10-21\n- ",
+      "after": "\n\n# 2026-11-16 星期一\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/K Is Important]] 📅 2026-11-09\n- [ ] [[例题/G. Matching]] 📅 2026-11-09\n- [ ] [[Atcoder/abc/abc474/C - Remove and Append]] 📅 2026-10-21\n- "
+    },
+    {
+      "path": "Daily/2026-11-17.md",
+      "before": null,
+      "after": "\n\n# 2026-11-17 Tuesday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/C1. Floor of MEX (Easy Version)]] 📅 2026-11-09\n- [ ] [[例题/B4016 树的直径]] 📅 2026-11-09\n- [ ] [[例题/P1037 [NOIP 2002 普及组] 产生数]] 📅 2026-11-09\n- "
+    },
+    {
+      "path": "Daily/2026-11-18.md",
+      "before": null,
+      "after": "\n\n# 2026-11-18 Wednesday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/D. Destroy the Colony]] 📅 2026-11-09\n- [ ] [[例题/P1347 [ECNA 2001] 排序]] 📅 2026-11-09\n- "
+    },
+    {
+      "path": "Daily/2026-11-19.md",
+      "before": null,
+      "after": "\n\n# 2026-11-19 Thursday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/P5905 【模板】全源最短路（Johnson）]] 📅 2026-11-09\n- [ ] [[例题/P1395 会议]] 📅 2026-11-09\n- [ ] [[例题/D. Good Pair Queries]] 📅 2026-11-09\n- "
+    },
+    {
+      "path": "Daily/2026-11-20.md",
+      "before": "\n\n# 2026-11-20 Friday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/洛谷前缀树]] 📅 2026-10-21\n- ",
+      "after": "\n\n# 2026-11-20 Friday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/小月的路线]] 📅 2026-11-09\n- [ ] [[例题/P1983 [NOIP 2013 普及组] 车站分级]] 📅 2026-11-09\n- [ ] [[例题/洛谷前缀树]] 📅 2026-10-21\n- "
+    },
+    {
+      "path": "Daily/2026-11-21.md",
+      "before": null,
+      "after": "\n\n# 2026-11-21 Saturday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[Codeforces/div3/1119/F. Binary Bubble Sort Inversions]] 📅 2026-11-09\n- [ ] [[例题/C. Far Cities]] 📅 2026-11-09\n- "
+    },
+    {
+      "path": "Daily/2026-11-22.md",
+      "before": "\n\n# 2026-11-22 Sunday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/最短路]] 📅 2026-10-23\n- ",
+      "after": "\n\n# 2026-11-22 Sunday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/B. AI Finds Nothing Here]] 📅 2026-11-09\n- [ ] [[例题/P2704 [NOI2001] 炮兵阵地]] 📅 2026-11-09\n- [ ] [[例题/最短路]] 📅 2026-10-23\n- "
+    },
+    {
+      "path": "Daily/2026-11-23.md",
+      "before": "\n\n# 2026-11-23 Monday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[Codeforces/div3/1119/D. MEX Multiset]] 📅 2026-10-14\n- ",
+      "after": "\n\n# 2026-11-23 Monday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/C. Village Guilds]] 📅 2026-11-09\n- [ ] [[例题/P4301 [CQOI2013] 新Nim游戏]] 📅 2026-11-09\n- [ ] [[Codeforces/div3/1119/D. MEX Multiset]] 📅 2026-10-14\n- "
+    },
+    {
+      "path": "Daily/2026-10-28.md",
+      "before": "\n\n# 2026-10-28 Wednesday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [x] [[例题/C2. Floor of MEX (Hard Version)]] 📅 2026-10-15 ✅ 2026-10-15\n- [ ] [[例题/C. Hot Potatoes at the Fairy Warehouse]] 📅 2026-10-14\n- [ ] [[Codeforces/div3/1119/F. Binary Bubble Sort Inversions]] 📅 2026-10-08\n- ",
+      "after": "\n\n# 2026-10-28 Wednesday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [x] [[例题/C2. Floor of MEX (Hard Version)]] 📅 2026-10-15 ✅ 2026-10-15\n- [x] [[例题/C. Hot Potatoes at the Fairy Warehouse]] 📅 2026-10-14 ✅ 2026-11-09\n- [x] [[Codeforces/div3/1119/F. Binary Bubble Sort Inversions]] 📅 2026-10-08 ✅ 2026-11-09\n- "
+    },
+    {
+      "path": "Daily/2026-10-29.md",
+      "before": "\n\n# 2026-10-29 Thursday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/D. Destroy the Colony]] 📅 2026-10-21\n- [ ] [[例题/P5905 【模板】全源最短路（Johnson）]] 📅 2026-10-14\n- [ ] [[例题/P1032 [NOIP 2002 提高组] 字串变换]] 📅 2026-10-09\n- ",
+      "after": "\n\n# 2026-10-29 Thursday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [x] [[例题/D. Destroy the Colony]] 📅 2026-10-21 ✅ 2026-11-09\n- [x] [[例题/P5905 【模板】全源最短路（Johnson）]] 📅 2026-10-14 ✅ 2026-11-09\n- [x] [[例题/P1032 [NOIP 2002 提高组] 字串变换]] 📅 2026-10-09 ✅ 2026-11-09\n- "
+    },
+    {
+      "path": "Daily/2026-10-30.md",
+      "before": "\n\n# 2026-10-30 Friday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/C. Vessels, Heights and Two Versions (Easy Version)]] 📅 2026-10-26\n- [ ] [[例题/C1. Floor of MEX (Easy Version)]] 📅 2026-10-15\n- [ ] [[例题/P1032 [NOIP 2002 提高组] 字串变换]] 📅 2026-10-14\n- ",
+      "after": "\n\n# 2026-10-30 Friday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [x] [[例题/C. Vessels, Heights and Two Versions (Easy Version)]] 📅 2026-10-26 ✅ 2026-11-09\n- [x] [[例题/C1. Floor of MEX (Easy Version)]] 📅 2026-10-15 ✅ 2026-11-09\n- [x] [[例题/P1032 [NOIP 2002 提高组] 字串变换]] 📅 2026-10-14 ✅ 2026-11-09\n- "
+    },
+    {
+      "path": "Daily/2026-10-31.md",
+      "before": "\n\n# 2026-10-31 Saturday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/C. Village Guilds]] 📅 2026-10-21\n- [ ] [[例题/P1127 词链]] 📅 2026-10-14\n- [ ] [[例题/C. AND, OR, Sort!]] 📅 2026-10-14\n- ",
+      "after": "\n\n# 2026-10-31 Saturday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [x] [[例题/C. Village Guilds]] 📅 2026-10-21 ✅ 2026-11-09\n- [x] [[例题/P1127 词链]] 📅 2026-10-14 ✅ 2026-11-09\n- [x] [[例题/C. AND, OR, Sort!]] 📅 2026-10-14 ✅ 2026-11-09\n- "
+    },
+    {
+      "path": "Daily/2026-11-01.md",
+      "before": "\n\n# 2026-11-01 Sunday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/K Is Important]] 📅 2026-10-25\n- [ ] [[例题/B2. Carrot Chopdown (Hard Version)]] 📅 2026-10-24\n- ",
+      "after": "\n\n# 2026-11-01 Sunday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [x] [[例题/K Is Important]] 📅 2026-10-25 ✅ 2026-11-09\n- [x] [[例题/B2. Carrot Chopdown (Hard Version)]] 📅 2026-10-24 ✅ 2026-11-09\n- "
+    },
+    {
+      "path": "Daily/2026-11-02.md",
+      "before": "\n\n# 2026-11-02 Monday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/B. AI Finds Nothing Here]] 📅 2026-10-25\n- [ ] [[例题/小月的路线]] 📅 2026-10-16\n- ",
+      "after": "\n\n# 2026-11-02 Monday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [x] [[例题/B. AI Finds Nothing Here]] 📅 2026-10-25 ✅ 2026-11-09\n- [x] [[例题/小月的路线]] 📅 2026-10-16 ✅ 2026-11-09\n- "
+    },
+    {
+      "path": "Daily/2026-11-03.md",
+      "before": "\n\n# 2026-11-03 Tuesday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/小月的排序]] 📅 2026-10-24\n- [ ] [[例题/G. Matching]] 📅 2026-10-20\n- ",
+      "after": "\n\n# 2026-11-03 Tuesday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [x] [[例题/小月的排序]] 📅 2026-10-24 ✅ 2026-11-09\n- [x] [[例题/G. Matching]] 📅 2026-10-20 ✅ 2026-11-09\n- "
+    },
+    {
+      "path": "Daily/2026-11-04.md",
+      "before": "\n\n# 2026-11-04 Wednesday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/P1983 [NOIP 2013 普及组] 车站分级]] 📅 2026-10-25\n- [ ] [[例题/P4301 [CQOI2013] 新Nim游戏]] 📅 2026-10-22\n- [ ] [[例题/C. Far Cities]] 📅 2026-10-21\n- ",
+      "after": "\n\n# 2026-11-04 Wednesday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [x] [[例题/P1983 [NOIP 2013 普及组] 车站分级]] 📅 2026-10-25 ✅ 2026-11-09\n- [x] [[例题/P4301 [CQOI2013] 新Nim游戏]] 📅 2026-10-22 ✅ 2026-11-09\n- [x] [[例题/C. Far Cities]] 📅 2026-10-21 ✅ 2026-11-09\n- "
+    },
+    {
+      "path": "Daily/2026-11-05.md",
+      "before": "\n\n# 2026-11-05 Thursday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/D. Permutation Cuts]] 📅 2026-10-21\n- ",
+      "after": "\n\n# 2026-11-05 Thursday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [x] [[例题/D. Permutation Cuts]] 📅 2026-10-21 ✅ 2026-11-09\n- "
+    },
+    {
+      "path": "Daily/2026-11-06.md",
+      "before": "\n\n# 2026-11-06 Friday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/P1065 [NOIP 2006 提高组] 作业调度方案]] 📅 2026-10-21\n- [ ] [[例题/P3385 【模板】负环]] 📅 2026-10-14\n- [ ] [[例题/C. Creative Snap]] 📅 2026-10-14\n- [ ] [[例题/P1347 [ECNA 2001] 排序]] 📅 2026-10-08\n- ",
+      "after": "\n\n# 2026-11-06 Friday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [x] [[例题/P1065 [NOIP 2006 提高组] 作业调度方案]] 📅 2026-10-21 ✅ 2026-11-09\n- [x] [[例题/P3385 【模板】负环]] 📅 2026-10-14 ✅ 2026-11-09\n- [x] [[例题/C. Creative Snap]] 📅 2026-10-14 ✅ 2026-11-09\n- [x] [[例题/P1347 [ECNA 2001] 排序]] 📅 2026-10-08 ✅ 2026-11-09\n- "
+    },
+    {
+      "path": "Daily/2026-11-07.md",
+      "before": "\n\n# 2026-11-07 Saturday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[Codeforces/div3/1119/C. 101]] 📅 2026-10-25\n- [ ] [[例题/P1395 会议]] 📅 2026-10-21\n- [ ] [[例题/P2704 [NOI2001] 炮兵阵地]] 📅 2026-10-21\n- [ ] [[例题/B4016 树的直径]] 📅 2026-10-21\n- [ ] [[Atcoder/abc/abc474/E - One Time Coupon]] 📅 2026-10-14\n- ",
+      "after": "\n\n# 2026-11-07 Saturday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [x] [[Codeforces/div3/1119/C. 101]] 📅 2026-10-25 ✅ 2026-11-09\n- [x] [[例题/P1395 会议]] 📅 2026-10-21 ✅ 2026-11-09\n- [x] [[例题/P2704 [NOI2001] 炮兵阵地]] 📅 2026-10-21 ✅ 2026-11-09\n- [x] [[例题/B4016 树的直径]] 📅 2026-10-21 ✅ 2026-11-09\n- [x] [[Atcoder/abc/abc474/E - One Time Coupon]] 📅 2026-10-14 ✅ 2026-11-09\n- "
+    },
+    {
+      "path": "Daily/2026-11-08.md",
+      "before": "\n\n# 2026-11-08 Sunday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/P1037 [NOIP 2002 普及组] 产生数]] 📅 2026-11-02\n- [ ] [[例题/C. 0mar and Alternating Sums]] 📅 2026-10-23\n- ",
+      "after": "\n\n# 2026-11-08 Sunday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [x] [[例题/P1037 [NOIP 2002 普及组] 产生数]] 📅 2026-11-02 ✅ 2026-11-09\n- [x] [[例题/C. 0mar and Alternating Sums]] 📅 2026-10-23 ✅ 2026-11-09\n- "
+    },
+    {
+      "path": "Daily/2026-11-09.md",
+      "before": "\n\n# 2026-11-09 Monday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [ ] [[例题/D. Good Pair Queries]] 📅 2026-10-21\n- [ ] [[例题/E. Prime Destruction]] 📅 2026-10-20\n- ",
+      "after": "\n\n# 2026-11-09 Monday\n\n## 今天做了啥\n- [ ] \n\n## 复习\n- [x] [[例题/D. Good Pair Queries]] 📅 2026-10-21 ✅ 2026-11-09\n- [x] [[例题/E. Prime Destruction]] 📅 2026-10-20 ✅ 2026-11-09\n- "
+    }
+  ]
+}
